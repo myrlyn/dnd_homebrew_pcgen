@@ -1,0 +1,276 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:preview.html
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Sneaky Pete
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:17
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:17
+STAT:DEX|SCORE:22
+STAT:CON|SCORE:17
+STAT:INT|SCORE:17
+STAT:WIS|SCORE:15
+STAT:CHA|SCORE:17
+ALIGN:CG
+RACE:Human
+
+# Character Class(es)
+CLASS:Rogue|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Psychic Rogue|LEVEL:1|SKILLPOOL:0|SPELLBASE:INT|CANCASTPERDAY:
+CLASS:Fighter (Thug)|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Fighter|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Swordsage|LEVEL:1|SKILLPOOL:0|SPELLBASE:WIS|CANCASTPERDAY:
+CLASS:Invisible Blade|LEVEL:5|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Master of Masks|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Avenger|LEVEL:1|SKILLPOOL:0|SPELLBASE:INT|CANCASTPERDAY:0,0
+CLASSABILITIESLEVEL:Rogue=1|HITPOINTS:6|SKILLSGAINED:52|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Psychic Rogue=1|HITPOINTS:6|SKILLSGAINED:11|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter (Thug)=1|HITPOINTS:10|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:10|PRESTAT:DEX=1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swordsage=1|HITPOINTS:8|SKILLSGAINED:11|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Invisible Blade=1|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Invisible Blade=2|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Invisible Blade=3|HITPOINTS:6|PRESTAT:DEX=1|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Invisible Blade=4|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Invisible Blade=5|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Master of Masks=1|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Avenger=1|HITPOINTS:6|PRESTAT:DEX=2|PRESTAT:CHA=-1|PRESTAT:WIS=-1|PRESTAT:INT=-1|PRESTAT:CON=1|PRESTAT:STR=1|SKILLSGAINED:9|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:66000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Humanoid]]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Rogue]
+TEMPLATESAPPLIED:[NAME:Psionic]
+TEMPLATESAPPLIED:[NAME:First Level ~ Rogue|CHOSENTEMPLATE:[NAME:Funds - PC]]
+TEMPLATESAPPLIED:[NAME:Shadow Creature]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
+TEMPLATESAPPLIED:[NAME:Human Base]
+TEMPLATESAPPLIED:[NAME:Favored Class ~ HIGHESTLEVELCLASS]
+TEMPLATESAPPLIED:[NAME:Human Region ~ Custom Campaign]
+TEMPLATESAPPLIED:[NAME:Funds - PC]
+TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
+TEMPLATESAPPLIED:[NAME:Combat Expertise trade off]
+TEMPLATESAPPLIED:[NAME:Use Fractional BAB]
+TEMPLATESAPPLIED:[NAME:Dragonblood]
+
+# Character Region
+REGION:Custom Campaign
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Fighter (Thug)|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Avenger|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Invisible Blade|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Master of Masks|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Avenger|RANKS:1.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Swordsage|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Invisible Blade|RANKS:5.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Master of Masks|RANKS:1.0|COST:2|CLASSSKILL:N]
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:9|
+SKILL:Disable Device|OUTPUTORDER:10|CLASSBOUGHT:[CLASS:Fighter (Thug)|RANKS:1.5|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:0.5|COST:2|CLASSSKILL:N]
+SKILL:Disguise|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Fighter (Thug)|RANKS:1.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Avenger|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Invisible Blade|RANKS:6.0|COST:2|CLASSSKILL:N]
+SKILL:Escape Artist|OUTPUTORDER:12|
+SKILL:Forgery|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Gather Information|OUTPUTORDER:14|CLASSBOUGHT:[CLASS:Fighter (Thug)|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Heal|OUTPUTORDER:15|
+SKILL:Hide|OUTPUTORDER:16|CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Avenger|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Invisible Blade|RANKS:8.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Master of Masks|RANKS:1.0|COST:2|CLASSSKILL:N]
+SKILL:Hide (Forested Areas)|OUTPUTORDER:17|
+SKILL:Intimidate|OUTPUTORDER:18|
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:19|
+SKILL:Jump|OUTPUTORDER:20|
+SKILL:Knowledge (Untrained)|OUTPUTORDER:21|
+SKILL:Listen|OUTPUTORDER:22|
+SKILL:Literacy|OUTPUTORDER:23|
+SKILL:Move Silently|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Avenger|RANKS:3.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Invisible Blade|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Master of Masks|RANKS:2.0|COST:2|CLASSSKILL:N]
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:25|
+SKILL:Open Lock|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Fighter (Thug)|RANKS:1.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:2|CLASSSKILL:N]
+SKILL:Perform (Act)|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Invisible Blade|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Ride|OUTPUTORDER:28|
+SKILL:Search|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Swordsage|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Sleight of Hand|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:32|
+SKILL:Survival|OUTPUTORDER:33|
+SKILL:Swim|OUTPUTORDER:34|
+SKILL:Use Rope|OUTPUTORDER:35|
+
+# Character Languages
+LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Infernal|LANGUAGE:Undercommon
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Undercommon,Draconic,Infernal,Celestial|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Undercommon,Draconic,Infernal,Celestial|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Undercommon,Draconic,Infernal,Celestial|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Undercommon,Draconic,Infernal,Celestial|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Fighter ~ Sneak Attack|TYPE:ACF.FighterBonusFeats|DESC:Some fighters prefer stealth and cunning over martial skill. This variant can also be combined with the thug variant described earlier in this chapter.  Gain&colon; Sneak attack (as rogue).  Lose&colon; Bonus feats.
+USERPOOL:Alternate Class Feature|POOLPOINTS:0.0
+ABILITY:Draconic Selection|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Draconic Selection ~ Force|TYPE:DraconicSelection
+USERPOOL:Draconic Selection|POOLPOINTS:0.0
+ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
+USERPOOL:ECL Buy Down|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Expertise|TYPE:General.Fighter.AttackOption.ModifyAC.ChampionOfTheWild.DivineChampion.ShadowThief|DESC:You are trained at using your combat skill for defense as well asoffense.|DESC:You cannot use this feat while raging&pipe;PREVARGT&colon;0,RageTimes
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Craven|TYPE:General|DESC:Like most sly rogues, you are a dangerous coward. However, your sneak attacks deal more damage than normal.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Darkstalker|TYPE:General|DESC:When you hide, creatures with blindsense, blindsight, scent, or tremorsense mustmake a Listen check or a Spot check (whichever DC is higher) to notice you, just as sighted creatures would makeSpot checks to detect you. You cannot hide in plain sight unless you have that ability as a class feature. In addition, you can fl ank creatures that have the all-around vision special quality.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Draconic Heritage|TYPE:Draconic|DESC:You have a greater connection with your draconic bloodline than others of your kind.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dragonfire Strike|TYPE:Draconic|DESC:You can call upon your innate draconic power to augment certain weapon attacks.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dragontouched|TYPE:General|DESC:You have a trace of draconic power, a result of dragons in your ancestry or a spiritual connection between you and the forces of dragonkind.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Finesse|TYPE:General.Fighter.ChampionOfTheWildTwoWeaponFighting.ShadowThief.ViolentKnowledge|DESC:You are especially skilled at using weapons that can benefit as much from Dexterity as from Strength.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:,|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Meager Fortitude|TYPE:Flaws.SpecialQuality|DESC:You are sickly and weak of stomach.
+USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Internal|KEY:Human Ethnicity ~ None|TYPE:Human Ethnicity.Faerun Ethnicity|DESC:You have no Ethnicity.
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Rule - Use ECL Level Buy Down|TYPE:MiscOptions
+USERPOOL:Misc Options|POOLPOINTS:0.0
+ABILITY:Persona Masks Known|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Persona Masks ~ Assassin|TYPE:MasterOfMasks Class Feature.Class Feature.PersonaMasks.SpecialQuality|DESC:Hardened black leather and metal clasps create the disturbing aspect of the assassin. A jagged, cruel slit forms the opening for the mouth, and the mask's edges are worn and stained. You can deliver a sneak attack that deals an extra 1d6 points of damage when you are flanking an opponent or at any time when the target would be denied its Dexterity bonus (see the rogue class feature, PH 50). As you advance in the master of masks class, your sneak attack becomes more devastating&colon; This extra damage improves to 2d6 points at 4th level, 3d6 at 7th level, and 4d6 at 10th level. If you get a sneak attack bonus from another source (such as rogue levels), the bonuses on damage stack. In addition, you gain a +2 competence bonus on Hide and Move Silently checks. This bonus improves to +4 at 4th level, +6 at 7th level, and +8 at 10th level. Your alignment appears to be lawful evil while you wear an assassin mask.
+ABILITY:Persona Masks Known|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Persona Masks ~ Faceless|TYPE:MasterOfMasks Class Feature.Class Feature.PersonaMasks.SpecialQuality|DESC:Only a pair of empty eyeholes break this otherwise featureless oval, porcelain mask. You gain a +5 competence bonus on saves against mindaffecting spells and abilities. You are protected from divination effects as if by a nondetection spell; the DC of the caster level check is 15 + your master of masks level. Even if the nondetection effect is overcome, your alignment appears to be neutral while you wear a faceless mask.
+USERPOOL:Persona Masks Known|POOLPOINTS:0.0
+ABILITY:Race Base|TYPE:NORMAL|CATEGORY:Internal|KEY:Human / PH|TYPE:Race Base|DESC:Default Player's Handbook version of the race
+USERPOOL:Race Base|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Human Region ~ Custom Campaign|TYPE:Region.FaerunRegion|DESC:Use for default racial features when loading sources that use Regions
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Shadow Creature Powers|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Evasion ~ Shadow|TYPE:Extraordinary.Class Feature.Rogue Class Feature.SpecialQuality.ClassEvasionAbility.Evasion.Shadow Power|DESC:At 2nd level and higher, a rogue can avoid even magical and unusual attacks with great agility. If she makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save (such as a red dragon's fiery breath or a fireball), she instead takes no damage. Evasion can be used only if the rogue is wearing light armor or no armor. A helpless rogue (such as one who is unconscious or paralysed) does not gain the benefit of evasion.|DESC:You can avoid even magical and unusual attacks with great agility. If you make a successful Reflex saving throw against an attack that normally deals half damage on a successful save (such as a red dragon's fiery breath or a fireball), you instead take no damage. Evasion can be used only if you are wearing light armor or no armor. A helpless character (such as one who is unconscious or paralysed) does not gain the benefit of evasion.
+ABILITY:Shadow Creature Powers|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Shadow Saves|TYPE:SpecialQuality.Shadow Power
+ABILITY:Shadow Creature Powers|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Shadow ~ Fast Healing|TYPE:SpecialQuality.Extraordinary.Shadow Power|DESC:You regain 2 HP per round.
+USERPOOL:Shadow Creature Powers|POOLPOINTS:0.0
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Action Before Thought|TYPE:SpecialAttack.Diamond Mind.Diamond Mind Discipline.Swordsage Martial Maneuver.Diamond Mind Maneuver.Maneuver.Martial Maneuver.Counter|DESC:Your supreme sense of the battlefield, unmatched martial training, and simple, intuitive sense of danger allow you to act faster than the speed of thought. When a spell or other attack strikes you, you move a split second before you are even aware of the threat. Your mind is a keenly honed weapon. Other warriors rely on their physical talents. You know that a mix of mental acuity and martial training, along with a strong sword arm, is an unbeatable combination. This maneuver epitomizes your approach. Your mind, rather than your raw reflexes, dictates your defenses. You can use this maneuver any time you would be required to make a Reflex save. Roll a Concentration check instead of the Reflex save and use the result of that check to determine the save's success. You must use this maneuver before you roll the Reflex save. A result of a natural 1 on your Concentration check is not an automatic failure.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Cloak of Deception|TYPE:SpecialAttack.Swordsage Martial Maneuver.Shadow Hand.Shadow Hand Discipline.Shadow Hand Maneuver.Shadow Hand Maneuver LVL2.Maneuver.Martial Maneuver.Boost|DESC:The shadows around you seem to surge forward and engulf you. For a brief moment, they render you invisible. When you initiate this maneuver, you turn invisible, as the greater invisibility spell (PH 245). You remain invisible until the end of your current turn. This maneuver is a supernatural ability.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Mind Over Body|TYPE:SpecialAttack.Diamond Mind.Diamond Mind Discipline.Swordsage Martial Maneuver.Diamond Mind Maneuver.Maneuver.Martial Maneuver.Counter|DESC:Your training and mental toughness allow you to use your focus to overcome physical threats. By focusing your mind, you ignore the effect of a deadly poison or debilitating sickness. Your diligent training and intense mental focus combine to allow you to overcome physical threats with the raw power of your mind. You can use this maneuver any time you would be required to make a Fortitude save. Make a Concentration check instead of the Fortitude save and use the result of that check to determine the save's success. You must use this maneuver before you attempt the Fortitude save. A result of a natural 1 on your Concentration check is not an automatic failure.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Moment of Perfect Mind|TYPE:SpecialAttack.Diamond Mind.Diamond Mind Discipline.Swordsage Martial Maneuver.Diamond Mind Maneuver.Maneuver.Martial Maneuver.Counter|DESC:Your mental focus and martial study have rendered your will into an unbreakable iron wall. When someone targets you with a spell that seeks to erode your willpower, you steel yourself against the attack. Between your devoted study, iron will, and supreme focus, you have learned to resist attempts to subvert your willpower. When you feel such an effect try to cloud your mind, you can draw on untapped reserves of energy to counter the attempt. You can use this maneuver any time you would be required to make a Will save. Make a Concentration check instead of the Will save and use the result of that check to determine the save's success. You must use this maneuver before you attempt the Will save. A result of a natural 1 on your Concentration check is not an automatic failure.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Sapphire Nightmare Blade|TYPE:SpecialAttack.Diamond Mind.Diamond Mind Discipline.Swordsage Martial Maneuver.Diamond Mind Maneuver.Maneuver.Martial Maneuver.Strike|DESC:Your study your enemy for a brief moment, watching his defensive maneuvers and making a strike timed to take advantage of a lull in his vigilance. The sapphire nightmare blade is one of the most basic, but important, maneuvers that a Diamond Mind adept studies. It illustrates that a keen mind can pierce even the toughest defenses. You attempt a Concentration check as part of this maneuver, using the target creature's AC as the DC of the check. You then make a single melee attack against your target. The attack is also part of this maneuver. If your Concentration check succeeds, the target is flat-footed against your attack, and you deal an extra 1d6 points of damage. If your check fails, your attack is made with a -2 penalty and deals normal damage.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Shadow Jaunt|TYPE:SpecialAttack.Swordsage Martial Maneuver.Shadow Hand.Shadow Hand.Shadow Hand Discipline.Shadow Hand Maneuver.Teleportation.Shadow Hand Maneuver LVL2|DESC:A cloud of shadow energy engulfs you, spins into a tiny mote, and disappears. A moment later, this shadowy cloud appears across the battlefield and expels you from it. As part of this maneuver, you disappear in a cloud of darkness and teleport up to 50 feet away. You must have line of sight and line of effect to your destination. If you attempt to use this maneuver to move into an occupied space, you do not move, and the maneuver is expended but has no effect.
+USERPOOL:Swordsage Maneuver|POOLPOINTS:0.0
+ABILITY:Swordsage Stance|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Assassin's Stance|TYPE:SpecialAttack.Shadow Hand Stance.Swordsage Martial Stance.Stance.Shadow Hand.Shadow Hand Discipline|DESC:As your foe struggles to regain his defensive posture, you line up an exacting strike that hits with superior accuracy and deadly force. A shadow cast by a gap between two armored plates or a crease in a creature's thick hide calls to your weapon, allowing you to strike with deadly accuracy against an unprepared opponent. While you are in this stance, you gain the sneak attack ability, if you do not already have it, which deals an extra 2d6 points of damage. If you already have the sneak attack class feature, your existing sneak attack ability deals an extra 2d6 points of damage. See the rogue class feature (PH 50) for a complete description of sneak attack.
+USERPOOL:Swordsage Stance|POOLPOINTS:0.0
+ABILITY:Swordsage Weapon Focus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage ~ Weapon Focus Shadow Hand|TYPE:SpecialQuality.Extraordinary.Swordsage Weapon Focus|DESC:Grants the Weapon Focus feat for weapons associated with the Shadow Hand discipline (dagger, short sword, sai, siangham, unarmed strike, and spiked chain).
+USERPOOL:Swordsage Weapon Focus|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Axe (Throwing)|WEAPON:Bash|WEAPON:Battle Gauntlet|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Hand)|WEAPON:Crossbow (Heavy)]
+WEAPONPROF:[WEAPON:Crossbow (Light)|WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dart Thruster|WEAPON:Darts (Barbed)|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)]
+WEAPONPROF:[WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Goblin Stick|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd]
+WEAPONPROF:[WEAPON:Halfspear|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Ice Axe|WEAPON:Javelin|WEAPON:Katana|WEAPON:Kukri|WEAPON:Lance|WEAPON:Lance (Flight)|WEAPON:Lance (Heavy)]
+WEAPONPROF:[WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Morningstar|WEAPON:NoProfReq|WEAPON:Pick (Dire)]
+WEAPONPROF:[WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Saber|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe]
+WEAPONPROF:[WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Strike (Unarmed)]
+WEAPONPROF:[WEAPON:Sword (Bastard)|WEAPON:Sword (Cutlass)|WEAPON:Sword (Saber)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Truncheon|WEAPON:Unarmed Strike|WEAPON:Wakizashi|WEAPON:Warhammer|WEAPON:Warmace]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Amulet of Natural Armor +4|OUTPUTORDER:1|COST:32000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Bracers of Armor +4|OUTPUTORDER:4|COST:16000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Coin (Gold)|OUTPUTORDER:9|COST:1|WT:0.02|QUANTITY:8.0|NOTE:
+EQUIPNAME:Coin (Platinum)|OUTPUTORDER:8|COST:10|WT:0.02|QUANTITY:69.0|NOTE:
+EQUIPNAME:Dagger +1 (Adamantine/Ghost touch/Teleporting)|OUTPUTORDER:5|COST:21002.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger +1 (Adamantine/Ghost touch/Teleporting)$EQMOD=PLUS1W.Ghost touch (Weapon/Melee).TPORTING.Adamantine (Weapon)]
+EQUIPNAME:Entertainer's Outfit|OUTPUTORDER:7|COST:3|WT:4.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Hat of Disguise|OUTPUTORDER:2|COST:1800|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ring of Force Shield|OUTPUTORDER:3|COST:8500|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ring of Protection +2|OUTPUTORDER:6|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Clothing|ID:0.1.01|VALUE:Entertainer's Outfit|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.02|VALUE:Ring of Force Shield|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Arms|ID:0.1.03|VALUE:Bracers of Armor +4|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.04|VALUE:Amulet of Natural Armor +4|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.05|VALUE:Dagger +1 (Adamantine/Ghost touch/Teleporting)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Head|ID:0.1.06|VALUE:Hat of Disguise|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.07|VALUE:Ring of Protection +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.08|VALUE:Coin (Platinum)|QUANTITY:69.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.09|VALUE:Coin (Gold)|QUANTITY:8.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+TEMPBONUS:FEAT=Assassin's Mask Active 1|TBTARGET:PC|TBBONUS:VAR&pipe;SNEAKATTACKDICE&pipe;1
+TEMPBONUS:FEAT=Assassin's Stance Active|TBTARGET:PC|TBBONUS:VAR&pipe;SNEAKATTACKDICE&pipe;2
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+SPELLBOOK:Prepared Spells|TYPE:2
+SPELLNAME:Detect Psionics|TIMES:1|CLASS:Psychic Rogue|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Psychic Rogue]
+SPELLNAME:Action Before Thought|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Assassin's Stance|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Cloak of Deception|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Mind Over Body|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Moment of Perfect Mind|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Sapphire Nightmare Blade|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Shadow Jaunt|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Feather Fall|TIMES:1|CLASS:Avenger|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Avenger]
+SPELLNAME:Mimicry|TIMES:1|CLASS:Avenger|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Avenger]
+SPELLLIST:Avenger|CLASS.Avenger|CLASS.Assassin
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:1:1:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

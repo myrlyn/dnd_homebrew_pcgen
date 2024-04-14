@@ -1,0 +1,248 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Sterling
+TABNAME:
+PLAYERNAME:
+HEIGHT:72
+WEIGHT:135
+AGE:19
+GENDER:Male
+HANDED:Right
+SKINCOLOR:Dark
+EYECOLOR:Dark
+HAIRCOLOR:Dark
+HAIRSTYLE:Emo
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:18
+STAT:DEX|SCORE:21
+STAT:CON|SCORE:16
+STAT:INT|SCORE:18
+STAT:WIS|SCORE:16
+STAT:CHA|SCORE:16
+ALIGN:NG
+RACE:Human
+
+# Character Class(es)
+CLASS:Rogue|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Cleric (Cloistered Cleric)|LEVEL:1|SKILLPOOL:0
+CLASS:Scout|LEVEL:10|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Rogue=1|HITPOINTS:6|SKILLSGAINED:52|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric (Cloistered Cleric)=1|HITPOINTS:6|SKILLSGAINED:11|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Scout=1|HITPOINTS:8|SKILLSGAINED:13|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Scout=2|HITPOINTS:8|PRESTAT:DEX=1|SKILLSGAINED:13|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Scout=3|HITPOINTS:8|SKILLSGAINED:13|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Scout=4|HITPOINTS:8|SKILLSGAINED:13|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Scout=5|HITPOINTS:8|SKILLSGAINED:13|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Scout=6|HITPOINTS:8|PRESTAT:DEX=1|SKILLSGAINED:13|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Scout=7|HITPOINTS:8|SKILLSGAINED:13|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Scout=8|HITPOINTS:8|SKILLSGAINED:13|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Scout=9|HITPOINTS:8|SKILLSGAINED:13|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Scout=10|HITPOINTS:8|PRESTAT:DEX=1|SKILLSGAINED:13|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:66000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Humanoid]]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Rogue]
+TEMPLATESAPPLIED:[NAME:RighteousMightDR]
+TEMPLATESAPPLIED:[NAME:First Level ~ Rogue|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Use Fractional BAB]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
+TEMPLATESAPPLIED:[NAME:Human Base]
+TEMPLATESAPPLIED:[NAME:Favored Class ~ HIGHESTLEVELCLASS]
+TEMPLATESAPPLIED:[NAME:Human Region ~ Custom Campaign]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
+TEMPLATESAPPLIED:[NAME:Shadow Creature]
+
+# Character Region
+REGION:Custom Campaign
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:9|
+SKILL:Disguise|OUTPUTORDER:10|
+SKILL:Escape Artist|OUTPUTORDER:11|
+SKILL:Forgery|OUTPUTORDER:12|
+SKILL:Gather Information|OUTPUTORDER:13|
+SKILL:Heal|OUTPUTORDER:14|
+SKILL:Hide|OUTPUTORDER:15|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:11.0|COST:1|CLASSSKILL:Y]
+SKILL:Hide (Forested Areas)|OUTPUTORDER:16|
+SKILL:Intimidate|OUTPUTORDER:17|
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:18|
+SKILL:Jump|OUTPUTORDER:19|
+SKILL:Knowledge (Arcana)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Local)|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:10.0|COST:2|CLASSSKILL:N]
+SKILL:Knowledge (Psionics)|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:2|CLASSSKILL:N]
+SKILL:Knowledge (Religion)|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:2|CLASSSKILL:N]
+SKILL:Knowledge (The Planes)|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:2|CLASSSKILL:N]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:26|
+SKILL:Listen|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:1.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Literacy|OUTPUTORDER:28|
+SKILL:Move Silently|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:11.0|COST:1|CLASSSKILL:Y]
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:30|
+SKILL:Open Lock|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:1.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:10.0|COST:2|CLASSSKILL:N]
+SKILL:Perform (Buffoonery)|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Ride|OUTPUTORDER:33|
+SKILL:Search|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:11.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive|OUTPUTORDER:35|
+SKILL:Skill Trick|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:11.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:0.5|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Rogue|RANKS:1.5|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Scout|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Swim|OUTPUTORDER:39|
+SKILL:Use Magic Device|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:1.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:10.0|COST:2|CLASSSKILL:N]
+SKILL:Use Rope|OUTPUTORDER:41|
+
+# Character Languages
+LANGUAGE:Common
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Apprentice Feat Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Apprentice ~ Philosopher|APPLIEDTO:Knowledge (Arcana),Knowledge (Dungeoneering)|TYPE:ApprenticeChoice.SpecialQuality|DESC:A philosopher mentor is dedicated to the pursuit of knowledge. In a civilized area he might be a scholar or librarian, while in the wilderness he might be a shaman or nomad. A philosopher grants his apprentice a +2 competence bonus on Concentration checks and a +2 bonus on Will saving throws. Associated Skills&colon; Knowledge (any one), Sense Motive.
+USERPOOL:Apprentice Feat Choice|POOLPOINTS:0.0
+ABILITY:Domain Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Knowledge Devotion|TYPE:Domain|DESC:You can use your knowledge to exploit your foes' weaknesses and overcome their strengths.
+ABILITY:Domain Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Travel Devotion|APPLIEDTO:|TYPE:Domain|DESC:You can move quickly around the battlefield.
+USERPOOL:Domain Feat|POOLPOINTS:0.0
+ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
+USERPOOL:ECL Buy Down|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Apprentice|TYPE:General.FirstLevel|DESC:A character with this feat has apprenticed himself to a master in order to speed his learning and bolster his skills. This feat must be taken at 1st level. Once you start gaining experience, your methods of learning are already too ingrained for you to be able to gain the benefits of a mentor-apprentice relationship.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Darkstalker|TYPE:General|DESC:When you hide, creatures with blindsense, blindsight, scent, or tremorsense mustmake a Listen check or a Spot check (whichever DC is higher) to notice you, just as sighted creatures would makeSpot checks to detect you. You cannot hide in plain sight unless you have that ability as a class feature. In addition, you can fl ank creatures that have the all-around vision special quality.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Skirmish|TYPE:General|DESC:If you move at least 20 feet away from where you were at the start of your turn, your skirmish damage increases by 2d6 and your competence bonus to AC from skirmish improves by 2. Normal&colon; A scout's bonus damage and AC bonus apply if she moves at least 10 feet away from where she was at the start of her turn (see the skirmish class feature in the sidebar on page 25). Special&colon; A scout can select Improved Skirmish as one of her scout bonus feats (Complete Adventurer 13).
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Ranged Pin|TYPE:General.Fighter.ChampionOfTheWildArchery
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Swift Ambusher|TYPE:General|DESC:Your rogue and scout levels stack for the purpose of determining the extra damage and bonus to Armor Class granted when skirmishing.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Longbow|TYPE:General.Fighter.Dragonrider.DivineChampion.ShadowThief.ViolentKnowledge|DESC:You are especially good at using this specified weapon.&pipe;!PRERULE&colon;1,DisplayFullFeat|DESC:Choose one type of weapon, such as greataxe. You can also choose unarmed strike or grapple (or ray, if you are a spellcaster) as your weapon for purposes of this feat. You are especially good at using this weapon. (If you have chosen ray, you are especially good with rays, such as the one produced by the ray of frost spell.)&pipe;PRERULE&colon;1,DisplayFullFeat
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Group (Bows)|TYPE:Weapon Group|DESC:&lbracket;Not Implemented&rbracket; You understand how to use bows.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:,|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Meager Fortitude|TYPE:Flaws.SpecialQuality|DESC:You are sickly and weak of stomach.
+USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Internal|KEY:Human Ethnicity ~ None|TYPE:Human Ethnicity.Faerun Ethnicity|DESC:You have no Ethnicity.
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Remove Domain for Devotion Feat II|TYPE:MiscOptions.DomainRemoval
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Rule - Use ECL Level Buy Down|TYPE:MiscOptions
+USERPOOL:Misc Options|POOLPOINTS:0.0
+ABILITY:Race Base|TYPE:NORMAL|CATEGORY:Internal|KEY:Human / PH|TYPE:Race Base|DESC:Default Player's Handbook version of the race
+USERPOOL:Race Base|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Human Region ~ Custom Campaign|TYPE:Region.FaerunRegion|DESC:Use for default racial features when loading sources that use Regions
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Scout Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Point Blank Shot|TYPE:General.Fighter.AttackOption.ChampionOfTheWildArchery.ViolentKnowledge|DESC:You are skilled at making well-placed shots with ranged weapons at close range.
+ABILITY:Scout Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Precise Shot|TYPE:General.Fighter.AttackOption.ChampionOfTheWildArchery.ViolentKnowledge|DESC:You are skilled at timing and aiming ranged attacks.
+USERPOOL:Scout Bonus Feat|POOLPOINTS:0.0
+ABILITY:Shadow Creature Powers|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Shadow DR|TYPE:Shadow Power
+ABILITY:Shadow Creature Powers|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Shadow Saves|TYPE:SpecialQuality.Shadow Power
+ABILITY:Shadow Creature Powers|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Shadow ~ Fast Healing|TYPE:SpecialQuality.Extraordinary.Shadow Power|DESC:You regain 2 HP per round.
+USERPOOL:Shadow Creature Powers|POOLPOINTS:0.0
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Clarity of Vision|TYPE:ST.SpecialQuality.SkillTrick.Mental|DESC:As a swift action, you can attempt a DC 20 Spot check. If successful you focus your vision so clearly that you can pinpoint the location of invisible creatures within 30 feet. This clarity lasts until the end of your turn.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Collector of Stories|TYPE:ST.SpecialQuality.SkillTrick.Mental|DESC:When you attempt a trained Knowledge check to identify a creature to learn its special powers or vulnerabilities, you gain a +5 competence bonus on the check.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Spot the Weak Point|TYPE:ST.SpecialQuality.SkillTrick.Mental|DESC:Once per encounter, as a Standard Action, you can attempt a spot check DC &lbracket;opponent's AC&rbracket; and your next attack &lbracket;range 30 ft&rbracket; is considered a touch attack.
+USERPOOL:Skill Tricks|POOLPOINTS:0.0
+ABILITY:Turn Undead|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Turn Undead|TYPE:Class Feature.Cleric Class Feature.Paladin Class Feature.SpecialAttack.Turning.TurnUndead.Turn Undead|DESC:%1/day (turn level %2) (turn damage %3d%4+%5)&pipe;TurnTimesUndead&pipe;TurnLevelUndead&pipe;TurnDiceUndead&pipe;TurnDieSizeUndead&pipe;TurnDamagePlusUndead
+USERPOOL:Turn Undead|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Axe (Throwing)|WEAPON:Battle Gauntlet|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Hand)|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger]
+WEAPONPROF:[WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Darts (Barbed)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Halfspear|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Longbow]
+WEAPONPROF:[WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:NoProfReq|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Rapier|WEAPON:Sap|WEAPON:Shortbow]
+WEAPONPROF:[WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Strike (Unarmed)|WEAPON:Sword (Short)|WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:999.00
+EQUIPNAME:Bracers of Armor +3|OUTPUTORDER:4|COST:9000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Explorer's Outfit|OUTPUTORDER:6|COST:10|WT:8.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gloves of Dexterity +6|OUTPUTORDER:2|COST:36000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Longbow, Composite +1 (Splitting/+4)|OUTPUTORDER:3|COST:32800.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Composite)|DATA:NAME=Longbow, Composite +1 (Splitting/+4)$KEY=Longbow +1 (Composite/Splitting/+4)$EQMOD=WOOD.BOWSTR&pipe;+4.PLUS1W.Splitting]
+EQUIPNAME:Raptor Arrow|OUTPUTORDER:7|COST:6006.0|WT:0.15|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Raptor Arrow|DATA:NAME=Raptor Arrow$EQMOD=STEEL.WOOD]
+EQUIPNAME:Skirmisher Boots|OUTPUTORDER:0|COST:3200|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Clothing|ID:0.1.01|VALUE:Explorer's Outfit|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.02|VALUE:Raptor Arrow|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.05|VALUE:Longbow, Composite +1 (Splitting/+4)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Arms|ID:0.1.06|VALUE:Bracers of Armor +3|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:None|DEITYDOMAINS:[DOMAIN:Abyss|DOMAIN:Abyss (1 of 2)|DOMAIN:Air|DOMAIN:Alteration|DOMAIN:Animal|DOMAIN:Arborea|DOMAIN:Arborea (1 of 2)|DOMAIN:Artifice|DOMAIN:Baator|DOMAIN:Baator (1 of 2)|DOMAIN:Balance|DOMAIN:Bestial|DOMAIN:Blightbringer|DOMAIN:Cavern|DOMAIN:Celerity|DOMAIN:Celestia|DOMAIN:Celestia (1 of 2)|DOMAIN:Celestial|DOMAIN:Chaos|DOMAIN:Charm|DOMAIN:City|DOMAIN:Cold|DOMAIN:Commerce|DOMAIN:Community|DOMAIN:Community (Dragonlance)|DOMAIN:Competition|DOMAIN:Corruption|DOMAIN:Courage|DOMAIN:Craft|DOMAIN:Creation|DOMAIN:Darkness|DOMAIN:Death|DOMAIN:Deathbound|DOMAIN:Deathless|DOMAIN:Decay|DOMAIN:Demonic|DOMAIN:Destiny|DOMAIN:Destruction|DOMAIN:Diabolic|DOMAIN:Domination|DOMAIN:Dragon|DOMAIN:Dragon Below|DOMAIN:Dream|DOMAIN:Drow|DOMAIN:Dwarf|DOMAIN:Earth|DOMAIN:Elf|DOMAIN:Elysium|DOMAIN:Elysium (1 of 2)|DOMAIN:Endurance|DOMAIN:Envy|DOMAIN:Evil|DOMAIN:Exorcism|DOMAIN:Family|DOMAIN:Fate|DOMAIN:Feast|DOMAIN:Fey|DOMAIN:Fire|DOMAIN:Force|DOMAIN:Forge|DOMAIN:Ghost|DOMAIN:Glory|DOMAIN:Gluttony|DOMAIN:Gnome|DOMAIN:Good|DOMAIN:Greed|DOMAIN:Hades|DOMAIN:Hades (1 of 2)|DOMAIN:Halfling|DOMAIN:Hatred|DOMAIN:Healing|DOMAIN:Herald|DOMAIN:Hunger|DOMAIN:Illusion|DOMAIN:Incarnum|DOMAIN:Inquisition|DOMAIN:Insight|DOMAIN:Joy|DOMAIN:Knowledge|DOMAIN:Law|DOMAIN:Liberation|DOMAIN:Liberation (Dragonlance)|DOMAIN:Life|DOMAIN:Limbo|DOMAIN:Limbo (1 of 2)|DOMAIN:Luck|DOMAIN:Lust|DOMAIN:Madness|DOMAIN:Magic|DOMAIN:Mechanus|DOMAIN:Mechanus (1 of 2)|DOMAIN:Meditation|DOMAIN:Mentalism|DOMAIN:Mentalism (Dragonlance)|DOMAIN:Metal|DOMAIN:Mind|DOMAIN:Moon|DOMAIN:Mysticism|DOMAIN:Necromancer|DOMAIN:Necromancy|DOMAIN:Nobility|DOMAIN:Ocean|DOMAIN:Oracle|DOMAIN:Orc|DOMAIN:Order of the All-Seeing Eye|DOMAIN:Order of the Consuming Flame|DOMAIN:Order of the Forbidding Wasteland|DOMAIN:Order of the Gentle Rain|DOMAIN:Order of the Impenetrable Crucible|DOMAIN:Order of the Ineffable Mystery|DOMAIN:Order of the Perfect Sculpture|DOMAIN:Order of the Spring Zephyr|DOMAIN:Pact|DOMAIN:Pain|DOMAIN:Passion|DOMAIN:Passion (Dragonlance)|DOMAIN:Pestilence|DOMAIN:Pestilence (Dragonlance)|DOMAIN:Planning|DOMAIN:Plant|DOMAIN:Pleasure|DOMAIN:Portal|DOMAIN:Pride|DOMAIN:Protection|DOMAIN:Purification|DOMAIN:Renewal|DOMAIN:Repose|DOMAIN:Restoration|DOMAIN:Retribution|DOMAIN:Rune|DOMAIN:Sand|DOMAIN:Scalykind|DOMAIN:Shadow|DOMAIN:Slime|DOMAIN:Sloth|DOMAIN:Spell|DOMAIN:Spider|DOMAIN:Spite|DOMAIN:Storm|DOMAIN:Storm (Dragonlance)|DOMAIN:Strength|DOMAIN:Suffering|DOMAIN:Summer|DOMAIN:Summoner|DOMAIN:Sun|DOMAIN:Thirst|DOMAIN:Time|DOMAIN:Trade|DOMAIN:Travel|DOMAIN:Treachery|DOMAIN:Trickery|DOMAIN:Truth|DOMAIN:Tyranny|DOMAIN:Undeath|DOMAIN:Vile Darkness|DOMAIN:War|DOMAIN:Water|DOMAIN:Watery Death|DOMAIN:Wealth|DOMAIN:Weather|DOMAIN:Windstorm|DOMAIN:Winter|DOMAIN:Wrath]|ALIGNALLOW:|DESC:For No Deity Choices|DEITYFAVWEAP:[WEAPON:ALL]|DEITYALIGN:
+DOMAIN:Necromancy|DOMAINGRANTS:Granted Power (Su): Rebuke, command, or bolster undead as an evil Cleric. Use this ability a number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.|SOURCE:[TYPE:PCClass|NAME:Scout|LEVEL:10]
+
+# Character Spells Information
+SPELLBOOK:Prepared Spells|TYPE:2
+SPELLNAME:Detect Magic|TIMES:2|CLASS:Cleric (Cloistered Cleric)|BOOK:Prepared Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Grave Strike|TIMES:2|CLASS:Cleric (Cloistered Cleric)|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Summon Holy Symbol|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Prepared Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLLIST:Cleric (Cloistered Cleric)|CLASS.Cleric (Cloistered Cleric)|CLASS.Cleric
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:DUMB SHIT&nl;Always attacks from concealment unless in direct sunlight. &nl;May make Hide checks even against characters who can see through his concealment (via the Darkstalker feat)&nl;His schtick is a medium-range combatant, piling on Precision damage from just outside of melee range.  &nl;TO THAT END&nl;Swift Ambusher allows his Scout and Rogue levels to stack for purposes of Skirmish and Sneak Attack.  This allows him to sink all of his future levels into Scout without tanking Sneak Attack.&nl;&nl;For anyone who can still see him, he has Ranged Pin.  He can make grapple checks with an arrow. &nl;Arguably, this is it's own action not part of a standard attack, so he can't immediately attack.  Enemy has to succeed in a STR(15) check on their turn to free themselves.  This takes their action, just like escaping any grapple.  While grappled, they lose their dex bonus an are sneak-attackable.  This is also a handy way to lock down a troubleshome enemy.  &nl;&nl;Knowledge Devotion lets you make a Knowledge roll (which knowledge depends on the enemy) to get  damage bonus against them for the rest of the encounter.   &nl;&nl;EVEN DUMBER SHIT - taking the Necromancy domain grants a whole new pool of Rebuke Undead in addition to the Turn Undead you already get.  &nl;You're feeding ALL of those turning attempts into Travel Devotion, for that SWEET free movement.  &nl;SPEAKING OF WHICH - Travel Devotion lets you move your full movement as a Swift action, once a day.  Each Turning Attempt you give up increases the uses by 1/day.  That's a total of 13. Which means you can trigger Skirmish and STILL full-attack.  Since your movement is *55*, you can zip around the battle field like a friggin bumblebee.  &nl;&nl;You can see the Invisible with a DC20 spot check as a swift action. &nl;1/Encounter you can roll Spot vs a target within 30 ft's AC to resolve your next attack against them as a Touch attack.  Since most opponents won't get their DEX bonus against you, that means you'll usually be rolling against no defense. &nl;&nl;Your skirmish attacks are at +2 attack and damage beyond what is listed, because of your boots. 2xDay you can trigger them for an extra attack.  Combine this with Ranged Pin to get an immediate Sneak Attack against a grappled foe.  &nl;&nl;&nl;The dip into Cloistered Cleric may seem weird, but it's AMAZING. You get the Knowledge Domain (which you can trade for Knowledge Devotion for extra damage), two others (Travel to trade for Travel Devotion and Necromancy for more Turning Attempts to use for Travel Devotion).  &nl;&nl;It will also allow you to cast Grave Strike twice if you need it.  &nl;&nl;&nl;DUMBEST SHIT - Raptor Arrows and a Bow Of Splitting.  Woo!
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:1:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

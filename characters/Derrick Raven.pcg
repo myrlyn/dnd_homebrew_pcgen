@@ -1,0 +1,251 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Derrick Raven
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:16
+STAT:DEX|SCORE:21
+STAT:CON|SCORE:16
+STAT:INT|SCORE:18
+STAT:WIS|SCORE:16
+STAT:CHA|SCORE:18
+ALIGN:CG
+RACE:Aarakocra
+
+# Character Class(es)
+CLASS:Warlock|LEVEL:1|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:0,0,0,0,0,0,0,0,0,0
+CLASS:Rogue|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Psychic Rogue|LEVEL:1|SKILLPOOL:0|SPELLBASE:INT|CANCASTPERDAY:
+CLASS:Ninja|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Swordsage|LEVEL:1|SKILLPOOL:0|SPELLBASE:WIS|CANCASTPERDAY:
+CLASS:Unseen Seer|LEVEL:7|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Warlock=1|HITPOINTS:6|SKILLSGAINED:24|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=1|HITPOINTS:6|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Psychic Rogue=1|HITPOINTS:6|SKILLSGAINED:10|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ninja=1|HITPOINTS:6|PRESTAT:DEX=1|SKILLSGAINED:10|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swordsage=1|HITPOINTS:8|SKILLSGAINED:10|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Unseen Seer=1|HITPOINTS:4|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;WARLOCK&pipe;1]|ADD:[SPELLCASTER:Arcane|CHOICE:Warlock]|SKILLSGAINED:10|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Unseen Seer=2|HITPOINTS:4|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;WARLOCK&pipe;1]|ADD:[SPELLCASTER:Arcane|CHOICE:Warlock]|SKILLSGAINED:10|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Unseen Seer=3|HITPOINTS:4|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;WARLOCK&pipe;1]|ADD:[SPELLCASTER:Arcane|CHOICE:Warlock]|PRESTAT:DEX=1|SKILLSGAINED:10|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Unseen Seer=4|HITPOINTS:4|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;WARLOCK&pipe;1]|ADD:[SPELLCASTER:Arcane|CHOICE:Warlock]|SKILLSGAINED:10|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Unseen Seer=5|HITPOINTS:4|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;WARLOCK&pipe;1]|ADD:[SPELLCASTER:Arcane|CHOICE:Warlock]|SKILLSGAINED:10|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Unseen Seer=6|HITPOINTS:4|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;WARLOCK&pipe;1]|ADD:[SPELLCASTER:Arcane|CHOICE:Warlock]|SKILLSGAINED:10|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Unseen Seer=7|HITPOINTS:4|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;WARLOCK&pipe;1]|ADD:[SPELLCASTER:Arcane|CHOICE:Warlock]|PRESTAT:DEX=1|SKILLSGAINED:10|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:91000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Monstrous Humanoid]
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Monstrous Humanoid]]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Not Listed]
+TEMPLATESAPPLIED:[NAME:Psionic]
+TEMPLATESAPPLIED:[NAME:First Level ~ Not Listed|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Monstrous Humanoid]
+TEMPLATESAPPLIED:[NAME:Use Fractional BAB]
+TEMPLATESAPPLIED:[NAME:Aarakocra Region ~ Stormhorns Region]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+
+# Character Region
+REGION:Stormhorns
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Unseen Seer|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Unseen Seer|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:9|
+SKILL:Disguise|OUTPUTORDER:10|
+SKILL:Escape Artist|OUTPUTORDER:11|
+SKILL:Forgery|OUTPUTORDER:12|
+SKILL:Gather Information|OUTPUTORDER:13|
+SKILL:Heal|OUTPUTORDER:14|
+SKILL:Hide|OUTPUTORDER:15|CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Unseen Seer|RANKS:8.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warlock|RANKS:2.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Ninja|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Hide (Forested Areas)|OUTPUTORDER:16|
+SKILL:Intimidate|OUTPUTORDER:17|
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:18|
+SKILL:Jump|OUTPUTORDER:19|
+SKILL:Knowledge (The Planes)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:2.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Warlock|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Ninja|RANKS:1.0|COST:2|CLASSSKILL:N]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:21|
+SKILL:Listen|OUTPUTORDER:22|
+SKILL:Literacy|OUTPUTORDER:23|
+SKILL:Move Silently|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Unseen Seer|RANKS:12.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Ninja|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:25|
+SKILL:Ride|OUTPUTORDER:26|
+SKILL:Search|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warlock|RANKS:2.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Ninja|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Unseen Seer|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warlock|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Ninja|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:1.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Unseen Seer|RANKS:7.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warlock|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Ninja|RANKS:1.0|COST:2|CLASSSKILL:N]
+SKILL:Spot|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Unseen Seer|RANKS:7.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warlock|RANKS:2.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Ninja|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:31|
+SKILL:Swim|OUTPUTORDER:32|
+SKILL:Use Rope|OUTPUTORDER:33|
+
+# Character Languages
+LANGUAGE:Auran|LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Elven|LANGUAGE:Orc|LANGUAGE:Sylvan
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Sylvan,Elven,Draconic|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Sylvan,Elven,Draconic|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Sylvan,Elven,Draconic|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Sylvan,Elven,Draconic|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Blend into Shadows|TYPE:General|DESC:You can draw from nearby magical shadow to cloak yourself in darkness.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Eldritch Claws|TYPE:|DESC: As a free action, you can form the energy of your eldritch blast into a set of claws extending almost an entire foot from your hands. While your eldritch claws exist you may make up to two claw attacks as natural weapons. You are automatically proficient with your eldritch claws. On a successful attack with an eldritch claw, you deal your normal amount of unarmed strike damage plus your eldritch blast damage. Once you form your eldritch claws they remain until just before the beginning of your next turn. You cannot use your normal eldritch blast ability while your eldritch claws exist. A monk may not use eldritch claws as part of her flurry of blows.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Empower Spell-Like Ability ~ Sp|APPLIEDTO:Warlock ~ Eldritch Blast|TYPE:General|DESC:&lbracket;Sp version&rbracket; Choose one of the creature's spell-like abilities, subject to the restrictions below. The creature can use that ability as an empowered spell-like ability three times per day (or less, if the ability is normally usable only once or twice per day). When a creature uses an empowered spell-like ability, all variable, numeric effects of the spell-like ability are increased by onehalf. An empowered spell-like ability does half again as much damage as normal, cures half again as many hit points, affects half again as many targets, and so on as appropriate. Saving throws and opposed rolls (such as the one made when a character casts dispel magic) are not affected. Spell-like abilities without random variables are not affected. The creature can only select a spell-like ability duplicating a spell with a level less than or equal to half its caster level (round down) -2. For a summary, see the table in the description of the Quicken Spell-Like Ability feat. For example, a creature that uses its spell-like abilities as a 13th-level caster can only empower spelllike abilities duplicating spells of 4th level or lower. Special&colon; This feat can be taken multiple times. Each time it is taken, the creature can apply it to a different one of its spell-like abilites.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Instinctive Darkness|TYPE:General|DESC:After extensive training, you can negate light instinctively.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Live My Nightmare|TYPE:Spelltouched|DESC:&lbracket;Not Implemented&rbracket; Those who magically pry into your mind become privy to your most frightening dreams.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Maximize Spell-Like Ability|APPLIEDTO:Warlock ~ Eldritch Blast|TYPE:General|DESC:You can use a spell-like ability at its maximum effect.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Meager Fortitude|TYPE:Flaws.SpecialQuality|DESC:You are sickly and weak of stomach.
+USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Aarakocra Region ~ Stormhorns Region|TYPE:Region.FaerunRegion|DESC:Driven from their home in the Star Mounts by a dragon, many aarakocras founded new aeries in the Stormhorns of Cormyr.  &amp;nl; Favored Deities&colon; Aerdrie Faenya
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Cloak of Deception|TYPE:SpecialAttack.Swordsage Martial Maneuver.Shadow Hand.Shadow Hand Discipline.Shadow Hand Maneuver.Shadow Hand Maneuver LVL2.Maneuver.Martial Maneuver.Boost|DESC:The shadows around you seem to surge forward and engulf you. For a brief moment, they render you invisible. When you initiate this maneuver, you turn invisible, as the greater invisibility spell (PH 245). You remain invisible until the end of your current turn. This maneuver is a supernatural ability.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Drain Vitality|TYPE:SpecialAttack.Swordsage Martial Maneuver.Shadow Hand.Shadow Hand Discipline.Shadow Hand Maneuver.Shadow Hand Maneuver LVL2.Maneuver.Martial Maneuver.Strike|DESC:A faint nimbus of sickly gray shadow surrounds your weapon. When you attack, this shadowy aura flows into the wound you inflict, sapping your opponent's strength, vitality, and energy. As part of this maneuver, make a single melee attack. If this attack hits, you deal normal melee damage and the target must make a successful Fortitude save (DC 12 + your Wis modifier) or take 2 points of Constitution damage. A successful save negates the Constitution damage but not the normal melee damage.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Emerald Razor|TYPE:SpecialAttack.Diamond Mind.Diamond Mind Discipline.Swordsage Martial Maneuver.Diamond Mind Maneuver.Maneuver.Martial Maneuver.Strike|DESC:You stare at your enemy, studying his every move. You mentally probe his defenses in search of a weakness. A lesser warrior could spent long minutes pondering this problem, but you see an opening and seize upon it in an instant. Your understanding of combat, your keenly honed mind, and your capability to read your opponents make you a deadly combatant. When you focus your mind, even the most elusive opponent becomes an easy target. As part of this maneuver, make a single melee attack against an opponent. This is a touch attack rather than a standard melee attack. If you hit, you deal normal melee damage.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Mind Over Body|TYPE:SpecialAttack.Diamond Mind.Diamond Mind Discipline.Swordsage Martial Maneuver.Diamond Mind Maneuver.Maneuver.Martial Maneuver.Counter|DESC:Your training and mental toughness allow you to use your focus to overcome physical threats. By focusing your mind, you ignore the effect of a deadly poison or debilitating sickness. Your diligent training and intense mental focus combine to allow you to overcome physical threats with the raw power of your mind. You can use this maneuver any time you would be required to make a Fortitude save. Make a Concentration check instead of the Fortitude save and use the result of that check to determine the save's success. You must use this maneuver before you attempt the Fortitude save. A result of a natural 1 on your Concentration check is not an automatic failure.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Shadow Garrote|TYPE:SpecialAttack.Swordsage Martial Maneuver.Shadow Hand.Shadow Hand Discipline.Shadow Hand Maneuver.Maneuver.Martial Maneuver.Strike|DESC:With a subtle gesture, you carve a slice of shadow from the air around you and cast it toward your foe. It wraps around the creature's neck and squeezes the life from it. As part of this maneuver, you create a strand of shadow that you hurl at an opponent. The strand wraps around the target's throat and chokes it. As part of this maneuver, you make a ranged touch attack against a creature within range. If your attack is successful, your opponent takes 5d6 points of damage. In addition, it must make a successful Fortitude save (DC 13 + your Wis modifier) or become flat-footed until the start of its next turn. This strike has no effect against nonliving creatures, such as constructs and undead. This maneuver is a supernatural ability.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Shadow Jaunt|TYPE:SpecialAttack.Swordsage Martial Maneuver.Shadow Hand.Shadow Hand.Shadow Hand Discipline.Shadow Hand Maneuver.Teleportation.Shadow Hand Maneuver LVL2|DESC:A cloud of shadow energy engulfs you, spins into a tiny mote, and disappears. A moment later, this shadowy cloud appears across the battlefield and expels you from it. As part of this maneuver, you disappear in a cloud of darkness and teleport up to 50 feet away. You must have line of sight and line of effect to your destination. If you attempt to use this maneuver to move into an occupied space, you do not move, and the maneuver is expended but has no effect.
+USERPOOL:Swordsage Maneuver|POOLPOINTS:0.0
+ABILITY:Swordsage Stance|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Assassin's Stance|TYPE:SpecialAttack.Shadow Hand Stance.Swordsage Martial Stance.Stance.Shadow Hand.Shadow Hand Discipline|DESC:As your foe struggles to regain his defensive posture, you line up an exacting strike that hits with superior accuracy and deadly force. A shadow cast by a gap between two armored plates or a crease in a creature's thick hide calls to your weapon, allowing you to strike with deadly accuracy against an unprepared opponent. While you are in this stance, you gain the sneak attack ability, if you do not already have it, which deals an extra 2d6 points of damage. If you already have the sneak attack class feature, your existing sneak attack ability deals an extra 2d6 points of damage. See the rogue class feature (PH 50) for a complete description of sneak attack.
+USERPOOL:Swordsage Stance|POOLPOINTS:0.0
+ABILITY:Swordsage Weapon Focus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage ~ Weapon Focus Shadow Hand|TYPE:SpecialQuality.Extraordinary.Swordsage Weapon Focus|DESC:Grants the Weapon Focus feat for weapons associated with the Shadow Hand discipline (dagger, short sword, sai, siangham, unarmed strike, and spiked chain).
+USERPOOL:Swordsage Weapon Focus|POOLPOINTS:0.0
+ABILITY:Warlock Least Invocation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Invocation ~ Darkness|TYPE:Class Feature.Invocation.Least Invocation.SpecialQuality|DESC:Use darkness as the spell.
+ABILITY:Warlock Least Invocation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Invocation ~ Devil's Sight|TYPE:Class Feature.Invocation.Least Invocation.SpecialQuality|DESC:See normally in darkness and magical darkness.
+ABILITY:Warlock Least Invocation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Invocation ~ See the Unseen|TYPE:Class Feature.Invocation.Least Invocation.SpecialQuality|DESC:Gain see invisibility as the spell and darkvision.
+USERPOOL:Warlock Least Invocation|POOLPOINTS:0.0
+ABILITY:Warlock Lesser Invocation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Invocation ~ Charm|TYPE:Class Feature.Invocation.Lesser Invocation.SpecialQuality|DESC:Cause a single creature to regard you as a friend.
+ABILITY:Warlock Lesser Invocation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Invocation ~ Curse of Despair|TYPE:Class Feature.Invocation.Lesser Invocation.SpecialQuality|DESC:Curse one creature as the bestow curse spell, or hinder their attacks.
+USERPOOL:Warlock Lesser Invocation|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Axe (Throwing)|WEAPON:Battle Gauntlet|WEAPON:Battleaxe|WEAPON:Bite|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Claw|WEAPON:Club|WEAPON:Crossbow (Hand)]
+WEAPONPROF:[WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Darts (Barbed)|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet]
+WEAPONPROF:[WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Halfspear|WEAPON:Hammer (Light)]
+WEAPONPROF:[WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Kama|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)]
+WEAPONPROF:[WEAPON:Maul|WEAPON:Morningstar|WEAPON:NoProfReq|WEAPON:Nunchaku|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Ranseur|WEAPON:Rapier]
+WEAPONPROF:[WEAPON:Sai|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Shuriken|WEAPON:Siangham|WEAPON:Sickle]
+WEAPONPROF:[WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Strike (Unarmed)|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Talon|WEAPON:Trident]
+WEAPONPROF:[WEAPON:Unarmed Strike|WEAPON:Warhammer]
+
+# Character Equipment
+MONEY:68000.00
+EQUIPNAME:Bite (Natural/Primary)|OUTPUTORDER:2|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bite|DATA:KEY=Bite]
+EQUIPNAME:Bracers of the Entangling Blast|OUTPUTORDER:1|COST:2000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Chasuble of Fell Power (Greater)|OUTPUTORDER:0|COST:18000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Claw (Natural/Primary)|OUTPUTORDER:3|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Claw|DATA:KEY=Claw]
+EQUIPNAME:Talon (Natural/Primary)|OUTPUTORDER:4|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Talon|DATA:KEY=Talon]
+EQUIPNAME:Traveler's Outfit|OUTPUTORDER:5|COST:1|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.03|VALUE:Chasuble of Fell Power (Greater)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Arms|ID:0.1.05|VALUE:Bracers of the Entangling Blast|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Clothing|ID:0.1.06|VALUE:Traveler's Outfit|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.1|VALUE:Talon (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.2|VALUE:Bite (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.4|VALUE:Claw (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+TEMPBONUS:FEAT=Assassin's Stance Active|TBTARGET:PC|TBBONUS:VAR&pipe;SNEAKATTACKDICE&pipe;2
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+SPELLBOOK:Warlock Invocation|TYPE:4
+SPELLNAME:Charm|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLNAME:Curse of Despair|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLNAME:Darkness (Invocation)|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLNAME:Devil's Sight|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLNAME:Eldritch Blast|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLNAME:See the Unseen|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLNAME:Detect Psionics|TIMES:1|CLASS:Psychic Rogue|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Psychic Rogue]
+SPELLNAME:Assassin's Stance|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Cloak of Deception|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Drain Vitality|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Emerald Razor|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Mind Over Body|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Shadow Garrote|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Shadow Jaunt|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+KIT:Extra gold
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

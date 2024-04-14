@@ -1,0 +1,268 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Puss In Boots
+TABNAME:
+PLAYERNAME:
+HEIGHT:62
+WEIGHT:165
+AGE:32
+GENDER:Male
+HANDED:Right
+SKINCOLOR:Furry
+EYECOLOR:Green
+HAIRCOLOR:Orange
+HAIRSTYLE:Groomed With Tongue
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:J&colon;\Users\myrlyn\Downloads\Puss-in-Boots_AE4x3.jpg
+PORTRAITTHUMBNAILRECT:410,73,460,460
+
+# Character Attributes
+STAT:STR|SCORE:16
+STAT:DEX|SCORE:21
+STAT:CON|SCORE:16
+STAT:INT|SCORE:18
+STAT:WIS|SCORE:16
+STAT:CHA|SCORE:18
+ALIGN:NG
+RACE:Catfolk
+
+# Character Class(es)
+CLASS:Scout|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Rogue|LEVEL:9|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Psychic Rogue|LEVEL:1|SKILLPOOL:0|SPELLBASE:INT|CANCASTPERDAY:
+CLASS:Cleric (Cloistered Cleric)|LEVEL:1|SKILLPOOL:0
+CLASSABILITIESLEVEL:Scout=1|HITPOINTS:8|SKILLSGAINED:48|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=1|HITPOINTS:6|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Psychic Rogue=1|HITPOINTS:6|SKILLSGAINED:10|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric (Cloistered Cleric)=1|HITPOINTS:6|PRESTAT:DEX=1|SKILLSGAINED:10|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=2|HITPOINTS:6|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=3|HITPOINTS:6|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=4|HITPOINTS:6|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=5|HITPOINTS:6|PRESTAT:DEX=1|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=6|HITPOINTS:6|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=7|HITPOINTS:6|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=8|HITPOINTS:6|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=9|HITPOINTS:6|PRESTAT:DEX=1|SKILLSGAINED:12|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:66000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Humanoid]]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Not Listed]
+TEMPLATESAPPLIED:[NAME:Psionic]
+TEMPLATESAPPLIED:[NAME:RighteousMightDR]
+TEMPLATESAPPLIED:[NAME:First Level ~ Not Listed|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
+TEMPLATESAPPLIED:[NAME:Draconic Creature]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+TEMPLATESAPPLIED:[NAME:Use Fractional BAB]
+TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
+TEMPLATESAPPLIED:[NAME:Combat Expertise trade off]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Rogue|RANKS:12.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:2.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Rogue|RANKS:11.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:9|
+SKILL:Disguise|OUTPUTORDER:10|
+SKILL:Escape Artist|OUTPUTORDER:11|
+SKILL:Forgery|OUTPUTORDER:12|
+SKILL:Gather Information|OUTPUTORDER:13|
+SKILL:Heal|OUTPUTORDER:14|
+SKILL:Hide|OUTPUTORDER:15|
+SKILL:Hide (Forested Areas)|OUTPUTORDER:16|
+SKILL:Intimidate|OUTPUTORDER:17|CLASSBOUGHT:[CLASS:Rogue|RANKS:11.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:2.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:18|
+SKILL:Jump|OUTPUTORDER:19|
+SKILL:Knowledge (Arcana)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Rogue|RANKS:10.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Scout|RANKS:2.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Scout|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Local)|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Rogue|RANKS:8.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:2.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Nature)|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Scout|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Psionics)|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Scout|RANKS:1.0|COST:2|CLASSSKILL:N]
+SKILL:Knowledge (Religion)|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Scout|RANKS:1.0|COST:2|CLASSSKILL:N]
+SKILL:Knowledge (The Planes)|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Scout|RANKS:1.0|COST:2|CLASSSKILL:N]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:27|
+SKILL:Listen|OUTPUTORDER:28|
+SKILL:Literacy|OUTPUTORDER:29|
+SKILL:Move Silently|OUTPUTORDER:30|
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:31|
+SKILL:Perform (Dance)|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Rogue|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:2.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Ride|OUTPUTORDER:33|
+SKILL:Search|OUTPUTORDER:34|
+SKILL:Sense Motive|OUTPUTORDER:35|
+SKILL:Skill Trick|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Rogue|RANKS:7.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Sleight of Hand|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Rogue|RANKS:12.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:2.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:38|
+SKILL:Survival|OUTPUTORDER:39|
+SKILL:Swim|OUTPUTORDER:40|
+SKILL:Tumble|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Rogue|RANKS:10.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Rope|OUTPUTORDER:42|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Feline|LANGUAGE:Gnoll|LANGUAGE:Halfling|LANGUAGE:Sylvan
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan,Gnoll,Halfling,Draconic|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan,Gnoll,Halfling,Draconic|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan,Gnoll,Halfling,Draconic|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan,Gnoll,Halfling,Draconic|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Domain Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Knowledge Devotion|TYPE:Domain|DESC:You can use your knowledge to exploit your foes' weaknesses and overcome their strengths.
+ABILITY:Domain Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Travel Devotion|APPLIEDTO:|TYPE:Domain|DESC:You can move quickly around the battlefield.
+USERPOOL:Domain Feat|POOLPOINTS:0.0
+ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
+USERPOOL:ECL Buy Down|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Expertise|TYPE:General.Fighter.AttackOption.ModifyAC.ChampionOfTheWild.DivineChampion.ShadowThief|DESC:You are trained at using your combat skill for defense as well asoffense.|DESC:You cannot use this feat while raging&pipe;PREVARGT&colon;0,RageTimes
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Panache|TYPE:Tactical.Fighter|DESC:Your glowing personality and sharp performance abilites allow you to navigate the battlefield on sheer chutzpah alone.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Skirmish|TYPE:General.ScoutBonus|DESC:If you move at least 20 feet away from where you were at the start of your turn, your skirmish damage increases by 2d6 and your competence bonus to AC from skirmish improves by 2. Normal&colon; A scout's bonus damage and AC bonus apply if she moves at least 10 feet away from where she was at the start of her turn (see the skirmish class feature in the sidebar on page 25). Special&colon; A scout can select Improved Skirmish as one of her scout bonus feats (Complete Adventurer 13).
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Swift Ambusher|TYPE:General|DESC:Your rogue and scout levels stack for the purpose of determining the extra damage and bonus to Armor Class granted when skirmishing.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Finesse|TYPE:General.Fighter.ChampionOfTheWildTwoWeaponFighting.ShadowThief.ViolentKnowledge|DESC:You are especially skilled at using weapons that can benefit as much from Dexterity as from Strength.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Remove Domain for Devotion Feat II|TYPE:MiscOptions.DomainRemoval
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Rule - Use ECL Level Buy Down|TYPE:MiscOptions
+USERPOOL:Misc Options|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Region ~ None|TYPE:Region
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Acrobatic Backstab|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:If you succeed on a Tumble check t move tthrough an enemy's space, you can treat that enemy as flat-footed against the next melee attack you make against it on your current turn.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Back on Your Feet|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:If you fall prone for any reason, you can stand up as an immediate action without provoking attacks of opportunity.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Corner Perch|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:If you succeed on a Climb check to ascend or descend either a "chimney," where you can brace against opposite walls, or a corner where you can brace against perpendicular walls (PH 69), you can suspend yourself momentarily. Until the end of your next turn, you can use your hands freely for any other purpose (including attacking) without risk of falling. At the end of your next turn, you fall from the wall unless you succeed on a Climb check against the normal DC +5 (made as a move action) or you have succeeded on another Climb check to move up or down the wall as normal.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Group Fake Out|TYPE:ST.SpecialQuality.SkillTrick.Interaction|DESC:You can use Bluff to feint in combat (PH 68) against more than one opponent. Make on Bluff check opposed by separate Sense Motive checks for each opponent. For each opponent after the first that you wish to affect, you take a cumulative -2 penalty on your Bluff check.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Timely Misdirection|TYPE:ST.SpecialQuality.SkillTrick.Interaction|DESC:If you succeed on a Bluff check to feint in combat (PH 68), your opponent can't make any attacks of opportunity against you until the start of its next turn. This effect is in addition to the normal benefits of a successful feint.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Walk the Walls|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:You can move up a wall without making a climb check. Each 5 feet of vertical movement coss you 4 squares of movement, and you must begin and end your turn on a horizontal surface.
+USERPOOL:Skill Tricks|POOLPOINTS:0.0
+ABILITY:Turn Undead|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Turn Undead|TYPE:Class Feature.Cleric Class Feature.Paladin Class Feature.SpecialAttack.Turning.TurnUndead.Turn Undead|DESC:%1/day (turn level %2) (turn damage %3d%4+%5)&pipe;TurnTimesUndead&pipe;TurnLevelUndead&pipe;TurnDiceUndead&pipe;TurnDieSizeUndead&pipe;TurnDamagePlusUndead
+USERPOOL:Turn Undead|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Axe (Throwing)|WEAPON:Battle Gauntlet|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Hand)|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger]
+WEAPONPROF:[WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Darts (Barbed)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Halfspear|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Longspear]
+WEAPONPROF:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:NoProfReq|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Rapier|WEAPON:Sap|WEAPON:Shortbow|WEAPON:Shortspear]
+WEAPONPROF:[WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Strike (Unarmed)|WEAPON:Sword (Short)|WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Amulet of Natural Armor +1 ( AC Bonus (Other) (+1))|OUTPUTORDER:1|COST:4500.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Amulet of Natural Armor +1|DATA:NAME=Amulet of Natural Armor +1 ( AC Bonus (Other) (+1))$EQMOD=BNS_AC_OTHE&pipe;+1]
+EQUIPNAME:Bracers of Armor +6|OUTPUTORDER:2|COST:36000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Coin (Gold)|OUTPUTORDER:11|COST:1|WT:0.02|QUANTITY:678.0|NOTE:
+EQUIPNAME:Dagger +1|OUTPUTORDER:3|COST:2302.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger +1$EQMOD=STEEL.PLUS1W]
+EQUIPNAME:Demolition Crystal (Greater)|OUTPUTORDER:7|COST:6000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Entertainer's Outfit|OUTPUTORDER:8|COST:3|WT:4.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Rapier +1|OUTPUTORDER:6|COST:2320.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier|DATA:NAME=Rapier +1$EQMOD=STEEL.PLUS1W]
+EQUIPNAME:Ring of Protection +2|OUTPUTORDER:5|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Shirt of Ironskin|OUTPUTORDER:9|COST:15000|WT:10.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Skirmisher Boots|OUTPUTORDER:10|COST:3200|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Truedeath Crystal (Greater)|OUTPUTORDER:4|COST:10000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Clothing|ID:0.1.04|VALUE:Entertainer's Outfit|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.05|VALUE:Shirt of Ironskin|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Foot|ID:0.1.08|VALUE:Skirmisher Boots|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Arms|ID:0.1.10|VALUE:Bracers of Armor +6|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.11|VALUE:Ring of Protection +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.12|VALUE:Amulet of Natural Armor +1 ( AC Bonus (Other) (+1))|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Secondary Hand|ID:0.1.15|VALUE:Dagger +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Dagger +1|ID:0.1.15.01|VALUE:Truedeath Crystal (Greater)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.16|VALUE:Coin (Gold)|QUANTITY:678.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.17|VALUE:Rapier +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Rapier +1|ID:0.1.17.01|VALUE:Demolition Crystal (Greater)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:None|DEITYDOMAINS:[DOMAIN:Abyss|DOMAIN:Abyss (1 of 2)|DOMAIN:Air|DOMAIN:Alteration|DOMAIN:Animal|DOMAIN:Arborea|DOMAIN:Arborea (1 of 2)|DOMAIN:Artifice|DOMAIN:Baator|DOMAIN:Baator (1 of 2)|DOMAIN:Balance|DOMAIN:Bestial|DOMAIN:Blightbringer|DOMAIN:Cavern|DOMAIN:Celerity|DOMAIN:Celestia|DOMAIN:Celestia (1 of 2)|DOMAIN:Celestial|DOMAIN:Chaos|DOMAIN:Charm|DOMAIN:City|DOMAIN:Cold|DOMAIN:Commerce|DOMAIN:Community|DOMAIN:Community (Dragonlance)|DOMAIN:Competition|DOMAIN:Corruption|DOMAIN:Courage|DOMAIN:Craft|DOMAIN:Creation|DOMAIN:Darkness|DOMAIN:Death|DOMAIN:Deathbound|DOMAIN:Deathless|DOMAIN:Decay|DOMAIN:Demonic|DOMAIN:Destiny|DOMAIN:Destruction|DOMAIN:Diabolic|DOMAIN:Domination|DOMAIN:Dragon|DOMAIN:Dragon Below|DOMAIN:Dream|DOMAIN:Drow|DOMAIN:Dwarf|DOMAIN:Earth|DOMAIN:Elf|DOMAIN:Elysium|DOMAIN:Elysium (1 of 2)|DOMAIN:Endurance|DOMAIN:Envy|DOMAIN:Evil|DOMAIN:Exorcism|DOMAIN:Family|DOMAIN:Fate|DOMAIN:Feast|DOMAIN:Fey|DOMAIN:Fire|DOMAIN:Force|DOMAIN:Forge|DOMAIN:Ghost|DOMAIN:Glory|DOMAIN:Gluttony|DOMAIN:Gnome|DOMAIN:Good|DOMAIN:Greed|DOMAIN:Hades|DOMAIN:Hades (1 of 2)|DOMAIN:Halfling|DOMAIN:Hatred|DOMAIN:Healing|DOMAIN:Herald|DOMAIN:Hunger|DOMAIN:Illusion|DOMAIN:Incarnum|DOMAIN:Inquisition|DOMAIN:Insight|DOMAIN:Joy|DOMAIN:Knowledge|DOMAIN:Law|DOMAIN:Liberation|DOMAIN:Liberation (Dragonlance)|DOMAIN:Life|DOMAIN:Limbo|DOMAIN:Limbo (1 of 2)|DOMAIN:Luck|DOMAIN:Lust|DOMAIN:Madness|DOMAIN:Magic|DOMAIN:Mechanus|DOMAIN:Mechanus (1 of 2)|DOMAIN:Meditation|DOMAIN:Mentalism|DOMAIN:Mentalism (Dragonlance)|DOMAIN:Metal|DOMAIN:Mind|DOMAIN:Moon|DOMAIN:Mysticism|DOMAIN:Necromancer|DOMAIN:Necromancy|DOMAIN:Nobility|DOMAIN:Ocean|DOMAIN:Oracle|DOMAIN:Orc|DOMAIN:Order of the All-Seeing Eye|DOMAIN:Order of the Consuming Flame|DOMAIN:Order of the Forbidding Wasteland|DOMAIN:Order of the Gentle Rain|DOMAIN:Order of the Impenetrable Crucible|DOMAIN:Order of the Ineffable Mystery|DOMAIN:Order of the Perfect Sculpture|DOMAIN:Order of the Spring Zephyr|DOMAIN:Pact|DOMAIN:Pain|DOMAIN:Passion|DOMAIN:Passion (Dragonlance)|DOMAIN:Pestilence|DOMAIN:Pestilence (Dragonlance)|DOMAIN:Planning|DOMAIN:Plant|DOMAIN:Pleasure|DOMAIN:Portal|DOMAIN:Pride|DOMAIN:Protection|DOMAIN:Purification|DOMAIN:Renewal|DOMAIN:Repose|DOMAIN:Restoration|DOMAIN:Retribution|DOMAIN:Rune|DOMAIN:Sand|DOMAIN:Scalykind|DOMAIN:Shadow|DOMAIN:Slime|DOMAIN:Sloth|DOMAIN:Spell|DOMAIN:Spider|DOMAIN:Spite|DOMAIN:Storm|DOMAIN:Storm (Dragonlance)|DOMAIN:Strength|DOMAIN:Suffering|DOMAIN:Summer|DOMAIN:Summoner|DOMAIN:Sun|DOMAIN:Thirst|DOMAIN:Time|DOMAIN:Trade|DOMAIN:Travel|DOMAIN:Treachery|DOMAIN:Trickery|DOMAIN:Truth|DOMAIN:Tyranny|DOMAIN:Undeath|DOMAIN:Vile Darkness|DOMAIN:War|DOMAIN:Water|DOMAIN:Watery Death|DOMAIN:Wealth|DOMAIN:Weather|DOMAIN:Windstorm|DOMAIN:Winter|DOMAIN:Wrath]|ALIGNALLOW:|DESC:For No Deity Choices|DEITYFAVWEAP:[WEAPON:ALL]|DEITYALIGN:
+DOMAIN:Necromancy|DOMAINGRANTS:Granted Power (Su): Rebuke, command, or bolster undead as an evil Cleric. Use this ability a number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.|SOURCE:[TYPE:PCClass|NAME:Cleric (Cloistered Cleric)|LEVEL:1]
+
+# Character Spells Information
+SPELLBOOK:Prepared Spells|TYPE:2
+SPELLNAME:Entangling Ectoplasm|TIMES:1|CLASS:Psychic Rogue|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Psychic Rogue]
+SPELLNAME:Cure Minor Wounds|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Prepared Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Curse Water|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Deathwatch|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Despoil|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Detect Magic|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Prepared Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Detect Undead|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:DOMAIN|NAME:Necromancy]
+SPELLNAME:Grave Strike|TIMES:2|CLASS:Cleric (Cloistered Cleric)|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Heartache|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Protection from Good|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Reaving Aura|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Sacrificial Skill|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Slash Tongue|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Slow Consumption|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Sorrow|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Summon Holy Symbol|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Prepared Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Summon Undead I|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Tongue of Baalzebul|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLLIST:Cleric (Cloistered Cleric)|CLASS.Cleric (Cloistered Cleric)|CLASS.Cleric
+
+# Character Description/Bio/History
+CHARACTERBIO:Puss is a movement-centered sneak-attack-monkey.&nl;&nl;His primary strategy is to use Travel Devotion to allow him to move his full movement as a Swift action, halving that distance to Tumble, tumbling through an enemy square. &nl;This triggers the *Acrobatic Backstab* Skill Trick, rendering the target Flat-Footed.  &nl;With careful management, this allows him to trigger Skirmish and Improved Skirmish (for the movement distances) and Sneak Attack (because they are Flat-Footed).&nl;This adds +11d6+2 Precision Damage to a Full Attack, with either just the rapier, or dual-wielding, depending on how hard the target is to hit. &nl;&nl;Having traded in his base Turn Undead attempts per day, as well as the full set of Rebuke Undead attempts from the Necromancy Domain, he can activate this trick 13 times/day.  That's close enough to unlimited not to matter in most games.  NOTE&colon;  Any charisma increase beyond the current (22) will end up granting an additional Turn Attempt per 2 points. Since he still only turns undead as a level 1 Cleric, it's kind of moot.  &nl;&nl;Cheesing Acrobatic Backstab/Travel Devotion isn't his only option, tactically. &nl;Speaking Tactically, the Tactical Feat "Combat Panache" grants two useful options for Puss's play style. &nl;1) Fortuitous Tumble - after you are hit, you can make a Bluff check to direct the attacking enemy's next attack at one of their allies in range. &nl;2) Sneering Glower - the round after damaging a foe, you can make an Intimidate check to give them a penalty on attacks equal to your Charisma Bonus *for the rest of the encounter*.&nl;&nl;For just a little extra damage - when Puss makes a Knowledge Check to learn an opponent's weaknesses, he also gains a damage bonus against them for the rest of the encounter - thanks to the Knowledge Devotion feat. &nl;&nl;In addition, Puss has some skill tricks that make for a lot of fun - especially when combined with his movement-centerd style. &nl;&nl;Back On Your Feet - being tripped or knocked prone is no longer a hassle. &nl;&nl;Corner Perch - when climbing in a "Chimney" or corner, you can stop moving and use your hands freely (e.g. engage in combat) without risk of falling.  Arguably this this obviates the fall risk from "walk the walls" below, if you are in a chimney or corner.  &nl;&nl;Timely Misdirection - in addition to the normal effects of a Feint, the target cannot get attacks of opportunity against you for 1 turn.  &nl;&nl;Group Fakeout - you can Feint multiple targets at once. Useful for moving through crowds without getting attacked (when combined with timely misdirection).  I really want to keep reading this as "Group Makeout"&nl;&nl;Walk The Walls - you can move up walls with no climb check.  Vertical movement costs 20' of movement speed per 10' of vertical movemnt, and you must start and end on a horizontal surface.  Or a corner/chimney with coner perch.&nl;&nl;&nl;
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

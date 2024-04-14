@@ -1,0 +1,212 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Big Damn Spider
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:21
+STAT:DEX|SCORE:18
+STAT:CON|SCORE:18
+STAT:INT|SCORE:16
+STAT:WIS|SCORE:16
+STAT:CHA|SCORE:16
+ALIGN:NONE
+RACE:Human
+
+# Character Class(es)
+CLASS:Fighter|LEVEL:5|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Swordsage|LEVEL:1|SKILLPOOL:0|SPELLBASE:WIS|CANCASTPERDAY:
+CLASS:Hulking Hurler|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:War Hulk|LEVEL:5|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:10|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:10|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=3|HITPOINTS:10|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=4|HITPOINTS:10|PRESTAT:STR=1|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=5|HITPOINTS:10|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swordsage=1|HITPOINTS:10|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Hulking Hurler=1|HITPOINTS:10|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:War Hulk=1|HITPOINTS:10|PRESTAT:STR=1|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:War Hulk=2|HITPOINTS:10|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:War Hulk=3|HITPOINTS:10|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:War Hulk=4|HITPOINTS:10|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:War Hulk=5|HITPOINTS:10|PRESTAT:STR=1|SKILLSGAINED:3|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:88000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Humanoid]]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
+TEMPLATESAPPLIED:[NAME:Feral Creature]
+TEMPLATESAPPLIED:[NAME:RaceSubtype ~ Augmented Humanoid]
+TEMPLATESAPPLIED:[NAME:Mineral Warrior]
+TEMPLATESAPPLIED:[NAME:Human Base]
+TEMPLATESAPPLIED:[NAME:Favored Class ~ HIGHESTLEVELCLASS]
+TEMPLATESAPPLIED:[NAME:Human Region ~ Custom Campaign]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Fighter]
+TEMPLATESAPPLIED:[NAME:First Level ~ Fighter|CHOSENTEMPLATE:[NAME:Funds - PC]]
+TEMPLATESAPPLIED:[NAME:Funds - PC]
+TEMPLATESAPPLIED:[NAME:Drider ~ L0HD|CHOSENTEMPLATE:[NAME:Large Drider]]
+TEMPLATESAPPLIED:[NAME:Large Drider|CHOSENTEMPLATE:[NAME:Drider Traits]]
+TEMPLATESAPPLIED:[NAME:Drider Traits]
+TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
+
+# Character Region
+REGION:Custom Campaign
+
+# Character Skills
+SKILL:Climb|CLASSBOUGHT:[CLASS:Fighter|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration|CLASSBOUGHT:[CLASS:War Hulk|RANKS:5.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Hulking Hurler|RANKS:1.5|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Fighter|RANKS:1.5|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Swordsage|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Jump|CLASSBOUGHT:[CLASS:War Hulk|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Swim|CLASSBOUGHT:[CLASS:Fighter|RANKS:5.0|COST:1|CLASSSKILL:Y]
+
+# Character Languages
+LANGUAGE:Common
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
+USERPOOL:ECL Buy Down|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Brutal Throw|TYPE:General.Fighter|DESC:You have learned how to hurl weapons to deadly effect.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Bull Rush|TYPE:General.Fighter.AttackOption.ViolentKnowledge|DESC:You know how to push opponents back.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Knockback|TYPE:General.Fighter|DESC:By putting your bulk behind a blow, you can push your enemy backward.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Monkey Grip|TYPE:General
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Throw|TYPE:General.Fighter|DESC:You have learned how to hurl weapons to deadly effect.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Shock Trooper|TYPE:Tactical.Fighter
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Cleave|TYPE:General.Fighter.AttackOption.ViolentKnowledge|DESC:You can follow through with powerful blows.
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Point Blank Shot|TYPE:General.Fighter.AttackOption.ChampionOfTheWildArchery.ViolentKnowledge|DESC:You are skilled at making well-placed shots with ranged weapons at close range.
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:General.Fighter.AttackOption.ViolentKnowledge|DESC:You can make exceptionally powerful melee attacks.
+USERPOOL:Fighter Feat|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:,|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Internal|KEY:Human Ethnicity ~ None|TYPE:Human Ethnicity.Faerun Ethnicity|DESC:You have no Ethnicity.
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Rule - Use ECL Level Buy Down|TYPE:MiscOptions
+USERPOOL:Misc Options|POOLPOINTS:0.0
+ABILITY:Race Base|TYPE:NORMAL|CATEGORY:Internal|KEY:Human / PH|TYPE:Race Base|DESC:Default Player's Handbook version of the race
+USERPOOL:Race Base|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Human Region ~ Custom Campaign|TYPE:Region.FaerunRegion|DESC:Use for default racial features when loading sources that use Regions
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Maneuver ~ Irresistible Mountain Strike|TYPE:SpecialAttack.Swordsage Martial Maneuver.Stone Dragon.Stone Dragon Maneuver.Maneuver.Martial Maneuver.Strike.Stone Dragon Discipline|DESC:You slam your weapon into your foe with irresistible force. He can barely move as he struggles to marshal his defenses against you. Your mighty attack causes your opponent to stagger aimlessly for a few key moments, leaving him unable to act fully on his next turn. As part of this maneuver, you make a single melee attack. This attack deals an extra 4d6 points of damage. A creature hit by this strike must also make a successful Fortitude save (DC 16 + your Str modifier) or be unable to take a standard action for 1 round. It can otherwise act as normal. A creature that successfully saves still takes the extra damage. This maneuver functions only against opponents standing on the ground. A flying creature or a levitating target need not save against the action loss effect, but still takes the extra damage.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Maneuver ~ Mountain Avalanche|TYPE:SpecialAttack.Swordsage Martial Maneuver.Stone Dragon.Stone Dragon Maneuver.Maneuver.Martial Maneuver.Strike.Stone Dragon Discipline|DESC:You wade through your enemies like a stone giant rampaging through a mob of orcs. You crush them underfoot and drive them before you, leaving a trail of the dead in your wake. As part of this maneuver, you can move up to double your speed and trample your opponents. You can enter the space of any creature of your size category or smaller. If you enter and occupy all of the space occupied by such a creature, it takes damage equal to 2d6 + 1-1/2 times your Str bonus (if any). You can deal trampling damage to a creature only once per round, no matter how many times you move into or through its space. You must move into every square a creature occupies to trample it. If you move over only part of the space a creature occupies (for example, you are a Large creature moving over half the space of a Large opponent), it can either attempt an attack of opportunity against you or it can attempt a Reflex save (DC 15 + your Str modifier) to avoid half of your trampling damage.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Maneuver ~ Mountain Hammer|TYPE:SpecialAttack.Swordsage Martial Maneuver.Stone Dragon.Stone Dragon Maneuver.Maneuver.Martial Maneuver.Strike.Stone Dragon Discipline|DESC:Like a falling avalanche, you strike with the weight and fury of the mountain. As part of this maneuver, you make a single melee attack. This attack deals an extra 2d6 points of damage and automatically overcomes damage reduction and hardness.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Death Mark|TYPE:SpecialAttack.Desert Wind.Desert Wind Discipline.Swordsage Martial Maneuver.Desert Wind Maneuver.Maneuver.Martial Maneuver.Strike|DESC:As your weapon strikes your foe, his body convulses as waves of flame run down your blade into his body. The fire causes him to briefly glow with a brilliant internal fire before the flames erupt from his body in a terrible explosion. When you use the strike, you channel overwhelming fiery energy into the body of your foe. In addition to dealing normal melee damage with your attack, you cause fire to erupt from your enemy's body in a spread. The radius of the spread is determined by the size of the target creature, as indicated on the table below. All creatures in the area, including your enemy, take 6d6 points of fire damage, with a Reflex save (DC 13 + your Wis modifier) for half. This radius is centered on the creature's position. You have immunity to the fire damage from your own death mark. This maneuver is a supernatural ability.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Rapid Counter|TYPE:SpecialAttack.Diamond Mind.Diamond Mind Discipline.Swordsage Martial Maneuver.Diamond Mind Maneuver.Maneuver.Martial Maneuver.Counter|DESC:You lash out, your weapon a blur, hammering at the slightest gap that appears in your foe's defenses. This maneuver allows you to make a free attack against a reckless enemy. When a foe provokes an attack of opportunity from you, you can initiate this maneuver. As part of this maneuver, you make an immediate melee attack against the foe that provoked the attack of opportunity. This attack does not replace the normal attack of opportunity you receive. You can also use this maneuver before making your normal attack of opportunity when an opponent provokes (or vice versa). The attack granted by the maneuver is not an extra attack of opportunity. You can initiate this maneuver before, after, in addition to, or instead of making an attack of opportunity against an opponent (thus possibly saving your attack of opportunity to use against another enemy later in the round).
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Searing Charge|TYPE:SpecialAttack.Desert Wind.Desert Wind Discipline.Swordsage Martial Maneuver.Desert Wind Maneuver.Maneuver.Martial Maneuver.Strike|DESC:You rush through the air toward your foe, fire streaming in your wake. As part of this maneuver, you must charge an opponent. You gain the ability to f ly at your base land speed with perfect maneuverability while charging. Resolve your charge attack normally. On a successful hit, you deal an extra 5d6 points of fire damage to the target of your charge. This maneuver is a supernatural ability.
+USERPOOL:Swordsage Maneuver|POOLPOINTS:0.0
+ABILITY:Swordsage Stance|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Fiery Assault|TYPE:SpecialAttack.Desert Wind.Desert Wind Discipline.Desert Wind Stance.Swordsage Martial Stance.Stance|DESC:Fire dances along your arms and across your weapon, lending burning energy to every attack you make. While you are in this stance, every melee attack you make deals an extra 1d6 points of fire damage. This stance is a supernatural ability.
+USERPOOL:Swordsage Stance|POOLPOINTS:0.0
+ABILITY:Swordsage Weapon Focus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage ~ Weapon Focus Diamond Mind|TYPE:SpecialQuality.Extraordinary.Swordsage Weapon Focus|DESC:Grants the Weapon Focus feat for weapons associated with the Diamond Mind discipline (rapier, shortspear, katana, and trident).
+USERPOOL:Swordsage Weapon Focus|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Axe (Throwing)|WEAPON:Bash|WEAPON:Battle Gauntlet|WEAPON:Battleaxe|WEAPON:Bite|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Claws|WEAPON:Club]
+WEAPONPROF:[WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dart Thruster|WEAPON:Darts (Barbed)|WEAPON:Falchion|WEAPON:Flail]
+WEAPONPROF:[WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Goblin Stick|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme]
+WEAPONPROF:[WEAPON:Halberd|WEAPON:Halfspear|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Ice Axe|WEAPON:Javelin|WEAPON:Katana|WEAPON:Kukri|WEAPON:Lance|WEAPON:Lance (Flight)]
+WEAPONPROF:[WEAPON:Lance (Heavy)|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Morningstar|WEAPON:Pick (Dire)]
+WEAPONPROF:[WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Saber|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe]
+WEAPONPROF:[WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Strike (Unarmed)]
+WEAPONPROF:[WEAPON:Sword (Bastard)|WEAPON:Sword (Cutlass)|WEAPON:Sword (Saber)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Truncheon|WEAPON:Unarmed Strike|WEAPON:Wakizashi|WEAPON:Warhammer|WEAPON:Warmace]
+
+# Character Equipment
+MONEY:7050.00
+EQUIPNAME:Amulet of Natural Armor +4|OUTPUTORDER:1|COST:32000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Bite (Natural/Primary)|OUTPUTORDER:3|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bite|DATA:KEY=Bite]
+EQUIPNAME:Claws (Natural/Primary)|OUTPUTORDER:4|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Claws|DATA:KEY=Claws]
+EQUIPNAME:Full Plate +5 (Large/Called/Quickness/Glamered)|OUTPUTORDER:5|COST:37850.0|WT:100.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Full Plate|DATA:NAME=Full Plate +5 (Large/Called/Quickness/Glamered)$SIZE=L$EQMOD=STEEL.PLUS5A.Glamered.Armor ~ Called.Armor ~ Quickness]
+EQUIPNAME:Greatsword +1 (Large/Adamantine/Sizing)|OUTPUTORDER:2|COST:11100.0|WT:16.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Greatsword|DATA:NAME=Greatsword +1 (Large/Adamantine/Sizing)$SIZE=L$EQMOD=PLUS1W.Sizing.Adamantine (Weapon)]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.04|VALUE:Greatsword +1 (Large/Adamantine/Sizing)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Body|ID:0.1.05|VALUE:Full Plate +5 (Large/Called/Quickness/Glamered)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.06|VALUE:Amulet of Natural Armor +4|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.2|VALUE:Bite (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.3|VALUE:Claws (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+SPELLNAME:Death Mark|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Fiery Assault|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Irresistible Mountain Strike|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Mountain Avalanche|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Mountain Hammer|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Rapid Counter|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Searing Charge|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:Greatsword can be sized up to Huge and wielded for 4d6 damage at a -2 penalty to hit.  
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+
