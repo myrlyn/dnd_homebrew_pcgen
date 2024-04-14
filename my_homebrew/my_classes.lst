@@ -1,0 +1,166 @@
+# CVS $Revision$ $Author$ -- Fri Oct 19 20:16:09 2012 -- reformated by prettylst.pl v1.39 (build 15052)
+SOURCELONG:My Campaign	SOURCESHORT:My	SOURCEWEB:http://www.mywebsite.com	SOURCEDATE:2008-01
+
+#insert your data here
+
+#Every line that starts with a '#' is a comment. You may want to remove these comments, if you use this file to set up
+#your own data. Remember not to put the '#' at the start of your own data, as PCGen would see it as a comment only.
+#
+#When Running PCGen, you can select "Help > Documentation > List Files > List File Tag Index > Class File tags" to find
+#out how the tags in the classes file work. Some of the tags used here are global tags. You will see an alphabetical
+#listing of all PCGen tags to the left of the documentation window. You can find the global tags there as well.
+#
+#
+#
+#
+#####Example
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page				Save checks bonus												Combat bonus
+#CLASS:Rogue		HD:6		TYPE:Base.PC	ABB:Rog		MAXLEVEL:20	SOURCEPAGE:ClassesII	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Fortitude,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0		BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1
+# Class Name	Skill Pts/Lvl	Class Skill
+#CLASS:Rogue		STARTSKILLPTS:8	CSKILL:Appraise|Balance|Bluff|Climb|TYPE.Craft|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Intimidate|Jump|Knowledge (Local)|Listen|Move Silently|Open Lock|TYPE.Perform|TYPE.Profession|Search|Sense Motive|Sleight of Hand|Spot|Swim|Tumble|Use Magic Device|Use Rope
+###Block:Proficiencies
+#1	ABILITY:Special Ability|AUTOMATIC|Rogue Weapon Proficiencies|All Automatic Proficiencies	ABILITY:FEAT|AUTOMATIC|Simple Weapon Proficiency
+#1																ABILITY:FEAT|AUTOMATIC|Armor Proficiency (Light)
+###Block: Level progression
+#1											BONUS:VAR|RogueSneakAttackLVL|CL												ABILITY:Special Ability|AUTOMATIC|Trapfinding|Sneak Attack|Rogue Sneak Attack
+#2																												ABILITY:Special Ability|AUTOMATIC|Evasion
+#3											BONUS:VAR|RogueTrapSenseLVL|CL												ABILITY:Special Ability|AUTOMATIC|Trap Sense Ability|Rogue Trap Sense
+#4											BONUS:VAR|UncannyDodgeFlankingLevel|CL|TYPE=EachClass.REPLACE	BONUS:VAR|UncannyDodgeLevel|CL/4	ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge ~ Base
+#10	BONUS:ABILITYPOOL|Rogue Special Ability|min(4,(CL-7)/3)
+
+#####
+#Class files are where each class is listed, given it's important information for the correct output and functioning of the
+#class. Each class has 2 components to it: The main class line and the class level line. The class line begins with CLASS
+#and the class level line begins with a level # (0, 1, 2, etc).
+#
+#The CLASS tag tells PCGen the class name and sets up the relationships with skills and spells. This line can be entered
+#multiple times in a single class entry (appearing on separate lines) for purposes of making the lines easier to read in an
+#editor (so as to not have to scroll forever to reach the end of the class line). THIS MUST BE THE FIRST TAG!!!
+#
+#The HD tag sets the Hit Die used to determine hit points at each level gained.
+#
+#The TYPE tag is used within the filters of PCGen to sort the classes by their respective types (makes it easier to find a
+#specific class).
+#
+#The ABB tag can be used to hold a 3-5 letter abbreviation of the class name.
+#
+#The MAXLEVEL tag sets the maximum number of levels of the class you can add to a character. You can use MAXLEVEL:NOLIMIT in addition to a number.
+#
+#The SOURCEPAGE tag can be used to hold a reference to where you can find the class. This will be displayed in PCGen. Example: SOURCEPAGE:p.5
+#
+#The AUTO:LANG tag is holding a list of languages that the character automatically gains.
+#
+#The BONUS tags are a group of similar tags, that grant some form of Bonus to another already existing tag. To read a description
+#of them, look in the List File Tag Index under the topic "Bonus tags".
+#
+#The STARTSKILLPTS tag determines how many skill points a character gains per level.
+#
+#The CSKILL tag grants the listed skills as class skills. When used in a classes.lst, it grants the class skills only to the
+#class it is actually in.
+#
+#The AUTO:FEAT tag holds a list of feats that the class automatically gets.
+#
+#The ABILITY tag will grant the listed abilities to the character (This ties to the ABILITY FILE)
+#
+#The SAB tag is holding a text that will be displayed as Special Ability on the output sheet. (We use ABILITY these days)
+#
+#The ADD:FEAT tag will give the character a choice of one from the feats listed in the parentheses. If the feat being added
+#has a chooser ADD:FEAT is the only tag which will activate it (VFEAT, MFEAT and FEATAUTO will not). Besides of ADD:FEAT, there
+#is a multitude of ADD tags in PCGen. You can look them up in the List File Tag Index under the topic "ADD Tags".
+CLASS:Aberration.COPY=DriderTemplate
+CLASS:DriderTemplate.MOD	OUTPUTNAME:Aberration	CSKILL:Climb|Concentration|Hide|Listen|Move Silently|Spellcraft|Spot			
+
+
+
+
+
+
+
+# Class Name	Hit Dice	Type			Class Type			Abbreviation	Source Page		Define			Combat bonus															Modify VAR																			Bonus
+CLASS:Avenger	HD:6		TYPE:PC.Prestige	FACT:ClassType|Prestige	FACT:Abb|Asn		SOURCEPAGE:p.180	DEFINE:AvengerLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:VAR|AvengerLVL|CL	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Fortitude,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
+# Class Name	Required AL		Required Skill
+CLASS:Avenger	PREALIGN:LG,NG,CG	PRESKILL:3,Disguise=4,Hide=8,Move Silently=8
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Avenger	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE=Craft|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Intimidate|Jump|Listen|Move Silently|Open Lock|Search|Sense Motive|Sleight of Hand|Spot|Swim|Tumble|Use Magic Device|Use Rope
+# Class Name	Spell Stat		Spell Type		Memorize	Caster level
+CLASS:Avenger	FACT:SpellType|Arcane	SPELLLIST:1|Assassin
+CLASS:Avenger	SPELLSTAT:INT	MEMORIZE:NO	BONUS:CASTERLEVEL|Avenger|Caster_Level_Avenger	DEFINE:Caster_Level_Avenger|0	BONUS:VAR|Caster_Level_Avenger|CL+Caster_Level_Bonus	DEFINE:CasterLevelBLAvenger|0	BONUS:VAR|CasterLevelBLAvenger|charbonusto("PCLEVEL","Avenger")	BONUS:VAR|Caster_Level_Highest__Arcane|Caster_Level_Avenger+CasterLevelBLAvenger|TYPE=Base
+###Block:
+1	ABILITY:Avenger Class Feature|AUTOMATIC|Avenger ~ Weapon and Armor Proficiency
+1	ABILITY:Avenger Class Feature|AUTOMATIC|Avenger ~ Death Attack
+1	ABILITY:Avenger Class Feature|AUTOMATIC|Avenger ~ Poison Use
+1	ABILITY:Avenger Class Feature|AUTOMATIC|Avenger ~ Sneak Attack
+1	ABILITY:Avenger Class Feature|AUTOMATIC|Avenger ~ Spells
+2	ABILITY:Avenger Class Feature|AUTOMATIC|Avenger ~ Uncanny Dodge
+2	ABILITY:Avenger Class Feature|AUTOMATIC|Avenger ~ Save Bonus against Poison
+5	ABILITY:Avenger Class Feature|AUTOMATIC|Avenger ~ Improved Uncanny Dodge
+8	ABILITY:Avenger Class Feature|AUTOMATIC|Avenger ~ Hide in Plain Sight
+###Block:
+1	CAST:0,0		KNOWN:0,2
+2	CAST:0,1		KNOWN:0,3
+3	CAST:0,2,0		KNOWN:0,3,2
+4	CAST:0,3,1		KNOWN:0,4,3
+5	CAST:0,3,2,0	KNOWN:0,4,3,2
+6	CAST:0,3,3,1	KNOWN:0,4,4,3
+7	CAST:0,3,3,2,0	KNOWN:0,4,4,3,2
+8	CAST:0,3,3,3,1	KNOWN:0,4,4,4,3
+9	CAST:0,3,3,3,2	KNOWN:0,4,4,4,3
+10	CAST:0,3,3,3,3	KNOWN:0,4,4,4,4
+###Block:
+11	PREPCLEVEL:MIN=20
+
+CLASS:War Hulk		HD:12	TYPE:PC.Prestige	FACT:ClassType|Prestige	FACT:Abb|WrHlk	SOURCEPAGE:Miniature's Handbook		DEFINE:WarHulkLevel|0	BONUS:VAR|WarHulkLevel|CL	
+CLASS:War Hulk	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
+CLASS:War Hulk	STARTSKILLPTS:2	CSKILL:Climb|Intimidate|Jump
+CLASS:War Hulk	PREATT:5	PRESIZEGTEQ:L	PREABILITY:1,CATEGORY=Feat,Cleave
+1	ABILITY:War Hulk Class Feature|AUTOMATIC|War Hulk ~ Ability Boost		ABILITY:War Hulk Class Feature|AUTOMATIC|War Hulk ~ No Time To Think
+2	ABILITY:War Hulk Class Feature|AUTOMATIC|War Hulk ~ Great Swing
+3	ABILITY:War Hulk Class Feature|AUTOMATIC|War Hulk ~ Mighty Rock Throwing
+4	ABILITY:War Hulk Class Feature|AUTOMATIC|War Hulk ~ Mighty Swing
+6	ABILITY:War Hulk Class Feature|AUTOMATIC|War Hulk ~ Sweeping Boulder
+8	ABILITY:War Hulk Class Feature|AUTOMATIC|War Hulk ~ Massive Sweeping Boulder	ABILITY:War Hulk Class Feature|AUTOMATIC|War Hulk ~ Tougness
+9	ABILITY:War Hulk Class Feature|AUTOMATIC|War Hulk ~ Tougness
+10	ABILITY:War Hulk Class Feature|AUTOMATIC|War Hulk ~ Massive Swing
+11	PREPCLEVEL:MIN=20
+
+#Fractional BAB Fixes
+
+CLASS:Beguiler.MOD	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1
+
+
+#Fix Fractional BAB, Fix spell progression - text trumps table, text says spells every level
+CLASS:Rainbow Servant.MOD	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1
+1	ADD:SPELLCASTER|Arcane
+4	ADD:SPELLCASTER|Arcane
+7	ADD:SPELLCASTER|Arcane
+10	ADD:SPELLCASTER|Arcane
+11:REPEATLEVEL:1	ADD:SPELLCASTER|Arcane		ADD:SPELLCASTER|Arcane	PREPCLEVEL:MIN=20
+CLASS:Abjurant Champion.MOD	BONUS:VAR|ClassBABFull|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1
+
+CLASS:Dragonfire Adept.MOD		ABILITY:FEAT|AUTOMATIC|Simple Weapon Proficiency
+1	ABILITY:Ability Focus|AUTOMATIC|Dragonfire Adept ~ Breath Weapon Ability Focus		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies
+
+
+CLASS:Sorcerer.COPY=Draconic Passage Sorcerer
+1	ABILITY:Sorcerer Class Feature|AUTOMATIC|Sorcerer ~ Spells
+CLASS:Draconic Passage Sorcerer.MOD		SPELLLIST:1|Sorcerer	SERVESAS:CLASS|Sorcerer	HD:1	TYPE:Monster	STARTSKILLPTS:0		
+#1	SAB:Draconic Passage Sorcerer
+
+
+CLASS:Psychic Rogue.MOD		ABILITY:Special Ability|AUTOMATIC|Sneak Attack
+
+
+
+
+
+
+CLASS:Battle Dancer		HD:8		TYPE:Base.PC.NonCaster	FACT:ClassType|PC	FACT:Abb|BDr	SOURCEPAGE:p.39	DEFINE:BattleDancerLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude,BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:VAR|BattleDancerLVL|CL	
+
+# Class Name	Required AL
+CLASS:Battle Dancer		PREVAREQ:BattleDancerAlignmentNotMet,0	
+
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Battle Dancer		STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE=Craft|Diplomacy|Escape Artist|Hide|Jump|Knowledge (Arcana)|Knowledge (Religion)|Listen|Move Silently|TYPE=Perform|TYPE=Profession|Sense Motive|Spot|Swim|Tumble
+###Block
+1	ABILITY:Class|AUTOMATIC|Battle Dancer
