@@ -155,7 +155,7 @@ CLASS:Psychic Rogue.MOD		ABILITY:Special Ability|AUTOMATIC|Sneak Attack
 
 
 
-CLASS:Battle Dancer		HD:8		TYPE:Base.PC.NonCaster	FACT:ClassType|PC	FACT:Abb|BDr	SOURCEPAGE:p.39	DEFINE:BattleDancerLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude,BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:VAR|BattleDancerLVL|CL	
+CLASS:Battle Dancer		HD:8		TYPE:Base.PC.NonCaster	FACT:ClassType|PC	FACT:Abb|BDr	SOURCEPAGE:Dragon Compendium	DEFINE:BattleDancerLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude,BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:VAR|BattleDancerLVL|CL	
 
 # Class Name	Required AL
 CLASS:Battle Dancer		PREVAREQ:BattleDancerAlignmentNotMet,0	

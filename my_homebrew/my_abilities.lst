@@ -180,6 +180,57 @@ Unarmed Strike			KEY:Battle Dancer ~ Unarmed Strike			SOURCEPAGE:p.41	CATEGORY:I
 
 
 
-Battle Dancer ~ Unarmed Damage	CATEGORY:Internal		DEFINE:MonkUnarmedDamageProgression|0	DEFINE:MonkUnarmedDamageLVL|0	ABILITY:Internal|AUTOMATIC|Monk Unarmed Damage LVL 1|PREVAREQ:MonkUnarmedDamageProgression,0	ABILITY:Internal|AUTOMATIC|Monk Unarmed Damage LVL 4|PREVAREQ:MonkUnarmedDamageProgression,1	ABILITY:Internal|AUTOMATIC|Monk Unarmed Damage LVL 8|PREVAREQ:MonkUnarmedDamageProgression,2	ABILITY:Internal|AUTOMATIC|Monk Unarmed Damage LVL 12|PREVAREQ:MonkUnarmedDamageProgression,3	ABILITY:Internal|AUTOMATIC|Monk Unarmed Damage LVL 16|PREVAREQ:MonkUnarmedDamageProgression,4	ABILITY:Internal|AUTOMATIC|Monk Unarmed Damage LVL 20|PREVAREQ:MonkUnarmedDamageProgression,5	BONUS:VAR|MonkUnarmedDamageLVL|BattleDancerLVL	BONUS:VAR|MonkUnarmedDamageProgression|(min(5,MonkUnarmedDamageLVL/4))
+Battle Dancer ~ Unarmed Damage	CATEGORY:Internal		DEFINE:MonkUnarmedDamageProgression|0	DEFINE:MonkUnarmedDamageLVL|0	ABILITY:Internal|AUTOMATIC|Monk Unarmed Damage LVL 1|PREVAREQ:MonkUnarmedDamageProgression,0	ABILITY:Internal|AUTOMATIC|Monk Unarmed Damage LVL 4|PREVAREQ:MonkUnarmedDamageProgression,1	ABILITY:Internal|AUTOMATIC|Monk Unarmed Damage LVL 8|PREVAREQ:MonkUnarmedDamageProgression,2	ABILITY:Internal|AUTOMATIC|Monk Unarmed Damage LVL 12|PREVAREQ:MonkUnarmedDamageProgression,3	ABILITY:Internal|AUTOMATIC|Monk Unarmed Damage LVL 16|PREVAREQ:MonkUnarmedDamageProgression,4	ABILITY:Internal|AUTOMATIC|Monk Unarmed Damage LVL 20|PREVARGTEQ:MonkUnarmedDamageProgression,5	BONUS:VAR|MonkUnarmedDamageLVL|BattleDancerLVL	BONUS:VAR|MonkUnarmedDamageProgression|(min(5,MonkUnarmedDamageLVL/4))
 
-AC Bonus				KEY:Battle Dancer ~ AC Bonus				SOURCEPAGE:p.40	CATEGORY:Special Ability	TYPE:Extraordinary.Class Feature.Battle Dancer Class Feature.SpecialQuality											DEFINE:MonkACLVL|0	DEFINE:BattleDancerACBonus|0	DEFINE:MonkStatBonus|0										DESC:A Battle Dancer is highly trained at dodging blows, and she has a sixth sense that lets her avoid even unanticipated attacks. When unarmored and unencumbered, the Battle Dancer adds her Wisdom bonus (if any) to her AC. In addition, a Battle Dancer gains a +1 bonus to AC at 5th level. This bonus increases by 1 for every five BattleDancer levels thereafter (+2 at 10th, +3 at 15th, and +4 at 20th level). These bonuses to AC apply even against touch attacks or when the BattleDancer is flat-footed. She loses these bonuses when she is immobilized or helpless, when she wears any armor, when she carries a shield, or when she carries a medium or heavy load.																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																							BONUS:COMBAT|AC|MonkACBonus|PREVAREQ:ENCUMBERANCE,0,var("COUNT[EQTYPE.ARMOR.EQUIPPED]"),0																					BONUS:VAR|MonkACBonus|MonkStatBonus+(MonkACLVL/5)	BONUS:VAR|MonkStatBonus|max(CHA,0)	BONUS:VAR|MonkACLVL|MonkLVL
+AC Bonus				KEY:Battle Dancer ~ AC Bonus				SOURCEPAGE:p.40	CATEGORY:Special Ability	TYPE:Extraordinary.Class Feature.Battle Dancer Class Feature.SpecialQuality											DEFINE:MonkACLVL|0	DEFINE:MonkACBonus|0	DEFINE:MonkStatBonus|0										DESC:A Battle Dancer is highly trained at dodging blows, and she has a sixth sense that lets her avoid even unanticipated attacks. When unarmored and unencumbered, the Battle Dancer adds her Charisma bonus (if any) to her AC. In addition, a Battle Dancer gains a +1 bonus to AC at 5th level. This bonus increases by 1 for every five BattleDancer levels thereafter (+2 at 10th, +3 at 15th, and +4 at 20th level). These bonuses to AC apply even against touch attacks or when the BattleDancer is flat-footed. She loses these bonuses when she is immobilized or helpless, when she wears any armor, when she carries a shield, or when she carries a medium or heavy load. BONUS +%1, LEVEL = %2, STAT = %3|MonkACBonus|MonkACLVL|MonkStatBonus																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																								BONUS:COMBAT|AC|MonkACBonus|PREVAREQ:ENCUMBERANCE,0,var("COUNT[EQTYPE.ARMOR.EQUIPPED]"),0																							BONUS:VAR|MonkACBonus|MonkStatBonus+(MonkACLVL/5)	BONUS:VAR|MonkStatBonus|max(CHA,0)	BONUS:VAR|MonkACLVL|classlevel("Battle Dancer")
+
+
+
+
+
+Circle Of Death		KEY:Evolved Undead ~ Circle Of Death		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability.SpecialAttacj	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Circle of Death,16+CHA
+
+
+Cloudkill		KEY:Evolved Undead ~ Cloudkill		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Cloudkill,15+CHA
+
+
+
+Cone of Cold		KEY:Evolved Undead ~ Cone of Cold		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Cone of Cold,14+CHA
+
+
+
+Confusion		KEY:Evolved Undead ~ Confusion		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Confusion,14+CHA
+
+
+
+Contagion		KEY:Evolved Undead ~ Contagion		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Contagion,14+CHA
+
+
+
+Creeping Doom		KEY:Evolved Undead ~ Creeping Doom		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Creeping Doom,17+CHA
+
+
+
+Dispel Magic (Greater)		KEY:Evolved Undead ~ Dispel Magic (Greater)		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Dispel Magic (Greater),16+CHA
+
+
+
+Invisibility (Greater)		KEY:Evolved Undead ~ Invisibility (Greater)		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Invisibility (Greater),14+CHA
+
+
+
+Haste		KEY:Evolved Undead ~ Haste		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Haste,13+CHA
+
+
+
+Hold Monster		KEY:Evolved Undead ~ Hold Monster		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Hold Monster,16+CHA
+
+
+
+See Invisibility		KEY:Evolved Undead ~ See Invisibility		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|See Invisibility,12+CHA
+
+
+
+Unholy Blight		KEY:Evolved Undead ~ Unholy Blight		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Unholy Blight,16+CHA
+
+

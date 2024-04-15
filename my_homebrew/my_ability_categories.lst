@@ -48,3 +48,7 @@ ABILITYCATEGORY:Battle Dancer Class Feature		VISIBLE:QUALIFY	EDITABLE:YES	EDITPO
 
 ABILITYCATEGORY:Battle Dancer Stike Choice		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:Battle Dancer Class Strike Choice		PLURAL:Battle Dancer Stike Choices		DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Battle Dancer Class Selection	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO						CATEGORY:Internal	TYPE:Battle Dancer Class Selection	PLURAL:Battle Dancer Class Selection		DISPLAYLOCATION:Class Features
+
+
+
+ABILITYCATEGORY:Evolved Undead Spell-like Ability		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES						CATEGORY:Special Ability	TYPE:Evolved Undead Spell-like Ability												PLURAL:Evolved Undead Spell-like Ability		DISPLAYLOCATION:Race Traits

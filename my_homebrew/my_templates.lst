@@ -105,3 +105,5 @@ Winged	SOURCEPAGE:Savage Species 138	LEVELADJUSTMENT:2	BONUS:STAT|DEX|4	BONUS:ST
 Greater Rite Of Draconic Passage	SAB:Testing Bonus Sorcerer Level	LEVELADJUSTMENT:-1	ADDLEVEL:Draconic Passage Sorcerer|1	TEMPBONUS:PC|HP|CURRENTMAX|0 - 4 - CON
 
 Assign Subtype ~ Beholder		RACESUBTYPE:Beholder
+
+Evolved Undead.MOD		BONUS:ABILITYPOOL|Evolved Undead Spell-like Ability|1

@@ -81,12 +81,12 @@ EXPERIENCETABLE:Default
 
 # Character Templates
 TEMPLATESAPPLIED:[NAME:Base Race Type]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Bard]
+TEMPLATESAPPLIED:[NAME:First Level ~ Bard|CHOSENTEMPLATE:[NAME:Funds - None]]
 TEMPLATESAPPLIED:[NAME:Necropolitan]
 TEMPLATESAPPLIED:[NAME:Non-Ability ~ Constitution]
 TEMPLATESAPPLIED:[NAME:Phrenic|CHOSENTEMPLATE:[NAME:Psionic]]
 TEMPLATESAPPLIED:[NAME:Psionic]
-TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Bard]
-TEMPLATESAPPLIED:[NAME:First Level ~ Bard|CHOSENTEMPLATE:[NAME:Funds - None]]
 TEMPLATESAPPLIED:[NAME:Funds - None]
 TEMPLATESAPPLIED:[NAME:Bardic Inspire Courage ~ Is the Bard]
 
@@ -98,7 +98,7 @@ SKILL:Appraise|OUTPUTORDER:1|
 SKILL:Balance|OUTPUTORDER:2|
 SKILL:Bluff|OUTPUTORDER:3|
 SKILL:Climb|OUTPUTORDER:4|
-SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Paladin of Freedom|RANKS:10.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Paladin of Freedom|RANKS:10.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Control Shape|OUTPUTORDER:6|
 SKILL:Craft (Untrained)|OUTPUTORDER:7|
 SKILL:Diplomacy|OUTPUTORDER:8|
@@ -113,49 +113,52 @@ SKILL:Hide (Forested Areas)|OUTPUTORDER:16|
 SKILL:Intimidate|OUTPUTORDER:17|
 SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:18|
 SKILL:Jump|OUTPUTORDER:19|
-SKILL:Knowledge (Arcana)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Arcana)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Local)|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:1.0|COST:2|CLASSSKILL:N]
-SKILL:Knowledge (Nature)|CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Religion)|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Paladin of Freedom|RANKS:10.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Untrained)|OUTPUTORDER:24|
-SKILL:Listen|OUTPUTORDER:25|
-SKILL:Literacy|OUTPUTORDER:26|
-SKILL:Move Silently|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Move Silently (Forested Areas)|OUTPUTORDER:28|
-SKILL:Perform (Dance)|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Paladin of Freedom|RANKS:10.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Perform (Sing)|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Paladin of Freedom|RANKS:5.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Ride|OUTPUTORDER:31|
-SKILL:Search|OUTPUTORDER:32|
-SKILL:Sense Motive|OUTPUTORDER:33|
-SKILL:Spot|OUTPUTORDER:34|
-SKILL:Survival|OUTPUTORDER:35|
-SKILL:Swim|OUTPUTORDER:36|
-SKILL:Tumble|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Paladin of Freedom|RANKS:10.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Use Rope|OUTPUTORDER:38|
+SKILL:Knowledge (Local)|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:1.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Nature)|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Religion)|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Paladin of Freedom|RANKS:10.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:25|
+SKILL:Listen|OUTPUTORDER:26|
+SKILL:Literacy|OUTPUTORDER:27|
+SKILL:Move Silently|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:29|
+SKILL:Perform (Dance)|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Paladin of Freedom|RANKS:10.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Sing)|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Paladin of Freedom|RANKS:5.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Ride|OUTPUTORDER:32|
+SKILL:Search|OUTPUTORDER:33|
+SKILL:Sense Motive|OUTPUTORDER:34|
+SKILL:Spot|OUTPUTORDER:35|
+SKILL:Survival|OUTPUTORDER:36|
+SKILL:Swim|OUTPUTORDER:37|
+SKILL:Tumble|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Paladin of Freedom|RANKS:10.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Rope|OUTPUTORDER:39|
 
 # Character Languages
-LANGUAGE:Common|LANGUAGE:Draconic
+LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Dwarven|LANGUAGE:Elven|LANGUAGE:Gnome|LANGUAGE:Halfling
 
 # Character Feats
 FEATPOOL:0.0
 
 # Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Halfling,Elven,Gnome,Dwarven|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Halfling,Elven,Gnome,Dwarven|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Halfling,Elven,Gnome,Dwarven|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Halfling,Elven,Gnome,Dwarven|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Paladin ACF ~ Charging Smite|TYPE:ACF.PaladinSpecialMount|DESC:Beginning at 5th level, if you smite evil on a charge attack, you deal an extra 2 points of damage per paladin level to any evil creature you hit (in addition to the normal bonus damage dealt by a smite). If the charge attack misses, the smite ability is not considered used. This is a supernatural ability. Replaces&colon; If you select this class feature, you do not gain a special mount.
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Paladin ACF ~ Curse Breaker|TYPE:ACF.PaladinACF.PaladinRemoveDisease|DESC:Most paladins use their divinely granted powers to combat diseases that plague their allies. Paladins with an interest in the arcane particularly those who battle necromancers sometimes prefer to learn to counteract the effects of magical curses.|DESC: Special Requirement&colon; Knowledge (arcana) 1 rank.|DESC: Replaces&colon; You do not gain the remove disease spell-like ability or any later improvement of that ability.|DESC: Benefit&colon; At 6th level, you can produce a remove curse effect, as the spell, once per week. You can use this ability one additional time per week for every three levels beyond 6th (twice per week at 9th, three times at 12th, and so forth). Beginning at 12th level, you can spend two of your weekly uses to produce a break enchantment effect, as the spell. These are spell-like abilities.
 USERPOOL:Alternate Class Feature|POOLPOINTS:0.0
 ABILITY:Bard Variant|TYPE:NORMAL|CATEGORY:ACF|KEY:Bard Variant ~ Regular Bard|TYPE:Internal.BardVariant|DESC:Regular Bard - Bardic Knowledge, Inspire Abilities
 USERPOOL:Bard Variant|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Ascetic Knight|TYPE:General|DESC:You belong to a special order of religious monks that teaches its adherents that self-enlightenment and honorable service grow from the same well of purity. As a student of this philosophy, you have blended your training as a paladin and as a monk into one seamless whole.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Devoted Performer|TYPE:General|DESC:You have foregone the pursuit of frivolous musical talents, instead entering religious training in service of honor and justice.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Divine Might|TYPE:Divine|DESC:You can channel energy to increase the damage you deal in combat.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dragonfire Channeling|TYPE:Divine.Draconic|DESC:You channel draconic fire through your holy symbol.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:General.Fighter.AttackOption.ViolentKnowledge|DESC:You can make exceptionally powerful melee attacks.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Snowflake Wardance|TYPE:General|DESC:Use bardic music skill and add +%1 to attack roll with slashing weapon for %2 rounds.  Must not wear medium armor, heavy armor, or carry a shield.  Will be fatigued for 10 minutes.&pipe;CHA&pipe;SKILLRANK=Perform {Dance}
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
 USERPOOL:First Level Feat|POOLPOINTS:0.0
-ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Meager Fortitude|TYPE:Flaws.SpecialQuality|DESC:You are sickly and weak of stomach.
-USERPOOL:Flaws|POOLPOINTS:0.0
 ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Region ~ None|TYPE:Region
 USERPOOL:Region|POOLPOINTS:0.0
 
@@ -170,9 +173,16 @@ WEAPONPROF:[WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spe
 WEAPONPROF:[WEAPON:Sword (Saber)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Truncheon|WEAPON:Unarmed Strike|WEAPON:Wakizashi|WEAPON:Warhammer|WEAPON:Warmace|WEAPON:Whip]
 
 # Character Equipment
-MONEY:0
-EQUIPNAME:Entertainer's Outfit|OUTPUTORDER:0|COST:0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Entertainer_s Outfit|DATA:KEY=Entertainer_s Outfit$COSTMOD=-3]
+MONEY:35000.00
+EQUIPNAME:Belt, Battle Dancer's|OUTPUTORDER:4|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Battle Dancer's)|DATA:KEY=Belt (Battle Dancer's)]
+EQUIPNAME:Cloak of Charisma +6|OUTPUTORDER:3|COST:36000|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Entertainer's Outfit|OUTPUTORDER:2|COST:3|WT:4.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gauntlets of the Talon|OUTPUTORDER:1|COST:4000|WT:2.0|QUANTITY:1.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Clothing|ID:0.1.01|VALUE:Entertainer's Outfit|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Hands|ID:0.1.03|VALUE:Gauntlets of the Talon|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.04|VALUE:Cloak of Charisma +6|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Waist|ID:0.1.05|VALUE:Belt, Battle Dancer's|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
