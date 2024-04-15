@@ -1,0 +1,261 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:compact.htm
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Toni Danza
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:C&colon;\Users\myrlyn\Downloads\ZomBallerina.jpg
+PORTRAITTHUMBNAILRECT:0,0,296,296
+
+# Character Attributes
+STAT:STR|SCORE:16
+STAT:DEX|SCORE:18
+STAT:CON|SCORE:16
+STAT:INT|SCORE:16
+STAT:WIS|SCORE:18
+STAT:CHA|SCORE:21
+ALIGN:CG
+RACE:Human
+
+# Character Class(es)
+CLASS:Bard|SUBCLASS:Bard (Standard)|LEVEL:1|SKILLPOOL:11|SPELLBASE:CHA|CANCASTPERDAY:2
+CLASS:Battle Dancer|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Paladin of Freedom|LEVEL:10|SKILLPOOL:0
+CLASSABILITIESLEVEL:Bard=1|HITPOINTS:12|SKILLSGAINED:40|SKILLSREMAINING:11
+CLASSABILITIESLEVEL:Battle Dancer=1|HITPOINTS:12|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin of Freedom=1|HITPOINTS:12|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin of Freedom=2|HITPOINTS:12|PRESTAT:CHA=1|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin of Freedom=3|HITPOINTS:12|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin of Freedom=4|HITPOINTS:12|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin of Freedom=5|HITPOINTS:12|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin of Freedom=6|HITPOINTS:12|PRESTAT:CHA=1|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin of Freedom=7|HITPOINTS:12|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin of Freedom=8|HITPOINTS:12|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin of Freedom=9|HITPOINTS:12|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin of Freedom=10|HITPOINTS:12|PRESTAT:CHA=1|SKILLSGAINED:6|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:66000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Humanoid]]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Bard]
+TEMPLATESAPPLIED:[NAME:First Level ~ Bard|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
+TEMPLATESAPPLIED:[NAME:Necropolitan]
+TEMPLATESAPPLIED:[NAME:Non-Ability ~ Constitution]
+TEMPLATESAPPLIED:[NAME:RaceSubtype ~ Augmented Humanoid]
+TEMPLATESAPPLIED:[NAME:Evolved Undead]
+TEMPLATESAPPLIED:[NAME:Draconic Creature]
+TEMPLATESAPPLIED:[NAME:Human Base]
+TEMPLATESAPPLIED:[NAME:Favored Class ~ HIGHESTLEVELCLASS]
+TEMPLATESAPPLIED:[NAME:Human Region ~ Custom Campaign]
+TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+TEMPLATESAPPLIED:[NAME:Bardic Inspire Courage ~ Is the Bard]
+
+# Character Region
+REGION:Custom Campaign
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:1.0|COST:2|CLASSSKILL:N]
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:9|
+SKILL:Disguise|OUTPUTORDER:10|
+SKILL:Escape Artist|OUTPUTORDER:11|
+SKILL:Forgery|OUTPUTORDER:12|
+SKILL:Gather Information|OUTPUTORDER:13|
+SKILL:Heal|OUTPUTORDER:14|
+SKILL:Hide|OUTPUTORDER:15|
+SKILL:Hide (Forested Areas)|OUTPUTORDER:16|
+SKILL:Intimidate|OUTPUTORDER:17|
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:18|
+SKILL:Jump|OUTPUTORDER:19|
+SKILL:Knowledge (Arcana)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Bard|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:21|
+SKILL:Listen|OUTPUTORDER:22|
+SKILL:Literacy|OUTPUTORDER:23|
+SKILL:Move Silently|OUTPUTORDER:24|
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:25|
+SKILL:Perform (Dance)|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Paladin of Freedom|RANKS:10.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Sing)|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Paladin of Freedom|RANKS:10.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Ride|OUTPUTORDER:28|
+SKILL:Search|OUTPUTORDER:29|
+SKILL:Sense Motive|OUTPUTORDER:30|
+SKILL:Skill Trick|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:1.0|COST:2|CLASSSKILL:N]
+SKILL:Spot|OUTPUTORDER:33|
+SKILL:Survival|OUTPUTORDER:34|
+SKILL:Swim|OUTPUTORDER:35|
+SKILL:Tumble|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Paladin of Freedom|RANKS:10.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Bard|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Rope|OUTPUTORDER:38|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Elven|LANGUAGE:Undercommon
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Undercommon,Elven,Draconic|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Undercommon,Elven,Draconic|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Undercommon,Elven,Draconic|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Bard ACF ~ Spellbreaker Song|TYPE:ACF.BardACF.BardCountersong|DESC:Bards pride themselves on being masters of language and sound. A rare few learn to use their voices to interfere with enemy spellcasters, twisting word and sound to defeat spells before they are cast.|DESC: Replaces&colon; You do not gain the countersong bardic music ability.|DESC: Benefit&colon; You can use your music or poetics to interfere with spells that have verbal components. Doing this costs one daily use of your bardic music ability and requires a standard action to start. Enemy spellcasters within 30 feet of you take a 20%% spell failure chance when casting any spell that has a verbal component (as if they were deafened). You can maintain your spellbreaker song for 3 rounds. This ability follows all the other appropriate rules for bardic music.
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Paladin ACF ~ Charging Smite|TYPE:ACF.PaladinSpecialMount|DESC:Beginning at 5th level, if you smite evil on a charge attack, you deal an extra 2 points of damage per paladin level to any evil creature you hit (in addition to the normal bonus damage dealt by a smite). If the charge attack misses, the smite ability is not considered used. This is a supernatural ability. Replaces&colon; If you select this class feature, you do not gain a special mount.
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Paladin ACF ~ Curse Breaker|TYPE:ACF.PaladinACF.PaladinRemoveDisease|DESC:Most paladins use their divinely granted powers to combat diseases that plague their allies. Paladins with an interest in the arcane particularly those who battle necromancers sometimes prefer to learn to counteract the effects of magical curses.|DESC: Special Requirement&colon; Knowledge (arcana) 1 rank.|DESC: Replaces&colon; You do not gain the remove disease spell-like ability or any later improvement of that ability.|DESC: Benefit&colon; At 6th level, you can produce a remove curse effect, as the spell, once per week. You can use this ability one additional time per week for every three levels beyond 6th (twice per week at 9th, three times at 12th, and so forth). Beginning at 12th level, you can spend two of your weekly uses to produce a break enchantment effect, as the spell. These are spell-like abilities.
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Paladin ACF ~ Holy Warrior|TYPE:ACF.PaladinSpellcasting|DESC:Replaces&colon; To select this class feature, you must sacrifice your spellcasting ability. Benefit&colon; You no longer gain spells as a paladin, but you can now select a bonus feat at 4th, 8th, 11th, and 14th levels. You can select any feat from the following list for which you meet the prerequisites&colon; any divine feat (see page 53), Cleave, Extra SmitingCW, Extra Turning, Great Cleave, Improved SmitingCD, Mounted Combat, Mounted Archery, Power Attack, Ride-By Attack, Skill Focus (Ride), Spirited Charge, and Trample. This is an extraordinary ability. Special&colon; A paladin who selects this path can no longer use scrolls, wands, or other magic items that require access to a spell list, unless she has another spellcasting class that grants access to the appropriate spells.
+USERPOOL:Alternate Class Feature|POOLPOINTS:0.0
+ABILITY:Bard Variant|TYPE:NORMAL|CATEGORY:ACF|KEY:Bard Variant ~ Regular Bard|TYPE:Internal.BardVariant|DESC:Regular Bard - Bardic Knowledge, Inspire Abilities
+USERPOOL:Bard Variant|POOLPOINTS:0.0
+ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
+USERPOOL:ECL Buy Down|POOLPOINTS:0.0
+ABILITY:Evolved Undead Spell-like Ability|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Evolved Undead ~ Haste|TYPE:Evolved Undead Spell-like Ability|DESC:You have a spell-like ability, usable 1/day.
+USERPOOL:Evolved Undead Spell-like Ability|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Ascetic Knight|TYPE:General|DESC:You belong to a special order of religious monks that teaches its adherents that self-enlightenment and honorable service grow from the same well of purity. As a student of this philosophy, you have blended your training as a paladin and as a monk into one seamless whole.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Devoted Performer|TYPE:General|DESC:You have foregone the pursuit of frivolous musical talents, instead entering religious training in service of honor and justice.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Martial Stance|TYPE:General.Fighter|DESC:You have mastered the fundamentals of a martial discipline, and you are now able to master one of its stances.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Martial Study|APPLIEDTO:,,|TYPE:General.Fighter|DESC:By studying the basics of a martial discipline, you learn to focus your ki and perfect the form needed to use a maneuver. As a result, you gain the use of a combat maneuver.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Snowflake Wardance|TYPE:General|DESC:Use bardic music skill and add +%1 to attack roll with slashing weapon for %2 rounds.  Must not wear medium armor, heavy armor, or carry a shield.  Will be fatigued for 10 minutes.&pipe;CHA&pipe;SKILLRANK=Perform {Dance}
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Travel Devotion|APPLIEDTO:|TYPE:Domain|DESC:You can move quickly around the battlefield.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:,|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Meager Fortitude|TYPE:Flaws.SpecialQuality|DESC:You are sickly and weak of stomach.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Shaky|TYPE:Flaws.SpecialQuality|DESC:You are relatively poor at ranged combat.
+USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:Holy Warrior Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Divine Might|TYPE:Divine|DESC:You can channel energy to increase the damage you deal in combat.
+ABILITY:Holy Warrior Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:General.Fighter.AttackOption.ViolentKnowledge|DESC:You can make exceptionally powerful melee attacks.
+USERPOOL:Holy Warrior Feat|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Internal|KEY:Human Ethnicity ~ None|TYPE:Human Ethnicity.Faerun Ethnicity|DESC:You have no Ethnicity.
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Martial Stance|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Martial Study Novice ~ Martial Spirit|TYPE:SpecialAttack.Devoted Spirit.Devoted Spirit Discipline.Devoted Spirit Stance.Martial Stance.Stance|DESC:As you cleave through your foes, each ferocious attack you make lends vigor and strength to you and your allies. While you are in this stance, you or an ally within 30 feet heals 2 points of damage each time you make a successful melee attack. This healing represents the vigor, drive, and toughness you inspire in others. Your connection to the divine causes such inspiration to have a real, tangible effect on your allies' health. Each time you hit an opponent in melee, you can choose a different recipient within range to receive this healing.
+USERPOOL:Martial Stance|POOLPOINTS:0.0
+ABILITY:Martial Study Discipline|TYPE:NORMAL|CATEGORY:Internal|KEY:Martial Study Novice ~ Tiger Claw Internal|APPLIEDTO:,,|TYPE:Martial Study Discipline|DESC:You have learned to focus your ki and perfect the form needed to use one Tiger Claw maneuver as a novice of martial techniques. You can use this maneuver once per encounter as a martial adept with an initiator level equal to 1/2 your non-adept class levels (plus your martial adept class levels, should you gain any at a later point). Maneuvers learned through this feat can not be recovered during an encounter and can not be exchanged as part of adept class levelups.&amp;nl;Tiger Claw's key skill, jump, is now a class skill for all your classes (current and future).&amp;nl; Special&colon; You can take this feat up to three times and can select the same discipline multiple times.&amp;nl; Special&colon; A fighter can select Martial Study as a bonus feat.
+USERPOOL:Martial Study Discipline|POOLPOINTS:0.0
+ABILITY:Martial Study Tiger Claw Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Martial Study Novice ~ Pouncing Charge|TYPE:SpecialAttack.Martial Study Tiger Claw Maneuver.Tiger Claw.Tiger Claw Discipline.Tiger Claw Maneuver.Maneuver.Martial Maneuver.Strike|DESC:With the roar of a wild beast, you throw yourself into the fray. Your weapons are little more than a blur as you hack at your foe with feral speed. With a ferocious howl, you throw yourself into combat. You move with such speed and ferocity that when you reach your enemy, you unleash a blistering flurry of slashes, cuts, and hacks. As part of initiating this maneuver, you make a charge attack. Instead of making a single attack at the end of your charge, you can make a full attack. The bonus on your attack roll for making a charge attack applies to all your attack rolls.
+ABILITY:Martial Study Tiger Claw Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Martial Study Novice ~ Rabid Bear Strike|TYPE:SpecialAttack.Martial Study Tiger Claw Maneuver.Tiger Claw.Tiger Claw Discipline.Tiger Claw Maneuver.Maneuver.Martial Maneuver.Strike|DESC:With a ferocious roar, you leap upon your enemy like a wild beast, slamming your weapon into her with a madman's fury. You focus your primal fury into a single attack, laying an opponent low with a mighty blow that splinters bones and shatters steel. As part of this maneuver, you make a single melee attack. You gain a +4 bonus on this attack roll and deal an extra 10d6 points of damage. After completing this maneuver, you take a -4 penalty to AC until the start of your next turn.
+ABILITY:Martial Study Tiger Claw Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Martial Study Novice ~ Sudden Leap|TYPE:SpecialAttack.Martial Study Tiger Claw Maneuver.Tiger Claw.Tiger Claw Discipline.Tiger Claw Maneuver.Maneuver.Martial Maneuver.Boost|DESC:You leap to a new position in the blink of an eye, leaving your opponents baffled. You can make a Jump check as a swift action and move the distance determined by your check result. You provoke attacks of opportunity with this movement, and you must move in a straight line. As with any movement, you can attempt a Tumble check to avoid any attacks you provoke with this sudden leap. You can't move through enemies, unless you succeed on the appropriate Tumble check.
+USERPOOL:Martial Study Tiger Claw Maneuver|POOLPOINTS:0.0
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Rule - Use ECL Level Buy Down|TYPE:MiscOptions
+USERPOOL:Misc Options|POOLPOINTS:0.0
+ABILITY:Race Base|TYPE:NORMAL|CATEGORY:Internal|KEY:Human / PH|TYPE:Race Base|DESC:Default Player's Handbook version of the race
+USERPOOL:Race Base|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Human Region ~ Custom Campaign|TYPE:Region.FaerunRegion|DESC:Use for default racial features when loading sources that use Regions
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Acrobatic Backstab|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:If you succeed on a Tumble check t move tthrough an enemy's space, you can treat that enemy as flat-footed against the next melee attack you make against it on your current turn.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Back on Your Feet|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:If you fall prone for any reason, you can stand up as an immediate action without provoking attacks of opportunity.
+USERPOOL:Skill Tricks|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Axe (Throwing)|WEAPON:Bash|WEAPON:Battle Gauntlet|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)]
+WEAPONPROF:[WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dart Thruster|WEAPON:Darts (Barbed)|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet]
+WEAPONPROF:[WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Goblin Stick|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Halfspear]
+WEAPONPROF:[WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Ice Axe|WEAPON:Javelin|WEAPON:Katana|WEAPON:Kukri|WEAPON:Lance|WEAPON:Lance (Flight)|WEAPON:Lance (Heavy)|WEAPON:Longbow]
+WEAPONPROF:[WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Morningstar|WEAPON:Pick (Dire)|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)]
+WEAPONPROF:[WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Saber|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash|WEAPON:Shortbow]
+WEAPONPROF:[WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Strike (Unarmed)|WEAPON:Sword (Bastard)|WEAPON:Sword (Cutlass)]
+WEAPONPROF:[WEAPON:Sword (Saber)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Truncheon|WEAPON:Unarmed Strike|WEAPON:Wakizashi|WEAPON:Warhammer|WEAPON:Warmace|WEAPON:Whip]
+
+# Character Equipment
+MONEY:1250.00
+EQUIPNAME:Belt, Battle Dancer's|OUTPUTORDER:2|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Battle Dancer's)|DATA:NAME=Belt, Battle Dancer's$KEY=Belt (Battle Dancer's)]
+EQUIPNAME:Cloak of Charisma +6|OUTPUTORDER:4|COST:36000|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Entertainer's Outfit|OUTPUTORDER:3|COST:3|WT:4.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gauntlets of the Talon|OUTPUTORDER:1|COST:4000|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Slippers of Battle Dancing|OUTPUTORDER:5|COST:33750|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Foot|ID:0.1.03|VALUE:Slippers of Battle Dancing|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Hands|ID:0.1.04|VALUE:Gauntlets of the Talon|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Waist|ID:0.1.05|VALUE:Belt, Battle Dancer's|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Clothing|ID:0.1.07|VALUE:Entertainer's Outfit|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.08|VALUE:Cloak of Charisma +6|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+SPELLBOOK:INNATE|TYPE:4
+SPELLNAME:Detect Magic|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Mage Hand|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Minor Disguise|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Prestidigitation|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLLIST:Bard|CLASS.Bard
+SPELLLIST:Paladin of Freedom|CLASS.Paladin of Freedom|CLASS.Paladin
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Mechanics|ID:1|PARENTID:-1|VALUE:CONCEPT/THEME&colon; Force of Personality - You're designed to do everything with charisma - therefore you do everything *with style*.  You're the most charismatic NON-FACE build I can think of.  &nl;&nl;RACE/TEMPLATES&colon; Human/Draconic/Evolved Undead/Necropolitan&nl;	Your're a friendly, intelligent sort of zombie. &nl;	You're more powerful than your peers. &nl;	In life you were a distant descendant of some kind of dragon.&nl;&nl;	Human Racial Traits&colon;&nl;		You once were human.  You still mostly look like one.&nl;	Dragonblood Subtype&colon;&nl;		Just means your great great grand-daddy had scales. &nl;	Haste&colon;&nl;		Once a day you can cast the Haste spell.  It's the best. &nl;	Fast Healing &nl;		Recover 3 HP per turn.&nl;	Resist Control&nl;		You are are harder to command than other undead&nl;	Turn Resistance&nl;		You are resistant to others' Turn Undead&nl;	Unnatural Resilience&nl;		Unlike most undead, you aren't immediately destroyed when you reach 0hp&nl;FLAWS&colon;&nl;	Meager Fortitude&colon; &nl;		Makes it harder to resist some attacks.  Fortunately youre flat-out IMMUNE to most of them.&nl;	Shaky&colon;&nl;		Penalty to ranged attacks.  NBD for a boxer.&nl;&nl;&nl;CLASSES&colon; &nl;	Bard 1 - &nl;		GO TEAM BARD&nl;	Battle Dancer 1 - &nl;		Like Monk,  but Prettier&nl;	Paladin Of Freedom 10 - &nl;		Paladins, but the cool kind who will share their weed.  &nl;	Darkvision&colon; &nl;		You can see clearly (in black and white) out to 60' in nonmagical darkness. &nl; 	Low-Light Vision&colon; &nl;		See twice as far as normal humans in bad light.  THIS can see color.&nl;	Undead Type&colon;&nl;		No CON score, but a whole HOST of random immunities.  &nl;&nl;CLASS FEATURES AND THEIR USES&nl;	Turn Undead&colon; &nl;		You turn Undead like a level 7 Cleric.  You get 13 attempts a day.  Mostly you will spend these to power other effects that be activated by expending this resource.  &nl;		Think of Turn Undead attempts as White Mana.  &nl;	AC BONUS&colon; &nl;		You get to add your Charisma and a small additional bonus to your Armor Class.  &nl;	Aura Of Good&colon;  &nl;		Not usually super relevant.  You radiate goodnes.  Kinda like our cats. &nl;	Aura Of Resolve&colon; &nl;		You're immune to magical compulsions, and you make nearby allies resistant. &nl;	Bardic Knowledge&colon; &nl;		You know lots of random things and can roll to see if you remember anything relevant to the current sitch. &nl;	Bardic Music&colon;  &nl;		You can use Bardic Music 11 times a day.  Specific Bardic Music effects will be mentioned below, much like the ones that use Turn Undead.  &nl;		Think of bardic music as Blue Mana. &nl;	Charging Smite&colon; &nl;		If you Smite while charging, deal +20 damage (based on Paladin level).  If you miss, your smite is not expended. This is what you get instead of magic horsie &nl;	Curse Breaker&colon; &nl;		Curses are actually bigger problems for PCs than diseases - you get Remove Curse twice a week.  Other paladiins get Remove Disease.  Feel Superior. &nl;	Detect Evil&colon; &nl;		You can cast detect evil at will. This should NOT be used to identify targets and evil peope, as an evil influence on a person will show up too.  May cause migraines. &nl;	Divine Grace&colon; &nl;		Add your charisma bonus to all saves.  &nl;	Divine Health&colon; &nl;		Immunity to diseases.  Irrelevant because youre Undead.  &nl;	Fascinate&colon;&nl;		1 Creature is absorbed in your performance.  &nl;	Holy Warrior&colon;  &nl;		Your paladin spellcasting was doing you no good.  Trade it for combat feats. &nl;	Inspire Courage&colon;&nl;		Gotta fix the "+0" in the output there.  Spend bardic music to buff yourself and allies. But only a tiny bit. &nl;	Lay On Hands&colon;&nl;		Your Charisma is doing you favors here. You have a reserve of 120 points of healing you can apply with at touch.  DO NOT USE THIS ON YOURSELF.  This kind of healing magic hurts undead.  Which is another thing you can do with it. 	Smite Evil&colon;&nl;		Add +11 to a damage roll against an evil target.  Usable twice a day.&nl;	Spellbreaker Song&colon;&nl;		Normal bards can spend bardic music to counter some sound-based effects.  It's cool, but those effects are rare.  YOU can impose a flat 1 in 5 chance that any spell a nearby enemy casts that requires words just fizzles.&nl;	Weapon and Armor Proficiency&colon;&nl;		A list of the stuff you know how to use  Mostly inferior to YOUR FISTS&nl;	&nl;&nl;FEATS&colon;&nl;	Ascetic Knight and Devoted Performer &nl;		Just makes multiclassing not suck.  They make Paladin advance a few traits of Battle Dancer and Bard.  &nl;	Divne Might&colon;&nl;		For one Turn Attempt (white mana) you can add your Charisma Bonus to combat damage for a round. &nl;	Snowflake Wardancet&colon;&nl;		The thing what inspired this whole character.   Spend bardic music for a charisma based combat buff.  Only works when you're moving. &nl;	Martial Stance/Martial Study&nl;		You learned some super cool combat tricks - they will be described individually&nl;	Power Attack&nl;		You can reduce your hit chance to increase your damage&nl;	Travel Devotion&nl;		1/Day move half your speed for free.  Spend Turn Undead to do it again&nl;	Improved Unarmed Strike&nl;		Your hands are registered as deadly weapons in three states&nl;	
+
+# Age Set Selections
+AGESET:0:1:0:1:0:1:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+
