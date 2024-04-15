@@ -84,7 +84,7 @@ CLASS:Avenger	PREALIGN:LG,NG,CG	PRESKILL:3,Disguise=4,Hide=8,Move Silently=8
 # Class Name	Skill Pts/Lvl	Class Skill
 CLASS:Avenger	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE=Craft|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Intimidate|Jump|Listen|Move Silently|Open Lock|Search|Sense Motive|Sleight of Hand|Spot|Swim|Tumble|Use Magic Device|Use Rope
 # Class Name	Spell Stat		Spell Type		Memorize	Caster level
-CLASS:Avenger	FACT:SpellType|Arcane	SPELLLIST:1|Assassin
+CLASS:Avenger	FACT:SpellType|Arcane	SPELLLIST:2|Assassin|Avenger		SERVESAS:CLASS|Assassin
 CLASS:Avenger	SPELLSTAT:INT	MEMORIZE:NO	BONUS:CASTERLEVEL|Avenger|Caster_Level_Avenger	DEFINE:Caster_Level_Avenger|0	BONUS:VAR|Caster_Level_Avenger|CL+Caster_Level_Bonus	DEFINE:CasterLevelBLAvenger|0	BONUS:VAR|CasterLevelBLAvenger|charbonusto("PCLEVEL","Avenger")	BONUS:VAR|Caster_Level_Highest__Arcane|Caster_Level_Avenger+CasterLevelBLAvenger|TYPE=Base
 ###Block:
 1	ABILITY:Avenger Class Feature|AUTOMATIC|Avenger ~ Weapon and Armor Proficiency
@@ -113,7 +113,7 @@ CLASS:Avenger	SPELLSTAT:INT	MEMORIZE:NO	BONUS:CASTERLEVEL|Avenger|Caster_Level_A
 CLASS:War Hulk		HD:12	TYPE:PC.Prestige	FACT:ClassType|Prestige	FACT:Abb|WrHlk	SOURCEPAGE:Miniature's Handbook		DEFINE:WarHulkLevel|0	BONUS:VAR|WarHulkLevel|CL	
 CLASS:War Hulk	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
 CLASS:War Hulk	STARTSKILLPTS:2	CSKILL:Climb|Intimidate|Jump
-CLASS:War Hulk	PREATT:5	PRESIZEGTEQ:L	PREABILITY:1,CATEGORY=Feat,Cleave
+CLASS:War Hulk	PREATT:5	PRESIZEGTEQ:L	PREABILITY:1,CATEGORY=Feat,Cleave		
 1	ABILITY:War Hulk Class Feature|AUTOMATIC|War Hulk ~ Ability Boost		ABILITY:War Hulk Class Feature|AUTOMATIC|War Hulk ~ No Time To Think
 2	ABILITY:War Hulk Class Feature|AUTOMATIC|War Hulk ~ Great Swing
 3	ABILITY:War Hulk Class Feature|AUTOMATIC|War Hulk ~ Mighty Rock Throwing
@@ -148,14 +148,14 @@ CLASS:Draconic Passage Sorcerer.MOD		SPELLLIST:1|Sorcerer	SERVESAS:CLASS|Sorcere
 #1	SAB:Draconic Passage Sorcerer
 
 
-CLASS:Psychic Rogue.MOD		ABILITY:Special Ability|AUTOMATIC|Sneak Attack
+CLASS:Psychic Rogue.MOD		ABILITY:Special Ability|AUTOMATIC|Sneak Attack	SERVESAS:CLASS|Rogue
+
+CLASS:Paladin of Freedom.MOD		PROHIBITSPELL:SCHOOL.Conjuration|PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpellcasting		PROHIBITSPELL:SCHOOL.Enchantment|PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpellcasting		PROHIBITSPELL:SCHOOL.Divination|PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpellcasting		PROHIBITSPELL:SCHOOL.Transmutation|PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpellcasting			PROHIBITSPELL:SCHOOL.Evocation|PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpellcasting	PROHIBITSPELL:SCHOOL.Abjuration|PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpellcasting	PROHIBITSPELL:SCHOOL.Illusion|PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpellcasting		PROHIBITSPELL:SCHOOL.Necromancy|PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpellcasting		BONUS:SPELLCAST|CLASS=Paladin of Freedom;LEVEL=ALL|-100|PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpellcasting	
 
 
 
 
-
-
-CLASS:Battle Dancer		HD:8		TYPE:Base.PC.NonCaster	FACT:ClassType|PC	FACT:Abb|BDr	SOURCEPAGE:Dragon Compendium	DEFINE:BattleDancerLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude,BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:VAR|BattleDancerLVL|CL	
+CLASS:Battle Dancer		HD:8		TYPE:Base.PC.NonCaster	FACT:ClassType|PC	FACT:Abb|BDr	SOURCEPAGE:Dragon Compendium	DEFINE:BattleDancerLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude,BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:VAR|BattleDancerLVL|CL			SERVESAS:CLASS|Monk
 
 # Class Name	Required AL
 CLASS:Battle Dancer		PREVAREQ:BattleDancerAlignmentNotMet,0	

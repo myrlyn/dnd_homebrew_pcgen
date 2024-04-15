@@ -106,4 +106,29 @@ Greater Rite Of Draconic Passage	SAB:Testing Bonus Sorcerer Level	LEVELADJUSTMEN
 
 Assign Subtype ~ Beholder		RACESUBTYPE:Beholder
 
-Evolved Undead.MOD		BONUS:ABILITYPOOL|Evolved Undead Spell-like Ability|1
+Evolved Undead.MOD		BONUS:ABILITYPOOL|Evolved Undead Spell-like Ability|1			SAB:.CLEAR		ABILITY:Special Ability|AUTOMATIC|Fast Healing		BONUS:VAR|FastHealingRate|3
+
+Necropolitan.COPY=Necropolitan(Deathless)
+
+
+
+#Deathless Necropolitan	HITDIE:12	RACETYPE:Deathless	SOURCEPAGE:p.114 SAB:Resist Control (Ex) SAB:Turn Resistance +2 (Ex)	SAB:Unnatural Resilience (Ex)	TYPE:Deathless		SOURCEPAGE:Deathless Reskin of Necropolitan
+
+Necropolitan.MOD			SAB:.CLEAR	ABILITY:Special Ability|AUTOMATIC|Resist Control|Turn Resistance|Deathless ~ Unnatural Resilience	BONUS:VAR|TurnResistBonus|2
+
+Necropolitan(Deathless).MOD	TYPE:Deathless		RACETYPE:Deathless		ABILITY:Special Ability|AUTOMATIC|Type Output ~ Deathless		SAB:.CLEAR	ABILITY:Special Ability|AUTOMATIC|Resist Control|Turn Resistance|Deathless ~ Unnatural Resilience	BONUS:VAR|TurnResistBonus|2
+
+
+Evolved Undead.COPY=Evolved Deathless
+
+Evolved Deathless.MOD	HITDIE:12	PRERACE:1,RACETYPE=Deathless	SAB:.CLEAR		ABILITY:Special Ability|AUTOMATIC|Fast Healing		BONUS:VAR|FastHealingRate|3			BONUS:ABILITYPOOL|Evolved Deathless Spell-like Ability|1			SOURCEPAGE:Deathless Reskin of existing template
+
+#Houseruled level adjustment
+Corpse.MOD	LEVELADJUSTMENT:1
+Corpse.COPY=Corpse (Deathless)
+Corpse (Deathless).MOD		TYPE:Deathless		RACETYPE:Deathless		TYPE:Deathless		SOURCEPAGE:Deathless Reskin of Corpse creature	LEVELADJUSTMENT:1
+Bone Creature.MOD	LEVELADJUSTMENT:1	
+Bone Creature.COPY=Bone Creature (Deathless)
+Bone Creature (Deathless).MOD		HITDIE:12	RACETYPE:Deathless	TYPE:Deathless		SOURCEPAGE:Deathless Reskin of Bone creature	LEVELADJUSTMENT:1
+Gravetouched Ghoul.COPY=Nighttouched
+Nighttouched.MOD	SOURCEPAGE:Deathless reskin of Gravetouched Ghoul		HITDIE:12		RACETYPE:Deathless	TYPE:Deathless			

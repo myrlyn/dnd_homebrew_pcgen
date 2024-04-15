@@ -188,49 +188,90 @@ AC Bonus				KEY:Battle Dancer ~ AC Bonus				SOURCEPAGE:p.40	CATEGORY:Special Abi
 
 
 
-Circle Of Death		KEY:Evolved Undead ~ Circle Of Death		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability.SpecialAttacj	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Circle of Death,16+CHA
+Circle Of Death		KEY:Evolved Undead ~ Circle Of Death		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability.SpecialAttack	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Circle of Death,16+CHA
+
+Undeath to Death		KEY:Evolved Deathless ~ Undeath to Death		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Deathless Spell-like Ability.SpecialAttack	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Undeath to Death,16+CHA
 
 
-Cloudkill		KEY:Evolved Undead ~ Cloudkill		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Cloudkill,15+CHA
+Cloudkill		KEY:Evolved Undead ~ Cloudkill		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Cloudkill,15+CHA
 
-
-
-Cone of Cold		KEY:Evolved Undead ~ Cone of Cold		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Cone of Cold,14+CHA
-
-
-
-Confusion		KEY:Evolved Undead ~ Confusion		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Confusion,14+CHA
+Fabricate		KEY:Evolved Undead ~ Fabricate		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Fabricate,15+CHA
 
 
 
-Contagion		KEY:Evolved Undead ~ Contagion		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Contagion,14+CHA
+Cone of Cold		KEY:Evolved Undead ~ Cone of Cold		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Cone of Cold,14+CHA
+
+
+Cone of Cold		KEY:Evolved Deathless ~ Cone of Cold		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Deathless Spell-like Ability	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Cone of Cold,14+CHA
 
 
 
-Creeping Doom		KEY:Evolved Undead ~ Creeping Doom		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Creeping Doom,17+CHA
+Confusion		KEY:Evolved Undead ~ Confusion		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Confusion,14+CHA
 
 
 
-Dispel Magic (Greater)		KEY:Evolved Undead ~ Dispel Magic (Greater)		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Dispel Magic (Greater),16+CHA
+Contagion		KEY:Evolved Undead ~ Contagion		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Contagion,14+CHA
+
+Restoration		KEY:Evolved Deathless ~ Restoration		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Deathless Spell-like Ability	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Restoration,14+CHA
 
 
 
-Invisibility (Greater)		KEY:Evolved Undead ~ Invisibility (Greater)		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Invisibility (Greater),14+CHA
+Creeping Doom		KEY:Evolved Undead ~ Creeping Doom		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Creeping Doom,17+CHA
+
+
+Animate Plants		KEY:Evolved Deathless ~ Animate Plants		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Deathless Spell-like Ability	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Animate Plants,17+CHA
 
 
 
-Haste		KEY:Evolved Undead ~ Haste		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Haste,13+CHA
+Dispel Magic (Greater)		KEY:Evolved Undead ~ Dispel Magic (Greater)		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Dispel Magic (Greater),16+CHA
+
+
+Dispel Magic (Greater)		KEY:Evolved Deathless ~ Dispel Magic (Greater)		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Deathless Spell-like Ability	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Dispel Magic (Greater),16+CHA
 
 
 
-Hold Monster		KEY:Evolved Undead ~ Hold Monster		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Hold Monster,16+CHA
+Invisibility (Greater)		KEY:Evolved Undead ~ Invisibility (Greater)		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Invisibility (Greater),14+CHA
+
+
+Invisibility (Greater)		KEY:Evolved Deathless ~ Invisibility (Greater)		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Deathless Spell-like Ability	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Invisibility (Greater),14+CHA
+
+
+Haste		KEY:Evolved Undead ~ Haste		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Haste,13+CHA
+
+Haste		KEY:Evolved Deathless ~ Haste		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Deathless Spell-like Ability	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Haste,13+CHA
 
 
 
-See Invisibility		KEY:Evolved Undead ~ See Invisibility		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|See Invisibility,12+CHA
+Hold Monster		KEY:Evolved Undead ~ Hold Monster		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Hold Monster,16+CHA
+
+Hold Monster		KEY:Evolved Deathless ~ Hold Monster		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Deathless Spell-like Ability	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Hold Monster,16+CHA
 
 
 
-Unholy Blight		KEY:Evolved Undead ~ Unholy Blight		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:INNATE|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Unholy Blight,16+CHA
+See Invisibility		KEY:Evolved Undead ~ See Invisibility		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|See Invisibility,12+CHA
 
 
+See Invisibility		KEY:Evolved Deathless ~ See Invisibility		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Deathless Spell-like Ability	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|See Invisibility,12+CHA
+
+
+
+Unholy Blight		KEY:Evolved Undead ~ Unholy Blight		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Undead Spell-like Ability	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Unholy Blight,16+CHA
+
+
+Holy Smite		KEY:Evolved Deathless ~ Holy Smite		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Deathless Spell-like Ability	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Holy Smite,16+CHA
+
+
+Unnatural Resilience	KEY:Deathless ~ Unnatural Resilience		CATEGORY:Special ability	TYPE:SpecialQuality.Extraordinary		DESC:You automatically heal hit point damage and ability damage at the same rate as a living creature. The Heal skill has no effect on you.
+Resist Control	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	DESC:+2 profane bonus on Will saves against Control Undead spell.	SOURCEPAGE:LM
+
+CATEGORY=FEAT|Superior Unarmed Strike.MOD		PREVARLT:BattleDancerLVL,1
+
+
+Superior Unarmed strike		KEY:Battle Dancer ~ Superior Unarmed Strike		SERVESAS:ABILITY=FEAT|Superior Unarmed strike		DESC:This is Superior Unarmed Strike that correctly interacts with the BattleDancer class.	PREVARLT:MonkLVL,1				PREVARGTEQ:BattleDancerLVL,1			 PREABILITY:1,CATEGORY=FEAT,Improved Unarmed Strike		CATEGORY:FEAT	TYPE:General	PRETOTALAB:3		BONUS:VAR|MonkUnarmedDamageLVL|4
+
+
+CATEGORY=Special Ability|Bardic Music ~ Inspire Courage.MOD		BONUS:VAR|BardicInspireCourageLVL|BardLVL
+
+
+
+Knock-Down	CATEGORY:FEAT`	TYPE:General		SOURCEPAGE:SRD,Divine Abilities		DESC: Whenever you deal 10 or more points of damage to your opponent in melee, you make a trip attack as a free action against the same target. 	BENEFIT: Whenever you deal 10 or more points of damage to your opponent in melee, you make a trip attack as a free action against the same target. 		PREATT:2	PRESTAT:1,STR=15		PREABILITY:1,CATEGORY=FEAT,Improved Trip
