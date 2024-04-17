@@ -56,3 +56,6 @@ ABILITYCATEGORY:Evolved Undead Spell-like Ability		VISIBLE:QUALIFY	EDITABLE:YES	
 
 
 ABILITYCATEGORY:Evolved Deathless Spell-like Ability		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES						CATEGORY:Special Ability	TYPE:Evolved Deathless Spell-like Ability												PLURAL:Evolved Deathless Spell-like Ability		DISPLAYLOCATION:Race Traits
+
+
+ABILITYCATEGORY:Natural Fighting		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES						CATEGORY:FEAT	TYPE:Natural Fighting												PLURAL:Natural Fighting		DISPLAYLOCATION:Class Features

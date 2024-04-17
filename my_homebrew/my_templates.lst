@@ -106,7 +106,10 @@ Obah-Blessed Four Medium Claws			NATURALATTACKS:Obah-blessed Claws,Weapon.Natura
 Skin Of The Claw Attacks			ABILITY:Special Ability|AUTOMATIC|Skin Of The Claw(S)|PRESIZELTEQ:S		ABILITY:Special Ability|AUTOMATIC|Skin Of The Claw(M)|PRESIZEEQ:M		ABILITY:Special Ability|AUTOMATIC|Skin Of The Claw(L)|PRESIZEEQ:L		ABILITY:Special Ability|AUTOMATIC|Skin Of The Claw(H)|PRESIZEEQ:H		ABILITY:Special Ability|AUTOMATIC|Skin Of The Claw(G)|PRESIZEEQ:G		ABILITY:Special Ability|AUTOMATIC|Skin Of The Claw(C)|PRESIZEEQ:C		ABILITY:Special Ability|AUTOMATIC|Skin Of The Claw(C+)|PRESIZEGT:C	
 
 
+Bite Of The Wolf Attacks			ABILITY:Special Ability|AUTOMATIC|Bite Of The Wolf(S)|PRESIZELTEQ:S		ABILITY:Special Ability|AUTOMATIC|Bite Of The Wolf(M)|PRESIZEEQ:M		ABILITY:Special Ability|AUTOMATIC|Bite Of The Wolf(L)|PRESIZEEQ:L		ABILITY:Special Ability|AUTOMATIC|Bite Of The Wolf(H)|PRESIZEEQ:H		ABILITY:Special Ability|AUTOMATIC|Bite Of The Wolf(G)|PRESIZEEQ:G		ABILITY:Special Ability|AUTOMATIC|Bite Of The Wolf(C)|PRESIZEEQ:C		ABILITY:Special Ability|AUTOMATIC|Bite Of The Wolf(C+)|PRESIZEGT:C	
 
+
+Beast Claws Attacks			ABILITY:Special Ability|AUTOMATIC|Beast Claws(S)|PRESIZELTEQ:S		ABILITY:Special Ability|AUTOMATIC|Beast Claws(M)|PRESIZEEQ:M		ABILITY:Special Ability|AUTOMATIC|Beast Claws(L)|PRESIZEEQ:L		ABILITY:Special Ability|AUTOMATIC|Beast Claws(H)|PRESIZEEQ:H		ABILITY:Special Ability|AUTOMATIC|Beast Claws(G)|PRESIZEEQ:G		ABILITY:Special Ability|AUTOMATIC|Beast Claws(C)|PRESIZEEQ:C		ABILITY:Special Ability|AUTOMATIC|Beast Claws(C+)|PRESIZEGT:C	
 
 
 
@@ -154,11 +157,18 @@ Nighttouched.MOD	SOURCEPAGE:Deathless reskin of Gravetouched Ghoul		HITDIE:12		R
 
 Half-Minotaur		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK			ABILITY:Special Ability|AUTOMATIC|Minotaur Cunning	ABILITY:Special Ability|AUTOMATIC|Scent		BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|INT|-2|TYPE=Racial.STACK		SAB:Minotaurs get a +2 Racial Bonus to Search, Spot, and Listen		BONUS:SKILL|Search,Spot,Listen|2|TYPE=Racial.STACK		ABILITY:FEAT|VIRTUAL|Track		CR:1		LEVELADJUSTMENT:1	VISION:Darkvision (60')			ABILITY:Internal|AUTOMATIC|Half-Minotaur (Medium or Smaller)	PRESIZELT:L	ABILITY:Internal|AUTOMATIC|HMGore (S)|PRESIZEEQ:S	ABILITY:Internal|AUTOMATIC|HMGore (M)|PRESIZEEQ:M	ABILITY:Internal|AUTOMATIC|HMGore (L)|PRESIZEEQ:L	ABILITY:Internal|AUTOMATIC|HMGore (H)|PRESIZEEQ:H
 
+Face 10			FACE:10
+Reach 10		REACH:10
+Face 15			FACE:15
+Reach 15		REACH:15
+
+
+
 Half-Minotaur (Large or Larger)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK			ABILITY:Special Ability|AUTOMATIC|Minotaur Cunning	ABILITY:Special Ability|AUTOMATIC|Scent		BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|INT|-2|TYPE=Racial.STACK		SAB:Minotaurs get a +2 Racial Bonus to Search, Spot, and Listen		BONUS:SKILL|Search,Spot,Listen|2|TYPE=Racial.STACK		ABILITY:FEAT|VIRTUAL|Track		CR:1		LEVELADJUSTMENT:1	VISION:Darkvision (60')				ABILITY:Internal|AUTOMATIC|HMGore (S)|PRESIZEEQ:S	ABILITY:Internal|AUTOMATIC|HMGore (M)|PRESIZEEQ:M	ABILITY:Internal|AUTOMATIC|HMGore (L)|PRESIZEEQ:L	ABILITY:Internal|AUTOMATIC|HMGore (H)|PRESIZEEQ:H
 
 
 
-Half-Ogre(Medium Or Smaller)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant		ABILITY:Internal|AUTOMATIC|Half-Minotaur (Medium or Smaller)	PRESIZELT:L		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		CR:1		LEVELADJUSTMENT:1	VISION:Darkvision (60')	BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|CHA|-2|TYPE=Racial.STACK		SAB:Giant Blood (Ex) - Half-Ogres count as giants for qualifying for classes, using magic items, etc.		
+Half-Ogre(Medium Or Smaller)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant		ABILITY:Internal|AUTOMATIC|Half-Minotaur (Medium or Smaller)	PRESIZELT:L		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		CR:1		LEVELADJUSTMENT:1	VISION:Darkvision (60')	BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|CHA|-2|TYPE=Racial.STACK				
 
 Half-Ogre(Large or Larger)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		CR:1		LEVELADJUSTMENT:0	VISION:Darkvision (60')	BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|CHA|-2|TYPE=Racial.STACK		SAB:Giant Blood (Ex) - Half-Ogres count as giants for qualifying for classes, using magic items, etc.		
 
@@ -172,3 +182,6 @@ Dragonborn.MOD	TYPE:LA0Playable
 Necropolitan.MOD	TYPE:LA0Playable
 
 Use Fractional BAB.MOD	VISIBLE:NO
+
+
+Fanged Mask Attacks			ABILITY:Special Ability|AUTOMATIC|Fanged Mask(S)|PRESIZELTEQ:S		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(M)|PRESIZEEQ:M		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(L)|PRESIZEEQ:L		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(H)|PRESIZEEQ:H		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(G)|PRESIZEEQ:G		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(C)|PRESIZEEQ:C		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(C+)|PRESIZEGT:C	
