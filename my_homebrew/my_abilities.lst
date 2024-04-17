@@ -119,7 +119,7 @@ Improved Skirmish	KEY:Improved Skirmish ~ Output		CATEGORY:Special Ability	TYPE:
 CATEGORY=Special Ability|Warlock ~ Eldritch Blast.MOD	ABILITY:Special Ability|AUTOMATIC|Eldritch Blast Output
 Eldritch Blast	KEY:Eldritch Blast Output		ASPECT:NAME|Eldritch Blast (%1d6, %2)|EldritchBlastDice|WarlockEldritchBlastDC		TYPE:SpellLike.SpecialAttack	CATEGORY:Special Ability
 CATEGORY=Special Ability|Unseen Seer ~ Damage Bonus.MOD		TYPE:.CLEAR		TYPE:SpecialAttack.Class Feature.Unseen Seer Class Feature
-Eldritch Claws	CATEGORY:FEAT		SOURCEPAGE:Dragon 358	DESC: As a free action, you can form the energy of your eldritch blast into a set of claws extending almost an entire foot from your hands. While your eldritch claws exist you may make up to two claw attacks as natural weapons. You are automatically proficient with your eldritch claws. On a successful attack with an eldritch claw, you deal your normal amount of unarmed strike damage plus your eldritch blast damage. Once you form your eldritch claws they remain until just before the beginning of your next turn. You cannot use your normal eldritch blast ability while your eldritch claws exist. A BattleDancer may not use eldritch claws as part of her flurry of blows. 	PREVARGTEQ:EldritchBlastDice,2		NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,0,SPROP=Deal Damage equal to your unarmed damage plus your Eldritch Blast damage.
+Eldritch Claws	CATEGORY:FEAT		SOURCEPAGE:Dragon 358	DESC: As a free action, you can form the energy of your eldritch blast into a set of claws extending almost an entire foot from your hands. While your eldritch claws exist you may make up to two claw attacks as natural weapons. You are automatically proficient with your eldritch claws. On a successful attack with an eldritch claw, you deal your normal amount of unarmed strike damage plus your eldritch blast damage. Once you form your eldritch claws they remain until just before the beginning of your next turn. You cannot use your normal eldritch blast ability while your eldritch claws exist. A Monk may not use eldritch claws as part of her flurry of blows. 	PREVARGTEQ:EldritchBlastDice,2		NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,0,SPROP=Deal Damage equal to your unarmed damage plus your Eldritch Blast damage.
 Skirmisher Boots	KEY:Skirmisher Boots Output	CATEGORY:Special Ability	TYPE:SpecialAttack	ASPECT:NAME|Skirmisher Boots (+2)		DESC:Your skirmish damage is increased by 2 if you moved at least 10'.  2/Day, you can activate these boots for an additional attack.
 
 Battle Dancer							CATEGORY:Class	ABILITY:Battle Dancer Class Selection|AUTOMATIC|Standard Battle Dancer|!PREABILITY:1,CATEGORY=Internal,TYPE=AltBattleDancerClass
@@ -282,3 +282,37 @@ Knock-Down	CATEGORY:FEAT	TYPE:General		SOURCEPAGE:SRD,Divine Abilities		DESC: Wh
 
 Mercantile Background	SOURCEPAGE:Player's Guide to Faerun, p.41	TYPE:General	CATEGORY:FEAT		PRETEXT:1st Level only		DESC:You were born to a merchant empire.		BENEFIT:Get 3/4 back for items you sell instead of 1/2, 1/month you can buy something for 3/4 of the price.
 
+Minotaur Cunning			CATEGORY:Special Ability		TYPE:Extraordinary.SpecialQuality	BENEFIT:+4 to escape Maze spells.  Always know what direction north is.
+
+
+HMGore (S)	CATEGORY:Internal		NATURALATTACKS:Gore,Weapon.Natural.Melee.Piercing.Slashing,*1,1d4		VISIBLE:NO
+HMGore (M)	CATEGORY:Internal		NATURALATTACKS:Gore,Weapon.Natural.Melee.Piercing.Slashing,*1,1d6		VISIBLE:NO
+HMGore (L)	CATEGORY:Internal		NATURALATTACKS:Gore,Weapon.Natural.Melee.Piercing.Slashing,*1,1d8		VISIBLE:NO
+HMGore (H)	CATEGORY:Internal		NATURALATTACKS:Gore,Weapon.Natural.Melee.Piercing.Slashing,*1,2d6		VISIBLE:NO
+
+Half-Minotaur (Medium or Smaller)	CATEGORY:Internal	VISIBLE:NO		BONUS:SIZEMOD|NUMBER|1	BONUS:MOVEADD|TYPE.Walk|10	
+
+CATEGORY=Special Ability|Hulking Hurler ~ Catch Weapon.MOD	ABILITY:FEAT|VIRTUAL|Snatch Arrows
+Use Fractional BAB		COST:0		CATEGORY:Internal		TYPE:MiscOptions.AlternateBAB		TEMPLATE:Use Fractional BAB		
+
+Expansion Granting Items		TEMPBONUS:ANYPC|COMBAT|TOHIT|-1*(%CHOICE)|TYPE=Size	TEMPBONUS:ANYPC|COMBAT|AC|-1*(%CHOICE)|TYPE=Size	TEMPBONUS:ANYPC|SIZEMOD|NUMBER|1*(%CHOICE)|TYPE=Temporary	TEMPBONUS:ANYPC|STAT|STR|2*(%CHOICE)|TYPE=Size	TEMPBONUS:ANYPC|STAT|DEX|min(2*(%CHOICE),DEXSCORE-1)|TYPE=Size		CATEGORY:Internal		TYPE:Hidden		TEMPVALUE:MIN=1|MAX=2|TITLE=Choose size change in steps
+
+CATEGORY=Special Ability|Persona Masks ~ Gladiator.MOD	TEMPBONUS:PC|COMBAT|TOHIT|1		TEMPBONUS:PC|COMBAT|DAMAGE.ALL|1
+
+
+
+Skin Of The Claw(S)		NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,1d4			CATEGORY:Special Ability
+Skin Of The Claw(M)		NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,1d6			CATEGORY:Special Ability
+Skin Of The Claw(L)		NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,1d8			CATEGORY:Special Ability
+Skin Of The Claw(H)		NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,1d10			CATEGORY:Special Ability	
+Skin Of The Claw(G)		NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,2d6			CATEGORY:Special Ability
+Skin Of The Claw(C)		NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,4d6			CATEGORY:Special Ability
+Skin Of The Claw(C+)	NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,6d6			CATEGORY:Special Ability
+
+Bite Of The Wolf(S)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*2,1d6			CATEGORY:Special Ability
+Bite Of The Wolf(M)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*2,1d8			CATEGORY:Special Ability
+Bite Of The Wolf(L)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*2,1d10			CATEGORY:Special Ability
+Bite Of The Wolf(H)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*2,2d6			CATEGORY:Special Ability	
+Bite Of The Wolf(G)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*2,4d6			CATEGORY:Special Ability
+Bite Of The Wolf(C)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*2,6d6			CATEGORY:Special Ability
+Bite Of The Wolf(C+)	NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*2,8d6			CATEGORY:Special Ability

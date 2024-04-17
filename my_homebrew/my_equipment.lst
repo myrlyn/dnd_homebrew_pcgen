@@ -77,3 +77,6 @@ Slippers of Battle Dancing		TYPE:Slippers.Footwear.Magic.Shoe.Shoes.Boot.Boots.W
 
 
 Belt, Battle Dancer's	KEY:Belt (Battle Dancer's)	TYPE:Magic.Wondrous.Belt	COST:13000	WT:1	SOURCEPAGE:p.248		ABILITY:Special Ability|AUTOMATIC|Battle Dancer ~ AC Bonus	ABILITY:Internal|AUTOMATIC|Monk ~ Unarmed Damage	BONUS:VAR|MonkACLVL|5	BONUS:VAR|StunningFistAttackTimes|1|PREABILITY:1,CATEGORY=FEAT,Stunning Fist	BONUS:VAR|MonkUnarmedDamageLVL|5	SPROP:When wrapped around a character's waist, this belt confers great ability in unarmed combat. The wearer's AC and unarmed damage is treated as a monk of five levels higher. If donned by a character with the Stunning Fist feat, the belt lets her make one additional stunning attack per day. If the character is not a monk, she gains the AC and unarmed damage of a 5th-level monk. This AC bonus functions just like the monk's AC bonus. Moderate transmutation; CL 10th
+
+
+

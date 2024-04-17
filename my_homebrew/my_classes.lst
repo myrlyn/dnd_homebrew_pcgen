@@ -164,3 +164,60 @@ CLASS:Battle Dancer		PREVAREQ:BattleDancerAlignmentNotMet,0
 CLASS:Battle Dancer		STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE=Craft|Diplomacy|Escape Artist|Hide|Jump|Knowledge (Arcana)|Knowledge (Religion)|Listen|Move Silently|TYPE=Perform|TYPE=Profession|Sense Motive|Spot|Swim|Tumble
 ###Block
 1	ABILITY:Class|AUTOMATIC|Battle Dancer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CLASS:Scaled Horror	HD:6		TYPE:PC.Prestige	FACT:ClassType|Prestige	FACT:Abb|Asn		SOURCEPAGE:Savage Species	DEFINE:ScaledHorrorLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:VAR|ScaledHorrorLVL|CL	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
+# Class Name	Required AL		Required Skill
+CLASS:Scaled Horror		PRESKILL:2,Hide=5,Move Silently=5			PRERACE:1,RACESUBTYPE=Reptile,RACESUBTYPE=Reptilian,RACETYPE=Dragon,RACESUBTYPE=Aquatic	PREATT:5	PREMULT:1,[PRESKILL:1,Swim=5],[PREMOVE:1,Swim=1]
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Scaled Horror	STARTSKILLPTS:4	CSKILL:Climb|Concentration|Hide|Jump|Listen|Move Silently|Search|Spot|Survival|Swim
+# Class Name	Spell Stat		Spell Type		Memorize	Caster level
+CLASS:Scaled Horror	FACT:SpellType|Divine	SPELLLIST:2|Ranger|Scaled Horror		
+CLASS:Scaled Horror	SPELLSTAT:WIS	MEMORIZE:YES	SPELLBOOK:NO	BONUS:CASTERLEVEL|ScaledHorror|Caster_Level_ScaledHorror	DEFINE:Caster_Level_ScaledHorror|0	BONUS:VAR|Caster_Level_ScaledHorror|CL+Caster_Level_Bonus	DEFINE:CasterLevelBLScaledHorror|0	BONUS:VAR|CasterLevelBLScaledHorror|charbonusto("PCLEVEL","ScaledHorror")	BONUS:VAR|Caster_Level_Highest__Arcane|Caster_Level_ScaledHorror+CasterLevelBLScaledHorror|TYPE=Base
+CLASS:Scaled Horror	AUTO:ARMORPROF|ARMORTYPE=Heavy|ARMORTYPE=Light	AUTO:SHIELDPROF|SHIELDTYPE=ShieldProf	AUTO:WEAPONPROF|TYPE=Simple|TYPE=Martial
+1	ABILITY:Special Ability|AUTOMATIC|Improved Grab|Shark ~ Keen Scent
+1	CAST:0
+2	CAST:1
+2	SAB:Freedom Of Movement (EX) - when in water, act as if under the effects of FreedomOf Movement
+3	CAST:1,0
+4	CAST:1,1
+4	DR:2/-
+5	CAST:1,1,0
+5	ABILITY:FEAT|VIRTUAL|Spring Attack
+6	CAST:1,1,1
+7	CAST:2,1,1,0
+7	ABILITY:FEAT|VIRTUAL|Silent Spell
+8	CAST:2,1,1,1
+8	ABILITY:FEAT|VIRTUAL|Still Spell
+9	CAST:2,2,1,1
+10	CAST:2,2,2,1
+10	DR:4/-
+
+
+
+
+
+
+CLASS:Reaping Mauler.MOD	BONUS:VAR|ClassBABFull|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1
