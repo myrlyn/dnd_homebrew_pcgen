@@ -221,3 +221,21 @@ CLASS:Scaled Horror	AUTO:ARMORPROF|ARMORTYPE=Heavy|ARMORTYPE=Light	AUTO:SHIELDPR
 
 
 CLASS:Reaping Mauler.MOD	BONUS:VAR|ClassBABFull|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1
+
+
+
+
+
+CLASS:Leviathan Hunter	HD:6		TYPE:PC.Prestige	FACT:ClassType|Prestige	FACT:Abb|LH		SOURCEPAGE:Stormwrack, 95	DEFINE:LeviathanHunterLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABFull|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:VAR|LeviathanHunterLVL|CL	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
+# Class Name	Required AL		Required Skill
+CLASS:Leviathan Hunter	PREALIGN:LG,NG,CG	PRESKILL:1,Knowledge (Nature)=4		PREABILITY:1,CATEGORY=Feat,Iron Will	PREABILITY:1,CATEGORY=Feat,Track	PREATT:5	PRETEXT:Fabored Enemy(Aberrations, Animals, Dragons, or Magical Beasts)
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Leviathan Hunter	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Gather Information|Hide|Jump|Knowledge (Arcana)|Knowledge (Religion)|Knowledge (Nature)|Listen
+# Class Name	Spell Stat		Spell Type		Memorize	Caster level
+CLASS:Leviathan Hunter	FACT:SpellType|Arcane	SPELLLIST:2|Assassin|Leviathan Hunter		
+CLASS:Leviathan Hunter	SPELLSTAT:INT	MEMORIZE:NO	BONUS:CASTERLEVEL|Leviathan Hunter|Caster_Level_Leviathan Hunter	DEFINE:Caster_Level_Leviathan Hunter|0	BONUS:VAR|Caster_Level_Leviathan Hunter|CL+Caster_Level_Bonus	DEFINE:CasterLevelBLLeviathan Hunter|0	BONUS:VAR|CasterLevelBLLeviathan Hunter|charbonusto("PCLEVEL","Leviathan Hunter")	BONUS:VAR|Caster_Level_Highest__Arcane|Caster_Level_Leviathan Hunter+CasterLevelBLLeviathan Hunter|TYPE=Base		MAXLEVEL:5		
+1	ABILITY:Special Ability|AUTOMATIC|LHunterInsight	ABILITY:Special Ability|AUTOMATIC|Trophy	DEFINE:TrophyBonus|0	BONUS:VAR|TrophyBonus|2
+2	ABILITY:Special Ability|AUTOMATIC|Fell The Leviathan		DEFINE:FellLevithan|0		BONUS:VAR|FellLevithan|2	
+3	ABILITY:Special Ability|AUTOMATIC|Leviathan Hunger ~ Clever Wrestling
+4	BONUS:VAR|FellLevithan|2
+5	BONUS:VAR|TrophyBonus|2		ABILITY:Special Ability|AUTOMATIC|Leviathan Hunter ~ Immunity to Fear
