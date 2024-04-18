@@ -59,3 +59,10 @@ ABILITYCATEGORY:Evolved Deathless Spell-like Ability		VISIBLE:QUALIFY	EDITABLE:Y
 
 
 ABILITYCATEGORY:Natural Fighting		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES						CATEGORY:FEAT	TYPE:Natural Fighting												PLURAL:Natural Fighting		DISPLAYLOCATION:Class Features
+
+
+ABILITYCATEGORY:Unseelie Fey Wings		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES						CATEGORY:Special Ability	TYPE:Unseelie Fey Wings												PLURAL:Unseelie Fey Wings		DISPLAYLOCATION:Race Traits
+
+ABILITYCATEGORY:Unseelie Fey Seasonal Power		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES						CATEGORY:Special Ability	TYPE:Unseelie Fey Seasonal Power												PLURAL:Unseelie Fey Seasonal Power		DISPLAYLOCATION:Race Traits
+
+ABILITYCATEGORY:Unseelie Fey Vision		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES						CATEGORY:Special Ability	TYPE:Unseelie Fey Vision												PLURAL:Unseelie Fey Vision		DISPLAYLOCATION:Race Traits

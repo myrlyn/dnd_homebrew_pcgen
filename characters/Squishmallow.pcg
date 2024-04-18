@@ -1,0 +1,276 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Squishmallow
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:21
+STAT:DEX|SCORE:16
+STAT:CON|SCORE:18
+STAT:INT|SCORE:16
+STAT:WIS|SCORE:18
+STAT:CHA|SCORE:16
+ALIGN:NG
+RACE:Goliath
+
+# Character Class(es)
+CLASS:Fighter (Thug)|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Fighter|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Swordsage|LEVEL:1|SKILLPOOL:0|SPELLBASE:WIS|CANCASTPERDAY:
+CLASS:Psychic Rogue|LEVEL:1|SKILLPOOL:0|SPELLBASE:INT|CANCASTPERDAY:
+CLASS:Rogue|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Rogue (Wilderness Rogue)|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Scaled Horror|LEVEL:1|SKILLPOOL:0|SPELLBASE:WIS|CANCASTPERDAY:0
+CLASS:Avenger|LEVEL:1|SKILLPOOL:0|SPELLBASE:INT|CANCASTPERDAY:0,0
+CLASS:Master of Masks|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Ronin|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Hulking Hurler|LEVEL:2|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:PsiSpell|LEVEL:0|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Fighter (Thug)=1|HITPOINTS:10|SKILLSGAINED:20|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:10|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swordsage=1|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Psychic Rogue=1|HITPOINTS:6|PRESTAT:STR=1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=1|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue (Wilderness Rogue)=1|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Scaled Horror=1|HITPOINTS:6|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Avenger=1|HITPOINTS:6|PRESTAT:STR=1|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Master of Masks=1|HITPOINTS:6|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ronin=1|HITPOINTS:10|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Hulking Hurler=1|HITPOINTS:10|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Hulking Hurler=2|HITPOINTS:10|PRESTAT:STR=1|SKILLSGAINED:3|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:66000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Monstrous Humanoid]]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Not Listed]
+TEMPLATESAPPLIED:[NAME:Psionic]
+TEMPLATESAPPLIED:[NAME:First Level ~ Not Listed|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Half-Minotaur]
+TEMPLATESAPPLIED:[NAME:Half-Ogre(Large or Larger)]
+TEMPLATESAPPLIED:[NAME:Wild]
+TEMPLATESAPPLIED:[NAME:Amphibious]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Monstrous Humanoid]
+TEMPLATESAPPLIED:[NAME:Use Fractional BAB]
+TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
+TEMPLATESAPPLIED:[NAME:Skin Of The Claw Attacks]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter (Thug)|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Avenger|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Master of Masks|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Ronin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Hulking Hurler|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:9|
+SKILL:Disguise|OUTPUTORDER:10|CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter (Thug)|RANKS:2.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Avenger|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Master of Masks|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Ronin|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Escape Artist|OUTPUTORDER:11|
+SKILL:Forgery|OUTPUTORDER:12|
+SKILL:Gather Information|OUTPUTORDER:13|
+SKILL:Heal|OUTPUTORDER:14|
+SKILL:Hide|OUTPUTORDER:15|CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter (Thug)|RANKS:2.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Swordsage|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue (Wilderness Rogue)|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Hide (Forested Areas)|OUTPUTORDER:16|
+SKILL:Intimidate|OUTPUTORDER:17|
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:18|
+SKILL:Jump|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Scaled Horror|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Hulking Hurler|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Avenger|RANKS:3.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue (Wilderness Rogue)|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:20|
+SKILL:Listen|OUTPUTORDER:21|
+SKILL:Literacy|OUTPUTORDER:22|
+SKILL:Move Silently|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Psychic Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter (Thug)|RANKS:2.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Swordsage|RANKS:3.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue (Wilderness Rogue)|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:24|
+SKILL:Perform (Act)|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter (Thug)|RANKS:2.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Master of Masks|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue (Wilderness Rogue)|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Ride|OUTPUTORDER:26|
+SKILL:Search|OUTPUTORDER:27|
+SKILL:Sense Motive|OUTPUTORDER:28|
+SKILL:Speak Language|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Rogue (Wilderness Rogue)|RANKS:0.5|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Fighter|RANKS:0.5|COST:2|CLASSSKILL:N]|ASSOCIATEDDATA:Undercommon
+SKILL:Spot|OUTPUTORDER:30|
+SKILL:Survival|OUTPUTORDER:31|
+SKILL:Swim|OUTPUTORDER:32|
+SKILL:Use Rope|OUTPUTORDER:33|
+
+# Character Languages
+LANGUAGE:Col-Kaa|LANGUAGE:Common|LANGUAGE:Giant|LANGUAGE:Undercommon
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Fighter ~ Sneak Attack|TYPE:ACF.FighterBonusFeats|DESC:Some fighters prefer stealth and cunning over martial skill. This variant can also be combined with the thug variant described earlier in this chapter.  Gain&colon; Sneak attack (as rogue).  Lose&colon; Bonus feats.
+USERPOOL:Alternate Class Feature|POOLPOINTS:0.0
+ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
+USERPOOL:ECL Buy Down|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Far Shot|TYPE:General.Fighter.AttackOption.ChampionOfTheWildArchery.ViolentKnowledge|DESC:You can get greater distance out of a ranged weapon.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Greater Multigrab|TYPE:Monstrous|DESC:You can grapple enemies effortlessly with your natural weapons.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Bull Rush|TYPE:General.Fighter.AttackOption.ViolentKnowledge|DESC:You know how to push opponents back.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Knockback|TYPE:General.Fighter|DESC:By putting your bulk behind a blow, you can push your enemy backward.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Multigrab|TYPE:Monstrous|DESC:You can grapple enemies more firmly than normal with your natural attacks.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Point Blank Shot|TYPE:General.Fighter.AttackOption.ChampionOfTheWildArchery.ViolentKnowledge|DESC:You are skilled at making well-placed shots with ranged weapons at close range.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:General.Fighter.AttackOption.ViolentKnowledge|DESC:You can make exceptionally powerful melee attacks.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Meager Fortitude|TYPE:Flaws.SpecialQuality|DESC:You are sickly and weak of stomach.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Murky-Eyed|TYPE:Flaws.SpecialQuality|DESC:Your vision is obscured.
+USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Add Language|APPLIEDTO:Giant|TYPE:GM_Award.SpecialQuality|DESC:GM awarded PC with bonus Language.
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:BonusSneakAttackDice|APPLIEDTO:|TYPE:GM_Award.SpecialQuality|DESC:-2 all saving throws
+USERPOOL:GM Awards|POOLPOINTS:0.0
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Use Fractional BAB|TYPE:MiscOptions.AlternateBAB
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Rule - Use ECL Level Buy Down|TYPE:MiscOptions
+USERPOOL:Misc Options|POOLPOINTS:0.0
+ABILITY:Persona Masks Known|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Persona Masks ~ Assassin|TYPE:MasterOfMasks Class Feature.Class Feature.PersonaMasks.SpecialQuality|DESC:Hardened black leather and metal clasps create the disturbing aspect of the assassin. A jagged, cruel slit forms the opening for the mouth, and the mask's edges are worn and stained. You can deliver a sneak attack that deals an extra 1d6 points of damage when you are flanking an opponent or at any time when the target would be denied its Dexterity bonus (see the rogue class feature, PH 50). As you advance in the master of masks class, your sneak attack becomes more devastating&colon; This extra damage improves to 2d6 points at 4th level, 3d6 at 7th level, and 4d6 at 10th level. If you get a sneak attack bonus from another source (such as rogue levels), the bonuses on damage stack. In addition, you gain a +2 competence bonus on Hide and Move Silently checks. This bonus improves to +4 at 4th level, +6 at 7th level, and +8 at 10th level. Your alignment appears to be lawful evil while you wear an assassin mask.
+ABILITY:Persona Masks Known|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Persona Masks ~ Gladiator|TYPE:MasterOfMasks Class Feature.Class Feature.PersonaMasks.SpecialQuality|DESC:This wyvern-hide mask is shaped like the face of a grim warrior. Scars cover its surface, and silver chainmail rings surround its outer edge. You gain proficiency with all martial and exotic weapons. You also gain a +1 competence bonus on attack rolls and weapon damage rolls. As you advance in the master of masks class, you become more expert in weapon use&colon; This bonus improves to +2 at 4th level, +3 at 7th level, and +4 at 10th level. Your alignment appears to be neutral while you wear a gladiator mask.
+USERPOOL:Persona Masks Known|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Region ~ None|TYPE:Region
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Claw At The Moon|TYPE:SpecialAttack.Swordsage Martial Maneuver.Tiger Claw.Tiger Claw Discipline.Tiger Claw Maneuver.Maneuver.Martial Maneuver.Strike|DESC:You leap into the air, catching your foe off guard as you slice down into him. You learn to leap into the air and slice at a foe's vulnerable points. Like a great cat, you spring into the air and attack your foe from an unexpected direction. As part of this maneuver, you attempt a Jump check to leap into the air and make a melee attack that targets your foe's upper body, face, and neck. The Jump check's DC is equal to your target's AC. If this check succeeds, your attack deals an extra 2d6 points of damage. If this attack threatens a critical hit, you gain a +4 bonus on your roll to confirm the critical hit. If your check fails, you can still attack, but you do not deal extra damage or gain a bonus on a roll to confirm a critical hit. The maneuver is still considered expended.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Death From Above|TYPE:SpecialAttack.Swordsage Martial Maneuver.Tiger Claw.Tiger Claw Discipline.Tiger Claw Maneuver.Maneuver.Martial Maneuver.Strike|DESC:With a war cry, you leap into the air and lift your weapon high overhead. As you arc downward, your weight and momentum lend bonecrushing force to your attack. Like a thunderbolt, you slam into your foe from above. You leap upon your enemy and drive him into the ground. The impact of your attack gives you extra force, allowing you to score a deadly hit. To use this maneuver, you must be adjacent to a foe. As part of this maneuver, you attempt a DC 20 Jump check. If this check succeeds, you can make a single melee attack against an opponent that you were adjacent to when you began this maneuver. This attack occurs in the air as you soar over your opponent, also as part of the maneuver. Your attack deals an extra 4d6 points of damage, and your opponent is considered flat-footed against this attack. You then land in any square adjacent to the target of this attack, though no more than 20 feet away from your starting position. If your Jump check fails, you remain in the last square you occupied before the Jump check and can make a single attack normally. The maneuver is still considered expended.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Pouncing Charge|TYPE:SpecialAttack.Swordsage Martial Maneuver.Tiger Claw.Tiger Claw Discipline.Tiger Claw Maneuver.Maneuver.Martial Maneuver.Strike|DESC:With the roar of a wild beast, you throw yourself into the fray. Your weapons are little more than a blur as you hack at your foe with feral speed. With a ferocious howl, you throw yourself into combat. You move with such speed and ferocity that when you reach your enemy, you unleash a blistering flurry of slashes, cuts, and hacks. As part of initiating this maneuver, you make a charge attack. Instead of making a single attack at the end of your charge, you can make a full attack. The bonus on your attack roll for making a charge attack applies to all your attack rolls.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Rabid Bear Strike|TYPE:SpecialAttack.Swordsage Martial Maneuver.Tiger Claw.Tiger Claw Discipline.Tiger Claw Maneuver.Maneuver.Martial Maneuver.Strike|DESC:With a ferocious roar, you leap upon your enemy like a wild beast, slamming your weapon into her with a madman's fury. You focus your primal fury into a single attack, laying an opponent low with a mighty blow that splinters bones and shatters steel. As part of this maneuver, you make a single melee attack. You gain a +4 bonus on this attack roll and deal an extra 10d6 points of damage. After completing this maneuver, you take a -4 penalty to AC until the start of your next turn.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Shadow Jaunt|TYPE:SpecialAttack.Swordsage Martial Maneuver.Shadow Hand.Shadow Hand.Shadow Hand Discipline.Shadow Hand Maneuver.Teleportation.Shadow Hand Maneuver LVL2|DESC:A cloud of shadow energy engulfs you, spins into a tiny mote, and disappears. A moment later, this shadowy cloud appears across the battlefield and expels you from it. As part of this maneuver, you disappear in a cloud of darkness and teleport up to 50 feet away. You must have line of sight and line of effect to your destination. If you attempt to use this maneuver to move into an occupied space, you do not move, and the maneuver is expended but has no effect.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Sudden Leap|TYPE:SpecialAttack.Swordsage Martial Maneuver.Tiger Claw.Tiger Claw Discipline.Tiger Claw Maneuver.Maneuver.Martial Maneuver.Boost|DESC:You leap to a new position in the blink of an eye, leaving your opponents baffled. You can make a Jump check as a swift action and move the distance determined by your check result. You provoke attacks of opportunity with this movement, and you must move in a straight line. As with any movement, you can attempt a Tumble check to avoid any attacks you provoke with this sudden leap. You can't move through enemies, unless you succeed on the appropriate Tumble check.
+USERPOOL:Swordsage Maneuver|POOLPOINTS:0.0
+ABILITY:Swordsage Stance|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Assassin's Stance|TYPE:SpecialAttack.Shadow Hand Stance.Swordsage Martial Stance.Stance.Shadow Hand.Shadow Hand Discipline|DESC:As your foe struggles to regain his defensive posture, you line up an exacting strike that hits with superior accuracy and deadly force. A shadow cast by a gap between two armored plates or a crease in a creature's thick hide calls to your weapon, allowing you to strike with deadly accuracy against an unprepared opponent. While you are in this stance, you gain the sneak attack ability, if you do not already have it, which deals an extra 2d6 points of damage. If you already have the sneak attack class feature, your existing sneak attack ability deals an extra 2d6 points of damage. See the rogue class feature (PH 50) for a complete description of sneak attack.
+USERPOOL:Swordsage Stance|POOLPOINTS:0.0
+ABILITY:Swordsage Weapon Focus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage ~ Weapon Focus Shadow Hand|TYPE:SpecialQuality.Extraordinary.Swordsage Weapon Focus|DESC:Grants the Weapon Focus feat for weapons associated with the Shadow Hand discipline (dagger, short sword, sai, siangham, unarmed strike, and spiked chain).
+USERPOOL:Swordsage Weapon Focus|POOLPOINTS:0.0
+ABILITY:Two Handed Hurl Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Hulking Hurler ~ Ranged Power Attack|TYPE:Class Feature.Hulking Hurler Class Feature.SpecialQuality.TwoHandedHurlTrick|DESC:If the target is within 30 feet, the hulking hurler can use Power Attack with his thrown weapon.
+USERPOOL:Two Handed Hurl Trick|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Axe (Throwing)|WEAPON:Bash|WEAPON:Battle Gauntlet|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Hand)|WEAPON:Crossbow (Heavy)]
+WEAPONPROF:[WEAPON:Crossbow (Light)|WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dart Thruster|WEAPON:Darts (Barbed)|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)]
+WEAPONPROF:[WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Goblin Stick|WEAPON:Gore|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme]
+WEAPONPROF:[WEAPON:Halberd|WEAPON:Halfspear|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Ice Axe|WEAPON:Javelin|WEAPON:Katana|WEAPON:Kukri|WEAPON:Lance|WEAPON:Lance (Flight)]
+WEAPONPROF:[WEAPON:Lance (Heavy)|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Morningstar|WEAPON:NoProfReq]
+WEAPONPROF:[WEAPON:Pick (Dire)|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Saber|WEAPON:Sap|WEAPON:Scimitar]
+WEAPONPROF:[WEAPON:Scythe|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor]
+WEAPONPROF:[WEAPON:Strike (Unarmed)|WEAPON:Sword (Bastard)|WEAPON:Sword (Cutlass)|WEAPON:Sword (Saber)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Truncheon|WEAPON:Unarmed Strike|WEAPON:Wakizashi|WEAPON:Warhammer]
+WEAPONPROF:[WEAPON:Warmace]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Belt of Giant Strength +4|OUTPUTORDER:8|COST:16000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Coin (Gold)|OUTPUTORDER:10|COST:1|WT:0.02|QUANTITY:995.0|NOTE:
+EQUIPNAME:Explorer's Outfit (Large)|OUTPUTORDER:6|COST:0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Explorer's Outfit|DATA:NAME=Explorer's Outfit (Large)$KEY=Explorer_s Outfit (Large)$SIZE=L$COSTMOD=-10]
+EQUIPNAME:Full Plate (Large)|OUTPUTORDER:7|COST:3000.0|WT:100.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Full Plate|DATA:NAME=Full Plate (Large)$KEY=AUTOSIZELFull Plate$SIZE=L$EQMOD=STEEL]
+EQUIPNAME:Gloves of Titan's Grip&lbracket;Riverine&rbracket;|OUTPUTORDER:3|COST:22000.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gloves of Titan's Grip|DATA:NAME=Gloves of Titan's Grip&lbracket;Riverine&rbracket;$SPROP=(Gloves of Titan's Grip) Riverine is a nigh-indestructible material made of water compressed between tiny Walls of Force.  It is effectively ghost-touch and ethereal warding.$COSTMOD=8000.0]
+EQUIPNAME:Gore (Natural/Primary)|OUTPUTORDER:4|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gore|DATA:KEY=Gore]
+EQUIPNAME:Gore (Natural/Primary)|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gore|DATA:KEY=Gore]
+EQUIPNAME:Moon Moon's Hat|OUTPUTORDER:1|COST:2000.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Hat|DATA:NAME=Moon Moon's Hat$EQMOD=SPL_ACT&pipe;SPELLNAME&lbracket;Bite of the Wolf&rbracket; CASTER&lbracket;Psychic Warrior&rbracket; SPELLTYPE&lbracket;Psionic&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; $SPROP=Grants a bite attack as "Bite Of The Wolf"]
+EQUIPNAME:Ring of Fitting Through Doors|OUTPUTORDER:5|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Signet Ring|DATA:NAME=Ring of Fitting Through Doors$SPROP=As a standard action, you can reduce yourself one size category.  This lasts until dismissed or dispelled.$COSTMOD=7995]
+EQUIPNAME:Ring of The Squishmallow|OUTPUTORDER:2|COST:24005.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Signet Ring|DATA:NAME=Ring of The Squishmallow$EQMOD=SPL_CON_HOURS&pipe;SPELLNAME&lbracket;Expansion&rbracket; CASTER&lbracket;Psychic Warrior&rbracket; SPELLTYPE&lbracket;Psionic&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;8&rbracket; $SPROP=As a swift action, you may increase your size up to 2 categories.  This effect lasts until cancelled or dispelled.]
+EQUIPNAME:Skin of the Claw|OUTPUTORDER:9|COST:12000|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:psychoactive skin (Skin of the Claw)|DATA:NAME=Skin of the Claw$KEY=psychoactive skin (Skin of the Claw)]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.03|VALUE:Ring of The Squishmallow|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Clothing|ID:0.1.05|VALUE:Explorer's Outfit (Large)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.06|VALUE:Skin of the Claw|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Body|ID:0.1.08|VALUE:Full Plate (Large)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Hands|ID:0.1.09|VALUE:Gloves of Titan's Grip&lbracket;Riverine&rbracket;|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.10|VALUE:Ring of Fitting Through Doors|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Head|ID:0.1.11|VALUE:Moon Moon's Hat|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Waist|ID:0.1.12|VALUE:Belt of Giant Strength +4|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.13|VALUE:Coin (Gold)|QUANTITY:995.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.14|VALUE:Gore (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+TEMPBONUS:FEAT=Expansion Granting Items|TBTARGET:PC|TBACTIVE:N|TBBONUS:COMBAT&pipe;AC&pipe;-1*(2)&pipe;TYPE=SIZE|TBBONUS:COMBAT&pipe;TOHIT&pipe;-1*(2)&pipe;TYPE=SIZE|TBBONUS:SIZEMOD&pipe;NUMBER&pipe;1*(2)&pipe;TYPE=TEMPORARY|TBBONUS:STAT&pipe;DEX&pipe;MIN(2*(2),DEXSCORE-1)&pipe;TYPE=SIZE|TBBONUS:STAT&pipe;STR&pipe;2*(2)&pipe;TYPE=SIZE
+TEMPBONUS:FEAT=Persona Masks ~ Gladiator|TBTARGET:PC|TBBONUS:COMBAT&pipe;DAMAGE.ALL&pipe;1|TBBONUS:COMBAT&pipe;TOHIT&pipe;1
+TEMPBONUS:FEAT=Assassin's Mask Active 1|TBTARGET:PC|TBBONUS:VAR&pipe;SNEAKATTACKDICE&pipe;1
+TEMPBONUS:FEAT=Assassin's Stance Active|TBTARGET:PC|TBBONUS:VAR&pipe;SNEAKATTACKDICE&pipe;2
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+SPELLNAME:Assassin's Stance|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Claw At The Moon|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Death From Above|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Pouncing Charge|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Rabid Bear Strike|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Shadow Jaunt|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Sudden Leap|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Detect Psionics|TIMES:1|CLASS:Psychic Rogue|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Psychic Rogue]
+SPELLNAME:Jump|TIMES:1|CLASS:Avenger|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Avenger]
+SPELLNAME:Sniper's Shot|TIMES:1|CLASS:Avenger|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Avenger]
+SPELLLIST:Scaled Horror|CLASS.Ranger|CLASS.Scaled Horror
+SPELLLIST:Avenger|CLASS.Assassin|CLASS.Avenger
+SPELLLIST:PsiSpell|CLASS.PsiSpell|CLASS.Psion
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

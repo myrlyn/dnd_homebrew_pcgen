@@ -1,0 +1,248 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Huggabunch
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:21
+STAT:DEX|SCORE:16
+STAT:CON|SCORE:18
+STAT:INT|SCORE:16
+STAT:WIS|SCORE:18
+STAT:CHA|SCORE:16
+ALIGN:NG
+RACE:Goliath
+
+# Character Class(es)
+CLASS:Ranger|LEVEL:3|SKILLPOOL:16|SPELLBASE:WIS|CANCASTPERDAY:
+CLASS:Leviathan Hunter|LEVEL:3|SKILLPOOL:9|SPELLBASE:INT|CANCASTPERDAY:
+CLASS:Scaled Horror|LEVEL:1|SKILLPOOL:3|SPELLBASE:WIS|CANCASTPERDAY:0
+CLASS:Reaping Mauler|LEVEL:5|SKILLPOOL:15|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Ranger=1|HITPOINTS:8|SKILLSGAINED:28|SKILLSREMAINING:8
+CLASSABILITIESLEVEL:Ranger=2|SUBSTITUTIONLEVEL:Fangshield Ranger|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Ranger=3|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:5
+CLASSABILITIESLEVEL:Leviathan Hunter=1|HITPOINTS:10|PRESTAT:STR=1|SKILLSGAINED:5|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Leviathan Hunter=2|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Leviathan Hunter=3|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Scaled Horror=1|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Reaping Mauler=1|HITPOINTS:10|PRESTAT:STR=1|SKILLSGAINED:3|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Reaping Mauler=2|HITPOINTS:10|SKILLSGAINED:3|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Reaping Mauler=3|HITPOINTS:10|SKILLSGAINED:3|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Reaping Mauler=4|HITPOINTS:10|SKILLSGAINED:3|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Reaping Mauler=5|HITPOINTS:10|PRESTAT:STR=1|SKILLSGAINED:3|SKILLSREMAINING:3
+
+# Character Experience
+EXPERIENCE:88000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Monstrous Humanoid]]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Ranger]
+TEMPLATESAPPLIED:[NAME:First Level ~ Ranger|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Monstrous Humanoid]
+TEMPLATESAPPLIED:[NAME:Half-Minotaur]
+TEMPLATESAPPLIED:[NAME:Half-Ogre(Large or Larger)]
+TEMPLATESAPPLIED:[NAME:Amphibious]
+TEMPLATESAPPLIED:[NAME:Wild]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+TEMPLATESAPPLIED:[NAME:Use Fractional BAB]
+TEMPLATESAPPLIED:[NAME:Arms of Plenty]
+TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
+TEMPLATESAPPLIED:[NAME:Beast Claws Attacks]
+TEMPLATESAPPLIED:[NAME:Bite Of The Wolf Attacks]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:9|
+SKILL:Disguise|OUTPUTORDER:10|
+SKILL:Escape Artist|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Ranger|RANKS:3.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Scaled Horror|RANKS:0.5|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Leviathan Hunter|RANKS:1.5|COST:2|CLASSSKILL:N]
+SKILL:Forgery|OUTPUTORDER:12|
+SKILL:Gather Information|OUTPUTORDER:13|
+SKILL:Heal|OUTPUTORDER:14|
+SKILL:Hide|OUTPUTORDER:15|CLASSBOUGHT:[CLASS:Ranger|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Hide (Forested Areas)|OUTPUTORDER:16|
+SKILL:Intimidate|OUTPUTORDER:17|
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:18|
+SKILL:Jump|OUTPUTORDER:19|
+SKILL:Knowledge (Nature)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Ranger|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:21|
+SKILL:Listen|OUTPUTORDER:22|
+SKILL:Literacy|OUTPUTORDER:23|
+SKILL:Move Silently|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Ranger|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:25|
+SKILL:Ride|OUTPUTORDER:26|
+SKILL:Search|OUTPUTORDER:27|
+SKILL:Sense Motive|OUTPUTORDER:28|
+SKILL:Spot|OUTPUTORDER:29|
+SKILL:Survival|OUTPUTORDER:30|
+SKILL:Swim|OUTPUTORDER:31|
+SKILL:Tumble|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Ranger|RANKS:3.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Scaled Horror|RANKS:0.5|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Leviathan Hunter|RANKS:1.5|COST:2|CLASSSKILL:N]
+SKILL:Use Rope|OUTPUTORDER:33|
+
+# Character Languages
+LANGUAGE:Col-Kaa|LANGUAGE:Common|LANGUAGE:Giant
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Ranger ACF ~ Champion of the Wild|TYPE:RangerSpellcasting.ACF|DESC:Replaces&colon; To select this class feature, you must sacrifice your spellcasting ability. Benefit&colon; You no longer gain spells as a ranger, but you can now select a bonus feat at 4th, 8th, 11th, and 14th levels. You can choose any feat from the following list for which you meet the prerequisites&colon; Blind-Fight, Combat Expertise, Eyes in the Back of Your HeadCW, Improved Disarm, Improved Favored EnemyCW, Improved Feint, and Improved Trip, as well as from one of the following lists, depending on your combat style. Archery&colon; Far Shot, Improved Precise Shot, Improved Rapid ShotCW, Manyshot, Point Blank Shot, Precise Shot, Ranged DisarmCW, Ranged PinCW, Ranged SunderCW, Sharp- ShootingCW, and Shot on the Run. Two-Weapon Combat&colon; Greater Two-Weapon DefenseCW, Greater Two-Weapon Fighting, Improved Two-Weapon DefenseCW, Improved Two-Weapon Fighting, Two-Weapon Defense, Weapon Finesse. Special&colon; A ranger who selects this path can no longer use scrolls, wands, or other magic items that require access to a spell list, unless he has another spellcasting class that grants access to the appropriate spells.
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Ranger ACF ~ Spiritual Connection|TYPE:RangerWildEmpathy.ACF|DESC:You learn to speak with spirits of the wild places. Although this ability does not automatically make such spirits well disposed toward you, it does provide several benefits. You can use speak with animals and speak with plants as the spells (caster level equals your ranger level). You can use any combination of these effects up to three times per day. This replaces Wild Empathy.|DESC:Replaces&colon; This benefit replaces the wild empathy class feature. Benefit&colon; You can use speak with animals and speak with plants, as the spells (caster level equals your ranger level). You can use any combination of these effects up to three times per day.
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Ranger ACF ~ Trap Expert|TYPE:RangerTrack.RangerSwiftTracker.ACF|DESC:You replace your tracking with the trapfinding skill of the rogue and also gain access to the disable device skill.
+USERPOOL:Alternate Class Feature|POOLPOINTS:0.0
+ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
+USERPOOL:ECL Buy Down|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Greater Multigrab|TYPE:Monstrous|DESC:You can grapple enemies effortlessly with your natural weapons.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Unarmed Strike|TYPE:General.Fighter.ViolentKnowledge|DESC:You are skilled at fighting while unarmed.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Iron Will|TYPE:General|DESC:You have a stronger will than normal.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Large and in Charge|TYPE:General|DESC:Push back foe attempting to close
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Multigrab|TYPE:Monstrous|DESC:You can grapple enemies more firmly than normal with your natural attacks.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Enemy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Enemy ~ Aberration|TYPE:Class Feature.Ranger Class Feature.FavoredEnemy.Extraordinary.SpecialAttack|DESC:Gain a +%1 bonus on Bluff, Listen, Sense Motive, Spot, and Survival checks when using these skills against creatures of this type. Likewise, he gets a +%1 bonus on weapon damage rolls against such creatures.&pipe;FavoredEnemyBonusAberration
+USERPOOL:Favored Enemy|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Add Language|APPLIEDTO:Giant|TYPE:GM_Award.SpecialQuality|DESC:GM awarded PC with bonus Language.
+USERPOOL:GM Awards|POOLPOINTS:0.0
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Use Fractional BAB|TYPE:MiscOptions.AlternateBAB
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Rule - Use ECL Level Buy Down|TYPE:MiscOptions
+USERPOOL:Misc Options|POOLPOINTS:0.0
+ABILITY:Natural Fighting|TYPE:NORMAL|CATEGORY:FEAT|KEY:Multiattack|TYPE:General.Natural Fighting|DESC:The creature's secondary attacks with natural weapons take only a -2 penalty. Normal&colon; Without this feat, the creature's secondary attacks with natural weapons take a -5 penalty.
+USERPOOL:Natural Fighting|POOLPOINTS:0.0
+ABILITY:Ranger Class|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Ranger ~ Without Spellcasting|TYPE:RangerClass
+USERPOOL:Ranger Class|POOLPOINTS:0.0
+ABILITY:Ranger Combat Style|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Combat Style ~ Natural Fighting|TYPE:Class Feature.Ranger Class Feature.SpecialQuality.RangerCombatStyle|DESC:You gain either Multiattack or Improved Natural Attack as a bonus feat.
+USERPOOL:Ranger Combat Style|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Region ~ None|TYPE:Region
+USERPOOL:Region|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Arms of Plenty Claws|WEAPON:Aspergillum (Heavy)|WEAPON:Axe (Throwing)|WEAPON:Bash|WEAPON:Battle Gauntlet|WEAPON:Battleaxe|WEAPON:Beast Claw|WEAPON:Bite|WEAPON:Blowgun|WEAPON:Boulder]
+WEAPONPROF:[WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dart Thruster|WEAPON:Darts (Barbed)|WEAPON:Falchion]
+WEAPONPROF:[WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Goblin Stick|WEAPON:Gore|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub]
+WEAPONPROF:[WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Halfspear|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Ice Axe|WEAPON:Javelin|WEAPON:Katana|WEAPON:Kukri]
+WEAPONPROF:[WEAPON:Lance|WEAPON:Lance (Flight)|WEAPON:Lance (Heavy)|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul]
+WEAPONPROF:[WEAPON:Morningstar|WEAPON:Pick (Dire)|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Saber|WEAPON:Sap]
+WEAPONPROF:[WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)]
+WEAPONPROF:[WEAPON:Spiked Armor|WEAPON:Strike (Unarmed)|WEAPON:Sword (Bastard)|WEAPON:Sword (Cutlass)|WEAPON:Sword (Saber)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Truncheon|WEAPON:Unarmed Strike|WEAPON:Wakizashi]
+WEAPONPROF:[WEAPON:Warhammer|WEAPON:Warmace]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Arms of Plenty Claws (Natural/Primary)|OUTPUTORDER:8|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arms of Plenty Claws|DATA:KEY=Arms of Plenty Claws]
+EQUIPNAME:Beast Claw (Natural/Primary)|OUTPUTORDER:4|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Beast Claw|DATA:KEY=Beast Claw]
+EQUIPNAME:Belt of Giant Strength +4|OUTPUTORDER:12|COST:16000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Belt, Monk's|OUTPUTORDER:10|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Monk's)|DATA:NAME=Belt, Monk's$KEY=Belt (Monk's)]
+EQUIPNAME:Bite (Natural/Primary)|OUTPUTORDER:5|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bite|DATA:KEY=Bite]
+EQUIPNAME:Bracers of Armor +1|OUTPUTORDER:7|COST:1000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Cloak of the Unarmed|OUTPUTORDER:9|COST:18000.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Cloak|DATA:NAME=Cloak of the Unarmed$EQMOD=SPL_CON_STANDARD&pipe;SPELLNAME&lbracket;Brilliant Emanation&rbracket; CASTER&lbracket;Beholder Mage&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;3&rbracket; CASTERLEVEL&lbracket;3&rbracket; $SPROP=At will, the trailing cloth of this split cloak twist themselves into two clawed arms., (Cloak (Brilliant Emanation/Beholder Mage/3rd))]
+EQUIPNAME:Gore (Natural/Primary)|OUTPUTORDER:3|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gore|DATA:KEY=Gore]
+EQUIPNAME:Mask of Adorable Teefs|OUTPUTORDER:1|COST:4000.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Goggles|DATA:NAME=Mask of Adorable Teefs$EQMOD=SPL_CON_MINUTES&pipe;SPELLNAME&lbracket;Bite of the Wolf&rbracket; CASTER&lbracket;Psychic Warrior&rbracket; SPELLTYPE&lbracket;Psionic&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; $SPROP=Grants a Bite Attack]
+EQUIPNAME:Murder Mittens|OUTPUTORDER:0|COST:2000.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gloves|DATA:NAME=Beast Claw Gloves$EQMOD=SPL_CON_HOURS&pipe;SPELLNAME&lbracket;Beast Claws&rbracket; CASTER&lbracket;Druid&rbracket; SPELLTYPE&lbracket;Divine&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; $SPROP=Grant a Claw Attack, (Gloves (Beast Claws/Druid/1st))$COSTMOD=-1000.0]
+EQUIPNAME:Periapt of Wisdom +4|OUTPUTORDER:2|COST:16000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Poor Man's Boots Of Speed|OUTPUTORDER:11|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Boots|DATA:NAME=Poor Man's Boots Of Speed$SPROP=You may take an additional move action every turn]
+EQUIPNAME:Ring Of Bein' A Heckin ' Chonker But Actually Fitting Though Doors|OUTPUTORDER:6|COST:18000.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Signet Ring|DATA:NAME=Ring Of Bein' A Heckin ' Chonker But Actually Fitting Though Doors$EQMOD=SPL_CON_STANDARD&pipe;SPELLNAME&lbracket;Expansion&rbracket; CASTER&lbracket;Psychic Warrior&rbracket; SPELLTYPE&lbracket;Psionic&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;5&rbracket; $SPROP=Increase your size up to 2 categories at wil, or decrease by 1 at will.  Effect lasts until dismissed, dispelled, or the ring is removed.$COSTMOD=7995.0]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Eyes|ID:0.1.02|VALUE:Mask of Adorable Teefs|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.06|VALUE:Cloak of the Unarmed|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Waist|ID:0.1.07|VALUE:Belt, Monk's|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.1|VALUE:Gore (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.10|VALUE:Beast Claw (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.11|VALUE:Bite (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.12|VALUE:Periapt of Wisdom +4|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Foot|ID:0.1.13|VALUE:Poor Man's Boots Of Speed|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Hands|ID:0.1.14|VALUE:Murder Mittens|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.15|VALUE:Ring Of Bein' A Heckin ' Chonker But Actually Fitting Though Doors|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.16|VALUE:Belt of Giant Strength +4|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Arms|ID:0.1.17|VALUE:Bracers of Armor +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.8|VALUE:Arms of Plenty Claws (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+SPELLBOOK:Class|TYPE:4
+SPELLLIST:Leviathan Hunter|CLASS.Assassin|CLASS.Leviathan Hunter
+SPELLLIST:Scaled Horror|CLASS.Scaled Horror|CLASS.Ranger
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

@@ -174,7 +174,7 @@ WEAPONPROF:[WEAPON:Sword (Saber)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Trun
 
 # Character Equipment
 MONEY:35000.00
-EQUIPNAME:Belt, Battle Dancer's|OUTPUTORDER:4|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Battle Dancer's)|DATA:KEY=Belt (Battle Dancer's)]
+EQUIPNAME:Belt, Battle Dancer's|OUTPUTORDER:4|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Battle Dancer's)|DATA:NAME=Belt, Battle Dancer's$KEY=Belt (Battle Dancer's)]
 EQUIPNAME:Cloak of Charisma +6|OUTPUTORDER:3|COST:36000|WT:2.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Entertainer's Outfit|OUTPUTORDER:2|COST:3|WT:4.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Gauntlets of the Talon|OUTPUTORDER:1|COST:4000|WT:2.0|QUANTITY:1.0|NOTE:
@@ -193,7 +193,7 @@ CALCEQUIPSET:0.1
 
 # Character Spells Information
 SPELLLIST:Bard|CLASS.Bard
-SPELLLIST:Paladin of Freedom|CLASS.Paladin|CLASS.Paladin of Freedom
+SPELLLIST:Paladin of Freedom|CLASS.Paladin of Freedom|CLASS.Paladin
 
 # Character Description/Bio/History
 CHARACTERBIO:

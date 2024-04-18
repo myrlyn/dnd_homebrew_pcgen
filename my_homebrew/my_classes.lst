@@ -248,3 +248,9 @@ SUBSTITUTIONCLASS:Fangshield Ranger	SOURCEPAGE:41	PRERACETYPE:Animal,Fey,Giant,M
 SUBSTITUTIONLEVEL:2								ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Combat Style|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerCombatTree		QUALIFY:ABILITY=Special Ability|Combat Style ~ Natural Fighting
 SUBSTITUTIONLEVEL:4	BONUS:VAR|AnimalCompanionLVL|(CL/2)+2	ABILITY:Special Ability|AUTOMATIC|Animal Companion|Fangshield Ranger ~ Animal Companion	ADD:SPELLCASTER|Ranger
 SUBSTITUTIONLEVEL:5								ABILITY:Special Ability|AUTOMATIC|Fangshield Ranger ~ Lion and the Unicorn			ADD:SPELLCASTER|Ranger
+
+
+
+CLASS:SPelldancer.MOD
+
+1:REPEATLEVEL:1		ADD:SPELLCASTER|ANY

@@ -347,7 +347,7 @@ Clever Wrestling		CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack.Clas
 Immunity to Fear	KEY:Leviathan Hunter ~ Immunity to Fear	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality.ClassFeature	DESC:You are immune to fear.
 
 
-Cosmopolitan			CATEGORY:FEAT	
+Cosmopolitan			CATEGORY:FEAT	CHOOSE:SKILL|CROSSCLASS		CSKILL:LIST			DESC:Chosen skill is now a class skill		MULT:YES		STACK:NO
 CATEGORY=Special Ability|Scent.MOD		DESC:This extraordinary ability lets a creature detect approaching enemies, sniff out hidden foes, and track by sense of smell.  %1' range. |ScentRange		DEFINE:ScentRange|0		BONUS:VAR|ScentRange|30
 CATEGORY=Special Ability|Improved Grab.MOD		DESC:When you hit with an unarmed strike or natural attack, you may initiate a Grapple as a free action.
 CATEGORY=Special Ability|Goliath ~ Mountain Movement.MOD		DESC:Because goliaths practically live on the ledges and cliffs of the most forbidding mountains, they are particularly adept at negotiating mountain hazards. Goliaths can make standing long jumps and high Jumps as if they were running long jumps and high Jumps. A goliath can engage in accelerated climbing (climbing half his speed as a move action) without taking the -5 penalty on the Climb check.
@@ -366,3 +366,44 @@ CATEGORY=FEAT|Multiattack.MOD			TYPE:Natural Fighting
 CATEGORY=Special Ability|Ranger ACF ~ Champion of the Wild.MOD		DESC:Replace ranger spellcasting with bonus feats at 4th,8th, 11th, and 114h levels.
 CATEGORY=Special Ability|Ranger ~ Combat Style.MOD		DESC:You gain feats for a particular kind of combat.
 CATEGORY=Special Ability|Ranger ~ Favored Enemy.MOD			DESC:+X on Bluff, Listen, Spot, Sense Motive, Survival checks and on Damage rolls involving this kind of creature. Starts at +2, and increases with each favored enemy.
+None		KEY:Unseelie Fae ~ No Wings				CATEGORY:Special Ability	TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality
+
+Batlike		KEY:Unseelie Fae ~ Batlike				CATEGORY:Special Ability	TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality	MOVECLONE:Walk,Fly,*2	ABILITY:Special Ability|AUTOMATIC|Aerial Maneuverability	BONUS:VAR|Maneuverability|3
+Unusable Batlike Wings		KEY:Unseelie Fae ~ Unusable Batlike				CATEGORY:Special Ability	TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality
+
+Mothlike		KEY:Unseelie Fae ~ Mothlike				CATEGORY:Special Ability	TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality	MOVECLONE:Walk,Fly,*2	ABILITY:Special Ability|AUTOMATIC|Aerial Maneuverability	BONUS:VAR|Maneuverability|3			DESC:Your wings resemble a mot or butterfly.
+Unusable Mothlike Wings		KEY:Unseelie Fae ~ Unusable Mothlike				CATEGORY:Special Ability	TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality		DESC:Your unusable wings resemble a moth's or butterfly's.
+
+
+Birdlike		KEY:Unseelie Fae ~ Birdlike				CATEGORY:Special Ability	TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality	MOVECLONE:Walk,Fly,*2	ABILITY:Special Ability|AUTOMATIC|Aerial Maneuverability	BONUS:VAR|Maneuverability|3		DESC:Your wings resemble a bird's
+Unusable Birdlike Wings		KEY:Unseelie Fae ~ Unusable Birdlike				CATEGORY:Special Ability	TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality		DESC:Your wings resembel a bird's, but grant no flight
+
+Dragonlike		KEY:Unseelie Fae ~ Dragonlike				CATEGORY:Special Ability	TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality	MOVECLONE:Walk,Fly,*2	ABILITY:Special Ability|AUTOMATIC|Aerial Maneuverability	BONUS:VAR|Maneuverability|3			DESC:Your wings resemble a mot or butterfly.
+Unusable Dragonlike Wings		KEY:Unseelie Fae ~ Unusable Dragonlike				CATEGORY:Special Ability	TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality		DESC:Your unusable wings resemble a dragon's.
+
+
+
+Insectlike		KEY:Unseelie Fae ~ Insectlike				CATEGORY:Special Ability	TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality	MOVECLONE:Walk,Fly,*2	ABILITY:Special Ability|AUTOMATIC|Aerial Maneuverability	BONUS:VAR|Maneuverability|3		DESC:Your wings resemble a Insect's
+Unusable Insectlike Wings		KEY:Unseelie Fae ~ Unusable Insectlike				CATEGORY:Special Ability	TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality		DESC:Your wings resembel a Insect's, but grant no flight
+
+Summer's Caress		CATEGORY:Special Ability	KEY:Unseelie Fae ~ Summer's Caress		DESC: At will, spend a standard action and touch a creature.  You remove all dazed, nauseated, fatigued, and exhausted conditions from the target.  For indead, this touch attack functions as Turn Undead used by a cleric two levels higher than your total level, affecting only the touched undead.						TYPE:Supernatural.Unseelie Fey Seasonal Power.SpecialQuality
+
+
+Summer's Caress		CATEGORY:Special Ability	KEY:Unseelie Fae ~ Summers Caress		DESC: You are constantly surrounded by a Magic Circle of Nature, which functions like Magic Circle Against Evi, except that it protects form all creatures of any alignment, except animal, beast, fey, or magical beast. Caster level is equal to your total level.						TYPE:Supernatural.Unseelie Fey Seasonal Power.SpecialQuality
+
+
+Autumn Harvest		CATEGORY:Special Ability	KEY:Unseelie Fae ~ Autumn Harvest		DESC: A number of times a day equal to your Charisma bonus (minimum 1) you can touch a creature with a special dispelling touch, which functions as a targeted Dispel Magic with caster level equal to your total HD.						TYPE:Supernatural.Unseelie Fey Seasonal Power.SpecialQuality
+
+Winter Chill		CATEGORY:Special Ability	KEY:Living nonfey creatures within 5' take a morale penalty to their saving throws equal to your charisma bonus (min 1).  .						TYPE:Supernatural.Unseelie Fey Seasonal Power.SpecialQuality
+
+Iron Vulnerability		CATEGORY:Special Ability		TYPE:Extraordinary.SpecialQuality		DESC: Iron and steel cause 1 point of damage to a mere touch.  Iron or steel weapons deal +1d6 damage against you.  If you have DR that would protect against this damage, it does apply (for instance, the damage from steel would be prevented by DR/Cold Iron)
+
+Low-Light Vision		CATEGORY:Special Ability	KEY:Unseelie Fae ~ Low-Light Vision		DESC:You gain low-light vision.		VISION:Low-Light						TYPE:Extraordinary.Unseelie Fey Vision.SpecialQuality
+Standard Vision		CATEGORY:Special Ability	KEY:Unseelie Fae ~ Standard Vision		DESC:Your vision is unchanged						TYPE:Unseelie Fey Vision
+
+Darkvision Vision		CATEGORY:Special Ability	KEY:Unseelie Fae ~ Darkvision Vision		DESC:You gain Darkvision 60'.		VISION:Darkvision (60')						TYPE:Extraordinary.Unseelie Fey Vision.SpecialQuality
+Blind, with Tremorsense		CATEGORY:Special Ability	KEY:Unseelie Fae ~ Low-Light Vision		DESC:You gain have no eyes, but gain tremorsense out to 30'						TYPE:Extraordinary.Unseelie Fey Vision.SpecialQuality
+
+Blind, with Blindsight		CATEGORY:Special Ability	KEY:Unseelie Fae ~ Low-Light Vision		DESC:You gain have no eyes, but gain blindsight out to 30'						TYPE:Extraordinary.Unseelie Fey Vision.SpecialQuality
+
+

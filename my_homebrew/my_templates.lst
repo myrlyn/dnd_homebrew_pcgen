@@ -133,7 +133,7 @@ Necropolitan.COPY=Necropolitan(Deathless)
 
 #Deathless Necropolitan	HITDIE:12	RACETYPE:Deathless	SOURCEPAGE:p.114 SAB:Resist Control (Ex) SAB:Turn Resistance +2 (Ex)	SAB:Unnatural Resilience (Ex)	TYPE:Deathless		SOURCEPAGE:Deathless Reskin of Necropolitan	TYPE:LA0Playable
 
-Necropolitan.MOD			SAB:.CLEAR	ABILITY:Special Ability|AUTOMATIC|Resist Control|Turn Resistance|Deathless ~ Unnatural Resilience	BONUS:VAR|TurnResistBonus|2
+Necropolitan.MOD			SAB:.CLEAR	ABILITY:Special Ability|AUTOMATIC|Resist Control|Turn Resistance|Deathless ~ Unnatural Resilience	BONUS:VAR|TurnResistBonus|2		TYPE:LA0Playable
 
 Necropolitan(Deathless).MOD	TYPE:Deathless		RACETYPE:Deathless		ABILITY:Special Ability|AUTOMATIC|Type Output ~ Deathless		SAB:.CLEAR	ABILITY:Special Ability|AUTOMATIC|Resist Control|Turn Resistance|Deathless ~ Unnatural Resilience	BONUS:VAR|TurnResistBonus|2		TYPE:LA0Playable
 
@@ -168,11 +168,8 @@ Half-Minotaur (Large or Larger)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous 
 
 
 
-<<<<<<< HEAD
-Half-Ogre(Medium Or Smaller)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant		ABILITY:Internal|AUTOMATIC|Half-Minotaur (Medium or Smaller)	PRESIZELT:L		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		CR:1		LEVELADJUSTMENT:1	VISION:Darkvision (60')	BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|CHA|-2|TYPE=Racial.STACK		SAB:Giant Blood (Ex) - Half-Ogres count as giants for qualifying for classes, using magic items, etc.		BONUS:SIZEMOD|1
-=======
-Half-Ogre(Medium Or Smaller)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant		ABILITY:Internal|AUTOMATIC|Half-Minotaur (Medium or Smaller)	PRESIZELT:L		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		CR:1		LEVELADJUSTMENT:1	VISION:Darkvision (60')	BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|CHA|-2|TYPE=Racial.STACK				
->>>>>>> e1ea208aa822e1654905aec9b02cad2872709e20
+Half-Ogre(Medium Or Smaller)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant		ABILITY:Internal|AUTOMATIC|Half-Minotaur (Medium or Smaller)	PRESIZELT:L		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		CR:1		LEVELADJUSTMENT:1	VISION:Darkvision (60')	BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|CHA|-2|TYPE=Racial.STACK		SAB:Giant Blood (Ex) - Half-Ogres count as giants for qualifying for classes, using magic items, etc.		BONUS:SIZEMOD|NUMBER|1
+#Half-Ogre(Medium Or Smaller)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant		ABILITY:Internal|AUTOMATIC|Half-Minotaur (Medium or Smaller)	PRESIZELT:L		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		CR:1		LEVELADJUSTMENT:1	VISION:Darkvision (60')	BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|CHA|-2|TYPE=Racial.STACK				
 
 Half-Ogre(Large or Larger)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		CR:1		LEVELADJUSTMENT:0	VISION:Darkvision (60')	BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|CHA|-2|TYPE=Racial.STACK		SAB:Giant Blood (Ex) - Half-Ogres count as giants for qualifying for classes, using magic items, etc.		
 
@@ -191,3 +188,10 @@ Half VampireA.MOD		LEVELADJUSTMENT:.CLEAR
 Half VampireA.MOD		LEVELADJUSTMENT:2	OUTPUTNAME:Half-Vampire
 
 Fanged Mask Attacks			ABILITY:Special Ability|AUTOMATIC|Fanged Mask(S)|PRESIZELTEQ:S		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(M)|PRESIZEEQ:M		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(L)|PRESIZEEQ:L		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(H)|PRESIZEEQ:H		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(G)|PRESIZEEQ:G		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(C)|PRESIZEEQ:C		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(C+)|PRESIZEGT:C	
+
+
+Unseelie Fey		SOURCEPAGE:Dragon Compendium		TYPE:LA0Playable		BONUS:STAT|STR|-2		BONUS:STAT|DEX|2	BONUS:STAT|CON|-2		BONUS:STAT|CHA|2		DR:5/iron|PREPCLEVEL:MIN=4,MAX=7	DR:10/cold iron|PREPCLEVEL:MIN=8,MAX=11		DR:15/cold iron|PREPCLEVEL:MIN=12			BONUS:ABILITYPOOL|Unseelie Fey Wings|1		BONUS:ABILITYPOOL|Unseelie Fey Seasonal Power|1			BONUS:ABILITYPOOL|Unseelie Fey Vision|1		ABILITY:Special Ability|AUTOMATIC|Iron Vulnerability	RACETYPE:Fey
+
+#Lycanthrope.MOD			TEMPLATE:CHOOSE:Weredog
+
+

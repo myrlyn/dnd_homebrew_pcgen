@@ -36,3 +36,6 @@ SOURCELONG:My Campaign	SOURCESHORT:My	SOURCEWEB:http://www.mywebsite.com	SOURCED
 #eligible to learn the language, for instance by acquiring the Druid class. There is a multitude of existing prerequiste tags
 #in PCGen. If you are looking into the documentation under List File Tag Index, you can find them listed under the topic
 #"PRExxx tags".
+
+
+Yip-yak			TYPE:Spoken.Written.Read.Kobold.Draconic
