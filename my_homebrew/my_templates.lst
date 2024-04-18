@@ -158,7 +158,7 @@ Half-Minotaur (Large or Larger)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous 
 
 
 
-Half-Ogre(Medium Or Smaller)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant		ABILITY:Internal|AUTOMATIC|Half-Minotaur (Medium or Smaller)	PRESIZELT:L		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		CR:1		LEVELADJUSTMENT:1	VISION:Darkvision (60')	BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|CHA|-2|TYPE=Racial.STACK		SAB:Giant Blood (Ex) - Half-Ogres count as giants for qualifying for classes, using magic items, etc.		
+Half-Ogre(Medium Or Smaller)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant		ABILITY:Internal|AUTOMATIC|Half-Minotaur (Medium or Smaller)	PRESIZELT:L		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		CR:1		LEVELADJUSTMENT:1	VISION:Darkvision (60')	BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|CHA|-2|TYPE=Racial.STACK		SAB:Giant Blood (Ex) - Half-Ogres count as giants for qualifying for classes, using magic items, etc.		BONUS:SIZEMOD|1
 
 Half-Ogre(Large or Larger)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		CR:1		LEVELADJUSTMENT:0	VISION:Darkvision (60')	BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|CHA|-2|TYPE=Racial.STACK		SAB:Giant Blood (Ex) - Half-Ogres count as giants for qualifying for classes, using magic items, etc.		
 
@@ -172,3 +172,6 @@ Dragonborn.MOD	TYPE:LA0Playable
 Necropolitan.MOD	TYPE:LA0Playable
 
 Use Fractional BAB.MOD	VISIBLE:NO
+
+Half VampireA.MOD		LEVELADJUSTMENT:.CLEAR
+Half VampireA.MOD		LEVELADJUSTMENT:2	OUTPUTNAME:Half-Vampire

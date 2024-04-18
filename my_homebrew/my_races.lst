@@ -86,4 +86,5 @@ Kobold.MOD		BONUS:ABILITYPOOL|Kobold Draconic Rite of Passage|1
 Kobold.COPY=Kobold (Variant)			SERVESAS:RACE|Kobold
 
 
-Kobold (Variant)	SOURCEPAGE:Races Of The Dragon Web Enhancement		NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Primary,*2,1d3|Bite,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Primary,*1,1d3		SAB:Treat Greatpick as Martial.	BONUS:ABILITYPOOL|Kobold Draconic Rite of Passage|1		ABILITY:Special Ability|AUTOMATIC|Slight Build	AUTO:WEAPONPROF|Pick (Light)|Pick (Heavy)		
+Kobold (Variant)	SOURCEPAGE:Races Of The Dragon Web Enhancement		NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Primary,*2,1d3|Bite,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Primary,*1,1d3		SAB:Treat Greatpick as Martial.	BONUS:ABILITYPOOL|Kobold Draconic Rite of Passage|1		ABILITY:Special Ability|AUTOMATIC|Slight Build	AUTO:WEAPONPROF|Pick (Light)|Pick (Heavy)		RACETYPE:Monstrous Humanoid		SERVESAS:RACE|Kobold	SIZE:S		STARTFEATS:1
+
