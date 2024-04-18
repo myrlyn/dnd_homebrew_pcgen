@@ -282,13 +282,13 @@ Knock-Down	CATEGORY:FEAT	TYPE:General		SOURCEPAGE:SRD,Divine Abilities		DESC: Wh
 
 Mercantile Background	SOURCEPAGE:Player's Guide to Faerun, p.41	TYPE:General	CATEGORY:FEAT		PRETEXT:1st Level only		DESC:You were born to a merchant empire.		BENEFIT:Get 3/4 back for items you sell instead of 1/2, 1/month you can buy something for 3/4 of the price.
 
-Minotaur Cunning			CATEGORY:Special Ability		TYPE:Extraordinary.SpecialQuality	BENEFIT:+4 to escape Maze spells.  Always know what direction north is.
+Minotaur Cunning			CATEGORY:Special Ability		TYPE:Extraordinary.SpecialQuality	DESC:+4 to escape Maze spells.  Always know what direction north is.		
 
 
-HMGore (S)	CATEGORY:Internal		NATURALATTACKS:Gore,Weapon.Natural.Melee.Piercing.Slashing,*1,1d4		VISIBLE:NO
-HMGore (M)	CATEGORY:Internal		NATURALATTACKS:Gore,Weapon.Natural.Melee.Piercing.Slashing,*1,1d6		VISIBLE:NO
-HMGore (L)	CATEGORY:Internal		NATURALATTACKS:Gore,Weapon.Natural.Melee.Piercing.Slashing,*1,1d8		VISIBLE:NO
-HMGore (H)	CATEGORY:Internal		NATURALATTACKS:Gore,Weapon.Natural.Melee.Piercing.Slashing,*1,2d6		VISIBLE:NO
+HMGore (S)	CATEGORY:Internal		NATURALATTACKS:Gore,Weapon.Natural.Melee.Piercing.Slashing,*1,1d4		VISIBLE:NO		
+HMGore (M)	CATEGORY:Internal		NATURALATTACKS:Gore,Weapon.Natural.Melee.Piercing.Slashing,*1,1d6		VISIBLE:NO		
+HMGore (L)	CATEGORY:Internal		NATURALATTACKS:Gore,Weapon.Natural.Melee.Piercing.Slashing,*1,1d8		VISIBLE:NO		TEMPLATE:Face 10	TEMPLATE:Reach 10
+HMGore (H)	CATEGORY:Internal		NATURALATTACKS:Gore,Weapon.Natural.Melee.Piercing.Slashing,*1,2d6		VISIBLE:NO		TEMPLATE:Face 15	TEMPLATE:Reach 15
 
 Half-Minotaur (Medium or Smaller)	CATEGORY:Internal	VISIBLE:NO		BONUS:SIZEMOD|NUMBER|1	BONUS:MOVEADD|TYPE.Walk|10	
 
@@ -309,14 +309,29 @@ Skin Of The Claw(G)		NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,
 Skin Of The Claw(C)		NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,4d6			CATEGORY:Special Ability
 Skin Of The Claw(C+)	NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,6d6			CATEGORY:Special Ability
 
-Bite Of The Wolf(S)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*2,1d6			CATEGORY:Special Ability
-Bite Of The Wolf(M)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*2,1d8			CATEGORY:Special Ability
-Bite Of The Wolf(L)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*2,1d10			CATEGORY:Special Ability
-Bite Of The Wolf(H)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*2,2d6			CATEGORY:Special Ability	
-Bite Of The Wolf(G)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*2,4d6			CATEGORY:Special Ability
-Bite Of The Wolf(C)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*2,6d6			CATEGORY:Special Ability
-Bite Of The Wolf(C+)	NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*2,8d6			CATEGORY:Special Ability
+Bite Of The Wolf(S)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*1,1d6			CATEGORY:Special Ability
+Bite Of The Wolf(M)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*1,1d8			CATEGORY:Special Ability
+Bite Of The Wolf(L)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*1,1d10			CATEGORY:Special Ability
+Bite Of The Wolf(H)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*1,2d6			CATEGORY:Special Ability	
+Bite Of The Wolf(G)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*1,4d6			CATEGORY:Special Ability
+Bite Of The Wolf(C)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*1,6d6			CATEGORY:Special Ability
+Bite Of The Wolf(C+)	NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*1,8d6			CATEGORY:Special Ability
 
+Fanged Mask(S)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*1,1d3,SPROP=Fortitude (13) or be stunned for 1 round			CATEGORY:Special Ability
+Fanged Mask(M)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*1,1d4,SPROP=Fortitude (13) or be stunned for 1 round			CATEGORY:Special Ability
+Fanged Mask(L)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*1,1d6,SPROP=Fortitude (13) or be stunned for 1 round			CATEGORY:Special Ability
+Fanged Mask(H)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*1,1d8,SPROP=Fortitude (13) or be stunned for 1 round			CATEGORY:Special Ability	
+Fanged Mask(G)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*1,1d10,SPROP=Fortitude (13) or be stunned for 1 round			CATEGORY:Special Ability
+Fanged Mask(C)		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*1,2d6,SPROP=Fortitude (13) or be stunned for 1 round			CATEGORY:Special Ability
+Fanged Mask(C+)	NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing,*1,4d6,SPROP=Fortitude (13) or be stunned for 1 round			CATEGORY:Special Ability
+
+Beast Claws(S)		NATURALATTACKS:Beast Claw,Claw.Weapon.Natural.Melee.Piercing.Slashing,*2,1d3			CATEGORY:Special Ability
+Beast Claws(M)		NATURALATTACKS:Beast Claw,Claw.Weapon.Natural.Melee.Piercing.Slashing,*2,1d4			CATEGORY:Special Ability
+Beast Claws(L)		NATURALATTACKS:Beast Claw,Claw.Weapon.Natural.Melee.Piercing.Slashing,*2,1d6			CATEGORY:Special Ability
+Beast Claws(H)		NATURALATTACKS:Beast Claw,Claw.Weapon.Natural.Melee.Piercing.Slashing,*2,1d8			CATEGORY:Special Ability	
+Beast Claws(G)		NATURALATTACKS:Beast Claw,Claw.Weapon.Natural.Melee.Piercing.Slashing,*2,1d10			CATEGORY:Special Ability
+Beast Claws(C)		NATURALATTACKS:Beast Claw,Claw.Weapon.Natural.Melee.Piercing.Slashing,*2,2d6			CATEGORY:Special Ability
+Beast Claws(C+)		NATURALATTACKS:Beast Claw,Claw.Weapon.Natural.Melee.Piercing.Slashing,*2,4d6			CATEGORY:Special Ability
 
 Slight Build			CATEGORY:Special Ability	TYPE:Race Trait.Kobold.Kobold Race Trait.Racial.Kobold Racial Trait.Racial Trait	DESC:You count as 1 size smaller when beneficial.		BENEFIT:The physical stature of kobolds lets them function in many ways as if they were one size category smaller. Whenever a kobold is subject to a size modifier or special size modifier for an opposed check (such as Hide), the kobold is treated as one size smaller if doing so is advantageous to the character. A kobold is also considered to be one size smaller when "squeezing" through a restrictive space. A kobold can use weapons designed for a creature one size smaller without penalty. However, the space and reach of a kobold remain those of a creature of their actual size. The benefits of this racial trait stack with the effects of powers, abilities, and spells that change the subject's size category.
 
@@ -333,3 +348,21 @@ Immunity to Fear	KEY:Leviathan Hunter ~ Immunity to Fear	CATEGORY:Special Abilit
 
 
 Cosmopolitan			CATEGORY:FEAT	
+CATEGORY=Special Ability|Scent.MOD		DESC:This extraordinary ability lets a creature detect approaching enemies, sniff out hidden foes, and track by sense of smell.  %1' range. |ScentRange		DEFINE:ScentRange|0		BONUS:VAR|ScentRange|30
+CATEGORY=Special Ability|Improved Grab.MOD		DESC:When you hit with an unarmed strike or natural attack, you may initiate a Grapple as a free action.
+CATEGORY=Special Ability|Goliath ~ Mountain Movement.MOD		DESC:Because goliaths practically live on the ledges and cliffs of the most forbidding mountains, they are particularly adept at negotiating mountain hazards. Goliaths can make standing long jumps and high Jumps as if they were running long jumps and high Jumps. A goliath can engage in accelerated climbing (climbing half his speed as a move action) without taking the -5 penalty on the Climb check.
+
+	
+CATEGORY=Special Ability|Goliath ~ Powerful Build.MOD		DESC:The physical stature of a goliath let's him function in many ways as if he were one size category larger. Whenever a goliath is subject to a size modifier or special size modifier for an opposed check (such as during grapple checks, bull rush attempts, and trip attempts), the goliath is treated as one size larger if doing so is advantageous to him. A goliath is also considered to be one size larger when determining whether a creature's special attacks based on size (such as improved grab or swallow whole) can affect him. A goliath can use weapons designed for a creature one size larger without penalty. However, his space and reach remain those of a creature of his actual size. The benefits of this racial trait stack with the effects of powers, abilities, and spells that change the subject's size category.
+
+
+Giant Blood			CATEGORY:Special Ability		TYPE:Extraordinary.SpecialQuality	DESC:You count as a Giant for magic and special abilities.
+
+CATEGORY=Special Ability|Combat Style ~ Natural Fighting.MOD		BONUS:ABILITYPOOL|Natural Fighting|1			DESC:You gain either Multiattack or Improved Natural Attack as a bonus feat.  		QUALIFY:ABILITY=FEAT|Improved Natural Attack
+CATEGORY=FEAT|Improved Natural Attack.MOD			TYPE:Natural Fighting
+CATEGORY=FEAT|Multiattack.MOD			TYPE:Natural Fighting
+
+
+CATEGORY=Special Ability|Ranger ACF ~ Champion of the Wild.MOD		DESC:Replace ranger spellcasting with bonus feats at 4th,8th, 11th, and 114h levels.
+CATEGORY=Special Ability|Ranger ~ Combat Style.MOD		DESC:You gain feats for a particular kind of combat.
+CATEGORY=Special Ability|Ranger ~ Favored Enemy.MOD			DESC:+X on Bluff, Listen, Spot, Sense Motive, Survival checks and on Damage rolls involving this kind of creature. Starts at +2, and increases with each favored enemy.

@@ -188,7 +188,7 @@ CLASS:Battle Dancer		STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE=Cra
 
 
 
-CLASS:Scaled Horror	HD:6		TYPE:PC.Prestige	FACT:ClassType|Prestige	FACT:Abb|Asn		SOURCEPAGE:Savage Species	DEFINE:ScaledHorrorLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:VAR|ScaledHorrorLVL|CL	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
+CLASS:Scaled Horror	HD:10		TYPE:PC.Prestige	FACT:ClassType|Prestige	FACT:Abb|Asn		SOURCEPAGE:Savage Species	DEFINE:ScaledHorrorLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:VAR|ScaledHorrorLVL|CL	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
 # Class Name	Required AL		Required Skill
 CLASS:Scaled Horror		PRESKILL:2,Hide=5,Move Silently=5			PRERACE:1,RACESUBTYPE=Reptile,RACESUBTYPE=Reptilian,RACETYPE=Dragon,RACESUBTYPE=Aquatic	PREATT:5	PREMULT:1,[PRESKILL:1,Swim=5],[PREMOVE:1,Swim=1]
 # Class Name	Skill Pts/Lvl	Class Skill
@@ -226,7 +226,7 @@ CLASS:Reaping Mauler.MOD	BONUS:VAR|ClassBABFull|classlevel("APPLIEDAS=NONEPIC")|
 
 
 
-CLASS:Leviathan Hunter	HD:6		TYPE:PC.Prestige	FACT:ClassType|Prestige	FACT:Abb|LH		SOURCEPAGE:Stormwrack, 95	DEFINE:LeviathanHunterLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABFull|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:VAR|LeviathanHunterLVL|CL	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
+CLASS:Leviathan Hunter	HD:10		TYPE:PC.Prestige	FACT:ClassType|Prestige	FACT:Abb|LH		SOURCEPAGE:Stormwrack, 95	DEFINE:LeviathanHunterLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABFull|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:VAR|LeviathanHunterLVL|CL	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
 # Class Name	Required AL		Required Skill
 CLASS:Leviathan Hunter	PREALIGN:LG,NG,CG	PRESKILL:1,Knowledge (Nature)=4		PREABILITY:1,CATEGORY=Feat,Iron Will	PREABILITY:1,CATEGORY=Feat,Track	PREATT:5	PRETEXT:Fabored Enemy(Aberrations, Animals, Dragons, or Magical Beasts)
 # Class Name	Skill Pts/Lvl	Class Skill
@@ -239,3 +239,12 @@ CLASS:Leviathan Hunter	SPELLSTAT:INT	MEMORIZE:NO	BONUS:CASTERLEVEL|Leviathan Hun
 3	ABILITY:Special Ability|AUTOMATIC|Leviathan Hunger ~ Clever Wrestling
 4	BONUS:VAR|FellLevithan|2
 5	BONUS:VAR|TrophyBonus|2		ABILITY:Special Ability|AUTOMATIC|Leviathan Hunter ~ Immunity to Fear
+
+
+
+
+CLASS:Ranger.MOD
+SUBSTITUTIONCLASS:Fangshield Ranger	SOURCEPAGE:41	PRERACETYPE:Animal,Fey,Giant,Magical Beast,Monstrous Humanoid
+SUBSTITUTIONLEVEL:2								ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Combat Style|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerCombatTree		QUALIFY:ABILITY=Special Ability|Combat Style ~ Natural Fighting
+SUBSTITUTIONLEVEL:4	BONUS:VAR|AnimalCompanionLVL|(CL/2)+2	ABILITY:Special Ability|AUTOMATIC|Animal Companion|Fangshield Ranger ~ Animal Companion	ADD:SPELLCASTER|Ranger
+SUBSTITUTIONLEVEL:5								ABILITY:Special Ability|AUTOMATIC|Fangshield Ranger ~ Lion and the Unicorn			ADD:SPELLCASTER|Ranger
