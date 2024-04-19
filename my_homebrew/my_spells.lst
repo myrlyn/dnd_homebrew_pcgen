@@ -43,3 +43,5 @@ SOURCELONG:My Campaign	SOURCESHORT:My	SOURCEWEB:http://www.mywebsite.com	SOURCED
 #the output sheet.
 #
 #The ITEM tag tells PCGen what types of items this spell can be used to make (Potions, wands, wondrous items, etc).
+Polymorph.COPY=Polymorph (Viper Form Only)
+Polymorph (Viper Form Only).MOD		DESC:This functions as the Polymorph spell, except that you may only select Viper forms.  

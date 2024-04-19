@@ -68,4 +68,5 @@ ABILITYCATEGORY:Unseelie Fey Seasonal Power		VISIBLE:QUALIFY	EDITABLE:YES		EDITP
 ABILITYCATEGORY:Unseelie Fey Vision		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES						CATEGORY:Special Ability	TYPE:Unseelie Fey Vision												PLURAL:Unseelie Fey Vision		DISPLAYLOCATION:Race Traits
 
 
-Sorcerer Level 0 Cleric Spell		KEY:Rainbow Servant Cleric Spell ~ Sorcerer 0	CATEGORY:Radiant Servant Cleric Spell	TYPE:Sorcerer 1		MULT:YES	SPELLKNOWN:CLASS|SPELLCASTER.Arcane=0|LIST	CHOOSE:SPELLS|CLASSLIST=Cleric[LEVELMIN=0,LEVELMAX=0]	COST:0	
+ABILITYCATEGORY:Arcane Cleric Spell		VISIBLE:YES	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability		TYPE:ArcaneClericSpell		PLURAL:Arcane Cleric Spells		DISPLAYLOCATION:Class Features	
+
