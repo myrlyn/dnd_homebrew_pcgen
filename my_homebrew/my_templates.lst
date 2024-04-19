@@ -185,7 +185,7 @@ Necropolitan.MOD	TYPE:LA0Playable
 Use Fractional BAB.MOD	VISIBLE:NO
 
 Half VampireA.MOD		LEVELADJUSTMENT:.CLEAR
-Half VampireA.MOD		LEVELADJUSTMENT:2	OUTPUTNAME:Half-Vampire
+Half VampireA.MOD		LEVELADJUSTMENT:2	OUTPUTNAME:Half-Vampire		BONUS:VAR|FastHealingRate|1
 
 Fanged Mask Attacks			ABILITY:Special Ability|AUTOMATIC|Fanged Mask(S)|PRESIZELTEQ:S		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(M)|PRESIZEEQ:M		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(L)|PRESIZEEQ:L		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(H)|PRESIZEEQ:H		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(G)|PRESIZEEQ:G		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(C)|PRESIZEEQ:C		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(C+)|PRESIZEGT:C	
 
