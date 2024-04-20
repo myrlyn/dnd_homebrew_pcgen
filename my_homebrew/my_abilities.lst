@@ -55,7 +55,7 @@ Poison	KEY:Drider Poison		CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAtt
 #The SOURCEPAGE tag can be used to hold a reference to where you can find the feat. This will be displayed in PCGen.
 Human Region ~ Custom Campaign						OUTPUTNAME:Custom Campaign														CATEGORY:Regional				TYPE:Region.FaerunRegion		VISIBLE:YES		PRERACE:1,Human						TEMPLATE:Human Region ~ Custom Campaign						DESC:Use for default racial features when loading sources that use Regions
 
-
+#Grow Wings	KEY:Rainbow Servant ~ Grow Wings	CATEGORY:Specail Ability	TYPE:
 
 Weapon and Armor Proficiency					KEY:Avenger ~ Weapon and Armor Proficiency		CATEGORY:Special Ability	TYPE:Class Feature.Avenger Class Feature.SpecialQuality																																																												DESC:Avengers are proficient with the crossbow (hand, light, or heavy), dagger (any type), dart, rapier, sap, shortbow (normal and composite), and short sword. Avengers are proficient with light armor but not with shields.																																																																																																																																																																																																																																																																															AUTO:WEAPONPROF|Dart|Rapier|Sap|Shortbow|Shortbow|Sword (Short)|Crossbow (Light)|Crossbow (Heavy)|Crossbow (Hand)|TYPE=Auto|TYPE=Dagger																									ABILITY:Internal|AUTOMATIC|TYPE=ArmorProfLight|TYPE=ShieldProf|TYPE=WeaponProfMartial																																																																																																																																																																																																																																																																																													SOURCEPAGE:p.180
 Sneak Attack							KEY:Avenger ~ Sneak Attack					CATEGORY:Special Ability	TYPE:Class Feature.Avenger Class Feature.SpecialQuality.SneakAttack.Sneak Attack																																		DEFINE:SneakAttackDice|0	DEFINE:SneakAttackDieSize|0															DESC:This is exactly like the rogue ability of the same name. The extra damage dealt increases by +1d6 every other level (2nd, 4th, 6th, 8th, and 10th). If an Avenger gets a sneak attack bonus from another source (such as rogue levels), the bonuses on damage stack.	DESC:[Sneak Attack Damage: %1d%2]|SneakAttackDice|SneakAttackDieSize																																																																																																																																																																																																																																																																																																										ABILITY:Special Ability|AUTOMATIC|Sneak Attack																																																																																																																																																																																														BONUS:VAR|SneakAttackDieSize|6|TYPE=Base	BONUS:VAR|SneakAttackDice|(AvengerLVL+1)/2			ASPECT:NAME|Sneak Attack +%1d%2|SneakAttackDice|SneakAttackDieSize																																																																																					SOURCEPAGE:p.180
@@ -412,16 +412,36 @@ CATEGORY=Special Ability|Rainbow Servant ~ Cleric Spell Access.MOD		DEFINE:Arcan
 
 +1 Caster Level		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Add an effective level to a spellcasting class you have		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			ADD:SPELLCASTER|ANY	COST:0
 
+Cast Spells at +1		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Add an effective level to a spellcasting class you have		STACK:YES		MULT:YES				CHOOSE:CLASS|SPELLCASTER	BONUS:CASTERLEVEL|%LIST|1	COST:0
+
+
+CATEGORY=Special Ability|Master Thrower ~ Doubletoss.MOD		SERVESAS:ABILITY=FEAT|Rapid Shot	
+CATEGORY=Special Ability|Master Thrower ~ Trip Shot.MOD		SERVESAS:ABILITY=FEAT|Ranged Disarm	
+CATEGORY=Special Ability|Master Thrower ~ Palm Throw.MOD		SERVESAS:ABILITY=FEAT|Manyshot	
+CATEGORY=Special Ability|Master Thrower ~ Tumbling Toss.MOD		SERVESAS:ABILITY=FEAT|Shot on the Run	
+#Strength Draining Strike, Novice                            KEY:Martial Study Novice ~ Strength Draining Strike  SORTKEY:Maneuvers and Stances    CATEGORY:Special Ability        TYPE:SpecialAttack.Martial Study Shadow Hand Maneuver.Shadow Hand.Shadow Hand Discipline.Shadow Hand Maneuver.Maneuver.Martial Maneuver.Strike                                        PREABILITY:1,CATEGORY=Special Ability,TYPE.Shadow Hand Maneuver      !PRECLASS:1,SPELLCASTER.Martial=1                PREVARGTEQ:InitiatorManueverLVL,3       DESC:Liquid, black energy covers your weapon. As you strike your opponent, this material flows into the wound, spreads along his veins, and leaves him weakened. As part of this maneuver, you make a single melee attack against an opponent. In addition to dealing normal melee damage with the attack, you deal 4 points of Strength damage. A successful Fortitude save (DC 13 + your Wis modifier) halves this Strength damage, but has no effect on the normal melee damage you deal with the strike. This maneuver is a supernatural ability.          SOURCEPAGE:p.80                          ASPECT:Initiation Action|1 standard action      ASPECT:Range|Melee attack       ASPECT:Target Area|One creature ASPECT:Save Info|Fortitude half                                                                                                                                    SPELLS:Innate|TIMES=1|TIMEUNIT=Encounter|CASTERLEVEL=InitiatorManueverLVL|STRENGTH DRAINING STRIKE,13+WIS+charbonusto("DC","SCHOOL.Shadow Hand")
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Absolute Steel.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Adamantine Hurricane.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Dancing Blade Form.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Dazing Strike.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Disarming Strike.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Exorcism of Steel.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Finishing Move.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Iron Heart Endurance.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Iron Heart Focus.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Lightning Recovery.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Manticore Parry.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Mithral Tornado.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Punishing Stance.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Scything Blade.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Steel Wind.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Strike of Perfect Clarity.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Wall of Blades.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
 
 
 
 
-
-
-
-
-
-
+CATEGORY=Special Ability|Bloodstorm Blade ~ Throw Anything.MOD		ABILITY:FEAT|VIRTUAL|Throw Anything
 
 
 
