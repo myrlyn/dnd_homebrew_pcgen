@@ -267,7 +267,7 @@ Resist Control	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBL
 CATEGORY=FEAT|Superior Unarmed Strike.MOD		PREVARLT:BattleDancerLVL,1
 
 
-Superior Unarmed strike		KEY:Battle Dancer ~ Superior Unarmed Strike		SERVESAS:ABILITY=FEAT|Superior Unarmed strike		DESC:This is Superior Unarmed Strike that correctly interacts with the BattleDancer class.	PREVARLT:MonkLVL,1				PREVARGTEQ:BattleDancerLVL,1			 PREABILITY:1,CATEGORY=FEAT,Improved Unarmed Strike		CATEGORY:FEAT	TYPE:General	PRETOTALAB:3		BONUS:VAR|MonkUnarmedDamageLVL|4
+Superior Unarmed Strike		KEY:Battle Dancer ~ Superior Unarmed Strike		SERVESAS:ABILITY=FEAT|Superior Unarmed Strike		DESC:This is Superior Unarmed Strike that correctly interacts with the BattleDancer class.	PREVARLT:MonkLVL,1				PREVARGTEQ:BattleDancerLVL,1			 PREABILITY:1,CATEGORY=FEAT,Improved Unarmed Strike		CATEGORY:FEAT	TYPE:General	PRETOTALAB:3		BONUS:VAR|MonkUnarmedDamageLVL|4
 
 
 CATEGORY=Special Ability|Bardic Music ~ Inspire Courage.MOD		BONUS:VAR|BardicInspireCourageLVL|BardLVL
@@ -442,22 +442,49 @@ CATEGORY=Special Ability|Warblade Martial Discipline ~ Wall of Blades.MOD					TY
 
 
 CATEGORY=Special Ability|Bloodstorm Blade ~ Throw Anything.MOD		ABILITY:FEAT|VIRTUAL|Throw Anything
+Worldly Focus		CATEGORY:FEAT	TYPE:General	DESC:You can cast cleric spells without a divine Focus		BENEFIT:You no longer require a Divine Focus for any Divine spell. 
+
+
+Bonus Domain		KEY:Sovereign Speaker ~ Bonus Domain		CATEGORY:Special Ability		TYPE:SpecialQuality		MULT:YES	STACK:YES	CHOOSE:NOCHOICE		BONUS:DOMAIN|NUMBER|1
+
+Extra Domain Slot(3)		DESC:You gain an additional 3rd level spell slot that must be used for a Domain		BONUS:SPELLCAST|TYPE=Divine;LEVEL=3|1		CATEGORY:Special Ability	TYPE:SpecialQuality
+
+Extra Domain Slot(5)		DESC:You gain an additional 5th level spell slot that must be used for a Domain		BONUS:SPELLCAST|TYPE=Divine;LEVEL=5|1			CATEGORY:Special Ability	TYPE:SpecialQuality
+
+
+Extra Domain Slot(7)		DESC:You gain an additional 7th level spell slot that must be used for a Domain		BONUS:SPELLCAST|TYPE=Divine;LEVEL=7|1			CATEGORY:Special Ability	TYPE:SpecialQuality
+
+Whip Sneak Attack		CATEGORY:Special ability		TYPE:SpecialAttack.LasherClassFeature		DESC:You may sneak attack with a whip, or whip dagger.  You may choose to cause sudual damage if not using a whip.		DEFINE:WhipSneakDice|0		BONUS:VAR|WhipSneakDice|1		ASPECT:NAME|Whip Sneak Attack +%1d6|WhipSneakDice			KEY:Lasher ~ Whip Sneak attack			
+
+Close Combat		CATEGORY:Special ability		TYPE:SpecialAttack.LasherClassFeature				KEY:Lasher ~ Close Combat		DESC:You may attack with a whip while threatended without provoking an attack of opportunity.		
+
+
+Stunning Snap		CATEGORY:Special ability		TYPE:SpecialAttack.LasherClassFeature				KEY:Lasher ~ Stunning Snap		DESC:A lasher can use a whip or whip dagger to stun a creature instead of inflicting subdual or normal damage. The lasher can use this ability once per round, but no more than once per level per day. The lasher must declare she is using a stun attack before making an attack roll. [A missed attack roll ruins the attempt.] A foe struck by a whip or whip dagger must make a Fortitude saving throw [DC 10 + the lasher's level + Strength modifier], in addition to receiving normal damage [subdual or standard]. If the saving throw fails, the opponent is stunned for one round. A stunned character cannot act and loses any Dexterity bonus to AC, while attackers get a +2 bonus on attack rolls against a stunned opponent. Constructs, oozes, plants, undead, incorporeal creatures, and creatures immune to critical hits cannot be stunned by the lasher's stunning attack.
+
+Wound		CATEGORY:Special ability		TYPE:SpecialAttack.LasherClassFeature						KEY:Lasher ~ Wound			DESC:You may choose to deal real or subdual damage with a whip(not whip dagger), and damage creatures with +1 Armor bonus or +3 Natural Armor when doing real damage. 
+
+
+Whip Lash		CATEGORY:Special ability		TYPE:SpecialAttack.LasherClassFeature						KEY:Lasher ~ Whip Lash			DESC:You now theaten squares within your natural reach with your whip.
+
+Improved Trip		CATEGORY:Special ability		TYPE:SpecialAttack.LasherClassFeature						KEY:Lasher ~ Improved Trip		DESC:You gain the benefits of the Improved Trip feat when using a whip or whip-dagger.			SERVESAS:ABILITY=FEAT|Improved Trip	
 
 
 
+Third Hand		CATEGORY:Special ability		TYPE:SpecialQuality.LasherClassFeature						KEY:Lasher ~ Third Hand		DESC:Use your whip to perf orm actions.  Make an attack roll aggainst a relevant DC.  Whip daggers automatically damage wrapped objects.  Usually a stanard action, or move equivalent.  Wrap an unattended object under 20lb and place it on your hand -- move equivalent action at DC 20.  Place a wrapped object in yourh hand -- move, no roll.  Punch a button, move a coin 15' along th ground, snuff a candle -- move equivalent DC 15.  Wrap a pole, spike etc. - DC 22/move.  Wrapping somethig to aid in a climb reduces the climb DC by 5.  When the victim of a fall, you can forgo your reflex save to wrap an object.  You can wrap a creature by rolling it's Touch AC.  Willing creatures do not add their Dexterity bonus.  The wrapped creature must make a DC 20 STR check or you both continue falling.  Unwrapping is a free action.  
+
+
+Crack of Fate		CATEGORY:Special ability		TYPE:SpecialAttack.LasherClassFeature						KEY:Lasher ~ Crack of Fate		DESC:When using a whip/whip dagger in a full attack, you may make an extra attack with it at your highest attack bonus, but all attacks this turn are at -2.  
+
+
+Lashing Whip		CATEGORY:Special ability		TYPE:SpecialQuality.LasherClassFeature						KEY:Lasher ~ Lashing Whip		DESC:+2 damage with whips and whip daggers. 			BONUS:WEAPONPROF=Whip|DAMAGE|Damage|2		SERVESAS:ABILITY=FEAT|Weapon Specialization (Whip)
+
+Improved Disarm		CATEGORY:Special ability		TYPE:SpecialAttack.LasherClassFeature						KEY:Lasher ~ Improved Disarm		DESC:You gain the benefits of the Improved Disarm feat when using a whip or whip-dagger.			SERVESAS:ABILITY=FEAT|Improved Disarm	
+
+Crack of Doom		CATEGORY:Special ability		TYPE:SpecialAttack.LasherClassFeature						KEY:Lasher ~ Crack of Doom		DESC:When using a whip/whip dagger in a full attack, you may make two extras attack with it at your highest attack bonus, but all attacks this turn are at -4.  
 
 
 
-
-
-
-
-
-
-
-
-
-
+Death Spiral		CATEGORY:Special ability		TYPE:SpecialAttack.LasherClassFeature						KEY:Lasher ~ Death Spiral		DESC:At 10th level, the lasher gains transcendental understanding of her whip or whip dagger. Once per day, she can spin the whip over her head with supernatural speed. All foes within a 15-foot radius of the lasher must make a Reflex save against a DC equal to the lasher's attack roll. Opponents who fail are stunned for 1d4+1 rounds. Stunned opponents must make a successful Fortitude save (DC 18) or become helpless for 1d4—1 rounds (minimum 1 round). Allies (as selected by the lasher) in range are spared the effects of the death spiral. The death spiral is a supernatural ability.
 
 
 
@@ -2609,3 +2636,10 @@ Arcane Domain Spell 9 (Weird)		KEY:Arcane Mind  Domain Spell ~ Weird			CATEGORY:
 Arcane Domain Spell 9 (Weird)		KEY:Arcane Passion  Domain Spell ~ Weird			CATEGORY:Special Ability	TYPE:ArcaneClericSpell.Level9	SPELLKNOWN:CLASS|SPELLCASTER.Arcane=9|Weird		COST:0		PREVARGTEQ:ArcaneClericSpells,1	PRESPELLTYPE:1,ARCANE=9
 Arcane Domain Spell 9 (Were-Doom)		KEY:Arcane Bestial  Domain Spell ~ Were-Doom			CATEGORY:Special Ability	TYPE:ArcaneClericSpell.Level9	SPELLKNOWN:CLASS|SPELLCASTER.Arcane=9|Were-Doom		COST:0		PREVARGTEQ:ArcaneClericSpells,1	PRESPELLTYPE:1,ARCANE=9
 Arcane Domain Spell 9 (Wish)		KEY:Arcane Envy  Domain Spell ~ Wish			CATEGORY:Special Ability	TYPE:ArcaneClericSpell.Level9	SPELLKNOWN:CLASS|SPELLCASTER.Arcane=9|Wish		COST:0		PREVARGTEQ:ArcaneClericSpells,1	PRESPELLTYPE:1,ARCANE=9
+
+
+#CATEGORY=FEAT|Focused Skill User.MOD		CHOOSE:SKILL|RANKS=1	MULT:YES	STACK:NO		NUMCHOICES:3
+
+
+
+Southern Magician			CATEGORY:feat		TYPE:General		SOURCEPAGE:Races of Faerun			DESC:Once perday per 2 spellcasting levels, you can cast a divine spell as arcane, or an arcane spell as divine.  This enables you to bypass arcane spell failure due to armor, or gain additional benefit from spell that functions differently for a divine caster instead of an arcane caster, such as true seeing or magic weapon.  Spells changed with this feat are often confusing to whose who haven't studied Mulan magic. Spellcasters who don't have this feat suffer a -4 penalty on attempts to counterspell or dispel this spell, and they must succeed at a caster level check (DC 11 + spell level) to detect the spell with detect magic.

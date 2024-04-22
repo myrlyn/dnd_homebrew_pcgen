@@ -1,6 +1,53 @@
 # CVS $Revision$ $Author$ -- Fri Oct 19 20:16:09 2012 -- reformated by prettylst.pl v1.39 (build 15052)
 SOURCELONG:My Campaign	SOURCESHORT:My	SOURCEWEB:http://www.mywebsite.com	SOURCEDATE:2008-01
 
+
+
+CLASS:Lasher	TYPE:PC.Prestige	FACT:ClassType|Prestige		FACT:Abb|Lsh	SOURCEPAGE:Sword and Fist		PREATT:5	PRESKILL:1,Use Rope=2,Craft (Leatherworking)=2		HD:10		STARTSKILLPTS:2				DEFINE:LasherLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABFull|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:VAR|LasherLVL|CL	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Fortitude,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
+CLASS:Lasher	PREABILITY:1,CATEGORY=FEAT,Weapon Focus (Whip)	PREWEAPONPROF:1,Whip		PRETEXT:Must own a whip or whip-dagger			
+CLASS:Lasher		CSKILL:Balance|TYPE.Craft|Escape Artist|Intimidate|Jump|Spot|Use Rope
+1		ABILITY:Special Ability|AUTOMATIC|Lasher ~ Whip Sneak Attack|Lasher ~ Close Combat|Lasher ~ Wound|Lasher ~ Whip Lash
+2		ABILITY:Special Ability|AUTOMATIC|Lasher ~ Improved Trip|Lasher ~ Third Hand
+3		ABILITY:Special Ability|AUTOMATIC|Lasher ~ Crack of Fate
+4		ABILITY:Special Ability|AUTOMATIC|Lasher ~ Lashing Whip
+5		BONUS:VAR|WhipSneakDice|1
+6		ABILITY:Special Ability|AUTOMATIC|Lasher ~ Improved Disarm
+7		ABILITY:Special Ability|AUTOMATIC|Lasher ~ Stunning Snap
+8		ABILITY:Special Ability|AUTOMATIC|Lasher ~ Crack of Doom
+9		BONUS:VAR|WhipSneakDice|1
+10		ABILITY:Special Ability|AUTOMATIC|Lasher ~ Death Spiral
+
+
+
+
+# Class Name	Spell Stat		Spell Type		Memorize	Caster level
+CLASS:Sovereign Speaker	HD:8		TYPE:PC.Prestige	FACT:ClassType|Prestige	FACT:Abb|SvSpk		SOURCEPAGE:Faiths of Eberron	DEFINE:Sovereign SpeakerLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:VAR|Sovereign SpeakerLVL|CL	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3
+# Class Name	Required AL		Required Skill
+CLASS:Sovereign Speaker	PRESKILL:1,Knowledge (Religion)=8	PRETEXT:Worshiper of the Divine Host (no singular deity)		PREABILITY:1,CATEGORY=FEAT,Worldly Focus
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Sovereign Speaker	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (History)|Knowledge (Religion)|Knowledge (The Planes)|TYPE.Profession|Spellcraft			AUTO:WEAPONPROF|Battleaxe|Halberd|Mace (Heavy)|Longsword|Morningstar|Quarterstaff|Sickle|Spear|Warhammer
+# Class Name	Spell Stat		Spell Type		Memorize	Caster level
+CLASS:Sovereign Speaker	FACT:SpellType|Divine	
+CLASS:Sovereign Speaker					
+1	ABILITY:Special Ability|AUTOMATIC|Sovereign Speaker ~ Bonus Domain
+2	ABILITY:Special Ability|AUTOMATIC|Sovereign Speaker ~ Bonus Domain		
+3	ABILITY:Special Ability|AUTOMATIC|Sovereign Speaker ~ Bonus Domain		ADD:SPELLCASTER|Divine
+4	ABILITY:Special Ability|AUTOMATIC|Sovereign Speaker ~ Bonus Domain		ADD:SPELLCASTER|Divine
+5	ABILITY:Special Ability|AUTOMATIC|Sovereign Speaker ~ Bonus Domain		ADD:SPELLCASTER|Divine
+6	ABILITY:Special Ability|AUTOMATIC|Sovereign Speaker ~ Bonus Domain		
+7	ABILITY:Special Ability|AUTOMATIC|Sovereign Speaker ~ Bonus Domain		ADD:SPELLCASTER|Divine
+8	ABILITY:Special Ability|AUTOMATIC|Sovereign Speaker ~ Bonus Domain		ADD:SPELLCASTER|Divine
+9	ABILITY:Special Ability|AUTOMATIC|Sovereign Speaker ~ Bonus Domain		ADD:SPELLCASTER|Divine
+10:REPEATLEVEL:1	PREPCLEVEL:MIN=20		ABILITY:Special Ability|AUTOMATIC|Sovereign Speaker ~ Bonus Domain		ADD:SPELLCASTER|Divine
+
+
+
+
+
+
+
+
+
 #insert your data here
 
 #Every line that starts with a '#' is a comment. You may want to remove these comments, if you use this file to set up
@@ -163,7 +210,7 @@ CLASS:Rainbow Servant.MOD	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")
 #7	SPELLKNOWN:CLASS|SPELLCASTER.Arcane=8|Shield of Law|PREDOMAIN:1,Law|PRESPELLTYPE:1,ARCANE=8	BONUS:SPELLKNOWN|TYPE=Arcane;LEVEL=8|1|PRESPELLTYPE:1,ARCANE=8
 #7	SPELLKNOWN:CLASS|SPELLCASTER.Arcane=9|Summon Monster IX|PREDOMAIN:1,Law|PRESPELLTYPE:1,ARCANE=9	BONUS:SPELLKNOWN|TYPE=Arcane;LEVEL=9|1|PRESPELLTYPE:1,ARCANE=9
 
-CLASS:Contemplative.MOD			PREABILITY:1,CATEGORY=FEAT,.CLEAR
+
 
 
 10	ADD:SPELLCASTER|Arcane		
