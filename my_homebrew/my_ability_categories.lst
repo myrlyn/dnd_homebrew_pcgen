@@ -70,3 +70,10 @@ ABILITYCATEGORY:Unseelie Fey Vision		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	
 
 ABILITYCATEGORY:Arcane Cleric Spell		VISIBLE:YES	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability		TYPE:ArcaneClericSpell		PLURAL:Arcane Cleric Spells		DISPLAYLOCATION:Class Features	
 
+ABILITYCATEGORY:Primordial Giant Spell		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES						CATEGORY:Special Ability	TYPE:Primordial Giant Spell												PLURAL:Primordial Giant Spells		DISPLAYLOCATION:Race Traits
+
+
+ABILITYCATEGORY:Minor Bloodline Power		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES						CATEGORY:Special Ability	TYPE:Minor Bloodline Power											PLURAL:Minor Bloodline Powers		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Major Bloodline Power		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES						CATEGORY:Special Ability	TYPE:Major Bloodline Power											PLURAL:Major Bloodline Powers		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Greater Bloodline Power		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES						CATEGORY:Special Ability	TYPE:Greater Bloodline Power											PLURAL:Greater Bloodline Powers		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Bloodline Ability Score		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES						CATEGORY:Special Ability	TYPE:Bloodline Ability Score											PLURAL:Bloodline Ability Scores		DISPLAYLOCATION:Race Traits

@@ -25,6 +25,7 @@ RACE:*/_universal/races.lst
 
 
 ABILITY:my_abilities.lst
+ABILITY:arcane_divine_abilities.lst
 ABILITYCATEGORY:my_ability_categories.lst
 ARMORPROF:my_armorprofs.lst
 BIOSET:my_biosettings.lst

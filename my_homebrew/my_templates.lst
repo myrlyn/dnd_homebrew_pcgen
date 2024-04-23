@@ -15,6 +15,9 @@ SOURCELONG:My Campaign	SOURCESHORT:My	SOURCEWEB:http://www.mywebsite.com	SOURCED
 #
 #####Example
 
+
+Half-Fey				HITDIE:6	MOVECLONE:Walk,Fly,*2	ABILITY:Special Ability|AUTOMATIC|Aerial Maneuverability		BONUS:VAR|Maneuverability|3						SOURCEPAGE:MMII		LEVELADJUSTMENT:2		BONUS:STAT|DEX|2|TYPE=Racial.STACK		BONUS:STAT|WIS|2|TYPE=Racial.STACK		BONUS:STAT|CON|-2|TYPE=Racial.STACK		BONUS:STAT|CHA|4|TYPE=Racial.STACK		ABILITY:Special Ability|AUTOMATIC|Half-Fey Traits
+
 #Vampire		HITDIE:12		CR:2	DR:10/Silver and Magic		LEVELADJUSTMENT:8	TEMPLATE:Undead	TEMPLATE:CHOOSE:Slam (Fine)|Slam (Diminutive)|Slam (Tiny)|Slam (Small)|Slam (Medium)|Slam (Large)|Slam (Huge)|Slam (Gargantuan)|Slam (Colossal)	SOURCEPAGE:MonstersT-Z	SAB:Blood Drain (Ex)	SAB:Children of the Night (Su)	SAB:Dominate (Su) DC%|VampireAbilityDC	SAB:Energy Drain (Su)	SAB:Create Spawn (Su)	SAB:Alternate Form (Su)	SAB:Fast Healing 5 (Ex)	SAB:Gaseous Form (Su)	SAB:Energy Resistance Cold/Electricity 10	SAB:Turn Resistance +4 (Ex)	SAB:Spider Climb (Ex)	DEFINE:VampireAbilityDC|0		PREALIGN:2,5,8		BONUS:COMBAT|AC|6|TYPE=NaturalArmor.STACK		BONUS:SKILL|Bluff,Hide,Listen,Move Silently,Search,Sense Motive,Spot|8|TYPE=Racial	BONUS:STAT|STR|6	BONUS:STAT|DEX|4	BONUS:STAT|INT|2	BONUS:STAT|WIS|2	BONUS:STAT|CHA|4	BONUS:VAR|VampireAbilityDC|15+CHA			RACETYPE:Undead
 #Vampire Feat	ABILITYLIST:Alertness,Combat Reflexes,Dodge,Improved Initiative,Lightning Reflexes
 
@@ -164,15 +167,15 @@ Reach 15		REACH:15
 
 
 
-Half-Minotaur (Large or Larger)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK			ABILITY:Special Ability|AUTOMATIC|Minotaur Cunning	ABILITY:Special Ability|AUTOMATIC|Scent		BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|INT|-2|TYPE=Racial.STACK		SAB:Minotaurs get a +2 Racial Bonus to Search, Spot, and Listen		BONUS:SKILL|Search,Spot,Listen|2|TYPE=Racial.STACK		ABILITY:FEAT|VIRTUAL|Track		CR:1		LEVELADJUSTMENT:1	VISION:Darkvision (60')				ABILITY:Internal|AUTOMATIC|HMGore (S)|PRESIZEEQ:S	ABILITY:Internal|AUTOMATIC|HMGore (M)|PRESIZEEQ:M	ABILITY:Internal|AUTOMATIC|HMGore (L)|PRESIZEEQ:L	ABILITY:Internal|AUTOMATIC|HMGore (H)|PRESIZEEQ:H
+Half-Minotaur (Large or Larger)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	TYPE:LA0Playable			ABILITY:Special Ability|AUTOMATIC|Minotaur Cunning	ABILITY:Special Ability|AUTOMATIC|Scent		BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|INT|-2|TYPE=Racial.STACK		SAB:Minotaurs get a +2 Racial Bonus to Search, Spot, and Listen		BONUS:SKILL|Search,Spot,Listen|2|TYPE=Racial.STACK		ABILITY:FEAT|VIRTUAL|Track		CR:1		LEVELADJUSTMENT:0	VISION:Darkvision (60')				ABILITY:Internal|AUTOMATIC|HMGore (S)|PRESIZEEQ:S	ABILITY:Internal|AUTOMATIC|HMGore (M)|PRESIZEEQ:M	ABILITY:Internal|AUTOMATIC|HMGore (L)|PRESIZEEQ:L	ABILITY:Internal|AUTOMATIC|HMGore (H)|PRESIZEEQ:H
 
 
 
-Half-Ogre(Medium Or Smaller)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant		ABILITY:Internal|AUTOMATIC|Half-Minotaur (Medium or Smaller)	PRESIZELT:L		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		CR:1		LEVELADJUSTMENT:1	VISION:Darkvision (60')	BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|CHA|-2|TYPE=Racial.STACK		SAB:Giant Blood (Ex) - Half-Ogres count as giants for qualifying for classes, using magic items, etc.		BONUS:SIZEMOD|NUMBER|1
+Half-Ogre(Medium Or Smaller)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant		ABILITY:Internal|AUTOMATIC|Half-Minotaur (Medium or Smaller)	PRESIZELT:L		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		CR:1		LEVELADJUSTMENT:1	VISION:Darkvision (60')	BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|CHA|-2|TYPE=Racial.STACK		SAB:Giant Blood (Ex) - Half-Ogres count as giants for qualifying for classes, using magic items, etc.
 #Half-Ogre(Medium Or Smaller)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant		ABILITY:Internal|AUTOMATIC|Half-Minotaur (Medium or Smaller)	PRESIZELT:L		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		CR:1		LEVELADJUSTMENT:1	VISION:Darkvision (60')	BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|CHA|-2|TYPE=Racial.STACK				
 
-Half-Ogre(Large or Larger)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		CR:1		LEVELADJUSTMENT:0	VISION:Darkvision (60')	BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|CHA|-2|TYPE=Racial.STACK		SAB:Giant Blood (Ex) - Half-Ogres count as giants for qualifying for classes, using magic items, etc.		
-
+Half-Ogre(Large or Larger)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		CR:1	TYPE:LA0Playable	LEVELADJUSTMENT:0	VISION:Darkvision (60')	BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|CHA|-2|TYPE=Racial.STACK		SAB:Giant Blood (Ex) - Half-Ogres count as giants for qualifying for classes, using magic items, etc.		
+Chameleon Creature.MOD			NATURALATTACKS:Chameleon Tongue,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Touch.Reach,*1,1,SPROP="This attack deals no damage but can be used to deliver touch spells."		BONUS:WEAPONPROF=Chameleon Tongue|REACH|5|PRESIZEEQ:M		BONUS:WEAPONPROF=Chameleon Tongue|REACH|10|PRESIZEEQ:L				BONUS:SKILL|Climb|8|TYPE=Racial.STACK		SAB:You may always take 10 on a climb check		MOVECLONE:Walk,Climb,/2
 
 Amphibious	RACESUBTYPE:Aquatic		MOVECLONE:Walk,Swim,/2	ABILITY:Special Ability|AUTOMATIC|Amphibious		BONUS:SKILL|Swim|8|TYPE=Racial	BONUS:STAT|DEX|-2		TYPE:LA0Playable		SOURCEPAGE:Stormwrack 135
 
@@ -203,3 +206,108 @@ Aquatic (Water Dweller)	TYPE:LA0PLayable	MOVECLONE:Walk,Swim,*2		BONUS:MOVEMULT|
 Arctic (Ice Dweller)	TYPE:LA0PLayable	BONUS:STAT|CON|2		BONUS:STAT|CHA|-2		SAB:+1 to saves vs cold, -1 to saves vs fire		BONUS:SKILL|Survival|2		SPELLS:INNATE|TIMES=1|CASTERLEVEL=1|Ray of Frost
 DarkCollar			VISIBLE:NO		LEVELADJUSTMENT:-1
 Yuan-Ti (Tainted One).MOD		BONUS:STAT|CON|2	SAB:Poison bite.  Requires a successful melee attack during a grapple.  Fortitude (DC 10+CON modifier) negates.  Initial and secondary damage, 1d4 CON. Can be delivered as a kiss to unresisting foes.  		SAB:Immunity to Poisons			SR:12+(TL/2)		SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Poison,13+CON		SPELLS:INNATE|TIMES=3|TIMEUNIT=DAY|CASTERLEVEL=TL|Polymorph (Viper Form Only)		ABILITY:FEAT|VIRTUAL|Alertness	LANGBONUS:Abyssal,Common,Draconic,Yuan-Ti	LEVELADJUSTMENT:2		TEMPLATE:Psionic
+
+
+#LA -2 templates
+#75-80 Incarnate Construct (Savage Species 120) +0 HD, LA –2 (minimum 0) – any Construct with a generally humanoid form; becomes Humanoid if Medium or smaller, or becomes Giant if it is Large or larger
+
+
+#Symbiotic,  Lolth-Touched, 
+#LA +0 Templates
+Arcane Dragon			PRERACE:1,RACETYPE=Dragon		PRETEXT:True Dragon			SOURCEPAGE:Dragon 343, 38				ABILITY:Special Ability|AUTOMATIC|Arcane Dragon ~ Alternate Form		ABILITY:Special Ability|AUTOMATIC|Arcane Dragon ~ Graceful Flight		ABILITY:Special Ability|AUTOMATIC|Arcane Dragon ~ Physical Frailty		TYPE:LA0Playable
+Primordial giant		SAB:SPell Like Abilities		BONUS:ABILITYPOOL|Primordial Giant Spell|1|PREHD:MIN=1	BONUS:SKILLPOINTS|NUMBER|1	SAB:Magical Knack (Ex) - Use all spelllike abilities at +1 caster level (NOT IMPLEMENTED)			FAVOREDCLASS:Warlock		BONUS:STAT|CON|-2	BONUS:STAT|STR|-4		BONUS:STAT|INT|4	BONUS:STAT|CHA|4	TYPE:LA0Playable
+#Minor Bloodline			DEFINE:BloodlineAbility|0		DEFINE:BloodlineModifier|0		BONUS:VAR|BloodlineModifier|(BloodlineAbility - 10)/2	DEFINE:CollectRegency|0		BONUS:VAR|CollectRegency|BloodlineAbility*2		DEFINE:BloodlinePointsReserve|0		BONUS:VAR|BloodlineAbility*5		DEFINE:MinorBloodlinePowers|0		DEFINE:MajorBloodlinePowers|0		DEFINE:GreaterBloodlinePowers|0		
+#Minor Bloodline.MOD		BONUS:ABILITYPOOL|Minor Bloodline Power|max(0,(BloodlineAbility-4)/8)		BONUS:ABILITYPOOL|Major Bloodline Power|max(0,(BloodlineAbility-6)/8)		BONUS:ABILITYPOOL|Greater Bloodline Power|max(0,(BloodlineAbility-8)/8)
+#Minor Bloodline.MOD		BONUS:ABILITYPOOL|Bloodline Ability Score|1
+
+#35-39 Bloodline, Minor or Weak (Birthright Campaign Setting 14) +0 HD, LA +0 – any living creature who are direct descendants of the greatest heroes of Deismaar or who were in the right place at the right time when a king or other ruler died; no type change
+#40-44 Castaway (Faces of the Forgotten North 18) +0 HD, LA +0 – any human that served in Daskinor’s army; no type change
+#45-48 Desert (Desert-Dweller) (Dragon #306 pg63) +0 HD, LA +0 - "Any standard Player's Handbook Race"; no type change
+#49 Disembodied Spirit (web) +0 HD, LA +0 - any Aberration, Animal, Dragon, Giant, Humanoid, Magical beast, Monstrous humanoid, or Plant, gains Incorporeal subtype
+#69-71 Ghost (Ghostwalk 163) +0 HD, LA +0 - any living humanoid creature; becomes Outsider (incorporeal)
+#92-96 Proto-Creature (Bestiary of Krynn Revised 79) +0 HD, LA +0 - any corporeal Aberration, Dragon, Giant, Humanoid, Magical beast, Monstrous humanoid, Ooze, or Undead; no type change
+
+
+#Deathtouched LA+1 Dragon 313, p 66
+#Half-Nymph LA+2 Dragon 313, p 95
+#Half-Satyr LA+1 Dragon 313, p 95
+#Half-Rakshasa LA+2 Dragon 313, p 966
+
+#LA +1 Templates
+#####################
+#61 Abomination Dragonspawn (Bestiary of Krynn Revised 47) +0 HD, +1 LA - any dragonspawn; no type change
+#62-63 Blooded One (Unapproachable East 61) +0 HD, LA +1 – any Humanoid; no type change
+#64 Bloodline, Great (Birthright Campaign Setting 14) +0 HD, LA +1 – any living creature who are direct descendants of the greatest heroes of Deismaar or who were in the right place at the right time when a king or other ruler died; no type change
+#65-66 Chameleon Creature (Underdark 83) +0 HD, LA +1 – any corporeal creature except a Construct, Undead, or Elemental; no type change, add Reptilian subtype if Humanoid
+#67-68 Dark Creature (Tome of Magic 158) +0 HD, LA +1 – any creature; no type change
+#69-70 Deep (Deep-Dweller) (Dragon #306 pg62) +0 HD, LA +1 - "Any standard Player's Handbook Race"; no type change
+#76-77 Faerzress-Infused Creature (Underdark 86) +0 HD, LA +1 – any corporeal creature; No type change
+#80 Fleshvigor (Dragon #315 pg59) +0 HD, +1 LA - any non-skeletal corporeal Undead, no type change
+#81 Gurik Cha'ahl (Bestiary of Krynn Revised 62) +0 HD, +1 LA - any creature with the Goblinoid subtype; no type change
+#83 Half-Satyr (Dragon #313 pg96) +0 HD, +1 LA - any Giant, Humanoid, or Monstrous humanoid of Small to Large size; no type change
+#84 Half-Undead, Gheden (Dragon #313 pg62) +0 HD, +1 LA - any Giant, Humanoid, or Monstrous humanoid; no type change
+#85-86 Gruumsh-Blooded (Monster Manual 5 pg65) +0 HD, LA +1 – any orc; no type change
+#87-88 Imix-Blooded (Monster Manual 5 pg65) +0 HD, LA +1 – any evil creature; see text; no type change; gain Fire subtype
+#89-90 Kord-Blooded (Monster Manual 5 pg66) +0 HD, LA +1 – any non-evil living creature that has a Str score of 16 or higher; no type change
+#91-92 Lolth-Touched (Monster Manual 4 pg92) +0 HD, LA +1 – any nongood, nonlawful, corporeal living creature; no type change
+#93 Magic-Infused (web) +0 HD, +1 LA - any living corporeal creature; no type change
+#96 Mulhorandi Divine Minion of Anhur, Hathor, Isis, Nephthys, Sebek, or Thoth (web) +0 HD, LA +1 – any Humanoid, Monstrous humanoid or humanoid-shaped Outsider; becomes Outsider
+#97 Nagpa (Dragon #339 pg61) +0 HD, +1 LA - any human or half-elf sorcerer or wizard of at least 9th level; becomes Monstrous humanoid
+#98-99 Orcus-Blooded (Monster Manual 5 pg66) +0 HD, LA +1 – any evil Undead; no type change
+#100 Orglash (Unapproachable East 68) +0 HD, LA +1 – any Elemental with the Air subtype; no type change
+#Psionic Tenant (Faces of the Forgotten North 133) +0 HD, LA +1 - any psionic creature; type changes to Undead
+#01-07 Quasilycanthrope (web) +0 HD, +1 LA - any Humanoid or Giant
+#08-14 Remade (Dragon #352 pg46) +0 HD, +1 LA - any living corporeal creature; no type change
+#15-21 Scorned (Dungeon #136 pg62) +0 HD, +1 LA - any corporeal Animal, Aberration, Dragon, Fey, Giant, Humanoid, Magical beast, Monstrous humanoid or Plant; no type change
+#22-28 Shadow-Bound (web) +0 HD, +1 LA - any Aberration, Animal, Dragon, Fey, Giant, Humanoid, Magical beast, Monstrous humanoid, or Vermin; Animals & Vermin become Magical beasts, gain Augmented subtype
+#29-36 Shadow Walker (Unapproachable East 70) +0 HD, LA +1 – any Humanoid; no type change
+#37-43 Sign of the Smoking Eye (Dungeon #107 pg69) +0 HD, +1 LA - any living creature with at least one eye; no type change
+#44-52 Soulfused Construct (Magic of Incarnum 196) +0 HD, +1 LA - any Construct that has neither an Int score nor the Living Construct subtype; gains the Living Construct subtype
+#53-59 Swamp-touched Creature (Life Shaping Handbook 109) +0 HD, LA +1 to +8 - any living corporeal Animal, Giant, or Humanoid creature; becomes Abberation
+#60-68 Symbiotic Creature (Savage Species 131) +0 HD, LA +1 – any 2 living creatures of these types: Animal, Humanoid, Plant or Vermin. One must be at least 2 sizes smaller than the other; becomes Aberration
+#69-75 Tainted-Blood (Bestiary of Krynn Revised 99) +0 HD, +1 LA - any corporeal creature with a Con score; Giants or Humanoids become Monstrous humanoids
+#76-84 Thomil (Unapproachable East 75) +0 HD, LA +1 – any Elemental creature with the Earth subtype; no type change
+#85-93 Vecna-Blooded (Monster Manual 5 pg66) +0 HD, LA +1 – any evil creature capable of casting 2nd level or higher arcane spells; see text; no type change
+#94-100 Yeenoghu-Blooded (Monster Manual 5 pg67) +0 HD, LA +1 – any gnoll; no type change
+
+#ECL +2 Templates
+#######################
+#86 Arcane-Blooded (Dragon #350 pg35) +0 HD, LA +2 - any corporeal Animal, Dragon, Fey, Giant, Humanoid, Magical beast, Monstrous humanoid, or Outsider with blood; Humanoid becomes Monstrous humanoid, Animal becomes Magical beast
+#87 Bloodline, True (Birthright Campaign Setting 14) +0 HD, LA +2 – any living creature who are direct descendants of the greatest heroes of Deismaar or who were in the right place at the right time when a king or other ruler died; no type change
+#88 Bloodrager (Bestiary of Krynn Revised 7) +0 HD, +2 LA – any Animal, Magical beast, or Vermin; Animals and Vermin become Magical beasts
+#89-91 Celestial Creature (Monster Manual 31, SRD) +0 HD, LA +2 – any corporeal Aberration, Animal, Dragon, Fey, Giant, Humanoid, Magical beast, Monstrous humanoid, Plant, or Vermin of good or neutral alignment; Animals and Vermin become Magical beasts
+#92 Child of the Sea (Bestiary of Krynn Revised 13) +0 HD, +2 LA - any non-aquatic Humanoid; becomes Fey
+#93 Dragonspawn, Black, Green, or Sea (Bestiary of Krynn Revised 44, Dragonlance Campaign Setting 222) +0 HD, +2 LA - any corporeal Giant, Humanoid, or Monstrous humanoid of Small, Medium, or Large size; changes to dragon with the Augmented subtype and same subtype as the dragon type
+#94 Dragon Vassal (Bestiary of Krynn Revised 43) +0 HD, +2 LA - any Giant, Humanoid, or Monstrous humanoid; changes to Monstrous humanoid with Augmented subtype, 5+ HD also gain the same elemental subtype as their Dragon Overlord
+#95-96 Dustform (Sandstorm 161) +0 HD, LA +2 – any living creature; becomes Construct
+#97-98 Entropic Creature (Planar Handbook 122) +0 HD, LA +2 – any corporeal Aberration, Animal, Dragon, Fey, Giant, Humanoid, Magical beast, Monstrous humanoid, Outsider, Plant, Undead, or Vermin; becomes Outsider unless base creature was Undead
+#99-100 Fiendish Creature (Monster Manual 108, SRD) +0 HD, LA +2 - any corporeal Aberration, Animal, Dragon, Fey, Giant, Humanoid, Magical beast, Monstrous humanoid, Ooze, Plant, or Vermin of nongood alignment; Animals and Vermin become Magical beasts
+#01-04 Gravetouched Ghoul (Libris Mortis 103) +0 HD, LA +2 – any corporeal Aberration, Fey, Giant, Humanoid or Monstrous humanoid, with Int and Cha greater than 3; becomes Undead, gains Augmented subtype
+#03-05 Gray Touched (Terrors of Athas 81) +0 HD, LA +2 - any aberration, animal, giant, humanoid, magical beast, monstrous humanoid or plant; gain Psionic subtype, Animals become Magical beasts
+#06-08 Half-Doppleganger (Dragon #313 pg93) +0 HD, +2 LA - any Humanoid creature of Tiny to Large size; gains Shapechanger subtype
+#09-12 Half-Fey (Fiend Folio 89) +0 HD, LA +2 – any corporeal living creature; becomes Fey
+#13-15 Half-Nymph (Dragon #313 pg95) +0 HD, +2 LA - any Humanoid creature; no type change
+#16-19 Half–Vampire (Libris Mortis 106) +0 HD, LA +2 – any Humanoid or Monstrous humanoid; no type change
+#20-22 Hiveblood Creature (Dungeon #127 pg31) +0 HD, +2 LA - any Giant or Humanoid; becomes Aberration
+#23-26 Insectile Creature (Savage Species 121) +0 HD, LA +2 – any Giant, Humanoid, or Monstrous humanoid; becomes Aberration
+#27-29 Jordain-Born (web)(Download the Prestige In The Realms pdf, skip the homebrew stuff, and the Jordain-born template is in there somewhere.) +0 HD, +2 LA - any Humanoid usually human at creation; no type change
+#30-32 Master of the Tower (Towers of High Sorcery 83) +0 HD, LA +2 – any creature; no type change
+#33-35 Mulhorandi Divine Minion of Bast, Geb, Horus-Re, Osiris, or Set (web) +0 HD, LA +2 – any Humanoid, Monstrous humanoid or humanoid-shaped Outsider; becomes Outsider
+#36-39 Monstrous Beast (Savage Species 122) +0 HD, LA +2 – any Animal or Vermin; becomes Magical beast
+#40-42 Obah-Blessed (two-armed) (Dungeon #136 pg60) +0 HD, +2 LA - any creature with no more than 4 arms; no type change
+#43-45 Pakubrazi-tainted (Terrors of Athas 118) +0 HD, LA +2 - any creature with the giant, humanoid, or monstrous humanoid type, except those that are already insectile; becomes Abberation
+#46-49 Phrenic Creature (Expanded Psionics Handbook 205, SRD) +0 HD, LA +2 – any nonmindless creature that does not already have the psionic subtype; Animals become Magical beast; gain psionic subtype; Animals gain the Augmented subtype
+#50-53 Quorbred Creature (Secrets of Sarlona 151) +0 HD, +2 LA - any Aberration, Animal, Dragon, Fey, Giant, Humanoid, Magical beast, or Monstrous humanoid; Animals become Magical beasts, gains appropriate Augmented subtype
+#54-57 Reptilian Creature (Savage Species 128) +0 HD, LA +2 – any Humanoid, Monstrous humanoid, or Giant; add Reptilian subtype
+#58-61 Saint (Book of Exalted Deeds 184) +0 HD, LA +2 – any living creature of good alignment that is not an Outsider or an Elemental; becomes Outsider and gains the Native subtype
+#62-66 Sanctified Creature (Book of Exalted Deeds 186) +0 HD, LA +2 – any evil creature except for Outsiders with the Evil subtype; Outsiders gain the Good subtype
+#67-72 Shadow Creature (Lords of Madness 167, Manual of the Planes 190) +0 HD, LA +2 - any corporeal Aberration, Animal, Dragon, Fey, Giant, Humanoid, Magical beast, Monstrous humanoid, Plant, Undead or Vermin; Animals and Vermin become Magical beasts
+#71-75 Skorenoi (non-Fey) (Bestiary of Krynn Revised 92) +0 HD, +2 LA - any corporeal Humanoid or Monstrous humanoid that possesses bestial traits, such as a centaur, harpy, kyrie, or minotaur, etc; Humanoids become Monstrous humanoids, gains Chaotic subtype
+#76-80 Stonebone (Dragon #350 pg36) +0 HD, +2 LA - any corporeal living creature; no type change
+#81-86 Telthor (Unapproachable East 74) +0 HD, LA +2 – any Animal or Humanoid; becomes Fey & gains Incorporeal subtype
+#87-93 Winged Creature (Savage Species 137) +0 HD, LA +2 – any Animal, Giant, Humanoid, Monstrous humanoid, or Vermin that does not already have a fly speed; Animals and Vermin become Magical beasts; Humanoids become Monstrous humanoids
+#94-97 Xorvintaal Exarch (Monster Manual 5 pg47) +0 HD, LA +2 – any Humanoid, Living Construct, Monstrous humanoid, Fey, Giant, or Undead; no type change
+#98-100 Yuan-Ti, Tainted One (Ghostwalk Campaign Setting 173, Monsters of Faerun 94, Savage Species 141) +0 HD, +2 LA - no type change, gains Reptilian subtype
+
+
+
