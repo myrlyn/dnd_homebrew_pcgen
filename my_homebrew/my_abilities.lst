@@ -55,7 +55,7 @@ Poison	KEY:Drider Poison		CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAtt
 #The SOURCEPAGE tag can be used to hold a reference to where you can find the feat. This will be displayed in PCGen.
 Human Region ~ Custom Campaign						OUTPUTNAME:Custom Campaign														CATEGORY:Regional				TYPE:Region.FaerunRegion		VISIBLE:YES		PRERACE:1,Human						TEMPLATE:Human Region ~ Custom Campaign						DESC:Use for default racial features when loading sources that use Regions
 
-
+#Grow Wings	KEY:Rainbow Servant ~ Grow Wings	CATEGORY:Specail Ability	TYPE:
 
 Weapon and Armor Proficiency					KEY:Avenger ~ Weapon and Armor Proficiency		CATEGORY:Special Ability	TYPE:Class Feature.Avenger Class Feature.SpecialQuality																																																												DESC:Avengers are proficient with the crossbow (hand, light, or heavy), dagger (any type), dart, rapier, sap, shortbow (normal and composite), and short sword. Avengers are proficient with light armor but not with shields.																																																																																																																																																																																																																																																																															AUTO:WEAPONPROF|Dart|Rapier|Sap|Shortbow|Shortbow|Sword (Short)|Crossbow (Light)|Crossbow (Heavy)|Crossbow (Hand)|TYPE=Auto|TYPE=Dagger																									ABILITY:Internal|AUTOMATIC|TYPE=ArmorProfLight|TYPE=ShieldProf|TYPE=WeaponProfMartial																																																																																																																																																																																																																																																																																													SOURCEPAGE:p.180
 Sneak Attack							KEY:Avenger ~ Sneak Attack					CATEGORY:Special Ability	TYPE:Class Feature.Avenger Class Feature.SpecialQuality.SneakAttack.Sneak Attack																																		DEFINE:SneakAttackDice|0	DEFINE:SneakAttackDieSize|0															DESC:This is exactly like the rogue ability of the same name. The extra damage dealt increases by +1d6 every other level (2nd, 4th, 6th, 8th, and 10th). If an Avenger gets a sneak attack bonus from another source (such as rogue levels), the bonuses on damage stack.	DESC:[Sneak Attack Damage: %1d%2]|SneakAttackDice|SneakAttackDieSize																																																																																																																																																																																																																																																																																																										ABILITY:Special Ability|AUTOMATIC|Sneak Attack																																																																																																																																																																																														BONUS:VAR|SneakAttackDieSize|6|TYPE=Base	BONUS:VAR|SneakAttackDice|(AvengerLVL+1)/2			ASPECT:NAME|Sneak Attack +%1d%2|SneakAttackDice|SneakAttackDieSize																																																																																					SOURCEPAGE:p.180
@@ -267,7 +267,7 @@ Resist Control	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBL
 CATEGORY=FEAT|Superior Unarmed Strike.MOD		PREVARLT:BattleDancerLVL,1
 
 
-Superior Unarmed strike		KEY:Battle Dancer ~ Superior Unarmed Strike		SERVESAS:ABILITY=FEAT|Superior Unarmed strike		DESC:This is Superior Unarmed Strike that correctly interacts with the BattleDancer class.	PREVARLT:MonkLVL,1				PREVARGTEQ:BattleDancerLVL,1			 PREABILITY:1,CATEGORY=FEAT,Improved Unarmed Strike		CATEGORY:FEAT	TYPE:General	PRETOTALAB:3		BONUS:VAR|MonkUnarmedDamageLVL|4
+Superior Unarmed Strike		KEY:Battle Dancer ~ Superior Unarmed Strike		SERVESAS:ABILITY=FEAT|Superior Unarmed Strike		DESC:This is Superior Unarmed Strike that correctly interacts with the BattleDancer class.	PREVARLT:MonkLVL,1				PREVARGTEQ:BattleDancerLVL,1			 PREABILITY:1,CATEGORY=FEAT,Improved Unarmed Strike		CATEGORY:FEAT	TYPE:General	PRETOTALAB:3		BONUS:VAR|MonkUnarmedDamageLVL|4
 
 
 CATEGORY=Special Ability|Bardic Music ~ Inspire Courage.MOD		BONUS:VAR|BardicInspireCourageLVL|BardLVL
@@ -414,6 +414,31 @@ CATEGORY=Special Ability|Rainbow Servant ~ Cleric Spell Access.MOD		DEFINE:Arcan
 
 +1 Caster Level		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Add an effective level to a spellcasting class you have		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			ADD:SPELLCASTER|ANY	COST:0
 
+Cast Spells at +1		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Add an effective level to a spellcasting class you have		STACK:YES		MULT:YES				CHOOSE:CLASS|SPELLCASTER	BONUS:CASTERLEVEL|%LIST|1	COST:0
+
+
+CATEGORY=Special Ability|Master Thrower ~ Doubletoss.MOD		SERVESAS:ABILITY=FEAT|Rapid Shot	
+CATEGORY=Special Ability|Master Thrower ~ Trip Shot.MOD		SERVESAS:ABILITY=FEAT|Ranged Disarm	
+CATEGORY=Special Ability|Master Thrower ~ Palm Throw.MOD		SERVESAS:ABILITY=FEAT|Manyshot	
+CATEGORY=Special Ability|Master Thrower ~ Tumbling Toss.MOD		SERVESAS:ABILITY=FEAT|Shot on the Run	
+#Strength Draining Strike, Novice                            KEY:Martial Study Novice ~ Strength Draining Strike  SORTKEY:Maneuvers and Stances    CATEGORY:Special Ability        TYPE:SpecialAttack.Martial Study Shadow Hand Maneuver.Shadow Hand.Shadow Hand Discipline.Shadow Hand Maneuver.Maneuver.Martial Maneuver.Strike                                        PREABILITY:1,CATEGORY=Special Ability,TYPE.Shadow Hand Maneuver      !PRECLASS:1,SPELLCASTER.Martial=1                PREVARGTEQ:InitiatorManueverLVL,3       DESC:Liquid, black energy covers your weapon. As you strike your opponent, this material flows into the wound, spreads along his veins, and leaves him weakened. As part of this maneuver, you make a single melee attack against an opponent. In addition to dealing normal melee damage with the attack, you deal 4 points of Strength damage. A successful Fortitude save (DC 13 + your Wis modifier) halves this Strength damage, but has no effect on the normal melee damage you deal with the strike. This maneuver is a supernatural ability.          SOURCEPAGE:p.80                          ASPECT:Initiation Action|1 standard action      ASPECT:Range|Melee attack       ASPECT:Target Area|One creature ASPECT:Save Info|Fortitude half                                                                                                                                    SPELLS:Innate|TIMES=1|TIMEUNIT=Encounter|CASTERLEVEL=InitiatorManueverLVL|STRENGTH DRAINING STRIKE,13+WIS+charbonusto("DC","SCHOOL.Shadow Hand")
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Absolute Steel.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Adamantine Hurricane.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Dancing Blade Form.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Dazing Strike.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Disarming Strike.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Exorcism of Steel.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Finishing Move.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Iron Heart Endurance.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Iron Heart Focus.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Lightning Recovery.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Manticore Parry.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Mithral Tornado.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Punishing Stance.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Scything Blade.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Steel Wind.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Strike of Perfect Clarity.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
+CATEGORY=Special Ability|Warblade Martial Discipline ~ Wall of Blades.MOD					TYPE:TYPE:SpecialAttack.Martial Study Iron Heart Maneuver.Iron Heart.Iron Heart Discipline.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike
 
 Item Creation					KEY:Psionic Artificer ~ Item Creation							CATEGORY:Special Ability	TYPE:Extraordinary.Class Feature.Artificer Class Feature.SpecialQuality																	DESC:An artificer can create a psionic item even if he does not have access to the powers that are prerequisites for the item. The artificer must make a successful Use Psionic Device check (DC 20 + manifester level) to emulate each power normally required to create the item. The artificer must make a successful check for each prerequisite for each item he makes. If he fails a check, he can try again each day until the item is complete (see Creating Psionic Items, Expanded Psionics Handbook). If he comes to the end of the crafting time and he has still not successfully emulated one of the powers, he can make one final check-his last-ditch effort, even if he has already made a check that day. If that check also fails, then the creation process fails and the time, money, and XP expended to craft the item are lost. For purposes of meeting item prerequisites, an artificer's effective manifester level equals his artificer level +2. If the item duplicates a power effect, however, it uses the artificer's actual level as its manifester level. Costs are always determined using the item's minimum manifester level or the artificer's actual level (if it is higher). An artificer can also make Use Psionic Device checks to emulate nonpower requirements, including alignment and race, using the normal DCs for the skill. He cannot emulate skill or feat requirements, however, including item creation feat prerequisites. He must meet the manifester level prerequisite, including the minimum level to manifest a power he stores in a tatto, dorje, or powerstone. An artificer's infusions do not meet power prerequisites for creating magic items.
 Bonus Feat						KEY:Psionic Artificer ~ Bonus Feat								CATEGORY:Special Ability	TYPE:Class Feature.Artificer Class Feature.SpecialQuality													DEFINE:ArtificerBonusFeatCount|0	DESC:An artificer gains every item creation feat as a bonus feat at or near the level at which it becomes available to manifesters. He gets Imprint Stone as a bonus feat at 1st level, Scribe Tattoo at 2nd level, Craft Universal Item at 3rd level, Craft Psionic Arms and Armor at 5th level, Craft Dorje at 6th level, Craft Cognizance Crystal at 9th level, Craft Psicrown at 12th level, and Craft Psionic Construct at 14th level. In addition, an artificer gains a bonus feat at 4th level and every four levels thereafter (8th, 12th, 16th, and 20th). For each of these bonus feats, the artificer must choose a metamagic feat or a feat from the following list: Attune Magic Weapon, Craft Construct (see the Monster Manual, page 303), Exceptional Artisan, Extra Rings, Extraordinary Artisan, Legendary Artisan, Wand Mastery.																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																													ABILITY:FEAT|AUTOMATIC|Imprint Stone|PREVARGTEQ:ArtificerLVL,1	ABILITY:FEAT|AUTOMATIC|Scribe Tattoo|PREVARGTEQ:ArtificerLVL,2	ABILITY:FEAT|AUTOMATIC|Craft Universal Item|PREVARGTEQ:ArtificerLVL,3	ABILITY:FEAT|AUTOMATIC|Craft Psionic Arms and Armor|PREVARGTEQ:ArtificerLVL,5	ABILITY:FEAT|AUTOMATIC|Craft Dorje|PREVARGTEQ:ArtificerLVL,6	ABILITY:FEAT|AUTOMATIC|Craft Cognizance Crystal|PREVARGTEQ:ArtificerLVL,9	ABILITY:FEAT|AUTOMATIC|Craft Psicrown|PREVARGTEQ:ArtificerLVL,12	ABILITY:FEAT|AUTOMATIC|Craft Psionic Construct|PREVARGTEQ:ArtificerLVL,14																BONUS:ABILITYPOOL|Artificer Feat|ArtificerBonusFeatCount					BONUS:VAR|ArtificerBonusFeatCount|ArtificerLVL/4																																																																																																																																																																																																																																								SOURCEPAGE:p.32
@@ -428,9 +453,46 @@ Mindsight					CATEGORY:FEAT		TYPE:Monstrous.Generally	SOURCEPAGE:LoM, 126		DESC:
 
 
 
+CATEGORY=Special Ability|Bloodstorm Blade ~ Throw Anything.MOD		ABILITY:FEAT|VIRTUAL|Throw Anything
+Worldly Focus		CATEGORY:FEAT	TYPE:General	DESC:You can cast cleric spells without a divine Focus		BENEFIT:You no longer require a Divine Focus for any Divine spell. 
+
+
+Bonus Domain		KEY:Sovereign Speaker ~ Bonus Domain		CATEGORY:Special Ability		TYPE:SpecialQuality		MULT:YES	STACK:YES	CHOOSE:NOCHOICE		BONUS:DOMAIN|NUMBER|1
+
+Extra Domain Slot(3)		DESC:You gain an additional 3rd level spell slot that must be used for a Domain		BONUS:SPELLCAST|TYPE=Divine;LEVEL=3|1		CATEGORY:Special Ability	TYPE:SpecialQuality
+
+Extra Domain Slot(5)		DESC:You gain an additional 5th level spell slot that must be used for a Domain		BONUS:SPELLCAST|TYPE=Divine;LEVEL=5|1			CATEGORY:Special Ability	TYPE:SpecialQuality
+
+
+Extra Domain Slot(7)		DESC:You gain an additional 7th level spell slot that must be used for a Domain		BONUS:SPELLCAST|TYPE=Divine;LEVEL=7|1			CATEGORY:Special Ability	TYPE:SpecialQuality
+
+Whip Sneak Attack		CATEGORY:Special ability		TYPE:SpecialAttack.LasherClassFeature		DESC:You may sneak attack with a whip, or whip dagger.  You may choose to cause sudual damage if not using a whip.		DEFINE:WhipSneakDice|0		BONUS:VAR|WhipSneakDice|1		ASPECT:NAME|Whip Sneak Attack +%1d6|WhipSneakDice			KEY:Lasher ~ Whip Sneak attack			
+
+Close Combat		CATEGORY:Special ability		TYPE:SpecialAttack.LasherClassFeature				KEY:Lasher ~ Close Combat		DESC:You may attack with a whip while threatended without provoking an attack of opportunity.		
+
+
+Stunning Snap		CATEGORY:Special ability		TYPE:SpecialAttack.LasherClassFeature				KEY:Lasher ~ Stunning Snap		DESC:A lasher can use a whip or whip dagger to stun a creature instead of inflicting subdual or normal damage. The lasher can use this ability once per round, but no more than once per level per day. The lasher must declare she is using a stun attack before making an attack roll. [A missed attack roll ruins the attempt.] A foe struck by a whip or whip dagger must make a Fortitude saving throw [DC 10 + the lasher's level + Strength modifier], in addition to receiving normal damage [subdual or standard]. If the saving throw fails, the opponent is stunned for one round. A stunned character cannot act and loses any Dexterity bonus to AC, while attackers get a +2 bonus on attack rolls against a stunned opponent. Constructs, oozes, plants, undead, incorporeal creatures, and creatures immune to critical hits cannot be stunned by the lasher's stunning attack.
+
+Wound		CATEGORY:Special ability		TYPE:SpecialAttack.LasherClassFeature						KEY:Lasher ~ Wound			DESC:You may choose to deal real or subdual damage with a whip(not whip dagger), and damage creatures with +1 Armor bonus or +3 Natural Armor when doing real damage. 
+
+
+Whip Lash		CATEGORY:Special ability		TYPE:SpecialAttack.LasherClassFeature						KEY:Lasher ~ Whip Lash			DESC:You now theaten squares within your natural reach with your whip.
+
+Improved Trip		CATEGORY:Special ability		TYPE:SpecialAttack.LasherClassFeature						KEY:Lasher ~ Improved Trip		DESC:You gain the benefits of the Improved Trip feat when using a whip or whip-dagger.			SERVESAS:ABILITY=FEAT|Improved Trip	
 
 
 
+Third Hand		CATEGORY:Special ability		TYPE:SpecialQuality.LasherClassFeature						KEY:Lasher ~ Third Hand		DESC:Use your whip to perf orm actions.  Make an attack roll aggainst a relevant DC.  Whip daggers automatically damage wrapped objects.  Usually a stanard action, or move equivalent.  Wrap an unattended object under 20lb and place it on your hand -- move equivalent action at DC 20.  Place a wrapped object in yourh hand -- move, no roll.  Punch a button, move a coin 15' along th ground, snuff a candle -- move equivalent DC 15.  Wrap a pole, spike etc. - DC 22/move.  Wrapping somethig to aid in a climb reduces the climb DC by 5.  When the victim of a fall, you can forgo your reflex save to wrap an object.  You can wrap a creature by rolling it's Touch AC.  Willing creatures do not add their Dexterity bonus.  The wrapped creature must make a DC 20 STR check or you both continue falling.  Unwrapping is a free action.  
+
+
+Crack of Fate		CATEGORY:Special ability		TYPE:SpecialAttack.LasherClassFeature						KEY:Lasher ~ Crack of Fate		DESC:When using a whip/whip dagger in a full attack, you may make an extra attack with it at your highest attack bonus, but all attacks this turn are at -2.  
+
+
+Lashing Whip		CATEGORY:Special ability		TYPE:SpecialQuality.LasherClassFeature						KEY:Lasher ~ Lashing Whip		DESC:+2 damage with whips and whip daggers. 			BONUS:WEAPONPROF=Whip|DAMAGE|Damage|2		SERVESAS:ABILITY=FEAT|Weapon Specialization (Whip)
+
+Improved Disarm		CATEGORY:Special ability		TYPE:SpecialAttack.LasherClassFeature						KEY:Lasher ~ Improved Disarm		DESC:You gain the benefits of the Improved Disarm feat when using a whip or whip-dagger.			SERVESAS:ABILITY=FEAT|Improved Disarm	
+
+Crack of Doom		CATEGORY:Special ability		TYPE:SpecialAttack.LasherClassFeature						KEY:Lasher ~ Crack of Doom		DESC:When using a whip/whip dagger in a full attack, you may make two extras attack with it at your highest attack bonus, but all attacks this turn are at -4.  
 
 
 
@@ -446,7 +508,7 @@ Plane Shift		KEY:Shadow Creature ~ Plane Shift				CATEGORY:Special Ability	TYPE:
 CATEGORY=FEAT|Speed of Thought.MOD				TEMPBONUS:PC|MOVEADD|TYPE.Walk|10|TYPE=Insight
 
 
-
+Death Spiral		CATEGORY:Special ability		TYPE:SpecialAttack.LasherClassFeature						KEY:Lasher ~ Death Spiral		DESC:At 10th level, the lasher gains transcendental understanding of her whip or whip dagger. Once per day, she can spin the whip over her head with supernatural speed. All foes within a 15-foot radius of the lasher must make a Reflex save against a DC equal to the lasher's attack roll. Opponents who fail are stunned for 1d4+1 rounds. Stunned opponents must make a successful Fortitude save (DC 18) or become helpless for 1d4—1 rounds (minimum 1 round). Allies (as selected by the lasher) in range are spared the effects of the death spiral. The death spiral is a supernatural ability.
 
 
 
@@ -2597,3 +2659,10 @@ Arcane Domain Spell 9 (Weird)		KEY:Arcane Mind  Domain Spell ~ Weird			CATEGORY:
 Arcane Domain Spell 9 (Weird)		KEY:Arcane Passion  Domain Spell ~ Weird			CATEGORY:Special Ability	TYPE:ArcaneClericSpell.Level9	SPELLKNOWN:CLASS|SPELLCASTER.Arcane=9|Weird		COST:0		PREVARGTEQ:ArcaneClericSpells,1	PRESPELLTYPE:1,ARCANE=9
 Arcane Domain Spell 9 (Were-Doom)		KEY:Arcane Bestial  Domain Spell ~ Were-Doom			CATEGORY:Special Ability	TYPE:ArcaneClericSpell.Level9	SPELLKNOWN:CLASS|SPELLCASTER.Arcane=9|Were-Doom		COST:0		PREVARGTEQ:ArcaneClericSpells,1	PRESPELLTYPE:1,ARCANE=9
 Arcane Domain Spell 9 (Wish)		KEY:Arcane Envy  Domain Spell ~ Wish			CATEGORY:Special Ability	TYPE:ArcaneClericSpell.Level9	SPELLKNOWN:CLASS|SPELLCASTER.Arcane=9|Wish		COST:0		PREVARGTEQ:ArcaneClericSpells,1	PRESPELLTYPE:1,ARCANE=9
+
+
+#CATEGORY=FEAT|Focused Skill User.MOD		CHOOSE:SKILL|RANKS=1	MULT:YES	STACK:NO		NUMCHOICES:3
+
+
+
+Southern Magician			CATEGORY:feat		TYPE:General		SOURCEPAGE:Races of Faerun			DESC:Once perday per 2 spellcasting levels, you can cast a divine spell as arcane, or an arcane spell as divine.  This enables you to bypass arcane spell failure due to armor, or gain additional benefit from spell that functions differently for a divine caster instead of an arcane caster, such as true seeing or magic weapon.  Spells changed with this feat are often confusing to whose who haven't studied Mulan magic. Spellcasters who don't have this feat suffer a -4 penalty on attempts to counterspell or dispel this spell, and they must succeed at a caster level check (DC 11 + spell level) to detect the spell with detect magic.

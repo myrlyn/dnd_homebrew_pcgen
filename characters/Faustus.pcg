@@ -1,0 +1,241 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Faustus
+TABNAME:
+PLAYERNAME:
+HEIGHT:72
+WEIGHT:155
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:Green
+EYECOLOR:White
+HAIRCOLOR:None
+HAIRSTYLE:Non
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:J&colon;\Users\myrlyn\Downloads\BzMOTBWIYAA7CsD.jpg
+PORTRAITTHUMBNAILRECT:193,85,286,286
+
+# Character Attributes
+STAT:STR|SCORE:16
+STAT:DEX|SCORE:16
+STAT:CON|SCORE:16
+STAT:INT|SCORE:18
+STAT:WIS|SCORE:21
+STAT:CHA|SCORE:18
+ALIGN:CG
+RACE:Bullywug
+
+# Character Class(es)
+CLASS:Cleric|LEVEL:1|SKILLPOOL:0
+CLASS:Malconvoker|LEVEL:9|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Contemplative|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Paragnostic Apostle|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Cleric=1|HITPOINTS:8|SKILLSGAINED:20|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Malconvoker=1|HITPOINTS:4|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Malconvoker=2|HITPOINTS:4|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC&pipe;1]|ADD:[SPELLCASTER:ANY|CHOICE:Cleric]|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Malconvoker=3|HITPOINTS:4|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC&pipe;1]|ADD:[SPELLCASTER:ANY|CHOICE:Cleric]|PRESTAT:WIS=1|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Malconvoker=4|HITPOINTS:4|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC&pipe;1]|ADD:[SPELLCASTER:ANY|CHOICE:Cleric]|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Malconvoker=5|HITPOINTS:4|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC&pipe;1]|ADD:[SPELLCASTER:ANY|CHOICE:Cleric]|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Malconvoker=6|HITPOINTS:4|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC&pipe;1]|ADD:[SPELLCASTER:ANY|CHOICE:Cleric]|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Malconvoker=7|HITPOINTS:4|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC&pipe;1]|ADD:[SPELLCASTER:ANY|CHOICE:Cleric]|PRESTAT:WIS=1|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Malconvoker=8|HITPOINTS:4|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC&pipe;1]|ADD:[SPELLCASTER:ANY|CHOICE:Cleric]|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Malconvoker=9|HITPOINTS:4|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC&pipe;1]|ADD:[SPELLCASTER:ANY|CHOICE:Cleric]|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Contemplative=1|HITPOINTS:6|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC&pipe;1]|ADD:[SPELLCASTER:Divine|CHOICE:Cleric]|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paragnostic Apostle=1|HITPOINTS:4|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC&pipe;1]|ADD:[SPELLCASTER:ANY|CHOICE:Cleric]|PRESTAT:WIS=1|SKILLSGAINED:7|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:88000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Humanoid]
+TEMPLATESAPPLIED:[NAME:Base Race Type]
+TEMPLATESAPPLIED:[NAME:Aquatic]
+TEMPLATESAPPLIED:[NAME:RighteousMightDR]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Cleric]
+TEMPLATESAPPLIED:[NAME:Phrenic|CHOSENTEMPLATE:[NAME:Psionic]]
+TEMPLATESAPPLIED:[NAME:Psionic]
+TEMPLATESAPPLIED:[NAME:Unseelie Fey]
+TEMPLATESAPPLIED:[NAME:First Level ~ Cleric|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+TEMPLATESAPPLIED:[NAME:Use Fractional BAB]
+TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Paragnostic Apostle|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Malconvoker|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Paragnostic Apostle|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric|RANKS:3.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Malconvoker|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:9|
+SKILL:Disguise|OUTPUTORDER:10|
+SKILL:Escape Artist|OUTPUTORDER:11|
+SKILL:Forgery|OUTPUTORDER:12|
+SKILL:Gather Information|OUTPUTORDER:13|
+SKILL:Heal|OUTPUTORDER:14|
+SKILL:Hide|OUTPUTORDER:15|
+SKILL:Hide (Forested Areas)|OUTPUTORDER:16|
+SKILL:Intimidate|OUTPUTORDER:17|
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:18|
+SKILL:Jump|OUTPUTORDER:19|
+SKILL:Knowledge (Arcana)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Paragnostic Apostle|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Malconvoker|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Contemplative|RANKS:1.0|COST:2|CLASSSKILL:N]
+SKILL:Knowledge (Religion)|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Paragnostic Apostle|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Malconvoker|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Contemplative|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (The Planes)|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Paragnostic Apostle|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Malconvoker|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Contemplative|RANKS:1.0|COST:2|CLASSSKILL:N]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:23|
+SKILL:Listen|OUTPUTORDER:24|
+SKILL:Literacy|OUTPUTORDER:25|
+SKILL:Move Silently|OUTPUTORDER:26|
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:27|
+SKILL:Ride|OUTPUTORDER:28|
+SKILL:Search|OUTPUTORDER:29|
+SKILL:Sense Motive|OUTPUTORDER:30|
+SKILL:Skill Trick|CLASSBOUGHT:[CLASS:Cleric|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Malconvoker|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Speak Language|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Paragnostic Apostle|RANKS:1.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Common
+SKILL:Spot|OUTPUTORDER:32|
+SKILL:Survival|OUTPUTORDER:33|
+SKILL:Swim|OUTPUTORDER:34|
+SKILL:Use Rope|OUTPUTORDER:35|
+
+# Character Languages
+LANGUAGE:Abyssal|LANGUAGE:Bullywi|LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Infernal
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Abyssal,Celestial,Infernal|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Abyssal,Celestial,Infernal|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Abyssal,Celestial,Infernal|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Cleric Standing|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Cleric ~ Normal Standing|TYPE:Cleric Standing.SpecialQuality|DESC:You are in good standing with your deity.
+USERPOOL:Cleric Standing|POOLPOINTS:0.0
+ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
+USERPOOL:ECL Buy Down|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Augment Summoning|TYPE:General|DESC:Your summoned creatures are more powerful than normal.|DESC:Your summoned creatures are better than normal.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Cosmopolitan|APPLIEDTO:Bluff|TYPE:|DESC:Chosen skill is now a class skill
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Divine Metamagic|APPLIEDTO:Persistent Spell,Repeat Spell|TYPE:Divine|DESC:You can channel energy into some of your divine spells to make them more powerful.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Imbued Summoning|TYPE:Metamagic|DESC:Your summoning spells gain an element of surprise. You can summon creatures that come into existence with the benefit of a spell such as invisibility or bull's strength.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Persistent Spell|TYPE:Metamagic.Wizard|DESC:You can make a spell last all day.|DESC:A persistent spell has a duration of 24 hours. The persistent spell must have a personal range or fixed range (for example, comprehend languages or detect magic). Spells of instantaneous duration cannot be affected by this feat, nor can spells whose effects are discharged. You need not concentrate on spells such as detect magic or detect thoughts to be aware of the mere presence or absence of the thing detected, but you must still concentrate to gain additional information as normal. Concentration on such a spell is a standard action that does not provoke an attack of opportunity. A persistent spell uses up a spell slot six levels higher than the spell's actual level.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Repeat Spell|TYPE:Metamagic|DESC:You can cast a spell that repeats on the following round.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Spell Focus|APPLIEDTO:Conjuration|TYPE:General.EpicWizard.CosmicDescryer|DESC:Your spells of a chosen school of magic are more potent than normal.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Meager Fortitude|TYPE:Flaws.SpecialQuality|DESC:You are sickly and weak of stomach.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Noncombatant|TYPE:Flaws.SpecialQuality|DESC:You are relatively inept at melee combat.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Shaky|TYPE:Flaws.SpecialQuality|DESC:You are relatively poor at ranged combat.
+USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:Knowledge Is Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Knowledge Is Power ~ Call of Worlds|TYPE:Class Feature.Knowledge Is Power.SpecialQuality|DESC:Each creature you summon with a conjuration (summoning) spell gains the fast healing ability. The damage healed per round begins at 2 hit points and increases by 1 for every three caster levels (maximum +5 at 15th caster level). (Knowledge &lbracket;the planes&rbracket; 6 ranks)
+USERPOOL:Knowledge Is Power|POOLPOINTS:0.0
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Use Fractional BAB|TYPE:MiscOptions.AlternateBAB
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Rule - Use ECL Level Buy Down|TYPE:MiscOptions
+USERPOOL:Misc Options|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Region ~ None|TYPE:Region
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Swift Concentration|TYPE:ST.SpecialQuality.SkillTrick.Mental|DESC:You can maintain concentration on a spell or similar effect as a swift action.
+USERPOOL:Skill Tricks|POOLPOINTS:0.0
+ABILITY:Turn Undead|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Turn Undead|TYPE:Class Feature.Cleric Class Feature.Paladin Class Feature.SpecialAttack.Turning.TurnUndead.Turn Undead|DESC:%1/day (turn level %2) (turn damage %3d%4+%5)&pipe;TurnTimesUndead&pipe;TurnLevelUndead&pipe;TurnDiceUndead&pipe;TurnDieSizeUndead&pipe;TurnDamagePlusUndead
+USERPOOL:Turn Undead|POOLPOINTS:0.0
+ABILITY:Unseelie Fey Seasonal Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Summer's Caress|TYPE:Supernatural.Unseelie Fey Seasonal Power.SpecialQuality|DESC: At will, spend a standard action and touch a creature.  You remove all dazed, nauseated, fatigued, and exhausted conditions from the target.  For indead, this touch attack functions as Turn Undead used by a cleric two levels higher than your total level, affecting only the touched undead.
+USERPOOL:Unseelie Fey Seasonal Power|POOLPOINTS:0.0
+ABILITY:Unseelie Fey Vision|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Darkvision Vision|TYPE:Extraordinary.Unseelie Fey Vision.SpecialQuality|DESC:You gain Darkvision 60'.
+USERPOOL:Unseelie Fey Vision|POOLPOINTS:0.0
+ABILITY:Unseelie Fey Wings|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Batlike|TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality
+USERPOOL:Unseelie Fey Wings|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Battle Gauntlet|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart]
+WEAPONPROF:[WEAPON:Darts (Barbed)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Halfspear|WEAPON:Javelin|WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar]
+WEAPONPROF:[WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Strike (Unarmed)|WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:100.00
+EQUIPNAME:Bag of Holding (Type III)|OUTPUTORDER:0|COST:7400|WT:35.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Belt, Battle Dancer's|OUTPUTORDER:4|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Battle Dancer's)|DATA:KEY=Belt (Battle Dancer's)]
+EQUIPNAME:Cloak of Charisma +6|OUTPUTORDER:3|COST:36000|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Goggles ( Skill Bonus (Competence) (Bluff +10))|OUTPUTORDER:1|COST:10000.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Goggles|DATA:NAME=Goggles ( Skill Bonus (Competence) (Bluff +10))$EQMOD=BNS_SKL_CMP&pipe;Bluff=+10]
+EQUIPNAME:Nightstick|OUTPUTORDER:5|COST:7500|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ring of Mighty Summons|OUTPUTORDER:2|COST:14000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.01|VALUE:Nightstick|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Eyes|ID:0.1.02|VALUE:Goggles ( Skill Bonus (Competence) (Bluff +10))|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.03|VALUE:Cloak of Charisma +6|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Waist|ID:0.1.04|VALUE:Belt, Battle Dancer's|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.05|VALUE:Ring of Mighty Summons|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.06|VALUE:Bag of Holding (Type III)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:None|DEITYDOMAINS:[DOMAIN:Abyss|DOMAIN:Abyss (1 of 2)|DOMAIN:Air|DOMAIN:Alteration|DOMAIN:Animal|DOMAIN:Arborea|DOMAIN:Arborea (1 of 2)|DOMAIN:Artifice|DOMAIN:Baator|DOMAIN:Baator (1 of 2)|DOMAIN:Balance|DOMAIN:Bestial|DOMAIN:Blightbringer|DOMAIN:Cavern|DOMAIN:Celerity|DOMAIN:Celestia|DOMAIN:Celestia (1 of 2)|DOMAIN:Celestial|DOMAIN:Chaos|DOMAIN:Charm|DOMAIN:City|DOMAIN:Cold|DOMAIN:Commerce|DOMAIN:Community|DOMAIN:Community (Dragonlance)|DOMAIN:Competition|DOMAIN:Corruption|DOMAIN:Courage|DOMAIN:Craft|DOMAIN:Creation|DOMAIN:Darkness|DOMAIN:Death|DOMAIN:Deathbound|DOMAIN:Deathless|DOMAIN:Decay|DOMAIN:Demonic|DOMAIN:Destiny|DOMAIN:Destruction|DOMAIN:Diabolic|DOMAIN:Domination|DOMAIN:Dragon|DOMAIN:Dragon Below|DOMAIN:Dream|DOMAIN:Drow|DOMAIN:Dwarf|DOMAIN:Earth|DOMAIN:Elf|DOMAIN:Elysium|DOMAIN:Elysium (1 of 2)|DOMAIN:Endurance|DOMAIN:Envy|DOMAIN:Evil|DOMAIN:Exorcism|DOMAIN:Family|DOMAIN:Fate|DOMAIN:Feast|DOMAIN:Fey|DOMAIN:Fire|DOMAIN:Force|DOMAIN:Forge|DOMAIN:Ghost|DOMAIN:Glory|DOMAIN:Gluttony|DOMAIN:Gnome|DOMAIN:Good|DOMAIN:Greed|DOMAIN:Hades|DOMAIN:Hades (1 of 2)|DOMAIN:Halfling|DOMAIN:Hatred|DOMAIN:Healing|DOMAIN:Herald|DOMAIN:Hunger|DOMAIN:Illusion|DOMAIN:Incarnum|DOMAIN:Inquisition|DOMAIN:Insight|DOMAIN:Joy|DOMAIN:Knowledge|DOMAIN:Law|DOMAIN:Liberation|DOMAIN:Liberation (Dragonlance)|DOMAIN:Life|DOMAIN:Limbo|DOMAIN:Limbo (1 of 2)|DOMAIN:Luck|DOMAIN:Lust|DOMAIN:Madness|DOMAIN:Magic|DOMAIN:Mechanus|DOMAIN:Mechanus (1 of 2)|DOMAIN:Meditation|DOMAIN:Mentalism|DOMAIN:Mentalism (Dragonlance)|DOMAIN:Metal|DOMAIN:Mind|DOMAIN:Moon|DOMAIN:Mysticism|DOMAIN:Necromancer|DOMAIN:Necromancy|DOMAIN:Nobility|DOMAIN:Ocean|DOMAIN:Oracle|DOMAIN:Orc|DOMAIN:Order of the All-Seeing Eye|DOMAIN:Order of the Consuming Flame|DOMAIN:Order of the Forbidding Wasteland|DOMAIN:Order of the Gentle Rain|DOMAIN:Order of the Impenetrable Crucible|DOMAIN:Order of the Ineffable Mystery|DOMAIN:Order of the Perfect Sculpture|DOMAIN:Order of the Spring Zephyr|DOMAIN:Pact|DOMAIN:Pain|DOMAIN:Passion|DOMAIN:Passion (Dragonlance)|DOMAIN:Pestilence|DOMAIN:Pestilence (Dragonlance)|DOMAIN:Planning|DOMAIN:Plant|DOMAIN:Pleasure|DOMAIN:Portal|DOMAIN:Pride|DOMAIN:Protection|DOMAIN:Purification|DOMAIN:Renewal|DOMAIN:Repose|DOMAIN:Restoration|DOMAIN:Retribution|DOMAIN:Rune|DOMAIN:Sand|DOMAIN:Scalykind|DOMAIN:Shadow|DOMAIN:Slime|DOMAIN:Sloth|DOMAIN:Spell|DOMAIN:Spider|DOMAIN:Spite|DOMAIN:Storm|DOMAIN:Storm (Dragonlance)|DOMAIN:Strength|DOMAIN:Suffering|DOMAIN:Summer|DOMAIN:Summoner|DOMAIN:Sun|DOMAIN:Thirst|DOMAIN:Time|DOMAIN:Trade|DOMAIN:Travel|DOMAIN:Treachery|DOMAIN:Trickery|DOMAIN:Truth|DOMAIN:Tyranny|DOMAIN:Undeath|DOMAIN:Vile Darkness|DOMAIN:War|DOMAIN:Water|DOMAIN:Watery Death|DOMAIN:Wealth|DOMAIN:Weather|DOMAIN:Windstorm|DOMAIN:Winter|DOMAIN:Wrath]|ALIGNALLOW:|DESC:For No Deity Choices|DEITYFAVWEAP:[WEAPON:ALL]|DEITYALIGN:
+DOMAIN:Cold|DOMAINGRANTS:Turn or destroy fire creatures as a good cleric turns undead. Rebuke, command, or bolster cold creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
+DOMAIN:Water|DOMAINGRANTS:Turn or destroy fire creatures as a good cleric turns undead. Rebuke, command, or bolster water creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
+DOMAIN:Air|DOMAINGRANTS:Turn or destroy earth creatures as a good cleric turns undead. Rebuke, command, or bolster air creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:ITEMS&colon;&nl;Ring of Mighty Summons halves your summon durations when you use it.  This is irrelevant when you Persist the spell. Even if you read it otherwise, a 12 hour spell duration is *plenty*.&nl;&nl;Bag of Holding is ideal to smuggle a handful of summoned creatures into a place they oughtn't be. &nl;&nl;The Cloak and Belt are self-explanatory. &nl;&nl;You have 3 domains that grant turning, plus your basic undead turning - this gets you 4 turning pools.  A Nightstick adds 4 to *each*.  With your CHA bonus of +12, that gets you 64 Turning Attempts per day to spend on metamagic.  That's 10 Persisted Summoning Spells, with 4 left over to tack on Repeat Spell.  &nl;&nl;Custom goggles grant a +10 competence bonus on Bluff.   Since so many of your class abilities rely on Bluff, it seemed relevant. &nl;&nl;FEATS&colon;  This is when the real bullshit begins&nl;&nl;Cosmopolitan (bluff), Spell Focus (Conjuration) Snd Augment Summoning are both required to qualify for Malconvoker (or in the case of Cosmopilitan, to do so at second level), so they're self-explanatory. &nl;Malconvoker gives you the equivalent of "Extend Spell" for summons, which qualifies you for "Persistent Spell"  &nl;So, OFC, Divine Metamagic(Persistent Spell)&nl;Repeat Spell lets you double the fun, so repeat spell and Divine Metamagic(Repeat Spell) are keepers&nl;Imbue Summoning lets you cast a Sumonning Spell at 1 level higher in order to cast ANOTHER spell of 4th level or below, and have your summons be affected by it for the duration of the summons.  &nl;&nl;&nl;OTHER CLASSES AND THEIR ABILITIES&nl;Contemplative&nl;	Progresses spellcasting&nl;	Divine Health is _nice_ but not super relevant to a summoner. &nl;	Bonus Domain is what allowd a third domain with a Turning Pool&nl;Paragnostic Apostle&nl;	Knowledge Is Power(Call of Worlds)&colon; Each creature you summon with a conjuration (summoning) spell gains the fast healing ability. The damage healed per round begins at 2 hit points and increases by 1 for every three caster levels (maximum +5 at 15th caster level).&nl;&nl;&nl;&nl;So, the smart thing to do in many cases is just to summon an army at the beginning of each day.  &nl;&nl;Summon Monster VI -- Chain Devil (x4 from Repeat Spell and Fiendish Legion) -- Don't forget some Adamantine chains, or similar.  Keep these guys in the bag of holding.  If you don't want to seem evil, go with Fiendish Giant Constrictor.&nl;&nl;Summon Monster V -- Fiendish Huge Crocodiles -- without magic, it would be difficult to recognize these as evil (x8 because you can cast this twice)&nl;&nl;Effects applied to all of the above&colon; +4 STR &amp; CON, bonus HP (Augment Summoning).  Max HP per Hd (Ring of Mighty Summons).  +2 damage, more bonus HP (Malconvoker 4).  +2 Will Saves (Malconvoker 7)&nl;&nl;&nl;&nl;You might want to reserve the rest of your spell slots for later in the day.&nl;&nl;&nl;&nl;&nl;&nl;
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+
