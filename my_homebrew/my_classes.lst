@@ -71,10 +71,17 @@ SOURCELONG:My Campaign	SOURCESHORT:My	SOURCEWEB:http://www.mywebsite.com	SOURCED
 CLASS:Aberration.COPY=DriderTemplate
 CLASS:DriderTemplate.MOD	OUTPUTNAME:Aberration	CSKILL:Climb|Concentration|Hide|Listen|Move Silently|Spellcraft|Spot			
 
-
-
-
-
+CLASS:Psionic Artificer.MOD		CSKILL:Use Psionic Device|Psicraft|Knowledge (Psionics)
+1	ABILITY:Artificer Class Feature|AUTOMATIC|.CLEAR.Artificer ~ Item Creation
+1	ABILITY:Artificer Class Feature|AUTOMATIC|Psionic Artificer ~ Item Creation
+1	ABILITY:Artificer Class Feature|AUTOMATIC|.CLEAR.Artificer ~ Bonus Feat
+1	ABILITY:Artificer Class Feature|AUTOMATIC|Psionic Artificer ~ Bonus Feat
+6	ABILITY:Artificer Class Feature|AUTOMATIC|Psionic Artificer ~ Metamagic Spell Trigger
+7	ABILITY:Artificer Class Feature|AUTOMATIC|.CLEAR.Artificer ~ Metamagic Spell Trigger
+11	ABILITY:Artificer Class Feature|AUTOMATIC|.CLEAR.Artificer ~ Metamagic Spell Completion
+11	ABILITY:Artificer Class Feature|AUTOMATIC|Psionic Artificer ~ Metamagic Spell Completion
+13	ABILITY:Artificer Class Feature|AUTOMATIC|Psionic Artificer ~ Skill Mastery
+13	ABILITY:Artificer Class Feature|AUTOMATIC|.CLEAR.Artificer ~ Skill Mastery
 
 
 # Class Name	Hit Dice	Type			Class Type			Abbreviation	Source Page		Define			Combat bonus															Modify VAR																			Bonus

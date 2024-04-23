@@ -61,7 +61,7 @@ Shirt of Ironskin.MOD		DESC:Grants DR:3/Adamantine			DR:3/Adamantine
 Sacrificed Spellstalk Graft		TYPE:Graft.Beholder.Beholder Graft.Magic	COST:6500	SPROP:This Eyestalk once granted a spell-like ability
 Ruined Third Eye Graft			TYPE:Graft.Beholder.Beholder Graft.Magic	COST:5500	SPROP:This Eye Graft once produced an antimagic cone
 
-
+Boots of Striding and Springing.MOD			BONUS:MOVEADD|TYPE.Walk|10|TYPE=Enhancement
 
 
 #These slippers imbue the wearer with a shocking grace and a deadly fluidity in battle. Description: These soft, open-toed slippers are made of supple leather and look very comfortable.
@@ -75,8 +75,10 @@ Ruined Third Eye Graft			TYPE:Graft.Beholder.Beholder Graft.Magic	COST:5500	SPRO
 
 Slippers of Battle Dancing		TYPE:Slippers.Footwear.Magic.Shoe.Shoes.Boot.Boots.Wondrous.WondrousItem	COST:33750	SOURCEPAGE:Web enhancement		WT:1		DESC:While these slippers are on the wearer’s feet, he moves with unnatural grace and alacrity, gaining an enhancement bonus of +10 feet to his land speed. The slippers also grant him a +5 competence bonus on Tumble checks. A wearer who has at least 5 ranks in Perform (dance) accesses the true benefit of the slippers of battledancing. As long as he uses his base land speed to move (a fly, swim, burrowing, or climb speed), he gains a +2 insight bonus on initiative checks. If he moves at least 10 feet as part of a move action, he can use his Charisma modifier instead of his Strength or Dexterity modifier for attack rolls and damage rolls with one-handed or light weapons (both melee and ranged).		BONUS:SKILL|Tumble|5		BONUS:MOVEADD|TYPE.Walk|10	
 
+Sacred Boots Of Striding		TYPE:Slippers.Footwear.Magic.Shoe.Shoes.Boot.Boots.Wondrous.WondrousItem	COST:6000	SOURCEPAGE:Web enhancement		WT:1		DESC:Grant a +10 Sacred bonus to base walk speed.		BONUS:MOVEADD|TYPE.Walk|10|TYPE=Sacred
 
 Belt, Battle Dancer's	KEY:Belt (Battle Dancer's)	TYPE:Magic.Wondrous.Belt	COST:13000	WT:1	SOURCEPAGE:p.248		ABILITY:Special Ability|AUTOMATIC|Battle Dancer ~ AC Bonus	ABILITY:Internal|AUTOMATIC|Monk ~ Unarmed Damage	BONUS:VAR|MonkACLVL|5	BONUS:VAR|StunningFistAttackTimes|1|PREABILITY:1,CATEGORY=FEAT,Stunning Fist	BONUS:VAR|MonkUnarmedDamageLVL|5	SPROP:When wrapped around a character's waist, this belt confers great ability in unarmed combat. The wearer's AC and unarmed damage is treated as a monk of five levels higher. If donned by a character with the Stunning Fist feat, the belt lets her make one additional stunning attack per day. If the character is not a monk, she gains the AC and unarmed damage of a 5th-level monk. This AC bonus functions just like the monk's AC bonus. Moderate transmutation; CL 10th
 
 
 
+Continuous Collar of Umbral Metamorphosis			TYPE:Amulet.Necklace.Collar.Periapt.BodySlot_Neck.Wondrous.WondrousItem			COST:22000	WT:1			DESC:Grants the Dark Creature template to the wearer.		TEMPLATE:Dark Creature		TEMPLATE:DarkCollar

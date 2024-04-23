@@ -176,7 +176,7 @@ Half-Ogre(Large or Larger)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Human
 
 Amphibious	RACESUBTYPE:Aquatic		MOVECLONE:Walk,Swim,/2	ABILITY:Special Ability|AUTOMATIC|Amphibious		BONUS:SKILL|Swim|8|TYPE=Racial	BONUS:STAT|DEX|-2		TYPE:LA0Playable		SOURCEPAGE:Stormwrack 135
 
-Wild	SAB:Lose Spelllike Abilities		FAVOREDCLASS:Ranger		SOURCEPAGE:Dragon 306, 65		BONUS:STAT|STR|2		BONUS:STAT|INT|-2	BONUS:STAT|CHA|-2	BONUS:MOVEADD|TYPE.Walk|5	TYPE:LA0Playable	
+Wild (Wilderness Dweller)	SAB:Lose Spelllike Abilities		FAVOREDCLASS:Ranger		SOURCEPAGE:Dragon 306, 65		BONUS:STAT|STR|2		BONUS:STAT|INT|-2	BONUS:STAT|CHA|-2	BONUS:MOVEADD|TYPE.Walk|5	TYPE:LA0Playable	
 
 
 Dragonborn.MOD	TYPE:LA0Playable
@@ -196,3 +196,9 @@ Unseelie Fey		SOURCEPAGE:Dragon Compendium		TYPE:LA0Playable		BONUS:STAT|STR|-2	
 
 
 Yuan-Ti (Tainted One).MOD		BONUS:STAT|CON|2	SAB:Poison bite.  Requires a successful melee attack during a grapple.  Fortitude (DC 10+CON modifier) negates.  Initial and secondary damage, 1d4 CON. Can be delivered as a kiss to unresisting foes.  		SAB:Immunity to Poisons			SR:12+(TL/2)		SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Poison,13+CON		SPELLS:INNATE|TIMES=3|TIMEUNIT=DAY|CASTERLEVEL=TL|Polymorph (Viper Form Only)		ABILITY:FEAT|VIRTUAL|Alertness	LANGBONUS:Abyssal,Common,Draconic,Yuan-Ti	LEVELADJUSTMENT:2
+
+Magic Blooded (Spark)					BONUS:STAT|CHA|2	BONUS:STAT|WIS|-2		BONUS:SKILL|Spellcraft,Knowledge (Arcana)|2|TYPE=Racial		SAB:You may roll Spellcraft and Knowledge (Arcana) untrained.	SPELLS:Innate|TIMES=1|CASTERLEVEL=TL|Detect Magic|Magic Aura|Read Magic	FAVOREDCLASS:Sorcerer	TYPE:LA0Playable
+
+Aquatic (Water Dweller)	TYPE:LA0PLayable	MOVECLONE:Walk,Swim,*2		BONUS:MOVEMULT|TYPE.Walk|/2	VISION:Low-Light Vision		SAB:You can breathe water but not air. 			BONUS:SKILL|Spot|2|TYPE=Racial		BONUS:SKILL|Listen|-2|TYPE=Racial		BONUS:SKILL|Swim|8|TYPE=Racial		SAB:-1 circumstance penalty on attacks, saves and checks when not at least partially submerged in water. 		AUTO:LANG|Aquan	
+Arctic (Ice Dweller)	TYPE:LA0PLayable	BONUS:STAT|CON|2		BONUS:STAT|CHA|-2		SAB:+1 to saves vs cold, -1 to saves vs fire		BONUS:SKILL|Survival|2		SPELLS:INNATE|TIMES=1|CASTERLEVEL=1|Ray of Frost
+DarkCollar			VISIBLE:NO		LEVELADJUSTMENT:-1
