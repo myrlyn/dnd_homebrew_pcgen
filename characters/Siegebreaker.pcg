@@ -1,0 +1,245 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Darius Ironpalm
+TABNAME:
+PLAYERNAME:
+HEIGHT:90
+WEIGHT:245
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:Dark
+EYECOLOR:Brown
+HAIRCOLOR:Black
+HAIRSTYLE:Short
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:J&colon;\Users\myrlyn\Downloads\MightyArms.PNG
+PORTRAITTHUMBNAILRECT:29,0,403,403
+
+# Character Attributes
+STAT:STR|SCORE:21
+STAT:DEX|SCORE:18
+STAT:CON|SCORE:18
+STAT:INT|SCORE:16
+STAT:WIS|SCORE:18
+STAT:CHA|SCORE:16
+ALIGN:LG
+RACE:Goliath
+
+# Character Class(es)
+CLASS:Monk|LEVEL:12|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Monk=1|HITPOINTS:10|SKILLSGAINED:16|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=2|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=3|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=4|HITPOINTS:10|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=5|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=6|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=7|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=8|HITPOINTS:10|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=9|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=10|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=11|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=12|HITPOINTS:10|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:66000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Monstrous Humanoid]]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Monk]
+TEMPLATESAPPLIED:[NAME:First Level ~ Monk|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Monstrous Humanoid]
+TEMPLATESAPPLIED:[NAME:Feral Creature]
+TEMPLATESAPPLIED:[NAME:Wild (Wilderness Dweller)]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
+TEMPLATESAPPLIED:[NAME:Dark Creature]
+TEMPLATESAPPLIED:[NAME:DarkCollar]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|CLASSBOUGHT:[CLASS:Monk|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Monk|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Monk|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:9|
+SKILL:Disguise|OUTPUTORDER:10|
+SKILL:Escape Artist|OUTPUTORDER:11|
+SKILL:Forgery|OUTPUTORDER:12|
+SKILL:Gather Information|OUTPUTORDER:13|
+SKILL:Heal|OUTPUTORDER:14|
+SKILL:Hide|OUTPUTORDER:15|
+SKILL:Hide (Forested Areas)|OUTPUTORDER:16|
+SKILL:Intimidate|OUTPUTORDER:17|
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:18|
+SKILL:Jump|OUTPUTORDER:19|
+SKILL:Knowledge (Arcana)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Monk|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Religion)|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Monk|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:22|
+SKILL:Listen|OUTPUTORDER:23|
+SKILL:Literacy|OUTPUTORDER:24|
+SKILL:Move Silently|OUTPUTORDER:25|
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:26|
+SKILL:Ride|OUTPUTORDER:27|
+SKILL:Search|OUTPUTORDER:28|
+SKILL:Sense Motive|OUTPUTORDER:29|
+SKILL:Skill Trick|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Monk|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:31|
+SKILL:Survival|OUTPUTORDER:32|
+SKILL:Swim|OUTPUTORDER:33|
+SKILL:Tumble|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Monk|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Rope|OUTPUTORDER:35|
+
+# Character Languages
+LANGUAGE:Col-Kaa|LANGUAGE:Common
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Aberration Blood|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flexible Limbs|TYPE:SpecialQuality.Aberration Blood|DESC:+2 Grapple
+USERPOOL:Aberration Blood|POOLPOINTS:0.0
+ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
+USERPOOL:ECL Buy Down|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Aberration Blood|TYPE:Aberrant|DESC:You gain a physical feature that grants you a racial bonus on one type of check; once you select the check to which this bonus applies (as well as the corresponding feature) you cannot change it later.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Curling Wave Strike|TYPE:General|DESC:Mimicking the forceful power of the wave, you can trip multiple foes as part of the same strike.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Bull Rush|TYPE:General.Fighter.AttackOption.ViolentKnowledge|DESC:You know how to push opponents back.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Inhuman Reach|TYPE:Aberrant|DESC:Increased reach, penalty to melee
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Knock-Down|TYPE:General|DESC: Whenever you deal 10 or more points of damage to your opponent in melee, you make a trip attack as a free action against the same target.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Knockback|TYPE:General.Fighter|DESC:By putting your bulk behind a blow, you can push your enemy backward.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Large and in Charge|TYPE:General|DESC:Push back foe attempting to close
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:General.Fighter.AttackOption.ViolentKnowledge|DESC:You can make exceptionally powerful melee attacks.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Meager Fortitude|TYPE:Flaws.SpecialQuality|DESC:You are sickly and weak of stomach.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Shaky|TYPE:Flaws.SpecialQuality|DESC:You are relatively poor at ranged combat.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Weak Will|TYPE:Flaws.SpecialQuality|DESC:You are highly suggestible and easily duped.
+USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Rule - Use ECL Level Buy Down|TYPE:MiscOptions
+USERPOOL:Misc Options|POOLPOINTS:0.0
+ABILITY:Monk Feat LVL 1|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Monk Bonus Feat ~ Stunning Fist|TYPE:MonkBonusFeat.MonkBonusFeatLVL1
+USERPOOL:Monk Feat LVL 1|POOLPOINTS:0.0
+ABILITY:Monk Feat LVL 2|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Monk Bonus Feat ~ Combat Reflexes|TYPE:MonkBonusFeat.MonkBonusFeatLVL2
+USERPOOL:Monk Feat LVL 2|POOLPOINTS:0.0
+ABILITY:Monk Feat LVL 6|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Monk Bonus Feat ~ Improved Trip|TYPE:MonkBonusFeat.MonkBonusFeatLVL6
+USERPOOL:Monk Feat LVL 6|POOLPOINTS:0.0
+ABILITY:Monk Fighting Style|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Monk Fighting Style ~ Default|TYPE:MonkFightingStyle|DESC:You are a default monk.
+USERPOOL:Monk Fighting Style|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Region ~ None|TYPE:Region
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Acrobatic Backstab|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:If you succeed on a Tumble check t move tthrough an enemy's space, you can treat that enemy as flat-footed against the next melee attack you make against it on your current turn.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Back on Your Feet|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:If you fall prone for any reason, you can stand up as an immediate action without provoking attacks of opportunity.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Corner Perch|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:If you succeed on a Climb check to ascend or descend either a "chimney," where you can brace against opposite walls, or a corner where you can brace against perpendicular walls (PH 69), you can suspend yourself momentarily. Until the end of your next turn, you can use your hands freely for any other purpose (including attacking) without risk of falling. At the end of your next turn, you fall from the wall unless you succeed on a Climb check against the normal DC +5 (made as a move action) or you have succeeded on another Climb check to move up or down the wall as normal.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Nimble Charge|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:You can run or charge across a diffiuclt surface without needing to make a Balance check (PH 67).
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Twisted Charge|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:When you charge, you can make one turn up to 90 degrees during your movement. You can't move more than your speed as part of this charge. All other restrictions on charges still apply, and you must have line of sight to the opponent at the start of your turn.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Walk the Walls|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:You can move up a wall without making a climb check. Each 5 feet of vertical movement coss you 4 squares of movement, and you must begin and end your turn on a horizontal surface.
+USERPOOL:Skill Tricks|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Battle Gauntlet|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Claws|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)]
+WEAPONPROF:[WEAPON:Dart|WEAPON:Darts (Barbed)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Halfspear|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Kama|WEAPON:Longspear]
+WEAPONPROF:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Nekode|WEAPON:Nunchaku|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Sai|WEAPON:Sai ~ Arms and Equipment|WEAPON:Shortspear]
+WEAPONPROF:[WEAPON:Shuriken|WEAPON:Siangham|WEAPON:Sickle|WEAPON:Slam|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Steel Fins|WEAPON:Strike (Unarmed)]
+WEAPONPROF:[WEAPON:Sword (Butterfly)|WEAPON:Three-Section Staff|WEAPON:Tiger Claws|WEAPON:Tonfa|WEAPON:Unarmed Strike|WEAPON:War Fan]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Bag (Coin)|OUTPUTORDER:0|COST:0.05|WT:0.25|QUANTITY:1.0|NOTE:
+EQUIPNAME:Battlefist (Adamantine)|OUTPUTORDER:3|COST:5300.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mighty Arms Attached ~ Battlefist|DATA:NAME=Battlefist (Adamantine)$KEY=Mighty Arms Attached _ Battlefist (Adamantine)$EQMOD=PLUS1W.Adamantine (Weapon)]
+EQUIPNAME:Belt, Monk's|OUTPUTORDER:7|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Monk's)|DATA:NAME=Belt, Monk's$KEY=Belt (Monk's)]
+EQUIPNAME:Bracers of the Boxer|OUTPUTORDER:5|COST:10000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Claws (Natural/Primary)|OUTPUTORDER:2|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Claws|DATA:KEY=Claws]
+EQUIPNAME:Coin (Copper)|OUTPUTORDER:9|COST:0.01|WT:0.02|QUANTITY:95.0|NOTE:
+EQUIPNAME:Coin (Gold)|OUTPUTORDER:10|COST:1|WT:0.02|QUANTITY:699.0|NOTE:
+EQUIPNAME:Continuous Collar of Umbral Metamorphosis|OUTPUTORDER:1|COST:22000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Flurry of Blows|OUTPUTORDER:11|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Flurry of Blows|DATA:NAME=Flurry of Blows]
+EQUIPNAME:Mighty Arms|OUTPUTORDER:8|COST:1000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ring of the Behemoth|OUTPUTORDER:6|COST:36005.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Signet Ring|DATA:NAME=Ring of the Behemoth$EQMOD=BNS_ENHC_AB&pipe;STR=+6$SPROP=+6 Enhancement Bonus to Strength]
+EQUIPNAME:Slam (Natural/Primary)|OUTPUTORDER:4|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Slam|DATA:KEY=Slam]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.02|VALUE:Mighty Arms|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Waist|ID:0.1.09|VALUE:Belt, Monk's|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.1|VALUE:Claws (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.12|VALUE:Continuous Collar of Umbral Metamorphosis|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.16|VALUE:Battlefist (Adamantine)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.17|VALUE:Slam (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Arms|ID:0.1.18|VALUE:Bracers of the Boxer|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.19|VALUE:Ring of the Behemoth|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.20|VALUE:Bag (Coin)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag (Coin)|ID:0.1.20.01|VALUE:Coin (Copper)|QUANTITY:95.0|USETEMPMODS:Y
+EQUIPSET:Bag (Coin)|ID:0.1.20.02|VALUE:Coin (Gold)|QUANTITY:699.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.5|VALUE:Flurry of Blows|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Bahamut|DEITYDOMAINS:[DOMAIN:Air|DOMAIN:Dragon|DOMAIN:Good|DOMAIN:Luck|DOMAIN:Nobility|DOMAIN:Protection|DOMAIN:Storm]|ALIGNALLOW:|DEITYFAVWEAP:[WEAPON:Pick (Heavy)|WEAPON:Bite]|DEITYALIGN:LG
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:Charge in(You can tumble for this - you're still moving at a rate of almost 50 even at half speed) &lbracket;Take a -1 Penalty for +1 damage via Power Attack&rbracket; -- triggers a free bull-rush attempt via Knockback&nl;Deal more than 10 Damage &lbracket;Practically guaranteed&rbracket; -- triggers a free trip Attempt via Knockdown.&nl;You are likely to win most of the Opposed checks for Trip and Bull rush, due to your massive Size and Strength bonuses. &nl;	You succeed in the trip.  This gets you a free attack.  If the first bull rush failed, use Power Attack on this attack too, to trigger ANOTHER bull rush.&nl;	You suceed on either of the bull rush attempts - the target is leaving a threatened square, that provokes an attack of opportunity.&nl;&nl;Your Unarmed Strikes do 6d8+2d6+13 damage, or an average of 47 damage per hit.   The average 12th level fighter with CON 18 has 114 HP.  Succeeding in all three hits would leave one dead.  
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+
