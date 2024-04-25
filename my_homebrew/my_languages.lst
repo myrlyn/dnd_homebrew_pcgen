@@ -41,12 +41,13 @@ SOURCELONG:My Campaign	SOURCESHORT:My	SOURCEWEB:http://www.mywebsite.com	SOURCED
 
 Yip-yak			TYPE:Spoken.Written.Read.Kobold.Draconic
 
-Nezumi			TYPE:Spoken.Written.Read.Kobold.Draconic
+Nezumi			TYPE:Spoken.Written.Read
 
-Rokugani			TYPE:Spoken.Written.Read.Kobold.Draconic
+Rokugani			TYPE:Spoken.Written.Read
 
-Bakemono			TYPE:Spoken.Written.Read.Kobold.Draconic
+Bakemono			TYPE:Spoken.Written.Read
 
-Shadowlands			TYPE:Spoken.Written.Read.Kobold.Draconic
+Shadowlands			TYPE:Spoken.Written.Read
 
+Worg			TYPE:Spoken.Written.Read
 

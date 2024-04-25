@@ -88,3 +88,10 @@ Continuous Collar of Umbral Metamorphosis			TYPE:Amulet.Necklace.Collar.Periapt.
 Whip-dagger.MOD			TYPE:Reach		WIELD:OneHanded				REACHMULT:3		SPROP:.CLEAR		SPROP:A character who takes the Exotic Weapon Proficiency (whip) feat is also proficient in the whip-dagger. Other than damage values and the fact that Whip-daggers deal real damage rather than subdual (and thus are not prevented from dealing damge by armor and natural armor as whips are) they are treated identically to whips.			
 
 
+Mighty Arms				TYPE:Wondrous.Magical.Graft.WondrousItem.Wondrous Item.ConstructGraft			ABILITY:Special Ability|AUTOMATIC|Mighty Arms Slam Attack		WT:0		COST:1000		SOURCEPAGE:Faiths of Eberron		SPROP:Can be mounted with Warforged components that attach to the hand, such as a Battlefist				QUALIFY:EQUIPMENT|Warforged Attached ~ Battlefist				ABILITY:Special Ability|AUTOMATIC|Mighty Arms Slam Attack				
+Battlefist						KEY:Mighty Arms Attached ~ Battlefist		DAMAGE:1d3									TYPE:Magic.WarforgedComponent.WarforgedAttached.Weapon.Unarmed.Melee.Metal.Weapon.Natural.Melee.Simple.Unarmed.Standard.Monk.Bludgeoning		EQMOD:Masterwork (Weapon).STEEL.PLUS1W	COST:300	PROFICIENCY:WEAPON|Unarmed Strike	WT:6		SPROP:Increase Slam damage (to 1d8 for medium creatures).  Monks wearing a battlefist deal unarmed damage as if one size larger, and may add their slam damage to their unarmed damage.  	ABILITY:Special Ability|AUTOMATIC|Battlefist
+
+
+
+
+Bracers of the Boxer				TYPE:Wondrous.Magic.Bracelet.Bracer.BodySlot_Wrist		COST:10000	WT:0			ABILITY:FEAT|VIRTUAL|Superior Unarmed Strike		SPROP:These ornate bracers grant the Superior Unarmed Strike feat.

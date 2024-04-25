@@ -300,8 +300,8 @@ Use Fractional BAB		COST:0		CATEGORY:Internal		TYPE:MiscOptions.AlternateBAB		TE
 Expansion Granting Items		TEMPBONUS:ANYPC|COMBAT|TOHIT|-1*(%CHOICE)|TYPE=Size	TEMPBONUS:ANYPC|COMBAT|AC|-1*(%CHOICE)|TYPE=Size	TEMPBONUS:ANYPC|SIZEMOD|NUMBER|1*(%CHOICE)|TYPE=Temporary	TEMPBONUS:ANYPC|STAT|STR|2*(%CHOICE)|TYPE=Size	TEMPBONUS:ANYPC|STAT|DEX|min(2*(%CHOICE),DEXSCORE-1)|TYPE=Size		CATEGORY:Internal		TYPE:Hidden		TEMPVALUE:MIN=1|MAX=2|TITLE=Choose size change in steps
 
 CATEGORY=Special Ability|Persona Masks ~ Gladiator.MOD	TEMPBONUS:PC|COMBAT|TOHIT|1		TEMPBONUS:PC|COMBAT|DAMAGE.ALL|1
-CATEGORY=FEAT|Inhuman Reach.MOD			BONUS:COMBAT|REACH|5
-CATEGORY=FEAT|Extended Reach.MOD			BONUS:COMBAT|REACH|5
+#CATEGORY=FEAT|Inhuman Reach.MOD			BONUS:COMBAT|REACH|5
+#CATEGORY=FEAT|Extended Reach.MOD			BONUS:COMBAT|REACH|5
 
 
 Skin Of The Claw(S)		NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,1d4			CATEGORY:Special Ability
@@ -564,4 +564,50 @@ Spells(19+ HD)			KEY:HalfFey19Spell				CATEGORY:Special Ability		TYPE:SpecialAtt
 
 
 
+
+
+
+
+Mighty Arms Slam Attack			CATEGORY:Special Ability	TYPE:Hidden		ABILITY:Special Ability|AUTOMATIC|Mighty Arms Powerful Build|PREABILITY:1,CATEGORY=Special Ability,Powerful Build ~ Half-Giant,Feral Gargun ~ Powerful Build,Goliath ~ Powerful Build
+CATEGORY=Special Ability|Mighty Arms Slam Attack.MOD			ABILITY:Special Ability|AUTOMATIC|Mighty Arms Slam Attack (Diminutive)|PRESIZEEQ:D
+CATEGORY=Special Ability|Mighty Arms Slam Attack.MOD			ABILITY:Special Ability|AUTOMATIC|Mighty Arms Slam Attack (Tiny)|PRESIZEEQ:T
+CATEGORY=Special Ability|Mighty Arms Slam Attack.MOD			ABILITY:Special Ability|AUTOMATIC|Mighty Arms Slam Attack (Small)|PRESIZEEQ:S
+CATEGORY=Special Ability|Mighty Arms Slam Attack.MOD			ABILITY:Special Ability|AUTOMATIC|Mighty Arms Slam Attack (Medium)|PRESIZEEQ:M
+CATEGORY=Special Ability|Mighty Arms Slam Attack.MOD			ABILITY:Special Ability|AUTOMATIC|Mighty Arms Slam Attack (Large)|PRESIZEEQ:L
+CATEGORY=Special Ability|Mighty Arms Slam Attack.MOD			ABILITY:Special Ability|AUTOMATIC|Mighty Arms Slam Attack (Huge)|PRESIZEEQ:H
+CATEGORY=Special Ability|Mighty Arms Slam Attack.MOD			ABILITY:Special Ability|AUTOMATIC|Mighty Arms Slam Attack (Gargantuan)|PRESIZEEQ:G
+CATEGORY=Special Ability|Mighty Arms Slam Attack.MOD			ABILITY:Special Ability|AUTOMATIC|Mighty Arms Slam Attack (Colossal)|PRESIZEEQ:C
+CATEGORY=Special Ability|Mighty Arms Slam Attack.MOD			ABILITY:Special Ability|AUTOMATIC|Mighty Arms Slam Attack (Colossal+)|PRESIZEGT:C
+
+Mighty Arms Slam Attack (Diminutive)			CATEGORY:Special Ability			TYPE:SpecialAttack			NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1d1	
+Mighty Arms Slam Attack (Tiny)			CATEGORY:Special Ability			TYPE:SpecialAttack			NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1d2
+Mighty Arms Slam Attack (Small)			CATEGORY:Special Ability			TYPE:SpecialAttack			NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1d3
+Mighty Arms Slam Attack (Medium)		CATEGORY:Special Ability			TYPE:SpecialAttack			NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1d4
+Mighty Arms Slam Attack (Large)		CATEGORY:Special Ability			TYPE:SpecialAttack			NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1d6
+Mighty Arms Slam Attack (Huge)		CATEGORY:Special Ability			TYPE:SpecialAttack			NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,2d6
+Mighty Arms Slam Attack (Gargantuan)		CATEGORY:Special Ability			TYPE:SpecialAttack			NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,3d6
+Mighty Arms Slam Attack (Colossal)		CATEGORY:Special Ability			TYPE:SpecialAttack			NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,4d6
+Mighty Arms Slam Attack (Colossal+)		CATEGORY:Special Ability			TYPE:SpecialAttack			NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,6d6
+
+Mighty Arms Powerful Build		CATEGORY:Special Ability					TYPE:SpecialAttack		BONUS:WEAPONPROF=Slam|DAMAGESIZE|1		
+Battlefist						CATEGORY:Special Ability					TYPE:SpecialAttack		BONUS:WEAPONPROF=Slam|DAMAGESIZE|2		ABILITY:Special Ability|AUTOMATIC|Battlefist Monk|PRECLASS:1,Monk=1		ABILITY:Special Ability|AUTOMATIC|Battlefist Powerful Build|PREABILITY:1,CATEGORY=Special Ability,Powerful Build ~ Half-Giant,Feral Gargun ~ Powerful Build,Goliath ~ Powerful Build
+Battlefist Monk					CATEGORY:Special Ability					TYPE:SpecialAttack		BONUS:WEAPONPROF=Unarmed Strike|DAMAGESIZE|1	
+Battlefist Powerful Build		CATEGORY:Special Ability					TYPE:SpecialAttack		BONUS:WEAPONPROF=Unarmed Strike|DAMAGESIZE|1
+
+
+Worghest Traits			KEY:Worghest Traits			CATEGORY:Special Ability				TYPE:Hidden				
+CATEGORY=Special Ability|Worghest Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Worghest ~ Change Shape	
+CATEGORY=Special Ability|Worghest Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Worghest ~ Trip
+CATEGORY=Special Ability|Worghest Traits.MOD	ABILITY:FEAT|VIRTUAL|Track	
+CATEGORY=Special Ability|Worghest Traits.MOD	SAB:+4 to survival rolls to track by scent while in wolf form.
+CATEGORY=Special Ability|Worghest Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Worghest ~ Feed
+Change Shape	KEY:Worghest ~ Change Shape			CATEGORY:Special Ability					TYPE:Supernatural.SpecialQuality			DESC:A worghest can assume the shape of a wolf as a standard action. In wolf form, a worghest gains a bite attack. Worghests may also take feats requiring the druid's wild shape ability as a prerequisite.		 ABILITY:Internal|AUTOMATIC|Wild Shape ~ Defines	SERVESAS:ABILITY=Special Ability|Druid ~ Wild Shape		SERVESAS:ABILITY=Special Ability|Wild Shape ~ Animal (Medium)		BONUS:VAR|WildShapeTimes|99		BONUS:VAR|WildShapeDuration|99		DEFINE:WorghestChanged|0			TEMPBONUS:PC|VAR|WorghestChanged|1			ABILITY:Special Ability|AUTOMATIC|Worghest Wolf Shape|PREVARGTEQ:WorghestChanged,1
+Worghest Wolf Shape			CATEGORY:Special Ability			TEMPLATE:No Hands Only Bite		TEMPLATE:Legs For Days		TYPE:Supernatural.SpecialQuality		BONUS:MOVEADD|TYPE.Walk|20|TYPE=Racial.STACK	DESC:You are in wolf form.		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing.Primary,*1,1d6		BONUS:STAT|STR|2|TYPE=Racial.STACK	BONUS:STAT|DEX|4|TYPE=Racial.STACK		BONUS:STAT|CON|4|TYPE=Racial.STACK
+Trip	TYPE:SpecialAttack.Extraordinary			CATEGORY:Special Ability		KEY:Worghest ~ Trip		SERVESAS:ABILITY=FEAT|Improved Trip			DESC:A worghest in wolf form that hits with a bite attack can attempt to trip the opponent as a free action without making a touch attack or provoking an attack of opportunity. If the attempt fails, the opponent cannot react to trip the wolf.
+Feed	TYPE:SpecialAttack.Supernatural			KEY:Worghest ~ Feed		CATEGORY:Special Ability		DESC: When a worghest slays a humanoid opponent, it can feed on the corpse, devouring both flesh and life force, as a full-round action. Feeding destroys the victim's body and prevents any form of raising or resurrection that requires part of the corpse. There is a 50% chance that a wish, miracle, or true resurrection spell can restore a devoured victim to life. Check once for each destroyed creature. If the check fails, the creature cannot be brought back to life by mortal magic. A worghest gains the effects of a death knell when it feeds in this manner, using the creature's HD as the caster level.
+
+
+
+
+CATEGORY=Special Ability|Warshaper ~ Morphic Reach.MOD		BONUS:COMBAT|REACH|5		
 
