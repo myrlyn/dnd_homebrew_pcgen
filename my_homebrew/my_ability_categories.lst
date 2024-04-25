@@ -77,3 +77,9 @@ ABILITYCATEGORY:Minor Bloodline Power		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YE
 ABILITYCATEGORY:Major Bloodline Power		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES						CATEGORY:Special Ability	TYPE:Major Bloodline Power											PLURAL:Major Bloodline Powers		DISPLAYLOCATION:Race Traits
 ABILITYCATEGORY:Greater Bloodline Power		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES						CATEGORY:Special Ability	TYPE:Greater Bloodline Power											PLURAL:Greater Bloodline Powers		DISPLAYLOCATION:Race Traits
 ABILITYCATEGORY:Bloodline Ability Score		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES						CATEGORY:Special Ability	TYPE:Bloodline Ability Score											PLURAL:Bloodline Ability Scores		DISPLAYLOCATION:Race Traits
+
+
+
+
+ABILITYCATEGORY:Morphic Weapon Enhancement		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability	TYPE:Morphic Weapon Enhancement		PLURAL:Morphich Weapon Enhancements		DISPLAYLOCATION:Class Features
+

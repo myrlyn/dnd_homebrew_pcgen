@@ -56,6 +56,8 @@ No Hands Only Bite			VISIBLE:NO		HANDS:1
 Legs For Days				VISIBLE:NO		LEGS:4
 
 
+Insectile	LEVELADJUSTMENT:2		 RACETYPE:Aberration		BONUS:COMBAT|AC|2|NaturalArmor.STACK			BONUS:STAT|DEX|4|TYPE=Racial.STACK		BONUS:STAT|WIS|2|TYPE=Racial.STACK			SAB:Despite your six arms, you do not gain extra attacks from them.		ABILITY:Special Ability|AUTOMATIC|Insectile Tremorsense			HANDS:6		CR:1
+
 #####
 #Vampire is the name of the template. It will appear in the templates list on PCGen's Races tab and will be used if a template
 #is added by use of the TEMPLATE tag. The name is the only entry that is mandatory in a template. The other tags are used
@@ -157,7 +159,7 @@ Gravetouched Ghoul.COPY=Nighttouched
 Nighttouched.MOD	SOURCEPAGE:Deathless reskin of Gravetouched Ghoul		HITDIE:12		RACETYPE:Deathless	TYPE:Deathless			
 
 
-
+Wielding With 6 Extra Hands							BONUS:COMBAT|DAMAGE.Thrown|(STR*6)/2		BONUS:COMBAT|TOHIT.Melee|(STR*6)/2		BONUS:COMBAT|DAMAGE.Melee|(STR*6)/2		
 
 Half-Minotaur		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK			ABILITY:Special Ability|AUTOMATIC|Minotaur Cunning	ABILITY:Special Ability|AUTOMATIC|Scent		BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|INT|-2|TYPE=Racial.STACK		SAB:Minotaurs get a +2 Racial Bonus to Search, Spot, and Listen		BONUS:SKILL|Search,Spot,Listen|2|TYPE=Racial.STACK		ABILITY:FEAT|VIRTUAL|Track		CR:1		LEVELADJUSTMENT:1	VISION:Darkvision (60')			ABILITY:Internal|AUTOMATIC|Half-Minotaur (Medium or Smaller)	PRESIZELT:L	ABILITY:Internal|AUTOMATIC|HMGore (S)|PRESIZEEQ:S	ABILITY:Internal|AUTOMATIC|HMGore (M)|PRESIZEEQ:M	ABILITY:Internal|AUTOMATIC|HMGore (L)|PRESIZEEQ:L	ABILITY:Internal|AUTOMATIC|HMGore (H)|PRESIZEEQ:H
 
