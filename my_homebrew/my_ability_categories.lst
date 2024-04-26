@@ -83,3 +83,10 @@ ABILITYCATEGORY:Bloodline Ability Score		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:
 
 ABILITYCATEGORY:Morphic Weapon Enhancement		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability	TYPE:Morphic Weapon Enhancement		PLURAL:Morphich Weapon Enhancements		DISPLAYLOCATION:Class Features
 
+
+
+
+
+ABILITYCATEGORY:Total Number Of Hands		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO						CATEGORY:Special Ability	TYPE:Total Number Of Hands												PLURAL:Total Number Of Handss		DISPLAYLOCATION:Race Traits
+
+

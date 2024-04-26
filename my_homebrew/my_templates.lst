@@ -159,7 +159,15 @@ Gravetouched Ghoul.COPY=Nighttouched
 Nighttouched.MOD	SOURCEPAGE:Deathless reskin of Gravetouched Ghoul		HITDIE:12		RACETYPE:Deathless	TYPE:Deathless			
 
 
-Wielding With 6 Extra Hands							BONUS:COMBAT|DAMAGE.Thrown|(STR*6)/2		BONUS:COMBAT|TOHIT.Melee|(STR*6)/2		BONUS:COMBAT|DAMAGE.Melee|(STR*6)/2		
+Wielding With 6 Extra Hands					BONUS:WEAPONPROF=TYPE.TwoHanded|REACH|15				BONUS:WIELDCATEGORY|TwoHanded|3		BONUS:COMBAT|DAMAGE.Melee|(STR*6)/2		
+Wielding With 5 Extra Hands					BONUS:WEAPONPROF=TYPE.TwoHanded|REACH|10				BONUS:WIELDCATEGORY|TwoHanded|2		BONUS:COMBAT|DAMAGE.Melee|(STR*5)/2		
+Wielding With 4 Extra Hands					BONUS:WEAPONPROF=TYPE.TwoHanded|REACH|10				BONUS:WIELDCATEGORY|TwoHanded|2		BONUS:COMBAT|DAMAGE.Melee|(STR*4)/2		
+Wielding With 3 Extra Hands					BONUS:WEAPONPROF=TYPE.TwoHanded|REACH|5				BONUS:WIELDCATEGORY|TwoHanded|1		BONUS:COMBAT|DAMAGE.Melee|(STR*3)/2		
+Wielding With 2 Extra Hands					BONUS:WEAPONPROF=TYPE.TwoHanded|REACH|5				BONUS:WIELDCATEGORY|TwoHanded|1		BONUS:COMBAT|DAMAGE.Melee|(STR*2)/2		
+Wielding With 1 Extra Hands								BONUS:COMBAT|DAMAGE.Melee|(STR*1)/2		
+
+
+
 
 Half-Minotaur		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK			ABILITY:Special Ability|AUTOMATIC|Minotaur Cunning	ABILITY:Special Ability|AUTOMATIC|Scent		BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|INT|-2|TYPE=Racial.STACK		SAB:Minotaurs get a +2 Racial Bonus to Search, Spot, and Listen		BONUS:SKILL|Search,Spot,Listen|2|TYPE=Racial.STACK		ABILITY:FEAT|VIRTUAL|Track		CR:1		LEVELADJUSTMENT:1	VISION:Darkvision (60')			ABILITY:Internal|AUTOMATIC|Half-Minotaur (Medium or Smaller)	PRESIZELT:L	ABILITY:Internal|AUTOMATIC|HMGore (S)|PRESIZEEQ:S	ABILITY:Internal|AUTOMATIC|HMGore (M)|PRESIZEEQ:M	ABILITY:Internal|AUTOMATIC|HMGore (L)|PRESIZEEQ:L	ABILITY:Internal|AUTOMATIC|HMGore (H)|PRESIZEEQ:H
 
@@ -313,4 +321,15 @@ Primordial giant		SAB:SPell Like Abilities		BONUS:ABILITYPOOL|Primordial Giant S
 #98-100 Yuan-Ti, Tainted One (Ghostwalk Campaign Setting 173, Monsters of Faerun 94, Savage Species 141) +0 HD, +2 LA - no type change, gains Reptilian subtype
 
 
+
+1 Hand			HANDS:1		VISIBLE:NO
+2 Hand			HANDS:2		VISIBLE:NO
+3 Hand			HANDS:3		VISIBLE:NO
+4 Hand			HANDS:4		VISIBLE:NO
+5 Hand			HANDS:5		VISIBLE:NO
+6 Hand			HANDS:6		VISIBLE:NO
+7 Hand			HANDS:7		VISIBLE:NO
+8 Hand			HANDS:8		VISIBLE:NO
+9 Hand			HANDS:8		VISIBLE:NO
+10 Hand			HANDS:10		VISIBLE:NO
 

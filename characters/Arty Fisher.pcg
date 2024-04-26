@@ -59,19 +59,19 @@ ALIGN:NONE
 RACE:Human
 
 # Character Class(es)
-CLASS:Artificer|LEVEL:12|SKILLPOOL:92
-CLASSABILITIESLEVEL:Artificer=1|HITPOINTS:6|SKILLSGAINED:36|SKILLSREMAINING:24
-CLASSABILITIESLEVEL:Artificer=2|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:6
-CLASSABILITIESLEVEL:Artificer=3|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:6
-CLASSABILITIESLEVEL:Artificer=4|HITPOINTS:6|PRESTAT:CHA=1|SKILLSGAINED:9|SKILLSREMAINING:6
-CLASSABILITIESLEVEL:Artificer=5|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:6
-CLASSABILITIESLEVEL:Artificer=6|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:6
-CLASSABILITIESLEVEL:Artificer=7|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:6
-CLASSABILITIESLEVEL:Artificer=8|HITPOINTS:6|PRESTAT:CHA=1|SKILLSGAINED:9|SKILLSREMAINING:6
-CLASSABILITIESLEVEL:Artificer=9|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:6
-CLASSABILITIESLEVEL:Artificer=10|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:6
-CLASSABILITIESLEVEL:Artificer=11|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:6
-CLASSABILITIESLEVEL:Artificer=12|HITPOINTS:6|PRESTAT:CHA=1|SKILLSGAINED:9|SKILLSREMAINING:8
+CLASS:Artificer|LEVEL:12|SKILLPOOL:77
+CLASSABILITIESLEVEL:Artificer=1|HITPOINTS:6|SKILLSGAINED:36|SKILLSREMAINING:20
+CLASSABILITIESLEVEL:Artificer=2|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:5
+CLASSABILITIESLEVEL:Artificer=3|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:5
+CLASSABILITIESLEVEL:Artificer=4|HITPOINTS:6|PRESTAT:CHA=1|SKILLSGAINED:9|SKILLSREMAINING:5
+CLASSABILITIESLEVEL:Artificer=5|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:5
+CLASSABILITIESLEVEL:Artificer=6|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:5
+CLASSABILITIESLEVEL:Artificer=7|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:5
+CLASSABILITIESLEVEL:Artificer=8|HITPOINTS:6|PRESTAT:CHA=1|SKILLSGAINED:9|SKILLSREMAINING:5
+CLASSABILITIESLEVEL:Artificer=9|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:5
+CLASSABILITIESLEVEL:Artificer=10|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:5
+CLASSABILITIESLEVEL:Artificer=11|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:5
+CLASSABILITIESLEVEL:Artificer=12|HITPOINTS:6|PRESTAT:CHA=1|SKILLSGAINED:9|SKILLSREMAINING:7
 
 # Character Experience
 EXPERIENCE:91000
@@ -99,7 +99,7 @@ SKILL:Appraise|OUTPUTORDER:1|
 SKILL:Balance|OUTPUTORDER:2|
 SKILL:Bluff|OUTPUTORDER:3|
 SKILL:Climb|OUTPUTORDER:4|
-SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Artificer|RANKS:15.0|COST:1|CLASSSKILL:Y]
 SKILL:Control Shape|OUTPUTORDER:6|
 SKILL:Craft (Untrained)|OUTPUTORDER:7|
 SKILL:Diplomacy|OUTPUTORDER:8|
@@ -141,7 +141,12 @@ ABILITY:Artificer Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Rings|TYPE:ItemCreati
 ABILITY:Artificer Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extraordinary Artisan|TYPE:ItemCreation.Item Creation|DESC:You are an expert at creating magic items at a lower cost than usual.
 ABILITY:Artificer Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Legendary Artisan|TYPE:ItemCreation.Item Creation|DESC:You have mastered the method of creating magic items.
 USERPOOL:Artificer Feat|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extend Spell|TYPE:Metamagic.Wizard|DESC:You can cast spells that last longer than normal.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Persistent Spell|TYPE:Metamagic.Wizard|DESC:You can make a spell last all day.|DESC:A persistent spell has a duration of 24 hours. The persistent spell must have a personal range or fixed range (for example, comprehend languages or detect magic). Spells of instantaneous duration cannot be affected by this feat, nor can spells whose effects are discharged. You need not concentrate on spells such as detect magic or detect thoughts to be aware of the mere presence or absence of the thing detected, but you must still concentrate to gain additional information as normal. Concentration on such a spell is a standard action that does not provoke an attack of opportunity. A persistent spell uses up a spell slot six levels higher than the spell's actual level.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Reach Spell|TYPE:Metamagic|DESC:You can cast touch spells without touching the spell recipient.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Skill Focus|APPLIEDTO:Use Magic Device|TYPE:General.ShadowThief.WizardDiviner|DESC:Choose a skill, such as Move Silently. You have a special knack with that skill.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Split Ray|TYPE:Metamagic|DESC:Your ray spells can affect an additional target.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Transdimensional Spell|TYPE:Metamagic|DESC:You can cast spells that affect targets lurking in coexistent planes and extradimensional spaces whose entrances fall within the spells area.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:,|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
 USERPOOL:First Level Feat|POOLPOINTS:0.0
@@ -164,11 +169,15 @@ WEAPONPROF:[WEAPON:Darts (Barbed)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPO
 WEAPONPROF:[WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Strike (Unarmed)|WEAPON:Unarmed Strike]
 
 # Character Equipment
-MONEY:93245.00
+MONEY:85844.97000000000116415321826934814453125
+EQUIPNAME:Anklet of Translocation|OUTPUTORDER:0|COST:1400|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Artificer's Monocle|OUTPUTORDER:1|COST:1500|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Belt, Battle Dancer's|OUTPUTORDER:4|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Battle Dancer's)|DATA:KEY=Belt (Battle Dancer's)]
 EQUIPNAME:Cloak of Charisma +6|OUTPUTORDER:3|COST:36000|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Jug Of Shapesand|OUTPUTORDER:0|COST:0.03|WT:12.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Jug (Clay)|DATA:NAME=Jug Of Shapesand$EQMOD=_WEIGHTADD&pipe;3$SPROP=Make a wisdom check to reshape this sand into any mundane object.]
+EQUIPNAME:Ring of Diamond Mind (Novice)|OUTPUTORDER:0|COST:3000|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Signet Ring ( Skill Bonus (Competence) (Use Magic Device +10))|OUTPUTORDER:2|COST:10005.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Signet Ring|DATA:NAME=Signet Ring ( Skill Bonus (Competence) (Use Magic Device +10))$EQMOD=BNS_SKL_CMP&pipe;Use Magic Device=+10$SPROP=Each signet ring has a distinctive design carved into it. When you press this ring into warm sealing wax, you leave an identifying mark., (Signet Ring ( Skill Bonus (Competence) (Use Magic Device +10)))]
+EQUIPNAME:Third Eye Clarity|OUTPUTORDER:0|COST:3000|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Fingers|ID:0.1.01|VALUE:Signet Ring ( Skill Bonus (Competence) (Use Magic Device +10))|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Shoulders|ID:0.1.02|VALUE:Cloak of Charisma +6|QUANTITY:1.0|USETEMPMODS:Y

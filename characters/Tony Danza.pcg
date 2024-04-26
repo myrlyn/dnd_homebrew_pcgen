@@ -240,7 +240,7 @@ SPELLNAME:Minor Disguise|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURC
 SPELLNAME:Prestidigitation|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
 SPELLNAME:Inertial Armor|TIMES:1|CLASS:PsiSpell|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:PsiSpell]
 SPELLLIST:Bard|CLASS.Bard
-SPELLLIST:Paladin of Freedom|CLASS.Paladin of Freedom|CLASS.Paladin
+SPELLLIST:Paladin of Freedom|CLASS.Paladin|CLASS.Paladin of Freedom
 SPELLLIST:PsiSpell|CLASS.Psion|CLASS.PsiSpell
 
 # Character Description/Bio/History

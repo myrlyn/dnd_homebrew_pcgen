@@ -2767,3 +2767,24 @@ Wielding with 4 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBON
 Wielding with 5 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.Melee|(STR*5)/2		TEMPBONUS:PC|COMBAT|DAMAGE.Thrown|(STR*5)/2		TEMPBONUS:PC|COMBAT|TOHIT.Melee|(STR*5)/2
 Wielding with 6 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.Melee|(STR*6)/2		TEMPBONUS:PC|COMBAT|DAMAGE.Thrown|(STR*6)/2		TEMPBONUS:PC|COMBAT|TOHIT.Melee|(STR*6)/2
 Wielding with 7 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.Melee|(STR*7)/2		TEMPBONUS:PC|COMBAT|DAMAGE.Thrown|(STR*7)/2		TEMPBONUS:PC|COMBAT|TOHIT.Melee|(STR*7)/2
+
+
+Deepspawn (Grafted)		CATEGORY:FEAT		TYPE:Aberrant		PREABILITY:1,CATEGORY=Feat,Aberration Blood		PREABILITY:2,CATEGORY=Feat,TYPE.Aberrant	DESC:you have replaced the two tentacles granted by your ancestry with one or more grafts.
+
+
+
+
+Specify Number Of hands	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Your number of hands as changed (e.g., via graft)		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:ABILITYPOOL|Total Number Of Hands|1		COST:0
+
+
+
+1 Hand	CATEGORY:Special Ability		TYPE:Total Number Of Hands	TEMPLATE:1 Hand
+2 Hands	CATEGORY:Special Ability		TYPE:Total Number Of Hands	TEMPLATE:2 Hand
+3 Hands	CATEGORY:Special Ability		TYPE:Total Number Of Hands	TEMPLATE:3 Hand
+4 Hands	CATEGORY:Special Ability		TYPE:Total Number Of Hands	TEMPLATE:4 Hand
+5 Hands	CATEGORY:Special Ability		TYPE:Total Number Of Hands	TEMPLATE:5 Hand
+6 Hands	CATEGORY:Special Ability		TYPE:Total Number Of Hands	TEMPLATE:6 Hand
+7 Hands	CATEGORY:Special Ability		TYPE:Total Number Of Hands	TEMPLATE:7 Hand
+8 Hands	CATEGORY:Special Ability		TYPE:Total Number Of Hands	TEMPLATE:8 Hand
+9 Hands	CATEGORY:Special Ability		TYPE:Total Number Of Hands	TEMPLATE:9 Hand
+10 Hands	CATEGORY:Special Ability		TYPE:Total Number Of Hands	TEMPLATE:10 Hand

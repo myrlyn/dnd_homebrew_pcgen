@@ -54,36 +54,161 @@ STAT:DEX|SCORE:16
 STAT:CON|SCORE:16
 STAT:INT|SCORE:18
 STAT:WIS|SCORE:18
-STAT:CHA|SCORE:18
-ALIGN:NONE
-RACE:None Selected
+STAT:CHA|SCORE:22
+ALIGN:CG
+RACE:Human
 
 # Character Class(es)
+CLASS:Cleric (Cloistered Cleric)|LEVEL:2|SKILLPOOL:0
+CLASS:Sovereign Speaker|LEVEL:9|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Contemplative|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Cleric (Cloistered Cleric)=1|HITPOINTS:6|SKILLSGAINED:44|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sovereign Speaker=1|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sovereign Speaker=2|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sovereign Speaker=3|HITPOINTS:8|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC (CLOISTERED CLERIC)&pipe;1]|ADD:[SPELLCASTER:Divine|CHOICE:Cleric (Cloistered Cleric)]|PRESTAT:CHA=1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sovereign Speaker=4|HITPOINTS:8|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC (CLOISTERED CLERIC)&pipe;1]|ADD:[SPELLCASTER:Divine|CHOICE:Cleric (Cloistered Cleric)]|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sovereign Speaker=5|HITPOINTS:8|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC (CLOISTERED CLERIC)&pipe;1]|ADD:[SPELLCASTER:Divine|CHOICE:Cleric (Cloistered Cleric)]|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sovereign Speaker=6|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sovereign Speaker=7|HITPOINTS:8|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC (CLOISTERED CLERIC)&pipe;1]|ADD:[SPELLCASTER:Divine|CHOICE:Cleric (Cloistered Cleric)]|PRESTAT:CHA=1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sovereign Speaker=8|HITPOINTS:8|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC (CLOISTERED CLERIC)&pipe;1]|ADD:[SPELLCASTER:Divine|CHOICE:Cleric (Cloistered Cleric)]|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sovereign Speaker=9|HITPOINTS:8|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC (CLOISTERED CLERIC)&pipe;1]|ADD:[SPELLCASTER:Divine|CHOICE:Cleric (Cloistered Cleric)]|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Contemplative=1|HITPOINTS:6|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC (CLOISTERED CLERIC)&pipe;1]|ADD:[SPELLCASTER:Divine|CHOICE:Cleric (Cloistered Cleric)]|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric (Cloistered Cleric)=2|HITPOINTS:6|PRESTAT:CHA=1|PRESTAT:CHA=1|SKILLSGAINED:11|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:0
+EXPERIENCE:66000
 EXPERIENCETABLE:Default
 
 # Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Humanoid]]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
+TEMPLATESAPPLIED:[NAME:Phrenic|CHOSENTEMPLATE:[NAME:Psionic]]
+TEMPLATESAPPLIED:[NAME:Psionic]
+TEMPLATESAPPLIED:[NAME:Use Fractional BAB]
+TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
+TEMPLATESAPPLIED:[NAME:Unseelie Fey]
+TEMPLATESAPPLIED:[NAME:RaceSubtype ~ Augmented Humanoid]
+TEMPLATESAPPLIED:[NAME:RighteousMightDR]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Cleric]
+TEMPLATESAPPLIED:[NAME:First Level ~ Cleric|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+TEMPLATESAPPLIED:[NAME:Human Base]
+TEMPLATESAPPLIED:[NAME:Favored Class ~ HIGHESTLEVELCLASS]
+TEMPLATESAPPLIED:[NAME:Human Region ~ Custom Campaign]
 
 # Character Region
-REGION:None
+REGION:Custom Campaign
 
 # Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Sovereign Speaker|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Contemplative|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Alchemy)|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Sovereign Speaker|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Contemplative|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:8|
+SKILL:Diplomacy|OUTPUTORDER:9|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:10|
+SKILL:Disguise|OUTPUTORDER:11|
+SKILL:Escape Artist|OUTPUTORDER:12|
+SKILL:Forgery|OUTPUTORDER:13|
+SKILL:Gather Information|OUTPUTORDER:14|
+SKILL:Heal|OUTPUTORDER:15|CLASSBOUGHT:[CLASS:Sovereign Speaker|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Contemplative|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Hide|OUTPUTORDER:16|
+SKILL:Hide (Forested Areas)|OUTPUTORDER:17|
+SKILL:Intimidate|OUTPUTORDER:18|
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:19|
+SKILL:Jump|OUTPUTORDER:20|
+SKILL:Knowledge (Religion)|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Sovereign Speaker|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Contemplative|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:22|
+SKILL:Listen|OUTPUTORDER:23|
+SKILL:Literacy|OUTPUTORDER:24|
+SKILL:Move Silently|OUTPUTORDER:25|
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:26|
+SKILL:Profession (Herbalist)|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Sovereign Speaker|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Contemplative|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Miner)|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Porter)|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Rancher)|CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Scribe)|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Sovereign Speaker|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Contemplative|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Ride|OUTPUTORDER:31|
+SKILL:Search|OUTPUTORDER:32|
+SKILL:Sense Motive|OUTPUTORDER:33|
+SKILL:Skill Trick|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Sovereign Speaker|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Contemplative|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:36|
+SKILL:Survival|OUTPUTORDER:37|
+SKILL:Swim|OUTPUTORDER:38|
+SKILL:Use Rope|OUTPUTORDER:39|
 
 # Character Languages
-
+LANGUAGE:Common
 
 # Character Feats
 FEATPOOL:0.0
 
 # Character Abilities
+ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
+USERPOOL:ECL Buy Down|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Divine Metamagic|APPLIEDTO:Persistent Spell,Quicken Spell,Repeat Spell|TYPE:Divine|DESC:You can channel energy into some of your divine spells to make them more powerful.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extend Spell|TYPE:Metamagic.Wizard|DESC:You can cast spells that last longer than normal.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Persistent Spell|TYPE:Metamagic.Wizard|DESC:You can make a spell last all day.|DESC:A persistent spell has a duration of 24 hours. The persistent spell must have a personal range or fixed range (for example, comprehend languages or detect magic). Spells of instantaneous duration cannot be affected by this feat, nor can spells whose effects are discharged. You need not concentrate on spells such as detect magic or detect thoughts to be aware of the mere presence or absence of the thing detected, but you must still concentrate to gain additional information as normal. Concentration on such a spell is a standard action that does not provoke an attack of opportunity. A persistent spell uses up a spell slot six levels higher than the spell's actual level.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Quicken Spell|TYPE:Metamagic.Wizard|DESC:You can cast a spell with a moment's thought.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Repeat Spell|TYPE:Metamagic|DESC:You can cast a spell that repeats on the following round.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Trickery Devotion|APPLIEDTO:|TYPE:Domain|DESC:You project a simulacrum of yourself that can perform limited tasks.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Worldly Focus|TYPE:General|DESC:You can cast cleric spells without a divine Focus
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:,|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Meager Fortitude|TYPE:Flaws.SpecialQuality|DESC:You are sickly and weak of stomach.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Noncombatant|TYPE:Flaws.SpecialQuality|DESC:You are relatively inept at melee combat.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Shaky|TYPE:Flaws.SpecialQuality|DESC:You are relatively poor at ranged combat.
+USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Internal|KEY:Human Ethnicity ~ None|TYPE:Human Ethnicity.Faerun Ethnicity|DESC:You have no Ethnicity.
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Use Fractional BAB|TYPE:MiscOptions.AlternateBAB
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Rule - Use ECL Level Buy Down|TYPE:MiscOptions
+USERPOOL:Misc Options|POOLPOINTS:0.0
+ABILITY:Race Base|TYPE:NORMAL|CATEGORY:Internal|KEY:Human / PH|TYPE:Race Base|DESC:Default Player's Handbook version of the race
+USERPOOL:Race Base|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Human Region ~ Custom Campaign|TYPE:Region.FaerunRegion|DESC:Use for default racial features when loading sources that use Regions
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Collector of Stories|TYPE:ST.SpecialQuality.SkillTrick.Mental|DESC:When you attempt a trained Knowledge check to identify a creature to learn its special powers or vulnerabilities, you gain a +5 competence bonus on the check.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Healing Hands|TYPE:ST.SpecialQuality.SkillTrick.Manipulation|DESC:If you succeed on a Heal check made to stabilize a dying character, that character also heals 1d6 points of damage.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Swift Concentration|TYPE:ST.SpecialQuality.SkillTrick.Mental|DESC:You can maintain concentration on a spell or similar effect as a swift action.
+USERPOOL:Skill Tricks|POOLPOINTS:0.0
+ABILITY:Turn Undead|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Turn Undead|TYPE:Class Feature.Cleric Class Feature.Paladin Class Feature.SpecialAttack.Turning.TurnUndead.Turn Undead|DESC:%1/day (turn level %2) (turn damage %3d%4+%5)&pipe;TurnTimesUndead&pipe;TurnLevelUndead&pipe;TurnDiceUndead&pipe;TurnDieSizeUndead&pipe;TurnDamagePlusUndead
+USERPOOL:Turn Undead|POOLPOINTS:0.0
+ABILITY:Unseelie Fey Seasonal Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Summer's Caress|TYPE:Supernatural.Unseelie Fey Seasonal Power.SpecialQuality|DESC: At will, spend a standard action and touch a creature.  You remove all dazed, nauseated, fatigued, and exhausted conditions from the target.  For indead, this touch attack functions as Turn Undead used by a cleric two levels higher than your total level, affecting only the touched undead.
+USERPOOL:Unseelie Fey Seasonal Power|POOLPOINTS:0.0
+ABILITY:Unseelie Fey Vision|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Darkvision Vision|TYPE:Extraordinary.Unseelie Fey Vision.SpecialQuality|DESC:You gain Darkvision 60'.
+USERPOOL:Unseelie Fey Vision|POOLPOINTS:0.0
+ABILITY:Unseelie Fey Wings|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Birdlike|TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality|DESC:Your wings resemble a bird's
+USERPOOL:Unseelie Fey Wings|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Battle Gauntlet|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)]
+WEAPONPROF:[WEAPON:Dart|WEAPON:Darts (Barbed)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Halberd|WEAPON:Halfspear|WEAPON:Javelin|WEAPON:Longspear|WEAPON:Longsword]
+WEAPONPROF:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)]
+WEAPONPROF:[WEAPON:Spells (Touch)|WEAPON:Strike (Unarmed)|WEAPON:Unarmed Strike|WEAPON:Warhammer]
 
 # Character Equipment
-MONEY:0
+MONEY:0.00
+EQUIPNAME:Bead of Force|OUTPUTORDER:7|COST:3000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Belt, Battle Dancer's|OUTPUTORDER:2|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Battle Dancer's)|DATA:KEY=Belt (Battle Dancer's)]
+EQUIPNAME:Cloak of Charisma +6|OUTPUTORDER:4|COST:36000|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Explorer's Outfit|OUTPUTORDER:3|COST:0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Explorer_s Outfit|DATA:KEY=Explorer_s Outfit$COSTMOD=-10]
+EQUIPNAME:Nightstick|OUTPUTORDER:5|COST:7500|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Reliquary Holy Symbol (Insert Deity Name)|OUTPUTORDER:1|COST:1000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Tome of Leadership and Influence +1|OUTPUTORDER:6|COST:27500|WT:5.0|QUANTITY:1.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Clothing|ID:0.1.01|VALUE:Explorer's Outfit|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.02|VALUE:Nightstick|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.03|VALUE:Reliquary Holy Symbol (Insert Deity Name)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.04|VALUE:Cloak of Charisma +6|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Waist|ID:0.1.05|VALUE:Belt, Battle Dancer's|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.06|VALUE:Tome of Leadership and Influence +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.07|VALUE:Bead of Force|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
@@ -91,8 +216,27 @@ CALCEQUIPSET:0.1
 # EquipSet Temp Bonuses
 
 # Character Deity/Domain
+DEITY:None|DEITYDOMAINS:[DOMAIN:Abyss|DOMAIN:Abyss (1 of 2)|DOMAIN:Air|DOMAIN:Alteration|DOMAIN:Animal|DOMAIN:Arborea|DOMAIN:Arborea (1 of 2)|DOMAIN:Artifice|DOMAIN:Baator|DOMAIN:Baator (1 of 2)|DOMAIN:Balance|DOMAIN:Bestial|DOMAIN:Blightbringer|DOMAIN:Cavern|DOMAIN:Celerity|DOMAIN:Celestia|DOMAIN:Celestia (1 of 2)|DOMAIN:Celestial|DOMAIN:Chaos|DOMAIN:Charm|DOMAIN:City|DOMAIN:Cold|DOMAIN:Commerce|DOMAIN:Community|DOMAIN:Community (Dragonlance)|DOMAIN:Competition|DOMAIN:Corruption|DOMAIN:Courage|DOMAIN:Craft|DOMAIN:Creation|DOMAIN:Darkness|DOMAIN:Death|DOMAIN:Deathbound|DOMAIN:Deathless|DOMAIN:Decay|DOMAIN:Demonic|DOMAIN:Destiny|DOMAIN:Destruction|DOMAIN:Diabolic|DOMAIN:Domination|DOMAIN:Dragon|DOMAIN:Dragon Below|DOMAIN:Dream|DOMAIN:Drow|DOMAIN:Dwarf|DOMAIN:Earth|DOMAIN:Elf|DOMAIN:Elysium|DOMAIN:Elysium (1 of 2)|DOMAIN:Endurance|DOMAIN:Envy|DOMAIN:Evil|DOMAIN:Exorcism|DOMAIN:Family|DOMAIN:Fate|DOMAIN:Feast|DOMAIN:Fey|DOMAIN:Fire|DOMAIN:Force|DOMAIN:Forge|DOMAIN:Ghost|DOMAIN:Glory|DOMAIN:Gluttony|DOMAIN:Gnome|DOMAIN:Good|DOMAIN:Greed|DOMAIN:Hades|DOMAIN:Hades (1 of 2)|DOMAIN:Halfling|DOMAIN:Hatred|DOMAIN:Healing|DOMAIN:Herald|DOMAIN:Hunger|DOMAIN:Illusion|DOMAIN:Incarnum|DOMAIN:Inquisition|DOMAIN:Insight|DOMAIN:Joy|DOMAIN:Knowledge|DOMAIN:Law|DOMAIN:Liberation|DOMAIN:Liberation (Dragonlance)|DOMAIN:Life|DOMAIN:Limbo|DOMAIN:Limbo (1 of 2)|DOMAIN:Luck|DOMAIN:Lust|DOMAIN:Madness|DOMAIN:Magic|DOMAIN:Mechanus|DOMAIN:Mechanus (1 of 2)|DOMAIN:Meditation|DOMAIN:Mentalism|DOMAIN:Mentalism (Dragonlance)|DOMAIN:Metal|DOMAIN:Mind|DOMAIN:Moon|DOMAIN:Mysticism|DOMAIN:Necromancer|DOMAIN:Necromancy|DOMAIN:Nobility|DOMAIN:Ocean|DOMAIN:Oracle|DOMAIN:Orc|DOMAIN:Order of the All-Seeing Eye|DOMAIN:Order of the Consuming Flame|DOMAIN:Order of the Forbidding Wasteland|DOMAIN:Order of the Gentle Rain|DOMAIN:Order of the Impenetrable Crucible|DOMAIN:Order of the Ineffable Mystery|DOMAIN:Order of the Perfect Sculpture|DOMAIN:Order of the Spring Zephyr|DOMAIN:Pact|DOMAIN:Pain|DOMAIN:Passion|DOMAIN:Passion (Dragonlance)|DOMAIN:Pestilence|DOMAIN:Pestilence (Dragonlance)|DOMAIN:Planning|DOMAIN:Plant|DOMAIN:Pleasure|DOMAIN:Portal|DOMAIN:Pride|DOMAIN:Protection|DOMAIN:Purification|DOMAIN:Renewal|DOMAIN:Repose|DOMAIN:Restoration|DOMAIN:Retribution|DOMAIN:Rune|DOMAIN:Sand|DOMAIN:Scalykind|DOMAIN:Shadow|DOMAIN:Slime|DOMAIN:Sloth|DOMAIN:Spell|DOMAIN:Spider|DOMAIN:Spite|DOMAIN:Storm|DOMAIN:Storm (Dragonlance)|DOMAIN:Strength|DOMAIN:Suffering|DOMAIN:Summer|DOMAIN:Summoner|DOMAIN:Sun|DOMAIN:Thirst|DOMAIN:Time|DOMAIN:Trade|DOMAIN:Travel|DOMAIN:Treachery|DOMAIN:Trickery|DOMAIN:Truth|DOMAIN:Tyranny|DOMAIN:Undeath|DOMAIN:Vile Darkness|DOMAIN:War|DOMAIN:Water|DOMAIN:Watery Death|DOMAIN:Wealth|DOMAIN:Weather|DOMAIN:Windstorm|DOMAIN:Winter|DOMAIN:Wrath]|ALIGNALLOW:|DESC:For No Deity Choices|DEITYFAVWEAP:[WEAPON:ALL]|DEITYALIGN:
+DOMAIN:Spider|DOMAINGRANTS:Rebuke/Command spiders|SOURCE:[TYPE:PCClass|NAME:Cleric (Cloistered Cleric)|LEVEL:1]
+DOMAIN:Slime|DOMAINGRANTS:Rebuke/Command oozes|SOURCE:[TYPE:PCClass|NAME:Cleric (Cloistered Cleric)|LEVEL:1]
+DOMAIN:Necromancy|DOMAINGRANTS:Granted Power (Su): Rebuke, command, or bolster undead as an evil Cleric. Use this ability a number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.|SOURCE:[TYPE:PCClass|NAME:Cleric (Cloistered Cleric)|LEVEL:1]
+DOMAIN:Moon|DOMAINGRANTS:You can turn or destroy lycanthropes as a good cleric turns or destroys undead. This ability is usable a number of times per day equal to 3 + your Charisma modifier.|SOURCE:[TYPE:PCClass|NAME:Cleric (Cloistered Cleric)|LEVEL:1]
+DOMAIN:Water|DOMAINGRANTS:Turn or destroy fire creatures as a good cleric turns undead. Rebuke, command, or bolster water creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.|SOURCE:[TYPE:PCClass|NAME:Cleric (Cloistered Cleric)|LEVEL:1]
+DOMAIN:Cold|DOMAINGRANTS:Turn or destroy fire creatures as a good cleric turns undead. Rebuke, command, or bolster cold creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.|SOURCE:[TYPE:PCClass|NAME:Cleric (Cloistered Cleric)|LEVEL:1]
+DOMAIN:Air|DOMAINGRANTS:Turn or destroy earth creatures as a good cleric turns undead. Rebuke, command, or bolster air creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability|SOURCE:[TYPE:PCClass|NAME:Cleric (Cloistered Cleric)|LEVEL:1]
+DOMAIN:Plant|DOMAINGRANTS:Rebuke or command plant creatures as an evil cleric rebukes or commands undead. Use this ability a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.|SOURCE:[TYPE:PCClass|NAME:Cleric (Cloistered Cleric)|LEVEL:1]
+DOMAIN:Knowledge|DOMAINGRANTS:All knowledge skills are class skills.  You cast divinations at +1 caster level.|SOURCE:[TYPE:PCClass|NAME:Cleric (Cloistered Cleric)|LEVEL:2]
+DOMAIN:Fire|DOMAINGRANTS:Turn or destroy water creatures as a good cleric turns undead. Rebuke, command, or bolster fire creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.|SOURCE:[TYPE:PCClass|NAME:Cleric (Cloistered Cleric)|LEVEL:1]
+DOMAIN:Scalykind|DOMAINGRANTS:Rebuke or command animals (reptilian creatures and snakes only) as an evil cleric rebukes or commands undead.|SOURCE:[TYPE:PCClass|NAME:Cleric (Cloistered Cleric)|LEVEL:1]
+DOMAIN:Earth|DOMAINGRANTS:Turn or destroy air creatures as a good cleric turns undead. Rebuke, command, or bolster earth creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.|SOURCE:[TYPE:PCClass|NAME:Cleric (Cloistered Cleric)|LEVEL:1]
+DOMAIN:Undeath|DOMAINGRANTS:You gain Extra Turning as a bonus feat.|SOURCE:[TYPE:PCClass|NAME:Cleric (Cloistered Cleric)|LEVEL:1]
 
 # Character Spells Information
+SPELLNAME:Animate Dead|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:DOMAIN|NAME:Necromancy]
+SPELLNAME:Animate Dead|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:DOMAIN|NAME:Undeath]
+SPELLNAME:Death Knell|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:DOMAIN|NAME:Necromancy]
+SPELLNAME:Desecrate|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:DOMAIN|NAME:Undeath]
+SPELLLIST:Cleric (Cloistered Cleric)|CLASS.Cleric (Cloistered Cleric)|CLASS.Cleric
 
 # Character Description/Bio/History
 CHARACTERBIO:
