@@ -56,7 +56,7 @@ No Hands Only Bite			VISIBLE:NO		HANDS:1
 Legs For Days				VISIBLE:NO		LEGS:4
 
 
-Insectile	LEVELADJUSTMENT:2		 RACETYPE:Aberration		BONUS:COMBAT|AC|2|NaturalArmor.STACK			BONUS:STAT|DEX|4|TYPE=Racial.STACK		BONUS:STAT|WIS|2|TYPE=Racial.STACK			SAB:Despite your six arms, you do not gain extra attacks from them.		ABILITY:Special Ability|AUTOMATIC|Insectile Tremorsense			HANDS:6		CR:1
+Insectile	LEVELADJUSTMENT:2		 RACETYPE:Aberration		BONUS:COMBAT|AC|2|NaturalArmor.STACK			BONUS:STAT|DEX|4|TYPE=Racial.STACK		BONUS:STAT|WIS|2|TYPE=Racial.STACK			SAB:Despite your six arms, you do not gain extra attacks from them.		ABILITY:Special Ability|AUTOMATIC|Insectile Tremorsense			HANDS:6		CR:1		MOVECLONE:Walk,Climb,*1
 
 #####
 #Vampire is the name of the template. It will appear in the templates list on PCGen's Races tab and will be used if a template
@@ -102,7 +102,7 @@ Insectile	LEVELADJUSTMENT:2		 RACETYPE:Aberration		BONUS:COMBAT|AC|2|NaturalArmo
 #(RACETYPE is used internally by PCGen for matching up with Monster HD, and for references to race, such as the Rangers Favored Enemy.)
 Human Region ~ Custom Campaign	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:TYPE=Spoken	REGION:Custom Campaign
 #Dragon 136
-Obah-Blessed (Two Extra Arms)	HANDS:4	BONUS:STAT|STR,CON|2	BONUS:STAT|DEX,CHA|4		LEVELADJUSTMENT:2	CR:1	SOURCEPAGE:Dragon 136, p 60		ABILITY:Obah-Blessed Feature|AUTOMATIC|Obah-Blessed ~ Multiweapon Fighting		BONUS:COMBAT|Grapple|4	
+Obah-Blessed (Two Extra Arms)	HANDS:4	BONUS:STAT|STR,CON|2|TYPE=Racial.STACK	BONUS:STAT|DEX,CHA|4|TYPE=Racial.STACK		LEVELADJUSTMENT:2	CR:1	SOURCEPAGE:Dragon 136, p 60		ABILITY:Obah-Blessed Feature|AUTOMATIC|Obah-Blessed ~ Multiweapon Fighting		BONUS:COMBAT|Grapple|4	
 Obah-Blessed Two Medium Tentacles			NATURALATTACKS:Obah-blessed Tentacles,Weapon.Natural.Melee.Farspawn.Tentacle.Bludgeoning,*2,1d4
 Obah-Blessed Four Medium Tentacles			NATURALATTACKS:Obah-blessed Tentacles,Weapon.Natural.Melee.Farspawn.Tentacle.Bludgeoning,*2,1d4	
 Obah-Blessed Two Medium Claws			NATURALATTACKS:Obah-blessed Claws,Weapon.Natural.Melee.Farspawn.Claw.Bludgeoning,*2,1d4
@@ -122,12 +122,12 @@ Beast Claws Attacks			ABILITY:Special Ability|AUTOMATIC|Beast Claws(S)|PRESIZELT
 
 
 
-Obah-Blessed (Four Extra Arms)	HANDS:6	BONUS:STAT|STR,CON|4	BONUS:STAT|DEX,CHA|6		LEVELADJUSTMENT:3	CR:2	SOURCEPAGE:Dragon 136, p 60		ABILITY:Obah-Blessed Feature|AUTOMATIC|Obah-Blessed ~ Multiweapon Fighting	BONUS:COMBAT|Grapple|4	
+Obah-Blessed (Four Extra Arms)	HANDS:6	BONUS:STAT|STR,CON|4|TYPE=Racial.STACK	BONUS:STAT|DEX,CHA|6|TYPE=Racial.STACK		LEVELADJUSTMENT:3	CR:2	SOURCEPAGE:Dragon 136, p 60		ABILITY:Obah-Blessed Feature|AUTOMATIC|Obah-Blessed ~ Multiweapon Fighting	BONUS:COMBAT|Grapple|4	
 #Greater Rite Of Draconic Passage		PREABILITY:1,CATEGORY=Feat,Dragonwrought		ABILITY:Special Ability|AUTOMATIC|Greater Draconic Rite of Passage
 
 Winged	SOURCEPAGE:Savage Species 138	LEVELADJUSTMENT:2	BONUS:STAT|DEX|4	BONUS:STAT|WIS|2	RACETYPE:Monstrous Humanoid|PRERACE:1,TYPE=Humanoid		RACETYPE:Magical Beast|PRERACE:1,TYPE=Animal,TYPE=Vermin		MOVECLONE:Walk,Fly,*1	BONUS:MOVEADD|TYPE.Fly|20		ABILITY:Special Ability|AUTOMATIC|Aerial Maneuverability		BONUS:VAR|Maneuverability|2|PREVARLT:DEXSCORE,7		BONUS:VAR|Maneuverability|2|PREMULT:2,[PREVARGTEQ:DEXSCORE,7],[PREVARLT:DEXSCORE,11]		BONUS:VAR|Maneuverability|3|PREMULT:2,[PREVARGTEQ:DEXSCORE,11],[PREVARLT:DEXSCORE,15]		BONUS:VAR|Maneuverability|4|PREMULT:2,[PREVARGTEQ:DEXSCORE,15],[PREVARLT:DEXSCORE,17]		BONUS:VAR|Maneuverability|5|PREVARGTEQ:DEXSCORE,17
 
-Greater Rite Of Draconic Passage	SAB:Testing Bonus Sorcerer Level	LEVELADJUSTMENT:-1	ADDLEVEL:Draconic Passage Sorcerer|1	TEMPBONUS:PC|HP|CURRENTMAX|0 - 4 - CON
+#Greater Rite Of Draconic Passage	SAB:Testing Bonus Sorcerer Level	LEVELADJUSTMENT:-1	ADDLEVEL:Draconic Passage Sorcerer|1	TEMPBONUS:PC|HP|CURRENTMAX|0 - 4 - CON
 
 Assign Subtype ~ Beholder		RACESUBTYPE:Beholder
 
@@ -159,12 +159,12 @@ Gravetouched Ghoul.COPY=Nighttouched
 Nighttouched.MOD	SOURCEPAGE:Deathless reskin of Gravetouched Ghoul		HITDIE:12		RACETYPE:Deathless	TYPE:Deathless			
 
 
-Wielding With 6 Extra Hands					BONUS:WEAPONPROF=TYPE.TwoHanded|REACH|15				BONUS:WIELDCATEGORY|TwoHanded|3		BONUS:COMBAT|DAMAGE.Melee|(STR*6)/2		
-Wielding With 5 Extra Hands					BONUS:WEAPONPROF=TYPE.TwoHanded|REACH|10				BONUS:WIELDCATEGORY|TwoHanded|2		BONUS:COMBAT|DAMAGE.Melee|(STR*5)/2		
-Wielding With 4 Extra Hands					BONUS:WEAPONPROF=TYPE.TwoHanded|REACH|10				BONUS:WIELDCATEGORY|TwoHanded|2		BONUS:COMBAT|DAMAGE.Melee|(STR*4)/2		
-Wielding With 3 Extra Hands					BONUS:WEAPONPROF=TYPE.TwoHanded|REACH|5				BONUS:WIELDCATEGORY|TwoHanded|1		BONUS:COMBAT|DAMAGE.Melee|(STR*3)/2		
-Wielding With 2 Extra Hands					BONUS:WEAPONPROF=TYPE.TwoHanded|REACH|5				BONUS:WIELDCATEGORY|TwoHanded|1		BONUS:COMBAT|DAMAGE.Melee|(STR*2)/2		
-Wielding With 1 Extra Hands								BONUS:COMBAT|DAMAGE.Melee|(STR*1)/2		
+Wielding With 6 Extra Hands					BONUS:WEAPONPROF=TYPE.TwoHanded|REACH|15				BONUS:WIELDCATEGORY|TwoHanded|3		BONUS:WEAPONPROF=TYPE.TwoHanded|STATDAMAGE|(STR*6)/2		
+Wielding With 5 Extra Hands					BONUS:WEAPONPROF=TYPE.TwoHanded|REACH|10				BONUS:WIELDCATEGORY|TwoHanded|2		BONUS:WEAPONPROF=TYPE.TwoHanded|STATDAMAGE|(STR*5)/2		
+Wielding With 4 Extra Hands					BONUS:WEAPONPROF=TYPE.TwoHanded|REACH|10				BONUS:WIELDCATEGORY|TwoHanded|2		BONUS:WEAPONPROF=TYPE.TwoHanded|STATDAMAGE|(STR*4)/2		
+Wielding With 3 Extra Hands					BONUS:WEAPONPROF=TYPE.TwoHanded|REACH|5				BONUS:WIELDCATEGORY|TwoHanded|1			BONUS:WEAPONPROF=TYPE.TwoHanded|STATDAMAGE|(STR*3)/2		
+Wielding With 2 Extra Hands					BONUS:WEAPONPROF=TYPE.TwoHanded|REACH|5				BONUS:WIELDCATEGORY|TwoHanded|1			BONUS:WEAPONPROF=TYPE.TwoHanded|STATDAMAGE|(STR*2)/2		
+Wielding With 1 Extra Hands					BONUS:WEAPONPROF=TYPE.TwoHanded|STATDAMAGE|(STR*1)/2		
 
 
 
@@ -190,7 +190,7 @@ Chameleon Creature.MOD			NATURALATTACKS:Chameleon Tongue,Weapon.Natural.Melee.Fi
 
 Amphibious	RACESUBTYPE:Aquatic		MOVECLONE:Walk,Swim,/2	ABILITY:Special Ability|AUTOMATIC|Amphibious		BONUS:SKILL|Swim|8|TYPE=Racial	BONUS:STAT|DEX|-2		TYPE:LA0Playable		SOURCEPAGE:Stormwrack 135
 
-Wild (Wilderness Dweller)	SAB:Lose Spelllike Abilities		FAVOREDCLASS:Ranger		SOURCEPAGE:Dragon 306, 65		BONUS:STAT|STR|2		BONUS:STAT|INT|-2	BONUS:STAT|CHA|-2	BONUS:MOVEADD|TYPE.Walk|5	TYPE:LA0Playable	
+Wild (Wilderness Dweller)	SAB:Lose Spelllike Abilities		FAVOREDCLASS:Ranger		SOURCEPAGE:Dragon 306, 65		BONUS:STAT|STR|2|TYPE=Racial.STACK		BONUS:STAT|INT|-2|TYPE=Racial.STACK	BONUS:STAT|CHA|-2|TYPE=Racial.STACK	BONUS:MOVEADD|TYPE.Walk|5	TYPE:LA0Playable	BONUS:SKILLPOINTS|NUMBER|1
 
 
 Dragonborn.MOD	TYPE:LA0Playable
@@ -204,14 +204,14 @@ Half VampireA.MOD		LEVELADJUSTMENT:2	OUTPUTNAME:Half-Vampire		BONUS:VAR|FastHeal
 Fanged Mask Attacks			ABILITY:Special Ability|AUTOMATIC|Fanged Mask(S)|PRESIZELTEQ:S		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(M)|PRESIZEEQ:M		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(L)|PRESIZEEQ:L		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(H)|PRESIZEEQ:H		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(G)|PRESIZEEQ:G		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(C)|PRESIZEEQ:C		ABILITY:Special Ability|AUTOMATIC|Fanged Mask(C+)|PRESIZEGT:C	
 
 
-Unseelie Fey		SOURCEPAGE:Dragon Compendium		TYPE:LA0Playable		BONUS:STAT|STR|-2		BONUS:STAT|DEX|2	BONUS:STAT|CON|-2		BONUS:STAT|CHA|2		DR:5/iron|PREPCLEVEL:MIN=4,MAX=7	DR:10/cold iron|PREPCLEVEL:MIN=8,MAX=11		DR:15/cold iron|PREPCLEVEL:MIN=12			BONUS:ABILITYPOOL|Unseelie Fey Wings|1		BONUS:ABILITYPOOL|Unseelie Fey Seasonal Power|1			BONUS:ABILITYPOOL|Unseelie Fey Vision|1		ABILITY:Special Ability|AUTOMATIC|Iron Vulnerability	RACETYPE:Fey
+Unseelie Fey		SOURCEPAGE:Dragon Compendium		TYPE:LA0Playable		BONUS:STAT|STR|-2|TYPE=Racial.STACK		BONUS:STAT|DEX|2|TYPE=Racial.STACK	BONUS:STAT|CON|-2|TYPE=Racial.STACK		BONUS:STAT|CHA|2|TYPE=Racial.STACK			DR:5/iron|PREPCLEVEL:MIN=4,MAX=7	DR:10/cold iron|PREPCLEVEL:MIN=8,MAX=11		DR:15/cold iron|PREPCLEVEL:MIN=12			BONUS:ABILITYPOOL|Unseelie Fey Wings|1		BONUS:ABILITYPOOL|Unseelie Fey Seasonal Power|1			BONUS:ABILITYPOOL|Unseelie Fey Vision|1		ABILITY:Special Ability|AUTOMATIC|Iron Vulnerability	RACETYPE:Fey
 
 #Lycanthrope.MOD			TEMPLATE:CHOOSE:Weredog
 
 
 Yuan-Ti (Tainted One).MOD		BONUS:STAT|CON|2	SAB:Poison bite.  Requires a successful melee attack during a grapple.  Fortitude (DC 10+CON modifier) negates.  Initial and secondary damage, 1d4 CON. Can be delivered as a kiss to unresisting foes.  		SAB:Immunity to Poisons			SR:12+(TL/2)		SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Poison,13+CON		SPELLS:INNATE|TIMES=3|TIMEUNIT=DAY|CASTERLEVEL=TL|Polymorph (Viper Form Only)		ABILITY:FEAT|VIRTUAL|Alertness	LANGBONUS:Abyssal,Common,Draconic,Yuan-Ti	LEVELADJUSTMENT:2
 
-Magic Blooded (Spark)					BONUS:STAT|CHA|2	BONUS:STAT|WIS|-2		BONUS:SKILL|Spellcraft,Knowledge (Arcana)|2|TYPE=Racial		SAB:You may roll Spellcraft and Knowledge (Arcana) untrained.	SPELLS:Innate|TIMES=1|CASTERLEVEL=TL|Detect Magic|Magic Aura|Read Magic	FAVOREDCLASS:Sorcerer	TYPE:LA0Playable
+Magic Blooded (Spark)					BONUS:STAT|CHA|2|TYPE=Racial.STACK	BONUS:STAT|WIS|-2|TYPE=Racial.STACK		BONUS:SKILL|Spellcraft,Knowledge (Arcana)|2|TYPE=Racial.STACK		SAB:You may roll Spellcraft and Knowledge (Arcana) untrained.	SPELLS:Innate|TIMES=1|CASTERLEVEL=TL|Detect Magic|Magic Aura|Read Magic	FAVOREDCLASS:Sorcerer	TYPE:LA0Playable
 
 Aquatic (Water Dweller)	TYPE:LA0PLayable	MOVECLONE:Walk,Swim,*2		BONUS:MOVEMULT|TYPE.Walk|/2	VISION:Low-Light Vision		SAB:You can breathe water but not air. 			BONUS:SKILL|Spot|2|TYPE=Racial		BONUS:SKILL|Listen|-2|TYPE=Racial		BONUS:SKILL|Swim|8|TYPE=Racial		SAB:-1 circumstance penalty on attacks, saves and checks when not at least partially submerged in water. 		AUTO:LANG|Aquan	
 Arctic (Ice Dweller)	TYPE:LA0PLayable	BONUS:STAT|CON|2		BONUS:STAT|CHA|-2		SAB:+1 to saves vs cold, -1 to saves vs fire		BONUS:SKILL|Survival|2		SPELLS:INNATE|TIMES=1|CASTERLEVEL=1|Ray of Frost
@@ -332,4 +332,6 @@ Primordial giant		SAB:SPell Like Abilities		BONUS:ABILITYPOOL|Primordial Giant S
 8 Hand			HANDS:8		VISIBLE:NO
 9 Hand			HANDS:8		VISIBLE:NO
 10 Hand			HANDS:10		VISIBLE:NO
+
+
 

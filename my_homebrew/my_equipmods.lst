@@ -16,6 +16,13 @@ SOURCELONG:My Campaign	SOURCESHORT:My	SOURCEWEB:http://www.mywebsite.com	SOURCED
 #####Example
 
 #Masterwork		KEY:MWORKW	TYPE:Ammunition.Weapon	COST:0	VISIBLE:QUALIFY	ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:RSRD Equipment	PRETYPE:1,Weapon,Ammunition	!PRETYPE:1,Masterwork,Mithral,Adamantine,Darkwood		BONUS:ITEMCOST|TYPE=Ammunition|6	BONUS:ITEMCOST|TYPE=Weapon|300	BONUS:WEAPON|TOHIT|1|TYPE=Enhancement	ASSIGNTOALL:YES
+Eight-Handed	KEY:EIGHTHANDED	BONUS:WEAPON|DAMAGE|STR*3			TYPE:Weapon				COST:0	VISIBLE:NO		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42	
+Eight Handed Modification		KEY:HAND8MOD	BONUS:WEAPON|DAMAGE|STR*3			TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42		BONUS:WEAPON|DAMAGESIZE|3		SPROP:Increaces reach by an additional 15
+Seven Handed Modification		KEY:HAND7MOD	BONUS:WEAPON|DAMAGE|STR*5/2			TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42		BONUS:WEAPON|DAMAGESIZE|2		SPROP:Increaces reach by an additional 10
+Six Handed Modification			KEY:HAND6MOD	BONUS:WEAPON|DAMAGE|STR*2			TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42		BONUS:WEAPON|DAMAGESIZE|2		SPROP:Increaces reach by an additional 10
+Five Handed Modification		KEY:HAND5MOD	BONUS:WEAPON|DAMAGE|STR*3/2			TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42		BONUS:WEAPON|DAMAGESIZE|1		SPROP:Increaces reach by an additional 5
+Four Handed Modification		KEY:HAND4MOD	BONUS:WEAPON|DAMAGE|STR				TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42		BONUS:WEAPON|DAMAGESIZE|1		SPROP:Increaces reach by an additional 5
+Three Handed Modification		KEY:HAND3MOD	BONUS:WEAPON|DAMAGE|STR/2			TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42				
 
 #####
 #The first field in the equipmods.lst files must be the name of the modifier, after that, the tags do not need to be in any

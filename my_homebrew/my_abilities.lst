@@ -2760,13 +2760,23 @@ Tremorsense			KEY:Insectile Tremorsense			TYPE:SpecialQuality.Extraordinary		CAT
 Wide Vision			KEY:Insectile Wide VISION			TYPE:SpecialQuality.Extraordinary		CATEGORY:Special ability		DESC:+4 to spot and cannot be flanked.			BONUS:SKILL|Spot|4|TYPE=Racial.STACK
 
 
-Wielding with 1 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.Melee|(STR*1)/2		TEMPBONUS:PC|COMBAT|DAMAGE.Thrown|(STR*1)/2		TEMPBONUS:PC|COMBAT|TOHIT.Melee|(STR*1)/2
-Wielding with 2 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.Melee|(STR*2)/2		TEMPBONUS:PC|COMBAT|DAMAGE.Thrown|(STR*2)/2		TEMPBONUS:PC|COMBAT|TOHIT.Melee|(STR*2)/2
-Wielding with 3 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.Melee|(STR*3)/2		TEMPBONUS:PC|COMBAT|DAMAGE.Thrown|(STR*3)/2		TEMPBONUS:PC|COMBAT|TOHIT.Melee|(STR*3)/2
-Wielding with 4 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.Melee|(STR*4)/2		TEMPBONUS:PC|COMBAT|DAMAGE.Thrown|(STR*4)/2		TEMPBONUS:PC|COMBAT|TOHIT.Melee|(STR*4)/2
-Wielding with 5 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.Melee|(STR*5)/2		TEMPBONUS:PC|COMBAT|DAMAGE.Thrown|(STR*5)/2		TEMPBONUS:PC|COMBAT|TOHIT.Melee|(STR*5)/2
-Wielding with 6 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.Melee|(STR*6)/2		TEMPBONUS:PC|COMBAT|DAMAGE.Thrown|(STR*6)/2		TEMPBONUS:PC|COMBAT|TOHIT.Melee|(STR*6)/2
-Wielding with 7 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.Melee|(STR*7)/2		TEMPBONUS:PC|COMBAT|DAMAGE.Thrown|(STR*7)/2		TEMPBONUS:PC|COMBAT|TOHIT.Melee|(STR*7)/2
+#Wielding with 1 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.TwoHanded|(STR*1)/2		
+#Wielding with 2 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.TwoHanded|(STR*2)/2		TEMPBONUS:ANYPC|WIELDCATEGORY|TwoHanded|-1		TEMPBONUS:ANYPC|WEAPONPROF=TYPE.TwoHanded|TOHITOVERSIZE|2
+#Wielding with 3 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.TwoHanded|(STR*3)/2		TEMPBONUS:ANYPC|WIELDCATEGORY|TwoHanded|-1		TEMPBONUS:ANYPC|WEAPONPROF=TYPE.TwoHanded|TOHITOVERSIZE|2
+#Wielding with 4 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.TwoHanded|(STR*4)/2		TEMPBONUS:ANYPC|WIELDCATEGORY|TwoHanded|-2		TEMPBONUS:ANYPC|WEAPONPROF=TYPE.TwoHanded|TOHITOVERSIZE|4
+#Wielding with 5 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.TwoHanded|(STR*5)/2		TEMPBONUS:ANYPC|WIELDCATEGORY|TwoHanded|-2		TEMPBONUS:ANYPC|WEAPONPROF=TYPE.TwoHanded|TOHITOVERSIZE|4
+#Wielding with 6 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.TwoHanded|(STR*6)/2		TEMPBONUS:ANYPC|WIELDCATEGORY|TwoHanded|-3		TEMPBONUS:ANYPC|WEAPONPROF=TYPE.TwoHanded|TOHITOVERSIZE|6
+#Wielding with 7 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.TwoHanded|(STR*7)/2		TEMPBONUS:ANYPC|WIELDCATEGORY|TwoHanded|-3		TEMPBONUS:ANYPC|WEAPONPROF=TYPE.TwoHanded|TOHITOVERSIZE|6
+
+
+####PCGEN BUGS OUT WHEN TRYING TO USE WIELDCATEGORY
+Wielding with 1 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.TwoHanded|(STR*1)/2		
+Wielding with 2 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.TwoHanded|(STR*2)/2		TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Martial|DAMAGESIZE|1		TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Martial|REACH|5		
+Wielding with 3 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.TwoHanded|(STR*3)/2		TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Martial|DAMAGESIZE|1		TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Martial|REACH|5
+Wielding with 4 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.TwoHanded|(STR*4)/2		TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Martial|DAMAGESIZE|2		TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Martial|REACH|10
+Wielding with 5 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.TwoHanded|(STR*5)/2		TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Martial|DAMAGESIZE|2		TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Martial|REACH|10
+Wielding with 6 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.TwoHanded|(STR*6)/2		TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Martial|DAMAGESIZE|3		TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Martial|REACH|15
+Wielding with 7 extra hand				TYPE:HIdden					CATEGORY:Special Ability			TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Melee|DAMAGE.TwoHanded|(STR*7)/2		TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Martial|DAMAGESIZE|3		TEMPBONUS:ANYPC|WEAPONPROF=TYPE.Martial|REACH|15
 
 
 Deepspawn (Grafted)		CATEGORY:FEAT		TYPE:Aberrant		PREABILITY:1,CATEGORY=Feat,Aberration Blood		PREABILITY:2,CATEGORY=Feat,TYPE.Aberrant	DESC:you have replaced the two tentacles granted by your ancestry with one or more grafts.
@@ -2788,3 +2798,29 @@ Specify Number Of hands	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Abili
 8 Hands	CATEGORY:Special Ability		TYPE:Total Number Of Hands	TEMPLATE:8 Hand
 9 Hands	CATEGORY:Special Ability		TYPE:Total Number Of Hands	TEMPLATE:9 Hand
 10 Hands	CATEGORY:Special Ability		TYPE:Total Number Of Hands	TEMPLATE:10 Hand
+
+
+Monkey Grip			KEY:Monkey Grip ~ Fixed		TYPE:General		CATEGORY:FEAT	DESC:Monkey Grip, but implemented correctly.				BONUS:WIELDCATEGORY|ALL|-1
+
+CATEGORY=INTERNAL|Aasimar Subrace ~ Standard.MOD		TYPE:Race Base		PRERACE:1,Aasimar
+
+
+CATEGORY=FEAT|Haunting Melody.MOD			TYPE:Bardic Trade
+
+CATEGORY=FEAT|Music of Growth.MOD			TYPE:Bardic Trade
+
+CATEGORY=FEAT|Music of Making.MOD			TYPE:Bardic Trade
+
+CATEGORY=FEAT|Song of the Heart.MOD			TYPE:Bardic Trade
+
+CATEGORY=FEAT|Soothe The Beast.MOD			TYPE:Bardic Trade
+
+
+
+Bardic Trade (Suggestion)			CATEGORY:ACF		TYPE:BardSuggestion.ACF			BONUS:ABILITYPOOL|Bard Bonus Feats|1		!PREABILITY:1,CATEGORY=ACF,TYPE.BardSuggestion	PREVARGTEQ:BardicMusicLvl,6				SOURCEPAGE:Eberron Campaign Setting p34		COST:0
+
+Bardic Trade (Mass Suggestion)			CATEGORY:ACF		TYPE:BardSuggestion.ACF				BONUS:ABILITYPOOL|Bard Bonus Feats|1		!PREABILITY:1,CATEGORY=ACF,TYPE.BardMassSuggestion	PREVARGTEQ:BardicMusicLvl,18		SOURCEPAGE:Eberron Campaign Setting p34			COST:0
+
+
+Bardic Trade (Inspire Competence)			CATEGORY:ACF		TYPE:TYPE:BardInspireCompetence.ACF			BONUS:ABILITYPOOL|Bard Bonus Feats|1		!PREABILITY:1,CATEGORY=ACF,TYPE.TYPE:BardInspireCompetence	PREVARGTEQ:BardicMusicLvl,6				SOURCEPAGE:Eberron Campaign Setting p34		COST:0
+

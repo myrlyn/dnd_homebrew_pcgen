@@ -95,3 +95,21 @@ Battlefist						KEY:Mighty Arms Attached ~ Battlefist		DAMAGE:1d3									TYPE:M
 
 
 Bracers of the Boxer				TYPE:Wondrous.Magic.Bracelet.Bracer.BodySlot_Wrist		COST:10000	WT:0			ABILITY:FEAT|VIRTUAL|Superior Unarmed Strike		SPROP:These ornate bracers grant the Superior Unarmed Strike feat.
+
+
+Strongarm Bracers.MOD			BONUS:WIELDCATEGORY|ALL|-1
+
+Eight Handed Greatsword			KEY:Greatsword ~ Eight Hands	SPROP:Adventurers recognize the greatsword as one of the best melee weapons available. It's reliable and powerful.  This one has been modified for a creature with at least 8 arms to apply extra leverage.  It increases your reach by 15'			
+Greatsword ~ Eight Hands.MOD	EQMOD:Masterwork (Weapon).STEEL.EIGHTHANDED
+Greatsword ~ Eight Hands.MOD	TYPE:Weapon.Container.Melee.Martial.Standard.Slashing.Sword		
+Greatsword ~ Eight Hands.MOD	CONTAINS:UNLIM|Weapon Crystal=1
+Greatsword ~ Eight Hands.MOD	REACH:15	COST:50		WT:16	PROFICIENCY:WEAPON|Greatsword
+Greatsword ~ Eight Hands.MOD	CRITMULT:x2			CRITRANGE:2		DAMAGE:6d6
+Greatsword ~ Eight Hands.MOD	WIELD:TwoHanded	SIZE:M	SOURCEPAGE:Savage Species page 42	
+
+
+
+
+
+
+
