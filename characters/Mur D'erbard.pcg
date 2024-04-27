@@ -195,15 +195,16 @@ WEAPONPROF:[WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Ra
 WEAPONPROF:[WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Strike (Unarmed)|WEAPON:Sword (Short)|WEAPON:Unarmed Strike|WEAPON:Whip]
 
 # Character Equipment
-MONEY:0.00
+MONEY:350.00
 EQUIPNAME:Badge of Valor|OUTPUTORDER:1|COST:1200|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Belt, Battle Dancer's|OUTPUTORDER:5|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Battle Dancer's)|DATA:NAME=Belt, Battle Dancer's$KEY=Belt (Battle Dancer's)]
-EQUIPNAME:Bracers of Opportunity|OUTPUTORDER:3|COST:2300|WT:0.5|QUANTITY:1.0|NOTE:
+EQUIPNAME:Bracers of Translocation|OUTPUTORDER:2|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bracers|DATA:NAME=Bracers of Translocation$SPROP=3/day teleport up to 10' as a swift action.]
+EQUIPNAME:Chitin Plating +1|OUTPUTORDER:10|COST:4000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Chronocharm of the Horizon Walker|OUTPUTORDER:9|COST:500|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Cloak of Charisma +4|OUTPUTORDER:6|COST:16000|WT:2.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Gloves (Psionic Lion's Charge/Psychic Warrior/4th)|OUTPUTORDER:2|COST:16000.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gloves|DATA:NAME=Gloves (Psionic Lion's Charge/Psychic Warrior/4th)$KEY=Gloves (Psionic Lion_s Charge/Psychic Warrior/4th)$EQMOD=SPL_ACT&pipe;SPELLNAME&lbracket;Psionic Lion's Charge&rbracket; CASTER&lbracket;Psychic Warrior&rbracket; SPELLTYPE&lbracket;Psionic&rbracket; SPELLLEVEL&lbracket;2&rbracket; CASTERLEVEL&lbracket;4&rbracket;]
-EQUIPNAME:Pipes of the Sewers|OUTPUTORDER:9|COST:1150|WT:3.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gloves (Psionic Lion's Charge/Psychic Warrior/4th)|OUTPUTORDER:3|COST:16000.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gloves|DATA:NAME=Gloves (Psionic Lion's Charge/Psychic Warrior/4th)$KEY=Gloves (Psionic Lion_s Charge/Psychic Warrior/4th)$EQMOD=SPL_ACT&pipe;SPELLNAME&lbracket;Psionic Lion's Charge&rbracket; CASTER&lbracket;Psychic Warrior&rbracket; SPELLTYPE&lbracket;Psionic&rbracket; SPELLLEVEL&lbracket;2&rbracket; CASTERLEVEL&lbracket;4&rbracket;]
+EQUIPNAME:Rod of Bodily Restoration|OUTPUTORDER:8|COST:3100|WT:4.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Slippers of Battle Dancing|OUTPUTORDER:7|COST:33750|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Wand (Restoration, Lesser/Cleric/3rd)|OUTPUTORDER:8|COST:4500.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Restoration, Lesser/Cleric/3rd)$KEY=Wand (Restoration_ Lesser/Cleric/3rd)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Restoration (Lesser)&rbracket; CASTER&lbracket;Cleric&rbracket; SPELLTYPE&lbracket;Divine&rbracket; SPELLLEVEL&lbracket;2&rbracket; CASTERLEVEL&lbracket;3&rbracket; CHARGES&lbracket;50&rbracket;]
 EQUIPNAME:Whip-dagger (Ironwood (+1))|OUTPUTORDER:4|COST:25.0|WT:3.0|QUANTITY:4.0|NOTE:|CUSTOMIZATION:[BASEITEM:Whip-dagger|DATA:NAME=Whip-dagger (Ironwood (+1))$EQMOD=Ironwood (+1)]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Waist|ID:0.1.02|VALUE:Belt, Battle Dancer's|QUANTITY:1.0|USETEMPMODS:Y
@@ -211,13 +212,14 @@ EQUIPSET:Foot|ID:0.1.03|VALUE:Slippers of Battle Dancing|QUANTITY:1.0|USETEMPMOD
 EQUIPSET:Hands|ID:0.1.04|VALUE:Gloves (Psionic Lion's Charge/Psychic Warrior/4th)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Shoulders|ID:0.1.05|VALUE:Cloak of Charisma +4|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Neck|ID:0.1.06|VALUE:Badge of Valor|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.07|VALUE:Wand (Restoration, Lesser/Cleric/3rd)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Arms|ID:0.1.08|VALUE:Bracers of Opportunity|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Primary Hand|ID:0.1.09|VALUE:Whip-dagger (Ironwood (+1))|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.10|VALUE:Pipes of the Sewers|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Secondary Hand|ID:0.1.11|VALUE:Whip-dagger (Ironwood (+1))|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Secondary Hand 2|ID:0.1.12|VALUE:Whip-dagger (Ironwood (+1))|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Secondary Hand 3|ID:0.1.13|VALUE:Whip-dagger (Ironwood (+1))|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.14|VALUE:Rod of Bodily Restoration|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.15|VALUE:Chronocharm of the Horizon Walker|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Arms|ID:0.1.16|VALUE:Bracers of Translocation|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.17|VALUE:Chitin Plating +1|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
