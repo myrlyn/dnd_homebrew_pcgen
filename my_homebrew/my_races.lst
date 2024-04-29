@@ -92,3 +92,6 @@ Kobold (Variant)	SOURCEPAGE:Races Of The Dragon Web Enhancement		NATURALATTACKS:
 Nezumi	SIZE:M	SOURCEPAGE:p.13	RACETYPE:Humanoid	TYPE:Humanoid.PC	RACESUBTYPE:Nezumi	MOVE:Walk,40	FACE:5	REACH:5		LEGS:2	HANDS:2		STARTFEATS:1	FACT:HasFirstLevelFeat|True	NATURALATTACKS:Claw,Natural.Melee.Weapon,*1,1d4	NATURALATTACKS:Bite,Natural.Melee.Weapon,*1,1d4		BONUS:STAT|CON|2	BONUS:STAT|CHA|-2		VISION:Low-Light	BONUS:SKILL|Hide,Move Silently|2|TYPE=Racial		SAB:+2 to saving throws vs poison and disease.		SAB:Immune to Shadowlands Taint			ABILITY:Special Ability|AUTOMATIC|Scent		AUTO:LANG|Common	AUTO:LANG|Nezumi	LANGBONUS:Bakemono,Shadowlands	FAVCLASS:Rogue
 
 Worghest		BONUS:STAT|STR,DEX|2|TYPE=Racial.STACK		BONUS:STAT|CHA|-2|TYPE=Racial.STACK			MOVE:Walk,30		RACETYPE:Outsider		RACESUBTYPE:Goblin		RACESUBTYPE:Shapechanger		VISION:Darkvision (60')		VISION:Low-Light	ABILITY:Special Ability|AUTOMATIC|Scent		BONUS:SKILL|Move Silently|4|TYPE=Racial.STACK	LEVELADJUSTMENT:2		ABILITY:Special Ability|AUTOMATIC|Worghest Traits		FAVCLASS:Ranger		AUTO:LANG|Common|Infernal|Worg		LANGBONUS:Giant,Goblin,Ogre,Orc		SOURCEPAGE:Dragon Magazine 350	STARTFEATS:1			RACESUBTYPE:Native
+
+
+Feral Gargun.MOD		LEVELADJUSTMENT:2

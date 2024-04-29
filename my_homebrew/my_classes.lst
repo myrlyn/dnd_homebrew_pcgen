@@ -340,3 +340,9 @@ SUBSTITUTIONLEVEL:5								ABILITY:Special Ability|AUTOMATIC|Fangshield Ranger ~
 CLASS:SPelldancer.MOD
 
 1:REPEATLEVEL:1		ADD:SPELLCASTER|ANY
+
+
+
+
+
+CLASS:Bloodstorm Blade.MOD		PRESKILL:1,Balance=8		PREABILITY:1,CATEGORY=FEAT,Point Blank Shot		PRETEXT:  1 iron heart stance and 1 iron heart maneuver

@@ -75,7 +75,7 @@ CLASSABILITIESLEVEL:Lasher=2|HITPOINTS:10|SKILLSGAINED:6|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Lasher=3|HITPOINTS:10|PRESTAT:CHA=1|SKILLSGAINED:6|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:91000
+EXPERIENCE:88000
 EXPERIENCETABLE:Default
 
 # Character Templates
@@ -93,6 +93,7 @@ TEMPLATESAPPLIED:[NAME:Aasimar ~ LevelAdjustment]
 TEMPLATESAPPLIED:[NAME:Funds - None]
 TEMPLATESAPPLIED:[NAME:Bardic Inspire Courage ~ Is the Bard]
 TEMPLATESAPPLIED:[NAME:Dragonblood]
+TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
 
 # Character Region
 REGION:None
@@ -152,7 +153,7 @@ ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Syl
 USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Bard ACF ~ Bardic Knack|TYPE:ACF.BardBardicKnowledge|DESC:When making any skill check, you can use 1/2 your bard level (rounded up) in place of the number of ranks you have in the skill (even if that number is 0). For example, a 5th-level bard would have the equivalent of 3 ranks in Appraise, Balance, Bluff, and so on (but only for the purpose of making skill checks). You can't take 10 on checks when you use bardic knack (to take 10 you have to use your actual ranks). If the skill doesn't allow untrained checks, you must have at least 1 actual rank to attempt the check. Replaces&colon; If you select this class feature, you do not gain bardic knowledge.
 ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Bard ACF ~ Healing Hymn|TYPE:ACF.BardFascinate|DESC:Replaces&colon; This benefit replaces the fascinate bardic music ability.If you have 3 or more ranks in a Perform skill, you can use your music or poetics to create an area conducive to healing. To be affected, an ally must be able to see and hear you perform. The effect lasts as long as you continue performing and for 5 rounds thereafter. An affected ally who casts any conjuration (healing) spell gains a +1 sacred (if you're good or neutral) or profane (if you're evil) bonus on the roll for each rank you have in the Perform skill. This ability has no effect on spells cast from wands, scrolls, or other magic items. In addition, if you use this ability for 1 full minute before you and your allies retire for the night, everyone in the group heals naturally as if he had completed 24 hours of bed rest (thus recovering twice his character level in hit points). If the music is interrupted, the magic of the song is lost. Either use of healing hymn counts as one daily use of your bardic music ability. This is a spell-like ability.
-ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Bardic Trade (Suggestion)|TYPE:BARDSUGGESTION.ACF
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Bardic Trade (Suggestion)|TYPE:BardSuggestion.ACF
 USERPOOL:Alternate Class Feature|POOLPOINTS:0.0
 ABILITY:Bard Bonus Feats|TYPE:NORMAL|CATEGORY:FEAT|KEY:Song of the Heart|TYPE:General.Bardic Trade|DESC:Your bardic music reaches the depths of its listeners' hearts.
 USERPOOL:Bard Bonus Feats|POOLPOINTS:0.0
@@ -160,6 +161,8 @@ ABILITY:Bard Variant|TYPE:NORMAL|CATEGORY:ACF|KEY:Bard Variant ~ Regular Bard|TY
 USERPOOL:Bard Variant|POOLPOINTS:0.0
 ABILITY:Draconic Selection|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Draconic Selection ~ Battle|TYPE:DraconicSelection
 USERPOOL:Draconic Selection|POOLPOINTS:0.0
+ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
+USERPOOL:ECL Buy Down|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Draconic Heritage|TYPE:Draconic|DESC:You have a greater connection with your draconic bloodline than others of your kind.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dragonfire Inspiration|TYPE:Draconic|DESC:You can channel the power of your draconic ancestry into the attacks of your allies.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dragontouched|TYPE:General|DESC:You have a trace of draconic power, a result of dragons in your ancestry or a spiritual connection between you and the forces of dragonkind.
@@ -173,6 +176,8 @@ USERPOOL:First Level Feat|POOLPOINTS:0.0
 ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Poor Reflexes|TYPE:Flaws.SpecialQuality|DESC:You often zig when you should have zagged.
 ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Shaky|TYPE:Flaws.SpecialQuality|DESC:You are relatively poor at ranged combat.
 USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Rule - Use ECL Level Buy Down|TYPE:MiscOptions
+USERPOOL:Misc Options|POOLPOINTS:0.0
 ABILITY:Race Base|TYPE:NORMAL|CATEGORY:Internal|KEY:Aasimar Subrace ~ Standard|TYPE:AasimarSubrace.Default.Race Base|DESC:Standard Monster Manual Version
 USERPOOL:Race Base|POOLPOINTS:0.0
 ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Region ~ None|TYPE:Region

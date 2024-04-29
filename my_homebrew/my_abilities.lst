@@ -391,7 +391,7 @@ Unusable Insectlike Wings		KEY:Unseelie Fae ~ Unusable Insectlike				CATEGORY:Sp
 
 
 #Keys are reversed here, but leave it or it will break previously made characters
-Vernal Touch		CATEGORY:Special Ability	KEY:Unseelie Fae ~ Summer's Caress		DESC: At will, spend a standard action and touch a creature.  You remove all dazed, nauseated, fatigued, and exhausted conditions from the target.  For indead, this touch attack functions as Turn Undead used by a cleric two levels higher than your total level, affecting only the touched undead.						TYPE:Supernatural.Unseelie Fey Seasonal Power.SpecialQuality
+Vernal Touch		CATEGORY:Special Ability	KEY:Unseelie Fae ~ Summer's Caress		DESC: At will, spend a standard action and touch a creature.  You remove all dazed, nauseated, fatigued, and exhausted conditions from the target.  For indead, this touch attack functions as Turn Undead used by a cleric two levels higher than your total level, affecting only the touched undead.						TYPE:Supernatural.Unseelie Fey Seasonal Power.SpecialQuality			SERVESAS:ABILITY=Special Ability|Turn Undead
 
 
 Summer's Caress		CATEGORY:Special Ability	KEY:Unseelie Fae ~ Vernal Touch		DESC: You are constantly surrounded by a Magic Circle of Nature, which functions like Magic Circle Against Evil, except that it protects form all creatures of any alignment, except animal, beast, fey, or magical beast. Caster level is equal to your total level.						TYPE:Supernatural.Unseelie Fey Seasonal Power.SpecialQuality
@@ -2802,7 +2802,7 @@ Specify Number Of hands	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Abili
 
 Monkey Grip			KEY:Monkey Grip ~ Fixed		TYPE:General		CATEGORY:FEAT	DESC:Monkey Grip, but implemented correctly.				BONUS:WIELDCATEGORY|ALL|-1
 
-CATEGORY=INTERNAL|Aasimar Subrace ~ Standard.MOD		TYPE:Race Base		PRERACE:1,Aasimar
+CATEGORY=INTERNAL|Aasimar Subrace ~ Standard.MOD		TYPE:Race Base		PREABILITY:1,CATEGORY=Race,Aasimar
 
 
 CATEGORY=FEAT|Haunting Melody.MOD			TYPE:Bardic Trade
@@ -2824,3 +2824,45 @@ Bardic Trade (Mass Suggestion)			CATEGORY:ACF		TYPE:BardSuggestion.ACF				BONUS:
 
 Bardic Trade (Inspire Competence)			CATEGORY:ACF		TYPE:TYPE:BardInspireCompetence.ACF			BONUS:ABILITYPOOL|Bard Bonus Feats|1		!PREABILITY:1,CATEGORY=ACF,TYPE.TYPE:BardInspireCompetence	PREVARGTEQ:BardicMusicLvl,6				SOURCEPAGE:Eberron Campaign Setting p34		COST:0
 
+Dynamic Priest				CATEGORY:FEAT		TYPE:General		DESC:Your self-confidence and force of personality are the foundations of your faith.		BENEFIT:For the purpose of determining bonus divine spells per day and maximum divine spell level, your primary spellcasting ability is Charisma. If you have more than one divine spellcasting class, the bonus applies to only one of those classes. Your spell save DCs are not affected by this change.					MULT:YES		STACK:NO			CHOOSE:CLASS|SPELLTYPE=Divine|PC			BONUS:STAT|BASESPELLSTAT;Class=LIST|CHA-WIS
+
+CATEGORY=FEAT|Planar Touchstone.MOD		BONUS:ABILITYPOOL|Planar Touchstones|1	BONUS:ABILITYPOOL|Greater Planar Touchstones|1
+
+Catalogues Of Enlightenment				CATEGORY:Special Ability	TYPE:SpecialQuality.PlanarTouchstone		BONUS:ABILITYPOOL|Catalogues Of Enlightenemnt|1				CHOOSE:NOCHOICE			MULT:YES		STACK:YES
+
+Catalogues of Enlightenment (Fire)		CATEGORY:Special Ability		TYPE:CataloguesOfEnlightenment.SpecialQuality		DESC:You gain the granted power of the Fire Domain.				ABILITY:Domain|AUTOMATIC|Domain Power ~ Fire		BONUS:VAR|TurnLevelFire|TL|TYPE=BASE	BONUS:VAR|TurnLevelWater|TL|TYPE=BASE		BONUS:VAR|TurnTimesBase|CHA+3+|TYPE=BASE
+		
+Catalogues of Enlightenment (Water)		CATEGORY:Special Ability		TYPE:CataloguesOfEnlightenment.SpecialQuality		DESC:You gain the granted power of the Water Domain.				ABILITY:Domain|AUTOMATIC|Domain Power ~ Water		BONUS:VAR|TurnLevelWater|TL|TYPE=BASE	BONUS:VAR|TurnLevelFire|TL|TYPE=BASE				BONUS:VAR|TurnTimesBase|CHA+3+|TYPE=BASE
+
+
+Catalogues of Enlightenment (Air)		CATEGORY:Special Ability		TYPE:CataloguesOfEnlightenment.SpecialQuality		DESC:You gain the granted power of the Air Domain.				ABILITY:Domain|AUTOMATIC|Domain Power ~ Air		BONUS:VAR|TurnLevelAir|TL|TYPE=BASE	BONUS:VAR|TurnLevelEarth|TL|TYPE=BASE				BONUS:VAR|TurnTimesBase|CHA+3+|TYPE=BASE
+
+Catalogues of Enlightenment (Earth)		CATEGORY:Special Ability		TYPE:CataloguesOfEnlightenment.SpecialQuality		DESC:You gain the granted power of the Earth Domain.				ABILITY:Domain|AUTOMATIC|Domain Power ~ Earth		BONUS:VAR|TurnLevelEarth|TL|TYPE=BASE	BONUS:VAR|TurnLevelAir|TL|TYPE=BASE				BONUS:VAR|TurnTimesBase|CHA+3+|TYPE=BASE
+
+
+Catalogues of Enlightenment (Scalykind)		CATEGORY:Special Ability		TYPE:CataloguesOfEnlightenment.SpecialQuality		DESC:You gain the granted power of the Scalykind Domain.				ABILITY:Domain|AUTOMATIC|Domain Power ~ Scalykind	BONUS:VAR|TurnLevelScalyKind|TL|TYPE=BASE		BONUS:VAR|TurnTimesBase|CHA+3+|TYPE=BASE
+
+Catalogues of Enlightenment (Spider)		CATEGORY:Special Ability		TYPE:CataloguesOfEnlightenment.SpecialQuality		DESC:You gain the granted power of the Scalykind Domain.				ABILITY:Domain|AUTOMATIC|Domain Power ~ Scalykind	BONUS:VAR|TurnLevelSpider|TL|TYPE=BASE		BONUS:VAR|TurnTimesBase|CHA+3+|TYPE=BASE
+
+
+Catalogues of Enlightenment (Cold)		CATEGORY:Special Ability		TYPE:CataloguesOfEnlightenment.SpecialQuality		DESC:You gain the granted power of the Cold Domain.				ABILITY:Domain|AUTOMATIC|Domain Power ~ Cold		BONUS:VAR|TurnLevelCold|TL|TYPE=BASE	BONUS:VAR|TurnLevelFire|TL|TYPE=BASE|!PREDOMAIN:1,Fire,Water				BONUS:VAR|TurnTimesBase|CHA+3+|TYPE=BASE|!PREDOMAIN:1,Fire				BONUS:VAR|TurnTimesCold|CHA+3+|TYPE=BASE|PREDOMAIN:1,Fire,Water	
+
+
+Catalogues of Enlightenment (Moon)		CATEGORY:Special Ability		TYPE:CataloguesOfEnlightenment.SpecialQuality		DESC:You gain the granted power of the Moon Domain.				ABILITY:Domain|AUTOMATIC|Domain Power ~ Moon		BONUS:VAR|TurnLevelLycanthrope|TL|TYPE=BASE		BONUS:VAR|TurnTimesBase|CHA+3+|TYPE=BASE
+
+Catalogues of Enlightenment (Plant)		CATEGORY:Special Ability		TYPE:CataloguesOfEnlightenment.SpecialQuality		DESC:You gain the granted power of the Plant Domain.				ABILITY:Domain|AUTOMATIC|Domain Power ~ Moon		BONUS:VAR|TurnLevelPlant|TL|TYPE=BASE		BONUS:VAR|TurnTimesBase|CHA+3+|TYPE=BASE
+
+
+Greater Ability Not Charged				CATEGORY:Special Ability		TYPE:GreaterPlanarTouchstone			MULT:YES	STACK:YES	CHOOSE:NOCHOICE
+
+
+Fix Fire Turn Levels	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Some combonations end up doubling fire turn levels and times		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:VAR|TurnFireTimes|0-CHA-3			BONUS:VAR|TurnLevelFire|0-TL		COST:0
+
+
+
+
+
+Catalogues of Enlightenment (Necromancy)		CATEGORY:Special Ability		TYPE:CataloguesOfEnlightenment.SpecialQuality		DESC:You gain the granted power of the Plant Domain.				BONUS:VAR|TurnLevelUndead|TL|TYPE=BASE		BONUS:VAR|TurnTimesBase|CHA+3+|TYPE=BASE		 SAB:Granted Power (Su): Rebuke, command, or bolster undead as an evil Cleric. Use this ability a number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.  
+
+
+#Catalogues of Enlightenment (Necromancy)		CATEGORY:Special Ability		TYPE:CataloguesOfEnlightenment.SpecialQuality		DESC:You gain the granted power of the Plant Domain.				ABILITY:Domain|AUTOMATIC|Domain Power ~ Necromancy		BONUS:VAR|TurnLevelUndead|TL|TYPE=BASE		BONUS:VAR|TurnTimesBase|CHA+3+|TYPE=BASE		 SAB:Granted Power (Su): Rebuke, command, or bolster undead as an evil Cleric. Use this ability a number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.  

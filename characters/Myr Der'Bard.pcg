@@ -1,0 +1,278 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:preview.html
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Myr Der'Bard
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:C&colon;\Users\myrlyn\Downloads\whipbard.png
+PORTRAITTHUMBNAILRECT:117,0,100,100
+
+# Character Attributes
+STAT:STR|SCORE:16
+STAT:DEX|SCORE:18
+STAT:CON|SCORE:16
+STAT:INT|SCORE:16
+STAT:WIS|SCORE:18
+STAT:CHA|SCORE:21
+ALIGN:NONE
+RACE:Planetouched (Aasimar)
+
+# Character Class(es)
+CLASS:Bard|SUBCLASS:Bard (Standard)|LEVEL:12|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:3,3,3,3,2
+CLASSABILITIESLEVEL:Bard=1|HITPOINTS:12|SKILLSGAINED:36|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bard=2|HITPOINTS:12|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bard=3|HITPOINTS:12|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bard=4|HITPOINTS:12|PRESTAT:CHA=1|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bard=5|HITPOINTS:12|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bard=6|HITPOINTS:12|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bard=7|HITPOINTS:12|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bard=8|HITPOINTS:12|PRESTAT:CHA=1|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bard=9|HITPOINTS:12|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bard=10|HITPOINTS:12|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bard=11|HITPOINTS:12|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bard=12|HITPOINTS:12|PRESTAT:CHA=1|SKILLSGAINED:9|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:91000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Bard]
+TEMPLATESAPPLIED:[NAME:Language ~ Bonus (Aasimar)]
+TEMPLATESAPPLIED:[NAME:Favored Class ~ Paladin]
+TEMPLATESAPPLIED:[NAME:Aasimar ~ LevelAdjustment]
+TEMPLATESAPPLIED:[NAME:Lesser Planetouched]
+TEMPLATESAPPLIED:[NAME:Assign Race Type ~ Humanoid]
+TEMPLATESAPPLIED:[NAME:Draconic Creature]
+TEMPLATESAPPLIED:[NAME:Unseelie Fey]
+TEMPLATESAPPLIED:[NAME:Magic Blooded (Spark)]
+TEMPLATESAPPLIED:[NAME:Necropolitan(Deathless)]
+TEMPLATESAPPLIED:[NAME:Non-Ability ~ Constitution]
+TEMPLATESAPPLIED:[NAME:Evolved Deathless]
+TEMPLATESAPPLIED:[NAME:First Level ~ Bard|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+TEMPLATESAPPLIED:[NAME:Bardic Inspire Courage ~ Is the Bard]
+TEMPLATESAPPLIED:[NAME:Dragonblood]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Bard|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Alchemy)|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:8|
+SKILL:Diplomacy|OUTPUTORDER:9|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:10|
+SKILL:Disguise|OUTPUTORDER:11|
+SKILL:Escape Artist|OUTPUTORDER:12|
+SKILL:Forgery|OUTPUTORDER:13|
+SKILL:Gather Information|OUTPUTORDER:14|
+SKILL:Heal|OUTPUTORDER:15|
+SKILL:Hide|OUTPUTORDER:16|
+SKILL:Hide (Forested Areas)|OUTPUTORDER:17|
+SKILL:Intimidate|OUTPUTORDER:18|
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:19|
+SKILL:Jump|OUTPUTORDER:20|
+SKILL:Knowledge (Arcana)|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Bard|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:22|
+SKILL:Listen|OUTPUTORDER:23|
+SKILL:Literacy|OUTPUTORDER:24|
+SKILL:Move Silently|OUTPUTORDER:25|
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:26|
+SKILL:Perform (Dance)|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Bard|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Sing)|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Bard|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Ride|OUTPUTORDER:29|
+SKILL:Search|OUTPUTORDER:30|
+SKILL:Sense Motive|OUTPUTORDER:31|
+SKILL:Skill Trick|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Sleight of Hand|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Bard|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Bard|RANKS:14.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:35|
+SKILL:Survival|OUTPUTORDER:36|
+SKILL:Swim|OUTPUTORDER:37|
+SKILL:Tumble|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Bard|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Magic Device|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Bard|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Rope|OUTPUTORDER:40|
+
+# Character Languages
+LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Elven|LANGUAGE:Sylvan
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan,Elven,Draconic|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan,Elven,Draconic|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan,Elven,Draconic|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Bard ACF ~ Bardic Knack|TYPE:ACF.BardBardicKnowledge|DESC:When making any skill check, you can use 1/2 your bard level (rounded up) in place of the number of ranks you have in the skill (even if that number is 0). For example, a 5th-level bard would have the equivalent of 3 ranks in Appraise, Balance, Bluff, and so on (but only for the purpose of making skill checks). You can't take 10 on checks when you use bardic knack (to take 10 you have to use your actual ranks). If the skill doesn't allow untrained checks, you must have at least 1 actual rank to attempt the check. Replaces&colon; If you select this class feature, you do not gain bardic knowledge.
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Bard ACF ~ Healing Hymn|TYPE:ACF.BardFascinate|DESC:Replaces&colon; This benefit replaces the fascinate bardic music ability.If you have 3 or more ranks in a Perform skill, you can use your music or poetics to create an area conducive to healing. To be affected, an ally must be able to see and hear you perform. The effect lasts as long as you continue performing and for 5 rounds thereafter. An affected ally who casts any conjuration (healing) spell gains a +1 sacred (if you're good or neutral) or profane (if you're evil) bonus on the roll for each rank you have in the Perform skill. This ability has no effect on spells cast from wands, scrolls, or other magic items. In addition, if you use this ability for 1 full minute before you and your allies retire for the night, everyone in the group heals naturally as if he had completed 24 hours of bed rest (thus recovering twice his character level in hit points). If the music is interrupted, the magic of the song is lost. Either use of healing hymn counts as one daily use of your bardic music ability. This is a spell-like ability.
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Bard ACF ~ Spellbreaker Song|TYPE:ACF.BardACF.BardCountersong|DESC:Bards pride themselves on being masters of language and sound. A rare few learn to use their voices to interfere with enemy spellcasters, twisting word and sound to defeat spells before they are cast.|DESC: Replaces&colon; You do not gain the countersong bardic music ability.|DESC: Benefit&colon; You can use your music or poetics to interfere with spells that have verbal components. Doing this costs one daily use of your bardic music ability and requires a standard action to start. Enemy spellcasters within 30 feet of you take a 20%% spell failure chance when casting any spell that has a verbal component (as if they were deafened). You can maintain your spellbreaker song for 3 rounds. This ability follows all the other appropriate rules for bardic music.
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Bardic Trade (Inspire Competence)|TYPE:TYPE&colon;BardInspireCompetence.ACF
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Bardic Trade (Suggestion)|TYPE:BardSuggestion.ACF
+USERPOOL:Alternate Class Feature|POOLPOINTS:0.0
+ABILITY:Bard Bonus Feats|TYPE:NORMAL|CATEGORY:FEAT|KEY:Haunting Melody|TYPE:General.Bardic Trade|DESC:You can use your music to inspire fear.
+ABILITY:Bard Bonus Feats|TYPE:NORMAL|CATEGORY:FEAT|KEY:Song of the Heart|TYPE:General.Bardic Trade|DESC:Your bardic music reaches the depths of its listeners' hearts.
+USERPOOL:Bard Bonus Feats|POOLPOINTS:0.0
+ABILITY:Bard Variant|TYPE:NORMAL|CATEGORY:ACF|KEY:Bard Variant ~ Regular Bard|TYPE:Internal.BardVariant|DESC:Regular Bard - Bardic Knowledge, Inspire Abilities
+USERPOOL:Bard Variant|POOLPOINTS:0.0
+ABILITY:Draconic Selection|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Draconic Selection ~ Battle|TYPE:DraconicSelection
+USERPOOL:Draconic Selection|POOLPOINTS:0.0
+ABILITY:Evolved Deathless Spell-like Ability|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Evolved Deathless ~ Haste|TYPE:Evolved Deathless Spell-like Ability|DESC:You have a spell-like ability, usable 1/day.
+USERPOOL:Evolved Deathless Spell-like Ability|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Draconic Heritage|TYPE:Draconic|DESC:You have a greater connection with your draconic bloodline than others of your kind.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dragonfire Inspiration|TYPE:Draconic|DESC:You can channel the power of your draconic ancestry into the attacks of your allies.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dragontouched|TYPE:General|DESC:You have a trace of draconic power, a result of dragons in your ancestry or a spiritual connection between you and the forces of dragonkind.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Jack Of All Trades|TYPE:General|DESC:You have picked up a smattering of even the most obscure skills.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Lingering Song|TYPE:General|DESC:Your inspirational bardic music stays with the listeners long after the last note has died away.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Melodic Casting|TYPE:General|DESC:You weave your music and magic together into a single perfect voice.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Snowflake Wardance|TYPE:General|DESC:Use bardic music skill and add +%1 to attack roll with slashing weapon for %2 rounds.  Must not wear medium armor, heavy armor, or carry a shield.  Will be fatigued for 10 minutes.&pipe;CHA&pipe;SKILLRANK=Perform {Dance}
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Words of Creation|TYPE:Exalted|DESC:You have learned a few of the words that were spoken to create the world.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Meager Fortitude|TYPE:Flaws.SpecialQuality|DESC:You are sickly and weak of stomach.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Shaky|TYPE:Flaws.SpecialQuality|DESC:You are relatively poor at ranged combat.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Weak Will|TYPE:Flaws.SpecialQuality|DESC:You are highly suggestible and easily duped.
+USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:Race Base|TYPE:NORMAL|CATEGORY:Internal|KEY:Aasimar Subrace ~ Standard|TYPE:AasimarSubrace.Default.Race Base|DESC:Standard Monster Manual Version
+USERPOOL:Race Base|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Region ~ None|TYPE:Region
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Acrobatic Backstab|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:If you succeed on a Tumble check t move tthrough an enemy's space, you can treat that enemy as flat-footed against the next melee attack you make against it on your current turn.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Back on Your Feet|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:If you fall prone for any reason, you can stand up as an immediate action without provoking attacks of opportunity.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Conceal Spellcasting|TYPE:ST.SpecialQuality.SkillTrick.Manipulation|DESC:You can cast a spell without revealing that you are doing so. make a Sleight of Hand check as part of the action used to cast the spell, opposed by the Spot checks of onlookers. If you are successful, an observer can't tell that you're casting a spell.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Mosquito's Bite|TYPE:ST.SpecialQuality.SkillTrick.Manipulation|DESC:If you use a light weapon to hit a flat-footed opponent, you can choose to have the opponent not realize that it has been hit until the start of your next turn. Instead , that opponent reacts as if you had attacked and missed.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Swift Concentration|TYPE:ST.SpecialQuality.SkillTrick.Mental|DESC:You can maintain concentration on a spell or similar effect as a swift action.
+USERPOOL:Skill Tricks|POOLPOINTS:0.0
+ABILITY:Unseelie Fey Seasonal Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Autumn Harvest|TYPE:Supernatural.Unseelie Fey Seasonal Power.SpecialQuality|DESC: A number of times a day equal to your Charisma bonus (minimum 1) you can touch a creature with a special dispelling touch, which functions as a targeted Dispel Magic with caster level equal to your total HD.
+USERPOOL:Unseelie Fey Seasonal Power|POOLPOINTS:0.0
+ABILITY:Unseelie Fey Vision|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Darkvision Vision|TYPE:Extraordinary.Unseelie Fey Vision.SpecialQuality|DESC:You gain Darkvision 60'.
+USERPOOL:Unseelie Fey Vision|POOLPOINTS:0.0
+ABILITY:Unseelie Fey Wings|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Mothlike|TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality|DESC:Your wings resemble a mot or butterfly.
+USERPOOL:Unseelie Fey Wings|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Battle Gauntlet|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart]
+WEAPONPROF:[WEAPON:Darts (Barbed)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Halfspear|WEAPON:Javelin|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)]
+WEAPONPROF:[WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Rapier|WEAPON:Sap|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear]
+WEAPONPROF:[WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Strike (Unarmed)|WEAPON:Sword (Short)|WEAPON:Unarmed Strike|WEAPON:Whip]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Belt, Battle Dancer's|OUTPUTORDER:3|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Battle Dancer's)|DATA:NAME=Belt, Battle Dancer's$KEY=Belt (Battle Dancer's)]
+EQUIPNAME:Cloak of Charisma +6|OUTPUTORDER:4|COST:36000|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Coin (Gold)|OUTPUTORDER:6|COST:1|WT:0.02|QUANTITY:200.0|NOTE:
+EQUIPNAME:Slippers of Battle Dancing|OUTPUTORDER:5|COST:33750|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Truedeath Crystal (Lesser)|OUTPUTORDER:2|COST:5000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Whip-dagger (Ironwood (+1))|OUTPUTORDER:1|COST:25.0|WT:3.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Whip-dagger|DATA:NAME=Whip-dagger (Ironwood (+1))$EQMOD=Ironwood (+1)]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Waist|ID:0.1.01|VALUE:Belt, Battle Dancer's|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Foot|ID:0.1.02|VALUE:Slippers of Battle Dancing|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.03|VALUE:Whip-dagger (Ironwood (+1))|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Whip-dagger (Ironwood (+1))|ID:0.1.03.01|VALUE:Truedeath Crystal (Lesser)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Secondary Hand|ID:0.1.04|VALUE:Whip-dagger (Ironwood (+1))|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.05|VALUE:Cloak of Charisma +6|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.06|VALUE:Coin (Gold)|QUANTITY:200.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+SPELLNAME:Celerity (Lesser)|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Charm Monster|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Clairaudience/Clairvoyance|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Comprehend Languages|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Creaking Cacophony|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Cure Critical Wounds|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Cure Moderate Wounds|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Cure Serious Wounds|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Deceptive Fagade|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Detect Magic|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Freedom of Movement|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Inspirational Boost|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Joyful Noise|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Light|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Mage Hand|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Prestidigitation|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Read Magic|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Shadow Conjuration|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Sonic Whip|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Stick|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Unseen Servant|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLLIST:Bard|CLASS.Bard
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:PLAYING THIS WEIRDO&nl;ROLES &nl;--- Bards are generalist, Jacks-of-all-Trades.  You're no exception.  Your primary role is DPR, your secondary roles are Healer, Control, Tank, and Utility&nl;&nl;&nl;************DPR************************&nl;Combat round 1 &lbracket;-1 Bardic Music&rbracket;&nl;Swift Action &lbracket;Cast Inspirational Boost&rbracket;&nl;Standard Action&lbracket;Bardic Music - Dragonfire Inspiration +4 for bard level, +1 for Inspirational Boost, x2 for Words Of Creation = a +10 boost from Inspire Courage.&rbracket;  &colon; You and all affected Allies add +10d6 Sonic Damage to weapon damage for the durationof the Inspiraiton.  This lasts for as long as you sing + 5 rounds, and does not require concentration to maintain.  &nl;Move Action - Position yourself to attack next turn.&nl;Let your allies lay out the hurt with your added damage.  &nl;&nl;Round 2 (Normal Battles)&lbracket;-1 Bardic Music&rbracket;&nl;Free Action - Activate Snowflake Wardance (Lets you use CHA instead of STR for your to-hit bonus)&nl;Free Movement - take a 5' step to adjust if you need to&nl;Full Attack from 15' away, and enjoy your massive hit and damage boost. &nl;&nl;&nl;Round 2 (Hard Battles)&nl;Free Action - Activate Snowflake Wardance (Lets you use CHA instead of STR for your to-hit bonus)&nl;Swift Action - Cast "Celerity" for an extra Standard Action.  &nl;	Use it to activate your "Haste" Spelllike Abiltiy.&nl;	 {"Melodic Casting} lets you keep singing while you cast spells}&nl;		The Necropolitan Template makes you immunse to the Dazing side-effects of casting Celerity&nl;Free Movement - take a 5' step to adjust if you need to&nl;Full Attack from 15' away, and enjoy your massive hit and damage boost. &nl;&nl;&nl;Round 3+(Normal Battles)&nl;Free Movement - take a 5' step to adjust if you need to&nl;Full Attack from 15' away, and enjoy your massive hit and damage boost. &nl;If oppoent AC is high enough you're not hitting with your second attack, move at least 10' to trigger sllippers of battle dancing, and make a single attack&nl;&nl;Round 3+(Hardl Battles)&nl;Free Movement - take a 5' step to adjust if you need to&nl;Swift Action &lbracket;Lesser Celerity&rbracket; get an extra move action, move at least 10' to trigger slippers of battle dancing&nl;Full Attack from 15' away, and enjoy your massive hit and damage boost. &nl;Consider Creaking Cacophony to make your Sonic Damage even more effective&nl;&nl;&nl;****************HEALER****************************&nl;If you need to Heal, switch your Bardic Music to Healing Hymn.  Don't worry about your other Bardic Music too much, Lingering Song means you've got a solid 10 rounds of use out of them after you stop singing them.  This lets you get a lot more use out of your Healing spells, adding about 15 HP to the healing effect per spell. &nl;&nl;Don't worry too much about healing your own HP damage - you Fast Healing (3) ability has that covered, so long as you can move yourself out of harm's way long enough for it to take Effect.&nl;&nl;Song of Freedom lets you *Break Enchantment* on another character.   This will let you reverse cusest, etc. &nl;&nl;You can't currently do a lot about Ability Damage and Negative Levels.  Try and get an Eternal Wand of Restoration made when you get the cash.&nl;&nl;&nl;***********TANK******************************&nl;You're already a decent tank.  This role overlaps with DPR enough that it doesn't bear much explanation.  &nl;&nl;*************CONTROL**********************************&nl;Shadow Conjuration &lbracket;See Below&rbracket;	&nl;Charm Monster&nl;	Get enemies to attack each other&nl;**********UTILITY**************&nl;Shadow Conjuration &lbracket;See Below&rbracket;	&nl;	&nl;Unseen Servant&nl;	stealthily move small objects, steal stuff, retrieve keys&nl;Deceptive Facade&nl;	Disguise one thing as nother (object or creature)&nl;Charm Monster &nl;	Don't wanna be a Face, but ned to handle a difficult social situation?  Charm the target so you don't HAVE to be smoothe!&nl;&nl;Clairaudience/Clairvoyance&nl;	Look and listen where you're not meant to.&nl;Prestidigitiation&nl;	Another swiss-army-knife, just not as sharp&nl;&nl;*****************************************&nl;&nl;Shadow Conjurtion is a Swiss-Army-Knife of a spell.&nl;	Sleet Storm -- Area is icy, enemies slowed	&lbracket;L1, PHB&rbracket;&nl;	Stinking Cloud -- cloud sickens enemies (take advantage of the fact that you are immune)&lbracket;L3, PHB&rbracket;&nl;	Fog Cloud  -- Cloud obscures vision &lbracket;L2, PHB&rbracket;&nl;	Glitterdust -- Blinds targets, reveals invisible and hidden &lbracket;L2, PHB&rbracket;&nl;	Web -- Entangles victims &lbracket;L2, PHB&rbracket;&nl;	Grease -- make surface slick and hard to walk on &lbracket;L1, PHB&rbracket;&nl;	Obscuring Mist  - Like Fog CLoud, but more so &lbracket;L1, PHB&rbracket;&nl;	Summon Swarm  -  summons critters to harry people &lbracket;L2, PHB&rbracket;&nl;	Acid-Breath - AOE attack &lbracket;L3, SC&rbracket;&nl;	Phantom Steed -- Summons a mount to carry you/others/your stuff&lbracket;L3, PHB&rbracket;&nl;	Mount  -- Summons a mount to carry you&lbracket;L1, PHB&rbracket;&nl;	Summom Monster III &lbracket;L3, PHB&rbracket;&nl;	Greater Mage Armor - +6 AC &lbracket;L3, SC&rbracket;&nl;	Wall of Chains - create a wall to reshape the battlefield &lbracket;L3, SC&rbracket;&nl;	Wall of Ectoplasm - create a wall to reshape the battlefield &lbracket;L3, SC&rbracket;&nl;	Blockade - create a 5x5 block of wood &lbracket;L3, Complete Scoundrel&rbracket;
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+
