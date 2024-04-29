@@ -1,0 +1,263 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:N
+
+# Character Bio
+CHARACTERNAME:Ganryu
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:18
+STAT:DEX|SCORE:18
+STAT:CON|SCORE:18
+STAT:INT|SCORE:16
+STAT:WIS|SCORE:16
+STAT:CHA|SCORE:19
+ALIGN:LG
+RACE:Human
+
+# Character Class(es)
+CLASS:Fighter (Thug)|LEVEL:6|SKILLPOOL:1|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Iaijutsu Master|LEVEL:6|SKILLPOOL:6|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Fighter (Thug)=1|HITPOINTS:10|SKILLSGAINED:32|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter (Thug)=2|HITPOINTS:10|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter (Thug)=3|HITPOINTS:10|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter (Thug)=4|HITPOINTS:10|PRESTAT:CHA=1|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter (Thug)=5|HITPOINTS:10|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter (Thug)=6|HITPOINTS:10|SKILLSGAINED:8|SKILLSREMAINING:1
+CLASSABILITIESLEVEL:Iaijutsu Master=1|HITPOINTS:10|SKILLSGAINED:8|SKILLSREMAINING:1
+CLASSABILITIESLEVEL:Iaijutsu Master=2|HITPOINTS:10|PRESTAT:CHA=1|SKILLSGAINED:8|SKILLSREMAINING:1
+CLASSABILITIESLEVEL:Iaijutsu Master=3|HITPOINTS:10|SKILLSGAINED:8|SKILLSREMAINING:1
+CLASSABILITIESLEVEL:Iaijutsu Master=4|HITPOINTS:10|SKILLSGAINED:8|SKILLSREMAINING:1
+CLASSABILITIESLEVEL:Iaijutsu Master=5|HITPOINTS:10|SKILLSGAINED:8|SKILLSREMAINING:1
+CLASSABILITIESLEVEL:Iaijutsu Master=6|HITPOINTS:10|PRESTAT:CHA=1|SKILLSGAINED:8|SKILLSREMAINING:1
+
+# Character Experience
+EXPERIENCE:66000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Humanoid]]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Fighter]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
+TEMPLATESAPPLIED:[NAME:Insectile]
+TEMPLATESAPPLIED:[NAME:RaceSubtype ~ Augmented Humanoid]
+TEMPLATESAPPLIED:[NAME:Human Base]
+TEMPLATESAPPLIED:[NAME:Favored Class ~ HIGHESTLEVELCLASS]
+TEMPLATESAPPLIED:[NAME:Human Region ~ Custom Campaign]
+TEMPLATESAPPLIED:[NAME:Magic Blooded (Spark)]
+TEMPLATESAPPLIED:[NAME:First Level ~ Fighter|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
+TEMPLATESAPPLIED:[NAME:Combat Expertise trade off]
+
+# Character Region
+REGION:Custom Campaign
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Iaijutsu Master|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter (Thug)|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Iaijutsu Master|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter (Thug)|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Craft (Weaponsmithing)|CLASSBOUGHT:[CLASS:Iaijutsu Master|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter (Thug)|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy|OUTPUTORDER:8|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:9|
+SKILL:Disguise|OUTPUTORDER:10|
+SKILL:Escape Artist|OUTPUTORDER:11|
+SKILL:Forgery|OUTPUTORDER:12|
+SKILL:Gather Information|OUTPUTORDER:13|
+SKILL:Heal|OUTPUTORDER:14|
+SKILL:Hide|OUTPUTORDER:15|
+SKILL:Hide (Forested Areas)|OUTPUTORDER:16|
+SKILL:Iaijutsu Focus|OUTPUTORDER:17|CLASSBOUGHT:[CLASS:Iaijutsu Master|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter (Thug)|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:18|
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:19|
+SKILL:Jump|OUTPUTORDER:20|
+SKILL:Knowledge (The Planes)|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Iaijutsu Master|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter (Thug)|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:22|
+SKILL:Listen|OUTPUTORDER:23|
+SKILL:Literacy|OUTPUTORDER:24|
+SKILL:Move Silently|OUTPUTORDER:25|
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:26|
+SKILL:Ride|OUTPUTORDER:27|
+SKILL:Search|OUTPUTORDER:28|
+SKILL:Sense Motive|OUTPUTORDER:29|
+SKILL:Skill Trick|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Fighter (Thug)|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:31|
+SKILL:Survival|OUTPUTORDER:32|
+SKILL:Swim|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Fighter (Thug)|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Tumble|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Iaijutsu Master|RANKS:11.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter (Thug)|RANKS:4.0|COST:2|CLASSSKILL:N]
+SKILL:Use Magic Device|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Iaijutsu Master|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter (Thug)|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Rope|OUTPUTORDER:36|
+
+# Character Languages
+LANGUAGE:Beholder|LANGUAGE:Common|LANGUAGE:Giant|LANGUAGE:Undercommon
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Fighter ~ Sneak Attack|TYPE:ACF.FighterBonusFeats|DESC:Some fighters prefer stealth and cunning over martial skill. This variant can also be combined with the thug variant described earlier in this chapter.  Gain&colon; Sneak attack (as rogue).  Lose&colon; Bonus feats.
+USERPOOL:Alternate Class Feature|POOLPOINTS:0.0
+ABILITY:Apprentice Feat Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Apprentice ~ Spellcaster|APPLIEDTO:Use Magic Device,Knowledge (The Planes)|TYPE:ApprenticeChoice.SpecialQuality|DESC:A spellcaster mentor could be a priest of the character's religion, a teacher at a wizard's guild, or an inventor seeking a protege. Spellcaster mentors are not as useful as the other seven mentors for characters who cannot cast spells themselves. A spellcaster grants her apprentice a +2 competence bonus on Spellcraft checks. The tutelage of a spellcasting mentor grants additional benefits only if the apprentice shares the same class as his mentor. The apprentice only gains these benefits when he gains a level in this class; he retains all the other benefits of this feat (the bonus skills and the bonus on Spellcraft checks) regardless of what class he chooses to gain a level in. If the apprentice and his mentor are arcane spellcasters, he gains one additional spell known at 1st level. Wizards gain this spell in their spellbooks, and spontaneous casters such as sorcerers or bards gain an additional 1st-level spell beyond their normal number of spells known. As the apprentice gains levels, he is able to learn additional spellcasting techniques from his mentor; wizards can copy from their mentor's spellbook at no charge. Spellcasters who do not prepare spells (such as a bard or sorcerer) gain increased flexibility with the spells they know. Each time an apprentice gains another of these levels, he can choose to learn a new spell in place of one he already knows. The new spell's level must be the same as that of the spell being exchanged. If the character and his mentor are divine spellcasters who prepare spells (such as clerics, druids, paladins, or rangers), he can select one spell he knows as a preferred spell. This can be a spell of any level he can cast. Once per day, the apprentice can spontaneously cast a preferred spell by swapping out any prepared spell of an equal spell level. He can only have one preferred spell at a time, but each time he gains a level in the associated class, he can change his preferred spell to a different spell. Associated Skills&colon; Knowledge (any one), Use Magic Device.
+USERPOOL:Apprentice Feat Choice|POOLPOINTS:0.0
+ABILITY:Catalogues Of Enlightenemnt|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Catalogues of Enlightenment (Cold)|TYPE:CataloguesOfEnlightenment.SpecialQuality|DESC:You gain the granted power of the Cold Domain.
+USERPOOL:Catalogues Of Enlightenemnt|POOLPOINTS:0.0
+ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
+USERPOOL:ECL Buy Down|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Apprentice|TYPE:General.FirstLevel|DESC:A character with this feat has apprenticed himself to a master in order to speed his learning and bolster his skills. This feat must be taken at 1st level. Once you start gaining experience, your methods of learning are already too ingrained for you to be able to gain the benefits of a mentor-apprentice relationship.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Cosmopolitan|APPLIEDTO:Iaijutsu Focus|TYPE:|DESC:Chosen skill is now a class skill
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Initiative|TYPE:General.Fighter.DivineChampion.WizardDiviner.ViolentKnowledge|DESC:You can react more quickly than normal in a fight.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Martial Study|APPLIEDTO:|TYPE:General.Fighter|DESC:By studying the basics of a martial discipline, you learn to focus your ki and perfect the form needed to use a maneuver. As a result, you gain the use of a combat maneuver.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Monkey Grip ~ Fixed|TYPE:General|DESC:Monkey Grip, but implemented correctly.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Planar Touchstone|APPLIEDTO:|TYPE:General|DESC:Forge a link between you and power-rich planar locations, referred to as planar touchstones.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Quick Draw|TYPE:General.Fighter.DivineChampion.ViolentKnowledge|DESC:You can draw weapons with startling speed.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Travel Devotion|APPLIEDTO:|TYPE:Domain|DESC:You can move quickly around the battlefield.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Sword (Bastard)|TYPE:General.Fighter.Dragonrider.DivineChampion.ShadowThief.ViolentKnowledge|DESC:You are especially good at using this specified weapon.&pipe;!PRERULE&colon;1,DisplayFullFeat|DESC:Choose one type of weapon, such as greataxe. You can also choose unarmed strike or grapple (or ray, if you are a spellcaster) as your weapon for purposes of this feat. You are especially good at using this weapon. (If you have chosen ray, you are especially good with rays, such as the one produced by the ray of frost spell.)&pipe;PRERULE&colon;1,DisplayFullFeat
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:,|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Inattentive|TYPE:Flaws.SpecialQuality|DESC:You are particularly unaware of your surroundings.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Poor Reflexes|TYPE:Flaws.SpecialQuality|DESC:You often zig when you should have zagged.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Shaky|TYPE:Flaws.SpecialQuality|DESC:You are relatively poor at ranged combat.
+USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:-1 Sneak Attack Die|APPLIEDTO:,,|TYPE:GM_Award.SpecialQuality|DESC:-1 Sneak Attack Die
+USERPOOL:GM Awards|POOLPOINTS:0.0
+ABILITY:Greater Planar Touchstones|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Greater Ability Not Charged|APPLIEDTO:|TYPE:GreaterPlanarTouchstone
+USERPOOL:Greater Planar Touchstones|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Internal|KEY:Human Ethnicity ~ None|TYPE:Human Ethnicity.Faerun Ethnicity|DESC:You have no Ethnicity.
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Iaijutsu Master Bonus Feats|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Expertise|TYPE:General.Fighter.AttackOption.ModifyAC.IajutsuMasterBonusFeat.ChampionOfTheWild.DivineChampion.ShadowThief|DESC:You are trained at using your combat skill for defense as well asoffense.|DESC:You cannot use this feat while raging&pipe;PREVARGT&colon;0,RageTimes
+USERPOOL:Iaijutsu Master Bonus Feats|POOLPOINTS:0.0
+ABILITY:Martial Study Diamond Mind Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Martial Study Novice ~ Sapphire Nightmare Blade|TYPE:SpecialAttack.Diamond Mind.Diamond Mind Discipline.Martial Study Diamond Mind Maneuver.Diamond Mind Maneuver.Maneuver.Martial Maneuver.Strike|DESC:Your study your enemy for a brief moment, watching his defensive maneuvers and making a strike timed to take advantage of a lull in his vigilance. The sapphire nightmare blade is one of the most basic, but important, maneuvers that a Diamond Mind adept studies. It illustrates that a keen mind can pierce even the toughest defenses. You attempt a Concentration check as part of this maneuver, using the target creature's AC as the DC of the check. You then make a single melee attack against your target. The attack is also part of this maneuver. If your Concentration check succeeds, the target is flat-footed against your attack, and you deal an extra 1d6 points of damage. If your check fails, your attack is made with a -2 penalty and deals normal damage.
+USERPOOL:Martial Study Diamond Mind Maneuver|POOLPOINTS:0.0
+ABILITY:Martial Study Discipline|TYPE:NORMAL|CATEGORY:Internal|KEY:Martial Study Novice ~ Diamond Mind Internal|APPLIEDTO:|TYPE:Martial Study Discipline|DESC:You have learned to focus your ki and perfect the form needed to use one Diamond Mind maneuver as a novice of martial techniques. You can use this maneuver once per encounter as a martial adept with an initiator level equal to 1/2 your non-adept class levels (plus your martial adept class levels, should you gain any at a later point). Maneuvers learned through this feat can not be recovered during an encounter and can not be exchanged as part of adept class levelups.&amp;nl;Diamond Mind's key skill, concentration, is now a class skill for all your classes (current and future).&amp;nl; Special&colon; You can take this feat up to three times and can select the same discipline multiple times.&amp;nl; Special&colon; A fighter can select Martial Study as a bonus feat.
+USERPOOL:Martial Study Discipline|POOLPOINTS:0.0
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Rule - Use ECL Level Buy Down|TYPE:MiscOptions
+USERPOOL:Misc Options|POOLPOINTS:0.0
+ABILITY:Planar Touchstones|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Catalogues Of Enlightenment|APPLIEDTO:|TYPE:SpecialQuality.PlanarTouchstone
+USERPOOL:Planar Touchstones|POOLPOINTS:0.0
+ABILITY:Race Base|TYPE:NORMAL|CATEGORY:Internal|KEY:Human / PH|TYPE:Race Base|DESC:Default Player's Handbook version of the race
+USERPOOL:Race Base|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Human Region ~ Custom Campaign|TYPE:Region.FaerunRegion|DESC:Use for default racial features when loading sources that use Regions
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Acrobatic Backstab|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:If you succeed on a Tumble check t move tthrough an enemy's space, you can treat that enemy as flat-footed against the next melee attack you make against it on your current turn.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Back on Your Feet|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:If you fall prone for any reason, you can stand up as an immediate action without provoking attacks of opportunity.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Group Fake Out|TYPE:ST.SpecialQuality.SkillTrick.Interaction|DESC:You can use Bluff to feint in combat (PH 68) against more than one opponent. Make on Bluff check opposed by separate Sense Motive checks for each opponent. For each opponent after the first that you wish to affect, you take a cumulative -2 penalty on your Bluff check.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Timely Misdirection|TYPE:ST.SpecialQuality.SkillTrick.Interaction|DESC:If you succeed on a Bluff check to feint in combat (PH 68), your opponent can't make any attacks of opportunity against you until the start of its next turn. This effect is in addition to the normal benefits of a successful feint.
+USERPOOL:Skill Tricks|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Axe (Throwing)|WEAPON:Bash|WEAPON:Battle Gauntlet|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)]
+WEAPONPROF:[WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dart Thruster|WEAPON:Darts (Barbed)|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet]
+WEAPONPROF:[WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Goblin Stick|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Halfspear]
+WEAPONPROF:[WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Ice Axe|WEAPON:Javelin|WEAPON:Katana|WEAPON:Kukri|WEAPON:Lance|WEAPON:Lance (Flight)|WEAPON:Lance (Heavy)|WEAPON:Longbow]
+WEAPONPROF:[WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Morningstar|WEAPON:Pick (Dire)|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)]
+WEAPONPROF:[WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Saber|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash|WEAPON:Shortbow]
+WEAPONPROF:[WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Strike (Unarmed)|WEAPON:Sword (Bastard)|WEAPON:Sword (Cutlass)]
+WEAPONPROF:[WEAPON:Sword (Saber)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Truncheon|WEAPON:Unarmed Strike|WEAPON:Wakizashi|WEAPON:Warhammer|WEAPON:Warmace]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Bag (Coin)|OUTPUTORDER:0|COST:0.05|WT:0.25|QUANTITY:1.0|NOTE:
+EQUIPNAME:Belt, Battle Dancer's|OUTPUTORDER:6|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Battle Dancer's)|DATA:NAME=Belt, Battle Dancer's$KEY=Belt (Battle Dancer's)]
+EQUIPNAME:Cloak of Charisma +6|OUTPUTORDER:7|COST:36000|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Coin (Copper)|OUTPUTORDER:11|COST:0.01|WT:0.02|QUANTITY:5.0|NOTE:
+EQUIPNAME:Coin (Gold)|OUTPUTORDER:9|COST:1|WT:0.02|QUANTITY:349.0|NOTE:
+EQUIPNAME:Coin (Silver)|OUTPUTORDER:10|COST:0.1|WT:0.02|QUANTITY:9.0|NOTE:
+EQUIPNAME:Nightstick|OUTPUTORDER:8|COST:7500|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Signet Ring ( Skill Bonus (Competence) (Iaijutsu Focus +10))|OUTPUTORDER:2|COST:10005.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Signet Ring|DATA:NAME=Signet Ring ( Skill Bonus (Competence) (Iaijutsu Focus +10))$EQMOD=BNS_SKL_CMP&pipe;Iaijutsu Focus=+10]
+EQUIPNAME:Signet Ring ( Skill Bonus (Competence) (Tumble +10))|OUTPUTORDER:3|COST:10005.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Signet Ring|DATA:NAME=Signet Ring ( Skill Bonus (Competence) (Tumble +10))$EQMOD=BNS_SKL_CMP&pipe;Tumble=+10]
+EQUIPNAME:Strongarm Bracers|OUTPUTORDER:1|COST:6000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Sword, Bastard (Huge/Six Handed Modification)|OUTPUTORDER:4|COST:140.0|WT:30.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sword (Bastard)|DATA:NAME=Sword, Bastard (Huge/Six Handed Modification)$KEY=Sword (Bastard/Huge/Six Handed Modification)$SIZE=H$EQMOD=STEEL.HAND6MOD]
+EQUIPNAME:Truedeath Crystal (Lesser)|OUTPUTORDER:5|COST:5000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Arms|ID:0.1.01|VALUE:Strongarm Bracers|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Waist|ID:0.1.03|VALUE:Belt, Battle Dancer's|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.04|VALUE:Cloak of Charisma +6|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.05|VALUE:Signet Ring ( Skill Bonus (Competence) (Iaijutsu Focus +10))|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.06|VALUE:Signet Ring ( Skill Bonus (Competence) (Tumble +10))|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.07|VALUE:Sword, Bastard (Huge/Six Handed Modification)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Sword, Bastard (Huge/Six Handed Modification)|ID:0.1.07.01|VALUE:Truedeath Crystal (Lesser)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.09|VALUE:Nightstick|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.10|VALUE:Bag (Coin)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag (Coin)|ID:0.1.10.01|VALUE:Coin (Gold)|QUANTITY:349.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.11|VALUE:Coin (Silver)|QUANTITY:9.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.12|VALUE:Coin (Copper)|QUANTITY:5.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

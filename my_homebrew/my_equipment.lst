@@ -113,3 +113,6 @@ Greatsword ~ Eight Hands.MOD	WIELD:TwoHanded	SIZE:M	SOURCEPAGE:Savage Species pa
 
 Chitin Plating +1.MOD				BONUS:COMBAT|AC|1|NaturalArmor.STACK
 
+
+
+Nightstick.MOD			ABILITY:FEAT|VIRTUAL|Extra Turning

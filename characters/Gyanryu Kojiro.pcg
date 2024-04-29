@@ -1,0 +1,258 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Gyanryu Kojiro
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:21
+STAT:DEX|SCORE:18
+STAT:CON|SCORE:16
+STAT:INT|SCORE:16
+STAT:WIS|SCORE:16
+STAT:CHA|SCORE:18
+ALIGN:CG
+RACE:Human
+
+# Character Class(es)
+CLASS:Ex Samurai|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Ronin|LEVEL:10|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Warblade|LEVEL:1|SKILLPOOL:0|SPELLBASE:WIS|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Ex Samurai=1|HITPOINTS:10|SKILLSGAINED:20|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ronin=1|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ronin=2|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ronin=3|HITPOINTS:10|PRESTAT:STR=1|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ronin=4|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ronin=5|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ronin=6|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ronin=7|HITPOINTS:10|PRESTAT:STR=1|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ronin=8|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ronin=9|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ronin=10|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warblade=1|HITPOINTS:12|PRESTAT:STR=1|PRESTAT:CON=-2|PRESTAT:CHA=2|SKILLSGAINED:8|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:66000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Humanoid]]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Not Listed]
+TEMPLATESAPPLIED:[NAME:First Level ~ Not Listed|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
+TEMPLATESAPPLIED:[NAME:Insectile]
+TEMPLATESAPPLIED:[NAME:RaceSubtype ~ Augmented Humanoid]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+TEMPLATESAPPLIED:[NAME:Human Base]
+TEMPLATESAPPLIED:[NAME:Favored Class ~ HIGHESTLEVELCLASS]
+TEMPLATESAPPLIED:[NAME:Human Region ~ Custom Campaign]
+TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
+TEMPLATESAPPLIED:[NAME:Combat Expertise trade off]
+
+# Character Region
+REGION:Custom Campaign
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Ronin|RANKS:10.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Ex Samurai|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warblade|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Metalworking)|CLASSBOUGHT:[CLASS:Ex Samurai|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Craft (Weaponsmithing)|OUTPUTORDER:8|CLASSBOUGHT:[CLASS:Ronin|RANKS:4.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Ex Samurai|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy|OUTPUTORDER:9|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:10|
+SKILL:Disguise|OUTPUTORDER:11|
+SKILL:Escape Artist|OUTPUTORDER:12|
+SKILL:Forgery|OUTPUTORDER:13|
+SKILL:Gather Information|OUTPUTORDER:14|
+SKILL:Heal|OUTPUTORDER:15|
+SKILL:Hide|OUTPUTORDER:16|
+SKILL:Hide (Forested Areas)|OUTPUTORDER:17|
+SKILL:Iaijutsu Focus|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Ronin|RANKS:10.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Ex Samurai|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warblade|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Ex Samurai|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:20|
+SKILL:Jump|OUTPUTORDER:21|
+SKILL:Knowledge (Untrained)|OUTPUTORDER:22|
+SKILL:Listen|OUTPUTORDER:23|
+SKILL:Literacy|OUTPUTORDER:24|
+SKILL:Move Silently|OUTPUTORDER:25|
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:26|
+SKILL:Ride|OUTPUTORDER:27|
+SKILL:Search|OUTPUTORDER:28|
+SKILL:Sense Motive|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Ronin|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Ex Samurai|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Skill Trick|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Ex Samurai|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:31|
+SKILL:Survival|OUTPUTORDER:32|
+SKILL:Swim|OUTPUTORDER:33|
+SKILL:Tumble|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Ronin|RANKS:9.5|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Ex Samurai|RANKS:-2.5|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Warblade|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Rope|OUTPUTORDER:35|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Elven|LANGUAGE:Giant|LANGUAGE:Undercommon
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Undercommon,Elven,Giant|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Undercommon,Elven,Giant|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Undercommon,Elven,Giant|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
+USERPOOL:ECL Buy Down|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Expertise|TYPE:General.Fighter.AttackOption.ModifyAC.IajutsuMasterBonusFeat.ChampionOfTheWild.DivineChampion.ShadowThief|DESC:You are trained at using your combat skill for defense as well asoffense.|DESC:You cannot use this feat while raging&pipe;PREVARGT&colon;0,RageTimes
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Cosmopolitan|APPLIEDTO:Iaijutsu Focus|TYPE:|DESC:Chosen skill is now a class skill
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Trip|TYPE:General.Fighter.AttackOption.IajutsuMasterBonusFeat.ChampionOfTheWild.ViolentKnowledge|DESC:You are trained not only in tripping opponents safely but also in following through with an attack.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Knock-Down|TYPE:General|DESC: Whenever you deal 10 or more points of damage to your opponent in melee, you make a trip attack as a free action against the same target.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Martial Stance|TYPE:General.Fighter|DESC:You have mastered the fundamentals of a martial discipline, and you are now able to master one of its stances.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Martial Study|APPLIEDTO:|TYPE:General.Fighter|DESC:By studying the basics of a martial discipline, you learn to focus your ki and perfect the form needed to use a maneuver. As a result, you gain the use of a combat maneuver.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Monkey Grip ~ Fixed|TYPE:General|DESC:You may wield weapons as if you were one size larger, but at a -2 penalty.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:,|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Weak Will|TYPE:Flaws.SpecialQuality|DESC:You are highly suggestible and easily duped.
+USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Internal|KEY:Human Ethnicity ~ None|TYPE:Human Ethnicity.Faerun Ethnicity|DESC:You have no Ethnicity.
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Martial Stance|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Martial Study Adept ~ Assassin's Stance|TYPE:SpecialAttack.Shadow Hand Stance.Martial Stance.Stance.Shadow Hand.Shadow Hand Discipline|DESC:As your foe struggles to regain his defensive posture, you line up an exacting strike that hits with superior accuracy and deadly force. A shadow cast by a gap between two armored plates or a crease in a creature's thick hide calls to your weapon, allowing you to strike with deadly accuracy against an unprepared opponent. While you are in this stance, you gain the sneak attack ability, if you do not already have it, which deals an extra 2d6 points of damage. If you already have the sneak attack class feature, your existing sneak attack ability deals an extra 2d6 points of damage. See the rogue class feature (PH 50) for a complete description of sneak attack.
+USERPOOL:Martial Stance|POOLPOINTS:0.0
+ABILITY:Martial Study Discipline|TYPE:NORMAL|CATEGORY:Internal|KEY:Martial Study Adept ~ Shadow Hand Internal|APPLIEDTO:|TYPE:Martial Study Discipline|DESC:You have learned to focus your ki and perfect the form needed to add one Shadow Hand maneuver to your list of known maneuvers. You can use and recover this maneuver like any other of your kown known maneuvers, but it can not be exchanged as part of adept class levelups.&amp;nl;Shadow Hand's key skill, hide, is now a class skill for all your classes (current and future).&amp;nl; Special&colon; You can take this feat up to three times and can select the same discipline multiple times.&amp;nl; Special&colon; A fighter can select Martial Study as a bonus feat.
+USERPOOL:Martial Study Discipline|POOLPOINTS:0.0
+ABILITY:Martial Study Shadow Hand Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Martial Study Adept ~ Shadow Stride|TYPE:SpecialAttack.Martial Study Shadow Hand Maneuver.Shadow Hand.Shadow Hand.Shadow Hand Discipline.Shadow Hand Maneuver|DESC:You dissipate into a puff of black shadow. A moment later, the shadow coalesces, and you appear fifty feet away. This maneuver functions as the shadow jaunt maneuver, except that it can be initiated as a move action.
+USERPOOL:Martial Study Shadow Hand Maneuver|POOLPOINTS:0.0
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Rule - Use ECL Level Buy Down|TYPE:MiscOptions
+USERPOOL:Misc Options|POOLPOINTS:0.0
+ABILITY:Race Base|TYPE:NORMAL|CATEGORY:Internal|KEY:Human / PH|TYPE:Race Base|DESC:Default Player's Handbook version of the race
+USERPOOL:Race Base|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Human Region ~ Custom Campaign|TYPE:Region.FaerunRegion|DESC:Use for default racial features when loading sources that use Regions
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Acrobatic Backstab|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:If you succeed on a Tumble check t move tthrough an enemy's space, you can treat that enemy as flat-footed against the next melee attack you make against it on your current turn.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Nimble Stand|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:You can stand up from prone without provoking attacks of opportuniy.
+USERPOOL:Skill Tricks|POOLPOINTS:0.0
+ABILITY:Warblade Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Warblade Martial Discipline ~ Disarming Strike|TYPE:SpecialAttack.Iron Heart.Iron Heart Discipline.Warblade Martial Maneuver.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike.Martial Study Iron Heart Maneuver|DESC:You chop at your foe's hand, causing a grievous injury and forcing him to drop his weapon. This maneuver allows you to combine a disarm attempt with a normal attack. You make a single melee attack as part of this strike. If this attack hits and deals damage, you can also attempt to disarm your opponent (PH 155). This disarm attempt does not provoke attacks of opportunity, nor is there any risk that your foe can disarm you.
+ABILITY:Warblade Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Warblade Martial Discipline ~ Lightning Recovery|TYPE:SpecialAttack.Iron Heart.Iron Heart Discipline.Warblade Martial Maneuver.Iron Heart Maneuver.Maneuver.Martial Maneuver.Counter.Martial Study Iron Heart Maneuver.Strike|DESC:Your foe twists out of the way of your initial attack, but your weapon becomes a blur as you reverse direction and strike at him again with lightning speed. In the blink of an eye, you complete your attack and resume your defensive posture. This maneuver embodies the ethos of speed and energy that the Iron Heart tradition teaches. If one of your melee attacks misses, you can initiate this maneuver to reroll that attack roll with a +2 bonus.
+ABILITY:Warblade Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Warblade Martial Discipline ~ Sapphire Nightmare Blade|TYPE:SpecialAttack.Diamond Mind.Diamond Mind Discipline.Warblade Martial Maneuver.Diamond Mind Maneuver.Maneuver.Martial Maneuver.Strike|DESC:Your study your enemy for a brief moment, watching his defensive maneuvers and making a strike timed to take advantage of a lull in his vigilance. The sapphire nightmare blade is one of the most basic, but important, maneuvers that a Diamond Mind adept studies. It illustrates that a keen mind can pierce even the toughest defenses. You attempt a Concentration check as part of this maneuver, using the target creature's AC as the DC of the check. You then make a single melee attack against your target. The attack is also part of this maneuver. If your Concentration check succeeds, the target is flat-footed against your attack, and you deal an extra 1d6 points of damage. If your check fails, your attack is made with a -2 penalty and deals normal damage.
+USERPOOL:Warblade Maneuver|POOLPOINTS:0.0
+ABILITY:Warblade Stance|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Warblade Martial Discipline ~ Absolute Steel|TYPE:SpecialAttack.Iron Heart.Iron Heart Discipline.Iron Heart Stance.Warblade Martial Stance.Stance.Martial Study Iron Heart Maneuver.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike|DESC:You shift your weight to the back of your feet and hold your blade carefully forward at the ready. Your muscles twitch slightly as you prepare to dodge the next attack you face. The absolute steel stance allows you to enhance your mobility and speed. You move quickly, keep a sharp eye on your enemies, and are ready to instantly sidestep any incoming attacks. While you are in this stance, you gain a +10-foot enhancement bonus to your speed. If you move at least 10 feet during your turn, you gain a +2 dodge bonus to AC until the beginning of your next turn.
+USERPOOL:Warblade Stance|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Axe (Throwing)|WEAPON:Bash|WEAPON:Battle Gauntlet|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)]
+WEAPONPROF:[WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dart Thruster|WEAPON:Darts (Barbed)|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet]
+WEAPONPROF:[WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Goblin Stick|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Halfspear]
+WEAPONPROF:[WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Ice Axe|WEAPON:Javelin|WEAPON:Katana|WEAPON:Kukri|WEAPON:Lance|WEAPON:Lance (Flight)|WEAPON:Lance (Heavy)|WEAPON:Longbow]
+WEAPONPROF:[WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Morningstar|WEAPON:Pick (Dire)|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)]
+WEAPONPROF:[WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Saber|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash|WEAPON:Shortbow]
+WEAPONPROF:[WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Strike (Unarmed)|WEAPON:Sword (Bastard)|WEAPON:Sword (Cutlass)]
+WEAPONPROF:[WEAPON:Sword (Saber)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Truncheon|WEAPON:Unarmed Strike|WEAPON:Wakizashi|WEAPON:Warhammer|WEAPON:Warmace]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Belt, Monk's|OUTPUTORDER:7|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Monk's)|DATA:NAME=Belt, Monk's$KEY=Belt (Monk's)]
+EQUIPNAME:Broom of Flying|OUTPUTORDER:0|COST:17000|WT:3.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Coin (Gold)|OUTPUTORDER:0|COST:1|WT:0.02|QUANTITY:170.0|NOTE:
+EQUIPNAME:Eternal Chronocharm of the Horizon Walker|OUTPUTORDER:8|COST:2500|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chronocharm of the Horizon Walker|DATA:NAME=Eternal Chronocharm of the Horizon Walker$SPROP=Spend a Swift Action to move up to your movement.  This is a Chronocharm of the Horizon Walker (MIC 86) with the cost ajusted from 1/day to at-will.$COSTMOD=2000]
+EQUIPNAME:Headband ( Skill Bonus (Competence) (Iaijutsu Focus +15))|OUTPUTORDER:1|COST:22500.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Headband|DATA:NAME=Headband ( Skill Bonus (Competence) (Iaijutsu Focus +15))$EQMOD=BNS_SKL_CMP&pipe;Iaijutsu Focus=+15]
+EQUIPNAME:Signet Ring ( Skill Bonus (Competence) (Concentration +10))|OUTPUTORDER:5|COST:10005.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Signet Ring|DATA:NAME=Signet Ring ( Skill Bonus (Competence) (Concentration +10))$EQMOD=BNS_SKL_CMP&pipe;Concentration=+10]
+EQUIPNAME:Signet Ring ( Skill Bonus (Competence) (Tumble +10))|OUTPUTORDER:6|COST:10005.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Signet Ring|DATA:NAME=Signet Ring ( Skill Bonus (Competence) (Tumble +10))$EQMOD=BNS_SKL_CMP&pipe;Tumble=+10]
+EQUIPNAME:Spool of Endless Rope|OUTPUTORDER:0|COST:1400|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Strongarm Bracers|OUTPUTORDER:2|COST:6000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Sword, Bastard (Gargantuan/Six Handed Modification)|OUTPUTORDER:3|COST:280.0|WT:48.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sword (Bastard)|DATA:NAME=Sword, Bastard (Gargantuan/Six Handed Modification)$KEY=Sword (Bastard/Gargantuan/Six Handed Modification)$SIZE=G$EQMOD=STEEL.HAND6MOD]
+EQUIPNAME:Sword, Bastard (Huge/Six Handed Modification)|OUTPUTORDER:9|COST:140.0|WT:30.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sword (Bastard)|DATA:NAME=Sword, Bastard (Huge/Six Handed Modification)$KEY=Sword (Bastard/Huge/Six Handed Modification)$SIZE=H$EQMOD=STEEL.HAND6MOD]
+EQUIPNAME:Truedeath Crystal (Lesser)|OUTPUTORDER:4|COST:5000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Arms|ID:0.1.01|VALUE:Strongarm Bracers|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.02|VALUE:Sword, Bastard (Gargantuan/Six Handed Modification)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Sword, Bastard (Gargantuan/Six Handed Modification)|ID:0.1.02.01|VALUE:Truedeath Crystal (Lesser)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.04|VALUE:Sword, Bastard (Huge/Six Handed Modification)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.05|VALUE:Signet Ring ( Skill Bonus (Competence) (Concentration +10))|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.06|VALUE:Signet Ring ( Skill Bonus (Competence) (Tumble +10))|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Waist|ID:0.1.07|VALUE:Belt, Monk's|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.08|VALUE:Eternal Chronocharm of the Horizon Walker|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Head|ID:0.1.09|VALUE:Headband ( Skill Bonus (Competence) (Iaijutsu Focus +15))|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+TEMPBONUS:FEAT=Assassin's Stance Active|TBTARGET:PC|TBBONUS:VAR&pipe;SNEAKATTACKDICE&pipe;2
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+SPELLNAME:Absolute Steel|TIMES:1|CLASS:Warblade|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Warblade]
+SPELLNAME:Assassin's Stance|TIMES:1|CLASS:Warblade|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Warblade]
+SPELLNAME:Disarming Strike|TIMES:1|CLASS:Warblade|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Warblade]
+SPELLNAME:Lightning Recovery|TIMES:1|CLASS:Warblade|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Warblade]
+SPELLNAME:Sapphire Nightmare Blade|TIMES:1|CLASS:Warblade|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Warblade]
+SPELLNAME:Shadow Stride|TIMES:1|CLASS:Warblade|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Warblade]
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

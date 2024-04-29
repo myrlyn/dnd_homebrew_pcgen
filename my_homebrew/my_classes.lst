@@ -345,4 +345,26 @@ CLASS:SPelldancer.MOD
 
 
 
-CLASS:Bloodstorm Blade.MOD		PRESKILL:1,Balance=8		PREABILITY:1,CATEGORY=FEAT,Point Blank Shot		PRETEXT:  1 iron heart stance and 1 iron heart maneuver
+CLASS:Bloodstorm Blade.MOD		PRESKILL:1,Balance=8		PREABILITY:1,CATEGORY=FEAT,Point Blank Shot		PRETEXT:  1 iron heart stance and 1 iron heart 
+
+
+
+
+
+
+
+CLASS:Iaijutsu Master		PREATT:6		PREALIGN:LE,LN,LG		PRESKILL:1,Iaijutsu Focus=9		PREABILITY:3,CATEGORY=FEAT,Improved Initiative,Quick Draw,Weapon Focus (Sword (Bastard))
+CLASS:Iaijutsu Master	HD:10	TYPE:PC.Prestige	FACT:ClassType|Prestige	FACT:Abb|IaM		SOURCEPAGE:Oriental Adventures, 41	STARTSKILLPTS:4		CSKILL:Balance|Climb|TYPE.Craft|Diplomacy|Escape Artist|Iaijutsu Focus|Jump|TYPE.Perform|TYPE.Profession|Ride|Sense Motive|Tumble
+CLASS:Iaijutsu Master	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3		ROLE:Combat
+1	ABILITY:Special Ability|AUTOMATIC|Iaijutsu Master ~ Weapon And Armor Proficiency			DEFINE:CannyDefenseLVL|0		BONUS:VAR|CannyDefenseLVL|CL
+1	ABILITY:Special Ability|AUTOMATIC|Iaijutsu Master ~ Weapon Finesse
+1	ABILITY:Special Ability|AUTOMATIC|Iaijutsu Master ~ Canny Defense
+2	ABILITY:Special Ability|AUTOMATIC|Iaijutsu Master ~ Lightning Blade
+4	ABILITY:Special Ability|AUTOMATIC|Iaijutsu Master ~ Bonus Feat
+5	ABILITY:Special Ability|AUTOMATIC|Iaijutsu Master ~ Strike From The Void
+8	ABILITY:Special Ability|AUTOMATIC|Iaijutsu Master ~ One Srike Two Cuts
+9	ABILITY:Special Ability|AUTOMATIC|Iaijutsu Master ~ Bonus Feat
+10	ABILITY:Special Ability|AUTOMATIC|Iaijutsu Master ~ Strike With No Thought
+
+
+CLASS:Ronin.MOD				DEFINE:RoninSneakAttackLVL|0			
