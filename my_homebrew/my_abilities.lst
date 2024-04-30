@@ -2866,6 +2866,7 @@ Greater Ability Not Charged				CATEGORY:Special Ability		TYPE:GreaterPlanarTouch
 
 Fix Fire Turn Levels	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Some combonations end up doubling fire turn levels and times		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:VAR|TurnFireTimes|0-CHA-3			BONUS:VAR|TurnLevelFire|0-TL		COST:0
 
+Catalogues of Enlightenment (Knowledge)		CATEGORY:Special Ability		TYPE:CataloguesOfEnlightenment.SpecialQuality		DESC:You gain the granted power of the Knowledge Domain.				ABILITY:Domain|AUTOMATIC|Domain Power ~ Knowledge				CSKILL:TYPE.Knowledge
 
 
 
@@ -2917,3 +2918,25 @@ Strike With No Thought		KEY:Iaijutsu Master ~ Strike With No Thought		CATEGORY:S
 
 
 Iaijutsu Focus		KEY:Iaijutsu Focus Output			CATEGORY:Special Ability		TYPE:SpecialAttack	DESC:If you attack a flat-footed opponent immediately after drawing a melee weapon, you can deal extra damage, based on the result ofan Iaijutsu Focus check. In addition, if you and your opponent both agree to participate in a formal iaijutsu duel, your Iaijutsu Focus check replaces your initiative check for the ensuing combat. In an iaijutsu duel (see Chapter 6), you and your opponent make opposed Iaijutsu Focus checks, and the winner accumulates extra damage dice according to the accompanying table. You can also use Iaijutsu Focus in preparation for striking an inanimate object, assuming no distractions. Your extra damage is halved, just like your ordinary damage. This is the technique martial artists use to shatter objects.  A roll of 10-14 provides 1d6 additional damage.  Every 4 points adds another 1d6 to a maximum of 9d6 when rolling 50+		SOURCEPAGE:Oriental Adventures, 58
+
+
+
+Improve Wild Shape Level			KEY:Wild Shape Amulet ~ Improve Wild Shape Level		BONUS:VAR|DruidWildShapeLVL|4			PREABILITY:1,CATEGORY=Special Ability,TYPE=Wild Shape		CATEGORY:Special Ability		TYPE:WildShapeAmulet
+
+Grant Wild shape					KEY:Wild Shape Amulet ~ Grant Wild Shape		BONUS:VAR|DruidWildShapeLVL|4		ABILITY:Special Ability|AUTOMATIC|Druid ~ Wild Shape	!PREABILITY:1,CATEGORY=Special Ability,TYPE=Wild Shape		BONUS:VAR|DruidWildShapeLVL|min(0,5-DruidLVL)				CATEGORY:Special Ability		TYPE:WildShapeAmulet
+
+
+
+
+Improve Wild Shape Level			KEY:Kaletor Skin ~ Improve Wild Shape Level		BONUS:VAR|DruidWildShapeLVL|4			PREABILITY:1,CATEGORY=Special Ability,TYPE=Wild Shape		CATEGORY:Special Ability		TYPE:KaletorSkin
+
+Grant Wild shape					KEY:Kaletor Skin ~ Grant Wild Shape		BONUS:VAR|DruidWildShapeLVL|4		ABILITY:Special Ability|AUTOMATIC|Druid ~ Wild Shape	!PREABILITY:1,CATEGORY=Special Ability,TYPE=Wild Shape		BONUS:VAR|DruidWildShapeLVL|min(0,5-DruidLVL)				CATEGORY:Special Ability		TYPE:KaletorSkin
+
+
+
+
+CATEGORY=FEAT|Assume Supernatural Ability.MOD			MULT:YES		STACK:NO		CHOOSE:ABILITY|Special Ability|TYPE=Supernatural
+
+
+
+Frozen Wild Shape		CATEGORY:FEAT		TYPE:General.Wild			PRECHECKBASE:1,Fortitude=6			PREABILITY:1,CATEGORY=Special Ability,TYPE=Wild Shape		BENEFIT:You may use your wild shape ability to assume the form of any magical beast with the cold subtype. Your new form must still fall within the size limitations of your wild shape ability. As with the standard wild shape ability, you do not gain any of the extraordinary special qualities or any supernatural abilities possessed by the new form, with the exception of the cold subtype. This subtype grants you immunity to cold but vulnerability to fire, which means you take half again as much (+50%) damage as normal fromfirewhile in a frozen wild shape, regardless of whether a saving throw is allowed, or if the save is a success or failure. Possible cold magical beasts from the Monster Manual include cryohydras (Huge wild shape required), frost worms (Huge wild shape required), and winter wolves. Possible cold magical beasts from Monster Manual II include frost salamanders. Possible cold magical beasts from this book include brantas (Large wild shape required), ice toads (Large wild shape required), urskans (Large wild shape required), and tlalusks (Huge wild shape required).			DESC:You may use your wild shape ability to assume the form of any magical beast with the cold subtype. Your new form must still fall within the size limitations of your wild shape ability. As with the standard wild shape ability, you do not gain any of the extraordinary special qualities or any supernatural abilities possessed by the new form, with the exception of the cold subtype. This subtype grants you immunity to cold but vulnerability to fire, which means you take half again as much (+50%) damage as normal fromfirewhile in a frozen wild shape, regardless of whether a saving throw is allowed, or if the save is a success or failure. Possible cold magical beasts from the Monster Manual include cryohydras (Huge wild shape required), frost worms (Huge wild shape required), and winter wolves. Possible cold magical beasts from Monster Manual II include frost salamanders. Possible cold magical beasts from this book include brantas (Large wild shape required), ice toads (Large wild shape required), urskans (Large wild shape required), and tlalusks (Huge wild shape required).		SOURCEPAGE:Frostburn

@@ -116,3 +116,10 @@ Chitin Plating +1.MOD				BONUS:COMBAT|AC|1|NaturalArmor.STACK
 
 
 Nightstick.MOD			ABILITY:FEAT|VIRTUAL|Extra Turning
+
+Wild Shape Amulet.MOD					PRECLASS:1,Druid=1,Ranger=1			BONUS:ABILITYPOOL|Wild Shape Amulet|1
+
+
+Skin of Kaletor			SOURCEPAGE:Dragon 324, p 75		DESC:Bearskin cloak with Bear head forming hood.  -6 on charisma checks and wild empathy					BONUS:SKILL|TYPE=Charisma|-6|!PREVARGTEQ:NoScent,1	BONUS:VAR|WildEmpathyBonus|-6|!PREVARGTEQ:NoScent,1			BONUS:ABILITYPOOL|Skin of Kaletor|1			COST:12000
+
+Bloodhound's Frustration			TYPE:Ring.Finger.BodySlot_Ring.Magic			COST:3000		DESC:Removes all scent from you.  		DEFINE:NoScent|0	BONUS:VAR|NoScent|1

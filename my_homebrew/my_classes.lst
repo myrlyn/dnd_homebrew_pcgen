@@ -368,3 +368,7 @@ CLASS:Iaijutsu Master	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=B
 
 
 CLASS:Ronin.MOD				DEFINE:RoninSneakAttackLVL|0			
+
+
+CLASS:Master of Many Forms.MOD				
+1	ABILITY:Special Ability|AUTOMATIC|Druid ~ Wild Shape
