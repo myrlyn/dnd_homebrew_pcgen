@@ -374,23 +374,22 @@ CLASS:Master of Many Forms.MOD
 1	ABILITY:Special Ability|AUTOMATIC|Druid ~ Wild Shape
 
 
+CLASS:Nature's Warrior.MOD			DEFINE:NaturesWarriorWildshapeLevel|0		BONUS:VAR|NaturesWarriorWildshapeLevel|CL		BONUS:VAR|PlanarShepherdLVL|NaturesWarriorWildshapeLevel		BONUS:MasterofManyFormsLVL|NaturesWarriorWildshapeLevel		BONUS:DruidWildShapeLVL|NaturesWarriorWildshapeLevel|PREVARLT:MasterofManyFormsLVL,1
 
 
-
+CLASS:Planar Shepherd		DEFINE:PlanarShepherdLVL|0		BONUS:VAR|PlanarShepherdLVL|CL
 CLASS:Planar Shepherd		PREATT:6		PREALIGN:LE,LN,LG		PRESKILL:1,Iaijutsu Focus=9		PREABILITY:3,CATEGORY=FEAT,Improved Initiative,Quick Draw,Weapon Focus (Sword (Bastard))
 CLASS:Planar Shepherd	HD:10	TYPE:PC.Prestige	FACT:ClassType|Prestige	FACT:Abb|IaM		SOURCEPAGE:Oriental Adventures, 41	STARTSKILLPTS:4		CSKILL:Balance|Climb|TYPE.Craft|Diplomacy|Escape Artist|Iaijutsu Focus|Jump|TYPE.Perform|TYPE.Profession|Ride|Sense Motive|Tumble
 CLASS:Planar Shepherd	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3		ROLE:Caster
-1	SAB:Planar Shepherd and Druid/Ranger Levels stack for determining your Animal Companion
-1	SAB:Planar Attunement
-1	SAB:Wild Shape: Your druid levels stack with yourplanar shepherd class levels for the purpose of determining the number of daily uses, the maximum HD and size (but not creature type), and the duration of your wild shape ability. At 3rd level, you are able to use wild shape to change into a magical beast native to your chosen plane, with the same size restrictions as for animal forms. For example, if you chose the plane of Fernia, you could become a zezir (Monster Manual III 205). This includes creatures whose type changes to magical beast as the result of applying a template (such as celestial or fiendish). When you attain 9th level, you become able to use wildshape to change into an elemental or outsider native to yourchosen plane, although it costs two of your daily uses of wild shape to do so. For example, if you chose the plane of Mabar, you could become a barghest. In addition to the normal effects of wild shape, you gain all the elemental or outsider'sextraordinary, supernatural, and spell-like abilities.
-2	SAB:Detect Manifest Zone
-3	SAB: WIld Shape Magical Beast
-4	SAB: Plane Shift 1/day
-5	SAB:Planar Bubble 1/day
-7	SAB:Intensify Manifest Zone
-8	SAB:Planeshift 2/day
-9	SAB:Wild Shape Elemental/outsider
-10	SAB:Planar Self
+1	SAB:Planar Shepherd and Druid/Ranger Levels stack for determining your Animal Companion			BONUS:VAR|AnimalCompanionLVL|CL
+1	ABILITY:Special Ability|AUTOMATIC|Planar Shepherd ~ Wild Shape
+1	BONUS:ABILITYPOOL|Planar Attunement|1
+2	ABILITY:Special Ability|AUTOMATIC|Palanar Shepherd ~ Detect Manifest Zone
+4	SPELLS:Innate|TIMES=1|CASTERLEVEL=8|Plane Shift
+5	ABILITY:Special Ability|AUTOMATIC|Planar Shepherd ~ Planar Bubble
+7	ABILITY:Special Ability|AUTOMATIC|Planar Shepherd ~ Intensify Manifest Zone
+8	SPELLS:Innate|TIMES=1|CASTERLEVEL=8|Plane Shift
+10	SAB:Planar Self			BONUS:VAR|PlanarBubbleTImes|2
 1:REPEATLEVEL:1				ADD:SPELLCASTER|Divine
 
 

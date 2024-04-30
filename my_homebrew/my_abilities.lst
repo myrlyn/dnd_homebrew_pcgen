@@ -2940,3 +2940,68 @@ CATEGORY=FEAT|Assume Supernatural Ability.MOD			MULT:YES		STACK:NO		CHOOSE:ABILI
 
 
 Frozen Wild Shape		CATEGORY:FEAT		TYPE:General.Wild			PRECHECKBASE:1,Fortitude=6			PREABILITY:1,CATEGORY=Special Ability,TYPE=Wild Shape		BENEFIT:You may use your wild shape ability to assume the form of any magical beast with the cold subtype. Your new form must still fall within the size limitations of your wild shape ability. As with the standard wild shape ability, you do not gain any of the extraordinary special qualities or any supernatural abilities possessed by the new form, with the exception of the cold subtype. This subtype grants you immunity to cold but vulnerability to fire, which means you take half again as much (+50%) damage as normal fromfirewhile in a frozen wild shape, regardless of whether a saving throw is allowed, or if the save is a success or failure. Possible cold magical beasts from the Monster Manual include cryohydras (Huge wild shape required), frost worms (Huge wild shape required), and winter wolves. Possible cold magical beasts from Monster Manual II include frost salamanders. Possible cold magical beasts from this book include brantas (Large wild shape required), ice toads (Large wild shape required), urskans (Large wild shape required), and tlalusks (Huge wild shape required).			DESC:You may use your wild shape ability to assume the form of any magical beast with the cold subtype. Your new form must still fall within the size limitations of your wild shape ability. As with the standard wild shape ability, you do not gain any of the extraordinary special qualities or any supernatural abilities possessed by the new form, with the exception of the cold subtype. This subtype grants you immunity to cold but vulnerability to fire, which means you take half again as much (+50%) damage as normal fromfirewhile in a frozen wild shape, regardless of whether a saving throw is allowed, or if the save is a success or failure. Possible cold magical beasts from the Monster Manual include cryohydras (Huge wild shape required), frost worms (Huge wild shape required), and winter wolves. Possible cold magical beasts from Monster Manual II include frost salamanders. Possible cold magical beasts from this book include brantas (Large wild shape required), ice toads (Large wild shape required), urskans (Large wild shape required), and tlalusks (Huge wild shape required).		SOURCEPAGE:Frostburn
+
+
+
+CATEGORY=Special Ability|Nature's Warrior ~ Wilding.MOD		
+
+
+
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		DEFINE:EffectiveWildTimesLVL|0
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		DEFINE:EffectiveWildTypesLVL|0	
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|EffectiveWildTypesLVL|DruidWildShapeLVL		
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeDuration|EffectiveWildDurationLVL	
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		DEFINE:EffectiveWildDurationLVL|0			
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|EffectiveWildTimesLVL|DruidWildShapeLVL		
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeTimes|-1|PREVARGTEQ:DruidWildShapeLVL,5		
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeTimes|1|PREVARGTEQ:EffectiveWildTimesLVL,5	
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeTimes|-1|PREVARGTEQ:DruidWildShapeLVL,6	
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeTimes|1|PREVARGTEQ:EffectiveWildTimesLVL,6	
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeTimes|-1|PREVARGTEQ:DruidWildShapeLVL,7	
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeTimes|1|PREVARGTEQ:EffectiveWildTimesLVL,7	
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeTimes|-1|PREVARGTEQ:DruidWildShapeLVL,10			
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeTimes|1|PREVARGTEQ:EffectiveWildTimesLVL,10		
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeTimes|-1|PREVARGTEQ:DruidWildShapeLVL,14		
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeTimes|1|PREVARGTEQ:EffectiveWildTimesLVL,14		
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeTimes|-1|PREVARGTEQ:DruidWildShapeLVL,18				
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeTimes|1|PREVARGTEQ:EffectiveWildTimesLVL,18	
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeElementalTimes|1|PREVARGTEQ:EffectiveWildTimesLVL,16|PREVARGTEQ:EffectiveWildTypesLVL,16	
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeElementalTimes|-1|PREVARGTEQ:DruidWildShapeLVL,16		
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeElementalTimes|-1|PREVARGTEQ:DruidWildShapeLVL,18	BONUS:VAR|WildShapeElementalTimes|1|PREVARGTEQ:EffectiveWildTimesLVL,18|PREVARGTEQ:EffectiveWildTypesLVL,16
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeElementalTimes|-1|PREVARGTEQ:DruidWildShapeLVL,20
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeElementalTimes|1|PREVARGTEQ:WildShapeElementalTimes,20|PREVARGTEQ:EffectiveWildTypesLVL,16
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeProgression|-1|PREVARGTEQ:DruidWildShapeLVL,5	BONUS:VAR|WildShapeProgression|1|PREVARGTEQ:EffectiveWildTypesLVL,5	
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeProgression|-1|PREVARGTEQ:DruidWildShapeLVL,8
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeProgression|1|PREVARGTEQ:EffectiveWildTypesLVL,8
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeProgression|-1|PREVARGTEQ:DruidWildShapeLVL,11
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeProgression|1|PREVARGTEQ:EffectiveWildTypesLVL,11
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeProgression|-1|PREVARGTEQ:DruidWildShapeLVL,12
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeProgression|1|PREVARGTEQ:EffectiveWildTypesLVL,12
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeProgression|-1|PREVARGTEQ:DruidWildShapeLVL,15
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeProgression|1|PREVARGTEQ:EffectiveWildTypesLVL,15
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeProgression|-1|PREVARGTEQ:DruidWildShapeLVL,16
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeProgression|1|PREVARGTEQ:EffectiveWildTypesLVL,16
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeProgression|-1|PREVARGTEQ:DruidWildShapeLVL,20
+CATEGORY=Internal|Wild Shape ~ Defines.MOD		BONUS:VAR|WildShapeProgression|1|PREVARGTEQ:EffectiveWildTypesLVL,20
+Wild Shape			KEY:Planar Shepherd ~ Wild Shape		CATEGORY:Special Ability	TYPE:SpecialQuality			DESC:Your druid levels stack with yourplanar shepherd class levels for the purpose of determining the number of daily uses, the maximum HD and size (but not creature type), and the duration of your wild shape ability.		DEFINE:PlanarShepherdProgression|0		BONUS:VAR|PlanarShepherdProgression|PlanarShepherdLVL					ABILITY:Special Ability|AUTOMATIC|Planar Shepherd ~ Magical Beast Wild Shape|PREVARGTEQ:PlanarShepherdProgression,3		ABILITY:Special Ability|AUTOMATIC|Planar Shepherd ~ Outsider Wild Shape|PREVARGTEQ:PlanarShepherdProgression,9
+
+Wild Shape			KEY:Planar Shepherd ~ Magical Beast Wild Shape		CATEGORY:Special Ability	TYPE:SpecialQuality			DESC:At 3rd level, you are able to use wild shape to change into a magical beast native to your chosen plane, with the same size restrictions as for animal forms. For example, if you chose the plane of Fernia, you could become a zezir (Monster Manual III 205). This includes creatures whose type changes to magical beast as the result of applying a template (such as celestial or fiendish).
+
+
+Wild Shape			KEY:Planar Shepherd ~ Outsider Wild Shape		CATEGORY:Special Ability	TYPE:SpecialQuality			DESC:When you attain 9th level, you become able to use wildshape to change into an elemental or outsider native to yourchosen plane, although it costs two of your daily uses of wild shape to do so. For example, if you chose the plane of Mabar, you could become a barghest. In addition to the normal effects of wild shape, you gain all the elemental or outsider'sextraordinary, supernatural, and spell-like abilities.
+
+
+
+
+Planar Attunement		KEY:Planar Shepherd ~ Planar Attunement			CATEGORY:Special Ability		TYPE:SpecialQuality.PlanarAttunement.Extraordinary		CHOOSE:USERINPUT		MULT:YES	STACK:NO	DESC:At 1st level, you must choosea single plane of existence other than the Material Plane,such as Irian the Eternal Day. Once selected, your planar shepherd features are forever attuned to this plane. Youcannot choose a plane with an alignment trait opposedto any component of your own alignment. For example,a neutral good planar shepherd cannot choose Fernia (because that plane is mildly evil-aligned).  You and your animal companion ignore any harmful effects derived from your chosen plane's elemental orenergy traits, as well as any natural environmental affects associated with the plane. For instance, if you are attuned to Risia, the Plain of Ice, you are not affected by the plane's cold temperatures; on Fernia, you do not take fire damage for being on a fire-dominant plane. You are also immune to the entrapping effects of planes such as Dolurrh. If you choose, you can share this benefit with a number of alliesequal to your class level; these allies must remain within 100 feet of you to gain this benefit.  This immunity does not extend to the plane's physical traits (including gravity and time), alignment traits, or magic traits.
+
+
+
+Detect Manifest Zone		KEY:Planar Shepherd ~ Detect Manifest Zone			CATEGORY:Special Ability		TYPE:SpecialQuality.SpellLike		DESC:Starting at 2nd level, you can use detect manifest zone (see page 150) at will.
+
+
+Planar Bubble				KEY:Planar Shepherd ~ Planar Bubble			CATEGORY:Special Ability		TYPE:SpecialQuality.Supernatural		DESC:Beginning at 5th level, onceper day you can create an area around yourself that emu-lates the environment of your chosen plane. This area mimics all traits of your chosen plane, including physicaltraits, elemental and energy traits, alignment traits, and magic traits. This area has a 20-foot radius and lasts aslong as you concentrate (up to a maximum of 1 hour perlevel) plus 1d10 rounds.		DEFINE:PlanarBubbleTimes|0		BONUS:VAR|PlanarBubbleTimes|1		ASPECT:NAME|Planar Bubble %1/Day|PlanarBubbleTimes
+
+Intensify Manifest Zone		KEY:Planar Shepherd ~ Intensify Manifest Zone			CATEGORY:Special Ability		TYPE:SpecialQuality.SpellLike		DESC:At 7th level, you can use intensify manifest zone (see page 151) once per day, using your divine caster level. You can affect only manifest zones of your chosen plane.
+
+Planar Self				CATEGORY:Special Ability		TYPE:SpecialQuality			DESC:At 10th level, you are a focus for the energies of your chosen plane. You become an outsider native to your chosen plane and gain damage reduction 10/magic. Whenever you are in a manifest zone of your chosen plane, you gain a +1 bonus to your caster level for all divine spells.				TEMPLATE:Planar Self
