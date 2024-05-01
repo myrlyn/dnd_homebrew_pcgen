@@ -1,0 +1,290 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Childe Roland
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:16
+STAT:DEX|SCORE:21
+STAT:CON|SCORE:16
+STAT:INT|SCORE:18
+STAT:WIS|SCORE:16
+STAT:CHA|SCORE:18
+ALIGN:NONE
+RACE:Human
+
+# Character Class(es)
+CLASS:Rogue|LEVEL:11|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Scout|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Rogue=1|HITPOINTS:6|SKILLSGAINED:52|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Scout=1|HITPOINTS:8|SKILLSGAINED:13|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=2|HITPOINTS:6|SKILLSGAINED:13|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=3|HITPOINTS:6|PRESTAT:DEX=1|SKILLSGAINED:13|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=4|HITPOINTS:6|SKILLSGAINED:13|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=5|HITPOINTS:6|SKILLSGAINED:13|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=6|HITPOINTS:6|SKILLSGAINED:13|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=7|HITPOINTS:6|PRESTAT:DEX=1|SKILLSGAINED:13|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=8|HITPOINTS:6|SKILLSGAINED:13|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=9|HITPOINTS:6|SKILLSGAINED:13|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=10|HITPOINTS:6|SKILLSGAINED:13|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=11|HITPOINTS:6|PRESTAT:DEX=1|SKILLSGAINED:13|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:66000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Humanoid]]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Rogue]
+TEMPLATESAPPLIED:[NAME:First Level ~ Rogue|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
+TEMPLATESAPPLIED:[NAME:Winged]
+TEMPLATESAPPLIED:[NAME:RaceSubtype ~ Augmented Humanoid]
+TEMPLATESAPPLIED:[NAME:Human Base]
+TEMPLATESAPPLIED:[NAME:Favored Class ~ HIGHESTLEVELCLASS]
+TEMPLATESAPPLIED:[NAME:Human Region ~ Custom Campaign]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+TEMPLATESAPPLIED:[NAME:Use Fractional BAB]
+TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
+
+# Character Region
+REGION:Custom Campaign
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Rogue|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Rogue|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Rogue|RANKS:14.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Alchemy)|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Rogue|RANKS:14.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Locksmithing)|OUTPUTORDER:8|CLASSBOUGHT:[CLASS:Scout|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Metalworking)|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Rogue|RANKS:14.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:10|
+SKILL:Craft (Weaponsmithing)|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Rogue|RANKS:14.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy|OUTPUTORDER:12|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:13|
+SKILL:Disguise|OUTPUTORDER:14|
+SKILL:Escape Artist|OUTPUTORDER:15|
+SKILL:Forgery|OUTPUTORDER:16|
+SKILL:Gather Information|OUTPUTORDER:17|
+SKILL:Heal|OUTPUTORDER:18|
+SKILL:Hide|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Hide (Forested Areas)|OUTPUTORDER:20|
+SKILL:Intimidate|OUTPUTORDER:21|
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:22|
+SKILL:Jump|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Rogue|RANKS:14.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (The Planes)|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Rogue|RANKS:12.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:25|
+SKILL:Listen|OUTPUTORDER:26|
+SKILL:Literacy|OUTPUTORDER:27|
+SKILL:Move Silently|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Rogue|RANKS:14.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:29|
+SKILL:Open Lock|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Ride|OUTPUTORDER:31|
+SKILL:Search|OUTPUTORDER:32|
+SKILL:Sense Motive|OUTPUTORDER:33|
+SKILL:Skill Trick|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Rogue|RANKS:7.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Sleight of Hand|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Rogue|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:36|
+SKILL:Survival|OUTPUTORDER:37|
+SKILL:Swim|OUTPUTORDER:38|
+SKILL:Tumble|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Rogue|RANKS:14.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Magic Device|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Rogue|RANKS:12.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Rope|OUTPUTORDER:41|
+
+# Character Languages
+LANGUAGE:Auran|LANGUAGE:Blink Dog|LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Undercommon
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Auran,Blink Dog,Undercommon,Draconic|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Auran,Blink Dog,Undercommon,Draconic|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Auran,Blink Dog,Undercommon,Draconic|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Auran,Blink Dog,Undercommon,Draconic|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Rogue ~ Fighter Bonus Feats|TYPE:ACF.RogueSneakAttack|DESC:The rogue who favors martial training over stealth and cunning can profit if she chooses her fights carefully.  Gain&colon; Bonus feats (as fighter).  Lose&colon; Sneak attack.
+USERPOOL:Alternate Class Feature|POOLPOINTS:0.0
+ABILITY:Apprentice Feat Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Apprentice ~ Spellcaster|APPLIEDTO:Use Magic Device,Knowledge (The Planes)|TYPE:ApprenticeChoice.SpecialQuality|DESC:A spellcaster mentor could be a priest of the character's religion, a teacher at a wizard's guild, or an inventor seeking a protege. Spellcaster mentors are not as useful as the other seven mentors for characters who cannot cast spells themselves. A spellcaster grants her apprentice a +2 competence bonus on Spellcraft checks. The tutelage of a spellcasting mentor grants additional benefits only if the apprentice shares the same class as his mentor. The apprentice only gains these benefits when he gains a level in this class; he retains all the other benefits of this feat (the bonus skills and the bonus on Spellcraft checks) regardless of what class he chooses to gain a level in. If the apprentice and his mentor are arcane spellcasters, he gains one additional spell known at 1st level. Wizards gain this spell in their spellbooks, and spontaneous casters such as sorcerers or bards gain an additional 1st-level spell beyond their normal number of spells known. As the apprentice gains levels, he is able to learn additional spellcasting techniques from his mentor; wizards can copy from their mentor's spellbook at no charge. Spellcasters who do not prepare spells (such as a bard or sorcerer) gain increased flexibility with the spells they know. Each time an apprentice gains another of these levels, he can choose to learn a new spell in place of one he already knows. The new spell's level must be the same as that of the spell being exchanged. If the character and his mentor are divine spellcasters who prepare spells (such as clerics, druids, paladins, or rangers), he can select one spell he knows as a preferred spell. This can be a spell of any level he can cast. Once per day, the apprentice can spontaneously cast a preferred spell by swapping out any prepared spell of an equal spell level. He can only have one preferred spell at a time, but each time he gains a level in the associated class, he can change his preferred spell to a different spell. Associated Skills&colon; Knowledge (any one), Use Magic Device.
+USERPOOL:Apprentice Feat Choice|POOLPOINTS:0.0
+ABILITY:Catalogues Of Enlightenemnt|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Catalogues of Enlightenment (Cold)|TYPE:CataloguesOfEnlightenment.SpecialQuality|DESC:You gain the granted power of the Cold Domain.
+USERPOOL:Catalogues Of Enlightenemnt|POOLPOINTS:0.0
+ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
+USERPOOL:ECL Buy Down|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Apprentice|TYPE:General.FirstLevel|DESC:A character with this feat has apprenticed himself to a master in order to speed his learning and bolster his skills. This feat must be taken at 1st level. Once you start gaining experience, your methods of learning are already too ingrained for you to be able to gain the benefits of a mentor-apprentice relationship.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Exotic Weapon Proficiency (Firearms)|TYPE:General.Fighter|DESC:You understand how to use firearms in combat.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Skirmish|TYPE:General.ScoutBonus|DESC:If you move at least 20 feet away from where you were at the start of your turn, your skirmish damage increases by 2d6 and your competence bonus to AC from skirmish improves by 2. Normal&colon; A scout's bonus damage and AC bonus apply if she moves at least 10 feet away from where she was at the start of her turn (see the skirmish class feature in the sidebar on page 25). Special&colon; A scout can select Improved Skirmish as one of her scout bonus feats (Complete Adventurer 13).
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Martial Study|APPLIEDTO:|TYPE:General.Fighter|DESC:By studying the basics of a martial discipline, you learn to focus your ki and perfect the form needed to use a maneuver. As a result, you gain the use of a combat maneuver.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Monkey Grip ~ Fixed|TYPE:General|DESC:You may wield weapons as if you were one size larger, but at a -2 penalty.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Planar Touchstone|APPLIEDTO:|TYPE:General|DESC:Forge a link between you and power-rich planar locations, referred to as planar touchstones.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Quick Draw|TYPE:General.Fighter.DivineChampion.ViolentKnowledge|DESC:You can draw weapons with startling speed.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Swift Ambusher|TYPE:General|DESC:Your rogue and scout levels stack for the purpose of determining the extra damage and bonus to Armor Class granted when skirmishing.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Travel Devotion|APPLIEDTO:|TYPE:Domain|DESC:You can move quickly around the battlefield.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Rapid Shot|TYPE:General.Fighter.ChampionOfTheWildArchery
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Manyshot|TYPE:General.Fighter.AttackOption.ChampionOfTheWildArchery|DESC:You can fire multiple arrows simultaneously against a nearby target.
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Martial Stance|TYPE:General.Fighter|DESC:You have mastered the fundamentals of a martial discipline, and you are now able to master one of its stances.
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Point Blank Shot|TYPE:General.Fighter.AttackOption.ChampionOfTheWildArchery.ViolentKnowledge|DESC:You are skilled at making well-placed shots with ranged weapons at close range.
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Precise Shot|TYPE:General.Fighter.AttackOption.ChampionOfTheWildArchery.ViolentKnowledge|DESC:You are skilled at timing and aiming ranged attacks.
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Rapid Shot|TYPE:General.Fighter.AttackOption.ViolentKnowledge|DESC:You can use ranged weapons with exceptional speed.
+USERPOOL:Fighter Feat|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:,|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Noncombatant|TYPE:Flaws.SpecialQuality|DESC:You are relatively inept at melee combat.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Poor Reflexes|TYPE:Flaws.SpecialQuality|DESC:You often zig when you should have zagged.
+USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:BonusSneakAttackDice|APPLIEDTO:|TYPE:GM_Award.SpecialQuality|DESC:-2 all saving throws
+USERPOOL:GM Awards|POOLPOINTS:0.0
+ABILITY:Greater Planar Touchstones|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Greater Ability Not Charged|APPLIEDTO:|TYPE:GreaterPlanarTouchstone
+USERPOOL:Greater Planar Touchstones|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Internal|KEY:Human Ethnicity ~ None|TYPE:Human Ethnicity.Faerun Ethnicity|DESC:You have no Ethnicity.
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Martial Stance|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Martial Study Novice ~ Assassin's Stance|TYPE:SpecialAttack.Shadow Hand Stance.Martial Stance.Stance.Shadow Hand.Shadow Hand Discipline|DESC:As your foe struggles to regain his defensive posture, you line up an exacting strike that hits with superior accuracy and deadly force. A shadow cast by a gap between two armored plates or a crease in a creature's thick hide calls to your weapon, allowing you to strike with deadly accuracy against an unprepared opponent. While you are in this stance, you gain the sneak attack ability, if you do not already have it, which deals an extra 2d6 points of damage. If you already have the sneak attack class feature, your existing sneak attack ability deals an extra 2d6 points of damage. See the rogue class feature (PH 50) for a complete description of sneak attack.
+USERPOOL:Martial Stance|POOLPOINTS:0.0
+ABILITY:Martial Study Discipline|TYPE:NORMAL|CATEGORY:Internal|KEY:Martial Study Novice ~ Shadow Hand Internal|APPLIEDTO:|TYPE:Martial Study Discipline|DESC:You have learned to focus your ki and perfect the form needed to use one Shadow Hand maneuver as a novice of martial techniques. You can use this maneuver once per encounter as a martial adept with an initiator level equal to 1/2 your non-adept class levels (plus your martial adept class levels, should you gain any at a later point). Maneuvers learned through this feat can not be recovered during an encounter and can not be exchanged as part of adept class levelups.&amp;nl;Shadow Hand's key skill, hide, is now a class skill for all your classes (current and future).&amp;nl; Special&colon; You can take this feat up to three times and can select the same discipline multiple times.&amp;nl; Special&colon; A fighter can select Martial Study as a bonus feat.
+USERPOOL:Martial Study Discipline|POOLPOINTS:0.0
+ABILITY:Martial Study Shadow Hand Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Martial Study Novice ~ Shadow Jaunt|TYPE:SpecialAttack.Martial Study Shadow Hand Maneuver.Shadow Hand.Shadow Hand.Shadow Hand Discipline.Shadow Hand Maneuver.Teleportation.Shadow Hand Maneuver LVL2|DESC:A cloud of shadow energy engulfs you, spins into a tiny mote, and disappears. A moment later, this shadowy cloud appears across the battlefield and expels you from it. As part of this maneuver, you disappear in a cloud of darkness and teleport up to 50 feet away. You must have line of sight and line of effect to your destination. If you attempt to use this maneuver to move into an occupied space, you do not move, and the maneuver is expended but has no effect.
+USERPOOL:Martial Study Shadow Hand Maneuver|POOLPOINTS:0.0
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Use Fractional BAB|TYPE:MiscOptions.AlternateBAB
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Rule - Use ECL Level Buy Down|TYPE:MiscOptions
+USERPOOL:Misc Options|POOLPOINTS:0.0
+ABILITY:Planar Touchstones|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Catalogues Of Enlightenment|APPLIEDTO:|TYPE:SpecialQuality.PlanarTouchstone
+USERPOOL:Planar Touchstones|POOLPOINTS:0.0
+ABILITY:Race Base|TYPE:NORMAL|CATEGORY:Internal|KEY:Human / PH|TYPE:Race Base|DESC:Default Player's Handbook version of the race
+USERPOOL:Race Base|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Human Region ~ Custom Campaign|TYPE:Region.FaerunRegion|DESC:Use for default racial features when loading sources that use Regions
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Rogue Special Ability|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue Special Ability ~ Feat|APPLIEDTO:|TYPE:Class Feature.Rogue Class Feature.SpecialQuality.RogueSpecialAbilitySelection|DESC:A rogue may gain a bonus feat in place of a special ability.
+USERPOOL:Rogue Special Ability|POOLPOINTS:0.0
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Acrobatic Backstab|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:If you succeed on a Tumble check t move tthrough an enemy's space, you can treat that enemy as flat-footed against the next melee attack you make against it on your current turn.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Back on Your Feet|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:If you fall prone for any reason, you can stand up as an immediate action without provoking attacks of opportunity.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Group Fake Out|TYPE:ST.SpecialQuality.SkillTrick.Interaction|DESC:You can use Bluff to feint in combat (PH 68) against more than one opponent. Make on Bluff check opposed by separate Sense Motive checks for each opponent. For each opponent after the first that you wish to affect, you take a cumulative -2 penalty on your Bluff check.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Timely Misdirection|TYPE:ST.SpecialQuality.SkillTrick.Interaction|DESC:If you succeed on a Bluff check to feint in combat (PH 68), your opponent can't make any attacks of opportunity against you until the start of its next turn. This effect is in addition to the normal benefits of a successful feint.
+USERPOOL:Skill Tricks|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Axe (Throwing)|WEAPON:Battle Gauntlet|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Hand)|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger]
+WEAPONPROF:[WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Darts (Barbed)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Grenade Launcher|WEAPON:Halfspear|WEAPON:Handaxe|WEAPON:Javelin]
+WEAPONPROF:[WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Musket|WEAPON:NoProfReq|WEAPON:Pistol|WEAPON:Pistol (Automatic)|WEAPON:Pistol (Revolver|WEAPON:Pistol (Revolver)]
+WEAPONPROF:[WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Rapier|WEAPON:Rifle (Automatic)|WEAPON:Rifle (Hunting)|WEAPON:Sap|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Shotgun|WEAPON:Sickle]
+WEAPONPROF:[WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Strike (Unarmed)|WEAPON:Sword (Short)|WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Artisan's Tools (Weaponsmithing/Masterwork)|OUTPUTORDER:15|COST:55|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Belt, Battle Dancer's|OUTPUTORDER:5|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Battle Dancer's)|DATA:NAME=Belt, Battle Dancer's$KEY=Belt (Battle Dancer's)]
+EQUIPNAME:Big Fuckin' Gun|OUTPUTORDER:2|COST:2300.0|WT:15.0|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pistol (Revolver)|DATA:NAME=Big Fuckin' Gun$SIZE=H$EQMOD=PLUS1W.PLUS1STEP.PLUS1STEP_NO_PENALTY$SPROP=A revolver can fire six times before it needs reloading (which requires a full-round action)., (Pistol, Revolver +1 (Huge/Wield One Step Greater/Wield One Step Greater No Penalty))]
+EQUIPNAME:Bullet (Firearm, 20/Huge/Alchemical Silver)|OUTPUTORDER:10|COST:40.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bullet (Firearm ~ 20)|DATA:NAME=Bullet (Firearm, 20/Huge/Alchemical Silver)$KEY=Bullet (Firearm _ 20/Huge/Alchemical Silver)$SIZE=H$EQMOD=Alchemical Silver]
+EQUIPNAME:Bullet (Firearm, 20/Huge/Cold Iron)|OUTPUTORDER:11|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bullet (Firearm ~ 20)|DATA:NAME=Bullet (Firearm, 20/Huge/Cold Iron)$KEY=Bullet (Firearm _ 20/Huge/Cold Iron)$SIZE=H$EQMOD=Cold Iron]
+EQUIPNAME:Bullet +1 (Firearm, 20/Distance)|OUTPUTORDER:12|COST:3320.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bullet (Firearm ~ 20)|DATA:NAME=Bullet +1 (Firearm, 20/Distance)$KEY=Bullet +1 (Firearm _ 20/Distance)$EQMOD=STEEL.WOOD.PLUS1W.Distance (Ammunition)]
+EQUIPNAME:Chronocharm of the Horizon Walker|OUTPUTORDER:9|COST:500|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Cloak of Charisma +6|OUTPUTORDER:6|COST:36000|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Coin (Gold)|OUTPUTORDER:17|COST:1|WT:0.02|QUANTITY:70.0|NOTE:
+EQUIPNAME:Golden Ice|OUTPUTORDER:13|COST:1200|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Masterwork Artisan's Tools (Alchemy)|OUTPUTORDER:16|COST:55.0|WT:5.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Artisan's Tools (Alchemy)|DATA:NAME=Masterwork Artisan's Tools (Alchemy)$KEY=Masterwork Artisan_s Tools (Alchemy)$EQMOD=Masterwork (Tools)]
+EQUIPNAME:Nightstick|OUTPUTORDER:8|COST:7500|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ring Of The Unseen Servant|OUTPUTORDER:3|COST:2000.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Signet Ring|DATA:NAME=Ring Of The Unseen Servant$EQMOD=SPL_CON_STANDARD&pipe;SPELLNAME&lbracket;Unseen Servant&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; $SPROP=Each signet ring has a distinctive design carved into it. When you press this ring into warm sealing wax, you leave an identifying mark., (Signet Ring (Unseen Servant/Wizard/1st))$COSTMOD=-5.0]
+EQUIPNAME:Signet Ring (Sniper's Shot/Assassin/1st)|OUTPUTORDER:4|COST:8005.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Signet Ring|DATA:NAME=Signet Ring (Sniper's Shot/Assassin/1st)$KEY=Signet Ring (Sniper_s Shot/Assassin/1st)$EQMOD=SPL_CON_ROUND&pipe;SPELLNAME&lbracket;Sniper's Shot&rbracket; CASTER&lbracket;Assassin&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Skirmisher Boots|OUTPUTORDER:7|COST:3200|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Strongarm Bracers|OUTPUTORDER:1|COST:6000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Thieves' Tools, Masterwork|OUTPUTORDER:14|COST:100|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Thieves' Tools (Masterwork)|DATA:NAME=Thieves' Tools, Masterwork$KEY=Thieves' Tools (Masterwork)]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Arms|ID:0.1.01|VALUE:Strongarm Bracers|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.02|VALUE:Big Fuckin' Gun|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Secondary Hand|ID:0.1.03|VALUE:Big Fuckin' Gun|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.04|VALUE:Big Fuckin' Gun|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.05|VALUE:Nightstick|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.06|VALUE:Chronocharm of the Horizon Walker|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Foot|ID:0.1.07|VALUE:Skirmisher Boots|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.08|VALUE:Ring Of The Unseen Servant|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.09|VALUE:Signet Ring (Sniper's Shot/Assassin/1st)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.10|VALUE:Bullet (Firearm, 20/Huge/Alchemical Silver)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.11|VALUE:Bullet (Firearm, 20/Huge/Cold Iron)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.12|VALUE:Bullet +1 (Firearm, 20/Distance)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Waist|ID:0.1.13|VALUE:Belt, Battle Dancer's|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.14|VALUE:Cloak of Charisma +6|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.15|VALUE:Golden Ice|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.16|VALUE:Thieves' Tools, Masterwork|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.17|VALUE:Artisan's Tools (Weaponsmithing/Masterwork)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.18|VALUE:Masterwork Artisan's Tools (Alchemy)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.19|VALUE:Artisan's Tools (Alchemy)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.20|VALUE:Coin (Gold)|QUANTITY:70.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:Ring #1 &nl;Constant Unseen Servatn effect within 5' of the ring.&nl;&nl;Ring #2&nl;Precision Damage at any range
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

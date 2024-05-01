@@ -24,6 +24,26 @@ Five Handed Modification		KEY:HAND5MOD	BONUS:WEAPON|DAMAGE|STR*3/2			TYPE:Weapon
 Four Handed Modification		KEY:HAND4MOD	BONUS:WEAPON|DAMAGE|STR				TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42		BONUS:WEAPON|DAMAGESIZE|1		SPROP:Increaces reach by an additional 5
 Three Handed Modification		KEY:HAND3MOD	BONUS:WEAPON|DAMAGE|STR/2			TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42				
 
+
+Eight-Handed One-Hander Modification		KEY:HAND8MOD1H	BONUS:WEAPON|DAMAGE|STR*7/2			TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42		BONUS:WEAPON|DAMAGESIZE|3		SPROP:Increaces reach by an additional 15
+Seven Handed One-Hander Modification		KEY:HAND7MOD1H	BONUS:WEAPON|DAMAGE|STR*6/2			TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42		BONUS:WEAPON|DAMAGESIZE|2		SPROP:Increaces reach by an additional 10
+Six Handed One-Hander Modification			KEY:HAND6MOD1H	BONUS:WEAPON|DAMAGE|STR*5/2			TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42		BONUS:WEAPON|DAMAGESIZE|2		SPROP:Increaces reach by an additional 10
+Five Handed One-Hander Modification		KEY:HAND5MOD1H	BONUS:WEAPON|DAMAGE|STR*4/2			TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42		BONUS:WEAPON|DAMAGESIZE|1		SPROP:Increaces reach by an additional 5
+Four Handed One-Hander Modification		KEY:HAND4MOD1H	BONUS:WEAPON|DAMAGE|STR*3/2				TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42		BONUS:WEAPON|DAMAGESIZE|1		SPROP:Increaces reach by an additional 5
+Three Handed One-Hander Modification		KEY:HAND3MOD1H	BONUS:WEAPON|DAMAGE|STR*2/2			TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42				
+Two Handed One-Hander Modification		KEY:HAND2MOD1H	BONUS:WEAPON|DAMAGE|STR*1/2			TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42				
+
+Eight-Handed One-Hander Ranged Modification		KEY:HAND8MOD1HR			TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42		BONUS:WEAPON|DAMAGESIZE|3		SPROP:Increaces reach by an additional 15
+Seven Handed One-Hander Ranged Modification		KEY:HAND7MOD1HR				TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42		BONUS:WEAPON|DAMAGESIZE|2		SPROP:Increaces reach by an additional 10
+Six Handed One-Hander Ranged Modification			KEY:HAND6MOD1HR				TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42		BONUS:WEAPON|DAMAGESIZE|2		SPROP:Increaces reach by an additional 10
+Five Handed One-Hander Ranged Modification		KEY:HAND5MOD1HR				TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42		BONUS:WEAPON|DAMAGESIZE|1		SPROP:Increaces reach by an additional 5
+Four Handed One-Hander Ranged Modification		KEY:HAND4MOD1HR					TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42		BONUS:WEAPON|DAMAGESIZE|1		SPROP:Increaces reach by an additional 5
+Three Handed One-Hander Ranged Modification					TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42				
+Two Handed One-Hander Ranged Modification		KEY:HAND2MOD1HR				TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42
+
+
+
+
 #####
 #The first field in the equipmods.lst files must be the name of the modifier, after that, the tags do not need to be in any
 #special order. In the Example the equipmod is named "Masterwork".
@@ -58,3 +78,7 @@ Three Handed Modification		KEY:HAND3MOD	BONUS:WEAPON|DAMAGE|STR/2			TYPE:Weapon	
 #of them, look in the List File Tag Index under the topic "Bonus tags".
 #
 #The ASSIGNTOALL tag is for double weapons only. If this tag is present then the modifiers will be applied to both heads.
+
+
+Quick Loading		KEY:Firearm ~ Quick Loading	TYPE:Weapon.Ranged	PLUS:1	VISIBLE:QUALIFY			SOURCEPAGE:41	PRETYPE:3,Enhancement,Weapon,Firearm	SPROP:Reduce the time required to reload this firearm by one step (Full round to standard, standard to move, move to free)
+

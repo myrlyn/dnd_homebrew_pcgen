@@ -95,3 +95,19 @@ Worghest		BONUS:STAT|STR,DEX|2|TYPE=Racial.STACK		BONUS:STAT|CHA|-2|TYPE=Racial.
 
 
 Feral Gargun.MOD		LEVELADJUSTMENT:2
+
+
+
+
+
+#Snake,	Small	viper	6	Med	2d8	+1	3	+0	+4	+0	+0	+4	-4	(2	+	Int	mod)	x	5	+3	+0	Rogue	20	-
+#Anthropomorphic Small Viper	SIZE:M	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Small Viper	MONSTERCLASS:Monstrous Humanoid:2	LEVELADJUSTMENT:1	BONUS:STAT|STR|0	BONUS:STAT|DEX|4	BONUS:STAT|CON|0	BONUS:STAT|INT|0	BONUS:STAT|WIS|4	BONUS:STAT|CHA|-4	FAVCLASS:Rogue		MOVE:Walk,20 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Snake (Viper/Small)	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')			BONUS:VAR|AC_Natural_Armor|2|TYPE=Base	HANDS:2	LEGS:2	
+#Snake,	Med.	viper	6	Med	2d8	+1	3	-2	+6	+0	+0	+4	-4	(2	+	Int	mod)	x	5	+3	+0	Rogue	20	-
+#Snake,	Large	viper	6	Med	2d8	+0	2	-8	+8	-4	+0	+4	-4	(2	+	Int	mod)	x	5	+3	+0	Rogue	20	-
+
+#Snake,	Huge	viper	6	Large	3d8	+0	3	-8	+10	-2	+0	+4	-4	(2	+	Int	mod)	x	6	+3	-1	Rogue	20	-
+Anthropomorphic Huge Viper		SIZE:L		RACETYPE:Monstrous Humanoid		RACESUBTYPE:Huge Viper		RACESUBTYPE:Anthropomorphic		MONSTERCLASS:Monstrous Humanoid:3	LEVELADJUSTMENT:0		BONUS:STAT|STR|-8|TYPE=Racial.STACK		BONUS:STAT|DEX|10|TYPE=Racial.STACK		BONUS:STAT|CON|-2|TYPE=Racial.STACK	BONUS:STAT|WIS|4|TYPE=Racial.STACK		BONUS:STAT|CHA|-4|TYPE=Racial.STACK	FAVCLASS:Rogue		HANDS:2		LEGS:2	MOVE:Walk,20,Climb,20		BONUS:COMBAT|AC|3|TYPE=NaturalArmor.STACK							ABILITY:FEAT|AUTOMATIC|Weapon Finesse		MONCSKILL:Balance|Climb|Hide|Listen|Spot|Swim		BONUS:SKILL|Climb|max((DEX-STR),0)|TYPE=Racial.STACK			BONUS:SKILL|Balance,Climb|8|TYPE=Racial		BONUS:SKILL|Hide,Listen,Spot|4|TYPE=Racial	FACE:10		REACH:10		BONUS:WEAPONPROF=Bite|DAMAGE|max(0,(STR/2))			NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing.Poison,*1,1d4,SPROP=Poison		BONUS:VAR|DC_Poison|1		VISION:Darkvision (60')		ABILITY:Special Ability|AUTOMATIC|Viper Snake ~ Poison
+
+
+
+#Squid,	giant	2	Large	3d8	+1	4	+8	+8	-2	+0	+4	-4	(2	+	Int	mod)	x	6	+6	-1	Ranger	30	-

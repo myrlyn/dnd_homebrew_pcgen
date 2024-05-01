@@ -17,7 +17,7 @@ SOURCELONG:My Campaign	SOURCESHORT:My	SOURCEWEB:http://www.mywebsite.com	SOURCED
 
 #Sleight of Hand		KEYSTAT:DEX		USEUNTRAINED:NO	ACHECK:YES		TYPE:Dexterity		BONUS:SKILL|Sleight of Hand|2|PRESKILL:1,Bluff=5|TYPE=Synergy.STACK		SOURCEPAGE:SkillsII
 Iaijutsu Focus			KEYSTAT:CHA		USEUNTRAINED:NO	ACHECK:NO		TYPE:Charisma		ABILITY:Special Ability|AUTOMATIC|Iaijutsu Focus Output|PRESKILL:1,Iaijutsu Focus=1
-
+Craft (Gunsmith)		KEYSTAT:INT		USEUNTRAINED:NO	ACHECK:YES		TYPE:Intelligence.CRAFT
 ###Sample for Ability by Skill rules guide.
 #Ability by Skill	TYPE:NoStat	VISIBLE:DISPLAY	BONUS:ABILITYPOOL|AbilitybySkillPool|SKILL.Ability by Skill.RANK
 

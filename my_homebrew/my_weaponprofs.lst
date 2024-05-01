@@ -30,3 +30,5 @@ SOURCELONG:My Campaign	SOURCESHORT:My	SOURCEWEB:http://www.mywebsite.com	SOURCED
 #This example has an additional tag HANDS. HANDS:2 means that it must be wielded with 2 hands. Other than the name and the
 #TYPE, the HANDS tag is not mandatory for a weapon proficiency. It can be used when necessary.
 #
+#Firearms			TYPE:Exotic.Ranged.Firearms
+Pistol (Revolver)			TYPE:Exotic.Ranged.Firearms

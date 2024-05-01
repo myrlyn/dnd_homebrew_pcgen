@@ -15,7 +15,7 @@ SOURCELONG:My Campaign	SOURCESHORT:My	SOURCEWEB:http://www.mywebsite.com	SOURCED
 #
 #####1st Example
 
-#Dagger		PROFICIENCY:WEAPON|Dagger		TYPE:Weapon.Melee.Finesseable.Ranged.Thrown.Simple.Standard.Piercing.Slashing.Dagger		COST:2	WT:1		CRITMULT:x2		CRITRANGE:2		DAMAGE:1d4		EQMOD:STEEL		WIELD:Light		RANGE:10	SIZE:M
+
 
 #####
 #
@@ -123,3 +123,50 @@ Wild Shape Amulet.MOD					PRECLASS:1,Druid=1,Ranger=1			BONUS:ABILITYPOOL|Wild S
 Skin of Kaletor			SOURCEPAGE:Dragon 324, p 75		DESC:Bearskin cloak with Bear head forming hood.  -6 on charisma checks and wild empathy					BONUS:SKILL|TYPE=Charisma|-6|!PREVARGTEQ:NoScent,1	BONUS:VAR|WildEmpathyBonus|-6|!PREVARGTEQ:NoScent,1			BONUS:ABILITYPOOL|Skin of Kaletor|1			COST:12000
 
 Bloodhound's Frustration			TYPE:Ring.Finger.BodySlot_Ring.Magic			COST:3000		DESC:Removes all scent from you.  		DEFINE:NoScent|0	BONUS:VAR|NoScent|1
+
+
+
+#Dagger		PROFICIENCY:WEAPON|Dagger		TYPE:Weapon.Melee.Finesseable.Ranged.Thrown.Simple.Standard.Piercing.Slashing.Dagger		COST:2	WT:1		CRITMULT:x2		CRITRANGE:2		DAMAGE:1d4		EQMOD:STEEL		WIELD:Light		RANGE:10	SIZE:M
+#Revolver			COST:0	PROFICIENCY:WEAPON|Firearms		TYPE:Weapon.Ranged.Onehanded.Exotic.Piercing.Container		CONTAINS:UNLIM|Weapon Crystal=1		CONTAINS:UNLIM|Bullet=6|SpecificBullet=6|Total=6			WT:3		CRITMULT:x2	CRITRANGE:1	DAMAGE:2d8	RANGE:30		WIELD:OneHanded				SPROP:Can be fired 6 times before reloading, which requires a full round action.		EQMOD:STEEL			SOURCEPAGE:DMG 146	SIZE:M
+
+#Revolver (Large)			COST:0	PROFICIENCY:WEAPON|Firearms		TYPE:Weapon.Ranged.Onehanded.Exotic.Piercing.Container		CONTAINS:UNLIM|Weapon Crystal=1		CONTAINS:UNLIM|Bullet=6|SpecificBullet=6|Total=6			WT:3		CRITMULT:x2	CRITRANGE:1	DAMAGE:3d8	RANGE:30		WIELD:OneHanded				SPROP:Can be fired 6 times before reloading, which requires a full round action.		EQMOD:STEEL			SOURCEPAGE:DMG 146	SIZE:L
+
+#Revolver (Huge)			COST:0	PROFICIENCY:WEAPON|Firearms		TYPE:Weapon.Ranged.Onehanded.Exotic.Piercing.Container		CONTAINS:UNLIM|Weapon Crystal=1		CONTAINS:UNLIM|Bullet=6|SpecificBullet=6|Total=6			WT:3		CRITMULT:x2	CRITRANGE:1	DAMAGE:4d8	RANGE:30		WIELD:OneHanded				SPROP:Can be fired 6 times before reloading, which requires a full round action.		EQMOD:STEEL			SOURCEPAGE:DMG 146	SIZE:H
+
+#Revolver (Gargantuan)			COST:0	PROFICIENCY:WEAPON|Firearms		TYPE:Weapon.Ranged.Onehanded.Exotic.Piercing.Container		CONTAINS:UNLIM|Weapon Crystal=1		CONTAINS:UNLIM|Bullet=6|SpecificBullet=6|Total=6			WT:3		CRITMULT:x2	CRITRANGE:1	DAMAGE:6d8	RANGE:30		WIELD:OneHanded				SPROP:Can be fired 6 times before reloading, which requires a full round action.		EQMOD:STEEL			SOURCEPAGE:DMG 146	SIZE:G
+
+#Revolver (Colossal)			COST:0	PROFICIENCY:WEAPON|Firearms		TYPE:Weapon.Ranged.Onehanded.Exotic.Piercing.Container		CONTAINS:UNLIM|Weapon Crystal=1		CONTAINS:UNLIM|Bullet=6|SpecificBullet=6|Total=6			WT:3		CRITMULT:x2	CRITRANGE:1	DAMAGE:8d8	RANGE:30		WIELD:OneHanded				SPROP:Can be fired 6 times before reloading, which requires a full round action.		EQMOD:STEEL			SOURCEPAGE:DMG 146	SIZE:C
+
+
+#Pistol, Automatic	KEY:Pistol (Automatic)			COST:0	PROFICIENCY:WEAPON|Firearms		TYPE:Weapon.Ranged.Onehanded.Exotic.Piercing.Container		CONTAINS:UNLIM|Weapon Crystal=1	CONTAINS:UNLIM|Bullet=15|SpecificBullet=15|Total=15		WT:3		CRITMULT:x2	CRITRANGE:1	DAMAGE:2d6	RANGE:40		WIELD:OneHanded				SPROP:Can be fired 15 times before reloading. Releasing and inserting a new magazine is a move action.  Can be used to make multiple attacks per round if the user has the ability to make more than one attack per round.		EQMOD:STEEL			SOURCEPAGE:DMG 146	SIZE:M
+
+
+
+
+#Rifle, Hunting		KEY:Rifle (Hunting)	COST:0	PROFICIENCY:WEAPON|Firearms		TYPE:Weapon.Ranged.Onehanded.Exotic.Piercing.Container		CONTAINS:UNLIM|Weapon Crystal=1	CONTAINS:UNLIM|Bullet=5|SpecificBullet=5|Total=5		WT:3		CRITMULT:x2	CRITRANGE:1	DAMAGE:2d8	RANGE:30		WIELD:TwoHanded				SPROP:A hunting rifle can fire five times before it needs reloading (which requires a full-round action).		EQMOD:STEEL			SOURCEPAGE:DMG 146	SIZE:M
+
+#Rifle, Automatic		KEY:Rifle (Automatic)	COST:0	PROFICIENCY:WEAPON|Firearms		TYPE:Weapon.Ranged.Onehanded.Exotic.Piercing.Container		CONTAINS:UNLIM|Weapon Crystal=1	CONTAINS:UNLIM|Bullet=30|SpecificBullet=30|Total=30		WT:3		CRITMULT:x2	CRITRANGE:1	DAMAGE:2d8	RANGE:30		WIELD:TwoHanded				SPROP: An automatic rifle can fire thirty times before it needs reloading. Releasing an empty magazine and inserting a new one is a move action. As an attack, an automatic rifle can instead spray a space 10 feet across with ten bullets. If the attacker succeeds on an attack roll against AC 10, everyone in that space must make a DC 15 Reflex save or take the weapon’s damage.		EQMOD:STEEL			SOURCEPAGE:DMG 146	SIZE:M
+
+Bullet, Firearm						COST:0							KEY:Bullet (Firearm)					TYPE:Ammunition.Standard.Bullet.Individual				WT:0		BASEQTY:1		EQMOD:STEEL		MODS:YES		SOURCEPAGE:DMG 146		SPROP:For Firearms
+
+#Sleep Bullet	TYPE:Magic.Enhancement.Ammunition.SpecificArrow.Individual	COST:132	WT:0.15	EQMOD:STEEL.WOOD	SOURCEPAGE:p.228	BONUS:WEAPON|DAMAGE,TOHIT|1		SPROP:This +1 bullet is painted white and has white shell casing. If it strikes a foe so that it would normally deal damage, it instead bursts into magical energy that deals nonlethal damage (in the same amount as would be lethal damage) and forces the target to make a DC 11 Will save or fall asleep. Faint enchantment; CL 5th
+
+
+Bullet (Firearm, 20)		KEY:Bullet (Firearm ~ 20)		TYPE:Ammunition.Standard.Bullet.Package		COST:0		WT:0		BASEQTY:20	EQMOD:STEEL.WOOD	MODS:YES	SOURCEPAGE:p.114	SPROP:For firearms.		SOURCEPAGE:DMG 146	
+
+
+
+#Speed Loader			TYPE:Container				COST:0				WT:0					CONTAINS:UNLIM|Bullet=6|SpecificBullet=6|Total=6			SPROP:Reloading a revolver using a speed loader reduces reload time from a Full-Round action to a standard action.  SOURCEPAGE:HOUSERULE
+
+Strongarm Bracers.MOD			BONUS:WIELDCATEGORY|ALL|-1|PREABILITY:1,CATEGORY=Special Ability,Powerful Build ~ Half-Giant,Feral Gargun ~ Powerful Build,Goliath ~ Powerful Build	
+
+
+Pistol (Revolver).MOD		PROFICIENCY:WEAPON|Pistol (Revolver)	
+
+
+./core/players_handbook/ph_equip.lst:                                                      WT:5                                                                            
+
+
+Artisan's Tools (Alchemy)			TYPE:Goods.Tools.Artisan.AlchemyTools	COST:5		WT:5		SOURCEPAGE:p.129		BONUS:SKILL|Craft (Alchemy)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+
+Artisan's Tools (Alchemy/Masterwork)			TYPE:Goods.Tools.Artisan.AlchemyTools.Masterwork	COST:5		WT:5		SOURCEPAGE:p.129		BONUS:SKILL|Craft (Alchemy)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
