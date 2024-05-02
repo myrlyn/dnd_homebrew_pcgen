@@ -2761,6 +2761,7 @@ Eagle Wing flight			CATEGORY:Special Ability	TYPE:hidden		MOVE:Fly,60		ABILITY:S
 
 Morphic Weapon Enhancement				CATEGORY:Special Ability		TYPE:Morphic Weapon Enhancement.SpecialQuality			DESC:You increase the damage done by a natural weapon.		STACK:NO	MULT:YES		CHOOSE:WEAPONPROFICIENCY|PC,TYPE=Natural		BONUS:WEAPONPROF=%LIST|DAMAGESIZE|1
 
+Morphic Weapon Enhancement (Unarmed Strike)				CATEGORY:Special Ability		TYPE:Morphic Weapon Enhancement.SpecialQuality			DESC:You increase the damage done by a natural weapon.						BONUS:WEAPONPROF=Unarmed Strike|DAMAGESIZE|1
 
 
 
@@ -3011,4 +3012,23 @@ Planar Self				CATEGORY:Special Ability		TYPE:SpecialQuality			DESC:At 10th leve
 
 
 Rapid Reload Firearm	SOURCESHORT:PH	SOURCEPAGE:p.99		CATEGORY:FEAT	TYPE:General.Fighter.AttackOption	DESC:Choose a type of crossbow (hand, light, or heavy). You can reload a crossbow of that type more quickly than normal.		MULT:YES	CHOOSE:WEAPONPROFICIENCY|Pistol (Revolver)|Pistol (Automatic)|Rifle (Hunting)|Rifle (Automatic)			BENEFIT:The time required for you to reload your chosen type of crossbow is reduced to a free action (for a hand or light crossbow) or a move action (for a heavy crossbow). Reloading a crossbow still provokes an attack of opportunity.
+
+Alternate Form	KEY:Werecat ~ Alternate Form	CATEGORY:Special Ability	TYPE:Supernatural.RaceAbility.SpecialQuality	DESC:A werecat can assume a bipedal hybrid form or the form of a housecat.
+
+
+Curse of Lycanthropy		KEY:Werecat ~ Curse of Lycanthropy		CATEGORY:Special Ability		TYPE:Supernatural.RaceAbility.SpecialAttack		DESC:Any humanoid or giant hit by a wererat's bite attack in animal or hybrid form must succeed on a DC %1 Fortitude save or contract lycanthropy.|DC_Curse_of_Lycanthropy	DEFINE:DC_Curse_of_Lycanthropy|0	BONUS:VAR|DC_Curse_of_Lycanthropy|15	BONUS:VAR|DC_Curse_of_Lycanthropy|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Curse of Lycanthropy)		ABILITY:Ability Focus|AUTOMATIC|Curse of Lycanthropy 
+
+Cat Empathy		KEY:Werecat ~ Cat Empathy		CATEGORY:Special Ability		TYPE:Extraordinary.RaceAbility.SpecialQuality			DESC:Communicate with housecats and wild cats, and +4 racial bonus on Charisma-based checks against housecats and wild cats.			SOURCEPAGE:p.172
+
+Skills			KEY:Werecat ~ Skills			CATEGORY:Special Ability		TYPE:SpecialQuality			DESC:A werecat in a hybrid or animal form gets +8 to hide checks in thich undergrowth or tall grass.
+
+Feats			KEY:Werecat ~ Feats				CATEGORY:Special Ability		TYPE:SpecialQuality			DESC:A werecat gets Weapon Finesse as a bonus feat.
+
+
+
+Beast Strike			CATEGORY:FEAT		TYPE:General				SOURCEPAGE:Dragon Magazind 355, 76		DESC:Benefit: When you make an unarmed strike or grapple check to deal damage, you may add your claw or slam damage to your unarmed strike or grapple damage.    Special: A fighter may select Beast Strike as a fighter bonus feat.	PREATT:5		PREABILITY:1,CATEGORY=FEAT,Improved Unarmed Strike		PREWEAPONPROF:1,Claw,Claws,Bite
+
+Improved Natural Attack (Unarmed Strike)			CATEGORY:FEAT	TYPE:General		 BONUS:WEAPONPROF=Unarmed Strike|DAMAGESIZE|1			SERVESAS:ABILITY=FEAT|Improved Natural Attack		DESC:Improved Natural Attack for Unarmed Strike
+
+
 

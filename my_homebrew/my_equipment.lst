@@ -170,3 +170,6 @@ Pistol (Revolver).MOD		PROFICIENCY:WEAPON|Pistol (Revolver)
 Artisan's Tools (Alchemy)			TYPE:Goods.Tools.Artisan.AlchemyTools	COST:5		WT:5		SOURCEPAGE:p.129		BONUS:SKILL|Craft (Alchemy)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
 
 Artisan's Tools (Alchemy/Masterwork)			TYPE:Goods.Tools.Artisan.AlchemyTools.Masterwork	COST:5		WT:5		SOURCEPAGE:p.129		BONUS:SKILL|Craft (Alchemy)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+
+Gauntlets of the Talon.COPY=Gauntlets of the Talon (Active)
+Gauntlets of the Talon (Active).MOD					BONUS:COMBAT|AC|max(0,WIS)+1|!PREABILITY:1,CATEGORY=Special Ability,Monk ~ AC Bonus	BONUS:VAR|BONUS:VAR|MonkUnarmedDamageLVL|5		ABILITY:Internal|AUTOMATIC|Monk ~ Unarmed Damage		DESC:For characters who have sacrificed a spell slot or taken the True Believer feat.  Allows your unarmed damate to be Bludgeoning or Slashing
