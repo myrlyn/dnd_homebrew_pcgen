@@ -42,7 +42,7 @@ Three Handed One-Hander Ranged Modification					TYPE:Weapon				COST:0	VISIBLE:YE
 Two Handed One-Hander Ranged Modification		KEY:HAND2MOD1HR				TYPE:Weapon				COST:0	VISIBLE:YES		ITYPE:Masterwork	NAMEOPT:NORMAL		SOURCEPAGE:Savage Species 42
 
 
-
+Dragonbone			KEY:DRAGONBONE_BOW		TYPE:BaseMaterial.Weapon		COST:100	VISIBLE:QUALIFY	ITYPE:Wood.Ironwood			SOURCEPAGE:Draconomicon, 117		BONUS:EQMWEAPON|RANGEADD|20		SPROP:Dragonbone Bows increase their range increment by 20		
 
 #####
 #The first field in the equipmods.lst files must be the name of the modifier, after that, the tags do not need to be in any
@@ -81,4 +81,6 @@ Two Handed One-Hander Ranged Modification		KEY:HAND2MOD1HR				TYPE:Weapon				COS
 
 
 Quick Loading		KEY:Firearm ~ Quick Loading	TYPE:Weapon.Ranged	PLUS:1	VISIBLE:QUALIFY			SOURCEPAGE:41	PRETYPE:3,Enhancement,Weapon,Firearm	SPROP:Reduce the time required to reload this firearm by one step (Full round to standard, standard to move, move to free)
+
+
 

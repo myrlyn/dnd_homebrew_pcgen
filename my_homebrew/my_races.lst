@@ -111,3 +111,8 @@ Anthropomorphic Huge Viper		SIZE:L		RACETYPE:Monstrous Humanoid		RACESUBTYPE:Hug
 
 
 #Squid,	giant	2	Large	3d8	+1	4	+8	+8	-2	+0	+4	-4	(2	+	Int	mod)	x	6	+6	-1	Ranger	30	-
+
+
+Anthropomorphic Tiny Viper.MOD			MOVE:Climb,15
+
+Hengeyokai		KEY:Hengeyokai ~ Custom		BONUS:STAT|WIS|-2|TYPE=Racial.STACK		RACETYPE:Humanoid		RACESUBTYPE:Shapechanger	STARTFEATS:1	SIZE:M			FACE:5		REACH:5		MOVE:Walk,30		ABILITY:Special Ability|AUTOMATIC|Hengeyokai ~ Alternate Form	AUTO:LANG|Common|Hengeyokai		LANGBONUS:Giant,Goblin,Nezumi,Spirit Tongue

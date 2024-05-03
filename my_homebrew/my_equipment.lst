@@ -169,4 +169,14 @@ Pistol (Revolver).MOD		PROFICIENCY:WEAPON|Pistol (Revolver)
 
 Artisan's Tools (Alchemy)			TYPE:Goods.Tools.Artisan.AlchemyTools	COST:5		WT:5		SOURCEPAGE:p.129		BONUS:SKILL|Craft (Alchemy)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
 
-Artisan's Tools (Alchemy/Masterwork)			TYPE:Goods.Tools.Artisan.AlchemyTools.Masterwork	COST:5		WT:5		SOURCEPAGE:p.129		BONUS:SKILL|Craft (Alchemy)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Artisan's Tools (Alchemy/Masterwork)			TYPE:Goods.Tools.Artisan.AlchemyTools.Masterwork	COST:55		WT:5		SOURCEPAGE:p.129		BONUS:SKILL|Craft (Alchemy)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+
+
+
+Hank's Energy Bow			TYPE:Magic.Longbow.Unique.Weapon.Container.Martial.Ranged.Martial Ranged.Standard.Piercing.Container.Projectile.Bow.Longbow.Composite	EQMOD:BOWSTR|+20.PLUS2W.WOOD	COST:10300	WT:3		SPROP:Adjusts to user strength.  +2 Weapon.  Does not require Ammunition - fires arrows of pure force.  You may subtract apply a penalty to hit to gain a bonus to damage, as if using Power Attack with a melee weapon.			SIZE:M		DAMAGE:2d6					SOURCEPAGE:WOTC Web		CONTAINS:UNLIM|Weapon Crystal=1				PROFICIENCY:WEAPON|Longbow				CONTAINS:UNLIM|Arrow|SpecificArrow			CRITMULT:x3					CRITRANGE:1			SLOTS:2			WIELD:TwoHanded			DEFINE:LongbowCompositeDamage|0			BONUS:WEAPON|DAMAGE|LongbowCompositeDamage	RANGE:110
+
+Artisan's Tools (Poisonmaking)			TYPE:Goods.Tools.Artisan.AlchemyTools	COST:5		WT:5		SOURCEPAGE:p.129		BONUS:SKILL|Craft (Poisonmaking)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+
+Artisan's Tools (Poisonmaking/Masterwork)			TYPE:Goods.Tools.Artisan.AlchemyTools.Masterwork	COST:55		WT:5		SOURCEPAGE:p.129		BONUS:SKILL|Craft (Poisonmaking)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+
+
