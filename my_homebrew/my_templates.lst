@@ -337,3 +337,45 @@ Primordial giant		SAB:SPell Like Abilities		BONUS:ABILITYPOOL|Primordial Giant S
 
 Phrenic.MOD			BONUS:STAT|INT|-2|PRESTAT:1,INT=3		BONUS:STAT|INT|2|TYPE=Racial.STACK|PRESTAT:1,INT=3			BONUS:STAT|WIS|-2		BONUS:STAT|WIS|2|TYPE=Racial.STACK			BONUS:STAT|CHA|-4			BONUS:STAT|CHA|4|TYPE=Racial.STACK		
 Planar Self			RACETYPE:Outsider			RACESUBTYPE:Extraplanar				DR:10/Magic		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#./core/monster_manual/mm_templates.lst:Wererat Attacks                                                                                                                                                  VISIBLE:NO                                                            PRETEMPLATE:1,Wererat                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing.Disease,*1,1d4
+
+
+
+
+
+Werecat					CR:2			VISIBLE:EXPORT				DEFINE:AnimalSize|0		DEFINE:AnimalHD|0			DEFINE:AnimalMove|0		DEFINE:AnimalAC|0	DEFINE:AnimalDex|0	DEFINE:AnimalCon|0		BONUS:VAR|AnimalMove|30		BONUS:VAR|AnimalDex|4		CSKILL:Balance|Climb|Hide|Jump|Move Silently|Spot	SAB:+8 to hide in tall grass or heavy undergrowth.		ABILITY:FEAT|VIRTUAL|Weapon Finesse
+Werecat.MOD		ABILITY:Special Ability|AUTOMATIC|Werecat ~ Alternate Form|Werecat ~ Curse of Lycanthropy|Werecat ~ Cat Empathy		ABILITY:Special Ability|AUTOMATIC|Scent		VISION:Low-Light Vision		BONUS:VAR|AnimalSize|2
+
+
+Werecat Attacks		BONUS:WEAPONPROF=Bite|DAMAGE|STR/2	PRETEMPLATE:1,Werecat			NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d4|Claw,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d3	BONUS:WEAPONPROF=Claw|DAMAGE|STR		
+
+
+Lycanthrope (Custom)	VISIBLE:YES	TEMPLATE:CHOOSE:Werecat			TEMPLATE:CHOOSE:Natural Lycanthrope|Afflicted Lycanthrope		DEFINE:NoTypeTraits|0		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Giant		!PRETEMPLATE:2,Lycanthrope,Lycanthrope (Custom)		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		BONUS:HP|CURRENTMAX|(AnimalCon/2)*AnimalHD|!PRETEMPLATE:1,Lycanthrope (Custom Animal Form),Lycanthrope (Hybrid Form)									BONUS:STAT|WIS|2					BONUS:VAR|NoTypeTraits|1		BONUS:VAR|HasLowLightVision|1			ABILITY:Special Ability|AUTOMATIC|Scent				ABILITY:FEAT|VIRTUAL|Iron Will			RACESUBTYPE:Shapechanger
+
+Lycanthrope (Custom Animal Form)		SIZE:AnimalSize		LEGS:4	HANDS:0	VISIBLE:YES	DR:10/silver|PRETEMPLATE:1,Natural Lycanthrope	DR:5/silver|PRETEMPLATE:1,Afflicted Lycanthrope		TEMPLATE:CHOOSE:Werecat Attacks		PRETEMPLATE:1,Lycanthrope		!PRETEMPLATE:1,Lycanthrope (Hybrid Form)		BONUS:COMBAT|AC|AnimalAC|TYPE=NaturalArmor		BONUS:HP|CURRENTMAX|-((AnimalCon/2)*(TL-AnimalHD))		BONUS:MOVEADD|TYPE.Walk|AnimalMove-MOVEBASE		BONUS:SLOTS|WEAPON|-2		BONUS:SLOTS|ARMOR|-1		BONUS:STAT|STR|AnimalStr		BONUS:STAT|DEX|AnimalDex		BONUS:STAT|CON|AnimalCon
+
+
+DM Specifies 3 Hands		HANDS:3
+DM Specifies 4 Hands		HANDS:4
+DM Specifies 5 Hands		HANDS:5
+DM Specifies 6 Hands		HANDS:6
+DM Specifies 7 Hands		HANDS:7
+DM Specifies 8 Hands		HANDS:8
