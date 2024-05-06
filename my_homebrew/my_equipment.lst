@@ -89,7 +89,7 @@ Whip-dagger.MOD			TYPE:Reach		WIELD:OneHanded				REACHMULT:3		SPROP:.CLEAR		SPRO
 
 
 Mighty Arms				TYPE:Wondrous.Magical.Graft.WondrousItem.Wondrous Item.ConstructGraft			ABILITY:Special Ability|AUTOMATIC|Mighty Arms Slam Attack		WT:0		COST:1000		SOURCEPAGE:Faiths of Eberron		SPROP:Can be mounted with Warforged components that attach to the hand, such as a Battlefist				QUALIFY:EQUIPMENT|Warforged Attached ~ Battlefist				ABILITY:Special Ability|AUTOMATIC|Mighty Arms Slam Attack				
-Battlefist						KEY:Mighty Arms Attached ~ Battlefist		DAMAGE:1d3									TYPE:Magic.WarforgedComponent.WarforgedAttached.Weapon.Unarmed.Melee.Metal.Weapon.Natural.Melee.Simple.Unarmed.Standard.Monk.Bludgeoning		EQMOD:Masterwork (Weapon).STEEL.PLUS1W	COST:300	PROFICIENCY:WEAPON|Unarmed Strike	WT:6		SPROP:Increase Slam damage (to 1d8 for medium creatures).  Monks wearing a battlefist deal unarmed damage as if one size larger, and may add their slam damage to their unarmed damage.  	ABILITY:Special Ability|AUTOMATIC|Battlefist
+Battlefist (Might Arms)						KEY:Mighty Arms Attached ~ Battlefist		DAMAGE:1d3									TYPE:Magic.WarforgedComponent.WarforgedAttached.Weapon.Unarmed.Melee.Metal.Weapon.Natural.Melee.Simple.Unarmed.Standard.Monk.Bludgeoning		EQMOD:Masterwork (Weapon).STEEL.PLUS1W	COST:300	PROFICIENCY:WEAPON|Unarmed Strike	WT:6		SPROP:Increase Slam damage (to 1d8 for medium creatures).  Monks wearing a battlefist deal unarmed damage as if one size larger, and may add their slam damage to their unarmed damage.  	ABILITY:Special Ability|AUTOMATIC|Battlefist
 
 
 
@@ -164,7 +164,7 @@ Strongarm Bracers.MOD			BONUS:WIELDCATEGORY|ALL|-1|PREABILITY:1,CATEGORY=Special
 Pistol (Revolver).MOD		PROFICIENCY:WEAPON|Pistol (Revolver)	
 
 
-./core/players_handbook/ph_equip.lst:                                                      WT:5                                                                            
+                                                                            
 
 
 Artisan's Tools (Alchemy)			TYPE:Goods.Tools.Artisan.AlchemyTools	COST:5		WT:5		SOURCEPAGE:p.129		BONUS:SKILL|Craft (Alchemy)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
@@ -184,3 +184,16 @@ Artisan's Tools (Alchemy/Masterwork)			TYPE:Goods.Tools.Artisan.AlchemyTools.Mas
 
 Gauntlets of the Talon.COPY=Gauntlets of the Talon (Active)
 Gauntlets of the Talon (Active).MOD					BONUS:COMBAT|AC|max(0,WIS)+1|!PREABILITY:1,CATEGORY=Special Ability,Monk ~ AC Bonus	BONUS:VAR|BONUS:VAR|MonkUnarmedDamageLVL|5		ABILITY:Internal|AUTOMATIC|Monk ~ Unarmed Damage		DESC:For characters who have sacrificed a spell slot or taken the True Believer feat.  Allows your unarmed damate to be Bludgeoning or Slashing
+
+
+Fanged Ring.MOD			SPROP:.CLEAR		SPROP:Grants "Improved Unarmed Strike and Improved Natural Attack (Unarmed Strike).  When you score a critical hit with an unarmed strike, deal 1 point of constitution damage"		ABILITY:Special Ability|AUTOMATIC|Improved Natural Attack (Unarmed Strike)		ABILITY:FEAT|AUTOMATIC|Improved Unarmed Strike		
+
+
+
+
+Battle Dancer's Anklet			KEY: Bracelet (Battle Dancer's)		TYPE:Magic.Wondrous.Anklet.BodySlot_Ankle	ABILITY:Internal|AUTOMATIC|Monk ~ Unarmed Damage		BONUS:COMBAT|AC|max(CHA,0)+1|TYPE=Deflection.STACK			BONUS:VAR|MonkUnarmedDamageLVL|5		SPROP:These decorative anklets grant you the unarmed damage and AC bonus of a 5 level Battle Dancer.  If you already possess one or more of these abilities they are increased by 5 levels.		BONUS:COMBAT|AC|min(0,-CHA)|PREABILITY:1,CATEGORY=Special Ability,Battle Dancer ~ AC Bonus		COST:13000
+
+Monk's Belt, Battle Dancer		KEY:Belt (Monk's ~ Battle Dancer)			DESC:Monks belt implemented to work with Battle dancer.  Monk AC and unarmed damage level +5		BONUS:COMBAT|AC|WIS|TYPE=Deflection.STACK|!PRECLASS:1,Monk=1		BONUS:VAR|MonkACLVL|5		BONUS:VAR|MonkUnarmedDamageLVL|5		WT:1		COST:13000		TYPE:Magic.Wondrous.Belt
+
+
+Battle Dancer's Anklet, Monk			KEY: Monk Belt (Battle Dancer's)		TYPE:Magic.Wondrous.Anklet.BodySlot_Ankle	ABILITY:Internal|AUTOMATIC|Monk ~ Unarmed Damage					SPROP:These decorative anklets grant you the unarmed damage and AC bonus of a 5 level Battle Dancer.  If you already possess one or more of these abilities they are increased by 5 levels.		BONUS:COMBAT|AC|CHA		COST:13000					BONUS:VAR|MonkACLVL|5		BONUS:VAR|MonkUnarmedDamageLVL|5

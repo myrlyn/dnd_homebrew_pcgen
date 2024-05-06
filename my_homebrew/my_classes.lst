@@ -374,9 +374,10 @@ CLASS:Master of Many Forms.MOD
 1	ABILITY:Special Ability|AUTOMATIC|Druid ~ Wild Shape
 
 
-CLASS:Nature's Warrior.MOD			DEFINE:NaturesWarriorWildshapeLevel|0		BONUS:VAR|NaturesWarriorWildshapeLevel|CL		BONUS:VAR|PlanarShepherdLVL|NaturesWarriorWildshapeLevel		BONUS:VAR|MasterofManyFormsLVL|NaturesWarriorWildshapeLevel		BONUS:VAR|DruidWildShapeLVL|NaturesWarriorWildshapeLevel|PREVARLT:MasterofManyFormsLVL,1
+CLASS:Nature's Warrior.MOD			DEFINE:NaturesWarriorWildshapeLevel|0		BONUS:VAR|NaturesWarriorWildshapeLevel|CL		BONUS:VAR|PlanarShepherdLVL|NaturesWarriorWildshapeLevel		BONUS:VAR|MasterofManyFormsLVL|NaturesWarriorWildshapeLevel		BONUS:VAR|DruidWildShapeLVL|NaturesWarriorWildshapeLevel|PREVARLT:MasterofManyFormsLVL,1		BONUS:VAR|PlanarShepherdLVL|NaturesWarriorWildshapeLevel	
 
-
+CLASS:Warlock.MOD
+3	BONUS:VAR|EldritchBlastLVL|1
 CLASS:Planar Shepherd		DEFINE:PlanarShepherdLVL|0		BONUS:VAR|PlanarShepherdLVL|CL
 CLASS:Planar Shepherd		PREABILITY:1,CATEGORY=FEAT,Greensinger Initiate,Nightsinger Initiate		PRESKILL:2,Knowledge (Nature)=8,Knowledge (The Planes)=4		
 CLASS:Planar Shepherd	HD:8	TYPE:PC.Prestige	FACT:ClassType|Prestige	FACT:Abb|IaM		SOURCEPAGE:Faiths Of Eberron, 105	STARTSKILLPTS:4		CSKILL:Concentration|Knowledge (Arcana)|Knowledge (Nature)|Knowledge (The Planes)|Listen|Spellcraft|Spot|Survival
@@ -395,3 +396,9 @@ CLASS:Planar Shepherd		BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC"
 
 
 
+CLASS:Cerebremancer			TYPE:Psionic.Arcane
+
+
+CLASS:Virtuoso.MOD
+1		ADD:SPELLCASTER|Arcane
+11:REPEATLEVEL:1	ADD:SPELLCASTER|Arcane
