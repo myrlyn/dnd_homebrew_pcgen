@@ -81,6 +81,7 @@ EXPERIENCETABLE:Default
 # Character Templates
 TEMPLATESAPPLIED:[NAME:Base Race Type]
 TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Bard]
+TEMPLATESAPPLIED:[NAME:First Level ~ Bard|CHOSENTEMPLATE:[NAME:Funds - None]]
 TEMPLATESAPPLIED:[NAME:Language ~ Bonus (Aasimar)]
 TEMPLATESAPPLIED:[NAME:Favored Class ~ Paladin]
 TEMPLATESAPPLIED:[NAME:Aasimar ~ LevelAdjustment]
@@ -92,7 +93,6 @@ TEMPLATESAPPLIED:[NAME:Magic Blooded (Spark)]
 TEMPLATESAPPLIED:[NAME:Necropolitan(Deathless)]
 TEMPLATESAPPLIED:[NAME:Non-Ability ~ Constitution]
 TEMPLATESAPPLIED:[NAME:Evolved Deathless]
-TEMPLATESAPPLIED:[NAME:First Level ~ Bard|CHOSENTEMPLATE:[NAME:Funds - None]]
 TEMPLATESAPPLIED:[NAME:Funds - None]
 TEMPLATESAPPLIED:[NAME:Bardic Inspire Courage ~ Is the Bard]
 TEMPLATESAPPLIED:[NAME:Dragonblood]
@@ -156,7 +156,7 @@ USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Bard ACF ~ Bardic Knack|TYPE:ACF.BardBardicKnowledge|DESC:When making any skill check, you can use 1/2 your bard level (rounded up) in place of the number of ranks you have in the skill (even if that number is 0). For example, a 5th-level bard would have the equivalent of 3 ranks in Appraise, Balance, Bluff, and so on (but only for the purpose of making skill checks). You can't take 10 on checks when you use bardic knack (to take 10 you have to use your actual ranks). If the skill doesn't allow untrained checks, you must have at least 1 actual rank to attempt the check. Replaces&colon; If you select this class feature, you do not gain bardic knowledge.
 ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Bard ACF ~ Healing Hymn|TYPE:ACF.BardFascinate|DESC:Replaces&colon; This benefit replaces the fascinate bardic music ability.If you have 3 or more ranks in a Perform skill, you can use your music or poetics to create an area conducive to healing. To be affected, an ally must be able to see and hear you perform. The effect lasts as long as you continue performing and for 5 rounds thereafter. An affected ally who casts any conjuration (healing) spell gains a +1 sacred (if you're good or neutral) or profane (if you're evil) bonus on the roll for each rank you have in the Perform skill. This ability has no effect on spells cast from wands, scrolls, or other magic items. In addition, if you use this ability for 1 full minute before you and your allies retire for the night, everyone in the group heals naturally as if he had completed 24 hours of bed rest (thus recovering twice his character level in hit points). If the music is interrupted, the magic of the song is lost. Either use of healing hymn counts as one daily use of your bardic music ability. This is a spell-like ability.
 ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Bard ACF ~ Spellbreaker Song|TYPE:ACF.BardACF.BardCountersong|DESC:Bards pride themselves on being masters of language and sound. A rare few learn to use their voices to interfere with enemy spellcasters, twisting word and sound to defeat spells before they are cast.|DESC: Replaces&colon; You do not gain the countersong bardic music ability.|DESC: Benefit&colon; You can use your music or poetics to interfere with spells that have verbal components. Doing this costs one daily use of your bardic music ability and requires a standard action to start. Enemy spellcasters within 30 feet of you take a 20%% spell failure chance when casting any spell that has a verbal component (as if they were deafened). You can maintain your spellbreaker song for 3 rounds. This ability follows all the other appropriate rules for bardic music.
-ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Bardic Trade (Inspire Competence)|TYPE:TYPE&colon;BardInspireCompetence.ACF
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Bardic Trade (Inspire Competence)|TYPE:BardInspireCompetence.ACF
 ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Bardic Trade (Suggestion)|TYPE:BardSuggestion.ACF
 USERPOOL:Alternate Class Feature|POOLPOINTS:0.0
 ABILITY:Bard Bonus Feats|TYPE:NORMAL|CATEGORY:FEAT|KEY:Haunting Melody|TYPE:General.Bardic Trade|DESC:You can use your music to inspire fear.
@@ -197,7 +197,7 @@ ABILITY:Unseelie Fey Seasonal Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Uns
 USERPOOL:Unseelie Fey Seasonal Power|POOLPOINTS:0.0
 ABILITY:Unseelie Fey Vision|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Darkvision Vision|TYPE:Extraordinary.Unseelie Fey Vision.SpecialQuality|DESC:You gain Darkvision 60'.
 USERPOOL:Unseelie Fey Vision|POOLPOINTS:0.0
-ABILITY:Unseelie Fey Wings|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Mothlike|TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality|DESC:Your wings resemble a mot or butterfly.
+ABILITY:Unseelie Fey Wings|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Mothlike|TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality|DESC:Your wings resemble a moth or butterfly.
 USERPOOL:Unseelie Fey Wings|POOLPOINTS:0.0
 
 # Character Weapon proficiencies

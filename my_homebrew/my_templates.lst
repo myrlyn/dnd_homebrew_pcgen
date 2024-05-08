@@ -131,7 +131,7 @@ Winged	SOURCEPAGE:Savage Species 138	LEVELADJUSTMENT:2	BONUS:STAT|DEX|4|TYPE=Rac
 
 Assign Subtype ~ Beholder		RACESUBTYPE:Beholder
 
-Evolved Undead.MOD		BONUS:ABILITYPOOL|Evolved Undead Spell-like Ability|1			SAB:.CLEAR		ABILITY:Special Ability|AUTOMATIC|Fast Healing		BONUS:VAR|FastHealingRate|3
+Evolved Undead.MOD		BONUS:ABILITYPOOL|Evolved Undead Spell-like Ability|1			SAB:.CLEAR		ABILITY:Special Ability|AUTOMATIC|Fast Healing		BONUS:VAR|FastHealingRate|3		DEFINE:FastHealingRate|0
 
 Necropolitan.COPY=Necropolitan(Deathless)
 
@@ -388,4 +388,9 @@ Evil Divine Minion		VISIBLE:NO		RACESUBTYPE:Evil
 Lawful Divine Minion		VISIBLE:NO		RACESUBTYPE:Lawful
 Chaotic Divine Minion		VISIBLE:NO		RACESUBTYPE:Chaotic
 Greater Divine Minion		VISIBLE:EXPORT		LEVELADJUSTMENT:1		SAB:You have more powerful alternate forms
+
+
+Hengeyokai Sparrow Form			VISIBLE:NO		SIZE:F		BONUS:STAT|STR|1-STRSCORE		BONUS:STAT|DEX|23-DEXSCORE	BONUS:STAT|CON|10-CONSCORE	MOVE:Walk,1		MOVE:Fly,50		ABILITY:Special Ability|AUTOMATIC|Aerial Maneuverability		BONUS:VAR|Maneuverability|3		TEMPBONUS:PC|SIZEMOD|-1|TEMPDESC=Choose If You Are Still Too Large
+
+
 
