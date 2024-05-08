@@ -118,7 +118,7 @@ SKILL:Hide (Forested Areas)|OUTPUTORDER:16|
 SKILL:Intimidate|OUTPUTORDER:17|
 SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:18|
 SKILL:Jump|OUTPUTORDER:19|
-SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Scout|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Scout|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:21|
 SKILL:Listen|OUTPUTORDER:22|
 SKILL:Literacy|OUTPUTORDER:23|
@@ -151,7 +151,7 @@ ABILITY:Domain Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Travel Devotion|APPLIEDTO:|TYP
 USERPOOL:Domain Feat|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Head Shot|TYPE:Ambush|DESC:Your successful sneak attack with a bludgeoning weapon for which you have selected Weapon Focus leaves your foe confused for 1 round. A successful Will save (DC 10 + the number of extra damage dice normally dealt by your sneak attack + your Dex modifier) negates this effect. If you use this feat a second time on a target before 1 round has elapsed, the effect of the first use expires. Using this feat reduces your sneak attack damage by 5d6. Special&colon; You must be able to reach your foe's head to use this feat with a melee attack.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Skirmish|TYPE:General.ScoutBonus|DESC:If you move at least 20 feet away from where you were at the start of your turn, your skirmish damage increases by 2d6 and your competence bonus to AC from skirmish improves by 2. Normal&colon; A scout's bonus damage and AC bonus apply if she moves at least 10 feet away from where she was at the start of her turn (see the skirmish class feature in the sidebar on page 25). Special&colon; A scout can select Improved Skirmish as one of her scout bonus feats (Complete Adventurer 13).
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Mercantile Background|TYPE:|DESC:You were born to a merchant empire.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Mercantile Background|TYPE:General|DESC:You were born to a merchant empire.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Precise Shot|TYPE:General.Fighter.AttackOption.ChampionOfTheWildArchery.ViolentKnowledge|DESC:You are skilled at timing and aiming ranged attacks.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Swift Ambusher|TYPE:General|DESC:Your rogue and scout levels stack for the purpose of determining the extra damage and bonus to Armor Class granted when skirmishing.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Swift Hunter|TYPE:General.Scout|DESC:You have applied the hit-and-run tactics learned from scouting to your strong hunting abilities. Prerequisite&colon; Favored enemy, skirmish +1d6/+1 AC.
@@ -164,7 +164,7 @@ USERPOOL:First Level Feat|POOLPOINTS:0.0
 ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Meager Fortitude|TYPE:Flaws.SpecialQuality|DESC:You are sickly and weak of stomach.
 ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Noncombatant|TYPE:Flaws.SpecialQuality|DESC:You are relatively inept at melee combat.
 USERPOOL:Flaws|POOLPOINTS:0.0
-ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+1 Rogue Sneak Attack|APPLIEDTO:|TYPE:GM_Award.SpecialQuality|DESC:+1 Rogue Sneak Attack Die
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+1 Rogue Sneak Attack|APPLIEDTO:|TYPE:GM_Award.SpecialQuality|DESC:+1 Rogue Sneak Attack Level
 USERPOOL:GM Awards|POOLPOINTS:0.0
 ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Remove Domain for Devotion Feat II|TYPE:MiscOptions.DomainRemoval
 USERPOOL:Misc Options|POOLPOINTS:0.0
@@ -233,8 +233,8 @@ SPELLNAME:Slow Consumption|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known S
 SPELLNAME:Sorrow|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
 SPELLNAME:Summon Undead I|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
 SPELLNAME:Tongue of Baalzebul|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
-SPELLLIST:Ranger (Urban Ranger)|CLASS.Ranger|CLASS.Ranger (Urban Ranger)
-SPELLLIST:Cleric (Cloistered Cleric)|CLASS.Cleric (Cloistered Cleric)|CLASS.Cleric
+SPELLLIST:Ranger (Urban Ranger)|CLASS.Ranger (Urban Ranger)|CLASS.Ranger
+SPELLLIST:Cleric (Cloistered Cleric)|CLASS.Cleric|CLASS.Cleric (Cloistered Cleric)
 
 # Character Description/Bio/History
 CHARACTERBIO:

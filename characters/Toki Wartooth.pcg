@@ -81,6 +81,7 @@ EXPERIENCETABLE:Default
 
 # Character Templates
 TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Humanoid]]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Bard]
 TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
 TEMPLATESAPPLIED:[NAME:Human Base]
 TEMPLATESAPPLIED:[NAME:Favored Class ~ HIGHESTLEVELCLASS]
@@ -89,7 +90,6 @@ TEMPLATESAPPLIED:[NAME:Obah-Blessed (Two Extra Arms)]
 TEMPLATESAPPLIED:[NAME:Unseelie Fey]
 TEMPLATESAPPLIED:[NAME:RaceSubtype ~ Augmented Humanoid]
 TEMPLATESAPPLIED:[NAME:Magic Blooded (Spark)]
-TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Bard]
 TEMPLATESAPPLIED:[NAME:First Level ~ Bard|CHOSENTEMPLATE:[NAME:Funds - None]]
 TEMPLATESAPPLIED:[NAME:Funds - None]
 TEMPLATESAPPLIED:[NAME:Human Region ~ Custom Campaign]
@@ -103,13 +103,13 @@ SKILL:Appraise|OUTPUTORDER:1|
 SKILL:Balance|OUTPUTORDER:2|
 SKILL:Bluff|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Bard|RANKS:12.0|COST:1|CLASSSKILL:Y]
 SKILL:Climb|OUTPUTORDER:4|
-SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Bard|RANKS:12.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Lasher|RANKS:3.0|COST:2|CLASSSKILL:N]
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Lasher|RANKS:3.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Bard|RANKS:12.0|COST:1|CLASSSKILL:Y]
 SKILL:Control Shape|OUTPUTORDER:6|
 SKILL:Craft (Untrained)|OUTPUTORDER:7|
 SKILL:Diplomacy|OUTPUTORDER:8|
 SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:9|
 SKILL:Disguise|OUTPUTORDER:10|
-SKILL:Escape Artist|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Bard|RANKS:12.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Lasher|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Escape Artist|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Lasher|RANKS:3.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Bard|RANKS:12.0|COST:1|CLASSSKILL:Y]
 SKILL:Forgery|OUTPUTORDER:12|
 SKILL:Gather Information|OUTPUTORDER:13|
 SKILL:Heal|OUTPUTORDER:14|
@@ -124,19 +124,19 @@ SKILL:Listen|OUTPUTORDER:22|
 SKILL:Literacy|OUTPUTORDER:23|
 SKILL:Move Silently|OUTPUTORDER:24|
 SKILL:Move Silently (Forested Areas)|OUTPUTORDER:25|
-SKILL:Perform (Dance)|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Bard|RANKS:12.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Lasher|RANKS:3.0|COST:2|CLASSSKILL:N]
-SKILL:Perform (Sing)|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Bard|RANKS:12.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Lasher|RANKS:3.0|COST:2|CLASSSKILL:N]
+SKILL:Perform (Dance)|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Lasher|RANKS:3.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Bard|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Sing)|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Lasher|RANKS:3.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Bard|RANKS:12.0|COST:1|CLASSSKILL:Y]
 SKILL:Ride|OUTPUTORDER:28|
 SKILL:Search|OUTPUTORDER:29|
 SKILL:Sense Motive|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Bard|RANKS:12.0|COST:1|CLASSSKILL:Y]
-SKILL:Skill Trick|CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]
-SKILL:Sleight of Hand|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Bard|RANKS:12.0|COST:1|CLASSSKILL:Y]
-SKILL:Spellcraft|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Bard|RANKS:12.0|COST:1|CLASSSKILL:Y]
-SKILL:Spot|OUTPUTORDER:33|
-SKILL:Survival|OUTPUTORDER:34|
-SKILL:Swim|OUTPUTORDER:35|
-SKILL:Tumble|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Bard|RANKS:12.0|COST:1|CLASSSKILL:Y]
-SKILL:Use Rope|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Bard|RANKS:2.0|COST:2|CLASSSKILL:N]
+SKILL:Skill Trick|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Sleight of Hand|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Bard|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Bard|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:34|
+SKILL:Survival|OUTPUTORDER:35|
+SKILL:Swim|OUTPUTORDER:36|
+SKILL:Tumble|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Bard|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Rope|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Bard|RANKS:2.0|COST:2|CLASSSKILL:N]
 
 # Character Languages
 LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Undercommon|LANGUAGE:Yip-yak|LANGUAGE:Yuan-Ti
@@ -145,6 +145,11 @@ LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Undercommon|LANGUAGE:Yip-yak|LANGUAGE
 FEATPOOL:0.0
 
 # Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Yuan-Ti,Undercommon,Draconic,Yip-yak|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Yuan-Ti,Undercommon,Draconic,Yip-yak|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Yuan-Ti,Undercommon,Draconic,Yip-yak|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Yuan-Ti,Undercommon,Draconic,Yip-yak|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Bard ACF ~ Bardic Knack|TYPE:ACF.BardBardicKnowledge|DESC:When making any skill check, you can use 1/2 your bard level (rounded up) in place of the number of ranks you have in the skill (even if that number is 0). For example, a 5th-level bard would have the equivalent of 3 ranks in Appraise, Balance, Bluff, and so on (but only for the purpose of making skill checks). You can't take 10 on checks when you use bardic knack (to take 10 you have to use your actual ranks). If the skill doesn't allow untrained checks, you must have at least 1 actual rank to attempt the check. Replaces&colon; If you select this class feature, you do not gain bardic knowledge.
 ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Bard ACF ~ Spellbreaker Song|TYPE:ACF.BardACF.BardCountersong|DESC:Bards pride themselves on being masters of language and sound. A rare few learn to use their voices to interfere with enemy spellcasters, twisting word and sound to defeat spells before they are cast.|DESC: Replaces&colon; You do not gain the countersong bardic music ability.|DESC: Benefit&colon; You can use your music or poetics to interfere with spells that have verbal components. Doing this costs one daily use of your bardic music ability and requires a standard action to start. Enemy spellcasters within 30 feet of you take a 20%% spell failure chance when casting any spell that has a verbal component (as if they were deafened). You can maintain your spellbreaker song for 3 rounds. This ability follows all the other appropriate rules for bardic music.
 USERPOOL:Alternate Class Feature|POOLPOINTS:0.0
@@ -180,7 +185,7 @@ ABILITY:Unseelie Fey Seasonal Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Uns
 USERPOOL:Unseelie Fey Seasonal Power|POOLPOINTS:0.0
 ABILITY:Unseelie Fey Vision|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Darkvision Vision|TYPE:Extraordinary.Unseelie Fey Vision.SpecialQuality|DESC:You gain Darkvision 60'.
 USERPOOL:Unseelie Fey Vision|POOLPOINTS:0.0
-ABILITY:Unseelie Fey Wings|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Mothlike|TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality|DESC:Your wings resemble a mot or butterfly.
+ABILITY:Unseelie Fey Wings|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Mothlike|TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality|DESC:Your wings resemble a moth or butterfly.
 USERPOOL:Unseelie Fey Wings|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
@@ -190,10 +195,10 @@ WEAPONPROF:[WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Ra
 WEAPONPROF:[WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Strike (Unarmed)|WEAPON:Sword (Short)|WEAPON:Unarmed Strike|WEAPON:Whip]
 
 # Character Equipment
-MONEY:0.00
+MONEY:0
 EQUIPNAME:Amulet (Hustle/Psychic Warrior/4th)|OUTPUTORDER:9|COST:16000.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Amulet|DATA:NAME=Amulet (Hustle/Psychic Warrior/4th)$EQMOD=SPL_ACT&pipe;SPELLNAME&lbracket;Hustle&rbracket; CASTER&lbracket;Psychic Warrior&rbracket; SPELLTYPE&lbracket;Psionic&rbracket; SPELLLEVEL&lbracket;2&rbracket; CASTERLEVEL&lbracket;4&rbracket;]
 EQUIPNAME:Badge of Valor|OUTPUTORDER:1|COST:1200|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Belt, Battle Dancer's|OUTPUTORDER:5|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Battle Dancer's)|DATA:KEY=Belt (Battle Dancer's)]
+EQUIPNAME:Belt, Battle Dancer's|OUTPUTORDER:5|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Battle Dancer's)|DATA:NAME=Belt, Battle Dancer's$KEY=Belt (Battle Dancer's)]
 EQUIPNAME:Bracers of Armor +2|OUTPUTORDER:3|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Cloak of Charisma +4|OUTPUTORDER:6|COST:16000|WT:2.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Coin (Gold)|OUTPUTORDER:8|COST:1|WT:0.02|QUANTITY:50.0|NOTE:

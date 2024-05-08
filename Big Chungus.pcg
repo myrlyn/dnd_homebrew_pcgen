@@ -50,71 +50,114 @@ PORTRAIT:
 
 # Character Attributes
 STAT:STR|SCORE:18
-STAT:DEX|SCORE:16
+STAT:DEX|SCORE:18
 STAT:CON|SCORE:16
 STAT:INT|SCORE:16
-STAT:WIS|SCORE:21
-STAT:CHA|SCORE:18
-ALIGN:LG
+STAT:WIS|SCORE:16
+STAT:CHA|SCORE:21
+ALIGN:CG
 RACE:Hengeyokai ~ Custom
 
 # Character Class(es)
-CLASS:Warblade|LEVEL:10|SKILLPOOL:91|SPELLBASE:WIS|CANCASTPERDAY:
-CLASS:Warshaper|LEVEL:2|SKILLPOOL:10|SPELLBASE:None|CANCASTPERDAY:
-CLASSABILITIESLEVEL:Warblade=1|HITPOINTS:10|SKILLSGAINED:28|SKILLSREMAINING:28
-CLASSABILITIESLEVEL:Warblade=2|HITPOINTS:10|SKILLSGAINED:7|SKILLSREMAINING:7
-CLASSABILITIESLEVEL:Warblade=3|HITPOINTS:10|SKILLSGAINED:7|SKILLSREMAINING:7
-CLASSABILITIESLEVEL:Warblade=4|HITPOINTS:10|PRESTAT:WIS=1|SKILLSGAINED:7|SKILLSREMAINING:7
-CLASSABILITIESLEVEL:Warshaper=1|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:5
-CLASSABILITIESLEVEL:Warshaper=2|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:5
-CLASSABILITIESLEVEL:Warblade=5|HITPOINTS:10|SKILLSGAINED:7|SKILLSREMAINING:7
-CLASSABILITIESLEVEL:Warblade=6|HITPOINTS:10|PRESTAT:WIS=1|SKILLSGAINED:7|SKILLSREMAINING:7
-CLASSABILITIESLEVEL:Warblade=7|HITPOINTS:10|SKILLSGAINED:7|SKILLSREMAINING:7
-CLASSABILITIESLEVEL:Warblade=8|HITPOINTS:10|SKILLSGAINED:7|SKILLSREMAINING:7
-CLASSABILITIESLEVEL:Warblade=9|HITPOINTS:10|SKILLSGAINED:7|SKILLSREMAINING:7
-CLASSABILITIESLEVEL:Warblade=10|HITPOINTS:10|PRESTAT:WIS=1|SKILLSGAINED:7|SKILLSREMAINING:7
+CLASS:Warlock|LEVEL:3|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:0,0,0,0,0,0,0,0,0,0
+CLASS:Battle Dancer|LEVEL:8|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Warshaper|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Warlock=1|HITPOINTS:6|SKILLSGAINED:28|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warlock=2|HITPOINTS:6|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warlock=3|HITPOINTS:6|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Battle Dancer=1|HITPOINTS:8|PRESTAT:CHA=1|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Battle Dancer=2|HITPOINTS:8|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Battle Dancer=3|HITPOINTS:8|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Battle Dancer=4|HITPOINTS:8|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warshaper=1|HITPOINTS:8|PRESTAT:CHA=1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Battle Dancer=5|HITPOINTS:8|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Battle Dancer=6|HITPOINTS:8|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Battle Dancer=7|HITPOINTS:8|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Battle Dancer=8|HITPOINTS:8|PRESTAT:CHA=1|SKILLSGAINED:9|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:66000
+EXPERIENCE:77999
 EXPERIENCETABLE:Default
 
 # Character Templates
 TEMPLATESAPPLIED:[NAME:Base Race Type]
-TEMPLATESAPPLIED:[NAME:Feral Creature]
-TEMPLATESAPPLIED:[NAME:Primordial giant]
-TEMPLATESAPPLIED:[NAME:Half-Minotaur]
-TEMPLATESAPPLIED:[NAME:Face 10]
-TEMPLATESAPPLIED:[NAME:Reach 10]
-TEMPLATESAPPLIED:[NAME:Half-Ogre(Large or Larger)]
-TEMPLATESAPPLIED:[NAME:Unseelie Fey]
 TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Not Listed]
 TEMPLATESAPPLIED:[NAME:First Level ~ Not Listed|CHOSENTEMPLATE:[NAME:Funds - None]]
-TEMPLATESAPPLIED:[NAME:Funds - None]
+TEMPLATESAPPLIED:[NAME:Half-Minotaur (Large or Larger)]
+TEMPLATESAPPLIED:[NAME:Half-Ogre(Medium Or Smaller)]
+TEMPLATESAPPLIED:[NAME:Face 10]
+TEMPLATESAPPLIED:[NAME:Reach 10]
+TEMPLATESAPPLIED:[NAME:Draconic Creature]
+TEMPLATESAPPLIED:[NAME:Magic Blooded (Spark)]
+TEMPLATESAPPLIED:[NAME:Primordial giant]
+TEMPLATESAPPLIED:[NAME:Unseelie Fey]
 TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
+TEMPLATESAPPLIED:[NAME:Funds - None]
 
 # Character Region
 REGION:None
 
 # Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|CLASSBOUGHT:[CLASS:Warlock|RANKS:2.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:12.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warshaper|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Warlock|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:8.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warshaper|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Alchemy)|CLASSBOUGHT:[CLASS:Warlock|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:9|
+SKILL:Disguise|OUTPUTORDER:10|
+SKILL:Escape Artist|OUTPUTORDER:11|
+SKILL:Forgery|OUTPUTORDER:12|
+SKILL:Gather Information|OUTPUTORDER:13|
+SKILL:Heal|OUTPUTORDER:14|
+SKILL:Hide|OUTPUTORDER:15|
+SKILL:Hide (Forested Areas)|OUTPUTORDER:16|
+SKILL:Intimidate|OUTPUTORDER:17|
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:18|
+SKILL:Jump|OUTPUTORDER:19|
+SKILL:Knowledge (Arcana)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Warlock|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:21|
+SKILL:Listen|OUTPUTORDER:22|
+SKILL:Literacy|OUTPUTORDER:23|
+SKILL:Move Silently|OUTPUTORDER:24|
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:25|
+SKILL:Ride|OUTPUTORDER:26|
+SKILL:Search|OUTPUTORDER:27|
+SKILL:Sense Motive|OUTPUTORDER:28|
+SKILL:Skill Trick|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Warlock|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warshaper|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Warlock|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:8.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Warshaper|RANKS:1.0|COST:2|CLASSSKILL:N]
+SKILL:Spot|OUTPUTORDER:31|
+SKILL:Survival|OUTPUTORDER:32|
+SKILL:Swim|OUTPUTORDER:33|
+SKILL:Tumble|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Warlock|RANKS:3.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Magic Device|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Warlock|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:8.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Warshaper|RANKS:1.0|COST:2|CLASSSKILL:N]
+SKILL:Use Rope|OUTPUTORDER:36|
 
 # Character Languages
-LANGUAGE:Common|LANGUAGE:Giant|LANGUAGE:Goblin|LANGUAGE:Hengeyokai|LANGUAGE:Nezumi
+LANGUAGE:Common|LANGUAGE:Giant|LANGUAGE:Goblin|LANGUAGE:Hengeyokai|LANGUAGE:Nezumi|LANGUAGE:Spirit Tongue
 
 # Character Feats
 FEATPOOL:0.0
 
 # Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Goblin,Giant,Nezumi,Spirit Tongue|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Goblin,Giant,Nezumi,Spirit Tongue|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Goblin,Giant,Nezumi,Spirit Tongue|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Goblin,Giant,Nezumi,Spirit Tongue|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
 USERPOOL:ECL Buy Down|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Battle Dancer ~ Superior Unarmed Strike|TYPE:General|DESC:This is Superior Unarmed Strike that correctly interacts with the BattleDancer class.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Beast Strike|TYPE:General|DESC:Benefit&colon; When you make an unarmed strike or grapple check to deal damage, you may add your claw or slam damage to your unarmed strike or grapple damage.    Special&colon; A fighter may select Beast Strike as a fighter bonus feat.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Greater Multigrab|TYPE:Monstrous|DESC:You can grapple enemies effortlessly with your natural weapons.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Natural Attack|APPLIEDTO:Claws,Slam|TYPE:General.Natural Fighting|DESC:Choose one of the creature's natural attack forms. The damage for this natural weapon increases by one step, as if the creature's size had increased by one category&colon; 1d2, 1d3, 1d4, 1d6, 1d8, 2d6, 3d6, 4d6, 6d6, 8d6, 12d6. A weapon or attack that deals 1d10 points of damage increases as follows&colon; 1d10, 2d8, 3d8, 4d8, 6d8, 8d8, 12d8.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Natural Attack (Unarmed Strike)|TYPE:General|DESC:Improved Natural Attack for Unarmed Strike
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Multigrab|TYPE:Monstrous|DESC:You can grapple enemies more firmly than normal with your natural attacks.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Eldritch Claws|TYPE:|DESC: As a free action, you can form the energy of your eldritch blast into a set of claws extending almost an entire foot from your hands. While your eldritch claws exist you may make up to two claw attacks as natural weapons. You are automatically proficient with your eldritch claws. On a successful attack with an eldritch claw, you deal your normal amount of unarmed strike damage plus your eldritch blast damage. Once you form your eldritch claws they remain until just before the beginning of your next turn. You cannot use your normal eldritch blast ability while your eldritch claws exist. A Monk may not use eldritch claws as part of her flurry of blows.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Natural Attack|APPLIEDTO:Slam|TYPE:General.Natural Fighting|DESC:Choose one of the creature's natural attack forms. The damage for this natural weapon increases by one step, as if the creature's size had increased by one category&colon; 1d2, 1d3, 1d4, 1d6, 1d8, 2d6, 3d6, 4d6, 6d6, 8d6, 12d6. A weapon or attack that deals 1d10 points of damage increases as follows&colon; 1d10, 2d8, 3d8, 4d8, 6d8, 8d8, 12d8.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Multiattack|TYPE:General.Natural Fighting|DESC:The creature's secondary attacks with natural weapons take only a -2 penalty. Normal&colon; Without this feat, the creature's secondary attacks with natural weapons take a -5 penalty.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Snap Kick|TYPE:General|DESC:You have continued to hone your unarmed combat skills, and you deal more damage with your unarmed strikes.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:True Believer|TYPE:Divine|DESC:Your deity rewards your unquestioning faith and dedication.
 USERPOOL:FEAT|POOLPOINTS:0.0
-ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Meager Fortitude|TYPE:Flaws.SpecialQuality|DESC:You are sickly and weak of stomach.
 ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Poor Reflexes|TYPE:Flaws.SpecialQuality|DESC:You often zig when you should have zagged.
 ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Shaky|TYPE:Flaws.SpecialQuality|DESC:You are relatively poor at ranged combat.
 USERPOOL:Flaws|POOLPOINTS:0.0
@@ -122,68 +165,52 @@ ABILITY:Hengeyokai Alternate Form|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Hare|
 USERPOOL:Hengeyokai Alternate Form|POOLPOINTS:0.0
 ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Rule - Use ECL Level Buy Down|TYPE:MiscOptions
 USERPOOL:Misc Options|POOLPOINTS:0.0
-ABILITY:Morphic Weapon Enhancement|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Morphic Weapon Enhancement|APPLIEDTO:Claws,Gore,Slam|TYPE:Morphic Weapon Enhancement.SpecialQuality|DESC:You increase the damage done by a natural weapon.
+ABILITY:Morphic Weapon Enhancement|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Morphic Weapon Enhancement|APPLIEDTO:Gore,Slam|TYPE:Morphic Weapon Enhancement.SpecialQuality|DESC:You increase the damage done by a natural weapon.
 ABILITY:Morphic Weapon Enhancement|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Morphic Weapon Enhancement (Unarmed Strike)|TYPE:Morphic Weapon Enhancement.SpecialQuality|DESC:You increase the damage done by a natural weapon.
-USERPOOL:Morphic Weapon Enhancement|POOLPOINTS:3.0
+USERPOOL:Morphic Weapon Enhancement|POOLPOINTS:2.0
 ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Region ~ None|TYPE:Region
 USERPOOL:Region|POOLPOINTS:0.0
-ABILITY:Unseelie Fey Seasonal Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Vernal Touch|TYPE:Supernatural.Unseelie Fey Seasonal Power.SpecialQuality|DESC: You are constantly surrounded by a Magic Circle of Nature, which functions like Magic Circle Against Evil, except that it protects form all creatures of any alignment, except animal, beast, fey, or magical beast. Caster level is equal to your total level.
+ABILITY:Unseelie Fey Seasonal Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Autumn Harvest|TYPE:Supernatural.Unseelie Fey Seasonal Power.SpecialQuality|DESC: A number of times a day equal to your Charisma bonus (minimum 1) you can touch a creature with a special dispelling touch, which functions as a targeted Dispel Magic with caster level equal to your total HD.
 USERPOOL:Unseelie Fey Seasonal Power|POOLPOINTS:0.0
 ABILITY:Unseelie Fey Vision|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Darkvision Vision|TYPE:Extraordinary.Unseelie Fey Vision.SpecialQuality|DESC:You gain Darkvision 60'.
 USERPOOL:Unseelie Fey Vision|POOLPOINTS:0.0
-ABILITY:Unseelie Fey Wings|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ No Wings|TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality
+ABILITY:Unseelie Fey Wings|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Dragonlike|TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality|DESC:Your wings resemble dragon wings
 USERPOOL:Unseelie Fey Wings|POOLPOINTS:0.0
-ABILITY:Warblade Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Warblade Martial Discipline ~ Charging Minotaur|TYPE:SpecialAttack.Warblade Martial Maneuver.Stone Dragon.Stone Dragon Maneuver.Maneuver.Martial Maneuver.Strike.Stone Dragon Discipline|DESC:You charge at your foe, blasting him with such power that he stumbles back. As you roar across the battlefield, your position yourself to deliver a devastating charge attack. When you slam into an opponent, you crush him with concussive force and send him stumbling backward. As part of this maneuver, you make a bull rush attack (PH 154) as part of a charge. Neither the movement nor the bull rush attack provokes attacks of opportunity. Resolve the bull rush attempt normally. If your Strength check exceeds the opponent's result, you deal bludgeoning damage equal to 2d6 + your Str modifier in addition to pushing the target back as normal. Assuming your Strength check is high enough, you can push your target back more than 5 feet (as normal for a bull rush, but without having to follow).
-ABILITY:Warblade Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Warblade Martial Discipline ~ Death From Above|TYPE:SpecialAttack.Warblade Martial Maneuver.Tiger Claw.Tiger Claw Discipline.Tiger Claw Maneuver.Maneuver.Martial Maneuver.Strike|DESC:With a war cry, you leap into the air and lift your weapon high overhead. As you arc downward, your weight and momentum lend bonecrushing force to your attack. Like a thunderbolt, you slam into your foe from above. You leap upon your enemy and drive him into the ground. The impact of your attack gives you extra force, allowing you to score a deadly hit. To use this maneuver, you must be adjacent to a foe. As part of this maneuver, you attempt a DC 20 Jump check. If this check succeeds, you can make a single melee attack against an opponent that you were adjacent to when you began this maneuver. This attack occurs in the air as you soar over your opponent, also as part of the maneuver. Your attack deals an extra 4d6 points of damage, and your opponent is considered flat-footed against this attack. You then land in any square adjacent to the target of this attack, though no more than 20 feet away from your starting position. If your Jump check fails, you remain in the last square you occupied before the Jump check and can make a single attack normally. The maneuver is still considered expended.
-ABILITY:Warblade Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Warblade Martial Discipline ~ Disarming Strike|TYPE:SpecialAttack.Iron Heart.Iron Heart Discipline.Warblade Martial Maneuver.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike.Martial Study Iron Heart Maneuver|DESC:You chop at your foe's hand, causing a grievous injury and forcing him to drop his weapon. This maneuver allows you to combine a disarm attempt with a normal attack. You make a single melee attack as part of this strike. If this attack hits and deals damage, you can also attempt to disarm your opponent (PH 155). This disarm attempt does not provoke attacks of opportunity, nor is there any risk that your foe can disarm you.
-ABILITY:Warblade Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Warblade Martial Discipline ~ Girallon Windmill Flesh Rip|TYPE:SpecialAttack.Warblade Martial Maneuver.Tiger Claw.Tiger Claw Discipline.Tiger Claw Maneuver.Maneuver.Martial Maneuver.Boost|DESC:Windmilling your arms in a furious blur, you strike your perplexed enemy from two directions at once, rending his flesh with each strike. Each of your attacks is precisely timed to maximize the carnage it inflicts. You must be wielding two or more weapons to initiate this maneuver. As you hack into your opponent, you use your weapons together to murderous effect. With a cruel twist of your blade, you widen the wounds you cause with each successive strike. You must initiate this maneuver before making any attacks in the current round. If you strike an opponent multiple times during your turn, you also deal rend damage. This damage is based on the number of times you strike your opponent during your turn (see the table below). Determine the rend damage dealt immediately after you make your last attack for your turn. If you attack multiple opponents during your turn, you gain this extra damage against each of them. A creature takes rend damage based on the number of attacks that hit it, not the number of successful attacks you make. For example, if you hit a fire giant three times and an evil cleric twice during your turn, the fire giant takes rend damage for three attacks and the cleric takes rend damage for two attacks. Successful Rend Attacks Damage 2 8d6 3 10d6 4 12d6 5 14d6 6 16d6 7 18d6 8+ 20d6
-ABILITY:Warblade Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Warblade Martial Discipline ~ Iron Heart Surge|TYPE:SpecialAttack.Iron Heart.Iron Heart Discipline.Warblade Martial Maneuver.Iron Heart|DESC:By drawing on your mental strength and physical fortitude, you break free of a debilitating state that might otherwise defeat you. Your fighting spirit, dedication, and training allow you to overcome almost anything to defeat your enemies. When you use this maneuver, select one spell, effect, or other condition currently affecting you and with a duration of 1 or more rounds. That effect ends immediately. You also surge with confidence and vengeance against your enemies, gaining a +2 morale bonus on attack rolls until the end of your next turn.
-ABILITY:Warblade Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Warblade Martial Discipline ~ Rabid Bear Strike|TYPE:SpecialAttack.Warblade Martial Maneuver.Tiger Claw.Tiger Claw Discipline.Tiger Claw Maneuver.Maneuver.Martial Maneuver.Strike|DESC:With a ferocious roar, you leap upon your enemy like a wild beast, slamming your weapon into her with a madman's fury. You focus your primal fury into a single attack, laying an opponent low with a mighty blow that splinters bones and shatters steel. As part of this maneuver, you make a single melee attack. You gain a +4 bonus on this attack roll and deal an extra 10d6 points of damage. After completing this maneuver, you take a -4 penalty to AC until the start of your next turn.
-ABILITY:Warblade Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Warblade Martial Discipline ~ Steely Strike|TYPE:SpecialAttack.Iron Heart.Iron Heart Discipline.Warblade Martial Maneuver.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike|DESC:You focus yourself for a single, accurate attack, shrugging off your opponent's blows and ignoring the need for defense as you make your assault. The Iron Heart discipline teaches focus, allowing you to engage and defeat one opponent at a time. Your other enemies mean nothing to you as you press your attack. You make a single melee attack as part of this strike. You gain a +4 bonus on the attack roll. All opponents other than the one you attacked gain a +4 bonus on attack rolls against you for 1 round.
-ABILITY:Warblade Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Warblade Martial Discipline ~ Sudden Leap|TYPE:SpecialAttack.Warblade Martial Maneuver.Tiger Claw.Tiger Claw Discipline.Tiger Claw Maneuver.Maneuver.Martial Maneuver.Boost|DESC:You leap to a new position in the blink of an eye, leaving your opponents baffled. You can make a Jump check as a swift action and move the distance determined by your check result. You provoke attacks of opportunity with this movement, and you must move in a straight line. As with any movement, you can attempt a Tumble check to avoid any attacks you provoke with this sudden leap. You can't move through enemies, unless you succeed on the appropriate Tumble check.
-USERPOOL:Warblade Maneuver|POOLPOINTS:0.0
-ABILITY:Warblade Stance|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Warblade Martial Discipline ~ Absolute Steel|TYPE:SpecialAttack.Iron Heart.Iron Heart Discipline.Iron Heart Stance.Warblade Martial Stance.Stance.Martial Study Iron Heart Maneuver.Iron Heart Maneuver.Maneuver.Martial Maneuver.Strike|DESC:You shift your weight to the back of your feet and hold your blade carefully forward at the ready. Your muscles twitch slightly as you prepare to dodge the next attack you face. The absolute steel stance allows you to enhance your mobility and speed. You move quickly, keep a sharp eye on your enemies, and are ready to instantly sidestep any incoming attacks. While you are in this stance, you gain a +10-foot enhancement bonus to your speed. If you move at least 10 feet during your turn, you gain a +2 dodge bonus to AC until the beginning of your next turn.
-ABILITY:Warblade Stance|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Warblade Martial Discipline ~ Blood In The Water|TYPE:SpecialAttack.Tiger Claw.Tiger Claw Discipline.Tiger Claw Stance.Warblade Martial Stance.Stance|DESC:The smell of blood drives you into a fury. As you slash into your foe, each fresh wound you inflict spurs you onward. While you are in this stance, you whip yourself into a terrible rage. When you score a critical hit against an opponent, you enter a near frenzied state from the sight and smell of blood. You gain a +1 bonus on attack rolls and damage rolls. Because this is an untyped bonus, it stacks with each successful critical hit you score. If you go more than 1 minute without achieving a critical hit, you no longer gain the benefit of the stance.
-ABILITY:Warblade Stance|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Warblade Martial Discipline ~ Supreme Blade Parry|TYPE:SpecialAttack.Iron Heart.Iron Heart Discipline.Iron Heart Stance.Warblade Martial Stance.Stance|DESC:You drop into a relaxed pose, allowing your defenses to flow naturally and easily. Your blade lashes out to absorb or deflect each attack you face, blunting the force of your enemies' blows. As a student of the Iron Heart discipline, you learn that a simple flick of the wrist or turn of the blade can transform a deadly strike into a wild miss. In battle, you enter a steady rhythm that makes you frustratingly difficult to fight. You disrupt each attack with a perfectly timed counter, leaving your foes' strikes weak and ineffectual. While you are in this stance, you gain damage reduction 5/- against any opponent that does not catch you flat-footed. To gain this benefit, you must be proficient with the weapon you carry. You gain this benefit while unarmed only if you have the Improved Unarmed Strike feat.
-USERPOOL:Warblade Stance|POOLPOINTS:0.0
+ABILITY:Warlock Least Invocation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Invocation ~ See the Unseen|TYPE:Class Feature.Invocation.Least Invocation.SpecialQuality|DESC:Gain see invisibility as the spell and darkvision.
+ABILITY:Warlock Least Invocation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Invocation ~ Swimming the Styx|TYPE:Class Feature.Invocation.Eldritch Essence.Least Invocation.SpecialQuality|DESC:Gain swim speed and ability to breathe water.
+USERPOOL:Warlock Least Invocation|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
-WEAPONPROF:[WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Claws|WEAPON:Club|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet]
-WEAPONPROF:[WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Gore|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Halfspear]
-WEAPONPROF:[WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul]
-WEAPONPROF:[WEAPON:Morningstar|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash]
-WEAPONPROF:[WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Slam|WEAPON:Spear|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Strike (Unarmed)|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Trident]
-WEAPONPROF:[WEAPON:Unarmed Strike|WEAPON:Warhammer]
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Battle Gauntlet|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Claw|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)]
+WEAPONPROF:[WEAPON:Dart|WEAPON:Darts (Barbed)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gore|WEAPON:Grapple|WEAPON:Halfspear|WEAPON:Javelin|WEAPON:Longspear|WEAPON:Mace (Heavy)]
+WEAPONPROF:[WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Slam|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)]
+WEAPONPROF:[WEAPON:Spells (Touch)|WEAPON:Strike (Unarmed)|WEAPON:Unarmed Strike]
 
 # Character Equipment
-MONEY:38900.00
-EQUIPNAME:Battle Dancer's Anklet|OUTPUTORDER:8|COST:13000|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bracelet (Battle Dancer's)|DATA:KEY= Bracelet (Battle Dancer's)]
-EQUIPNAME:Battlefist (Large/Adamantine)|OUTPUTORDER:3|COST:5600.0|WT:12.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mighty Arms Attached ~ Battlefist|DATA:NAME=Battlefist (Large/Adamantine)$KEY=Mighty Arms Attached _ Battlefist (Large/Adamantine)$SIZE=L$EQMOD=PLUS1W.Adamantine (Weapon)]
-EQUIPNAME:Belt, Monk's|OUTPUTORDER:6|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Monk's)|DATA:KEY=Belt (Monk's)]
-EQUIPNAME:Claws (Natural/Primary)|OUTPUTORDER:4|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Claws|DATA:KEY=Claws]
+MONEY:0
+EQUIPNAME:Battlefist (Large/Adamantine)|OUTPUTORDER:2|COST:5600.0|WT:12.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mighty Arms Attached ~ Battlefist|DATA:NAME=Battlefist (Large/Adamantine)$KEY=Mighty Arms Attached _ Battlefist (Large/Adamantine)$SIZE=L$EQMOD=PLUS1W.Adamantine (Weapon)]
+EQUIPNAME:Chasuble of Fell Power (Greater)|OUTPUTORDER:1|COST:18000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Claw (Natural/Primary)|OUTPUTORDER:5|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Claw|DATA:KEY=Claw]
+EQUIPNAME:Cloak of Charisma +6|OUTPUTORDER:8|COST:36000|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Coin (Gold)|OUTPUTORDER:0|COST:1|WT:0.02|QUANTITY:400.0|NOTE:
 EQUIPNAME:Fanged Ring|OUTPUTORDER:9|COST:10000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Gauntlets of the Talon (Active)|OUTPUTORDER:1|COST:4000|WT:2.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Gore (Natural/Primary)|OUTPUTORDER:2|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gore|DATA:KEY=Gore]
+EQUIPNAME:Gauntlets of the Talon (Active)|OUTPUTORDER:3|COST:4000|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gore (Natural/Primary)|OUTPUTORDER:4|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gore|DATA:KEY=Gore]
 EQUIPNAME:Mighty Arms|OUTPUTORDER:10|COST:1000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Monk's Outfit (Large)|OUTPUTORDER:7|COST:0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Monk's Outfit|DATA:NAME=Monk's Outfit (Large)$KEY=Monk_s Outfit (Large)$SIZE=L$COSTMOD=-5]
-EQUIPNAME:Slam (Natural/Primary)|OUTPUTORDER:5|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Slam|DATA:KEY=Slam]
-EQUIPNAME:Unlimited Chronocharm of the Horizon Walker|OUTPUTORDER:11|COST:2500.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chronocharm of the Horizon Walker|DATA:NAME=Unlimited Chronocharm of the Horizon Walker$SPROP=Spend a Swift Action to move up to your movement$COSTMOD=2000.0]
+EQUIPNAME:Slam (Natural/Primary)|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Slam|DATA:KEY=Slam]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
-EQUIPSET:Waist|ID:0.1.03|VALUE:Belt, Monk's|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Hands|ID:0.1.04|VALUE:Gauntlets of the Talon (Active)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Clothing|ID:0.1.05|VALUE:Monk's Outfit (Large)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.06|VALUE:Battle Dancer's Anklet|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.07|VALUE:Fanged Ring|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.08|VALUE:Mighty Arms|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.03|VALUE:Fanged Ring|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.05|VALUE:Mighty Arms|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.07|VALUE:Battlefist (Large/Adamantine)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Hands|ID:0.1.08|VALUE:Gauntlets of the Talon (Active)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.09|VALUE:Chasuble of Fell Power (Greater)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Natural-Primary|ID:0.1.1|VALUE:Gore (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.11|VALUE:Unlimited Chronocharm of the Horizon Walker|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Primary Hand|ID:0.1.12|VALUE:Battlefist (Large/Adamantine)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Natural-Primary|ID:0.1.2|VALUE:Claws (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Natural-Primary|ID:0.1.9|VALUE:Slam (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.10|VALUE:Cloak of Charisma +6|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.11|VALUE:Slam (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.4|VALUE:Claw (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
-TEMPBONUS:FEAT=Hare|TBTARGET:PC|TBBONUS:MOVEADD&pipe;TYPE.WALK&pipe;10|TBBONUS:STAT&pipe;DEX&pipe;2&pipe;TYPE=ALTERNATEFORM.STACK|TBBONUS:VAR&pipe;HHYBRIDFORM&pipe;1
 
 # EquipSet Temp Bonuses
 
@@ -191,20 +218,13 @@ TEMPBONUS:FEAT=Hare|TBTARGET:PC|TBBONUS:MOVEADD&pipe;TYPE.WALK&pipe;10|TBBONUS:S
 DEITY:Bahamut|DEITYDOMAINS:[DOMAIN:Air|DOMAIN:Dragon|DOMAIN:Good|DOMAIN:Luck|DOMAIN:Nobility|DOMAIN:Protection|DOMAIN:Storm]|ALIGNALLOW:|DEITYFAVWEAP:[WEAPON:Pick (Heavy)|WEAPON:Bite]|DEITYALIGN:LG
 
 # Character Spells Information
-SPELLNAME:Absolute Steel|TIMES:1|CLASS:Warblade|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Warblade]
-SPELLNAME:Blood In The Water|TIMES:1|CLASS:Warblade|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Warblade]
-SPELLNAME:Charging Minotaur|TIMES:1|CLASS:Warblade|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Warblade]
-SPELLNAME:Death From Above|TIMES:1|CLASS:Warblade|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Warblade]
-SPELLNAME:Disarming Strike|TIMES:1|CLASS:Warblade|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Warblade]
-SPELLNAME:Girallon Windmill Flesh Rip|TIMES:1|CLASS:Warblade|BOOK:Known Spells|SPELLLEVEL:8|SOURCE:[TYPE:CLASS|NAME:Warblade]
-SPELLNAME:Iron Heart Surge|TIMES:1|CLASS:Warblade|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Warblade]
-SPELLNAME:Rabid Bear Strike|TIMES:1|CLASS:Warblade|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Warblade]
-SPELLNAME:Steely Strike|TIMES:1|CLASS:Warblade|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Warblade]
-SPELLNAME:Sudden Leap|TIMES:1|CLASS:Warblade|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Warblade]
-SPELLNAME:Supreme Blade Parry|TIMES:1|CLASS:Warblade|BOOK:Known Spells|SPELLLEVEL:8|SOURCE:[TYPE:CLASS|NAME:Warblade]
+SPELLBOOK:Warlock Invocation|TYPE:4
+SPELLNAME:Eldritch Blast|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLNAME:See the Unseen|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLNAME:Swimming the Styx|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Warlock]
 
 # Character Description/Bio/History
-CHARACTERBIO:
+CHARACTERBIO:Big Chungus was born among the gtiants and Hengeyokai on the Moon.  He came down to the world when he passed his competitive dancing prime.  &nl;He came down to the world looking for a way to get back on top of the Moon competitive battledance circuit. &nl;&nl;Ergo, the robot parts, pacts with strange powers, and specializing into classes that allow him to push his body past its natural bounds.&nl;&nl;The name of the game is self-improvement, he's justt broadened his scope past dance.     &nl;
 CHARACTERDESC:
 CHARACTERCOMP:
 CHARACTERASSET:
