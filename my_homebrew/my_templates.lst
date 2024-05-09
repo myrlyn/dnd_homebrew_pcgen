@@ -387,3 +387,31 @@ Hengeyokai Sparrow Form			VISIBLE:NO		SIZE:F		BONUS:STAT|STR|1-STRSCORE		BONUS:S
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ritual Of Transfiguration			LEVELADJUSTMENT:2		TYPE:Incorporeal		RACESUBTYPE:Incorporeal		TEMPLATE:Incorporeal	ABILITY:Special Ability|AUTOMATIC|Incorporeal Subtype				SOURCEPAGE:Savage Species, 147
