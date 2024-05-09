@@ -609,7 +609,7 @@ CATEGORY=Special Ability|Worghest Traits.MOD	ABILITY:Special Ability|AUTOMATIC|W
 CATEGORY=Special Ability|Worghest Traits.MOD	ABILITY:FEAT|VIRTUAL|Track	
 CATEGORY=Special Ability|Worghest Traits.MOD	SAB:+4 to survival rolls to track by scent while in wolf form.
 CATEGORY=Special Ability|Worghest Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Worghest ~ Feed
-Change Shape	KEY:Worghest ~ Change Shape			CATEGORY:Special Ability					TYPE:Supernatural.SpecialQuality			DESC:A worghest can assume the shape of a wolf as a standard action. In wolf form, a worghest gains a bite attack. Worghests may also take feats requiring the druid's wild shape ability as a prerequisite.		 ABILITY:Internal|AUTOMATIC|Wild Shape ~ Defines	SERVESAS:ABILITY=Special Ability|Druid ~ Wild Shape		SERVESAS:ABILITY=Special Ability|Wild Shape ~ Animal (Medium)		BONUS:VAR|WildShapeTimes|99		BONUS:VAR|WildShapeDuration|99		DEFINE:WorghestChanged|0			TEMPBONUS:PC|VAR|WorghestChanged|1			ABILITY:Special Ability|AUTOMATIC|Worghest Wolf Shape|PREVARGTEQ:WorghestChanged,1
+Change Shape	KEY:Worghest ~ Change Shape			CATEGORY:Special Ability					TYPE:Supernatural.SpecialQuality.WildShape			DESC:A worghest can assume the shape of a wolf as a standard action. In wolf form, a worghest gains a bite attack. Worghests may also take feats requiring the druid's wild shape ability as a prerequisite.		 ABILITY:Internal|AUTOMATIC|Wild Shape ~ Defines	SERVESAS:ABILITY=Special Ability|Druid ~ Wild Shape		SERVESAS:ABILITY=Special Ability|Wild Shape ~ Animal (Medium)		BONUS:VAR|WildShapeTimes|99		BONUS:VAR|WildShapeDuration|99		DEFINE:WorghestChanged|0			TEMPBONUS:PC|VAR|WorghestChanged|1			ABILITY:Special Ability|AUTOMATIC|Worghest Wolf Shape|PREVARGTEQ:WorghestChanged,1
 Worghest Wolf Shape			CATEGORY:Special Ability			TEMPLATE:No Hands Only Bite		TEMPLATE:Legs For Days		TYPE:Supernatural.SpecialQuality		BONUS:MOVEADD|TYPE.Walk|20|TYPE=Racial.STACK	DESC:You are in wolf form.		NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing.Primary,*1,1d6		BONUS:STAT|STR|2|TYPE=Racial.STACK	BONUS:STAT|DEX|4|TYPE=Racial.STACK		BONUS:STAT|CON|4|TYPE=Racial.STACK						DESC:  If you gain any additional forms for Wild Shape, their Hit Dice are limited to your total HD.  As all classes stack to determine your HD limit, classes that add their own bonus do not apply any differently than any other class.  Other abilities that may increase your HD limit above your total HD may still be used.  You may activate Wild feats that require the expenditure of a daily use of Wild Shape as At Will abilities.
 Trip	TYPE:SpecialAttack.Extraordinary			CATEGORY:Special Ability		KEY:Worghest ~ Trip		SERVESAS:ABILITY=FEAT|Improved Trip			DESC:A worghest in wolf form that hits with a bite attack can attempt to trip the opponent as a free action without making a touch attack or provoking an attack of opportunity. If the attempt fails, the opponent cannot react to trip the wolf.
 Feed	TYPE:SpecialAttack.Supernatural			KEY:Worghest ~ Feed		CATEGORY:Special Ability		DESC: When a worghest slays a humanoid opponent, it can feed on the corpse, devouring both flesh and life force, as a full-round action. Feeding destroys the victim's body and prevents any form of raising or resurrection that requires part of the corpse. There is a 50%% chance that a wish, miracle, or true resurrection spell can restore a devoured victim to life. Check once for each destroyed creature. If the check fails, the creature cannot be brought back to life by mortal magic. A worghest gains the effects of a death knell when it feeds in this manner, using the creature's HD as the caster level.|PREABILITY:1,CATEGORY=Special Ability,House Rules For Worghest Change Shape
@@ -3069,6 +3069,22 @@ Improved Natural Attack (Unarmed Strike)			CATEGORY:FEAT	TYPE:General		 BONUS:WE
 CATEGORY=FEAT|Tashalatora.MOD	ABILITY:Special Ability|AUTOMATIC|Monk ~ AC Bonus	BONUS:VAR|TashalatoraLVL|("CL=War Mind")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (War Mind)			BONUS:VAR|TashalatoraLVL|("CL=Slayer")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Slayer)	BONUS:VAR|TashalatoraLVL|("CL=Soulknife")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Soulknife)		BONUS:VAR|TashalatoraLVL|("CL=Anarchic Initiate")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Anarchic Initiate)		BONUS:VAR|TashalatoraLVL|("CL=Ardent")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Ardent)		BONUS:VAR|TashalatoraLVL|("CL=Divine Mind")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Divine Mind)			BONUS:VAR|TashalatoraLVL|("CL=Ebon Saint")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Ebon Saint)		BONUS:VAR|TashalatoraLVL|("CL=Ectopic Adept")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Ectopic Adept)		BONUS:VAR|TashalatoraLVL|("CL=Erudite")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Erudite)		BONUS:VAR|TashalatoraLVL|("CL=Flayerspawn Psychic")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Flayerspawn Psychic)	BONUS:VAR|TashalatoraLVL|("CL=Psion")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Illumine Soul)	BONUS:VAR|TashalatoraLVL|("CL=Lurk")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Lurk)			BONUS:VAR|TashalatoraLVL|("CL=Soulbow")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Soulbow)		BONUS:VAR|TashalatoraLVL|("CL=Storm Disciple")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Storm Disciple)		BONUS:VAR|TashalatoraLVL|("CL=Mountebank")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Mountebank)	BONUS:VAR|TashalatoraLVL|("CL=Psion")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Psion)	BONUS:VAR|TashalatoraLVL|("CL=Psibond Agent")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Psibond Agent)BONUS:VAR|TashalatoraLVL|("CL=Cerebremancer")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Cerebremancer)														BONUS:VAR|TashalatoraLVL|("CL=Elocator")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Elocator)		BONUS:VAR|TashalatoraLVL|("CL=Illithid Slayer")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Illithid Slayer)					BONUS:VAR|TashalatoraLVL|("CL=Metamind")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Metamind)		BONUS:VAR|TashalatoraLVL|("CL=Psion Uncarnate")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Psion Uncarnate)		BONUS:VAR|TashalatoraLVL|("CL=Pyrokineticist")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Pyrokineticist)	BONUS:VAR|TashalatoraLVL|("CL=Thrallherd")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Thrallherd)		BONUS:VAR|TashalatoraLVL|("CL=Aboleth Savant")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Aboleth Savant)		BONUS:VAR|TashalatoraLVL|("CL=Sanctified Mind")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Sanctified Mind)		BONUS:VAR|TashalatoraLVL|("CL=Constructor")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Constructor)	BONUS:VAR|TashalatoraLVL|("CL=Psychic Rogue")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Psychic Rogue)					ABILITY:Internal|AUTOMATIC|Monk ~ Unarmed Damage|PREVARGTEQ:TashalatoraLVL,1			ABILITY:FEAT|AUTOMATIC|Improved Unarmed Strike|PREVARGTEQ:TashalatoraLVL,1			BONUS:VAR|MonkUnarmedDamageLVL|TashalatoraLVL		
 
 
+Fear Immunity			KEY:Divine Minion ~ Fear Immunity			CATEGORY:Special Ability		TYPE:Supernatural.SpecialQuality		DESC:Divine minions are immune to fear effects. 
+
+Good Divine Minion			VISIBLE:NO			CATEGORY:Special Ability	TEMPLATE:Good Divine Minion		TYPE:Hidden	
+Evil Divine Minion			VISIBLE:NO			CATEGORY:Special Ability		TEMPLATE:Evil Divine Minion	TYPE:Hidden	
+Lawful Divine Minion		VISIBLE:NO			CATEGORY:Special Ability		TEMPLATE:Lawful Divine Minion	TYPE:Hidden	
+Chaotic Divine Minion		VISIBLE:NO			CATEGORY:Special Ability		TEMPLATE:Chaotic Divine Minion	TYPE:Hidden	
+
+
+Fast Wild Shape			CATEGORY:Special Ability	KEY:Divine Minion ~ Fast Wild Shape			MULT:YES		STACK:NO	CHOOSE:USERINPUT|TITLE=Animal Form	SELECT:1	DESC:A divine minion can wild shape as an 11th-level druid into one or more animal type forms that depend on the deity it serves (divine minions of Set also have a vermin form). The divine minion can use this ability at will, can change form as a free action, and can spend time in animal form indefinitely. They prefer to keep their shapechanging abilities secret so that they can use them to surprise their enemies in combat. Unlike a druid, minions can use this ability even if they're wearing metal armor.		SERVESAS:ABILITY=Special Ability|Druid ~ Wild Shape		BONUS:VAR|DruidWildShapeLVL|11		TYPE:SpecialQuality.Supernatural.DivineMinionFastWildShapeChoice
+
+Anhur			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Anhur, granting you the form of a Lion.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Lion)
+
+
+Bast			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Bast, granting you the forms of a Lion, Leopard, and Cat.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Lion)		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Leopard)			ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Cat)
+
+Sharess			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Sharess, granting you the forms of a Lion, Leopard, and Cat.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Lion)		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Leopard)			ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Cat)
 
 
 Magical Training		CATEGORY:FEAT			TYPE:General		ADD:SPELLCASTER|Sorcerer		BONUS:CASTERLEVEL|Sorcerer|-1|!PRECLASS:1,Sorcerer=1	BONUS:SPELLCAST|CLASS=Sorcerer;LEVEL=1|-4|!PRECLASS:1,Sorcerer=1		BONUS:SPELLCAST|CLASS=Sorcerer;LEVEL=0|-3|!PRECLASS:1,Sorcerer=1			BONUS:SPELLKNOWN|CLASS=Sorcerer;LEVEL=1|-2|!PRECLASS:1,Sorcerer=1			BONUS:SPELLKNOWN|CLASS=Sorcerer;LEVEL=0|-2|!PRECLASS:1,Sorcerer=1					BONUS:SPELLKNOWN|CLASS=Sorcerer;Level=0|2|PRECLASS:1,Sorcerer=1													
@@ -3076,12 +3092,40 @@ Magical Training		CATEGORY:FEAT			TYPE:General		ADD:SPELLCASTER|Sorcerer		BONUS:
 
 
 
+Geb			KEY:Divine Minion of Geb			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Geb, granting you the form of a Brown Bear.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Brown Bear)
+
+
+Hathor			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Hathor, granting you the form of a Cow/Bison.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Cow/Bison)
+
+
+Horus-Re			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Horus-Re, granting you the form of a Lion and Hawk.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Lion)			ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Hawk)
+
+
+Isis			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Isis, granting you the form of a Hawk.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Hawk)
+
+Nepthys			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Nepthys, granting you the form of a Hawk, Crocodile, Constrictor Snake.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Hawk)		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Crocodile)			ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Constrictor Snake)		
+
+Osiris			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Osiris, granting you the form of a Hawk and a Brown Bear.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Hawk)		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Brown Bear)
+
+Isis			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Isis, granting you the form of a Hawk.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Hawk)
 
 
 
+Sebek			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Sebek, granting you the form of a Crocodile.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Crocodile)		
 
 
+Set			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Set, granting you the forms of Brown bear, constrictor snake, crocodile, jackal (dog), Large giant scorpion, Medium viper, Medium giant scorpion.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Brown bear, constrictor snake, crocodile, jackal (dog), Large giant scorpion, Medium viper, Medium giant scorpion)		
 
 
+Thoth			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Thoth, granting you the form of a Baboon and Ibis (Hawk).		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Baboon)			ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Ibis (Hawk))		
+
+Divine Minion								TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		CHOOSE:USERINPUT|TITLE=Deity Name	SELECT:1		DESC:You are a divine minion of %1, granting the form of their favored animal(s)|LIST				MULT:YES		STACK:NO		BONUS:ABILITYPOOL|Divine Minion Fast Wild Shape Choice|1
 
 
+CATEGORY=FEAT|Elemental Essence.MOD		CHOOSE:STRING|Acid|Cold|Electricity|Fire		MULT:YES		STACK:NO
+
+Shapeshifting Disguise			CATEGORY:Special Ability		TYPE:Temporary Bonus		TEMPBONUS:ANYPC|SKILL|Disguise|10|TYPE=Circumstance		TEMPDESC:You are shapeshifted to disguise you as the thing you are shapeshifted into.
+
+CATEGORY=FEAT|Elemental Wild Shape.MOD		DESC:  You gain all of the Extraordinary and Supernatural qualities of the elemental you wild shape into.
+
+CATEGORY=FEAT|Colossal Wild Shape.MOD		DESC:  If you are able to Wild Shape into other kinds of creatures, this size category is available for them as well.  

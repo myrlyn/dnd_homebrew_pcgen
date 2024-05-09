@@ -124,3 +124,9 @@ ABILITYCATEGORY:Planar Attunement		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CAT
 
 
 ABILITYCATEGORY:Hengeyokai Alternate Form		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:HengeyokaiAlternateForm		PLURAL:Hengeyokai Alternate Form		DISPLAYLOCATION:Race Traits
+
+
+ABILITYCATEGORY:Divine Minion Fast Wild Shape		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:DivineMinionFastWildShape		PLURAL:Divine Minion Fast Wild Shape		DISPLAYLOCATION:Race Traits
+
+
+ABILITYCATEGORY:Divine Minion Fast Wild Shape Choice		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability	TYPE:DivineMinionFastWildShapeChoice		PLURAL:Divine Minion Fast Wild Shape Choices		DISPLAYLOCATION:Race Traits

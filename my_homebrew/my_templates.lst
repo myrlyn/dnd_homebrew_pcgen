@@ -381,6 +381,13 @@ DM Specifies 7 Hands		HANDS:7
 DM Specifies 8 Hands		HANDS:8
 
 
+Divine Minion				RACETYPE:Outsider		RACESUBTYPE:Extraplanar					BONUS:ABILITYPOOL|Divine Minion Fast Wild Shape|1		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fear Immunity		SAB:Replace any non-matching alignment-based attacks that no longer match the creature's alignment with ones appropriate to their new alignment.   	LEVELADJUSTMENT:1		ABILITY:Special Ability|AUTOMATIC|Good Divine Minion|PREALIGN:CG,NG,LG			ABILITY:Special Ability|AUTOMATIC|Evil Divine Minion|PREALIGN:CE,NE,LE			ABILITY:Special Ability|AUTOMATIC|Lawful Divine Minion|PREALIGN:LG,LN,LE	ABILITY:Special Ability|AUTOMATIC|Chaotic Divine Minion|PREALIGN:CG,CN,CE			PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoud,RACETYPE=Outsider							SOURCEPAGE:WOTC WEB (Magic Books Of Faerun, Hate of the Cobra)
+
+Good Divine Minion		VISIBLE:NO		RACESUBTYPE:Good
+Evil Divine Minion		VISIBLE:NO		RACESUBTYPE:Evil
+Lawful Divine Minion		VISIBLE:NO		RACESUBTYPE:Lawful
+Chaotic Divine Minion		VISIBLE:NO		RACESUBTYPE:Chaotic
+Greater Divine Minion		VISIBLE:EXPORT		LEVELADJUSTMENT:1		SAB:You have more powerful alternate forms
 
 
 Hengeyokai Sparrow Form			VISIBLE:NO		SIZE:F		BONUS:STAT|STR|1-STRSCORE		BONUS:STAT|DEX|23-DEXSCORE	BONUS:STAT|CON|10-CONSCORE	MOVE:Walk,1		MOVE:Fly,50		ABILITY:Special Ability|AUTOMATIC|Aerial Maneuverability		BONUS:VAR|Maneuverability|3		TEMPBONUS:PC|SIZEMOD|-1|TEMPDESC=Choose If You Are Still Too Large
