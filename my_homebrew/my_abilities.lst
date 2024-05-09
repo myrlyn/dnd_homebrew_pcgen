@@ -3087,11 +3087,6 @@ Bast			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.
 Sharess			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Sharess, granting you the forms of a Lion, Leopard, and Cat.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Lion)		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Leopard)			ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Cat)
 
 
-Magical Training		CATEGORY:FEAT			TYPE:General		ADD:SPELLCASTER|Sorcerer		BONUS:CASTERLEVEL|Sorcerer|-1|!PRECLASS:1,Sorcerer=1	BONUS:SPELLCAST|CLASS=Sorcerer;LEVEL=1|-4|!PRECLASS:1,Sorcerer=1		BONUS:SPELLCAST|CLASS=Sorcerer;LEVEL=0|-3|!PRECLASS:1,Sorcerer=1			BONUS:SPELLKNOWN|CLASS=Sorcerer;LEVEL=1|-2|!PRECLASS:1,Sorcerer=1			BONUS:SPELLKNOWN|CLASS=Sorcerer;LEVEL=0|-2|!PRECLASS:1,Sorcerer=1					BONUS:SPELLKNOWN|CLASS=Sorcerer;Level=0|2|PRECLASS:1,Sorcerer=1													
-
-
-
-
 Geb			KEY:Divine Minion of Geb			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Geb, granting you the form of a Brown Bear.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Brown Bear)
 
 
@@ -3126,6 +3121,27 @@ CATEGORY=FEAT|Elemental Essence.MOD		CHOOSE:STRING|Acid|Cold|Electricity|Fire		M
 
 Shapeshifting Disguise			CATEGORY:Special Ability		TYPE:Temporary Bonus		TEMPBONUS:ANYPC|SKILL|Disguise|10|TYPE=Circumstance		TEMPDESC:You are shapeshifted to disguise you as the thing you are shapeshifted into.
 
-CATEGORY=FEAT|Elemental Wild Shape.MOD		DESC:  You gain all of the Extraordinary and Supernatural qualities of the elemental you wild shape into.
+CATEGORY=FEAT|Improved Elemental Wild Shape.MOD		DESC:  You gain all of the Extraordinary and Supernatural qualities of the elemental you wild shape into.
 
 CATEGORY=FEAT|Colossal Wild Shape.MOD		DESC:  If you are able to Wild Shape into other kinds of creatures, this size category is available for them as well.  
+
+
+
+
+Magical Training		CATEGORY:FEAT			TYPE:General		DESC:You can cast two 0-level spells.		BONUS:ABILITYPOOL|Magical Training|1
+
+Wizard With Levels		CATEGORY:Special Ability		TYPE:SpecialQuality.MagicalTraining			PRESTAT:1,INT=10			BONUS:SPELLCAST|CLASS=Wizard;LEVEL=0|3		PRECLASS:1,Wizard=1
+Wizard Without Levels		CATEGORY:Special Ability		TYPE:SpecialQuality.MagicalTraining			PRESTAT:1,INT=10			BONUS:SPELLCAST|CLASS=Wizard;LEVEL=0|-2				BONUS:SPELLCAST|CLASS=Wizard;LEVEL=1|-6		ADD:SPELLCASTER|Wizard			!PRECLASS:1,Wizard=1		!PRECLASS:1,Wizard=1
+
+Sorcerer With Levels		CATEGORY:Special Ability		TYPE:SpecialQuality.MagicalTraining			PRESTAT:1,CHA=10			BONUS:SPELLCAST|CLASS=Sorcerer;LEVEL=0|3		PRECLASS:1,Sorcerer=1
+Sorcerer Without Levels		CATEGORY:Special Ability		TYPE:SpecialQuality.MagicalTraining			PRESTAT:1,CHA=10			BONUS:SPELLCAST|CLASS=Sorcerer;LEVEL=0|-3				BONUS:SPELLCAST|CLASS=Sorcerer;LEVEL=1|-6		ADD:SPELLCASTER|Sorcerer			!PRECLASS:1,Sorcerer=1		BONUS:SPELLKNOWN|CLASS=Sorcerer;Level=0|-3			BONUS:SPELLKNOWN|CLASS=Sorcerer;Level=1|-4
+
+
+
+#ADD:SPELLCASTER|Sorcerer		BONUS:CASTERLEVEL|Sorcerer|-1|!PRECLASS:1,Sorcerer=1	BONUS:SPELLCAST|CLASS=Sorcerer;LEVEL=1|-4|!PRECLASS:1,Sorcerer=1		BONUS:SPELLCAST|CLASS=Sorcerer;LEVEL=0|-3|!PRECLASS:1,Sorcerer=1			BONUS:SPELLKNOWN|CLASS=Sorcerer;LEVEL=1|-2|!PRECLASS:1,Sorcerer=1			BONUS:SPELLKNOWN|CLASS=Sorcerer;LEVEL=0|-2|!PRECLASS:1,Sorcerer=1					BONUS:SPELLKNOWN|CLASS=Sorcerer;Level=0|2|PRECLASS:1,Sorcerer=1													
+
+
+CATEGORY=Internal|Kobold ~ Base.MOD		TYPE:Race Base
+
+CATEGORY=Internal|Kobold ~ Base.COPY=Variant Kobold
+CATEGORY=Internal|Variant Kobold.MOD		NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Primary,*2,1d3|Bite,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Primary,*1,1d3	ABILITY:Special Ability|AUTOMATIC|Slight Build	AUTO:WEAPONPROF|Pick (Light)|Pick (Heavy)		CHANGEPROF:Greatpick=Martial			TYPE:Race Base		AUTO:LANG|Yip-yak	TEMPLATE:Kobold Bonus Languages

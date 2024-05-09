@@ -394,3 +394,7 @@ Hengeyokai Sparrow Form			VISIBLE:NO		SIZE:F		BONUS:STAT|STR|1-STRSCORE		BONUS:S
 
 
 
+Assign Race Subtype ~ Dragonblood			RACESUBTYPE:Dragonblood
+Kobold Bonus Languages			VISIBLE:NO			LANGBONUS:Draconic,Common,Undercommon
+
+Ritual Of Transfiguration			SOURCEPAGE:Savage Species 149				RACESUBTYPE:Incorporeal		TEMPLATE:Incorporeal		ABILITY:Special Ability|AUTOMATIC|Incorporeal Subtype		LEVELADJUSTMENT:2

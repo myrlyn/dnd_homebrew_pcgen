@@ -32,3 +32,5 @@ SOURCELONG:My Campaign	SOURCESHORT:My	SOURCEWEB:http://www.mywebsite.com	SOURCED
 #
 #Firearms			TYPE:Exotic.Ranged.Firearms
 Pistol (Revolver)			TYPE:Exotic.Ranged.Firearms
+
+Greatpick				TYPE:Exotic.Melee.Piercing.Kobold

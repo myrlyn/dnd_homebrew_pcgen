@@ -130,3 +130,8 @@ ABILITYCATEGORY:Divine Minion Fast Wild Shape		VISIBLE:QUALIFY	EDITABLE:YES	EDIT
 
 
 ABILITYCATEGORY:Divine Minion Fast Wild Shape Choice		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability	TYPE:DivineMinionFastWildShapeChoice		PLURAL:Divine Minion Fast Wild Shape Choices		DISPLAYLOCATION:Race Traits
+
+
+
+ABILITYCATEGORY:Magical Training		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:MagicalTraining		PLURAL:Magical Training		DISPLAYLOCATION:Feats
+
