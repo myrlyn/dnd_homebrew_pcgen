@@ -27,15 +27,15 @@ AUTORESIZEGEAR:Y
 CHARACTERNAME:Harvey "Big Chungus" The Moon Rabbit
 TABNAME:
 PLAYERNAME:
-HEIGHT:0
-WEIGHT:0
+HEIGHT:918
+WEIGHT:400
 AGE:0
 GENDER:Male
 HANDED:Right
-SKINCOLOR:
-EYECOLOR:
-HAIRCOLOR:
-HAIRSTYLE:
+SKINCOLOR:Fuzzy
+EYECOLOR:Brown
+HAIRCOLOR:Brown
+HAIRSTYLE:Fuzzy
 LOCATION:
 CITY:
 BIRTHDAY:
@@ -46,7 +46,8 @@ SPEECHPATTERN:
 PHOBIAS:
 INTERESTS:
 CATCHPHRASE:
-PORTRAIT:
+PORTRAIT:C&colon;\Users\myrlyn\Downloads\Wererabbit.png
+PORTRAITTHUMBNAILRECT:204,26,100,100
 
 # Character Attributes
 STAT:STR|SCORE:18
@@ -76,7 +77,7 @@ CLASSABILITIESLEVEL:Battle Dancer=8|HITPOINTS:10|SKILLSGAINED:7|SKILLSREMAINING:
 CLASSABILITIESLEVEL:Battle Dancer=9|HITPOINTS:10|PRESTAT:DEX=1|SKILLSGAINED:7|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:91000
+EXPERIENCE:66000
 EXPERIENCETABLE:Default
 
 # Character Templates
@@ -93,6 +94,7 @@ TEMPLATESAPPLIED:[NAME:Primordial giant]
 TEMPLATESAPPLIED:[NAME:Unseelie Fey]
 TEMPLATESAPPLIED:[NAME:Magic Blooded (Spark)]
 TEMPLATESAPPLIED:[NAME:Funds - None]
+TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
 
 # Character Region
 REGION:None
@@ -132,6 +134,14 @@ SKILL:Survival|OUTPUTORDER:31|
 SKILL:Swim|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:14.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warshaper|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Tumble|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:12.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warshaper|RANKS:3.0|COST:2|CLASSSKILL:N]
 SKILL:Use Rope|OUTPUTORDER:34|
+SKILL:Ride|OUTPUTORDER:25|
+SKILL:Search|OUTPUTORDER:26|
+SKILL:Sense Motive|OUTPUTORDER:27|
+SKILL:Spot|OUTPUTORDER:28|
+SKILL:Survival|OUTPUTORDER:29|
+SKILL:Swim|OUTPUTORDER:30|
+SKILL:Tumble|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Warshaper|RANKS:3.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Rope|OUTPUTORDER:32|
 
 # Character Languages
 LANGUAGE:Common|LANGUAGE:Giant|LANGUAGE:Hengeyokai
@@ -145,6 +155,8 @@ USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Aberration Blood|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flexible Limbs|TYPE:SpecialQuality.Aberration Blood|DESC:+2 Grapple
 USERPOOL:Aberration Blood|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Aberration Blood|TYPE:Aberrant|DESC:You gain a physical feature that grants you a racial bonus on one type of check; once you select the check to which this bonus applies (as well as the corresponding feature) you cannot change it later.
+ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
+USERPOOL:ECL Buy Down|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Battle Dancer ~ Superior Unarmed Strike|TYPE:General|DESC:This is Superior Unarmed Strike that correctly interacts with the BattleDancer class.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Greater Multigrab|TYPE:Monstrous|DESC:You can grapple enemies effortlessly with your natural weapons.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Natural Attack|APPLIEDTO:Slam,Claws|TYPE:General.Natural Fighting|DESC:Choose one of the creature's natural attack forms. The damage for this natural weapon increases by one step, as if the creature's size had increased by one category&colon; 1d2, 1d3, 1d4, 1d6, 1d8, 2d6, 3d6, 4d6, 6d6, 8d6, 12d6. A weapon or attack that deals 1d10 points of damage increases as follows&colon; 1d10, 2d8, 3d8, 4d8, 6d8, 8d8, 12d8.
@@ -158,6 +170,9 @@ ABILITY:Hengeyokai Alternate Form|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Hare|
 USERPOOL:Hengeyokai Alternate Form|POOLPOINTS:0.0
 ABILITY:Mighty Wallop Effect|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mighty Wallop Enhancement (Unarmed Strike)|TYPE:MightyWallopEffect.SpecialQuality|DESC:You increase the damage done by a bludgeoning Weapon weapon.
 USERPOOL:Mighty Wallop Effect|POOLPOINTS:0.0
+USERPOOL:Mighty Wallop Effect|POOLPOINTS:1.0
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Rule - Use ECL Level Buy Down|TYPE:MiscOptions
+USERPOOL:Misc Options|POOLPOINTS:0.0
 ABILITY:Morphic Weapon Enhancement|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Morphic Weapon Enhancement|APPLIEDTO:Claws,Gore,Slam|TYPE:Morphic Weapon Enhancement.SpecialQuality|DESC:You increase the damage done by a natural weapon.
 ABILITY:Morphic Weapon Enhancement|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Morphic Weapon Enhancement (Unarmed Strike)|TYPE:Morphic Weapon Enhancement.SpecialQuality|DESC:You increase the damage done by a natural weapon.
 USERPOOL:Morphic Weapon Enhancement|POOLPOINTS:3.0
@@ -190,6 +205,19 @@ EQUIPNAME:Gore (Natural/Primary)|OUTPUTORDER:3|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|
 EQUIPNAME:Mighty Arms|OUTPUTORDER:8|COST:1000|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Monk's Belt, Battle Dancer|OUTPUTORDER:7|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Monk's ~ Battle Dancer)|DATA:NAME=Monk's Belt, Battle Dancer$KEY=Belt (Monk's ~ Battle Dancer)]
 EQUIPNAME:Slam (Natural/Primary)|OUTPUTORDER:5|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Slam|DATA:KEY=Slam]
+MONEY:900.00
+EQUIPNAME:Battlefist (Might Arms/Large/Adamantine)|OUTPUTORDER:3|COST:5600.0|WT:12.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mighty Arms Attached ~ Battlefist|DATA:NAME=Battlefist (Might Arms/Large/Adamantine)$KEY=Mighty Arms Attached _ Battlefist (Large/Adamantine)$SIZE=L$EQMOD=PLUS1W.Adamantine (Weapon)]
+EQUIPNAME:Bracelet of Mighty Wallop|OUTPUTORDER:1|COST:4000|WT:1.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Claws (Natural/Primary)|OUTPUTORDER:2|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Claws|DATA:KEY=Claws]
+EQUIPNAME:Fanged Ring|OUTPUTORDER:10|COST:10000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gore (Natural/Primary)|OUTPUTORDER:6|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gore|DATA:KEY=Gore]
+EQUIPNAME:Mighty Arms|OUTPUTORDER:9|COST:10000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Monk's Belt, Battle Dancer|OUTPUTORDER:7|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Monk's ~ Battle Dancer)|DATA:NAME=Monk's Belt, Battle Dancer$KEY=Belt (Monk's ~ Battle Dancer)]
+EQUIPNAME:Ring of Protection +3|OUTPUTORDER:5|COST:18000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Shirt of Ironskin|OUTPUTORDER:8|COST:15000|WT:10.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Slam (Natural/Primary)|OUTPUTORDER:4|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Slam|DATA:KEY=Slam]
+EQUIPNAME:Truedeath Crystal (Lesser)|OUTPUTORDER:12|COST:5000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Unlimited Chronocharm of the Horizon Walker|OUTPUTORDER:11|COST:2500|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chronocharm of the Horizon Walker|DATA:NAME=Unlimited Chronocharm of the Horizon Walker$SPROP=Spend a Swift action to move up to your movement, (Chronocharm of the Horizon Walker)$COSTMOD=2000]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.03|VALUE:Mighty Arms|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.05|VALUE:Fanged Ring|QUANTITY:1.0|USETEMPMODS:Y
@@ -202,6 +230,12 @@ EQUIPSET:Arms|ID:0.1.19|VALUE:Bracers of Armor +3|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Natural-Primary|ID:0.1.2|VALUE:Gore (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Natural-Primary|ID:0.1.20|VALUE:Slam (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Hands|ID:0.1.21|VALUE:Glove of Mighty Wallop|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.11|VALUE:Slam (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.12|VALUE:Unlimited Chronocharm of the Horizon Walker|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.13|VALUE:Truedeath Crystal (Lesser)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.14|VALUE:Ring of Protection +3|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.15|VALUE:Shirt of Ironskin|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.2|VALUE:Gore (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
