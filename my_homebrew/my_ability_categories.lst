@@ -135,3 +135,12 @@ ABILITYCATEGORY:Divine Minion Fast Wild Shape Choice		VISIBLE:QUALIFY	EDITABLE:Y
 
 ABILITYCATEGORY:Magical Training		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:MagicalTraining		PLURAL:Magical Training		DISPLAYLOCATION:Feats
 
+
+
+ABILITYCATEGORY:Manifestation State		VISIBLE:QUALIFY		EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability	TYPE:ManifestationState		PLURAL:Manifestation State		DISPLAYLOCATION:Race Traits
+
+
+
+ABILITYCATEGORY:Mighty Wallop Effect		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability	TYPE:MightyWallopEffect		PLURAL:Mighty Wallop Effects		DISPLAYLOCATION:Class Features
+
+

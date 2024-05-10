@@ -2764,6 +2764,12 @@ Morphic Weapon Enhancement				CATEGORY:Special Ability		TYPE:Morphic Weapon Enha
 Morphic Weapon Enhancement (Unarmed Strike)				CATEGORY:Special Ability		TYPE:Morphic Weapon Enhancement.SpecialQuality			DESC:You increase the damage done by a natural weapon.						BONUS:WEAPONPROF=Unarmed Strike|DAMAGESIZE|1
 
 
+Mighty Wallop Enhancement				CATEGORY:Special Ability		TYPE:MightyWallopEffect.SpecialQuality			DESC:You increase the damage done by a bludgeoning weapon.		STACK:NO	MULT:YES		CHOOSE:WEAPONPROFICIENCY|PC,TYPE=Bludgeoning		BONUS:WEAPONPROF=%LIST|DAMAGESIZE|1
+
+Mighty Wallop Enhancement (Unarmed Strike)				CATEGORY:Special Ability		TYPE:MightyWallopEffect.SpecialQuality			DESC:You increase the damage done by a bludgeoning Weapon weapon.						BONUS:WEAPONPROF=Unarmed Strike|DAMAGESIZE|1
+
+Mighty Wallop Enhancement (Slam)				CATEGORY:Special Ability		TYPE:MightyWallopEffect.SpecialQuality			DESC:You increase the damage done by a bludgeoning Weapon weapon.						BONUS:WEAPONPROF=Slam|DAMAGESIZE|1
+
 
 Tremorsense			KEY:Insectile Tremorsense			TYPE:SpecialQuality.Extraordinary		CATEGORY:Special ability		DESC:You can sense the location of anything touching the ground within 60'
 Wide Vision			KEY:Insectile Wide VISION			TYPE:SpecialQuality.Extraordinary		CATEGORY:Special ability		DESC:+4 to spot and cannot be flanked.			BONUS:SKILL|Spot|4|TYPE=Racial.STACK
@@ -3077,42 +3083,84 @@ Lawful Divine Minion		VISIBLE:NO			CATEGORY:Special Ability		TEMPLATE:Lawful Div
 Chaotic Divine Minion		VISIBLE:NO			CATEGORY:Special Ability		TEMPLATE:Chaotic Divine Minion	TYPE:Hidden	
 
 
-Fast Wild Shape			CATEGORY:Special Ability	KEY:Divine Minion ~ Fast Wild Shape			MULT:YES		STACK:NO	CHOOSE:USERINPUT|TITLE=Animal Form	SELECT:1	DESC:A divine minion can wild shape as an 11th-level druid into one or more animal type forms that depend on the deity it serves (divine minions of Set also have a vermin form). The divine minion can use this ability at will, can change form as a free action, and can spend time in animal form indefinitely. They prefer to keep their shapechanging abilities secret so that they can use them to surprise their enemies in combat. Unlike a druid, minions can use this ability even if they're wearing metal armor.		SERVESAS:ABILITY=Special Ability|Druid ~ Wild Shape		BONUS:VAR|DruidWildShapeLVL|11		TYPE:SpecialQuality.Supernatural.DivineMinionFastWildShapeChoice
+
+######################MOMF#################
+
+MOMF ~ Huge Wild Shape			CATEGORY:Special Ability		TYPE:Hidden			VISIBLE:NO		SERVESAS:ABILITY=FEAT|Gargantuan Wild Shape		QUALIFY:ABILITY=FEAT|Gargantuan Wild Shape		
+
+
+
+
+
+
+
+
+
+
+MOMF ~ Gargantuan Wild Shape			CATEGORY:Special Ability		TYPE:Hidden			VISIBLE:NO		SERVESAS:ABILITY=FEAT|Gargantuan Wild Shape		QUALIFY:ABILITY=FEAT|Colossal Wild Shape		ABILITY:FEAT|VIRTUAL|Gargantuan Wild Shape
+
+
+MOMF ~ Elemental Wild Shape			CATEGORY:Special Ability		TYPE:Hidden			VISIBLE:NO		ABILITY:Special Ability|AUTOMATIC|MOMF ~ Improved Elemental Wild Shape|PRESTAT:1,WIS=25
+
+MOMF ~ Improved Elemental Wild Shape			CATEGORY:Special Ability		TYPE:Hidden			VISIBLE:NO		QUALIFY:ABILITY=FEAT|Improved Elemental Wild Shape
+
+MOMF ~ Diminutive Wild Shape			CATEGORY:Special Ability		TYPE:Hidden			VISIBLE:NO		SERVESAS:ABILITY=FEAT|Diminutive Wild Shape		QUALIFY:ABILITY=FEAT|Fine Wild Shape		ABILITY:FEAT|VIRTUAL|Diminutive Wild Shape
+
+MOMF ~ Tiny Wild Shape			CATEGORY:Special Ability		TYPE:Hidden			VISIBLE:NO				QUALIFY:ABILITY=FEAT|Diminutive Wild Shape		
+
+
+
+CATEGORY=Special Ability|Master of Many Forms ~ Improved Wild Shape.MOD				ABILITY:Special Ability|AUTOMATIC|MOMF ~ Huge Wild Shape|PREVARGTEQ:MasterofManyFormsLVL,6
+CATEGORY=Special Ability|Master of Many Forms ~ Improved Wild Shape.MOD				ABILITY:Special Ability|AUTOMATIC|MOMF ~ Gargantuan Wild Shape|PREVARGTEQ:MasterofManyFormsLVL,10
+CATEGORY=Special Ability|Master of Many Forms ~ Improved Wild Shape.MOD				ABILITY:Special Ability|AUTOMATIC|MOMF ~ Elemental Wild Shape|PREVARGTEQ:MasterofManyFormsLVL,9
+CATEGORY=Special Ability|Master of Many Forms ~ Improved Wild Shape.MOD				ABILITY:Special Ability|AUTOMATIC|MOMF ~ Tiny Wild Shape|PREVARGTEQ:MasterofManyFormsLVL,4
+CATEGORY=Special Ability|Master of Many Forms ~ Improved Wild Shape.MOD				ABILITY:Special Ability|AUTOMATIC|MOMF ~ Diminutive Wild Shape|PREVARGTEQ:MasterofManyFormsLVL,8
+CATEGORY=Special Ability|Master of Many Forms ~ Improved Wild Shape.MOD				ABILITY:FEAT|VIRTUAL|Aberration Wild Shape|PREVARGTEQ:MasterofManyFormsLVL,6
+CATEGORY=Special Ability|Master of Many Forms ~ Improved Wild Shape.MOD				ABILITY:FEAT|VIRTUAL|Fast Wild Shape|PREVARGTEQ:MasterofManyFormsLVL,3	
+
+
+
+
+#############DIVINE MINION#######################
+
+Fast Wild Shape			CATEGORY:Special Ability	KEY:Divine Minion ~ Fast Wild Shape			MULT:YES		STACK:NO	CHOOSE:USERINPUT|TITLE=Animal Form	SELECT:1	DESC:A divine minion can wild shape as an 11th-level druid into one or more animal type forms that depend on the deity it serves (divine minions of Set also have a vermin form). The divine minion can use this ability at will, can change form as a free action, and can spend time in animal form indefinitely. They prefer to keep their shapechanging abilities secret so that they can use them to surprise their enemies in combat. Unlike a druid, minions can use this ability even if they're wearing metal armor.		SERVESAS:ABILITY=Special Ability|Druid ~ Wild Shape		BONUS:VAR|DruidWildShapeLVL|11		TYPE:SpecialQuality.Supernatural.DivineMinionFastWildShapeChoice.Wild Shape.WildShape			AUTO:WEAPONPROF|Bite		AUTO:WEAPONPROF|Claw		AUTO:WEAPONPROF|TYPE.Natural
+CATEGORY=Special Ability|Druid ~ Wild Shape.MOD		AUTO:WEAPONPROF|Bite		AUTO:WEAPONPROF|Claw		AUTO:WEAPONPROF|TYPE.Natural
 
 Anhur			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Anhur, granting you the form of a Lion.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Lion)
 
 
-Bast			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Bast, granting you the forms of a Lion, Leopard, and Cat.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Lion)		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Leopard)			ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Cat)
+Bast			KEY:Divine Minion of Bast			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Bast, granting you the forms of a Lion, Leopard, and Cat.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Lion)		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Leopard)			ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Cat)
 
-Sharess			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Sharess, granting you the forms of a Lion, Leopard, and Cat.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Lion)		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Leopard)			ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Cat)
+Sharess			KEY:Divine Minion of Sharess			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Sharess, granting you the forms of a Lion, Leopard, and Cat.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Lion)		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Leopard)			ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Cat)
 
 
 Geb			KEY:Divine Minion of Geb			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Geb, granting you the form of a Brown Bear.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Brown Bear)
 
 
-Hathor			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Hathor, granting you the form of a Cow/Bison.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Cow/Bison)
+Hathor			KEY:Divine Minion of Hathor			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Hathor, granting you the form of a Cow/Bison.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Cow/Bison)
 
 
-Horus-Re			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Horus-Re, granting you the form of a Lion and Hawk.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Lion)			ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Hawk)
+Horus-Re			KEY:Divine Minion of Horus-Re			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Horus-Re, granting you the form of a Lion and Hawk.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Lion)			ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Hawk)
 
 
-Isis			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Isis, granting you the form of a Hawk.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Hawk)
+Isis			KEY:Divine Minion of Isis			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Isis, granting you the form of a Hawk.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Hawk)
 
-Nepthys			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Nepthys, granting you the form of a Hawk, Crocodile, Constrictor Snake.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Hawk)		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Crocodile)			ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Constrictor Snake)		
+Nepthys			KEY:Divine Minion of Nepthys			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Nepthys, granting you the form of a Hawk, Crocodile, Constrictor Snake.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Hawk)		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Crocodile)			ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Constrictor Snake)		
 
-Osiris			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Osiris, granting you the form of a Hawk and a Brown Bear.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Hawk)		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Brown Bear)
+Osiris			KEY:Divine Minion of Osiris			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Osiris, granting you the form of a Hawk and a Brown Bear.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Hawk)		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Brown Bear)
 
-Isis			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Isis, granting you the form of a Hawk.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Hawk)
-
-
-
-Sebek			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Sebek, granting you the form of a Crocodile.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Crocodile)		
+Isis			KEY:Divine Minion of Isis			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Isis, granting you the form of a Hawk.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Hawk)
 
 
-Set			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Set, granting you the forms of Brown bear, constrictor snake, crocodile, jackal (dog), Large giant scorpion, Medium viper, Medium giant scorpion.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Brown bear, constrictor snake, crocodile, jackal (dog), Large giant scorpion, Medium viper, Medium giant scorpion)		
+
+Sebek			KEY:Divine Minion of Sebek			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Sebek, granting you the form of a Crocodile.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Crocodile)		
 
 
-Thoth			KEY:Divine Minion of Anhur			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Thoth, granting you the form of a Baboon and Ibis (Hawk).		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Baboon)			ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Ibis (Hawk))		
+Set			KEY:Divine Minion of Set			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Set, granting you the forms of Brown bear, constrictor snake, crocodile, jackal (dog), Large giant scorpion, Medium viper, Medium giant scorpion.		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Brown bear)			ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Constrictor Snake)		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Crocodile)		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Jackal)	ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Large Giant Scorpion)		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Medium Viper)		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Medium Giant Scorpion)
+
+
+
+Thoth			KEY:Divine Minion of Thoth			TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		DESC:You are a minion of Thoth, granting you the form of a Baboon and Ibis (Hawk).		ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Baboon)			ABILITY:Special Ability|AUTOMATIC|Divine Minion ~ Fast Wild Shape(Ibis (Hawk))		
 
 Divine Minion								TYPE:DivineMinionFastWildShape.Supernatural.SpecialQuality		CATEGORY:Special Ability		CHOOSE:USERINPUT|TITLE=Deity Name	SELECT:1		DESC:You are a divine minion of %1, granting the form of their favored animal(s)|LIST				MULT:YES		STACK:NO		BONUS:ABILITYPOOL|Divine Minion Fast Wild Shape Choice|1
 
@@ -3145,3 +3193,34 @@ CATEGORY=Internal|Kobold ~ Base.MOD		TYPE:Race Base
 
 CATEGORY=Internal|Kobold ~ Base.COPY=Variant Kobold
 CATEGORY=Internal|Variant Kobold.MOD		NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Primary,*2,1d3|Bite,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Primary,*1,1d3	ABILITY:Special Ability|AUTOMATIC|Slight Build	AUTO:WEAPONPROF|Pick (Light)|Pick (Heavy)		CHANGEPROF:Greatpick=Martial			TYPE:Race Base		AUTO:LANG|Yip-yak	TEMPLATE:Kobold Bonus Languages
+
+
+
+
+
+
+
+
+CATEGORY=FEAT|Corrupting Touch.MOD				DESC:.CLEAR		BENEFIT:.CLEAR			DESC:Your touch can damage creatures.		BENEFIT:You can make a touch attack that deals 1d4 points of damage to a creature. When you are manifested fully or attacking incorporeal opponents, you add your Strength modifier to attack rolls. When you are incorporeal, you add your Dexterity modifier to attack rolls. If the attack scores a critical hit, the damage is doubled (ghosts are not subject to critical hits).  You do not have to use this ability when you touch another creature, and creatures that touch you do not take this damage.    NORMAL:Your incorporeal touch deals no damage.  
+
+
+
+CATEGORY=FEAT|Agony Touch.MOD	BENEFIT:.CLEAR		DESC:.CLEAR		DESC:Choose one physical ability score (Strength, Dexterity, or Constitution). When you touch a creature, you can deal damage to this ability score.	BENEFIT:You can make a touch attack that deals 1d4 points of temporary ability damage to the selected ability score of the target. hen you are manifested fully or attacking incorporeal opponents, you add your Strength modifier to attack rolls. When you are incorporeal, you add your Dexterity modifier to attack rolls. If the attack scores a critical hit, the damage is doubled (ghosts are not subject to critical hits). Only one kind of damage or effect from the path of the corrupter applies from each attack. You may use this attack once per day per character level.    You do not have to use this ability when you touch another creature, and creatures that touch you do not take this ability damage.    SPECIAL:You can gain this feat multiple times. Its effects do not stack. Each time you take this feat, it applies to a different ability score.    NORMAL:Your incorporeal touch deals no damage.  
+
+
+No Strength Score		KEY:LockedStr			CATEGORY:Special Ability		TYPE:Hidden			DEFINESTAT:LOCK|STR|10		DESC:Incorporeal Creaturs Have No Strength Score
+
+
+
+
+Incorporeal		KEY:Manifestation State ~ Incorporeal				CATEGORY:Special Ability		TYPE:ManifestationState.Supernatural.SpecialQuality			DESC:You are currently Incoporeal		TEMPLATE:Template Incorporeal State
+
+
+Corporeal		KEY:Manifestation State ~ Corporeal				CATEGORY:Special Ability		TYPE:ManifestationState.Supernatural.SpecialQuality			DESC:You are currently coproreal.
+
+Possessing		KEY:Manifestation State ~ incorporeal				CATEGORY:Special Ability		TYPE:ManifestationState.Supernatural.SpecialQuality			DESC:You are currently possessing a body.  Use the body's physical attributes.
+
+
+Shellcraft Manakin		KEY:Manifestation State ~ incorporeal				CATEGORY:Special Ability		TYPE:ManifestationState.Supernatural.SpecialQuality			DESC:You are currently possessing a Shellcraft Manakin.  Use the your corporeal physical attributes.
+
+

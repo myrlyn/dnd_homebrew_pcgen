@@ -6,7 +6,7 @@ VERSION:6.08.00 RC10
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
 CHARACTERTYPE:PC
-PREVIEWSHEET:Standard.htm.ftl
+PREVIEWSHEET:preview.html
 POOLPOINTS:0
 POOLPOINTSAVAIL:-1
 GAMEMODE:Bahamut35e
@@ -26,28 +26,28 @@ AUTORESIZEGEAR:Y
 # Character Bio
 CHARACTERNAME:Shade, Soulsinger Bard
 TABNAME:
-PLAYERNAME:
-HEIGHT:0
+PLAYERNAME:Tiff
+HEIGHT:60
 WEIGHT:0
 AGE:0
-GENDER:Male
+GENDER:Female
 HANDED:Right
-SKINCOLOR:
-EYECOLOR:
-HAIRCOLOR:
-HAIRSTYLE:
-LOCATION:
+SKINCOLOR:Translucent blue-white
+EYECOLOR:translucent blue-white
+HAIRCOLOR:Translucent blue-white
+HAIRSTYLE:floaty and ethereal
+LOCATION:The Open Road
 CITY:
-BIRTHDAY:
-BIRTHPLACE:
-PERSONALITYTRAIT1:
-PERSONALITYTRAIT2:
-SPEECHPATTERN:
-PHOBIAS:
-INTERESTS:
-CATCHPHRASE:
-PORTRAIT:C&colon;\Users\myrlyn\Downloads\timfor-shade-timforshade-ghost-female-in-cool-pose-by-boris-vallejo-4b5a4d52-30db-467f-b475-584927c23a77.jpg
-PORTRAITTHUMBNAILRECT:482,46,378,378
+BIRTHDAY:Vernal Equinox
+BIRTHPLACE:Just left of the middle of nowhere
+PERSONALITYTRAIT1:Silly
+PERSONALITYTRAIT2:Curious
+SPEECHPATTERN:Musical
+PHOBIAS:Necromancers
+INTERESTS:Necromancy
+CATCHPHRASE:Excuse me while I slip into something more comfortable
+PORTRAIT:J&colon;\Users\myrlyn\Downloads\ghostgirl.jpg
+PORTRAITTHUMBNAILRECT:296,325,406,406
 
 # Character Attributes
 STAT:STR|SCORE:16
@@ -56,7 +56,7 @@ STAT:CON|SCORE:16
 STAT:INT|SCORE:18
 STAT:WIS|SCORE:16
 STAT:CHA|SCORE:21
-ALIGN:NONE
+ALIGN:CG
 RACE:Planetouched (Aasimar)
 
 # Character Class(es)
@@ -92,6 +92,7 @@ TEMPLATESAPPLIED:[NAME:Incorporeal]
 TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
 TEMPLATESAPPLIED:[NAME:Funds - None]
 TEMPLATESAPPLIED:[NAME:Bardic Inspire Courage ~ Is the Bard]
+TEMPLATESAPPLIED:[NAME:Template Incorporeal State]
 
 # Character Region
 REGION:None
@@ -155,7 +156,7 @@ SKILL:Use Rope|OUTPUTORDER:53|
 LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Dwarven|LANGUAGE:Elven|LANGUAGE:Sylvan
 
 # Character Feats
-FEATPOOL:0.0
+FEATPOOL:1.0
 
 # Character Abilities
 ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan,Elven,Draconic,Dwarven|TYPE:
@@ -172,21 +173,23 @@ ABILITY:Bard Variant|TYPE:NORMAL|CATEGORY:ACF|KEY:Bard Variant ~ Regular Bard|TY
 USERPOOL:Bard Variant|POOLPOINTS:0.0
 ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
 USERPOOL:ECL Buy Down|POOLPOINTS:0.0
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Agony Touch|APPLIEDTO:CON|TYPE:Ghost.Corrupter|DESC:Choose one physical ability schore (Stength, Dexterity or Constitution). When you touch a creature, you can deal damage to this ability
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Corrupting Touch|TYPE:Ghost.Corrupter|DESC:Your touch can damage creatures
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Agony Touch|APPLIEDTO:CON|TYPE:Ghost.Corrupter|DESC:Choose one physical ability score (Strength, Dexterity, or Constitution). When you touch a creature, you can deal damage to this ability score.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Corrupting Touch|TYPE:Ghost.Corrupter|DESC:Your touch can damage creatures.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Enervating Touch|TYPE:Ghost.Corrupter|DESC:Your touch can bestow negative levels upon creatures
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Ghost Ride|TYPE:Ghost.Dominator|DESC:You can ride within the physical body of a living creature, perceiving the world through its senses, but without the ability to control the host
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Iron Will|TYPE:General|DESC:You have a stronger will than normal.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Malevolence|TYPE:Ghost.Dominator|DESC:You can possess a creature and control its actions
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Minor Malevolence|TYPE:Ghost.Dominator|DESC:You can possess a creature for a short while and control its actions
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Shriveling Touch|APPLIEDTO:CATEGORY=FEAT&pipe;Agony Touch&pipe;CON|TYPE:Ghost.Corrupter|DESC:Choose one physical ability score (Strength, Dexterity or Constitution). When you touh a living creature or a ghost, you can cause permanent drain to that score
-USERPOOL:FEAT|POOLPOINTS:0.0
+USERPOOL:FEAT|POOLPOINTS:1.0
 ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
 USERPOOL:First Level Feat|POOLPOINTS:0.0
 ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Noncombatant|TYPE:Flaws.SpecialQuality|DESC:You are relatively inept at melee combat.
 ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Poor Reflexes|TYPE:Flaws.SpecialQuality|DESC:You often zig when you should have zagged.
 ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Shaky|TYPE:Flaws.SpecialQuality|DESC:You are relatively poor at ranged combat.
 USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:Manifestation State|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Manifestation State ~ Incorporeal|TYPE:ManifestationState.Supernatural.SpecialQuality|DESC:You are currently Incoporeal
+USERPOOL:Manifestation State|POOLPOINTS:0.0
 ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Rule - Use ECL Level Buy Down|TYPE:MiscOptions
 USERPOOL:Misc Options|POOLPOINTS:0.0
 ABILITY:Race Base|TYPE:NORMAL|CATEGORY:Internal|KEY:Aasimar Subrace ~ Standard|TYPE:AasimarSubrace.Default.Race Base|DESC:Standard Monster Manual Version
@@ -207,28 +210,30 @@ WEAPONPROF:[WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Ra
 WEAPONPROF:[WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Strike (Unarmed)|WEAPON:Sword (Short)|WEAPON:Unarmed Strike|WEAPON:Whip]
 
 # Character Equipment
-MONEY:0
+MONEY:0.00
 EQUIPNAME:Badge of Valor|OUTPUTORDER:2|COST:1200|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Bag of Holding (Type III)|OUTPUTORDER:9|COST:7400|WT:35.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Belt, Battle Dancer's|OUTPUTORDER:6|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Battle Dancer's)|DATA:NAME=Belt, Battle Dancer's$KEY=Belt (Battle Dancer's)$SPROP=When wrapped around a character's waist, this belt confers great ability in unarmed combat. The wearer's AC and unarmed damage is treated as a monk of five levels higher. If donned by a character with the Stunning Fist feat, the belt lets her make one additional stunning attack per day. If the character is not a monk, she gains the AC and unarmed damage of a 5th-level monk. This AC bonus functions just like the monk's AC bonus. Moderate transmutation. CL 10th.  Incoporeal]
+EQUIPNAME:Belt, Battle Dancer's|OUTPUTORDER:8|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Battle Dancer's)|DATA:NAME=Belt, Battle Dancer's$KEY=Belt (Battle Dancer's)$SPROP=When wrapped around a character's waist, this belt confers great ability in unarmed combat. The wearer's AC and unarmed damage is treated as a monk of five levels higher. If donned by a character with the Stunning Fist feat, the belt lets her make one additional stunning attack per day. If the character is not a monk, she gains the AC and unarmed damage of a 5th-level monk. This AC bonus functions just like the monk's AC bonus. Moderate transmutation. CL 10th.  Incoporeal]
 EQUIPNAME:Bracers of Armor +5|OUTPUTORDER:3|COST:25000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Cloak of Charisma +6|OUTPUTORDER:7|COST:36000|WT:2.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Coin (Gold)|OUTPUTORDER:8|COST:1|WT:0.02|QUANTITY:25.0|NOTE:
+EQUIPNAME:Cloak of Charisma +6|OUTPUTORDER:9|COST:36000|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Coin (Gold)|OUTPUTORDER:11|COST:1|WT:0.02|QUANTITY:175.0|NOTE:
 EQUIPNAME:Hat of Disguise|OUTPUTORDER:1|COST:1800|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Lesser Ring Of Restoration|OUTPUTORDER:6|COST:3600.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Signet Ring|DATA:NAME=Lesser Ring Of Restoration$EQMOD=SPL_CMD&pipe;SPELLNAME&lbracket;Restoration (Lesser)&rbracket; CASTER&lbracket;Paladin&rbracket; SPELLTYPE&lbracket;Divine&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;4&rbracket; $SPROP=On Command, this ring casts "Lesser Restoration" as if cast by a Level 4 Paladin.  This may be used any number of times per day, as a stanard action.  The spell may be cast on the user, or an another target touched.$COSTMOD=-5.0]
+EQUIPNAME:Masterwork Shellcraft Manakin|OUTPUTORDER:10|COST:400.0|WT:80.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shellcraft Manakin|DATA:NAME=Masterwork Shellcraft Manakin$EQMOD=WOOD.Masterwork (Armor)]
+EQUIPNAME:Ring of Mystic Healing|OUTPUTORDER:7|COST:3500|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Riverine Gauntlets|OUTPUTORDER:4|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlets|DATA:NAME=Riverine Gauntlets$SPROP=Indestructible except by Disintegration, rod of Negation, or similar effects.  Force effect.]
 EQUIPNAME:Riverine Whip-dagger|OUTPUTORDER:5|COST:3325.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Whip-dagger|DATA:NAME=Riverine Whip-dagger$EQMOD=STEEL.Masterwork (Weapon)$SPROP=Indestructible other than via Disintegrat, Rod of Negation, or similar effect.  Force effect.$COSTMOD=3000.0]
-EQUIPNAME:Shellcraft Manakin|OUTPUTORDER:10|COST:250.0|WT:80.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shellcraft Manakin|DATA:NAME=Shellcraft Manakin$EQMOD=WOOD]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Waist|ID:0.1.01|VALUE:Belt, Battle Dancer's|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Shoulders|ID:0.1.02|VALUE:Cloak of Charisma +6|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Arms|ID:0.1.06|VALUE:Bracers of Armor +5|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Head|ID:0.1.07|VALUE:Hat of Disguise|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Neck|ID:0.1.09|VALUE:Badge of Valor|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Not Carried|ID:0.1.10|VALUE:Bag of Holding (Type III)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Hands|ID:0.1.11|VALUE:Riverine Gauntlets|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Primary Hand|ID:0.1.12|VALUE:Riverine Whip-dagger|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.13|VALUE:Coin (Gold)|QUANTITY:25.0|USETEMPMODS:Y
-EQUIPSET:Not Carried|ID:0.1.14|VALUE:Shellcraft Manakin|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.14|VALUE:Lesser Ring Of Restoration|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Not Carried|ID:0.1.15|VALUE:Masterwork Shellcraft Manakin|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.16|VALUE:Ring of Mystic Healing|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Not Carried|ID:0.1.17|VALUE:Coin (Gold)|QUANTITY:175.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
@@ -236,6 +241,7 @@ CALCEQUIPSET:0.1
 # EquipSet Temp Bonuses
 
 # Character Deity/Domain
+DEITY:None|DEITYDOMAINS:[DOMAIN:Abyss|DOMAIN:Abyss (1 of 2)|DOMAIN:Air|DOMAIN:Alteration|DOMAIN:Animal|DOMAIN:Arborea|DOMAIN:Arborea (1 of 2)|DOMAIN:Artifice|DOMAIN:Baator|DOMAIN:Baator (1 of 2)|DOMAIN:Balance|DOMAIN:Bestial|DOMAIN:Blightbringer|DOMAIN:Cavern|DOMAIN:Celerity|DOMAIN:Celestia|DOMAIN:Celestia (1 of 2)|DOMAIN:Celestial|DOMAIN:Chaos|DOMAIN:Charm|DOMAIN:City|DOMAIN:Cold|DOMAIN:Commerce|DOMAIN:Community|DOMAIN:Community (Dragonlance)|DOMAIN:Competition|DOMAIN:Corruption|DOMAIN:Courage|DOMAIN:Craft|DOMAIN:Creation|DOMAIN:Darkness|DOMAIN:Death|DOMAIN:Deathbound|DOMAIN:Deathless|DOMAIN:Decay|DOMAIN:Demonic|DOMAIN:Destiny|DOMAIN:Destruction|DOMAIN:Diabolic|DOMAIN:Domination|DOMAIN:Dragon|DOMAIN:Dragon Below|DOMAIN:Dream|DOMAIN:Drow|DOMAIN:Dwarf|DOMAIN:Earth|DOMAIN:Elf|DOMAIN:Elysium|DOMAIN:Elysium (1 of 2)|DOMAIN:Endurance|DOMAIN:Envy|DOMAIN:Evil|DOMAIN:Exorcism|DOMAIN:Family|DOMAIN:Fate|DOMAIN:Feast|DOMAIN:Fey|DOMAIN:Fire|DOMAIN:Force|DOMAIN:Forge|DOMAIN:Ghost|DOMAIN:Glory|DOMAIN:Gluttony|DOMAIN:Gnome|DOMAIN:Good|DOMAIN:Greed|DOMAIN:Hades|DOMAIN:Hades (1 of 2)|DOMAIN:Halfling|DOMAIN:Hatred|DOMAIN:Healing|DOMAIN:Herald|DOMAIN:Hunger|DOMAIN:Illusion|DOMAIN:Incarnum|DOMAIN:Inquisition|DOMAIN:Insight|DOMAIN:Joy|DOMAIN:Knowledge|DOMAIN:Law|DOMAIN:Liberation|DOMAIN:Liberation (Dragonlance)|DOMAIN:Life|DOMAIN:Limbo|DOMAIN:Limbo (1 of 2)|DOMAIN:Luck|DOMAIN:Lust|DOMAIN:Madness|DOMAIN:Magic|DOMAIN:Mechanus|DOMAIN:Mechanus (1 of 2)|DOMAIN:Meditation|DOMAIN:Mentalism|DOMAIN:Mentalism (Dragonlance)|DOMAIN:Metal|DOMAIN:Mind|DOMAIN:Moon|DOMAIN:Mysticism|DOMAIN:Necromancer|DOMAIN:Necromancy|DOMAIN:Nobility|DOMAIN:Ocean|DOMAIN:Oracle|DOMAIN:Orc|DOMAIN:Order of the All-Seeing Eye|DOMAIN:Order of the Consuming Flame|DOMAIN:Order of the Forbidding Wasteland|DOMAIN:Order of the Gentle Rain|DOMAIN:Order of the Impenetrable Crucible|DOMAIN:Order of the Ineffable Mystery|DOMAIN:Order of the Perfect Sculpture|DOMAIN:Order of the Spring Zephyr|DOMAIN:Pact|DOMAIN:Pain|DOMAIN:Passion|DOMAIN:Passion (Dragonlance)|DOMAIN:Pestilence|DOMAIN:Pestilence (Dragonlance)|DOMAIN:Planning|DOMAIN:Plant|DOMAIN:Pleasure|DOMAIN:Portal|DOMAIN:Pride|DOMAIN:Protection|DOMAIN:Purification|DOMAIN:Renewal|DOMAIN:Repose|DOMAIN:Restoration|DOMAIN:Retribution|DOMAIN:Rune|DOMAIN:Sand|DOMAIN:Scalykind|DOMAIN:Shadow|DOMAIN:Slime|DOMAIN:Sloth|DOMAIN:Spell|DOMAIN:Spider|DOMAIN:Spite|DOMAIN:Storm|DOMAIN:Storm (Dragonlance)|DOMAIN:Strength|DOMAIN:Suffering|DOMAIN:Summer|DOMAIN:Summoner|DOMAIN:Sun|DOMAIN:Thirst|DOMAIN:Time|DOMAIN:Trade|DOMAIN:Travel|DOMAIN:Treachery|DOMAIN:Trickery|DOMAIN:Truth|DOMAIN:Tyranny|DOMAIN:Undeath|DOMAIN:Vile Darkness|DOMAIN:War|DOMAIN:Water|DOMAIN:Watery Death|DOMAIN:Wealth|DOMAIN:Weather|DOMAIN:Windstorm|DOMAIN:Winter|DOMAIN:Wrath]|ALIGNALLOW:|DESC:For No Deity Choices|DEITYFAVWEAP:[WEAPON:ALL]|DEITYALIGN:
 
 # Character Spells Information
 SPELLBOOK:Magic Item|TYPE:4
@@ -263,12 +269,12 @@ SPELLNAME:Tongues|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE
 SPELLLIST:Bard|CLASS.Bard
 
 # Character Description/Bio/History
-CHARACTERBIO:Shade grew up in bars and stages, and occasional village squares singing for her supper. &nl;She eventually got recruted by the Bard's guild to be an adventurer. &nl;She had numerous adventures, before things went wrong.  &nl;They went spectacularly wrong when dealing with one of those terrifyimg necromantic artifacts being used by one of the various doomsday cults that spring up around said artifacts like invasive weeds. &nl;She got careless handling it, things went *bang* and when the smoke cleared, she found herself a disembodied soul.  &nl;Technically, she's still alive.  But she doesn't eat, sleep, or breathe. &nl;She's still affected by spells that affect the living, spells that target the fey, and unaffected by spells that target the undead. &nl;She is healed by Positive Energy, harmed by Negative Energy, cannot be Turned/Rebuked.&nl;Protection from good/evil will still prevent her possession attempts.  &nl;She qualifies as a Spirit as far as things like Spirit Shaman are concerned. &nl;
+CHARACTERBIO:Shade grew up in bars and stages, and occasional village squares singing for her supper. &nl;She eventually got recruted by the Bard's guild to be an adventurer. &nl;She had numerous adventures, before things went wrong.  &nl;They went spectacularly wrong when dealing with one of those terrifyimg necromantic artifacts being used by one of the various doomsday cults that spring up around said artifacts like invasive weeds. &nl;She got careless handling it, things went *bang* and when the smoke cleared, she found herself a disembodied soul.  &nl;Technically, she's still alive.  But she doesn't eat, sleep, or breathe. &nl;She's still affected by spells that affect the living, spells that target the fey, and unaffected by spells that target the undead. &nl;She is healed by Positive Energy, harmed by Negative Energy, cannot be Turned/Rebuked.&nl;Protection from good/evil will still prevent her possession attempts.  &nl;She qualifies as a Spirit as far as things like Spirit Shaman are concerned. &nl;&nl;She sings Soul Music  XD
 CHARACTERDESC:Shade in her native form is a beautiful translucent humanoid, skectched on the world in shades of light blue and white. &nl;&nl;When interacting with the world, but not disguised, she appears to be an artistically carved and decorated articulated manakin shaped like a stylized human woman. &nl;&nl;
-CHARACTERCOMP:
+CHARACTERCOMP:Shade travels with her companion Grum, whom she met doing mercenary work down south. &nl;She finds his straight-forward, devil-may-care attitude refreshing, while he enjoys her 5-octave range and ability to negotiate them better contracts.
 CHARACTERASSET:
-CHARACTERMAGIC:
-CHARACTERDMNOTES:
+CHARACTERMAGIC:INCORPOREAL ITEMS&nl;Badge Of Valor&nl;Battle Dancer's Belt (Monk's Belt fashioned afer a Battle Dancer instead of Monk, and providing a Battle Dacner's AC)&nl;Bracers of Armor +5&nl;Cloak Of Charisma&nl;Lesser Ring Of Restoration &nl;Ring Of Mystic Healing&nl;&nl;CORPOREAL ITEMS&nl;175 coins&nl;hat of disguise&nl;riverine gauntlets&nl;riverine whip dagger&nl;shellcraft manakin&nl;
+CHARACTERDMNOTES:Other than &nl;1) NOT being an Outsider&nl;2) NOT being undead&nl;3) NOT having a Manifestation option&nl;You can largely treat Shade like a Ghostwalk Ghost.&nl;You do not need to sleep to live, but must get 8 hours of sleep or its equivalent to recover spells and daily abilities.  &nl;&nl;Transforming items from corporeal to incorporeal for her will require some ingenuity, the assistance of a friendly (and powerful) transmuter...&nl;alterntively, you could bury it with a corpse whose sould became a ghost.  Then when the items manifest with the ghost, go take them from it.  &nl;&nl;Shade does NOT share the normal Undead Immunities, such as to Level Drain, Ability Damage, etc.  Shade is immune to most corporeal toxins, but not categorically immune to effects requiring a Fortitude Save that do not affect objects.  &nl;&nl;If rendered corporeal (or while using her Shellcraft Manakin), Shade's Strength is 16&nl;&nl;CONSTITUTION DRAIN&nl;You can use this ability 12 times a day&nl;Each success not only drains CON from the target, but provides you 5 temporary HP that last for an hour.&nl;&nl;CONSTITION DAMAGE&nl;Similar to the DRAIN ability, but &nl;1) you do not gain temporary HP&nl;2) The lost constitution recovers at a rate of 1/day instead of being permanent. &nl;May also be used 12 times a day&nl;&nl;ENERGY DRAIN&nl;Bestows a negative level on the target (which may result in level loss)&nl;Successfully bestowing a negative level on an enemy grants you 5 temporary HP that last 1 hour.&nl;There is no daily limit on uses of this ability&nl;&nl;HP DAMAGE&nl;You can deal normal, every day damage with a touch attack.  1d4.  No daily limit.&nl;&nl;
 
 # Kits
 
@@ -282,5 +288,5 @@ AGESET:0:0:0:0:0:0:0:0:0:0
 # Campaign History
 
 # Suppressed Biography Fields
-SUPPRESSBIOFIELDS:
+SUPPRESSBIOFIELDS:CITY
 

@@ -182,10 +182,10 @@ Half-Minotaur (Large or Larger)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous 
 
 
 
-Half-Ogre(Medium Or Smaller)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant		ABILITY:Internal|AUTOMATIC|Half-Minotaur (Medium or Smaller)	PRESIZELT:L		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		CR:1		LEVELADJUSTMENT:1	VISION:Darkvision (60')	BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|CHA|-2|TYPE=Racial.STACK		SAB:Giant Blood (Ex) - Half-Ogres count as giants for qualifying for classes, using magic items, etc.
+Half-Ogre(Medium Or Smaller)		PRESIZELT:L		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant		ABILITY:Internal|AUTOMATIC|Half-Minotaur (Medium or Smaller)	PRESIZELT:L		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		CR:1		LEVELADJUSTMENT:1	VISION:Darkvision (60')	BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|CHA|-2|TYPE=Racial.STACK		SAB:Giant Blood (Ex) - Half-Ogres count as giants for qualifying for classes, using magic items, etc.
 #Half-Ogre(Medium Or Smaller)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant		ABILITY:Internal|AUTOMATIC|Half-Minotaur (Medium or Smaller)	PRESIZELT:L		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		CR:1		LEVELADJUSTMENT:1	VISION:Darkvision (60')	BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|CHA|-2|TYPE=Racial.STACK				
 
-Half-Ogre(Large or Larger)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		CR:1	TYPE:LA0Playable	LEVELADJUSTMENT:0	VISION:Darkvision (60')	BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|CHA|-2|TYPE=Racial.STACK		SAB:Giant Blood (Ex) - Half-Ogres count as giants for qualifying for classes, using magic items, etc.		
+Half-Ogre(Large or Larger)	PRESIZEGT:M		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		CR:1	TYPE:LA0Playable	LEVELADJUSTMENT:0	VISION:Darkvision (60')	BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|CHA|-2|TYPE=Racial.STACK		SAB:Giant Blood (Ex) - Half-Ogres count as giants for qualifying for classes, using magic items, etc.		
 Chameleon Creature.MOD			NATURALATTACKS:Chameleon Tongue,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Touch.Reach,*1,1,SPROP="This attack deals no damage but can be used to deliver touch spells."		BONUS:WEAPONPROF=Chameleon Tongue|REACH|5|PRESIZEEQ:M		BONUS:WEAPONPROF=Chameleon Tongue|REACH|10|PRESIZEEQ:L				BONUS:SKILL|Climb|8|TYPE=Racial.STACK		SAB:You may always take 10 on a climb check		MOVECLONE:Walk,Climb,/2
 
 Amphibious	RACESUBTYPE:Aquatic		MOVECLONE:Walk,Swim,/2	ABILITY:Special Ability|AUTOMATIC|Amphibious		BONUS:SKILL|Swim|8|TYPE=Racial	BONUS:STAT|DEX|-2|TYPE=Racial.STACK		TYPE:LA0Playable		SOURCEPAGE:Stormwrack 135
@@ -416,12 +416,9 @@ Kobold Bonus Languages			VISIBLE:NO			LANGBONUS:Draconic,Common,Undercommon
 
 
 
+Ritual Of Transfiguration			LEVELADJUSTMENT:2		TYPE:Incorporeal						SOURCEPAGE:Savage Species, 147		BONUS:ABILITYPOOL|Manifestation State|1
 
 
+Template Incorporeal State			VISIBLE:NO		RACESUBTYPE:Incorporeal			ABILITY:Special Ability|AUTOMATIC|Incorporeal Subtype
 
 
-
-
-
-
-Ritual Of Transfiguration			LEVELADJUSTMENT:2		TYPE:Incorporeal		RACESUBTYPE:Incorporeal		TEMPLATE:Incorporeal	ABILITY:Special Ability|AUTOMATIC|Incorporeal Subtype				SOURCEPAGE:Savage Species, 147
