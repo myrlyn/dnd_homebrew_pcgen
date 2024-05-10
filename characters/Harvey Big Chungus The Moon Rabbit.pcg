@@ -50,29 +50,30 @@ PORTRAIT:
 
 # Character Attributes
 STAT:STR|SCORE:18
-STAT:DEX|SCORE:16
+STAT:DEX|SCORE:17
 STAT:CON|SCORE:16
 STAT:INT|SCORE:16
 STAT:WIS|SCORE:18
-STAT:CHA|SCORE:21
+STAT:CHA|SCORE:20
 ALIGN:CG
 RACE:Hengeyokai ~ Custom
 
 # Character Class(es)
-CLASS:Battle Dancer|LEVEL:9|SKILLPOOL:72|SPELLBASE:None|CANCASTPERDAY:
-CLASS:Warshaper|LEVEL:3|SKILLPOOL:9|SPELLBASE:None|CANCASTPERDAY:
-CLASSABILITIESLEVEL:Battle Dancer=1|HITPOINTS:10|SKILLSGAINED:28|SKILLSREMAINING:24
-CLASSABILITIESLEVEL:Battle Dancer=2|HITPOINTS:10|SKILLSGAINED:7|SKILLSREMAINING:6
-CLASSABILITIESLEVEL:Battle Dancer=3|HITPOINTS:10|SKILLSGAINED:7|SKILLSREMAINING:6
-CLASSABILITIESLEVEL:Battle Dancer=4|HITPOINTS:10|PRESTAT:CHA=1|SKILLSGAINED:7|SKILLSREMAINING:6
-CLASSABILITIESLEVEL:Warshaper=1|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:3
-CLASSABILITIESLEVEL:Warshaper=2|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:3
-CLASSABILITIESLEVEL:Warshaper=3|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:3
-CLASSABILITIESLEVEL:Battle Dancer=5|HITPOINTS:10|PRESTAT:CHA=1|SKILLSGAINED:7|SKILLSREMAINING:6
-CLASSABILITIESLEVEL:Battle Dancer=6|HITPOINTS:10|SKILLSGAINED:7|SKILLSREMAINING:6
-CLASSABILITIESLEVEL:Battle Dancer=7|HITPOINTS:10|SKILLSGAINED:7|SKILLSREMAINING:6
-CLASSABILITIESLEVEL:Battle Dancer=8|HITPOINTS:10|SKILLSGAINED:7|SKILLSREMAINING:6
-CLASSABILITIESLEVEL:Battle Dancer=9|HITPOINTS:10|PRESTAT:CHA=1|SKILLSGAINED:7|SKILLSREMAINING:6
+CLASS:Battle Dancer|LEVEL:9|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Warshaper|LEVEL:3|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:PsiSpell|LEVEL:0|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Battle Dancer=1|HITPOINTS:10|SKILLSGAINED:28|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Battle Dancer=2|HITPOINTS:10|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Battle Dancer=3|HITPOINTS:10|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Battle Dancer=4|HITPOINTS:10|PRESTAT:CHA=1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warshaper=1|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warshaper=2|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warshaper=3|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Battle Dancer=5|HITPOINTS:10|PRESTAT:CHA=1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Battle Dancer=6|HITPOINTS:10|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Battle Dancer=7|HITPOINTS:10|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Battle Dancer=8|HITPOINTS:10|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Battle Dancer=9|HITPOINTS:10|PRESTAT:DEX=1|SKILLSGAINED:7|SKILLSREMAINING:0
 
 # Character Experience
 EXPERIENCE:91000
@@ -100,7 +101,7 @@ REGION:None
 SKILL:Appraise|OUTPUTORDER:1|
 SKILL:Balance|OUTPUTORDER:2|
 SKILL:Bluff|OUTPUTORDER:3|
-SKILL:Climb|OUTPUTORDER:4|
+SKILL:Climb|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:12.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warshaper|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Concentration|OUTPUTORDER:5|
 SKILL:Control Shape|OUTPUTORDER:6|
 SKILL:Craft (Untrained)|OUTPUTORDER:7|
@@ -115,20 +116,22 @@ SKILL:Hide|OUTPUTORDER:15|
 SKILL:Hide (Forested Areas)|OUTPUTORDER:16|
 SKILL:Intimidate|OUTPUTORDER:17|
 SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:18|
-SKILL:Jump|OUTPUTORDER:19|
+SKILL:Jump|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:12.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warshaper|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:20|
 SKILL:Listen|OUTPUTORDER:21|
 SKILL:Literacy|OUTPUTORDER:22|
 SKILL:Move Silently|OUTPUTORDER:23|
 SKILL:Move Silently (Forested Areas)|OUTPUTORDER:24|
-SKILL:Ride|OUTPUTORDER:25|
-SKILL:Search|OUTPUTORDER:26|
-SKILL:Sense Motive|OUTPUTORDER:27|
-SKILL:Spot|OUTPUTORDER:28|
-SKILL:Survival|OUTPUTORDER:29|
-SKILL:Swim|OUTPUTORDER:30|
-SKILL:Tumble|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:12.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warshaper|RANKS:3.0|COST:2|CLASSSKILL:N]
-SKILL:Use Rope|OUTPUTORDER:32|
+SKILL:Perform (Dance)|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Ride|OUTPUTORDER:26|
+SKILL:Search|OUTPUTORDER:27|
+SKILL:Sense Motive|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Skill Trick|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warshaper|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:30|
+SKILL:Survival|OUTPUTORDER:31|
+SKILL:Swim|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:14.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warshaper|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Tumble|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Battle Dancer|RANKS:12.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warshaper|RANKS:3.0|COST:2|CLASSSKILL:N]
+SKILL:Use Rope|OUTPUTORDER:34|
 
 # Character Languages
 LANGUAGE:Common|LANGUAGE:Giant|LANGUAGE:Hengeyokai
@@ -139,20 +142,31 @@ FEATPOOL:0.0
 # Character Abilities
 ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Giant|TYPE:
 USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Aberration Blood|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flexible Limbs|TYPE:SpecialQuality.Aberration Blood|DESC:+2 Grapple
+USERPOOL:Aberration Blood|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Aberration Blood|TYPE:Aberrant|DESC:You gain a physical feature that grants you a racial bonus on one type of check; once you select the check to which this bonus applies (as well as the corresponding feature) you cannot change it later.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Battle Dancer ~ Superior Unarmed Strike|TYPE:General|DESC:This is Superior Unarmed Strike that correctly interacts with the BattleDancer class.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Greater Multigrab|TYPE:Monstrous|DESC:You can grapple enemies effortlessly with your natural weapons.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Natural Attack|APPLIEDTO:Slam,Claws|TYPE:General.Natural Fighting|DESC:Choose one of the creature's natural attack forms. The damage for this natural weapon increases by one step, as if the creature's size had increased by one category&colon; 1d2, 1d3, 1d4, 1d6, 1d8, 2d6, 3d6, 4d6, 6d6, 8d6, 12d6. A weapon or attack that deals 1d10 points of damage increases as follows&colon; 1d10, 2d8, 3d8, 4d8, 6d8, 8d8, 12d8.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Multigrab|TYPE:Monstrous|DESC:You can grapple enemies more firmly than normal with your natural attacks.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Snap Kick|TYPE:General|DESC:You have continued to hone your unarmed combat skills, and you deal more damage with your unarmed strikes.
 USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Meager Fortitude|TYPE:Flaws.SpecialQuality|DESC:You are sickly and weak of stomach.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Shaky|TYPE:Flaws.SpecialQuality|DESC:You are relatively poor at ranged combat.
+USERPOOL:Flaws|POOLPOINTS:0.0
 ABILITY:Hengeyokai Alternate Form|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Hare|TYPE:HengeyokaiAlternateForm.SpecialQuality|DESC:Your alternate form is that of a Hare
 USERPOOL:Hengeyokai Alternate Form|POOLPOINTS:0.0
-ABILITY:Mighty Wallop Effect|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mighty Wallop Enhancement (Slam)|TYPE:MightyWallopEffect.SpecialQuality|DESC:You increase the damage done by a bludgeoning Weapon weapon.
 ABILITY:Mighty Wallop Effect|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mighty Wallop Enhancement (Unarmed Strike)|TYPE:MightyWallopEffect.SpecialQuality|DESC:You increase the damage done by a bludgeoning Weapon weapon.
-USERPOOL:Mighty Wallop Effect|POOLPOINTS:1.0
+USERPOOL:Mighty Wallop Effect|POOLPOINTS:0.0
 ABILITY:Morphic Weapon Enhancement|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Morphic Weapon Enhancement|APPLIEDTO:Claws,Gore,Slam|TYPE:Morphic Weapon Enhancement.SpecialQuality|DESC:You increase the damage done by a natural weapon.
 ABILITY:Morphic Weapon Enhancement|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Morphic Weapon Enhancement (Unarmed Strike)|TYPE:Morphic Weapon Enhancement.SpecialQuality|DESC:You increase the damage done by a natural weapon.
 USERPOOL:Morphic Weapon Enhancement|POOLPOINTS:3.0
 ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Region ~ None|TYPE:Region
 USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Acrobatic Backstab|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:If you succeed on a Tumble check t move tthrough an enemy's space, you can treat that enemy as flat-footed against the next melee attack you make against it on your current turn.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Back on Your Feet|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:If you fall prone for any reason, you can stand up as an immediate action without provoking attacks of opportunity.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Walk the Walls|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:You can move up a wall without making a climb check. Each 5 feet of vertical movement coss you 4 squares of movement, and you must begin and end your turn on a horizontal surface.
+USERPOOL:Skill Tricks|POOLPOINTS:0.0
 ABILITY:Unseelie Fey Seasonal Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Vernal Touch|TYPE:Supernatural.Unseelie Fey Seasonal Power.SpecialQuality|DESC: You are constantly surrounded by a Magic Circle of Nature, which functions like Magic Circle Against Evil, except that it protects form all creatures of any alignment, except animal, beast, fey, or magical beast. Caster level is equal to your total level.
 USERPOOL:Unseelie Fey Seasonal Power|POOLPOINTS:0.0
 ABILITY:Unseelie Fey Vision|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Darkvision Vision|TYPE:Extraordinary.Unseelie Fey Vision.SpecialQuality|DESC:You gain Darkvision 60'.
@@ -164,24 +178,30 @@ USERPOOL:Unseelie Fey Wings|POOLPOINTS:0.0
 WEAPONPROF:[WEAPON:Claws|WEAPON:Gore|WEAPON:Slam]
 
 # Character Equipment
-MONEY:28400.00
-EQUIPNAME:Battlefist (Might Arms/Large/Adamantine)|OUTPUTORDER:3|COST:5600.0|WT:12.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mighty Arms Attached ~ Battlefist|DATA:NAME=Battlefist (Might Arms/Large/Adamantine)$KEY=Mighty Arms Attached _ Battlefist (Large/Adamantine)$SIZE=L$EQMOD=PLUS1W.Adamantine (Weapon)]
-EQUIPNAME:Bracelet of Mighty Wallop|OUTPUTORDER:1|COST:4000|WT:1.0|QUANTITY:2.0|NOTE:
-EQUIPNAME:Claws (Natural/Primary)|OUTPUTORDER:2|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Claws|DATA:KEY=Claws]
-EQUIPNAME:Fanged Ring|OUTPUTORDER:8|COST:10000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Gore (Natural/Primary)|OUTPUTORDER:4|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gore|DATA:KEY=Gore]
-EQUIPNAME:Mighty Arms|OUTPUTORDER:7|COST:10000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Monk's Belt, Battle Dancer|OUTPUTORDER:6|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Monk's ~ Battle Dancer)|DATA:NAME=Monk's Belt, Battle Dancer$KEY=Belt (Monk's ~ Battle Dancer)]
+MONEY:400.00
+EQUIPNAME:Battlefist (Might Arms/Large/Adamantine)|OUTPUTORDER:2|COST:5600.0|WT:12.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mighty Arms Attached ~ Battlefist|DATA:NAME=Battlefist (Might Arms/Large/Adamantine)$KEY=Mighty Arms Attached _ Battlefist (Large/Adamantine)$SIZE=L$EQMOD=PLUS1W.Adamantine (Weapon)]
+EQUIPNAME:Bracers of Armor +3|OUTPUTORDER:3|COST:9000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Chitin Plating +3|OUTPUTORDER:10|COST:36000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Claws (Natural/Primary)|OUTPUTORDER:4|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Claws|DATA:KEY=Claws]
+EQUIPNAME:Fanged Ring|OUTPUTORDER:9|COST:10000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gleaming scales|OUTPUTORDER:11|COST:9000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Glove of Mighty Wallop|OUTPUTORDER:6|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gore (Natural/Primary)|OUTPUTORDER:3|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gore|DATA:KEY=Gore]
+EQUIPNAME:Mighty Arms|OUTPUTORDER:8|COST:1000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Monk's Belt, Battle Dancer|OUTPUTORDER:7|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Monk's ~ Battle Dancer)|DATA:NAME=Monk's Belt, Battle Dancer$KEY=Belt (Monk's ~ Battle Dancer)]
 EQUIPNAME:Slam (Natural/Primary)|OUTPUTORDER:5|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Slam|DATA:KEY=Slam]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.03|VALUE:Mighty Arms|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.05|VALUE:Fanged Ring|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Waist|ID:0.1.06|VALUE:Monk's Belt, Battle Dancer|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Arms|ID:0.1.08|VALUE:Bracelet of Mighty Wallop|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Natural-Primary|ID:0.1.1|VALUE:Claws (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Primary Hand|ID:0.1.10|VALUE:Battlefist (Might Arms/Large/Adamantine)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Waist|ID:0.1.12|VALUE:Monk's Belt, Battle Dancer|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.17|VALUE:Chitin Plating +3|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.18|VALUE:Gleaming scales|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Arms|ID:0.1.19|VALUE:Bracers of Armor +3|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Natural-Primary|ID:0.1.2|VALUE:Gore (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Natural-Primary|ID:0.1.9|VALUE:Slam (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.20|VALUE:Slam (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Hands|ID:0.1.21|VALUE:Glove of Mighty Wallop|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
@@ -192,13 +212,14 @@ CALCEQUIPSET:0.1
 DEITY:Bahamut|DEITYDOMAINS:[DOMAIN:Air|DOMAIN:Dragon|DOMAIN:Good|DOMAIN:Luck|DOMAIN:Nobility|DOMAIN:Protection|DOMAIN:Storm]|ALIGNALLOW:|DEITYFAVWEAP:[WEAPON:Pick (Heavy)|WEAPON:Bite]|DEITYALIGN:LG
 
 # Character Spells Information
+SPELLLIST:PsiSpell|CLASS.PsiSpell|CLASS.Psion
 
 # Character Description/Bio/History
-CHARACTERBIO:
-CHARACTERDESC:
+CHARACTERBIO:Harvey is a rabbit from the moon.&nl;Lots of shapeshifters (Hengeyokai, lycanthropes, shifters, changelings, doppelgangers, mimics, mindstealers) originated on the moon. &nl;&nl;Among Harvey's people the Dance portion of Battle Dancer is heavily emphasized, and he was among the best. &nl;&nl;Once he passed his prime, he came to the World and tried his hand at Adventuring in hopes that the magic and body modifications available to Adventurers would allow him to reclaim his lost glory. &nl;&nl;So far, it hasn't made him the dancer he once was, but his mastery of the Battle side of Battle Dance has grown by leaps and bounds.&nl;&nl;&nl;&nl;Full Attack +24/+19/+14&nl;&nl;Full Attack With Snap Kick +22/+22/+19/+14&nl;
+CHARACTERDESC:In Humanoid form, harvey appears to be a muscular 9' tall human with tan skin and a small pair of bull horns, with Construct arms ending in sharp claws.&nl;&nl;In Hybrid form, Harvey appears to be a 9' half-human, half-rabbit monstrosity with metallic arms ending in wicked claws and a pair of proportional bull hors to match his long ears.  &nl;&nl;In animal form, Harvey appears to be an unremarkable rabbit.
 CHARACTERCOMP:
 CHARACTERASSET:
-CHARACTERMAGIC:
+CHARACTERMAGIC:Bracelets of Mighty Wallop&nl;	When donned, these allow the wearer to select a kind of weapon or attack that deals blunt damage.  The chosen attack deals damage is increased as if it had increased one size category. &nl;Mighty Arms&nl;	You gain a natural weapon slam attack that deals damage as a construct of your size (1d4 for a Medium creature). &nl;	You can make a slam attack while wielding a weapon in the other hand, in which case it is treated as a secondary attack (–5 penalty on attack roll).&nl;	Mighty arms can be fitted with warforged components, such as battlefi sts, that attach to the hand or arm&nl;Adamantine Battlefist&nl;	A battlefist increases the damage dealt by the character’s natural slam attack to 1d8 points of bludgeoning and piercing damage (assuming a Medium character). &nl;	Versions with higher enhancement bonuses are not uncommon.&nl;	A warforged monk who uses a battlefist deals increased unarmed damage as though the character were one size larger than actual.&nl;	He can add the battle fist’s enhancement bonus to his unarmed attack and damage rolls.
 CHARACTERDMNOTES:
 
 # Kits
