@@ -148,3 +148,13 @@ ABILITYCATEGORY:Shadow Sun Ninja Maneuvers		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOO
 
 
 ABILITYCATEGORY:Shadow Sun Ninja Stances		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability	TYPE:Shadow Hand Stance.Setting Sun Stance		PLURAL:Shadow Sun Ninja Stances		DISPLAYLOCATION:Class Features		
+
+
+
+
+ABILITYCATEGORY:Extended Reach		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability	TYPE:ExtendedReach		PLURAL:Extended Reach		DISPLAYLOCATION:Feats
+
+
+
+
+ABILITYCATEGORY:Custom Lycanthrope Choice		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability	TYPE:CustomLycanthrope		PLURAL:Custom Lycanthrope Choice		DISPLAYLOCATION:Race Traits

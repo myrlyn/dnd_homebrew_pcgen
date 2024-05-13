@@ -355,7 +355,6 @@ Planar Self			RACETYPE:Outsider			RACESUBTYPE:Extraplanar				DR:10/Magic
 
 
 
-#./core/monster_manual/mm_templates.lst:Wererat Attacks                                                                                                                                                  VISIBLE:NO                                                            PRETEMPLATE:1,Wererat                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing.Disease,*1,1d4
 
 
 
@@ -364,13 +363,21 @@ Planar Self			RACETYPE:Outsider			RACESUBTYPE:Extraplanar				DR:10/Magic
 Werecat					CR:2			VISIBLE:EXPORT				DEFINE:AnimalSize|0		DEFINE:AnimalHD|0			DEFINE:AnimalMove|0		DEFINE:AnimalAC|0	DEFINE:AnimalDex|0	DEFINE:AnimalCon|0		BONUS:VAR|AnimalMove|30		BONUS:VAR|AnimalDex|4		CSKILL:Balance|Climb|Hide|Jump|Move Silently|Spot	SAB:+8 to hide in tall grass or heavy undergrowth.		ABILITY:FEAT|VIRTUAL|Weapon Finesse
 Werecat.MOD		ABILITY:Special Ability|AUTOMATIC|Werecat ~ Alternate Form|Werecat ~ Curse of Lycanthropy|Werecat ~ Cat Empathy		ABILITY:Special Ability|AUTOMATIC|Scent		VISION:Low-Light Vision		BONUS:VAR|AnimalSize|2
 
+Weredog					CR:2			VISIBLE:EXPORT				DEFINE:AnimalSize|0		DEFINE:AnimalHD|0			DEFINE:AnimalMove|0		DEFINE:AnimalAC|0	DEFINE:AnimalDex|0	DEFINE:AnimalCon|0		BONUS:VAR|AnimalMove|40		BONUS:VAR|AnimalDex|6	BONUS:VAR|AnimalStr|2	BONUS:VAR|AnimalCon|4		BONUS:VAR|AnimalAC|1			CSKILL:Balance|Climb|Hide|Jump|Move Silently|Spot	SAB:+4 to Jump checks and Survival checks to track by scent.		ABILITY:FEAT|VIRTUAL|Track
+Werecat.MOD		ABILITY:Special Ability|AUTOMATIC|Weredog ~ Alternate Form|Weredog ~ Curse of Lycanthropy|Weredog ~ Dog Empathy		ABILITY:Special Ability|AUTOMATIC|Scent		VISION:Low-Light Vision		BONUS:VAR|AnimalSize|3
+
+
 
 Werecat Attacks		BONUS:WEAPONPROF=Bite|DAMAGE|STR/2	PRETEMPLATE:1,Werecat			NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d4|Claw,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d3	BONUS:WEAPONPROF=Claw|DAMAGE|STR		
 
 
-Lycanthrope (Custom)	VISIBLE:YES	TEMPLATE:CHOOSE:Werecat			TEMPLATE:CHOOSE:Natural Lycanthrope|Afflicted Lycanthrope		DEFINE:NoTypeTraits|0		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Giant		!PRETEMPLATE:2,Lycanthrope,Lycanthrope (Custom)		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		BONUS:HP|CURRENTMAX|(AnimalCon/2)*AnimalHD|!PRETEMPLATE:1,Lycanthrope (Custom Animal Form),Lycanthrope (Hybrid Form)									BONUS:STAT|WIS|2					BONUS:VAR|NoTypeTraits|1		BONUS:VAR|HasLowLightVision|1			ABILITY:Special Ability|AUTOMATIC|Scent				ABILITY:FEAT|VIRTUAL|Iron Will			RACESUBTYPE:Shapechanger
+Lycanthrope (Custom)	VISIBLE:YES				TEMPLATE:CHOOSE:Natural Lycanthrope|Afflicted Lycanthrope		DEFINE:NoTypeTraits|0		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Giant		!PRETEMPLATE:2,Lycanthrope,Lycanthrope (Custom)		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		BONUS:HP|CURRENTMAX|(AnimalCon/2)*AnimalHD|!PRETEMPLATE:1,Lycanthrope (Custom Animal Form),Lycanthrope (Hybrid Form)									BONUS:STAT|WIS|2					BONUS:VAR|NoTypeTraits|1		BONUS:VAR|HasLowLightVision|1			ABILITY:Special Ability|AUTOMATIC|Scent				ABILITY:FEAT|VIRTUAL|Iron Will	BONUS:ABILITYPOOL|Custom Lycanthrope Choice|1		RACESUBTYPE:Shapechanger			ABILITY:Special Ability|AUTOMATIC|Custom Lycanthrope ~ Animal Form		ABILITY:Special Ability|AUTOMATIC|Custom Lycanthrope ~ Hybrid Form		TYPE:Shapechanger.LA0Playable		RACESUBTYPE:Shapechanger			
 
 Lycanthrope (Custom Animal Form)		SIZE:AnimalSize		LEGS:4	HANDS:0	VISIBLE:YES	DR:10/silver|PRETEMPLATE:1,Natural Lycanthrope	DR:5/silver|PRETEMPLATE:1,Afflicted Lycanthrope		TEMPLATE:CHOOSE:Werecat Attacks		PRETEMPLATE:1,Lycanthrope		!PRETEMPLATE:1,Lycanthrope (Hybrid Form)		BONUS:COMBAT|AC|AnimalAC|TYPE=NaturalArmor		BONUS:HP|CURRENTMAX|-((AnimalCon/2)*(TL-AnimalHD))		BONUS:MOVEADD|TYPE.Walk|AnimalMove-MOVEBASE		BONUS:SLOTS|WEAPON|-2		BONUS:SLOTS|ARMOR|-1		BONUS:STAT|STR|AnimalStr		BONUS:STAT|DEX|AnimalDex		BONUS:STAT|CON|AnimalCon
+
+Afflicted Lycanthrope (Custom)																		VISIBLE:NO																		LEVELADJUSTMENT:2																																																																																																																																					ABILITY:Special Ability|AUTOMATIC|Afflicted Lycanthrope		DR:0/silver																																																																																					DEFINE:LycanDR|0		BONUS:VAR|LycanDR|5																																																CSKILL:Control Shape
+
+Natural Lycanthrope (Custom)																		VISIBLE:NO																		LEVELADJUSTMENT:3																	DR:0/silver																																																																																																																																																																																																																																																										DEFINE:LycanDR|0		BONUS:VAR|LycanDR|10	
 
 
 DM Specifies 3 Hands		HANDS:3

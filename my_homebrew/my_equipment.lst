@@ -192,7 +192,15 @@ Belt (Monk's).MOD			TEMPBONUS:PC|COMBAT|AC|-WIS			TEMPDESC:Don't Double Dip Wisd
 
 Battle Dancer Anklet For Monk				TYPE:Magic.Wondrous.Anklet.BodySlot_Ankle	SPROP:Grant Battle Dancer AC and Unarmed Attack			BONUS:COMBAT|AC|max(CHA,0)+1		BONUS:VAR|MonkUnarmedDamageLVL|5		WT:0		COST:13000
 
-Scalpel Of Undead Graft Creation				TYPE:Magic.Wondrous	SPROP:Grants the user the Graft Flesh (Undead) feat			ABILITY:FEAT|VIRTUAL|Graft Flesh (Undead)		WT:0		COST:10000
+Scalpel Of Undead Graft Creation				TYPE:Magic.Wondrous	SPROP:Grants the user the Graft Flesh (Undead) feat			ABILITY:FEAT|VIRTUAL|Graft Flesh (Undead)		WT:0		COST:10000		SOURCEPAGE:AEG Feat Granting Items
+Scalpel Of Fiendish Graft Creation				TYPE:Magic.Wondrous	SPROP:Grants the user the Graft Flesh (Fiendish) feat			ABILITY:FEAT|VIRTUAL|Graft Flesh (Fiendish)		WT:0		COST:10000		SOURCEPAGE:AEG Feat Granting Items
+Scalpel Of Illithid Graft Creation				TYPE:Magic.Wondrous	SPROP:Grants the user the Graft Flesh (Illithid) feat			ABILITY:FEAT|VIRTUAL|Graft Flesh (Illithid)		WT:0		COST:10000		SOURCEPAGE:AEG Feat Granting Items
+Scalpel Of Silthilar Graft Creation				TYPE:Magic.Wondrous	SPROP:Grants the user the Graft Flesh (Silthilar) feat			ABILITY:FEAT|VIRTUAL|Graft Flesh (Silthilar)		WT:0		COST:10000		SOURCEPAGE:AEG Feat Granting Items
+
+Scalpel Of Beholder Graft Creation				TYPE:Magic.Wondrous	SPROP:Grants the user the Graft Flesh (Beholder) feat			ABILITY:FEAT|VIRTUAL|Graft Flesh (Beholder)		WT:0		COST:10000		SOURCEPAGE:AEG Feat Granting Items
+
+Tome Of Familiar Summoning				TYPE:Magic.Wondrous	SPROP:Grants the user the Obtain Familiar feat			ABILITY:FEAT|VIRTUAL|Obtain Familiar		WT:0		COST:10000		SOURCEPAGE:AEG Feat Granting Items
+
 
 
 

@@ -305,7 +305,37 @@ Expansion Granting Items		TEMPBONUS:ANYPC|COMBAT|TOHIT|-1*(%CHOICE)|TYPE=Size	TE
 
 CATEGORY=Special Ability|Persona Masks ~ Gladiator.MOD	TEMPBONUS:PC|COMBAT|TOHIT|1		TEMPBONUS:PC|COMBAT|DAMAGE.ALL|1
 #CATEGORY=FEAT|Inhuman Reach.MOD			BONUS:COMBAT|REACH|5
-#CATEGORY=FEAT|Extended Reach.MOD			BONUS:COMBAT|REACH|5
+CATEGORY=FEAT|Extended Reach.MOD			BONUS:COMBAT|REACH|-5	BONUS:ABILITYPOOL|Extended Reach|1
+
+
+Extended Natural Weapon Reach			CATEGORY:Special Ability		TYPE:SpecialQuality.ExtendedReach.Extraordinary			DESC:add 5' to the reach of a natural weapon			CHOOSE:WEAPONPROFICIENCY|PC,TYPE=Natural		BONUS:WEAPONPROF=%LIST|REACH|5		MULT:YES			STACK:YES
+
+
+Extended Overall Reach			CATEGORY:Special Ability		TYPE:SpecialQuality.ExtendedReach.Extraordinary			DESC:add 5' to the reach of a natural weapon			CHOOSE:WEAPONPROFICIENCY|PC,TYPE=Natural		BONUS:COMBAT|REACH|5			MULT:YES			STACK:YES
+
+
+
+
+Graft Flesh		KEY:Graft Flesh%			CATEGORY:FEAT		VISIBLE:NO			TYPE:ItemCreation
+
+CATEGORY=FEAT|Graft Flesh (Illithid).MOD			PRERACE:1,.CLEAR		 PRERACE:1,%Illithid%			SERVESAS:ABILITY=FEAT|Graft Flesh%
+CATEGORY=FEAT|Graft Flesh (Silthilar).MOD			PRERACE:1,.CLEAR					SERVESAS:ABILITY=FEAT|Graft Flesh%
+CATEGORY=FEAT|Graft Flesh (Yuan-Ti).MOD			PRERACE:1,.CLEAR		 PRETEXT:Yuan-Ti			SERVESAS:ABILITY=FEAT|Graft Flesh%
+CATEGORY=FEAT|Graft Flesh (Aboleth).MOD						SERVESAS:ABILITY=FEAT|Graft Flesh%
+CATEGORY=FEAT|Graft Flesh (Beholder).MOD						SERVESAS:ABILITY=FEAT|Graft Flesh%
+CATEGORY=FEAT|Graft Flesh (Fiendish).MOD						SERVESAS:ABILITY=FEAT|Graft Flesh%
+CATEGORY=FEAT|Graft Flesh (Undead).MOD						SERVESAS:ABILITY=FEAT|Graft Flesh%
+
+
+Graft Flesh (Construct)			CATEGORY:FEAT		TYPE:ItemCreation.Item Creation		 DESC:You can create construct and Maug grafts		PRESKILL:2,Heal=10,Knowledge (Arcana)=5				SERVESAS:ABILITY=FEAT|Graft Flesh%
+
+
+
+CATEGORY=FEAT|Wyrmgrafter.MOD		TYPE:GraftFlesh							SERVESAS:ABILITY=FEAT|Graft Flesh%
+CATEGORY=FEAT|Elemental Grafter.MOD		TYPE:GraftFlesh							SERVESAS:ABILITY=FEAT|Graft Flesh%
+CATEGORY=FEAT|Deathless Fleshgrafter.MOD		TYPE:GraftFlesh							SERVESAS:ABILITY=FEAT|Graft Flesh%
+CATEGORY=FEAT|Eldeen Plantgrafter.MOD		TYPE:GraftFlesh							SERVESAS:ABILITY=FEAT|Graft Flesh%
+
 
 
 Skin Of The Claw(S)		NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,1d4			CATEGORY:Special Ability
@@ -3058,10 +3088,68 @@ Hybrid Form			KEY:Hengeyokai Hare Form		CATEGORY:Special Ability		TYPE:Special Q
 
 ############TODO ADD OTHER HYBRID FORMS
 
+##GENERIC WERECRITTER
+##Assume animal form
+
+
+Animal Form		KEY:Custom Lycanthrope ~ Animal Form	CATEGORY:Special Ability	TYPE:Hidden		DEFINE:AnimalFormActive|0		
+CATEGORY=Special Ability|Custom Lycanthrope ~ Animal Form.MOD		TEMPBONUS:PC|SIZEMOD|NUMBER|AnimalSize - var("RACESIZE")		BONUS:VAR|LEGS|2		BONUS:VAR|HANDS|-2	
+CATEGORY=Special Ability|Custom Lycanthrope ~ Animal Form.MOD		TEMPBONUS:PC|DR|silver|LycanDR			TEMPBONUS:PC|VAR|AnimalFormActive|1			TEMPBONUS:PC|COMBAT|AC|AnimalAC|TYPE=NaturalArmor
+CATEGORY=Special Ability|Custom Lycanthrope ~ Animal Form.MOD		TEMPBONUS:PC|HP|CURRENTMAX|-((AnimalCon/2)*(TL-AnimalHD))											TEMPBONUS:PC|MOVEADD|TYPE.Walk|AnimalMove-MOVEBASE		
+CATEGORY=Special Ability|Custom Lycanthrope ~ Animal Form.MOD		TEMPBONUS:PC|STAT|DEX|AnimalDex	TEMPBONUS:PC|STAT|CON|AnimalCon	TEMPBONUS:PC|STAT|STR|AnimalStr	TEMPBONUS:PC|STAT|DEX|AnimalDex	TEMPBONUS:PC|STAT|CON|AnimalCon			TEMPBONUS:PC|STAT|STR|AnimalStr	
+
+
+
+
+
+
+
+
+
+##Assume hybrid form
+Hybrid Form		KEY:Custom Lycanthrope ~ Hybrid Form	CATEGORY:Special Ability	TYPE:Hidden		DEFINE:HybridFormActive|0			TEMPBONUS:PC|VAR|HYbridFormActive|1
+CATEGORY=Special Ability|Custom Lycanthrope ~ Hybrid Form.MOD		TEMPBONUS:PC|SIZEMOD|NUMBER|HybridSizeMod	TEMPBONUS:PC|DR|silver|LycanDR
+
+
+CATEGORY=Special Ability|Custom Lycanthrope ~ Hybrid Form.MOD		ABILITY:Special Ability|AUTOMATIC|Small Hybrid Form Attacks|PRESIZEEQ:S|PREVARGTEQ:HYbridFormActive,1
+CATEGORY=Special Ability|Custom Lycanthrope ~ Hybrid Form.MOD		ABILITY:Special Ability|AUTOMATIC|Medium Hybrid Form Attacks|PRESIZEEQ:M|PREVARGTEQ:HYbridFormActive,1
+CATEGORY=Special Ability|Custom Lycanthrope ~ Hybrid Form.MOD		ABILITY:Special Ability|AUTOMATIC|Large Hybrid Form Attacks|PRESIZEEQ:L|PREVARGTEQ:HYbridFormActive,1
+CATEGORY=Special Ability|Custom Lycanthrope ~ Hybrid Form.MOD		ABILITY:Special Ability|AUTOMATIC|Huge Hybrid Form Attacks|PRESIZEEQ:H|PREVARGTEQ:HYbridFormActive,1
+CATEGORY=Special Ability|Custom Lycanthrope ~ Hybrid Form.MOD		TEMPBONUS:PC|COMBAT|AC|AnimalAC|TYPE=NaturalArmor.STACK
+CATEGORY=Special Ability|Custom Lycanthrope ~ Hybrid Form.MOD		TEMPBONUS:PC|HP|CURRENTMAX|-((AnimalCon/2)*(TL-AnimalHD))
+CATEGORY=Special Ability|Custom Lycanthrope ~ Hybrid Form.MOD		TEMPBONUS:PC|STAT|STR|AnimalStr		TEMPBONUS:PC|STAT|DEX|AnimalDex		TEMPBONUS:PC|STAT|CON|AnimalCon		
+
+
+
+
+Small Hybrid Form Attacks			CATEGORY:Special Ability		TYPE:hidden			NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d3|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d4
+
+Medium Hybrid Form Attacks			CATEGORY:Special Ability		TYPE:hidden			NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d4|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d6				
+
+Large Hybrid Form Attacks			CATEGORY:Special Ability		TYPE:hidden			NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d6|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d8
+
+
+Huge Hybrid Form Attacks			CATEGORY:Special Ability		TYPE:hidden			NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,2d4|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,2d6
+
+																																																			
+																																																								
+
+
+
+
+
+
+
+
+
+
+
+																																																									
+
+##WERECAT
 Alternate Form	KEY:Werecat ~ Alternate Form	CATEGORY:Special Ability	TYPE:Supernatural.RaceAbility.SpecialQuality	DESC:A werecat can assume a bipedal hybrid form or the form of a housecat.		
 
-
-Curse of Lycanthropy		KEY:Werecat ~ Curse of Lycanthropy		CATEGORY:Special Ability		TYPE:Supernatural.RaceAbility.SpecialAttack		DESC:Any humanoid or giant hit by a wererat's bite attack in animal or hybrid form must succeed on a DC %1 Fortitude save or contract lycanthropy.|DC_Curse_of_Lycanthropy	DEFINE:DC_Curse_of_Lycanthropy|0	BONUS:VAR|DC_Curse_of_Lycanthropy|15	BONUS:VAR|DC_Curse_of_Lycanthropy|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Curse of Lycanthropy)		ABILITY:Ability Focus|AUTOMATIC|Curse of Lycanthropy 
+Curse of Lycanthropy		KEY:Werecat ~ Curse of Lycanthropy		CATEGORY:Special Ability		TYPE:Supernatural.RaceAbility.SpecialAttack		DESC:Any humanoid or giant hit by a werecat's bite attack in animal or hybrid form must succeed on a DC %1 Fortitude save or contract lycanthropy.|DC_Curse_of_Lycanthropy	DEFINE:DC_Curse_of_Lycanthropy|0	BONUS:VAR|DC_Curse_of_Lycanthropy|15	BONUS:VAR|DC_Curse_of_Lycanthropy|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Curse of Lycanthropy)		ABILITY:Ability Focus|AUTOMATIC|Curse of Lycanthropy 
 
 Cat Empathy		KEY:Werecat ~ Cat Empathy		CATEGORY:Special Ability		TYPE:Extraordinary.RaceAbility.SpecialQuality			DESC:Communicate with housecats and wild cats, and +4 racial bonus on Charisma-based checks against housecats and wild cats.			SOURCEPAGE:p.172
 
@@ -3070,12 +3158,58 @@ Skills			KEY:Werecat ~ Skills			CATEGORY:Special Ability		TYPE:SpecialQuality			
 Feats			KEY:Werecat ~ Feats				CATEGORY:Special Ability		TYPE:SpecialQuality			DESC:A werecat gets Weapon Finesse as a bonus feat.
 
 
+Natural Werecat (Small)		TEMPLATE:Werecat		CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope		TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Werecat Attacks|PREVARGTEQ:AnimalFormActive,1			PRESIZEEQ:S			DEFINE:HybridSizeMod|0		
+
+Natural Werecat (Tiny)		TEMPLATE:Werecat		CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope		TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Werecat Attacks|PREVARGTEQ:AnimalFormActive,1			PRESIZEEQ:D			DEFINE:HybridSizeMod|0		
+
+Natural Werecat (Diminutive)		TEMPLATE:Werecat		CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope		TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Werecat Attacks|PREVARGTEQ:AnimalFormActive,1			PRESIZEEQ:T			DEFINE:HybridSizeMod|0		BONUS:VAR|HybridSizeMod|1			
+
+
+Afflicted Werecat (Small)		TEMPLATE:Werecat			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope		TEMPLATE:Afflicted Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Werecat Attacks|PREVARGTEQ:AnimalFormActive,1		PRESIZEEQ:S			DEFINE:HybridSizeMod|0		
+
+Afflicted Werecat (Tiny)		TEMPLATE:Werecat			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope		TEMPLATE:Afflicted Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Werecat Attacks|PREVARGTEQ:AnimalFormActive,1		PRESIZEEQ:T			DEFINE:HybridSizeMod|0		
+
+Afflicted Werecat (Diminutive)		TEMPLATE:Werecat			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope		TEMPLATE:Afflicted Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Werecat Attacks|PREVARGTEQ:AnimalFormActive,1		PRESIZEEQ:D			DEFINE:HybridSizeMod|0		BONUS:VAR|HybridSizeMod|1			
+
+
+Natural Weredog (Small)			TEMPLATE:Weredog			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Werecat Attacks|PREVARGTEQ:AnimalFormActive,1	PRESIZEEQ:S			DEFINE:HybridSizeMod|0		
+
+Natural Weredog (Medium)			TEMPLATE:Weredog			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Werecat Attacks|PREVARGTEQ:AnimalFormActive,1			PRESIZEEQ:M			DEFINE:HybridSizeMod|0		
+
+Natural Weredog (Tiny)			TEMPLATE:Weredog			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Werecat Attacks|PREVARGTEQ:AnimalFormActive,1			PRESIZEEQ:T			DEFINE:HybridSizeMod|0		BONUS:VAR|HybridSizeMod|1		
+
+
+Afflicted Weredog (Tiny)		TEMPLATE:Weredog			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope		TEMPLATE:Afflicted Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Weredog Attacks|PREVARGTEQ:AnimalFormActive,1		PRESIZEEQ:T			DEFINE:HybridSizeMod|0		BONUS:VAR|HybridSizeMod|1		
+
+Afflicted Weredog (Small)		TEMPLATE:Weredog			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope		TEMPLATE:Afflicted Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Weredog Attacks|PREVARGTEQ:AnimalFormActive,1		PRESIZEEQ:S			DEFINE:HybridSizeMod|0	
+
+Afflicted Weredog (Medium)		TEMPLATE:Weredog			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope		TEMPLATE:Afflicted Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Weredog Attacks|PREVARGTEQ:AnimalFormActive,1		PRESIZEEQ:M			DEFINE:HybridSizeMod|0	
+
+
+Werecat Attacks				CATEGORY:Special Ability		TYPE:Hidden		NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Primary,*2,1d2
+#NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Primary,*2,1d3|Bite,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Primary,*1,1d3
+
+##WEREDOG
+
+Alternate Form	KEY:Weredog ~ Alternate Form	CATEGORY:Special Ability	TYPE:Supernatural.RaceAbility.SpecialQuality	DESC:A weredog can assume a bipedal hybrid form or the form of a domestic dog.		
+
+
+Curse of Lycanthropy		KEY:Weredog ~ Curse of Lycanthropy		CATEGORY:Special Ability		TYPE:Supernatural.RaceAbility.SpecialAttack		DESC:Any humanoid or giant hit by a weredog's bite attack in animal or hybrid form must succeed on a DC %1 Fortitude save or contract lycanthropy.|DC_Curse_of_Lycanthropy	DEFINE:DC_Curse_of_Lycanthropy|0	BONUS:VAR|DC_Curse_of_Lycanthropy|15	BONUS:VAR|DC_Curse_of_Lycanthropy|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Curse of Lycanthropy)		ABILITY:Ability Focus|AUTOMATIC|Curse of Lycanthropy 
+
+Dog Empathy		KEY:Weredog ~ Dog Empathy		CATEGORY:Special Ability		TYPE:Extraordinary.RaceAbility.SpecialQuality			DESC:Communicate with domesticated dogs and wild dogs, and +4 racial bonus on Charisma-based checks against domesticated and wild dogs.			SOURCEPAGE:p.172
+
+Skills			KEY:Weredog ~ Skills			CATEGORY:Special Ability		TYPE:SpecialQuality			DESC:Weredogs get +4 to Jump checks and +4 to Survival checks to track by scent.			BONUS:SKILL|Jump|4|TYPE=Racial.STACK
+
+Feats			KEY:Weredog ~ Feats				CATEGORY:Special Ability		TYPE:SpecialQuality			DESC:A weredog gets Track as a bonus feat.			ABILITY:FEAT|VIRTUAL|Track
+
+Weredog Attacks				CATEGORY:Special Ability		TYPE:Hidden		NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Primary,*1,1d4
+
 
 Beast Strike			CATEGORY:FEAT		TYPE:General				SOURCEPAGE:Dragon Magazind 355, 76		DESC:Benefit: When you make an unarmed strike or grapple check to deal damage, you may add your claw or slam damage to your unarmed strike or grapple damage.    Special: A fighter may select Beast Strike as a fighter bonus feat.	PREATT:5		PREABILITY:1,CATEGORY=FEAT,Improved Unarmed Strike		PREWEAPONPROF:1,Claw,Claws,Bite
 
 Improved Natural Attack (Unarmed Strike)			CATEGORY:FEAT	TYPE:General		 BONUS:WEAPONPROF=Unarmed Strike|DAMAGESIZE|1			SERVESAS:ABILITY=FEAT|Improved Natural Attack		DESC:Improved Natural Attack for Unarmed Strike
 
-
+Afflicted Lycanthrope		CATEGORY:Special Ability	TYPE:SpecialQuality	DESC:When a character contracts lycanthropy through a lycanthrope’s bite (see above), no symptoms appear until the first night of the next full moon. On that night, the afflicted character involuntarily assumes animal form and forgets his or her own identity, temporarily becoming an NPC. The character remains in animal form, assuming the appropriate alignment, until the next dawn.   The character’s actions during this first episode are dictated by the alignment of its animal form. The character remembers nothing about the entire episode (or subsequent episodes) unless he succeeds on a DC 15 Wisdom check, in which case he becomes aware of his lycanthropic condition.  Thereafter, the character is subject to involuntary transformation under the full moon and whenever damaged in combat. He or she feels an overwhelming rage building up and must succeed on a Control Shape check (see below) to resist changing into animal form. Any player character not yet aware of his or her lycanthropic condition temporarily becomes an NPC during an involuntary change, and acts according to the alignment of his or her animal form.  A character with awareness of his condition retains his identity and does not lose control of his actions if he changes. However, each time he changes to his animal form, he must make a Will save (DC 15 + number of times he has been in animal form) or permanently assume the alignment of his animal form in all shapes. Once a character becomes aware of his affliction, he can now voluntarily attempt to change to animal or hybrid form, using the appropriate Control Shape check DC. An attempt is a standard action and can be made each round. Any voluntary change to animal or hybrid form immediately and permanently changes the character’s alignment to that of the appropriate lycanthrope. 
 
 #campaign_settings/eberron/secrets_of_sarlona/sos_feats.lst:Tashalatora  CATEGORY:FEAT   TYPE:General    PRECLASS:1,SPELLCASTER.Psionic=1        PREABILITY:1,CATEGORY=FEAT,Monastic Training     PRESKILL:2,Autohypnosis=5,Concentration=5 PRETEXT:Prerequisites: Autohypnosis 5 ranks, Concentration 5 ranks, Monastic Training (psionic class), ability to manifest 1st-level powers.    DEFINE:TashalatoraLVL|0 DESC:You have successfully integrated martial arts with psionic power under the tutelage of Tashalatora masters.  BONUS:UDAM|CLASS.Monk|TashalatoraLVL    BONUS:VAR|MonkACLVL,FlurryLVL|TashalatoraLVL    BONUS:VAR|TashalatoraLVL|("CL=Psion")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Psion)        BONUS:VAR|TashalatoraLVL|("CL=Psychic Warrior")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Psychic Warrior)  BONUS:VAR|TashalatoraLVL|("CL=Wilder")|PREABILITY:1,CATEGORY=FEAT,Monastic Training (Wilder)      SOURCEPAGE:p.119        BENEFIT: Your levels in the psionic class you selected for Monastic Training stack with your monk levels to determine your AC bonus, flurry of blows attacks, and unarmed damage from the monk class.		
 
@@ -3236,3 +3370,4 @@ CATEGORY=Special Ability|Shadow Sun Ninja ~ Monk Abilities.MOD			BONUS:VAR|MonkM
 
 
 CATEGORY=Special Ability|Warblade ~ Maneuvers Readied.MOD		ASPECT:NAME|Maneuvers Readed - %1|ManeuversReadied		
+

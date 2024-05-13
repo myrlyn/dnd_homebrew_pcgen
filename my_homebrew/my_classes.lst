@@ -423,3 +423,6 @@ CLASS:Swordsage.MOD
 
 CLASS:Master of Many Forms.MOD			
 #PREABILITY:1,CATEGORY=Special Ability,TYPE.Wild Shape	PREABILITY:2,CATEGORY=FEAT,Alertness,Endurance
+
+
+CLASS:Fleshwarper.MOD					PREABILITY:1,CATEGORY=FEAT,TYPE=GraftFlesh			
