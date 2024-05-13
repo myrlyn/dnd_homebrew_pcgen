@@ -1,0 +1,332 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Ban Dayd
+TABNAME:
+PLAYERNAME:
+HEIGHT:68
+WEIGHT:145
+AGE:32
+GENDER:Male
+HANDED:Right
+SKINCOLOR:Ash white
+EYECOLOR:black
+HAIRCOLOR:Black
+HAIRSTYLE:short ponytail/bun
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:C&colon;\Users\myrlyn\Downloads\shikamaru.png
+PORTRAITTHUMBNAILRECT:142,94,300,300
+
+# Character Attributes
+STAT:STR|SCORE:16
+STAT:DEX|SCORE:18
+STAT:CON|SCORE:0
+STAT:INT|SCORE:16
+STAT:WIS|SCORE:21
+STAT:CHA|SCORE:18
+ALIGN:CG
+RACE:Planetouched (Aasimar)
+
+# Character Class(es)
+CLASS:Swordsage|LEVEL:5|SKILLPOOL:0|SPELLBASE:WIS|CANCASTPERDAY:
+CLASS:Shadow Sun Ninja|LEVEL:7|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Swordsage=1|HITPOINTS:12|SKILLSGAINED:36|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swordsage=2|HITPOINTS:12|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swordsage=3|HITPOINTS:12|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swordsage=4|HITPOINTS:12|PRESTAT:WIS=1|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swordsage=5|HITPOINTS:12|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Shadow Sun Ninja=1|HITPOINTS:12|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Shadow Sun Ninja=2|HITPOINTS:12|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Shadow Sun Ninja=3|HITPOINTS:12|PRESTAT:WIS=1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Shadow Sun Ninja=4|HITPOINTS:12|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Shadow Sun Ninja=5|HITPOINTS:12|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Shadow Sun Ninja=6|HITPOINTS:12|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Shadow Sun Ninja=7|HITPOINTS:12|PRESTAT:WIS=1|SKILLSGAINED:7|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:66000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Not Listed]
+TEMPLATESAPPLIED:[NAME:First Level ~ Not Listed|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Lesser Planetouched]
+TEMPLATESAPPLIED:[NAME:Assign Race Type ~ Humanoid]
+TEMPLATESAPPLIED:[NAME:Chameleon Creature|CHOSENTEMPLATE:[NAME:IsHumanoid]]
+TEMPLATESAPPLIED:[NAME:IsHumanoid]
+TEMPLATESAPPLIED:[NAME:Necropolitan]
+TEMPLATESAPPLIED:[NAME:Non-Ability ~ Constitution]
+TEMPLATESAPPLIED:[NAME:Evolved Undead]
+TEMPLATESAPPLIED:[NAME:Language ~ Bonus (Aasimar)]
+TEMPLATESAPPLIED:[NAME:Favored Class ~ Paladin]
+TEMPLATESAPPLIED:[NAME:Aasimar ~ LevelAdjustment]
+TEMPLATESAPPLIED:[NAME:Planetouched Region ~ Western Heartlands Region]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+TEMPLATESAPPLIED:[NAME:Use Fractional BAB]
+TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
+
+# Character Region
+REGION:Western Heartlands
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Alchemy)|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Armorsmithing)|OUTPUTORDER:8|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Basketweaving)|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Blacksmithing)|OUTPUTORDER:10|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Bookbinding)|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Bowmaking)|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Calligraphy)|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Carpentry)|OUTPUTORDER:14|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Cobbling)|OUTPUTORDER:15|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Crystalwork)|OUTPUTORDER:16|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Gemcutting)|OUTPUTORDER:17|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Glassblowing)|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Gunsmith)|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Leatherworking)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Locksmithing)|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Metalworking)|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Painting)|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Poisonmaking)|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Pottery)|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Sculpting)|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Shipmaking)|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Shadow Sun Ninja|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Stoneworking)|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Trapmaking)|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:30|
+SKILL:Craft (Weaponsmithing)|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Weaving)|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy|OUTPUTORDER:33|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:34|
+SKILL:Disguise|OUTPUTORDER:35|
+SKILL:Escape Artist|OUTPUTORDER:36|
+SKILL:Forgery|OUTPUTORDER:37|
+SKILL:Gather Information|OUTPUTORDER:38|
+SKILL:Heal|OUTPUTORDER:39|
+SKILL:Hide|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Swordsage|RANKS:8.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Shadow Sun Ninja|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Hide (Forested Areas)|OUTPUTORDER:41|
+SKILL:Intimidate|OUTPUTORDER:42|
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:43|
+SKILL:Jump|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Swordsage|RANKS:8.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Shadow Sun Ninja|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Arcana)|OUTPUTORDER:45|
+SKILL:Knowledge (The Planes)|OUTPUTORDER:46|CLASSBOUGHT:[CLASS:Shadow Sun Ninja|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:47|
+SKILL:Listen|OUTPUTORDER:48|
+SKILL:Literacy|OUTPUTORDER:49|
+SKILL:Martial Lore|OUTPUTORDER:50|CLASSBOUGHT:[CLASS:Swordsage|RANKS:8.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Shadow Sun Ninja|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Move Silently|OUTPUTORDER:51|CLASSBOUGHT:[CLASS:Swordsage|RANKS:8.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Shadow Sun Ninja|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:52|
+SKILL:Ride|OUTPUTORDER:53|
+SKILL:Search|OUTPUTORDER:54|
+SKILL:Sense Motive|OUTPUTORDER:55|
+SKILL:Skill Trick|OUTPUTORDER:56|CLASSBOUGHT:[CLASS:Shadow Sun Ninja|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:57|
+SKILL:Survival|OUTPUTORDER:58|
+SKILL:Swim|OUTPUTORDER:59|CLASSBOUGHT:[CLASS:Swordsage|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Shadow Sun Ninja|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Tumble|OUTPUTORDER:60|CLASSBOUGHT:[CLASS:Swordsage|RANKS:8.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Shadow Sun Ninja|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Magic Device|OUTPUTORDER:61|CLASSBOUGHT:[CLASS:Swordsage|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Shadow Sun Ninja|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Rope|OUTPUTORDER:62|
+
+# Character Languages
+LANGUAGE:Celestial|LANGUAGE:Chondathan|LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Elven|LANGUAGE:Sylvan
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan,Elven,Draconic|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan,Elven,Draconic|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan,Elven,Draconic|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Unarmed Swordsage|TYPE:ACF.SwordSageArmor.SpecialAttack.Extraordinary|DESC:As a swordsage, you are proficient with simple weapons, martial melee weapons (including those that can be used as thrown weapons), gain a Monk's Unnarmed Damage.  This unarmed damage replaces a normal Swordsage's Light Armor Proficiency.  AUTO&colon;WEAPONPROF&pipe;TYPE=MartialMelee
+USERPOOL:Alternate Class Feature|POOLPOINTS:0.0
+ABILITY:Apprentice Feat Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Apprentice ~ Spellcaster|APPLIEDTO:Use Magic Device,Knowledge (Arcana)|TYPE:ApprenticeChoice.SpecialQuality|DESC:A spellcaster mentor could be a priest of the character's religion, a teacher at a wizard's guild, or an inventor seeking a protege. Spellcaster mentors are not as useful as the other seven mentors for characters who cannot cast spells themselves. A spellcaster grants her apprentice a +2 competence bonus on Spellcraft checks. The tutelage of a spellcasting mentor grants additional benefits only if the apprentice shares the same class as his mentor. The apprentice only gains these benefits when he gains a level in this class; he retains all the other benefits of this feat (the bonus skills and the bonus on Spellcraft checks) regardless of what class he chooses to gain a level in. If the apprentice and his mentor are arcane spellcasters, he gains one additional spell known at 1st level. Wizards gain this spell in their spellbooks, and spontaneous casters such as sorcerers or bards gain an additional 1st-level spell beyond their normal number of spells known. As the apprentice gains levels, he is able to learn additional spellcasting techniques from his mentor; wizards can copy from their mentor's spellbook at no charge. Spellcasters who do not prepare spells (such as a bard or sorcerer) gain increased flexibility with the spells they know. Each time an apprentice gains another of these levels, he can choose to learn a new spell in place of one he already knows. The new spell's level must be the same as that of the spell being exchanged. If the character and his mentor are divine spellcasters who prepare spells (such as clerics, druids, paladins, or rangers), he can select one spell he knows as a preferred spell. This can be a spell of any level he can cast. Once per day, the apprentice can spontaneously cast a preferred spell by swapping out any prepared spell of an equal spell level. He can only have one preferred spell at a time, but each time he gains a level in the associated class, he can change his preferred spell to a different spell. Associated Skills&colon; Knowledge (any one), Use Magic Device.
+USERPOOL:Apprentice Feat Choice|POOLPOINTS:0.0
+ABILITY:Catalogues Of Enlightenemnt|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Catalogues of Enlightenment (Cold)|TYPE:CataloguesOfEnlightenment.SpecialQuality|DESC:You gain the granted power of the Cold Domain.
+USERPOOL:Catalogues Of Enlightenemnt|POOLPOINTS:0.0
+ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
+USERPOOL:ECL Buy Down|POOLPOINTS:0.0
+ABILITY:Evolved Undead Spell-like Ability|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Evolved Undead ~ Fabricate|TYPE:Evolved Undead Spell-like Ability|DESC:You have a spell-like ability, usable 1/day.
+USERPOOL:Evolved Undead Spell-like Ability|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Adaptive Style|TYPE:General|DESC:With just a short period of meditation, you can change your maneuvers and tactics to meet the threat you currently face.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Apprentice|TYPE:General.FirstLevel|DESC:A character with this feat has apprenticed himself to a master in order to speed his learning and bolster his skills. This feat must be taken at 1st level. Once you start gaining experience, your methods of learning are already too ingrained for you to be able to gain the benefits of a mentor-apprentice relationship.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Beast Strike|TYPE:General|DESC:Benefit&colon; When you make an unarmed strike or grapple check to deal damage, you may add your claw or slam damage to your unarmed strike or grapple damage.    Special&colon; A fighter may select Beast Strike as a fighter bonus feat.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Healing Devotion|APPLIEDTO:|TYPE:Domain|DESC:You can heal damage faster than normal.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Intuitive Attack|TYPE:Exalted|DESC:You fight by faith more than brute strength.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Planar Touchstone|APPLIEDTO:|TYPE:General|DESC:Forge a link between you and power-rich planar locations, referred to as planar touchstones.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Travel Devotion|APPLIEDTO:|TYPE:Domain|DESC:You can move quickly around the battlefield.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Meager Fortitude|TYPE:Flaws.SpecialQuality|DESC:You are sickly and weak of stomach.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Shaky|TYPE:Flaws.SpecialQuality|DESC:You are relatively poor at ranged combat.
+USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:Greater Planar Touchstones|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Greater Ability Not Charged|APPLIEDTO:|TYPE:GreaterPlanarTouchstone
+USERPOOL:Greater Planar Touchstones|POOLPOINTS:0.0
+ABILITY:Mighty Wallop Effect|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mighty Wallop Enhancement (Slam)|TYPE:MightyWallopEffect.SpecialQuality|DESC:You increase the damage done by a bludgeoning Weapon weapon.
+ABILITY:Mighty Wallop Effect|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mighty Wallop Enhancement (Unarmed Strike)|TYPE:MightyWallopEffect.SpecialQuality|DESC:You increase the damage done by a bludgeoning Weapon weapon.
+USERPOOL:Mighty Wallop Effect|POOLPOINTS:1.0
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Use Fractional BAB|TYPE:MiscOptions.AlternateBAB
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Rule - Use ECL Level Buy Down|TYPE:MiscOptions
+USERPOOL:Misc Options|POOLPOINTS:0.0
+ABILITY:Planar Touchstones|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Catalogues Of Enlightenment|APPLIEDTO:|TYPE:SpecialQuality.PlanarTouchstone
+USERPOOL:Planar Touchstones|POOLPOINTS:0.0
+ABILITY:Race Base|TYPE:NORMAL|CATEGORY:Internal|KEY:Aasimar Subrace ~ Standard|TYPE:AasimarSubrace.Default.Race Base|DESC:Standard Monster Manual Version
+USERPOOL:Race Base|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Planetouched Region ~ Western Heartlands Region|TYPE:Region.FaerunRegion|DESC:Since the opening of a portal to the Nine Hells in the Year of the Worm, increasing numbers of devil-spawned tieflings have been encountered in the vicinity of Dragonspear Castle. &amp;nl; Favored Deities&colon; Bane, Cyric, Lathander, Mask, Oghma, Tempus
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Shadow Sun Ninja Maneuvers|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Martial Study Adept ~ Bloodletting Strike|TYPE:SpecialAttack.Martial Study Shadow Hand Maneuver.Shadow Hand.Shadow Hand Discipline.Shadow Hand Maneuver.Maneuver.Martial Maneuver.Strike|DESC:Spinning your blade in a butterflylike pattern, you administer a dozen precise cuts in an eyeblink. Blood flows from your foe's opened veins. As part of this maneuver, you make a single melee attack. If this attack hits, your opponent takes 4 points of Constitution damage in addition to your attack's normal damage. A successful Fortitude save (DC 15 + your Wis modifier) reduces this Constitution damage to 2 points, although the foe still takes full normal melee damage.
+ABILITY:Shadow Sun Ninja Maneuvers|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Martial Study Adept ~ Shadow Blink|TYPE:SpecialAttack.Martial Study Shadow Hand Maneuver.Shadow Hand.Shadow Hand.Shadow Hand Discipline.Shadow Hand Maneuver|DESC:In the blink of an eye, you disappear and emerge from a mote of shadow energy across the battlefield. This maneuver functions as the shadow jaunt maneuver, except that it can be initiated as a swift action.
+ABILITY:Shadow Sun Ninja Maneuvers|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Comet Throw|TYPE:SpecialAttack.Swordsage Martial Maneuver.Setting Sun Maneuver.Maneuver.Martial Maneuver.Strike.Setting Sun.Setting Sun Discipline|DESC:You use your foe's momentum against him, throwing him through the air to crash into a second enemy. This maneuver functions like mighty throw (page 73), except as noted here. As part of this maneuver, you must succeed on a melee touch attack against your foe. You can then make a trip attempt against your enemy. You gain a +4 bonus on the ability check. If you succeed in tripping your foe, you throw him up to 10 feet away from you in a direction of your choice. You select your enemy's destination square. The target falls prone in that space and takes 4d6 points of damage. For every 5 points by which you win the opposed check, you gain an additional 5 feet of throw range. For example, if you win by 10, you can place your foe in any space within 20 feet of you. You can throw your opponent into a space occupied by a second foe. In this case, the opponent in the target square also takes 4d6 points of damage and is knocked prone. A Reflex save (DC 14 + your Str modifier) halves this damage and allows the second target to remain standing. The thrown creature then falls prone in a clear space of your choice adjacent to the second target.
+USERPOOL:Shadow Sun Ninja Maneuvers|POOLPOINTS:0.0
+ABILITY:Shadow Sun Ninja Stances|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Martial Study Adept ~ Assassin's Stance|TYPE:SpecialAttack.Shadow Hand Stance.Martial Stance.Stance.Shadow Hand.Shadow Hand Discipline|DESC:As your foe struggles to regain his defensive posture, you line up an exacting strike that hits with superior accuracy and deadly force. A shadow cast by a gap between two armored plates or a crease in a creature's thick hide calls to your weapon, allowing you to strike with deadly accuracy against an unprepared opponent. While you are in this stance, you gain the sneak attack ability, if you do not already have it, which deals an extra 2d6 points of damage. If you already have the sneak attack class feature, your existing sneak attack ability deals an extra 2d6 points of damage. See the rogue class feature (PH 50) for a complete description of sneak attack.
+USERPOOL:Shadow Sun Ninja Stances|POOLPOINTS:0.0
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Back on Your Feet|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:If you fall prone for any reason, you can stand up as an immediate action without provoking attacks of opportunity.
+USERPOOL:Skill Tricks|POOLPOINTS:0.0
+ABILITY:Swordsage Insightful Strikes|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage ~ Insightful Strikes Shadow Hand|TYPE:SpecialQuality.Extraordinary.Swordsage Insightful Strikes|DESC:You may add your Wisdom modifier as a bonus on damage rolls whenever you execute a strike from the Shadow Hand discipline.
+USERPOOL:Swordsage Insightful Strikes|POOLPOINTS:0.0
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Ballista Throw|TYPE:SpecialAttack.Swordsage Martial Maneuver.Setting Sun Maneuver.Maneuver.Martial Maneuver.Strike.Setting Sun.Setting Sun Discipline|DESC:You grab your opponent and spin like a top, swinging him around before throwing him at your opponents like a bolt from a ballista. This maneuver functions like mighty throw (page 73), except as noted here. As part of this maneuver, you must succeed on a melee touch attack against your foe. You can then make a trip attempt against your enemy. You gain a +4 bonus on the ability check. If you succeed in tripping your foe, you throw him in a 60-foot line. The target and all creatures in this area take 6d6 points of damage. The thrown creature lands prone at the end of this line. You must place the target in an empty space. If the space at the end of the line is occupied, your opponent falls prone in the open space closest to the line's endpoint.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Burning Blade|TYPE:SpecialAttack.Desert Wind.Desert Wind Discipline.Swordsage Martial Maneuver.Desert Wind Maneuver.Maneuver.Martial Maneuver.Boost|DESC:Your blade bursts into flame as it sweeps toward your foe in an elegant arc. A subtle yet precise twisting of your blade unlocks the power of flame. When you initiate this maneuver, fire trails from your melee weapon. For the rest of your turn, your melee attacks deal an extra 1d6 points of fire damage + 1 point per initiator level. This maneuver is a supernatural ability.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Cloak of Deception|TYPE:SpecialAttack.Swordsage Martial Maneuver.Shadow Hand.Shadow Hand Discipline.Shadow Hand Maneuver.Shadow Hand Maneuver LVL2.Maneuver.Martial Maneuver.Boost|DESC:The shadows around you seem to surge forward and engulf you. For a brief moment, they render you invisible. When you initiate this maneuver, you turn invisible, as the greater invisibility spell (PH 245). You remain invisible until the end of your current turn. This maneuver is a supernatural ability.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Drain Vitality|TYPE:SpecialAttack.Swordsage Martial Maneuver.Shadow Hand.Shadow Hand Discipline.Shadow Hand Maneuver.Shadow Hand Maneuver LVL2.Maneuver.Martial Maneuver.Strike|DESC:A faint nimbus of sickly gray shadow surrounds your weapon. When you attack, this shadowy aura flows into the wound you inflict, sapping your opponent's strength, vitality, and energy. As part of this maneuver, make a single melee attack. If this attack hits, you deal normal melee damage and the target must make a successful Fortitude save (DC 12 + your Wis modifier) or take 2 points of Constitution damage. A successful save negates the Constitution damage but not the normal melee damage.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Enervating Shadow Strike|TYPE:SpecialAttack.Swordsage Martial Maneuver.Shadow Hand.Shadow Hand Discipline.Shadow Hand Maneuver.Maneuver.Martial Maneuver.Strike|DESC:Your weapon becomes cloaked in an inky, black nimbus. As you strike your opponent, that energy flows into the wound and leaves him pale, weak, and shaking. As part of this maneuver, you make a single melee attack. If this attack hits, the target must make a successful Fortitude save (DC 18 + your Wis modifier) or gain 1d4 negative levels. You gain 5 temporary hit points for each negative level your enemy gains. Temporary hit points gained in this manner last until the end of the encounter. The effects of any negative levels bestowed by this strike disappear in 24 hours. If the target has at least as many negative levels as Hit Dice, it dies. Each negative level gives a creature a -1 penalty on attack rolls, saving throws, skill checks, ability checks, and effective level (for determining the power, duration, DC, and other details of spells or special abilities). Additionally, a spellcaster loses one spell or spell slot from her highest available level. Negative levels stack. In addition to the negative levels, your attack deals normal damage, even if the target succeeds on the saving throw. This maneuver is a supernatural ability.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Leaping Flame|TYPE:SpecialAttack.Desert Wind.Desert Wind Discipline.Swordsage Martial Maneuver.Desert Wind Maneuver.Maneuver.Martial Maneuver.Counter|DESC:As your foe attacks you, you disappear in a burst of flame and smoke, only to reappear as if out of thin air next to him. You instantly appear in a square adjacent to a creature that attacks you with a melee or ranged attack, after resolving the enemy's attack. You cannot move into a space that is occupied by a creature or object. You can move up to 100 feet in this manner. If you cannot move adjacent to the target, this maneuver fails to function but is still considered used. This maneuver is a supernatural ability.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Mighty Throw|TYPE:SpecialAttack.Swordsage Martial Maneuver.Setting Sun Maneuver.Maneuver.Martial Maneuver.Strike.Setting Sun.Setting Sun Discipline|DESC:You use superior leverage and your Setting Sun training to send an opponent tumbling to the ground. As part of this maneuver, you must succeed on a melee touch attack against your foe. Resolve the throw as a trip attempt (PH 158), but you do not provoke attacks of opportunity, and your opponent cannot try to trip you if you lose the opposed check. You can use your Dexterity or Strength modifier, whichever is higher. You gain a +4 bonus on the ability check. If you succeed in tripping your foe, you throw it up to 10 feet away from you. The target falls prone in the destination space. You choose where it lands. You must place the target in an empty space. If you lack the distance to throw your target into a clear space, it falls prone in its current space. An enemy you throw with this maneuver does not provoke attacks of opportunity for passing through enemies' threatened areas as part of the throw, and you can throw an enemy through occupied squares.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ One With Shadow|TYPE:SpecialAttack.Swordsage Martial Maneuver.Shadow Hand.Shadow Hand Discipline.Shadow Hand Maneuver.Maneuver.Martial Maneuver.Counter|DESC:You fade into the raw essence of shadow, turning transparent, then insubstantial. As an immediate action, you become incorporeal. You gain all the benefits of the incorporeal subtype, along with the drawbacks, as outlined in the Incorporeal Subtype sidebar. All of your gear becomes incorporeal, although you cannot grant this state to a living creature that you touch or carry. You remain incorporeal until the beginning of your next turn.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Shadow Noose|TYPE:SpecialAttack.Swordsage Martial Maneuver.Shadow Hand.Shadow Hand Discipline.Shadow Hand Maneuver.Maneuver.Martial Maneuver.Strike|DESC:As you foe struggles to ready his defenses, you make a subtle gesture in the air. A noose formed of shadow drops from above him, wraps around his throat, and hoists him aloft. His limbs flail as he struggles to free himself from the strangling noose. As part of this maneuver, you form a noose of shadow that wraps around your target and strangles him. This maneuver works only against a f latfooted target. As part of this maneuver, you make a ranged touch attack against a flat-footed creature within range. If it hits, your opponent takes 8d6 points of damage. In addition, he must make a successful Fortitude save (DC 16 + your Wis modifier) or be stunned for 1 round. A successful save negates the stun, but not the extra damage. This strike has no effect against nonliving creatures, such as constructs and undead. This maneuver is a supernatural ability.
+ABILITY:Swordsage Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Strength Draining Strike|TYPE:SpecialAttack.Swordsage Martial Maneuver.Shadow Hand.Shadow Hand Discipline.Shadow Hand Maneuver.Maneuver.Martial Maneuver.Strike|DESC:Liquid, black energy covers your weapon. As you strike your opponent, this material flows into the wound, spreads along his veins, and leaves him weakened. As part of this maneuver, you make a single melee attack against an opponent. In addition to dealing normal melee damage with the attack, you deal 4 points of Strength damage. A successful Fortitude save (DC 13 + your Wis modifier) halves this Strength damage, but has no effect on the normal melee damage you deal with the strike. This maneuver is a supernatural ability.
+USERPOOL:Swordsage Maneuver|POOLPOINTS:0.0
+ABILITY:Swordsage Stance|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Balance On The Sky|TYPE:SpecialAttack.Shadow Hand Stance.Swordsage Martial Stance.Stance.Shadow Hand.Shadow Hand Discipline|DESC:With arms spread wide, you step onto the air. You gain the ability to use air walk (PH 196) on yourself only. You must keep at least one hand empty while using this stance. Moving upward requires you to spend 10 feet of movement for each 5 feet of elevation you gain. You gain the benefit of air walk only while you maintain this stance. If for some reason your stance ends while you are in midair, you fall to the ground. This stance is a supernatural ability.
+ABILITY:Swordsage Stance|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Child of Shadow|TYPE:SpecialAttack.Shadow Hand Stance.Swordsage Martial Stance.Stance.Shadow Hand.Shadow Hand Discipline|DESC:As you move, shadows flutter and swarm around you. Even under the bright desert sun, you are difficult to spot as long as you remain in motion. As an initiate of the Shadow Hand school, you learn to channel and control dark, shadowy energies. This energy flows around you like a concealing robe, hiding you from your opponents as they attempt to strike you. If you move at least 10 feet during your turn, you gain concealment against all melee and ranged attacks until the start of your next turn. You also gain the standard benefits of concealment, but you cannot use this stance to hide in plain sight; you must still use some other terrain feature that normally allows you to use the Hide skill. The fluttering shadows make it difficult to specifically target you, but your enemies are aware of your position. This maneuver is a supernatural ability.
+ABILITY:Swordsage Stance|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage Martial Discipline ~ Flame's Blessing|TYPE:SpecialAttack.Desert Wind.Desert Wind Discipline.Desert Wind Stance.Swordsage Martial Stance.Stance|DESC:Fire is not your enemy, and it does not harm you. You gain some resistance to fire as long as you remain in this stance. The amount of resistance is determined by your ranks in Tumble. If you have 19 or more ranks in Tumble, you gain immunity to fire while you are in this stance. This stance is a supernatural ability. Tumble Ranks Fire Resistance 4-8 5 9-13 10 14-18 20 19+ Immunity
+USERPOOL:Swordsage Stance|POOLPOINTS:0.0
+ABILITY:Swordsage Weapon Focus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swordsage ~ Weapon Focus Shadow Hand|TYPE:SpecialQuality.Extraordinary.Swordsage Weapon Focus|DESC:Grants the Weapon Focus feat for weapons associated with the Shadow Hand discipline (dagger, short sword, sai, siangham, unarmed strike, and spiked chain).
+USERPOOL:Swordsage Weapon Focus|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Axe (Throwing)|WEAPON:Battle Gauntlet|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Chameleon Tongue|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)]
+WEAPONPROF:[WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Darts (Barbed)|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive]
+WEAPONPROF:[WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Halfspear|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Javelin]
+WEAPONPROF:[WEAPON:Kukri|WEAPON:Lance|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Morningstar|WEAPON:Pick (Heavy)]
+WEAPONPROF:[WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash|WEAPON:Shortspear]
+WEAPONPROF:[WEAPON:Sickle|WEAPON:Slam|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Strike (Unarmed)|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)]
+WEAPONPROF:[WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:Warhammer]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Battle Dancer Anklet For Monk|OUTPUTORDER:12|COST:13000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Battlefist (Mighty Arms)|OUTPUTORDER:3|COST:2600.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mighty Arms Attached ~ Battlefist|DATA:NAME=Battlefist (Mighty Arms)$KEY=Mighty Arms Attached ~ Battlefist$EQMOD=Masterwork (Weapon).STEEL.PLUS1W]
+EQUIPNAME:Belt, Monk's|OUTPUTORDER:7|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Monk's)|DATA:NAME=Belt, Monk's$KEY=Belt (Monk's)]
+EQUIPNAME:Chameleon Tongue (Natural/Primary)|OUTPUTORDER:4|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chameleon Tongue|DATA:KEY=Chameleon Tongue]
+EQUIPNAME:Coin (Gold)|OUTPUTORDER:0|COST:1|WT:0.02|QUANTITY:475.0|NOTE:
+EQUIPNAME:Eternal Wand (Lesser Restoration)|OUTPUTORDER:11|COST:4420|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Eternal Wand (2)|DATA:NAME=Eternal Wand (Lesser Restoration)$SPROP=Casts Lesser Restoration 2/day (as Wand)]
+EQUIPNAME:Fanged Ring|OUTPUTORDER:8|COST:10000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Glove of Mighty Wallop|OUTPUTORDER:2|COST:4000|WT:1.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Mighty Arms|OUTPUTORDER:9|COST:1000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Monk's Outfit|OUTPUTORDER:6|COST:5|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Nightstick|OUTPUTORDER:10|COST:7500|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Periapt of Wisdom +4|OUTPUTORDER:1|COST:16000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Rod (Wonder)|OUTPUTORDER:0|COST:12000|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rod|DATA:NAME=Rod (Wonder)$SPROP=A rod of wonder is a strange and unpredictable device that randomly generates any number of weird effects each time it is used. (Activating the rod is a standard action.) The usual effects are shown on the table DMG p237. Moderate enchantment; CL 10th;]
+EQUIPNAME:Slam (Natural/Primary)|OUTPUTORDER:5|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Slam|DATA:KEY=Slam]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Clothing|ID:0.1.02|VALUE:Monk's Outfit|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Hands|ID:0.1.03|VALUE:Glove of Mighty Wallop|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.04|VALUE:Fanged Ring|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.05|VALUE:Battlefist (Mighty Arms)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.06|VALUE:Mighty Arms|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Waist|ID:0.1.08|VALUE:Belt, Monk's|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.1|VALUE:Chameleon Tongue (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.11|VALUE:Nightstick|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.14|VALUE:Eternal Wand (Lesser Restoration)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.15|VALUE:Periapt of Wisdom +4|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.16|VALUE:Slam (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.17|VALUE:Battle Dancer Anklet For Monk|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+TEMPBONUS:EQUIPMENT=Belt (Monk's)|TBTARGET:PC|TBBONUS:COMBAT&pipe;AC&pipe;-WIS
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+SPELLNAME:Assassin's Stance|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Balance On The Sky|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:8|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Ballista Throw|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Bloodletting Strike|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Burning Blade|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Child of Shadow|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Cloak of Deception|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Comet Throw|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Drain Vitality|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Enervating Shadow Strike|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:8|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Flame's Blessing|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Leaping Flame|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Mighty Throw|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:One With Shadow|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:8|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Shadow Blink|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:7|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Shadow Noose|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+SPELLNAME:Strength Draining Strike|TIMES:1|CLASS:Swordsage|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Swordsage]
+
+# Character Description/Bio/History
+CHARACTERBIO:Ban didn't choose the adventuring life, the adventuring life chose him. &nl;&nl;He was killed by a Shadow-Sun-Ninja-turned-vampire, and instead of rising as a Vampire Spawn, he arose in his current state - a sort of generic and undifferentiated Undead. &nl;&nl;Exploring the connection that the Sun Soul Ninjas and Shadow Hand maneuvers have to Negative Energy and Positive Energy and its relation to his undead state have led him down the path of the Shadow Sun Ninja himself.  &nl;&nl;
+CHARACTERDESC:STRATEGIES&nl;Ban's role in the party is healer.  &nl;&nl;Using "Touch Of The Shadow Sun"  on an unresisting target is a Swift Action. &nl;He can use it on himself one round (Negative Energy) and an ally the following round (Positive Energy) and still have a Move+Standard action or Full-Round-Action.&nl;For "Fire and forget" healing, there is always "Healing Devotion" - he can spend a Full-Round-Action to bestow Fast Healing on an ally so they keep healing themselves without his intervention for a while. &nl;&nl;When going on the offensive, he has several options.  The primary one is to (if necessary) use Travel Devotion as a swift action to get close to his opponent and take a Full Attack with his unarmed attacks.  &nl;&nl;For living enemies too difficult to hit, he can use Touch Of The Shadow Sun as a Touch Attack.  &nl;&nl;Tumbling through an enemy space renders them flat-footed for Shadow Noose&nl;&nl;If you run out of Maneuvers, a Full-Round Action (Adaptive Style) lets you refresh them all.&nl;&nl;&nl;Prepared Maneuvers&nl;&nl;1) Shadow Blink - 50' teleport as a Swift Action&nl;2) Bloodletting Strike - Melee Attack as a Standard action, and add CON damage&nl;3) Drain Vitality- Melee Attack as a Standard action, and add CON damage (Weaker version of Drain Vitality)&nl;4) Enervating Strike - Melee Attack as a Standard Action to inflcit Negative Levels&nl;5) Shadow Noose - ranged touch attack against a flat-footed enemy. 8d6 damage and stuns&nl;6) Strength Draining Strike - Melee Attack as a Standard action, and add STR damage&nl;7) Comet Throw - Make a trip attack to throw an opponent up to 10' in any direction for 4d6 damage&nl;8) One With The Shadow - become intangible for 1 turn as an immediate action&nl;9)  Ballista Throw - Make a trip attack to throw an enemy in a 60' line, dealing 6d6 damage to the enemy and any along the line
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+KIT:Extra gold
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:1:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

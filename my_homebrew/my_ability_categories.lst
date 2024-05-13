@@ -144,3 +144,7 @@ ABILITYCATEGORY:Manifestation State		VISIBLE:QUALIFY		EDITABLE:YES	EDITPOOL:YES	
 ABILITYCATEGORY:Mighty Wallop Effect		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability	TYPE:MightyWallopEffect		PLURAL:Mighty Wallop Effects		DISPLAYLOCATION:Class Features
 
 
+ABILITYCATEGORY:Shadow Sun Ninja Maneuvers		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability	TYPE:Shadow Hand Maneuver.Setting Sun Maneuver		PLURAL:Shadow Sun Ninja Maneuvers		DISPLAYLOCATION:Class Features		
+
+
+ABILITYCATEGORY:Shadow Sun Ninja Stances		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability	TYPE:Shadow Hand Stance.Setting Sun Stance		PLURAL:Shadow Sun Ninja Stances		DISPLAYLOCATION:Class Features		

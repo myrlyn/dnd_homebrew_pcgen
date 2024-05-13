@@ -404,7 +404,22 @@ CLASS:Virtuoso.MOD
 11:REPEATLEVEL:1	ADD:SPELLCASTER|Arcane
 
 
+CLASS:Warblade.MOD			DEFINE:ManeuversReadied|0			BONUS:VAR|ManeuversReadied|3+((CL+3)/6)
+
+CLASS:Shadow Sun Ninja.MOD			DEFINE:ShadowSunNinjaLVL|0			BONUS:VAR|ShadowSunNinjaLVL|CL	BONUS:VAR|InitiatorManeuverLVL|CL
+1			BONUS:ABILITYPOOL|Shadow Sun Ninja Maneuvers|1
+3			BONUS:ABILITYPOOL|Shadow Sun Ninja Maneuvers|1
+5			BONUS:VAR|ManeuversReadied|1			BONUS:ABILITYPOOL|Shadow Sun Ninja Stances|1
+6			BONUS:ABILITYPOOL|Shadow Sun Ninja Maneuvers|1
+9			BONUS:ABILITYPOOL|Shadow Sun Ninja Maneuvers|1
+10:REPEATLEVEL:5			BONUS:VAR|ManeuversReadied|1		
 
 
 
+CLASS:Swordsage.MOD
+1		ABILITY:Special Ability|AUTOMATIC|.CLEAR.Swordsage ~ Weapon and Armor Proficiency
+1		ABILITY:Special Ability|AUTOMATIC|Swordsage ~ Weapon and Armor Proficiency|PREABILITY:1,CATEGORY=ACF,TYPE=SwordSageArmor
 
+
+CLASS:Master of Many Forms.MOD			
+#PREABILITY:1,CATEGORY=Special Ability,TYPE.Wild Shape	PREABILITY:2,CATEGORY=FEAT,Alertness,Endurance
