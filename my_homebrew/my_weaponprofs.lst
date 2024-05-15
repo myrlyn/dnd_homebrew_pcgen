@@ -34,3 +34,6 @@ SOURCELONG:My Campaign	SOURCESHORT:My	SOURCEWEB:http://www.mywebsite.com	SOURCED
 Pistol (Revolver)			TYPE:Exotic.Ranged.Firearms
 
 Greatpick				TYPE:Exotic.Melee.Piercing.Kobold
+
+
+Spells (Ray).COPY=Eldritch Blast
