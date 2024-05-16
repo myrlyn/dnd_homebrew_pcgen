@@ -169,7 +169,7 @@ Wielding With 1 Extra Hands					BONUS:WEAPONPROF=TYPE.TwoHanded|STATDAMAGE|(STR*
 
 
 
-Half-Minotaur		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK			ABILITY:Special Ability|AUTOMATIC|Minotaur Cunning	ABILITY:Special Ability|AUTOMATIC|Scent		BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|INT|-2|TYPE=Racial.STACK		SAB:Minotaurs get a +2 Racial Bonus to Search, Spot, and Listen		BONUS:SKILL|Search,Spot,Listen|2|TYPE=Racial.STACK		ABILITY:FEAT|VIRTUAL|Track		CR:1		LEVELADJUSTMENT:1	VISION:Darkvision (60')			ABILITY:Internal|AUTOMATIC|Half-Minotaur (Medium or Smaller)	PRESIZELT:L	ABILITY:Internal|AUTOMATIC|HMGore (S)|PRESIZEEQ:S	ABILITY:Internal|AUTOMATIC|HMGore (M)|PRESIZEEQ:M	ABILITY:Internal|AUTOMATIC|HMGore (L)|PRESIZEEQ:L	ABILITY:Internal|AUTOMATIC|HMGore (H)|PRESIZEEQ:H
+Half-Minotaur	PRESIZELT:L		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK			ABILITY:Special Ability|AUTOMATIC|Minotaur Cunning	ABILITY:Special Ability|AUTOMATIC|Scent		BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|INT|-2|TYPE=Racial.STACK		SAB:Minotaurs get a +2 Racial Bonus to Search, Spot, and Listen		BONUS:SKILL|Search,Spot,Listen|2|TYPE=Racial.STACK		ABILITY:FEAT|VIRTUAL|Track		CR:1		LEVELADJUSTMENT:1	VISION:Darkvision (60')			ABILITY:Internal|AUTOMATIC|Half-Minotaur (Medium or Smaller)	PRESIZELT:L	ABILITY:Internal|AUTOMATIC|HMGore (S)|PRESIZEEQ:S	ABILITY:Internal|AUTOMATIC|HMGore (M)|PRESIZEEQ:M	ABILITY:Internal|AUTOMATIC|HMGore (L)|PRESIZEEQ:L	ABILITY:Internal|AUTOMATIC|HMGore (H)|PRESIZEEQ:H
 
 Face 10			FACE:10
 Reach 10		REACH:10
@@ -178,7 +178,7 @@ Reach 15		REACH:15
 
 
 
-Half-Minotaur (Large or Larger)		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	TYPE:LA0Playable			ABILITY:Special Ability|AUTOMATIC|Minotaur Cunning	ABILITY:Special Ability|AUTOMATIC|Scent		BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|INT|-2|TYPE=Racial.STACK		SAB:Minotaurs get a +2 Racial Bonus to Search, Spot, and Listen		BONUS:SKILL|Search,Spot,Listen|2|TYPE=Racial.STACK		ABILITY:FEAT|VIRTUAL|Track		CR:1		LEVELADJUSTMENT:0	VISION:Darkvision (60')				ABILITY:Internal|AUTOMATIC|HMGore (S)|PRESIZEEQ:S	ABILITY:Internal|AUTOMATIC|HMGore (M)|PRESIZEEQ:M	ABILITY:Internal|AUTOMATIC|HMGore (L)|PRESIZEEQ:L	ABILITY:Internal|AUTOMATIC|HMGore (H)|PRESIZEEQ:H
+Half-Minotaur (Large or Larger)		PRESIZEGTEQ:L		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	TYPE:LA0Playable			ABILITY:Special Ability|AUTOMATIC|Minotaur Cunning	ABILITY:Special Ability|AUTOMATIC|Scent		BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|INT|-2|TYPE=Racial.STACK		SAB:Minotaurs get a +2 Racial Bonus to Search, Spot, and Listen		BONUS:SKILL|Search,Spot,Listen|2|TYPE=Racial.STACK		ABILITY:FEAT|VIRTUAL|Track		CR:1		LEVELADJUSTMENT:0	VISION:Darkvision (60')				ABILITY:Internal|AUTOMATIC|HMGore (S)|PRESIZEEQ:S	ABILITY:Internal|AUTOMATIC|HMGore (M)|PRESIZEEQ:M	ABILITY:Internal|AUTOMATIC|HMGore (L)|PRESIZEEQ:L	ABILITY:Internal|AUTOMATIC|HMGore (H)|PRESIZEEQ:H
 
 
 
@@ -364,7 +364,12 @@ Werecat					CR:2			VISIBLE:EXPORT				DEFINE:AnimalSize|0		DEFINE:AnimalHD|0			DE
 Werecat.MOD		ABILITY:Special Ability|AUTOMATIC|Werecat ~ Alternate Form|Werecat ~ Curse of Lycanthropy|Werecat ~ Cat Empathy		ABILITY:Special Ability|AUTOMATIC|Scent		VISION:Low-Light Vision		BONUS:VAR|AnimalSize|2
 
 Weredog					CR:2			VISIBLE:EXPORT				DEFINE:AnimalSize|0		DEFINE:AnimalHD|0			DEFINE:AnimalMove|0		DEFINE:AnimalAC|0	DEFINE:AnimalDex|0	DEFINE:AnimalCon|0		BONUS:VAR|AnimalMove|40		BONUS:VAR|AnimalDex|6	BONUS:VAR|AnimalStr|2	BONUS:VAR|AnimalCon|4		BONUS:VAR|AnimalAC|1			CSKILL:Balance|Climb|Hide|Jump|Move Silently|Spot	SAB:+4 to Jump checks and Survival checks to track by scent.		ABILITY:FEAT|VIRTUAL|Track
-Werecat.MOD		ABILITY:Special Ability|AUTOMATIC|Weredog ~ Alternate Form|Weredog ~ Curse of Lycanthropy|Weredog ~ Dog Empathy		ABILITY:Special Ability|AUTOMATIC|Scent		VISION:Low-Light Vision		BONUS:VAR|AnimalSize|3
+Weredog.MOD		ABILITY:Special Ability|AUTOMATIC|Weredog ~ Alternate Form|Weredog ~ Curse of Lycanthropy|Weredog ~ Dog Empathy		ABILITY:Special Ability|AUTOMATIC|Scent		VISION:Low-Light Vision		BONUS:VAR|AnimalSize|3
+
+
+
+WereEagle					CR:2			VISIBLE:EXPORT				DEFINE:AnimalSize|0		DEFINE:AnimalHD|0			DEFINE:AnimalMove|0		DEFINE:AnimalAC|0	DEFINE:AnimalDex|0	DEFINE:AnimalCon|0		BONUS:VAR|AnimalMove|10		BONUS:VAR|AnimalDex|4	BONUS:VAR|AnimalStr|0	BONUS:VAR|AnimalCon|2		BONUS:VAR|AnimalAC|1			CSKILL:Listen|Spot	SAB:+8 to Spot checks.		ABILITY:FEAT|VIRTUAL|Weapon Finesse
+WereEagle.MOD		ABILITY:Special Ability|AUTOMATIC|WereEagle ~ Alternate Form|WereEagle ~ Curse of Lycanthropy|WereEagle ~ Eagle Empathy		ABILITY:Special Ability|AUTOMATIC|Scent		VISION:Low-Light Vision		BONUS:VAR|AnimalSize|3
 
 
 
@@ -427,5 +432,22 @@ Ritual Of Transfiguration			LEVELADJUSTMENT:2		TYPE:Incorporeal						SOURCEPAGE:
 
 
 Template Incorporeal State			VISIBLE:NO		RACESUBTYPE:Incorporeal			ABILITY:Special Ability|AUTOMATIC|Incorporeal Subtype
+
+
+Ironmonger Transformation	VISIBLE:NO		VISIBLE:YES			RACETYPE:Construct		RACESUBTYPE:Living Construct		VISION:Low-Light Vision		VISION:Darkvision (60')		DEFINESTAT:UNLOCK|CON	DEFINESTAT:STAT|CON				TEMPLATE:CHOOSE:Ironmonger Attacks Fine|Ironmonger Attacks Diminutive|Ironmonger Attacks Tiny|Ironmonger Attacks Small|Ironmonger Attacks Medium|Ironmonger Attacks Large|Ironmonger Attacks Huge|Ironmonger Attacks Gargantuan|Ironmonger Attacks Colossal|Ironmonger Attacks Colossal+		BONUS:STAT|STR,CON|4|TYPE=Racial.STACK							
+
+
+
+Ironmonger Attacks Fine				PRESIZEEQ:F			NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*2,1d2						VISIBLE:NO	
+Ironmonger Attacks Diminutive				PRESIZEEQ:D			NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*2,1d3						VISIBLE:NO	
+Ironmonger Attacks Tiny				PRESIZEEQ:T			NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*2,1d4						VISIBLE:NO	
+Ironmonger Attacks Small				PRESIZEEQ:S			NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*2,1d6						VISIBLE:NO	
+Ironmonger Attacks Medium				PRESIZEEQ:M			NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*2,1d8						VISIBLE:NO	
+Ironmonger Attacks Large				PRESIZEEQ:L			NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*2,2d6						VISIBLE:NO	
+Ironmonger Attacks Huge				PRESIZEEQ:H			NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*2,2d8						VISIBLE:NO	
+Ironmonger Attacks Gargantuan				PRESIZEEQ:G			NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*2,4d6						VISIBLE:NO	
+Ironmonger Attacks Colossal				PRESIZEEQ:C			NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*2,6d6					VISIBLE:NO	
+Ironmonger Attacks Colossal+				PRESIZEGT:C			NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*2,6d8				VISIBLE:NO	
+
 
 

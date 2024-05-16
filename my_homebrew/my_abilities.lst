@@ -59,7 +59,28 @@ Human Region ~ Custom Campaign						OUTPUTNAME:Custom Campaign														CATE
 
 Weapon and Armor Proficiency					KEY:Avenger ~ Weapon and Armor Proficiency		CATEGORY:Special Ability	TYPE:Class Feature.Avenger Class Feature.SpecialQuality																																																												DESC:Avengers are proficient with the crossbow (hand, light, or heavy), dagger (any type), dart, rapier, sap, shortbow (normal and composite), and short sword. Avengers are proficient with light armor but not with shields.																																																																																																																																																																																																																																																																															AUTO:WEAPONPROF|Dart|Rapier|Sap|Shortbow|Shortbow|Sword (Short)|Crossbow (Light)|Crossbow (Heavy)|Crossbow (Hand)|TYPE=Auto|TYPE=Dagger																									ABILITY:Internal|AUTOMATIC|TYPE=ArmorProfLight|TYPE=ShieldProf|TYPE=WeaponProfMartial																																																																																																																																																																																																																																																																																													SOURCEPAGE:p.180
 
-CATEGORY=Special Ability|Dragonborn ~ Heart.MOD		ASPECT:NAME|Breath Weapon %1d%2, %3 ft line|HeartDragonbornDice|HeartDragonBornDieSize|DragonbornLineLength											DEFINE:HeartDragonbornDice|0		DEFINE:HeartDragonBornDieSize|0		BONUS:VAR|HeartDragonBornDieSize|8		BONUS:VAR|HeartDragonbornDice|1+(TL/3)			DEFINE:DragonbornLineLength|0		BONUS:VAR|DragonbornLineLength|min(100,(tl*5))
+CATEGORY=Special Ability|Dragonborn ~ Heart.MOD		ABILITY:Special Ability|AUTOMATIC|Heart Aspect Breath Weapon
+Heart Aspect Breath Weapon		CATEGORY:Special Ability		ASPECT:NAME|Breath Weapon %1d%2, %3 ft line, DC %4|HeartDragonbornDice+GlobalBonusBreathDice|HeartDragonBornDieSize|DragonbornLineLength|10+(TL/2)+CON+GlobalBonusBonusBreathDC+HeartBonusDC			TYPE:SpecialAttack.BreathWeapon.Supernatural										DEFINE:HeartDragonbornDice|0		DEFINE:HeartDragonBornDieSize|0		BONUS:VAR|HeartDragonBornDieSize|8		BONUS:VAR|HeartDragonbornDice|1+(TL/3)			DEFINE:DragonbornLineLength|0		BONUS:VAR|DragonbornLineLength|min(100,(tl*5))		DEFINE:HeartBonusDC|0		BONUS:VAR|HeartBonusDC|2|PREABILITY:1,CATEGORY=Feat,Ability Focus(Breath Weapon)			DESC:The line's length is 5 feet per Hit Die the dragonborn has, up to a maximum of 100 feet at 20 HD. The breath weapon deals 1d8 points of damage, plus an extra 1d8 points for each 3 HD the dragonborn possesses (2d8 at 3 HD, 3d8 at 6 HD, and so on). The damage can be acid, cold, electricity, or fire, changing on each use as the dragonborn chooses. A successful Reflex save (DC 10 + 1/2 the dragonborn's HD + her Con modifier) halves the damage. A dragonborn can use her breath weapon once every 1d4 rounds.
+
+Breath Weapon						KEY:Tongue Studs of Hell Breath ~ Breath Weapon		CATEGORY:Special Ability		TYPE:Supernatural.SpecialAttack.BreathWeapon	ASPECT:NAME|Breath Weapon %1d%2, %3 ft line|3+GlobalBonusBreathDice|6|50			DESC:This hellfire deals unholy (not fire) damage. There is no saving throw.  Usable %1/Day|HellBreathTimes			DEFINE:HellBreathTimes|0		BONUS:VAR|HellBreathTimes|3		BONUS:VAR|HellBreathTimes|ExtraBreathWeaponTimes
+
+Breath Weapon						KEY:Tongue Studs of Cleansing Fire ~ Breath Weapon		CATEGORY:Special Ability		TYPE:Supernatural.SpecialAttack.BreathWeapon	ASPECT:NAME|Breath Weapon %1d%2, %3 ft line|3+GlobalBonusBreathDice|6|50			DESC:This Cleansing Fire deals holy (not fire) damage. There is no saving throw.  Usable %1/Day|CleansingBreathTimes			DEFINE:CleansingBreathTimes|0		BONUS:VAR|CleansingBreathTimes|3		BONUS:VAR|CleansingBreathTimes|ExtraBreathWeaponTimes
+
+Breath Weapon						KEY:Mask Of Dragon Breath Fire Line ~ Breath Weapon		CATEGORY:Special Ability		TYPE:Supernatural.SpecialAttack.BreathWeapon	ASPECT:NAME|Breath Weapon %1d%2, %3 ft line|4+GlobalBonusBreathDice|6|60			DESC:Breath weapon from Mask of Dragon Breath.  Fire Damage.  Reflex save for half Damage.  Usable %1/Day|MaskBreathTimes			DEFINE:MaskBreathTimes|0		BONUS:VAR|MaskBreathTimes|3		BONUS:VAR|MaskBreathTimes|ExtraBreathWeaponTimes
+
+Breath Weapon						KEY:Mask Of Dragon Breath Acid Line ~ Breath Weapon		CATEGORY:Special Ability		TYPE:Supernatural.SpecialAttack.BreathWeapon	ASPECT:NAME|Breath Weapon %1d%2, %3 ft line|4+GlobalBonusBreathDice|6|60			DESC:Breath weapon from Mask of Dragon Breath.  Acid Damage.  Reflex save for half Damage.  Usable %1/Day|MaskBreathTimes			DEFINE:MaskBreathTimes|0		BONUS:VAR|MaskBreathTimes|3		BONUS:VAR|MaskBreathTimes|ExtraBreathWeaponTimes
+
+Breath Weapon						KEY:Mask Of Dragon Breath Electricity Line ~ Breath Weapon		CATEGORY:Special Ability		TYPE:Supernatural.SpecialAttack.BreathWeapon	ASPECT:NAME|Breath Weapon %1d%2, %3 ft line|4+GlobalBonusBreathDice|6|60			DESC:Breath weapon from Mask of Dragon Breath.  Electricity Damage.  Reflex save for half Damage.  Usable %1/Day|MaskBreathTimes			DEFINE:MaskBreathTimes|0		BONUS:VAR|MaskBreathTimes|3		BONUS:VAR|MaskBreathTimes|ExtraBreathWeaponTimes
+
+
+Breath Weapon						KEY:Mask Of Dragon Breath Acid Cone ~ Breath Weapon		CATEGORY:Special Ability		TYPE:Supernatural.SpecialAttack.BreathWeapon	ASPECT:NAME|Breath Weapon %1d%2, %3 ft Cone|4+GlobalBonusBreathDice|6|30			DESC:Breath weapon from Mask of Dragon Breath.  Acid Damage.  Reflex save for half Damage.  Usable %1/Day|MaskBreathTimes			DEFINE:MaskBreathTimes|0		BONUS:VAR|MaskBreathTimes|3		BONUS:VAR|MaskBreathTimes|ExtraBreathWeaponTimes
+
+
+Breath Weapon						KEY:Mask Of Dragon Breath Cold Cone ~ Breath Weapon		CATEGORY:Special Ability		TYPE:Supernatural.SpecialAttack.BreathWeapon	ASPECT:NAME|Breath Weapon %1d%2, %3 ft Cone|4+GlobalBonusBreathDice|6|30			DESC:Breath weapon from Mask of Dragon Breath.  Cold Damage.  Reflex save for half Damage.  Usable %1/Day|MaskBreathTimes			DEFINE:MaskBreathTimes|0		BONUS:VAR|MaskBreathTimes|3		BONUS:VAR|MaskBreathTimes|ExtraBreathWeaponTimes
+
+Breath Weapon						KEY:Mask Of Dragon Breath Fire Cone ~ Breath Weapon		CATEGORY:Special Ability		TYPE:Supernatural.SpecialAttack.BreathWeapon	ASPECT:NAME|Breath Weapon %1d%2, %3 ft Cone|4+GlobalBonusBreathDice|6|30			DESC:Breath weapon from Mask of Dragon Breath.  Fire Damage.  Reflex save for half Damage.  Usable %1/Day|MaskBreathTimes			DEFINE:MaskBreathTimes|0		BONUS:VAR|MaskBreathTimes|3		BONUS:VAR|MaskBreathTimes|ExtraBreathWeaponTimes
+
+
 Sneak Attack							KEY:Avenger ~ Sneak Attack					CATEGORY:Special Ability	TYPE:Class Feature.Avenger Class Feature.SpecialQuality.SneakAttack.Sneak Attack																																		DEFINE:SneakAttackDice|0	DEFINE:SneakAttackDieSize|0															DESC:This is exactly like the rogue ability of the same name. The extra damage dealt increases by +1d6 every other level (2nd, 4th, 6th, 8th, and 10th). If an Avenger gets a sneak attack bonus from another source (such as rogue levels), the bonuses on damage stack.	DESC:[Sneak Attack Damage: %1d%2]|SneakAttackDice|SneakAttackDieSize																																																																																																																																																																																																																																																																																																										ABILITY:Special Ability|AUTOMATIC|Sneak Attack																																																																																																																																																																																														BONUS:VAR|SneakAttackDieSize|6|TYPE=Base	BONUS:VAR|SneakAttackDice|(AvengerLVL+1)/2			ASPECT:NAME|Sneak Attack +%1d%2|SneakAttackDice|SneakAttackDieSize																																																																																					SOURCEPAGE:p.180
 
 CATEGORY=Special Ability|Ronin ~ Sneak Attack.MOD		DEFINE:SneakAttackDice|0	BONUS:VAR|SneakAttackDice|(RoninSneakAttackLVL+2)/3			ABILITY:Special Ability|AUTOMATIC|Sneak Attack		DEFINE:SneakAttackDieSize|0		BONUS:VAR|SneakAttackDieSize|6|TYPE=Base			ASPECT:NAME|Sneak Attack +%1d%2|SneakAttackDice|SneakAttackDieSize				
@@ -107,10 +128,10 @@ Multiweapon Fighting	KEY:Obah-Blessed ~ Multiweapon Fighting	CATEGORY:Special Ab
 #Altitude Adaptation					KEY:Jungle Kobold ~ Altitude Adaptation		CATEGORY:Special Ability	TYPE:SpecialQuality.Kobold Race Trait	VISIBLE:YES	DESC:Jungle kobolds do not suffer altitude sickness and are always considered acclimated to high altitudes.
 
 
-Power Surge			CATEGORY:Feat		TYPE:Monster.Monstrous.General	DESC:Choose one supernatural attack you can use at least 3/day.  Apply one of the following improvements: Increase DC by 1, Increase damage by +1 per die, increase duration by 50%% (this one may not be applied to instantaneous effects).  After this wait to use the supernatural ability again for one round.  If you must normally wait to use the ability, you must wait an additional round.  
+Power Surge			CATEGORY:Feat		TYPE:Monster.Monstrous.General	DESC:Choose one supernatural attack you can use at least 3/day.  Apply one of the following improvements: Increase DC by 1, Increase damage by +1 per die, increase duration by 50%% (this one may not be applied to instantaneous effects).  After this wait to use the supernatural ability again for one round.  If you must normally wait to use the ability, you must wait an additional round.  		SOURCEPAGE:Dragon 313				MULT:YES		STACK:NO		CHOOSE:ABILITY|Special Ability|PC[TYPE=Supernatural]
 
 
-CATEGORY=Special Ability|Dragonfire Adept ~ Breath Weapon.MOD		TYPE:AbilityFocus.Ability Focus.Ability Focus Ability Focus		DEFINE:DFABreathDC|0	BONUS:VAR|DFABreathDC|10+(DragonfireAdeptLVL/2)+CON+GlobalBonusBonusBreathDC	DEFINE:GlobalBonusBonusBreathDC|0	ASPECT:NAME|Breath Weapon +%1d6/%2|DFABreathDice|DFABreathDC	TYPE:.CLEAR		TYPE:Supernatural.Dragonfire Adept Class Feature.SpecialAttack.Breath Weapon	DEFINE:DFABreathDice|0		BONUS:VAR|DFABreathDice|((DragonfireAdeptLVL+1)/2)+GlobalBonusBreathDice	DEFINE:GlobalBonusBreathDice|0	BONUS:VAR|DFABreathDice|-1|PREVARGTEQ:DragonfireAdeptLVL,15		
+CATEGORY=Special Ability|Dragonfire Adept ~ Breath Weapon.MOD		TYPE:AbilityFocus.Ability Focus.Ability Focus Ability Focus		DEFINE:DFABreathDC|0	BONUS:VAR|DFABreathDC|10+(DragonfireAdeptLVL/2)+CON+GlobalBonusBonusBreathDC	DEFINE:GlobalBonusBonusBreathDC|0	ASPECT:NAME|Breath Weapon +%1d6/%2|DFABreathDice|DFABreathDC	TYPE:.CLEAR		TYPE:Supernatural.Dragonfire Adept Class Feature.SpecialAttack.Breath Weapon	DEFINE:DFABreathDice|0		BONUS:VAR|DFABreathDice|((DragonfireAdeptLVL+1)/2)+GlobalBonusBreathDice	DEFINE:GlobalBonusBreathDice|0	BONUS:VAR|DFABreathDice|-1|PREVARGTEQ:DragonfireAdeptLVL,15		BONUS:VAR|DFABreathDC|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus(Breath Weapon)	
 Breath Weapon		CATEGORY:Ability Focus		BONUS:VAR|DFABreathDC|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Dragonfire Adept ~ Breath Weapon Ability Focus)	TYPE:Ability Focus.AbilityFocus		KEY:Dragonfire Adept ~ Breath Weapon Ability Focus
 #CATEGORY=Special Ability|Kobold ~ Greater Draconic Rite of Passage.MOD	PRECLASS:.CLEAR			ADD:SPELLCASTER|Sorcerer
 Greater Draconic Rite of Passage	KEY:Kobold ~ Greater Draconic Rite of Passage ~ Homebrew	CATEGORY:Special Ability	TYPE:KoboldDraconicRiteOfPassage.SpecialQuality	PREABILITY:1,CATEGORY=Special Ability,Kobold ~ Draconic Rite of Passage		PREABILITY:1,CATEGORY=FEAT,Draconic Reservoir	PRELEVEL:MIN=6	PRERACE:1,Kobold	PRETEXT:Only kobolds of 6 Hit Dice or more, sorcerer level 1st, who have successfully completed the Draconic Rite of Passage, and taken Draconic Reservoir (1) can undergo the Greater Draconic Rite of Passage. A kobold requires no one else to perform the rite; it is a solitary activity.	DESC:The Greater Draconic Rite of Passage is a powerful ritual handed down from dragons to kobolds as a reward for their undying loyalty. In the same way that chromatic and metallic dragons gain integrated levels of sorcerer spellcasting as they age, this ritual allows kobolds to awaken a small amount of their own arcane might.	BONUS:HP|CURRENTMAX|-3	ADD:SPELLCASTER|Sorcerer	COST:0	BENEFIT:Upon completing this rite, a kobold gains new spells per day and an increase in caster level (and spells known) as if also gaining one level in the sorcerer class. The kobold does not, however, gain any other benefit a sorcerer would have gained (familiar abilities, and so on). The benefit of this ritual is automatically factored into the 15 minutes that a kobold sorcerer spends concentrating to ready their daily allotment of spells. No kobold can benefit from this rite more than once. Time: A kobold who undergoes this rite must first endure nine days of fasting (the equivalent of three days for a kobold in a region above 40 degrees F). Immediately thereafter, the kobold must succeed on a DC 20 Concentration check to enter a deep trance that lasts for 24 hours. If the check fails, the rite must begin a new. Cost: This rite requires sacrificing a gem of at least 1,000 gp in value. The kobold also permanently loses 3 hit points upon completion of the rite, the price of unlocking latent draconic energy within their soul.
@@ -283,6 +304,61 @@ CATEGORY=Special Ability|Bardic Music ~ Inspire Courage.MOD		BONUS:VAR|BardicIns
 Knock-Down	CATEGORY:FEAT	TYPE:General		SOURCEPAGE:SRD,Divine Abilities		DESC: Whenever you deal 10 or more points of damage to your opponent in melee, you make a trip attack as a free action against the same target. 	BENEFIT: Whenever you deal 10 or more points of damage to your opponent in melee, you make a trip attack as a free action against the same target. 		PREATT:2	PRESTAT:1,STR=15		PREABILITY:1,CATEGORY=FEAT,Improved Trip
 
 
++1 Size	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:SIZEMOD|NUMBER|1|TYPE=Racial.STACK		COST:0
+
+-1 Size	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:SIZEMOD|NUMBER|-1|TYPE=Racial.STACK		COST:0
+
+
+
+#####ABILITY SCORE MODS
++2 Racial Strength			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:STAT|STR|2|TYPE=Racial.STACK		COST:0
++1 Inherent Strength			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:STAT|STR|2|TYPE=Inherent.STACK		COST:0
+-2 Racial Strength			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:STAT|STR|2|TYPE=Racial.STACK		COST:0
+
++2 Racial Dexterity			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:STAT|DEX|2|TYPE=Racial.STACK		COST:0
++1 Inherent Dexterity			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:STAT|DEX|2|TYPE=Inherent.STACK		COST:0
+-2 Racial Dexterity			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:STAT|DEX|2|TYPE=Racial.STACK		COST:0
+
++2 Racial Constitution			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:STAT|CON|2|TYPE=Racial.STACK		COST:0
++1 Inherent Constitution			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:STAT|CON|2|TYPE=Inherent.STACK		COST:0
+-2 Racial Constitution			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:STAT|CON|2|TYPE=Racial.STACK		COST:0
+
+
++2 Racial Intelligence			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:STAT|INT|2|TYPE=Racial.STACK		COST:0
++1 Inherent Intelligence			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:STAT|INT|2|TYPE=Inherent.STACK		COST:0
+-2 Racial Intelligence			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:STAT|INT|2|TYPE=Racial.STACK		COST:0
+
+
+
++2 Racial Wisdom			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:STAT|WIS|2|TYPE=Racial.STACK		COST:0
++1 Inherent Wisdom			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:STAT|WIS|2|TYPE=Inherent.STACK		COST:0
+-2 Racial Wisdom			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:STAT|WIS|2|TYPE=Racial.STACK		COST:0
+
+
+
++2 Racial Charisma			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:STAT|CHA|2|TYPE=Racial.STACK		COST:0
++1 Inherent Charisma			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:STAT|CHA|2|TYPE=Inherent.STACK		COST:0
+-2 Racial Charisma			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:STAT|CHA|2|TYPE=Racial.STACK		COST:0
+
+
++1 Natural Armor			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	COST:0
+
+-1 Natural Armor			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:COMBAT|AC|-1|TYPE=NaturalArmor.STACK	COST:0
+
+Add Racial Flight (Wings)			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE				COST:0		MOVE:Fly,0		ABILITY:Special Ability|AUTOMATIC|Aerial Maneuverability
+Improve Maneuverability			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:VAR|Maneuverability|1				COST:0	
+
+Reduce Maneuverability			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:VAR|Maneuverability|-1				COST:0	
+
++5 Fly Speed			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:MOVEADD|TYPE.Fly|5|TYPE=Racial.STACK				COST:0	
+
+-5 Fly Speed			VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:MOVEADD|TYPE.Fly|5|TYPE=Racial.STACK				COST:0	
+
+
+
+
+
+
 +1 Rogue Sneak Attack	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:+1 Rogue Sneak Attack Level		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:VAR|RogueSneakAttackLVL|1		COST:0
 -1 Rogue Sneak Attack	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:-1 Rogue Sneak Attack Level		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:VAR|RogueSneakAttackLVL|-1		COST:0
 -1 Sneak Attack Die	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:-1 Sneak Attack Die		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:VAR|SneakAttackDice|-1		COST:0
@@ -372,7 +448,10 @@ Beast Claws(G)		NATURALATTACKS:Beast Claw,Claw.Weapon.Natural.Melee.Piercing.Sla
 Beast Claws(C)		NATURALATTACKS:Beast Claw,Claw.Weapon.Natural.Melee.Piercing.Slashing,*2,2d6			CATEGORY:Special Ability
 Beast Claws(C+)		NATURALATTACKS:Beast Claw,Claw.Weapon.Natural.Melee.Piercing.Slashing,*2,4d6			CATEGORY:Special Ability
 
-Slight Build			CATEGORY:Special Ability	TYPE:Race Trait.Kobold.Kobold Race Trait.Racial.Kobold Racial Trait.Racial Trait	DESC:You count as 1 size smaller when beneficial.		BENEFIT:The physical stature of kobolds lets them function in many ways as if they were one size category smaller. Whenever a kobold is subject to a size modifier or special size modifier for an opposed check (such as Hide), the kobold is treated as one size smaller if doing so is advantageous to the character. A kobold is also considered to be one size smaller when "squeezing" through a restrictive space. A kobold can use weapons designed for a creature one size smaller without penalty. However, the space and reach of a kobold remain those of a creature of their actual size. The benefits of this racial trait stack with the effects of powers, abilities, and spells that change the subject's size category.
+Slight Build			CATEGORY:Special Ability	TYPE:Race Trait.Kobold.Kobold Race Trait.Racial.Kobold Racial Trait.Racial Trait.SpecialQuality	DESC:You count as 1 size smaller when beneficial.		BENEFIT:The physical stature of kobolds lets them function in many ways as if they were one size category smaller. Whenever a kobold is subject to a size modifier or special size modifier for an opposed check (such as Hide), the kobold is treated as one size smaller if doing so is advantageous to the character. A kobold is also considered to be one size smaller when "squeezing" through a restrictive space. A kobold can use weapons designed for a creature one size smaller without penalty. However, the space and reach of a kobold remain those of a creature of their actual size. The benefits of this racial trait stack with the effects of powers, abilities, and spells that change the subject's size category.		BONUS:COMBAT|TOHIT|1|PRESIZEEQ:S		BONUS:COMBAT|TOHIT|1|PRESIZEEQ:M			BONUS:COMBAT|TOHIT|2|PRESIZEEQ:T		BONUS:COMBAT|TOHIT|4|PRESIZEEQ:D		BONUS:COMBAT|TOHIT|1|PRESIZEEQ:L	BONUS:COMBAT|TOHIT|1|PRESIZEEQ:H				BONUS:COMBAT|TOHIT|2|PRESIZEEQ:G		BONUS:COMBAT|TOHIT|4|PRESIZEEQ:C		BONUS:COMBAT|TOHIT|4|PRESIZEGT:C		BONUS:COMBAT|AC|1|PRESIZEEQ:S|TYPE=Size.STACK		BONUS:COMBAT|AC|1|PRESIZEEQ:M|TYPE=Size.STACK			BONUS:COMBAT|AC|2|PRESIZEEQ:T|TYPE=Size.STACK		BONUS:COMBAT|AC|4|PRESIZEEQ:D|TYPE=Size.STACK		BONUS:COMBAT|AC|1|PRESIZEEQ:L|TYPE=Size.STACK	BONUS:COMBAT|AC|1|PRESIZEEQ:H|TYPE=Size.STACK				BONUS:COMBAT|AC|2|PRESIZEEQ:G|TYPE=Size.STACK		BONUS:COMBAT|AC|4|PRESIZEEQ:C|TYPE=Size.STACK		BONUS:COMBAT|AC|4|PRESIZEGT:C|TYPE=Size.STACK				BONUS:SKILL|Hide|4|TYPE=Size.STACK
+
+#supplement/unearthed_arcana/ua_abilities_class.lst:Sneak Attack Fighter         KEY:Fighter ~ Sneak Attack              SORTKEY:Fighter CATEGORY:ACF            TYPE:ACF.FighterBonusFeats                                                                                    DESC:Some fighters prefer stealth and cunning over martial skill. This variant can also be combined with the thug variant described earlier in this chapter.  Gain: Sneak attack (as rogue).  Lose: Bonus feats.                                                               ABILITY:Special Ability|AUTOMATIC|Sneak Attack                                                                                                                                                                                                                                 BONUS:VAR|SneakAttackDice|FighterLVL+1/2                                                                                                                                                                                                                                       COST:0
+CATEGORY=ACF|Fighter ~ Sneak Attack.MOD		BONUS:VAR|SneakAttackDice|((FighterLVL+1)/2)-(FighterLVL+1/2)
 
 Hunter's Insight		KEY:LHunterInsight		CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality.ClassFeature	DESC:You possess significant bits of knowledge regarding the types of creatures you battle. You gain an insight bonus equal to your class level + 5 on all Knowledge checks made to identify an aberration, animal, dragon, or magical beast or its special powers or vulnerabilities. You gain the same bonus on Survival checks made to track such creatures.
 
@@ -3175,11 +3254,11 @@ Afflicted Werecat (Tiny)		TEMPLATE:Werecat			CATEGORY:Special Ability		TYPE:Spec
 Afflicted Werecat (Diminutive)		TEMPLATE:Werecat			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope		TEMPLATE:Afflicted Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Werecat Attacks|PREVARGTEQ:AnimalFormActive,1		PRESIZEEQ:D			DEFINE:HybridSizeMod|0		BONUS:VAR|HybridSizeMod|1			
 
 
-Natural Weredog (Small)			TEMPLATE:Weredog			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Werecat Attacks|PREVARGTEQ:AnimalFormActive,1	PRESIZEEQ:S			DEFINE:HybridSizeMod|0		
+Natural Weredog (Small)			TEMPLATE:Weredog			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Weredog Attacks|PREVARGTEQ:AnimalFormActive,1	PRESIZEEQ:S			DEFINE:HybridSizeMod|0		
 
-Natural Weredog (Medium)			TEMPLATE:Weredog			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Werecat Attacks|PREVARGTEQ:AnimalFormActive,1			PRESIZEEQ:M			DEFINE:HybridSizeMod|0		
+Natural Weredog (Medium)			TEMPLATE:Weredog			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Weredog Attacks|PREVARGTEQ:AnimalFormActive,1			PRESIZEEQ:M			DEFINE:HybridSizeMod|0		
 
-Natural Weredog (Tiny)			TEMPLATE:Weredog			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Werecat Attacks|PREVARGTEQ:AnimalFormActive,1			PRESIZEEQ:T			DEFINE:HybridSizeMod|0		BONUS:VAR|HybridSizeMod|1		
+Natural Weredog (Tiny)			TEMPLATE:Weredog			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Weredog Attacks|PREVARGTEQ:AnimalFormActive,1			PRESIZEEQ:T			DEFINE:HybridSizeMod|0		BONUS:VAR|HybridSizeMod|1		
 
 
 Afflicted Weredog (Tiny)		TEMPLATE:Weredog			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope		TEMPLATE:Afflicted Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Weredog Attacks|PREVARGTEQ:AnimalFormActive,1		PRESIZEEQ:T			DEFINE:HybridSizeMod|0		BONUS:VAR|HybridSizeMod|1		
@@ -3208,6 +3287,33 @@ Feats			KEY:Weredog ~ Feats				CATEGORY:Special Ability		TYPE:SpecialQuality			D
 Weredog Attacks				CATEGORY:Special Ability		TYPE:Hidden		NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Primary,*1,1d4
 
 
+
+###Eagle
+Natural WereEagle (Small)			TEMPLATE:WereEagle			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|WereEagle Attacks|PREVARGTEQ:AnimalFormActive,1	PRESIZEEQ:S			DEFINE:HybridSizeMod|0		
+
+Natural WereEagle (Medium)			TEMPLATE:WereEagle			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|WereEagle Attacks|PREVARGTEQ:AnimalFormActive,1			PRESIZEEQ:M			DEFINE:HybridSizeMod|0		
+
+Natural WereEagle (Tiny)			TEMPLATE:WereEagle			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|WereEagle Attacks|PREVARGTEQ:AnimalFormActive,1			PRESIZEEQ:T			DEFINE:HybridSizeMod|0		BONUS:VAR|HybridSizeMod|1		
+
+
+WereEagle Attacks				CATEGORY:Special Ability		TYPE:Hidden		NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Primary,*2,1d2		NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d4|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d4		
+
+
+Alternate Form	KEY:WereEagle ~ Alternate Form	CATEGORY:Special Ability	TYPE:Supernatural.RaceAbility.SpecialQuality	DESC:A WereEagle can assume a bipedal hybrid form or the form of an eagle.		
+
+
+Curse of Lycanthropy		KEY:WereEagle ~ Curse of Lycanthropy		CATEGORY:Special Ability		TYPE:Supernatural.RaceAbility.SpecialAttack		DESC:Any humanoid or giant hit by a WereEagle's bite attack in animal or hybrid form must succeed on a DC %1 Fortitude save or contract lycanthropy.|DC_Curse_of_Lycanthropy	DEFINE:DC_Curse_of_Lycanthropy|0	BONUS:VAR|DC_Curse_of_Lycanthropy|15	BONUS:VAR|DC_Curse_of_Lycanthropy|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Curse of Lycanthropy)		ABILITY:Ability Focus|AUTOMATIC|Curse of Lycanthropy 
+
+Eagle Empathy		KEY:WereEagle ~ Eagle Empathy		CATEGORY:Special Ability		TYPE:Extraordinary.RaceAbility.SpecialQuality			DESC:Communicate with eagles, and +4 racial bonus on Charisma-based checks against eagles.			SOURCEPAGE:p.172
+
+
+
+
+
+
+
+
+############FEAT FIXES
 Beast Strike			CATEGORY:FEAT		TYPE:General				SOURCEPAGE:Dragon Magazind 355, 76		DESC:Benefit: When you make an unarmed strike or grapple check to deal damage, you may add your claw or slam damage to your unarmed strike or grapple damage.    Special: A fighter may select Beast Strike as a fighter bonus feat.	PREATT:5		PREABILITY:1,CATEGORY=FEAT,Improved Unarmed Strike		PREWEAPONPROF:1,Claw,Claws,Bite
 
 Improved Natural Attack (Unarmed Strike)			CATEGORY:FEAT	TYPE:General		 BONUS:WEAPONPROF=Unarmed Strike|DAMAGESIZE|1			SERVESAS:ABILITY=FEAT|Improved Natural Attack		DESC:Improved Natural Attack for Unarmed Strike
@@ -3375,3 +3481,78 @@ CATEGORY=Special Ability|Shadow Sun Ninja ~ Monk Abilities.MOD			BONUS:VAR|MonkM
 CATEGORY=Special Ability|Warblade ~ Maneuvers Readied.MOD		ASPECT:NAME|Maneuvers Readed - %1|ManeuversReadied		
 
 CATEGORY=FEAT|Bestial Hide.MOD		BONUS:COMBAT|AC|BestialHide|TYPE=NaturalArmor.STACK
+
+
+CATEGORY=Special Ability|Order of the Bow Initiate ~ Greater Weapon Focus.MOD			QUALIFY:ABILITY=FEAT|Greater Weapon Focus		DEFINE:GreatWeaponFocusQualify|0		BONUS:VAR|GreatWeaponFocusQualify|1
+
+
+Mighty Bow			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.LivingBallistaClassFeature	KEY:Living Ballista ~ Mighty Bow	SOURCEPAGE:Matthews Homebrews	BONUS:WEAPONPROF=Longbow|WIELDCATEGORY|-1|PREABILITY:1,CATEGORY=FEAT,Monkey Grip		BONUS:WEAPONPROF=Shortbow|WIELDCATEGORY|-1|PREABILITY:1,CATEGORY=FEAT,Monkey Grip		BONUS:WEAPONPROF=Longbow|DAMAGE|STR|PREEQUIP:1,TYPE=Composite		BONUS:WEAPONPROF=Shortbow|DAMAGE|STR|PREEQUIP:1,TYPE=Composite		DESC:You can apply your Power Attack and Monkey Grip feats to bows you wield as well as to melee weapons. Further, when wielding a Large or larger composite longbow or composite shortbow has a Strength rating of at least +1, a living ballista can treat its Strength rating as equal to their own Strength bonus.		SOURCEPAGE:Matthew's Homebrews
+
+Overdraw			CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary.LivingBallistaClassFeature	KEY:Living Ballista ~ Overdraw	SOURCEPAGE:Matthews Homebrews			DESC:When wielding a Large or larger composite longbow or composite shortbow has a Strength rating of at least +1, a living ballista can overdraw with it as a standard action, making a single attack that deals an additional +1d8 damage per two class levels, This additional damage is due to additional force, not precision. While this damage can be applied to targets more than 30 feet away, the arrow does lose momentum over distance; for each full range increment the arrow covers, the attack loses 1d8 of its additional damage. 		ASPECT:NAME|Overdraw +%1d8|OverDrawDice				DEFINE:OverDrawDice|0		BONUS:VAR|OverDrawDice|LivingBallistaLVL/2
+
+
+
+Far Shot						CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.LivingBallistaClassFeature	KEY:Living Ballista ~ Far Shot	SOURCEPAGE:Matthews Homebrews			DESC:Every third level, a living balllista’s far shot feat improves, increasing the weapon’s original range increment by 50%%. So at 3rd level, the weapon’s range is doubled rather than multiplied by 1½. At 6th level, it is multiplied by 2½, and at 9th level it is tripled. 			DEFINE:FarShotBonus|0			BONUS:VAR|FarShotBonus|(LivingBallistaLVL/3)*50			BONUS:RANGEMULT|PROJECTILE|FarShotBonus
+
+Siege Arrow						CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary.LivingBallistaClassFeature	KEY:Living Ballista ~ Siege Arrow	SOURCEPAGE:Matthews Homebrews			DESC:Starting at 7th level, a living ballista’s overdraw attacks ignore the hardness of any objects they hit. An overdraw that destroys cover it hits (see the optional rules for hitting cover) can still hit a target beyond that cover. An overwhelming shot that deals enough damage to destroy a barrier can continue to extend its line (or cone; see below) beyond that barrier. 
+
+Overwhelming Shot			CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary.AbilityFocus.LivingBallistaClassFeature	KEY:Living Ballista ~ Overwhelming Shot		SOURCEPAGE:Matthews Homebrews			DESC:Starting 5th level, whenever a living ballista overdraws, they can make an overwhelming shott. This changes the attack from a ranged attack to a line effect, 5 feet wide and extending from the living ballista’s reach to a length of one range increment, stopping if it hits a wall or other barrier. Each creature within the line must make a Reflex save (DC 10 + class level + Strength modifier minus Power Attack modifier), taking the weapon’s damage on a failure as if they had been hit by the arrow. On a success, they take no damage, as if the arrow had missed them.				ASPECT:NAME|Overwhelming Shot (Reflex DC %1)|LivingBallistaLVL+10+STR			
+
+
+Overdraw And Manyshot	CATEGORY:Special Ability		TYPE:SpecialAttack.Extraordinary.LivingBallistaClassFeature			KEY:Living Ballista ~ Overdraw and Manyshot	SOURCEPAGE:Matthews Homebrews				DESC:The Manyshot feat requires some special consideration here, as it permits a character to fire multiple arrows as a single standard action, permitting a living ballista to combine overdraw with multiple arrows. While manyshot limits precision-based damage to a single arrow, overdraw is not precision-based. This has other complications and effects when combined with manyshot.   Overdraw increases damage by firing the arrow with additional force. No matter how many arrows are fired, the same amount of force is imparted, but it is divided evenly among the arrows fired. The additional dice of overdraw damage are distributed evenly among the arrows fired, to a minimum of +1d8 per arrow. As an added advantage, the living ballista’s range multiplier for far shot is also applied to the range at which manyshot can be aimed.     When manyshot is applied to overwhelming shot, the living ballista must expend at least six arrows, ignoring the normal limits for manyshot. The resulting attack deals no extra damage and the range is halved compared to a normal overwhelming shot, but it is changed from a line to a cone. If these arrows have variable effects, then roll 1d6 to determine which individual effects the overwhelming shot has on a given target. 
+
+Upsetting shot		CATEGORY:Special Ability		TYPE:SpecialAttack.Extraordinary.LivingBallistaClassFeature			KEY:Living Ballista ~ Upsetting Shot																		DESC:Starting at 10th level, whenever a living ballista uses overdraw to damage a creature with a size category smaller than that of the living ballista’s bow and also uses power attack with that attack, they can make a special trip attempt against that target as a free action. On a failure, the target may not attempt to trip the living ballista.
+
+
+
+Living Ballista and Magic Weapons	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.LivingBallistaClassFeature	KEY:Living Ballista ~ Living Ballista and Magic Weapons	SOURCEPAGE:Matthews Homebrews			DESC:The Manyshot feat requires some special consideration here, as it permits a character to fire multiple arrows as a single standard action, permitting a living ballista to combine overdraw with multiple arrows. While manyshot limits precision-based damage to a single arrow, overdraw is not precision-based. This has other complications and effects when combined with manyshot.   Overdraw increases damage by firing the arrow with additional force. No matter how many arrows are fired, the same amount of force is imparted, but it is divided evenly among the arrows fired. The additional dice of overdraw damage are distributed evenly among the arrows fired, to a minimum of +1d8 per arrow. As an added advantage, the living ballista’s range multiplier for far shot is also applied to the range at which manyshot can be aimed.     When manyshot is applied to overwhelming shot, the living ballista must expend at least six arrows, ignoring the normal limits for manyshot. The resulting attack deals no extra damage and the range is halved compared to a normal overwhelming shot, but it is changed from a line to a cone. If these arrows have variable effects, then roll 1d6 to determine which individual effects the overwhelming shot has on a given target. 
+
+
+CATEGORY=FEAT|Manyshot.MOD			BENEFIT: As a standard action, you may fire two arrows at a single opponent within 30 feet. Both arrows use the same attack roll (with a -4 penalty) to determine success and deal damage normally (but see Special).    For every five points of base attack bonus you have above +6, you may add one additional arrow to this attack, to a maximum of four arrows at a base attack bonus of +16. However, each arrow after the second adds a cumulative -2 penalty on the attack roll (for a total penalty of -6 for three arrows and -8 for four).    Damage reduction and other resistances apply separately against each arrow fired.    Special: Regardless of the number of arrows you fire, you apply precision-based damage only once. If you score a critical hit, only the first arrow fired deals critical damage; all others deal regular damage. 
+
+CATEGORY=FEAT|Greater Manyshot.MOD						BENEFIT:When you use the Manyshot feat, you can fire each arrow at a different target instead of firing all of them at the same target. You make a separate attack roll for each arrow, regardless of whether you fire them at separate targets or the same target. Your precision-based damage applies to each arrow fired, and, if you score a critical hit with more than one of the arrows, each critical hit deals critical damage.
+CATEGORY=FEAT|Lightning Mace.COPY=Lightning Bladed Gauntlet
+CATEGORY=FEAT|Lightning Bladed Gauntlet.MOD			DESC:Formerly "Lightning Mace" This feat has been reoriented from Light Maces to Bladed Gauntlets via the Warblade "Aptitude" ability.
+CATEGORY=FEAT|Snap Kick.COPY=Snap Bladed Gauntlet Attack
+CATEGORY=FEAT|Snap Bladed Gauntlet Attack.MOD			DESC:Formerly "Snap Kick" This feat has been reoriented from Unarmed Strike to Bladed Gauntlets via the Warblade "Aptitude" ability.
+
+Improved Natural Attack (Bladed Gauntlet)			CATEGORY:FEAT	TYPE:General			DESC:Formerly "Improved Natural Attack (Unarmed Strike)" This feat has been reoriented from Unarmed Strike to Bladed Gauntlets via the Warblade "Aptitude" ability.		BENEFIT:The Chosen Weapon's Damage increases by one size category		BONUS:WEAPONPROF=Gauntlet (Bladed)|DAMAGESIZE|1			SOURCEPAGE:p.304	PRETOTALAB:4
+
+
+Natural Healing			KEY:Ironmonger ~ Natural Healing		CATEGORY:Special Ability		TYPE:SpecialQuality.Extraordinary.IronmongerClassFeature			DESC:Unlike other Constructs and Living Constructs you heal at a natural rate.  Additionaly, standard healing magic and resurrection magic work for you as they would a Humanoid.  The Heal skill does not work for you, and must be replaced with an appropriate Craft skill (generally metalworking, blacksmithing, armorsmithing or weaponsmithing).
+Extra HP				CATEGORY:Special Ability		TYPE:SpecialQuality.Extraordinary.IronmongerClassFeature			DESC:Gain an HP bonus based on size.		BONUS:HP|CURRENTMAX|10|PRESIZEEQ:S		BONUS:HP|CURRENTMAX|20|PRESIZEEQ:M			BONUS:HP|CURRENTMAX|30|PRESIZEEQ:L			BONUS:HP|CURRENTMAX|40|PRESIZEEQ:H			BONUS:HP|CURRENTMAX|60|PRESIZEEQ:G			BONUS:HP|CURRENTMAX|80|PRESIZEGTEQ:C		
+
+
+Device Lore			KEY:Ironmonger ~ Device Lore		CATEGORY:Special Ability		TYPE:SpecialQuality.Extraordinary.IronmongerClassFeature			DESC: An Ironmonger can find traps made mostly of metal just as a rogue can. Furthermore, he gains a +2 competency bonus on Disable Device checks against devices made mostly of metal.
+
+
+Iron Hews			KEY:Ironmonger ~ Iron Hews		CATEGORY:Special Ability		TYPE:SpecialAttack.Supernatural.IronmongerClassFeature			DESC:Once per day per point of Constitution bonus, a 2nd-level Ironmonger may add a +3 divine bonus on damage from attacks made that round.
+
+Rusting Grasp			KEY:Ironmonger ~ Rusting Grasp		CATEGORY:Special Ability		TYPE:SpecialAttack.SpellLike.IronmongerClassFeature			DESC:Once per day, a 3rd-level Ironmonger can produce an effect identical to that of the rusting grasp spell cast by a 15th-level caster.			SPELLS:Innate|TIMES=1|CASTERLEVEL=15|Rusting Grasp,14+CON
+
+Animate Metal		KEY:Ironmonger ~ Animate Metal			CATEGORY:Special Ability		TYPE:SpecialAttack.Supernatural.IronmongerClassFeature			DESC:A 5th-level Ironmonger animate metal objects as the Animate Object as cast by a 15th-level spellcaster.  This ability can only target metal objects.  Unlike the standard Animate Objects spell, the Ironmonger can direct the animated objects to engage in non-combat activities.  This is a purely mental command, but the animated object must be within 30’.  This is a Supernatural ability.  While this means that it cannot be simply dispelled, it also means that the effect may not be rendered permanent via the Permanency spell.    This ability is usable 1/day.			SPELLS:Innate|TIMES=1|CASTERLEVEL=15|Rusting Grasp,16+CON
+
+Greater Iron Hews			KEY:Ironmonger ~ Greater Iron Hews		CATEGORY:Special Ability		TYPE:SpecialAttack.Supernatural.IronmongerClassFeature			DESC:Once per day per point of Constitution bonus, a 2nd-level Ironmonger may add a +6 divine bonus on damage from attacks made that round.  This does not Stack with Iron Hews, and these abilities are spearate and have separate pools of users-per-day.
+
+Iron Power			KEY:Ironmonger ~ Iron Power		CATEGORY:Special Ability		TYPE:SpecialAttack.Extraordinary.IronmongerClassFeature			DESC:When using an iron or steel weapon, a 4th-level Ironmonger gains a +1 insight bonus on attack and damage rolls. Furthermore, his threat range is doubled as if he were using a keen weapon. At 8th level, the insight bonus improves to +2, and the threat range triples. This ability does not stack with the keen weapon quality, but it does stack with the Improved Critical feat.  See Temporary bonuses				ABILITY:Special Ability|AUTOMATIC|Iron Power Melee (Non-Keen Weapon)				ABILITY:Special Ability|AUTOMATIC|Iron Power Melee (Keen Weapon)	ABILITY:Special Ability|AUTOMATIC|Iron Power Ranged (Non-Keen Weapon)			ABILITY:Special Ability|AUTOMATIC|Iron Power Ranged (Keen Weapon)		ABILITY:Special Ability|AUTOMATIC|Iron Power Thrown (Non-Keen Weapon)				ABILITY:Special Ability|AUTOMATIC|Iron Power Thrown (Keen Weapon)		ASPECT:NAME|Iron Power +%1|IronPowerBonus
+
+Iron Power Melee (Non-Keen Weapon)				CATEGORY:Special Ability		TYPE:Hidden				TEMPBONUS:PC|WEAPONPROF=TYPE.Melee|CRITRANGEDOUBLE,TOHIT,DAMAGE|IronPowerBonus|TYPE=IronMonger			
+
+Iron Power Melee (Keen Weapon)				CATEGORY:Special Ability		TYPE:Hidden				TEMPBONUS:PC|WEAPONPROF=TYPE.Melee|TOHIT,DAMAGE|IronPowerBonus|TYPE=IronMonger			TEMPBONUS:PC|WEAPONPROF=TYPE.Melee|CRITRANGEDOUBLE|IronPowerBonus-1|TYPE=IronMonger			
+
+Iron Power Ranged (Non-Keen Weapon)				CATEGORY:Special Ability		TYPE:Hidden				TEMPBONUS:PC|WEAPONPROF=TYPE.Ranged|CRITRANGEDOUBLE,TOHIT,DAMAGE|IronPowerBonus|TYPE=IronMonger			
+
+Iron Power Ranged (Keen Weapon)				CATEGORY:Special Ability		TYPE:Hidden				TEMPBONUS:PC|WEAPONPROF=TYPE.Ranged|TOHIT,DAMAGE|IronPowerBonus|TYPE=IronMonger					TEMPBONUS:PC|WEAPONPROF=TYPE.Ranged|CRITRANGEDOUBLE|IronPowerBonus-1|TYPE=IronMonger			
+Iron Power Thrown (Non-Keen Weapon)				CATEGORY:Special Ability		TYPE:Hidden				TEMPBONUS:PC|WEAPONPROF=TYPE.Thrown|CRITRANGEDOUBLE,TOHIT,DAMAGE|IronPowerBonus|TYPE=IronMonger			
+
+Iron Power Thrown (Keen Weapon)				CATEGORY:Special Ability		TYPE:Hidden				TEMPBONUS:PC|WEAPONPROF=TYPE.Thrown|TOHIT,DAMAGE|IronPowerBonus|TYPE=IronMonger					TEMPBONUS:PC|WEAPONPROF=TYPE.Thrown|CRITRANGEDOUBLE|IronPowerBonus-1|TYPE=IronMonger			
+
+Ironskin			KEY:Ironmonger ~ Ironskin		CATEGORY:Special Ability		TYPE:SpecialQuality.SpellLike.IronmongerClassFeature			DESC:Once per day, a 7th-level Ironmonger can produce an effect identical to that of the stoneskin spell cast by a 15th-level caster upon himself only.			SPELLS:Innate|TIMES=1|CASTERLEVEL=15|Stoneskin,14+CON			
+
+Living Golem			KEY:Ironmonger ~ Living Golem	CATEGORY:Special Ability		TYPE:SpecialQuality.Extraordinary.IronmongerClassFeature			DESC:Upon reaching 10th level, and Ironmonger undergoes a mystical transformation, taking on many of the aspects of the metal he reveres.			TEMPLATE:Ironmonger Transformation			BONUS:WEAPONPROF=Slam|TOHIT,DAMAGE,CRITRANGEDOUBLE|IronPowerBonus|TYPE=IronMonger	
+
+
+
+
+Metallic Assistant			KEY:Ironmonger ~ Metallic Assistant		CATEGORY:Special Ability		TYPE:SpecialQuality.Supernatural.IronmongerClassFeature			DESC:The durationof Animate Metal is now 24 hours
+

@@ -63,6 +63,11 @@ Ruined Third Eye Graft			TYPE:Graft.Beholder.Beholder Graft.Magic	COST:5500	SPRO
 
 Boots of Striding and Springing.MOD			BONUS:MOVEADD|TYPE.Walk|10|TYPE=Enhancement
 
+Tongue Studs of Hell Breath.COPY=Tongue Studs of Cleansing Fire
+
+Tongue Studs of Cleansing Fire.MOD	ABILITY:Special Ability|AUTOMATIC|Tongue Studs of Cleansing Fire ~ Breath Weapon		DESC:.CLEAR	DESC:Custom Magic Item (reskinned Tongue Studs of Hell Breath) Breath Weapon - 3/Day 50' line of cleansing fire (3d6 Holy Damage, not fire.  No save)
+
+Tongue Studs of Hell Breath.MOD				ABILITY:Special Ability|AUTOMATIC|Tongue Studs of Hell Breath ~ Breath Weapon
 
 #These slippers imbue the wearer with a shocking grace and a deadly fluidity in battle. Description: These soft, open-toed slippers are made of supple leather and look very comfortable.
 #Activation: This item is continuously active while worn, provided that the wearer’s armor is no heavier than light. No action on the wearer’s part is required to gain the effect.
@@ -173,7 +178,7 @@ Artisan's Tools (Alchemy/Masterwork)			TYPE:Goods.Tools.Artisan.AlchemyTools.Mas
 
 
 
-Hank's Energy Bow			TYPE:Magic.Longbow.Unique.Weapon.Container.Martial.Ranged.Martial Ranged.Standard.Piercing.Container.Projectile.Bow.Longbow.Composite	EQMOD:BOWSTR|+20.PLUS2W.WOOD	COST:10300	WT:3		SPROP:Adjusts to user strength.  +2 Weapon.  Does not require Ammunition - fires arrows of pure force.  You may subtract apply a penalty to hit to gain a bonus to damage, as if using Power Attack with a melee weapon.			SIZE:M		DAMAGE:2d6					SOURCEPAGE:WOTC Web		CONTAINS:UNLIM|Weapon Crystal=1				PROFICIENCY:WEAPON|Longbow				CONTAINS:UNLIM|Arrow|SpecificArrow			CRITMULT:x3					CRITRANGE:1			SLOTS:2			WIELD:TwoHanded			DEFINE:LongbowCompositeDamage|0			BONUS:WEAPON|DAMAGE|LongbowCompositeDamage	RANGE:110
+Hank's Energy Bow			TYPE:Magic.Longbow.Unique.Weapon.Container.Martial.Ranged.Martial Ranged.Standard.Piercing.Container.Projectile.Bow.Longbow.Composite	EQMOD:BOWSTR|+20.PLUS2W.WOOD	COST:10300	WT:3		SPROP:Adjusts to user strength.  +2 Weapon.  Does not require Ammunition - fires arrows of pure force.  You may subtract apply a penalty to hit to gain a bonus to damage, as if using Power Attack with a melee weapon.			SIZE:M		DAMAGE:2d6					SOURCEPAGE:WOTC Web		CONTAINS:UNLIM|Weapon Crystal=1				PROFICIENCY:WEAPON|Longbow				CONTAINS:UNLIM|Arrow|SpecificArrow			CRITMULT:x3					CRITRANGE:1			SLOTS:1			WIELD:TwoHanded			DEFINE:LongbowCompositeDamage|0			BONUS:WEAPON|DAMAGE|LongbowCompositeDamage	RANGE:110
 
 Artisan's Tools (Poisonmaking)			TYPE:Goods.Tools.Artisan.AlchemyTools	COST:5		WT:5		SOURCEPAGE:p.129		BONUS:SKILL|Craft (Poisonmaking)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
 
@@ -201,10 +206,23 @@ Scalpel Of Beholder Graft Creation				TYPE:Magic.Wondrous	SPROP:Grants the user 
 
 Tome Of Familiar Summoning				TYPE:Magic.Wondrous	SPROP:Grants the user the Obtain Familiar feat			ABILITY:FEAT|VIRTUAL|Obtain Familiar		WT:0		COST:10000		SOURCEPAGE:AEG Feat Granting Items
 
+#supplement/magic_item_compendium/mic_equip.lst:Mask of Blood                                                    TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Face.Facewear               COST:3300       WT:1                                                                  SOURCELONG:Magic Item Compendium SOURCESHORT:MIC         SOURCEPAGE:115
+Mask of Dragon Breath (Line of Fire)					TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Face.Facewear.Custom			DESC:3/day use a breath Weapon as a 6th Level Sorcerer(including bonus for Sorcerer vs Wizard) per the Dragon Breath Spell (See Spell Compendium).  After using this breath weapon, you may not use it again for 1d4+1 rounds.    After using this breath weapon, you may not use it again for 1d4+1 rounds.  		ABILITY:Special Ability|AUTOMATIC|Mask Of Dragon Breath Fire Line ~ Breath Weapon		COST:7200
+
+Mask of Dragon Breath (Line of Acid)					TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Face.Facewear.Custom			DESC:3/day use a breath Weapon as a 6th Level Sorcerer(including bonus for Sorcerer vs Wizard) per the Dragon Breath Spell (See Spell Compendium).  After using this breath weapon, you may not use it again for 1d4+1 rounds.  		ABILITY:Special Ability|AUTOMATIC|Mask Of Dragon Breath Acid Line ~ Breath Weapon		COST:7200
+
+Mask of Dragon Breath (Line of Electricity)					TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Face.Facewear.Custom			DESC:3/day use a breath Weapon as a 6th Level Sorcerer(including bonus for Sorcerer vs Wizard) per the Dragon Breath Spell (See Spell Compendium).  After using this breath weapon, you may not use it again for 1d4+1 rounds.  		ABILITY:Special Ability|AUTOMATIC|Mask Of Dragon Breath Acid Line ~ Breath Weapon		COST:7200
 
 
+Mask of Dragon Breath (Cone of Acid)					TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Face.Facewear.Custom			DESC:3/day use a breath Weapon as a 6th Level Sorcerer(including bonus for Sorcerer vs Wizard) per the Dragon Breath Spell (See Spell Compendium).  After using this breath weapon, you may not use it again for 1d4+1 rounds.  		ABILITY:Special Ability|AUTOMATIC|Mask Of Dragon Breath Acid Cone ~ Breath Weapon		COST:7200
 
-Battle Dancer's Anklet			KEY: Ankletlet Battle Dancer		TYPE:Magic.Wondrous.Anklet.BodySlot_Ankle	ABILITY:Internal|AUTOMATIC|Monk ~ Unarmed Damage		BONUS:COMBAT|AC|max(CHA,0)+1|TYPE=Deflection.STACK			BONUS:VAR|MonkUnarmedDamageLVL|5		SPROP:These decorative anklets grant you the unarmed damage and AC bonus of a 5 level Battle Dancer.  If you already possess one or more of these abilities they are increased by 5 levels.		BONUS:COMBAT|AC|min(0,-CHA)|PREABILITY:1,CATEGORY=Special Ability,Battle Dancer ~ AC Bonus		COST:13000
+Mask of Dragon Breath (Cone of Cold)					TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Face.Facewear.Custom			DESC:3/day use a breath Weapon as a 6th Level Sorcerer(including bonus for Sorcerer vs Wizard) per the Dragon Breath Spell (See Spell Compendium).  After using this breath weapon, you may not use it again for 1d4+1 rounds.  		ABILITY:Special Ability|AUTOMATIC|Mask Of Dragon Breath Cold Cone ~ Breath Weapon		COST:7200
+
+
+Mask of Dragon Breath (Cone of Fire)					TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Face.Facewear.Custom			DESC:3/day use a breath Weapon as a 6th Level Sorcerer(including bonus for Sorcerer vs Wizard) per the Dragon Breath Spell (See Spell Compendium).  After using this breath weapon, you may not use it again for 1d4+1 rounds.  		ABILITY:Special Ability|AUTOMATIC|Mask Of Dragon Breath Fire Cone ~ Breath Weapon		COST:7200
+
+
+Battle Dancer's Anklet			KEY:Anklet of the Battle Dancer		TYPE:Magic.Wondrous.Anklet.BodySlot_Ankle	ABILITY:Internal|AUTOMATIC|Monk ~ Unarmed Damage		BONUS:COMBAT|AC|max(CHA,0)+1|TYPE=Deflection.STACK			BONUS:VAR|MonkUnarmedDamageLVL|5		SPROP:These decorative anklets grant you the unarmed damage and AC bonus of a 5 level Battle Dancer.  If you already possess one or more of these abilities they are increased by 5 levels.		BONUS:COMBAT|AC|min(0,-CHA)|PREABILITY:1,CATEGORY=Special Ability,Battle Dancer ~ AC Bonus		COST:13000
 
 Monk's Belt, Battle Dancer		KEY:Belt (Monk's ~ Battle Dancer)			DESC:Monks belt implemented to work with Battle dancer.  Monk AC and unarmed damage level +5		BONUS:COMBAT|AC|WIS|TYPE=Deflection.STACK		BONUS:VAR|MonkACLVL|5		BONUS:VAR|MonkUnarmedDamageLVL|5		WT:1		COST:13000		TYPE:Magic.Wondrous.Belt
 
@@ -227,3 +245,4 @@ Glove of Mighty Wallop																															TYPE:Magic.Wondrous.Glove.G
 
 
 
+Bracers of Archery (Lesser).MOD				AUTO:WEAPONPROF|Longbow		AUTO:WEAPONPROF|Shortbow		AUTO:WEAPONPROF|Greatbow

@@ -426,3 +426,49 @@ CLASS:Master of Many Forms.MOD
 
 
 CLASS:Fleshwarper.MOD					PREABILITY:1,CATEGORY=FEAT,TYPE=GraftFlesh			
+
+
+
+CLASS:Order of the Bow Initiate.MOD
+4	ABILITY:Special Ability|AUTOMATIC|Order of the Bow Initiate ~ Greater Weapon Focus
+
+
+
+
+
+
+
+
+
+CLASS:Living Ballista		PREATT:5		PRESKILL:1,Craft(Bowmaking)=2		PREABILITY:1,CATEGORY=FEAT,Far Shot,Power Attack			PREMULT:1,[PRESIZEGTEQ:L],[PREABILITY:1,CATEGORY=FEAT,Monkey Grip],[PREABILITY:1,CATEGORY=Special Ability,Powerful Build ~ Half-Giant,Feral Gargun ~ Powerful Build,Goliath ~ Powerful Build]
+CLASS:Living Ballista	HD:810	TYPE:PC.Prestige	FACT:ClassType|Prestige	FACT:Abb|LBa		SOURCEPAGE:Matthews Homebrews	STARTSKILLPTS:2		CSKILL:Appraise|Climb|Concentration|TYPE.Craft|Intimidate|Jump|Knowledge (Local)|Knowledge (Nobility and Royalty)|Listen|Perform (Weapon Drill)|TYPE.Profession|Ride|Search|Spot|Survival|Swim|Use Rope
+
+CLASS:Living Ballista	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3		ROLE:Combat			DEFINE:LivingBallistaLVL|0		BONUS:VAR|LivingBallistaLVL|CL
+1	ABILITY:Living Ballista Class Features|AUTOMATIC|Living Ballista ~ Mighty Bow
+2	ABILITY:Living Ballista Class Features|AUTOMATIC|Living Ballista ~ Overdraw
+3	ABILITY:Living Ballista Class Features|AUTOMATIC|Living Ballista ~ Far Shot
+5	ABILITY:Living Ballista Class Features|AUTOMATIC|Living Ballista ~ Overwhelming Shot
+7	ABILITY:Living Ballista Class Features|AUTOMATIC|Living Ballista ~ Siege Arrow
+#10	ABILITY:Living Ballista Class Features|AUTOMATIC|Living Ballista ~ Upsetting Shot
+
+
+
+
+
+
+CLASS:Ironmonger		PREATT:6				PRESKILL:3,Craft (Metalworking)=5,Craft (Blacksmithing)=5,Craft (Weaponsmithing)=5		PREABILITY:2,CATEGORY=FEAT,Iron Will,Power Attack
+CLASS:Ironmonger	HD:10	TYPE:PC.Prestige	FACT:ClassType|Prestige	FACT:Abb|Imo		SOURCEPAGE:Jonnys Homebrews		STARTSKILLPTS:4		CSKILL:Balance|Climb|TYPE.Craft|Disable Device|Disguise|Escape Artist|Hide|Intimidate|Jump|Knowledge (Religion)|Listen|Move Silently|TYPE.Profession|Ride|Search|Spot
+CLASS:Ironmonger	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude,BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2			ROLE:Combat
+CLASS:Ironmonger	BONUS:VAR|ClassBABFull|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1
+1	ABILITY:Ironmonger Class Features|AUTOMATIC|Ironmonger ~ Device Lore
+2	ABILITY:Ironmonger Class Features|AUTOMATIC|Ironmonger ~ Iron Hews
+3	ABILITY:Ironmonger Class Features|AUTOMATIC|Ironmonger ~ Rusting Grasp	
+4	DEFINE:Ironmonger Class Features|0		BONUS:VAR|IronPowerBonus|1		ABILITY:Special Ability|AUTOMATIC|Ironmonger ~ Iron Power	
+5	ABILITY:Ironmonger Class Features|AUTOMATIC|Ironmonger ~ Animate Metal
+6	ABILITY:Ironmonger Class Features|AUTOMATIC|Ironmonger ~ Greater Iron Hews
+7	ABILITY:Ironmonger Class Features|AUTOMATIC|Ironmonger ~ Ironskin
+8	BONUS:VAR|IronPowerBonus|1	
+9	ABILITY:Ironmonger Class Features|AUTOMATIC|Ironmonger ~ Metallic Assistant
+10	ABILITY:Ironmonger Class Features|AUTOMATIC|Ironmonger ~ Living Golem
+
+

@@ -1,0 +1,226 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Bobo
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:16
+STAT:DEX|SCORE:21
+STAT:CON|SCORE:18
+STAT:INT|SCORE:16
+STAT:WIS|SCORE:18
+STAT:CHA|SCORE:16
+ALIGN:CG
+RACE:Githzerai
+
+# Character Class(es)
+CLASS:Fighter|LEVEL:5|SKILLPOOL:12|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Order of the Bow Initiate|LEVEL:7|SKILLPOOL:21|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:10|SKILLSGAINED:16|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:2
+CLASSABILITIESLEVEL:Fighter=3|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:2
+CLASSABILITIESLEVEL:Fighter=4|HITPOINTS:10|PRESTAT:DEX=1|SKILLSGAINED:4|SKILLSREMAINING:2
+CLASSABILITIESLEVEL:Fighter=5|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:2
+CLASSABILITIESLEVEL:Order of the Bow Initiate=1|HITPOINTS:8|SKILLSGAINED:4|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Order of the Bow Initiate=2|HITPOINTS:8|SKILLSGAINED:4|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Order of the Bow Initiate=3|HITPOINTS:8|PRESTAT:DEX=1|SKILLSGAINED:4|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Order of the Bow Initiate=4|HITPOINTS:8|SKILLSGAINED:4|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Order of the Bow Initiate=5|HITPOINTS:8|SKILLSGAINED:4|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Order of the Bow Initiate=6|HITPOINTS:8|SKILLSGAINED:4|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Order of the Bow Initiate=7|HITPOINTS:8|PRESTAT:DEX=1|SKILLSGAINED:4|SKILLSREMAINING:3
+
+# Character Experience
+EXPERIENCE:66000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Fighter]
+TEMPLATESAPPLIED:[NAME:First Level ~ Fighter|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Unseelie Fey]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
+TEMPLATESAPPLIED:[NAME:Dark Creature]
+TEMPLATESAPPLIED:[NAME:DarkCollar]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Bowmaking)|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Fighter|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:8|
+SKILL:Diplomacy|OUTPUTORDER:9|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:10|
+SKILL:Disguise|OUTPUTORDER:11|
+SKILL:Escape Artist|OUTPUTORDER:12|
+SKILL:Forgery|OUTPUTORDER:13|
+SKILL:Gather Information|OUTPUTORDER:14|
+SKILL:Heal|OUTPUTORDER:15|
+SKILL:Hide|OUTPUTORDER:16|CLASSBOUGHT:[CLASS:Fighter|RANKS:8.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Order of the Bow Initiate|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Hide (Forested Areas)|OUTPUTORDER:17|
+SKILL:Intimidate|OUTPUTORDER:18|
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:19|
+SKILL:Jump|OUTPUTORDER:20|
+SKILL:Knowledge (Religion)|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:2|CLASSSKILL:N]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:22|
+SKILL:Listen|OUTPUTORDER:23|
+SKILL:Literacy|OUTPUTORDER:24|
+SKILL:Move Silently|OUTPUTORDER:25|
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:26|
+SKILL:Ride|OUTPUTORDER:27|
+SKILL:Search|OUTPUTORDER:28|
+SKILL:Sense Motive|OUTPUTORDER:29|
+SKILL:Spot|OUTPUTORDER:30|
+SKILL:Survival|OUTPUTORDER:31|
+SKILL:Swim|OUTPUTORDER:32|
+SKILL:Use Rope|OUTPUTORDER:33|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Githzerai|LANGUAGE:Undercommon
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Undercommon,Common|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Undercommon,Common|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Fighter ~ Sneak Attack|TYPE:ACF.FighterBonusFeats|DESC:Some fighters prefer stealth and cunning over martial skill. This variant can also be combined with the thug variant described earlier in this chapter.  Gain&colon; Sneak attack (as rogue).  Lose&colon; Bonus feats.
+USERPOOL:Alternate Class Feature|POOLPOINTS:0.0
+ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
+USERPOOL:ECL Buy Down|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Ancestral Relic|TYPE:General|DESC:You own an ancestral heirloom and can invest it with increasing power.|DESC:3rd 1,350 gp&pipe;PREPCLEVEL&colon;MIN=3,MAX=3|DESC:12th 44,000 gp&pipe;PREPCLEVEL&colon;MIN=12,MAX=12|DESC:4th 2,700 gp&pipe;PREPCLEVEL&colon;MIN=4,MAX=4|DESC:13th 55,000 gp&pipe;PREPCLEVEL&colon;MIN=13,MAX=13|DESC:5th 4,500 gp&pipe;PREPCLEVEL&colon;MIN=5,MAX=5|DESC:14th 75,000 gp&pipe;PREPCLEVEL&colon;MIN=14,MAX=14|DESC:6th 6,500 gp&pipe;PREPCLEVEL&colon;MIN=6,MAX=6|DESC:15th 100,000 gp&pipe;PREPCLEVEL&colon;MIN=15,MAX=15|DESC:7th 9,500 gp&pipe;PREPCLEVEL&colon;MIN=7,MAX=7|DESC:16th 130,000 gp&pipe;PREPCLEVEL&colon;MIN=16,MAX=16|DESC:8th 13,500 gp&pipe;PREPCLEVEL&colon;MIN=8,MAX=8|DESC:17th 170,000 gp&pipe;PREPCLEVEL&colon;MIN=17,MAX=17|DESC:9th 18,000 gp&pipe;PREPCLEVEL&colon;MIN=9,MAX=9|DESC:18th 220,000 gp&pipe;PREPCLEVEL&colon;MIN=18,MAX=18|DESC:10th 24,500 gp&pipe;PREPCLEVEL&colon;MIN=10,MAX=10|DESC:19th 290,000 gp&pipe;PREPCLEVEL&colon;MIN=19,MAX=19|DESC:11th 33,000 gp&pipe;PREPCLEVEL&colon;MIN=11,MAX=11|DESC:20th 380,000 gp&pipe;PREPCLEVEL&colon;MIN=20,MAX=20
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Cosmopolitan|APPLIEDTO:Hide|TYPE:|DESC:Chosen skill is now a class skill
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Darkstalker|TYPE:General|DESC:When you hide, creatures with blindsense, blindsight, scent, or tremorsense mustmake a Listen check or a Spot check (whichever DC is higher) to notice you, just as sighted creatures would makeSpot checks to detect you. You cannot hide in plain sight unless you have that ability as a class feature. In addition, you can fl ank creatures that have the all-around vision special quality.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Point Blank Shot|TYPE:General.Fighter.AttackOption.ChampionOfTheWildArchery.ViolentKnowledge|DESC:You are skilled at making well-placed shots with ranged weapons at close range.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Precise Shot|TYPE:General.Fighter.AttackOption.ChampionOfTheWildArchery.ViolentKnowledge|DESC:You are skilled at timing and aiming ranged attacks.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Rapid Shot|TYPE:General.Fighter.AttackOption.ViolentKnowledge|DESC:You can use ranged weapons with exceptional speed.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Longbow|TYPE:General.Fighter.Dragonrider.DivineChampion.ShadowThief.ViolentKnowledge|DESC:You are especially good at using this specified weapon.&pipe;!PRERULE&colon;1,DisplayFullFeat|DESC:Choose one type of weapon, such as greataxe. You can also choose unarmed strike or grapple (or ray, if you are a spellcaster) as your weapon for purposes of this feat. You are especially good at using this weapon. (If you have chosen ray, you are especially good with rays, such as the one produced by the ray of frost spell.)&pipe;PRERULE&colon;1,DisplayFullFeat
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Noncombatant|TYPE:Flaws.SpecialQuality|DESC:You are relatively inept at melee combat.
+USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Rule - Use ECL Level Buy Down|TYPE:MiscOptions
+USERPOOL:Misc Options|POOLPOINTS:0.0
+ABILITY:Order of the Bow Initiate Greater Weapon Focus|TYPE:NORMAL|CATEGORY:FEAT|KEY:Greater Weapon Focus|APPLIEDTO:Longbow|TYPE:General.Fighter|DESC:Choose one type of weapon, such as greataxe, for which you have already selected Weapon Focus. You can also choose unarmed strike or grapple as your weapon for purposes of this feat. You are especially good at using this weapon.
+USERPOOL:Order of the Bow Initiate Greater Weapon Focus|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Region ~ None|TYPE:Region
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Unseelie Fey Seasonal Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Autumn Harvest|TYPE:Supernatural.Unseelie Fey Seasonal Power.SpecialQuality|DESC: A number of times a day equal to your Charisma bonus (minimum 1) you can touch a creature with a special dispelling touch, which functions as a targeted Dispel Magic with caster level equal to your total HD.
+USERPOOL:Unseelie Fey Seasonal Power|POOLPOINTS:0.0
+ABILITY:Unseelie Fey Vision|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Darkvision Vision|TYPE:Extraordinary.Unseelie Fey Vision.SpecialQuality|DESC:You gain Darkvision 60'.
+USERPOOL:Unseelie Fey Vision|POOLPOINTS:0.0
+ABILITY:Unseelie Fey Wings|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Insectlike|TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality|DESC:Your wings resemble a Insect's
+USERPOOL:Unseelie Fey Wings|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Axe (Throwing)|WEAPON:Bash|WEAPON:Battle Gauntlet|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)]
+WEAPONPROF:[WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dart Thruster|WEAPON:Darts (Barbed)|WEAPON:Eldritch Blast|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)]
+WEAPONPROF:[WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Goblin Stick|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd]
+WEAPONPROF:[WEAPON:Halfspear|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Ice Axe|WEAPON:Javelin|WEAPON:Katana|WEAPON:Kukri|WEAPON:Lance|WEAPON:Lance (Flight)|WEAPON:Lance (Heavy)]
+WEAPONPROF:[WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Morningstar|WEAPON:Pick (Dire)|WEAPON:Pick (Heavy)]
+WEAPONPROF:[WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Saber|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash]
+WEAPONPROF:[WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Strike (Unarmed)|WEAPON:Sword (Bastard)]
+WEAPONPROF:[WEAPON:Sword (Cutlass)|WEAPON:Sword (Saber)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Truncheon|WEAPON:Unarmed Strike|WEAPON:Wakizashi|WEAPON:Warhammer|WEAPON:Warmace]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Bracers of Armor +2|OUTPUTORDER:6|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Coin (Gold)|OUTPUTORDER:8|COST:1|WT:0.02|QUANTITY:800.0|NOTE:
+EQUIPNAME:Continuous Collar of Umbral Metamorphosis|OUTPUTORDER:1|COST:22000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Hank's Energy Bow (Dragonbone/Seeking)|OUTPUTORDER:3|COST:30700.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Hank's Energy Bow|DATA:NAME=Hank's Energy Bow (Dragonbone/Seeking)$KEY=Hank_s Energy Bow (Dragonbone/Seeking)$EQMOD=BOWSTR&pipe;+20.PLUS2W.DRAGONBONE_BOW.Seeking (Weapon)]
+EQUIPNAME:Mask of Misdirection|OUTPUTORDER:2|COST:22500.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Goggles|DATA:NAME=Mask of Misdirection$EQMOD=BNS_SKL_CMP&pipe;Hide=+15$SPROP=+15 Competence bonus to Hide]
+EQUIPNAME:Ring Of Inhuman Assassination|OUTPUTORDER:4|COST:6000.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Signet Ring|DATA:NAME=Ring Of Inhuman Assassination$EQMOD=SPL_ACT&pipe;SPELLNAME&lbracket;Grave Strike&rbracket; CASTER&lbracket;Cleric&rbracket; SPELLTYPE&lbracket;Divine&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; &pipe;SPELLNAME&lbracket;Golem Strike&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; &pipe;SPELLNAME&lbracket;Vine Strike&rbracket; CASTER&lbracket;Druid&rbracket; SPELLTYPE&lbracket;Divine&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; $SPROP=You may Sneak Attack Plants, Undead, and Consructs$COSTMOD=-4005.0]
+EQUIPNAME:Ring of Sniping|OUTPUTORDER:5|COST:2000.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Signet Ring|DATA:NAME=Ring of Sniping$EQMOD=SPL_ACT&pipe;SPELLNAME&lbracket;Sniper's Shot&rbracket; CASTER&lbracket;Assassin&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; $SPROP=You may Sneak Attack at any distance.$COSTMOD=-5.0]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.01|VALUE:Hank's Energy Bow (Dragonbone/Seeking)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.04|VALUE:Continuous Collar of Umbral Metamorphosis|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.05|VALUE:Ring Of Inhuman Assassination|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.06|VALUE:Ring of Sniping|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Arms|ID:0.1.07|VALUE:Bracers of Armor +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Eyes|ID:0.1.08|VALUE:Mask of Misdirection|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.10|VALUE:Coin (Gold)|QUANTITY:50.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

@@ -158,3 +158,16 @@ ABILITYCATEGORY:Extended Reach		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES		CATEG
 
 
 ABILITYCATEGORY:Custom Lycanthrope Choice		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability	TYPE:CustomLycanthrope		PLURAL:Custom Lycanthrope Choice		DISPLAYLOCATION:Race Traits
+
+
+
+
+
+
+ABILITYCATEGORY:Living Ballista Class Features		VISIBLE:QUALIFY	EDITABLE:NO	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:LivingBallistaClassFeature		PLURAL:Living Ballista Class Features		DISPLAYLOCATION:Class Features
+
+
+
+
+
+ABILITYCATEGORY:Ironmonger Class Features		VISIBLE:QUALIFY	EDITABLE:NO	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:IronmongerClassFeature		PLURAL:Ironmonger Class Features		DISPLAYLOCATION:Class Features
