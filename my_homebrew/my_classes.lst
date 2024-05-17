@@ -463,12 +463,12 @@ CLASS:Ironmonger	BONUS:VAR|ClassBABFull|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ
 1	ABILITY:Ironmonger Class Features|AUTOMATIC|Ironmonger ~ Device Lore
 2	ABILITY:Ironmonger Class Features|AUTOMATIC|Ironmonger ~ Iron Hews
 3	ABILITY:Ironmonger Class Features|AUTOMATIC|Ironmonger ~ Rusting Grasp	
-4	DEFINE:Ironmonger Class Features|0		BONUS:VAR|IronPowerBonus|1		ABILITY:Special Ability|AUTOMATIC|Ironmonger ~ Iron Power	
+4	DEFINE:Ironmonger Class Features|0		BONUS:VAR|IronPowerBonus|1		ABILITY:Ironmonger Class Features|AUTOMATIC|Ironmonger ~ Iron Power	
 5	ABILITY:Ironmonger Class Features|AUTOMATIC|Ironmonger ~ Animate Metal
 6	ABILITY:Ironmonger Class Features|AUTOMATIC|Ironmonger ~ Greater Iron Hews
 7	ABILITY:Ironmonger Class Features|AUTOMATIC|Ironmonger ~ Ironskin
 8	BONUS:VAR|IronPowerBonus|1	
 9	ABILITY:Ironmonger Class Features|AUTOMATIC|Ironmonger ~ Metallic Assistant
-10	ABILITY:Ironmonger Class Features|AUTOMATIC|Ironmonger ~ Living Golem
-
+#10	ABILITY:Ironmonger Class Features|AUTOMATIC|Ironmonger ~ Living Golem
+10	BONUS:ABILITYPOOL|Ironmonger Transformation|1
 

@@ -3511,12 +3511,22 @@ Living Ballista and Magic Weapons	CATEGORY:Special Ability	TYPE:SpecialQuality.E
 CATEGORY=FEAT|Manyshot.MOD			BENEFIT: As a standard action, you may fire two arrows at a single opponent within 30 feet. Both arrows use the same attack roll (with a -4 penalty) to determine success and deal damage normally (but see Special).    For every five points of base attack bonus you have above +6, you may add one additional arrow to this attack, to a maximum of four arrows at a base attack bonus of +16. However, each arrow after the second adds a cumulative -2 penalty on the attack roll (for a total penalty of -6 for three arrows and -8 for four).    Damage reduction and other resistances apply separately against each arrow fired.    Special: Regardless of the number of arrows you fire, you apply precision-based damage only once. If you score a critical hit, only the first arrow fired deals critical damage; all others deal regular damage. 
 
 CATEGORY=FEAT|Greater Manyshot.MOD						BENEFIT:When you use the Manyshot feat, you can fire each arrow at a different target instead of firing all of them at the same target. You make a separate attack roll for each arrow, regardless of whether you fire them at separate targets or the same target. Your precision-based damage applies to each arrow fired, and, if you score a critical hit with more than one of the arrows, each critical hit deals critical damage.
-CATEGORY=FEAT|Lightning Mace.COPY=Lightning Bladed Gauntlet
-CATEGORY=FEAT|Lightning Bladed Gauntlet.MOD			DESC:Formerly "Lightning Mace" This feat has been reoriented from Light Maces to Bladed Gauntlets via the Warblade "Aptitude" ability.
-CATEGORY=FEAT|Snap Kick.COPY=Snap Bladed Gauntlet Attack
-CATEGORY=FEAT|Snap Bladed Gauntlet Attack.MOD			DESC:Formerly "Snap Kick" This feat has been reoriented from Unarmed Strike to Bladed Gauntlets via the Warblade "Aptitude" ability.
 
-Improved Natural Attack (Bladed Gauntlet)			CATEGORY:FEAT	TYPE:General			DESC:Formerly "Improved Natural Attack (Unarmed Strike)" This feat has been reoriented from Unarmed Strike to Bladed Gauntlets via the Warblade "Aptitude" ability.		BENEFIT:The Chosen Weapon's Damage increases by one size category		BONUS:WEAPONPROF=Gauntlet (Bladed)|DAMAGESIZE|1			SOURCEPAGE:p.304	PRETOTALAB:4
+#CATEGORY=FEAT|Lightning Mace.COPY=Lightning Bladed Gauntlet
+
+#CATEGORY=FEAT|Lightning Mace.COPY=Lightning Scimitar
+#CATEGORY=FEAT|Lightning Scimitar.MOD		PREABILITY:1,CATEGORY=FEAT,.CLEAR
+
+
+#CATEGORY=FEAT|Lightning Bladed Gauntlet.MOD			DESC:Formerly "Lightning Mace" This feat has been reoriented from Light Maces to Bladed Gauntlets via the Warblade "Aptitude" ability.
+
+#CATEGORY=FEAT|Snap Kick.COPY=Snap Bladed Gauntlet Attack
+
+#CATEGORY=FEAT|Snap Bladed Gauntlet Attack.MOD			DESC:Formerly "Snap Kick" This feat has been reoriented from Unarmed Strike to Bladed Gauntlets via the Warblade "Aptitude" ability.
+
+#Improved Natural Attack (Bladed Gauntlet)			CATEGORY:FEAT	TYPE:General			DESC:Formerly "Improved Natural Attack (Unarmed Strike)" This feat has been reoriented from Unarmed Strike to Bladed Gauntlets via the Warblade "Aptitude" ability.		BENEFIT:The Chosen Weapon's Damage increases by one size category		BONUS:WEAPONPROF=Gauntlet (Bladed)|DAMAGESIZE|1			SOURCEPAGE:p.304	PRETOTALAB:4
+
+
 
 
 Natural Healing			KEY:Ironmonger ~ Natural Healing		CATEGORY:Special Ability		TYPE:SpecialQuality.Extraordinary.IronmongerClassFeature			DESC:Unlike other Constructs and Living Constructs you heal at a natural rate.  Additionaly, standard healing magic and resurrection magic work for you as they would a Humanoid.  The Heal skill does not work for you, and must be replaced with an appropriate Craft skill (generally metalworking, blacksmithing, armorsmithing or weaponsmithing).
@@ -3534,7 +3544,7 @@ Animate Metal		KEY:Ironmonger ~ Animate Metal			CATEGORY:Special Ability		TYPE:S
 
 Greater Iron Hews			KEY:Ironmonger ~ Greater Iron Hews		CATEGORY:Special Ability		TYPE:SpecialAttack.Supernatural.IronmongerClassFeature			DESC:Once per day per point of Constitution bonus, a 2nd-level Ironmonger may add a +6 divine bonus on damage from attacks made that round.  This does not Stack with Iron Hews, and these abilities are spearate and have separate pools of users-per-day.
 
-Iron Power			KEY:Ironmonger ~ Iron Power		CATEGORY:Special Ability		TYPE:SpecialAttack.Extraordinary.IronmongerClassFeature			DESC:When using an iron or steel weapon, a 4th-level Ironmonger gains a +1 insight bonus on attack and damage rolls. Furthermore, his threat range is doubled as if he were using a keen weapon. At 8th level, the insight bonus improves to +2, and the threat range triples. This ability does not stack with the keen weapon quality, but it does stack with the Improved Critical feat.  See Temporary bonuses				ABILITY:Special Ability|AUTOMATIC|Iron Power Melee (Non-Keen Weapon)				ABILITY:Special Ability|AUTOMATIC|Iron Power Melee (Keen Weapon)	ABILITY:Special Ability|AUTOMATIC|Iron Power Ranged (Non-Keen Weapon)			ABILITY:Special Ability|AUTOMATIC|Iron Power Ranged (Keen Weapon)		ABILITY:Special Ability|AUTOMATIC|Iron Power Thrown (Non-Keen Weapon)				ABILITY:Special Ability|AUTOMATIC|Iron Power Thrown (Keen Weapon)		ASPECT:NAME|Iron Power +%1|IronPowerBonus
+Iron Power			KEY:Ironmonger ~ Iron Power		CATEGORY:Special Ability		TYPE:SpecialAttack.Extraordinary.IronmongerClassFeature			DESC:When using an iron or steel weapon, a 4th-level Ironmonger gains a +1 insight bonus on attack and damage rolls. Furthermore, his threat range is doubled as if he were using a keen weapon. At 8th level, the insight bonus improves to +2, and the threat range triples. This ability does not stack with the keen weapon quality, but it does stack with the Improved Critical feat.  See Temporary bonuses				ABILITY:Special Ability|AUTOMATIC|Iron Power Melee (Non-Keen Weapon)				ABILITY:Special Ability|AUTOMATIC|Iron Power Melee (Keen Weapon)	ABILITY:Special Ability|AUTOMATIC|Iron Power Ranged (Non-Keen Weapon)			ABILITY:Special Ability|AUTOMATIC|Iron Power Ranged (Keen Weapon)		ABILITY:Special Ability|AUTOMATIC|Iron Power Thrown (Non-Keen Weapon)				ABILITY:Special Ability|AUTOMATIC|Iron Power Thrown (Keen Weapon)		ASPECT:NAME|Iron Power +%1|IronPowerBonus	DEFINE:IronPowerBonus|0
 
 Iron Power Melee (Non-Keen Weapon)				CATEGORY:Special Ability		TYPE:Hidden				TEMPBONUS:PC|WEAPONPROF=TYPE.Melee|CRITRANGEDOUBLE,TOHIT,DAMAGE|IronPowerBonus|TYPE=IronMonger			
 
@@ -3549,10 +3559,9 @@ Iron Power Thrown (Keen Weapon)				CATEGORY:Special Ability		TYPE:Hidden				TEMP
 
 Ironskin			KEY:Ironmonger ~ Ironskin		CATEGORY:Special Ability		TYPE:SpecialQuality.SpellLike.IronmongerClassFeature			DESC:Once per day, a 7th-level Ironmonger can produce an effect identical to that of the stoneskin spell cast by a 15th-level caster upon himself only.			SPELLS:Innate|TIMES=1|CASTERLEVEL=15|Stoneskin,14+CON			
 
-Living Golem			KEY:Ironmonger ~ Living Golem	CATEGORY:Special Ability		TYPE:SpecialQuality.Extraordinary.IronmongerClassFeature			DESC:Upon reaching 10th level, and Ironmonger undergoes a mystical transformation, taking on many of the aspects of the metal he reveres.			TEMPLATE:Ironmonger Transformation			BONUS:WEAPONPROF=Slam|TOHIT,DAMAGE,CRITRANGEDOUBLE|IronPowerBonus|TYPE=IronMonger	
+Living Golem			KEY:Ironmonger ~ Living Golem	CATEGORY:Special Ability		TYPE:SpecialQuality.Extraordinary.IronmongerClassFeature.IronmongerTransformation			DESC:Upon reaching 10th level, and Ironmonger undergoes a mystical transformation, taking on many of the aspects of the metal he reveres.			TEMPLATE:Ironmonger Transformation			BONUS:WEAPONPROF=Slam|TOHIT,DAMAGE,CRITRANGEDOUBLE|IronPowerBonus|TYPE=IronMonger			!PRERACE:1,RACETYPE=Undead,RACETYPE=Undead,RACETYPE=Construct,RACETYPE=Deathless
 
-
-
+Unliving Golem			KEY:Ironmonger ~ UnLiving Golem	CATEGORY:Special Ability		TYPE:SpecialQuality.Extraordinary.IronmongerClassFeature.IronmongerTransformation			DESC:Upon reaching 10th level, and Ironmonger undergoes a mystical transformation, taking on many of the aspects of the metal he reveres.			TEMPLATE:Ironmonger Transformation			BONUS:WEAPONPROF=Slam|TOHIT,DAMAGE,CRITRANGEDOUBLE|IronPowerBonus|TYPE=IronMonger			PRERACE:1,RACETYPE=Undead,RACETYPE=Undead,RACETYPE=Construct,RACETYPE=Deathless
 
 Metallic Assistant			KEY:Ironmonger ~ Metallic Assistant		CATEGORY:Special Ability		TYPE:SpecialQuality.Supernatural.IronmongerClassFeature			DESC:The durationof Animate Metal is now 24 hours
 

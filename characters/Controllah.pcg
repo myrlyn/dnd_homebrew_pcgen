@@ -1,0 +1,259 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Controllah
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Female
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:16
+STAT:DEX|SCORE:18
+STAT:CON|SCORE:16
+STAT:INT|SCORE:21
+STAT:WIS|SCORE:18
+STAT:CHA|SCORE:16
+ALIGN:NONE
+RACE:Kalashtar
+
+# Character Class(es)
+CLASS:Psion|SUBCLASS:Telepath|LEVEL:12|SKILLPOOL:0|SPELLBASE:INT|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Psion=1|HITPOINTS:4|SKILLSGAINED:28|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Psion=2|HITPOINTS:4|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Psion=3|HITPOINTS:4|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Psion=4|HITPOINTS:4|PRESTAT:INT=1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Psion=5|HITPOINTS:4|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Psion=6|HITPOINTS:4|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Psion=7|HITPOINTS:4|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Psion=8|HITPOINTS:4|PRESTAT:INT=1|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Psion=9|HITPOINTS:4|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Psion=10|HITPOINTS:4|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Psion=11|HITPOINTS:4|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Psion=12|HITPOINTS:4|PRESTAT:INT=1|SKILLSGAINED:8|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:66000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Humanoid]]
+TEMPLATESAPPLIED:[NAME:Psionic]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Not Listed]
+TEMPLATESAPPLIED:[NAME:Psionic Power Points Progression]
+TEMPLATESAPPLIED:[NAME:First Level ~ Not Listed|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+TEMPLATESAPPLIED:[NAME:Shadow Creature]
+TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Psion|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Psion|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Alchemy)|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Psion|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Gemcutting)|OUTPUTORDER:8|CLASSBOUGHT:[CLASS:Psion|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Poisonmaking)|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Psion|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:10|
+SKILL:Diplomacy|OUTPUTORDER:11|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:12|
+SKILL:Disguise|OUTPUTORDER:13|
+SKILL:Escape Artist|OUTPUTORDER:14|
+SKILL:Forgery|OUTPUTORDER:15|
+SKILL:Gather Information|OUTPUTORDER:16|
+SKILL:Heal|OUTPUTORDER:17|
+SKILL:Hide|OUTPUTORDER:18|
+SKILL:Hide (Forested Areas)|OUTPUTORDER:19|
+SKILL:Intimidate|OUTPUTORDER:20|
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:21|
+SKILL:Jump|OUTPUTORDER:22|
+SKILL:Knowledge (Untrained)|OUTPUTORDER:23|
+SKILL:Listen|OUTPUTORDER:24|
+SKILL:Literacy|OUTPUTORDER:25|
+SKILL:Move Silently|OUTPUTORDER:26|
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:27|
+SKILL:Profession (Miller)|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Psion|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Woodcutter)|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Psion|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Psicraft|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Psion|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Ride|OUTPUTORDER:31|
+SKILL:Search|OUTPUTORDER:32|
+SKILL:Sense Motive|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Psion|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Skill Trick|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Psion|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:35|
+SKILL:Survival|OUTPUTORDER:36|
+SKILL:Swim|OUTPUTORDER:37|
+SKILL:Use Rope|OUTPUTORDER:38|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Quori
+
+# Character Feats
+FEATPOOL:2.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Draconic|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Telepathic Communication|TYPE:ACF.SpecialQuality|DESC:Communicate telepathically with anyone within 5' per manifester Level
+USERPOOL:Alternate Class Feature|POOLPOINTS:0.0
+ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
+USERPOOL:ECL Buy Down|POOLPOINTS:0.0
+ABILITY:Expanded Knowledge Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:Expanded Knowledge Power ~ Astral Construct|TYPE:ExpandedKnowledgeFeat|DESC:You create an astral construct of solidified ectoplasm.&pipe;!PRERULE&colon;1,DisplayFullSpell
+ABILITY:Expanded Knowledge Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:Expanded Knowledge Power ~ Control Body|TYPE:ExpandedKnowledgeFeat|DESC:Control the actions of any humanoid that is Medium size or smaller&pipe;!PRERULE&colon;1,DisplayFullSpell
+USERPOOL:Expanded Knowledge Feat|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Body Fuel|TYPE:Psionic|DESC:You can expand your power point total at the expense of your health.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Bonus Essentia|TYPE:General|DESC:You are better able to harness your personal store of incarnum.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Expanded Knowledge|APPLIEDTO:,|TYPE:Psionic|DESC:You learn another power.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Psicrystal Containment|TYPE:Psionic|DESC:Your psicrystal has advanced enough that it can hold a psionic focus that you store within it.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Psionic Meditation|TYPE:Psionic|DESC:You can focus your mind faster than normal, even under duress.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Shape Soulmeld|TYPE:General|DESC:You gain the ability to shape a single soulmeld.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Skin of the Construct|TYPE:Psionic|DESC:You can wear an astral construct as if it were a second skin.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Talented|TYPE:Psionic|DESC:You can overchannel powers with less cost to yourself.
+USERPOOL:FEAT|POOLPOINTS:2.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Noncombatant|TYPE:Flaws.SpecialQuality|DESC:You are relatively inept at melee combat.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Shaky|TYPE:Flaws.SpecialQuality|DESC:You are relatively poor at ranged combat.
+USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Rule - Use ECL Level Buy Down|TYPE:MiscOptions
+USERPOOL:Misc Options|POOLPOINTS:0.0
+ABILITY:Psicrystal Personality|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Psicrystal (Hero)|TYPE:ClassAbility.PsicrystalPersonality
+USERPOOL:Psicrystal Personality|POOLPOINTS:0.0
+ABILITY:Psion Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Overchannel|TYPE:Psionic|DESC:You burn your life force to strengthen your powers.
+ABILITY:Psion Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Psicrystal Affinity|TYPE:Psionic|DESC:You have created a psicrystal. (See Psicrystals, page 21 and 207, for details on how psicrystals work).
+USERPOOL:Psion Feat|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Region ~ None|TYPE:Region
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Shadow Creature Powers|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Shadow Creature ~ Plane Shift|TYPE:SpecialQuality.Shadow Power.SpellLike|DESC:To/from the Plane of Shadow only
+ABILITY:Shadow Creature Powers|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Shadow Saves|TYPE:SpecialQuality.Shadow Power
+ABILITY:Shadow Creature Powers|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Shadow ~ Fast Healing|TYPE:SpecialQuality.Extraordinary.Shadow Power|DESC:You regain 2 HP per round.
+USERPOOL:Shadow Creature Powers|POOLPOINTS:0.0
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Swift Concentration|TYPE:ST.SpecialQuality.SkillTrick.Mental|DESC:You can maintain concentration on a spell or similar effect as a swift action.
+USERPOOL:Skill Tricks|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Quarterstaff|WEAPON:Shortspear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Amulet of Natural Armor +2|OUTPUTORDER:1|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Bracers of Armor +6|OUTPUTORDER:3|COST:36000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Coin (Gold)|OUTPUTORDER:5|COST:1|WT:0.02|QUANTITY:760.0|NOTE:
+EQUIPNAME:Headband of Intellect +6|OUTPUTORDER:2|COST:36000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Psychic Surgeried Power (Astral Construct)|OUTPUTORDER:7|COST:1620|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll|DATA:NAME=Psychic Surgeried Power (Astral Construct)$SPROP=(Scroll)$COSTMOD=1620]
+EQUIPNAME:Psychic Surgeried Power (Control Body)|OUTPUTORDER:6|COST:1620|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll|DATA:NAME=Psychic Surgeried Power (Control Body)$SPROP=(Scroll), (Scroll)$COSTMOD=1620]
+EQUIPNAME:Vest of Resistance +2|OUTPUTORDER:4|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Not Carried|ID:0.1.01|VALUE:Psychic Surgeried Power (Control Body)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Not Carried|ID:0.1.02|VALUE:Psychic Surgeried Power (Astral Construct)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Head|ID:0.1.03|VALUE:Headband of Intellect +6|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Arms|ID:0.1.04|VALUE:Bracers of Armor +6|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.05|VALUE:Amulet of Natural Armor +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.06|VALUE:Vest of Resistance +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.07|VALUE:Coin (Gold)|QUANTITY:760.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+SPELLNAME:Astral Construct|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Aura Alteration|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Brain Lock|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Charm (Psionic)|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Cloud Mind|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Cloud Mind (Mass)|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Control Body|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Detect Psionics|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Dispel Psionics|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Dominate (Psionic)|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Ego Whip|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Energy Push|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:False Sensory Input|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Inertial Armor|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Mind Probe|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Mind Switch|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Mind Thrust|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Mindlink|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Mindwipe|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Modify Memory (Psionic)|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Plane Shift (Psionic)|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Psychic Crush|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Shatter Mind Blank|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Solicit Psicrystal|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Suggestion (Implanted)|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLNAME:Telekinetic Thrust|TIMES:1|CLASS:Psion|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Psion]
+SPELLLIST:Psion|CLASS.Psion
+
+# Character Description/Bio/History
+CHARACTERBIO:&nl;** &nl;You have the "Shape Soulmeld" Feat.  This grands you the ability to Shape a Soulmeld, and knowledge of one Soulmeld you can Shape.  &nl;A soulmeld is a virtual magical item you can create for yourself.  &nl;It manifests as a translucent image over the magic item slot it would occupy if it were a real magical item.  It does not prevent you from using a real magic item in that slot.  &nl;&nl;The Soulmeld you can shape is "Strongheart Vest"&nl;&nl;“A heavy web belt of cyan energy wraps around your torso. When you wear it, you feel energized and revitalized. When you are struck by an attack that would damage your ability scores, a wave of incarnum energy passes through you, blunting the effectiveness of the attack.” Magic of Incarnum p.89&nl;"When subject to an attack that deals ability damage, reduce the ability damage you take by 1, +1 for each point of essentia invested in this soulmeld."&nl;You have two points of Essentia and nowhere else to spend it, from the Bonus Essentia feat. (There are other potential uses for Essentia, but most of them are not relevant to this character) &nl;&nl;There are aidditional effects and rules for soulmelds, but they are generally not relevant to this character. &nl;&nl;&nl;&nl;**&nl;You ave the "Body Fuel" Feat&nl;&nl;&nl; You can expand your power point total at the expense of your health.&nl;Benefit&nl;&nl;You can recover 2 power points by taking 1 point of ability burn damage to each of your three ability scores&colon; Strength, Dexterity, and Constitution.&nl;&nl;Ability Burn Damage is a "special form of ability damage, called ability burn, which cannot be magically or psionically healed—it goes away only through natural healing."&nl;&nl;You can recover additional power points for a proportional cost to Strength, Dexterity, and Constitution. These recovered points are added to your power point reserve as if you had gained them by resting overnight.&nl;Special&nl;&nl;Only living creatures can use this feat. You can take advantage of this feat only while in your own body. &nl;&nl;&nl;**&nl;The combination of these two things allows you to recover 6 power-points per turn without actual Ability Score damage.  &nl;&nl;&nl;&nl;&nl;&nl;
+CHARACTERDESC:HOW TO PLAY THIS WERDO&nl;&nl;You regain 6 poer points per turn.  &nl;&nl;You manifest powers level 3 or lower as if you were 2 levels higher (increasing level-dependent effects, and how many Power Points you can spend augmenting them).  &nl;&nl;You have Psionic Focus twice - once for you, once for your Psicrystal.  &nl;&nl;Overall, this character is designed to punch above her weight, and keep on doing it.  She can't take the hits, so she has to lean into the offensive.  &nl;&nl;
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+FOLLOWER:Chris the psicrystal|TYPE:Psicrystal|RACE:PSICRYSTAL|HITDICE:0|FILE:Chris the psicrystal.pcg
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

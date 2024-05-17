@@ -434,7 +434,9 @@ Ritual Of Transfiguration			LEVELADJUSTMENT:2		TYPE:Incorporeal						SOURCEPAGE:
 Template Incorporeal State			VISIBLE:NO		RACESUBTYPE:Incorporeal			ABILITY:Special Ability|AUTOMATIC|Incorporeal Subtype
 
 
-Ironmonger Transformation	VISIBLE:NO		VISIBLE:YES			RACETYPE:Construct		RACESUBTYPE:Living Construct		VISION:Low-Light Vision		VISION:Darkvision (60')		DEFINESTAT:UNLOCK|CON	DEFINESTAT:STAT|CON				TEMPLATE:CHOOSE:Ironmonger Attacks Fine|Ironmonger Attacks Diminutive|Ironmonger Attacks Tiny|Ironmonger Attacks Small|Ironmonger Attacks Medium|Ironmonger Attacks Large|Ironmonger Attacks Huge|Ironmonger Attacks Gargantuan|Ironmonger Attacks Colossal|Ironmonger Attacks Colossal+		BONUS:STAT|STR,CON|4|TYPE=Racial.STACK							
+Ironmonger Transformation Complete	VISIBLE:NO		VISIBLE:YES			RACETYPE:Construct		RACESUBTYPE:Living Construct		VISION:Low-Light Vision		VISION:Darkvision (60')						TEMPLATE:CHOOSE:Ironmonger Attacks Fine|Ironmonger Attacks Diminutive|Ironmonger Attacks Tiny|Ironmonger Attacks Small|Ironmonger Attacks Medium|Ironmonger Attacks Large|Ironmonger Attacks Huge|Ironmonger Attacks Gargantuan|Ironmonger Attacks Colossal|Ironmonger Attacks Colossal+		BONUS:STAT|STR,CON|4|TYPE=Racial.STACK								
+
+Ironmonger Transformation	VISIBLE:NO		VISIBLE:YES			RACETYPE:Construct		RACESUBTYPE:Living Construct	RACESUBTYPE:Augmented Humanoid		VISION:Low-Light Vision		VISION:Darkvision (60')		DEFINESTAT:UNLOCK|CON	DEFINESTAT:STAT|CON				TEMPLATE:CHOOSE:Ironmonger Attacks Fine|Ironmonger Attacks Diminutive|Ironmonger Attacks Tiny|Ironmonger Attacks Small|Ironmonger Attacks Medium|Ironmonger Attacks Large|Ironmonger Attacks Huge|Ironmonger Attacks Gargantuan|Ironmonger Attacks Colossal|Ironmonger Attacks Colossal+		BONUS:STAT|STR,CON|4|TYPE=Racial.STACK							
 
 
 

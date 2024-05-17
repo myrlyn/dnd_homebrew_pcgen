@@ -171,3 +171,8 @@ ABILITYCATEGORY:Living Ballista Class Features		VISIBLE:QUALIFY	EDITABLE:NO	EDIT
 
 
 ABILITYCATEGORY:Ironmonger Class Features		VISIBLE:QUALIFY	EDITABLE:NO	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:IronmongerClassFeature		PLURAL:Ironmonger Class Features		DISPLAYLOCATION:Class Features
+
+
+
+
+ABILITYCATEGORY:Ironmonger Transformation		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability	TYPE:IronmongerTransformation		PLURAL:Ironmonger Transformations		DISPLAYLOCATION:Class Features		
