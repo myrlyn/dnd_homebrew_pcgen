@@ -1,0 +1,236 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Stubby
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:18
+STAT:DEX|SCORE:21
+STAT:CON|SCORE:16
+STAT:INT|SCORE:16
+STAT:WIS|SCORE:18
+STAT:CHA|SCORE:16
+ALIGN:LG
+RACE:Githzerai
+
+# Character Class(es)
+CLASS:Monk|LEVEL:12|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Monk=1|HITPOINTS:8|SKILLSGAINED:24|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=2|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=3|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=4|HITPOINTS:8|PRESTAT:DEX=1|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=5|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=6|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=7|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=8|HITPOINTS:8|PRESTAT:DEX=1|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=9|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=10|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=11|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=12|HITPOINTS:8|PRESTAT:DEX=1|PRESTAT:CON=-2|PRESTAT:STR=2|SKILLSGAINED:6|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:91000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Psionic]
+TEMPLATESAPPLIED:[NAME:Base Race Type]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Monk]
+TEMPLATESAPPLIED:[NAME:First Level ~ Monk|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+TEMPLATESAPPLIED:[NAME:Reach 15]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|CLASSBOUGHT:[CLASS:Monk|RANKS:14.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Monk|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:9|
+SKILL:Disguise|OUTPUTORDER:10|
+SKILL:Escape Artist|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Monk|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Forgery|OUTPUTORDER:12|
+SKILL:Gather Information|OUTPUTORDER:13|
+SKILL:Heal|OUTPUTORDER:14|
+SKILL:Hide|OUTPUTORDER:15|CLASSBOUGHT:[CLASS:Monk|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Hide (Forested Areas)|OUTPUTORDER:16|
+SKILL:Intimidate|OUTPUTORDER:17|
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:18|
+SKILL:Jump|OUTPUTORDER:19|
+SKILL:Knowledge (Untrained)|OUTPUTORDER:20|
+SKILL:Listen|OUTPUTORDER:21|
+SKILL:Literacy|OUTPUTORDER:22|
+SKILL:Move Silently|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Monk|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:24|
+SKILL:Ride|OUTPUTORDER:25|
+SKILL:Search|OUTPUTORDER:26|
+SKILL:Sense Motive|OUTPUTORDER:27|
+SKILL:Skill Trick|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Monk|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:29|
+SKILL:Survival|OUTPUTORDER:30|
+SKILL:Swim|OUTPUTORDER:31|
+SKILL:Tumble|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Monk|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Rope|OUTPUTORDER:33|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Githzerai|LANGUAGE:Undercommon
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Undercommon,Common|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Undercommon,Common|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Beast Strike|TYPE:General|DESC:Benefit&colon; When you make an unarmed strike or grapple check to deal damage, you may add your claw or slam damage to your unarmed strike or grapple damage.    Special&colon; A fighter may select Beast Strike as a fighter bonus feat.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Exotic Weapon Proficiency|APPLIEDTO:Rope Dart|TYPE:General.Fighter.DivineChampion.ShadowThief.ViolentKnowledge.JusticiarOfTaiiaBonusFeat|DESC:You understand how to use the specified type of exotic weapon in combat.&pipe;PREVAREQ&colon;DisplayFullFeat,1|DESC:Choose a type of exotic weapon, such as dire flail or shuriken (see Table 7-5&colon; Weapons, page 116, for a list of exotic weapons). You understand how to use that type of exotic weapon in combat.&pipe;PREVAREQ&colon;DisplayFullFeat,1
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Natural Attack (Unarmed Strike)|TYPE:General|DESC:Improved Natural Attack for Unarmed Strike
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Knock-Down|TYPE:General|DESC: Whenever you deal 10 or more points of damage to your opponent in melee, you make a trip attack as a free action against the same target.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Martial Study|APPLIEDTO:,|TYPE:General.Fighter|DESC:By studying the basics of a martial discipline, you learn to focus your ki and perfect the form needed to use a maneuver. As a result, you gain the use of a combat maneuver.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Snap Kick|TYPE:General|DESC:You have continued to hone your unarmed combat skills, and you deal more damage with your unarmed strikes.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Finesse|TYPE:General.Fighter.ChampionOfTheWildTwoWeaponFighting.ShadowThief.ViolentKnowledge|DESC:You are especially skilled at using weapons that can benefit as much from Dexterity as from Strength.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Poor Reflexes|TYPE:Flaws.SpecialQuality|DESC:You often zig when you should have zagged.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Shaky|TYPE:Flaws.SpecialQuality|DESC:You are relatively poor at ranged combat.
+USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:Martial Study Discipline|TYPE:NORMAL|CATEGORY:Internal|KEY:Martial Study Novice ~ Setting Sun Internal|APPLIEDTO:,|TYPE:Martial Study Discipline|DESC:You have learned to focus your ki and perfect the form needed to use one Setting Sun maneuver as a novice of martial techniques. You can use this maneuver once per encounter as a martial adept with an initiator level equal to 1/2 your non-adept class levels (plus your martial adept class levels, should you gain any at a later point). Maneuvers learned through this feat can not be recovered during an encounter and can not be exchanged as part of adept class levelups.&amp;nl;Setting Sun's key skill, sense motive, is now a class skill for all your classes (current and future).&amp;nl; Special&colon; You can take this feat up to three times and can select the same discipline multiple times.&amp;nl; Special&colon; A fighter can select Martial Study as a bonus feat.
+USERPOOL:Martial Study Discipline|POOLPOINTS:0.0
+ABILITY:Martial Study Setting Sun Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Martial Study Novice ~ Clever Positioning|TYPE:SpecialAttack.Martial Study Setting Sun Maneuver.Setting Sun Maneuver.Setting Sun Maneuver LVL2.Maneuver.Martial Maneuver.Strike.Setting Sun.Setting Sun Discipline|DESC:With a swift flurry of motion, you knock you foe off balance, slip into his space, and force him into the spot you just occupied. You make a melee attack, and while your opponent is slightly off balance from your blow, you find the leverage needed to pull him into your space while moving into his space. As part of this maneuver, you make a single melee attack against a target. If your attack hits, the target takes damage normally and must make a Reflex save (DC 12 + your Dex modifier). If this save fails, you swap positions with the target. If the target is Large or larger, you can occupy any of the squares that make up its space. The target must in turn occupy the square, or one of the squares, you previously occupied. You cannot use this maneuver if you or the target would end up sharing the same space as another creature or an impassable terrain feature, such as a wall. If your target occupies a larger space than you do, he chooses his final position according to the guidelines given above.
+ABILITY:Martial Study Setting Sun Maneuver|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Martial Study Novice ~ Comet Throw|TYPE:SpecialAttack.Martial Study Setting Sun Maneuver.Setting Sun Maneuver.Maneuver.Martial Maneuver.Strike.Setting Sun.Setting Sun Discipline|DESC:You use your foe's momentum against him, throwing him through the air to crash into a second enemy. This maneuver functions like mighty throw (page 73), except as noted here. As part of this maneuver, you must succeed on a melee touch attack against your foe. You can then make a trip attempt against your enemy. You gain a +4 bonus on the ability check. If you succeed in tripping your foe, you throw him up to 10 feet away from you in a direction of your choice. You select your enemy's destination square. The target falls prone in that space and takes 4d6 points of damage. For every 5 points by which you win the opposed check, you gain an additional 5 feet of throw range. For example, if you win by 10, you can place your foe in any space within 20 feet of you. You can throw your opponent into a space occupied by a second foe. In this case, the opponent in the target square also takes 4d6 points of damage and is knocked prone. A Reflex save (DC 14 + your Str modifier) halves this damage and allows the second target to remain standing. The thrown creature then falls prone in a clear space of your choice adjacent to the second target.
+USERPOOL:Martial Study Setting Sun Maneuver|POOLPOINTS:0.0
+ABILITY:Mighty Wallop Effect|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mighty Wallop Enhancement (Flurry of Blows)|TYPE:MightyWallopEffect.SpecialQuality|DESC:You increase the damage done by a bludgeoning Weapon weapon.
+ABILITY:Mighty Wallop Effect|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mighty Wallop Enhancement (Unarmed Strike)|TYPE:MightyWallopEffect.SpecialQuality|DESC:You increase the damage done by a bludgeoning Weapon weapon.
+USERPOOL:Mighty Wallop Effect|POOLPOINTS:2.0
+ABILITY:Monk Feat LVL 1|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Monk Bonus Feat ~ Stunning Fist|TYPE:MonkBonusFeat.MonkBonusFeatLVL1
+USERPOOL:Monk Feat LVL 1|POOLPOINTS:0.0
+ABILITY:Monk Feat LVL 2|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Monk Bonus Feat ~ Combat Reflexes|TYPE:MonkBonusFeat.MonkBonusFeatLVL2
+USERPOOL:Monk Feat LVL 2|POOLPOINTS:0.0
+ABILITY:Monk Feat LVL 6|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Monk Bonus Feat ~ Improved Trip|TYPE:MonkBonusFeat.MonkBonusFeatLVL6
+USERPOOL:Monk Feat LVL 6|POOLPOINTS:0.0
+ABILITY:Monk Fighting Style|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Monk Fighting Style ~ Default|TYPE:MonkFightingStyle|DESC:You are a default monk.
+USERPOOL:Monk Fighting Style|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Region ~ None|TYPE:Region
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Back on Your Feet|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:If you fall prone for any reason, you can stand up as an immediate action without provoking attacks of opportunity.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Walk the Walls|TYPE:ST.SpecialQuality.SkillTrick.Movement|DESC:You can move up a wall without making a climb check. Each 5 feet of vertical movement coss you 4 squares of movement, and you must begin and end your turn on a horizontal surface.
+USERPOOL:Skill Tricks|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Kama|WEAPON:Nekode|WEAPON:Nunchaku|WEAPON:Quarterstaff]
+WEAPONPROF:[WEAPON:Rope Dart|WEAPON:Sai|WEAPON:Sai ~ Arms and Equipment|WEAPON:Shuriken|WEAPON:Siangham|WEAPON:Slam|WEAPON:Sling|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Steel Fins]
+WEAPONPROF:[WEAPON:Sword (Butterfly)|WEAPON:Three-Section Staff|WEAPON:Tiger Claws|WEAPON:Tonfa|WEAPON:Unarmed Strike|WEAPON:War Fan]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Battle Dancer Anklet For Monk|OUTPUTORDER:9|COST:13000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Battlefist (Mighty Arms Attachment)|OUTPUTORDER:11|COST:4900.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mighty Arms Attached ~ Battlefist Fixed|DATA:NAME=Battlefist (Mighty Arms Attachment)$KEY=Mighty Arms Attached ~ Battlefist Fixed$EQMOD=Masterwork (Weapon).STEEL.PLUS1W$COSTMOD=2300.0]
+EQUIPNAME:Belt, Monk's|OUTPUTORDER:7|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Monk's)|DATA:NAME=Belt, Monk's$KEY=Belt (Monk's)]
+EQUIPNAME:Bracelet of Mighty Wallop|OUTPUTORDER:6|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Cloak of Resistance +1|OUTPUTORDER:0|COST:1000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Coin (Gold)|OUTPUTORDER:0|COST:1|WT:0.02|QUANTITY:298.0|NOTE:
+EQUIPNAME:Constant Chronocharm of the Horizon Walker|OUTPUTORDER:0|COST:2500.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chronocharm of the Horizon Walker|DATA:NAME=Constant Chronocharm of the Horizon Walker$SPROP=Spend a Swift action to move up to your movement.$COSTMOD=2000.0]
+EQUIPNAME:Fanged Ring|OUTPUTORDER:8|COST:10000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Flurry of Blows|OUTPUTORDER:1|COST:0|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gloves of the Big Beefy Arms|OUTPUTORDER:4|COST:18000.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gloves|DATA:NAME=Gloves of the Big Beefy Arms$EQMOD=STR_CHECK_BONUS_CMP&pipe;+6$SPROP=+6 Competence Bonust to Strength Checks]
+EQUIPNAME:Mighty Arms|OUTPUTORDER:10|COST:1000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ring of Protection +2|OUTPUTORDER:0|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scorpion Rope Dart|OUTPUTORDER:2|COST:4302.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scorpion Rope Dart|DATA:NAME=Scorpion Rope Dart$EQMOD=PLUS1W.STEEL$COSTMOD=-2300.0]
+EQUIPNAME:Slam (Natural/Primary)|OUTPUTORDER:3|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Slam|DATA:KEY=Slam]
+EQUIPNAME:Vest of Natural Armor +2|OUTPUTORDER:0|COST:8000.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Vest|DATA:NAME=Vest of Natural Armor +2$EQMOD=BNS_ENHC_NAT&pipe;+2$SPROP=(Vest ( Natural Armor Bonus (Enhancement) (+2)))]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Unarmed|ID:0.1.01|VALUE:Flurry of Blows|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.02|VALUE:Scorpion Rope Dart|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.03|VALUE:Fanged Ring|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Waist|ID:0.1.05|VALUE:Belt, Monk's|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.06|VALUE:Battle Dancer Anklet For Monk|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.08|VALUE:Mighty Arms|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.10|VALUE:Battlefist (Mighty Arms Attachment)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.11|VALUE:Slam (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Hands|ID:0.1.12|VALUE:Gloves of the Big Beefy Arms|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Arms|ID:0.1.14|VALUE:Bracelet of Mighty Wallop|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+SPELLBOOK:Githyanki Psionics|TYPE:4
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

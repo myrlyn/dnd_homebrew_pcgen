@@ -453,3 +453,61 @@ Ironmonger Attacks Colossal+				PRESIZEGT:C			NATURALATTACKS:Slam,Weapon.Natural
 
 
 
+Half-Doppelganger		PRERACE:1,RACETYPE=Humanoid		RACESUBTYPE:Shapechanger		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK					BONUS:STAT|WIS|2|TYPE=Racial.STACK		ABILITY:FEAT|VIRTUAL|Alertness		LEVELADJUSTMENT:2	BONUS:SKILL|Bluff,Disguise|2|TYPE=Racial.STACK		PRESIZEGTEQ:T	PRESIZELTEQ:L		ABILITY:Half-Doppelganger Race Traits|AUTOMATIC|Half-Doppelganger ~ Immunities		ABILITY:Half-Doppelganger Race Traits|AUTOMATIC|Half-Doppelganger ~ Empathy		ABILITY:Half-Doppelganger Race Traits|AUTOMATIC|Half-Doppelganger ~ Alternate Forms			BONUS:ABILITYPOOL|Half-Doppelganger Alternate Forms|3		SOURCEPAGE:Dragon Magazine
+
+
+
+#A body with extra limbs does not allow you to make more attacks (or more advantageous two-weapon attacks) than normal.
+
+
+HDHumanAlternateForm		VISIBLE:NO				SIZE:M		MOVE:Walk,30				BONUS:ABILITYPOOL|FEAT|1
+
+HDDwarfAlternateForm		VISIBLE:NO					SIZE:M		MOVE:Walk,30			SAB: This ability grants a dwarf a +2 racial bonus on Search checks to notice unusual stonework, such as sliding walls, stonework traps, new construction (even when built to match the old), unsafe stone surfaces, shaky stone ceilings, and the like.  +2 racial bonus on Appraise checks that are related to stone or metal items.  +2 racial bonus on Craft checks that are related to stone or metal.
+
+HDElfAlternateForm		VISIBLE:NO				SIZE:M		MOVE:Walk,30			BONUS:SKILL|Listen,Search,Spot|TYPE=Racial.STACK
+
+HDGnomeAlternateForm		VISIBLE:NO				SIZE:S		MOVE:Walk,20			BONUS:SKILL|Listen,Craft (Alchemy)|2
+
+
+HDHalf-ElfAlternateForm		VISIBLE:NO				SIZE:M		MOVE:Walk,30			BONUS:SKILL|Listen,Search,Spot|1		BONUS:SKILL|Gather Information,Diplomacy|2		
+
+
+
+
+HDHalf-OrcAlternateForm		VISIBLE:NO				SIZE:M		MOVE:Walk,30			BONUS:SKILL|Listen,Search,Spot|1		BONUS:SKILL|Gather Information,Diplomacy|2		
+
+
+
+HDHalflingAlternateForm		VISIBLE:NO				SIZE:S		MOVE:Walk,20			BONUS:SKILL|Climb,Jump,Listen,Move Silently|2
+
+
+HDBugbearAlternateForm		VISIBLE:NO				SIZE:M		MOVE:Walk,30			BONUS:SKILL|Move Silently|4
+
+
+
+
+
+
+HDGnollAlternateForm		VISIBLE:NO				SIZE:M		MOVE:Walk,30	
+
+
+
+
+
+HDHobgoblinAlternateForm		VISIBLE:NO				SIZE:M		MOVE:Walk,30	
+
+HDLizardfolkAlternateForm		VISIBLE:NO				SIZE:M		MOVE:Walk,30	BONUS:SKILL|Balance,Jump,Swim|4		NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Bludgeoning,*1,1d4|Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Bludgeoning,*2,1d4
+
+
+HDLocathahAlternateForm		VISIBLE:NO				SIZE:M		MOVE:Walk,10,Swim,60	BONUS:SKILL|Swim|8
+
+HDMerfolkAlternateForm		VISIBLE:NO				SIZE:M		MOVE:Walk,5,Swim,50		BONUS:SKILL|Swim|8
+
+
+
+HDRaptoranAlternateForm		VISIBLE:NO				SIZE:M		MOVE:Walk,30,Fly,40		BONUS:SKILL|Jump|10		BONUS:SKILL|Climb,Spot|2
+
+
+
+
+

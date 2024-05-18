@@ -2882,12 +2882,13 @@ Mighty Wallop Enhancement (Unarmed Strike)				CATEGORY:Special Ability		TYPE:Mig
 
 Mighty Wallop Enhancement (Slam)				CATEGORY:Special Ability		TYPE:MightyWallopEffect.SpecialQuality			DESC:You increase the damage done by a bludgeoning Weapon weapon.						BONUS:WEAPONPROF=Slam|DAMAGESIZE|1
 
-Mighty Wallop Enhancement (Bite)				CATEGORY:Special Ability		TYPE:MightyWallopEffect.SpecialQuality			DESC:You increase the damage done by a bludgeoning Weapon weapon.						BONUS:WEAPONPROF=Slam|DAMAGESIZE|1
+Mighty Wallop Enhancement (Bite)				CATEGORY:Special Ability		TYPE:MightyWallopEffect.SpecialQuality			DESC:You increase the damage done by a bludgeoning Weapon weapon.						BONUS:WEAPONPROF=Bite|DAMAGESIZE|1
 
-Mighty Wallop Enhancement (Gore)				CATEGORY:Special Ability		TYPE:MightyWallopEffect.SpecialQuality			DESC:You increase the damage done by a bludgeoning Weapon weapon.						BONUS:WEAPONPROF=Slam|DAMAGESIZE|1
+Mighty Wallop Enhancement (Gore)				CATEGORY:Special Ability		TYPE:MightyWallopEffect.SpecialQuality			DESC:You increase the damage done by a bludgeoning Weapon weapon.						BONUS:WEAPONPROF=Gore|DAMAGESIZE|1
 
-Mighty Wallop Enhancement (Club)				CATEGORY:Special Ability		TYPE:MightyWallopEffect.SpecialQuality			DESC:You increase the damage done by a bludgeoning Weapon weapon.						BONUS:WEAPONPROF=Slam|DAMAGESIZE|1
+Mighty Wallop Enhancement (Club)				CATEGORY:Special Ability		TYPE:MightyWallopEffect.SpecialQuality			DESC:You increase the damage done by a bludgeoning Weapon weapon.						BONUS:WEAPONPROF=Club|DAMAGESIZE|1
 
+Mighty Wallop Enhancement (Flurry of Blows)				CATEGORY:Special Ability		TYPE:MightyWallopEffect.SpecialQuality			DESC:You increase the damage done by a bludgeoning Weapon weapon.						BONUS:WEAPONPROF=Flurry of Blows|DAMAGESIZE|1
 
 
 
@@ -3314,7 +3315,7 @@ Eagle Empathy		KEY:WereEagle ~ Eagle Empathy		CATEGORY:Special Ability		TYPE:Ext
 
 
 ############FEAT FIXES
-Beast Strike			CATEGORY:FEAT		TYPE:General				SOURCEPAGE:Dragon Magazind 355, 76		DESC:Benefit: When you make an unarmed strike or grapple check to deal damage, you may add your claw or slam damage to your unarmed strike or grapple damage.    Special: A fighter may select Beast Strike as a fighter bonus feat.	PREATT:5		PREABILITY:1,CATEGORY=FEAT,Improved Unarmed Strike		PREWEAPONPROF:1,Claw,Claws,Bite
+Beast Strike			CATEGORY:FEAT		TYPE:General				SOURCEPAGE:Dragon Magazind 355, 76		DESC:Benefit: When you make an unarmed strike or grapple check to deal damage, you may add your claw or slam damage to your unarmed strike or grapple damage.    Special: A fighter may select Beast Strike as a fighter bonus feat.	PREATT:5		PREABILITY:1,CATEGORY=FEAT,Improved Unarmed Strike		PREWEAPONPROF:1,Claw,Claws,Bite,Slam
 
 Improved Natural Attack (Unarmed Strike)			CATEGORY:FEAT	TYPE:General		 BONUS:WEAPONPROF=Unarmed Strike|DAMAGESIZE|1			SERVESAS:ABILITY=FEAT|Improved Natural Attack		DESC:Improved Natural Attack for Unarmed Strike
 
@@ -3565,3 +3566,101 @@ Unliving Golem			KEY:Ironmonger ~ UnLiving Golem	CATEGORY:Special Ability		TYPE:
 
 Metallic Assistant			KEY:Ironmonger ~ Metallic Assistant		CATEGORY:Special Ability		TYPE:SpecialQuality.Supernatural.IronmongerClassFeature			DESC:The durationof Animate Metal is now 24 hours
 
+
+
+Immunities					KEY:Half-Doppelganger ~ Immunities		DESC:Half-doppelgangers are immune to sleep and charm effects.		TYPE:HalfDoppelGangerRaceTrait.Extraordinary.SpecialQuality			CATEGORY:Special Ability		
+
+
+Empathy					KEY:Half-Doppelganger ~ Empathy		DESC:Half-doppelgangers are immune to sleep and charm effects.		TYPE:HalfDoppelGangerRaceTrait.SpellLike.SpecialQuality			CATEGORY:Special Ability		DESC:At will - empathy. Caster level equal to racial HD or 1st-level caster if the base creature lacks racial HD. Save DC equal to 11 + Charisma modifier.			SPELLS:Innate|TIMES=ATWILL|Empathy,10+max(1,HD)+CHA
+
+
+Alternate Forms					KEY:Half-Doppelganger ~ Alternate Forms		DESC:Upon gaining maturity, the half-doppelganger learns to take three humanoid forms in addition to its own shape. These three forms may be that of any Medium or Small humanoid, but once a form is chosen, it permanently becomes one of the half-doppelganger's three alternate choices. For example, if a half-doppelganger learns to take the shape f a female halfling, male elf, and male orc, those three forms are his alternate forms, and he may not later choose the form of a female gnome.		TYPE:HalfDoppelGangerRaceTrait.Supernatural.SpecialQuality			CATEGORY:Special Ability		
+
+
+
+
+#Physical qualities include 
+#natural size, 
+#mundane movement capabilities (such as burrowing, climbing, walking, swimming, and flight with wings, to a maximum speed of 120 feet for flying or 60 feet for nonflying movement), 
+#natural armor bonus, 
+#natural weapons (such as claws, bite, and so on), 
+#racial skill bonuses, 
+#racial bonus feats, and 
+#any gross physical qualities (presence or absence of wings, number of extremities, and so forth). 
+Alternate Form	VISIBLE:NO		KEY:Half-Doppelganger ~ Human Alternate Form		DESC:Your alternate form is a human.  It has the following characteristics.		CATEGORY:Special Ability			SERVESAS:ABILITY=Special Ability|Alternate Form			TYPE:HalfDoppelGangerRaceAlternateForm.Supernatural.SpecialQuality			CHOOSE:USERINPUT|TITLE=Describe Your Alternate Form			DESC:Your form has the following traits - |%CHOICE			TYPE:Supernatural.SpecialQuality.HalfDoppelGangerRaceAlternateForm		MULT:YES		STACK:NO
+
+
+
+
+
+CATEGORY=Special Ability|Half-Doppelganger ~ Human Alternate Form.COPY=Human Alternate Form			TYPE:SpecialQ
+CATEGORY=Special Ability|Human Alternate Form.MOD	ABILITY:Special Ability|AUTOMATIC|Half Doppelganger Human Alternate Form Assumed|PREVARGTEQ:HDHumanFormAssumed,1	DEFINE:HDHumanFormAssumed|0		TEMPBONUS:PC|VAR|HDHumanFormAssumed|1	VISIBLE:YES	
+Half Doppelganger Human Alternate Form Assumed			CATEGORY:Special Ability			TYPE:Hidden	TEMPLATE:HDHumanAlternateForm	
+
+
+CATEGORY=Special Ability|Half-Doppelganger ~ Human Alternate Form.COPY=Dwarf Alternate Form
+CATEGORY=Special Ability|Dwarf Alternate Form.MOD		ABILITY:Special Ability|AUTOMATIC|Half Doppelganger Dwarf Alternate Form Assumed|PREVARGTEQ:HDDwarfFormAssumed,1	DEFINE:HDDwarfFormAssumed|0		TEMPBONUS:PC|VAR|HDDwarfFormAssumed|1	VISIBLE:YES	
+Half Doppelganger Dwarf Alternate Form Assumed			CATEGORY:Special Ability			TYPE:Hidden	TEMPLATE:HDDwarfAlternateForm	
+
+
+CATEGORY=Special Ability|Half-Doppelganger ~ Human Alternate Form.COPY=Gnome Alternate Form
+CATEGORY=Special Ability|Gnome Alternate Form.MOD		ABILITY:Special Ability|AUTOMATIC|Half Doppelganger Gnome Alternate Form Assumed|PREVARGTEQ:HDGnomeFormAssumed,1	DEFINE:HDGnomeFormAssumed|0		TEMPBONUS:PC|VAR|HDGnomeFormAssumed|1	VISIBLE:YES	
+Half Doppelganger Gnome Alternate Form Assumed			CATEGORY:Special Ability			TYPE:Hidden	TEMPLATE:HDGnomeAlternateForm	
+
+
+
+CATEGORY=Special Ability|Half-Doppelganger ~ Human Alternate Form.COPY=Elf Alternate Form
+CATEGORY=Special Ability|Elf Alternate Form.MOD		ABILITY:Special Ability|AUTOMATIC|Half Doppelganger Elf Alternate Form Assumed|PREVARGTEQ:HDElfFormAssumed,1	DEFINE:HDElfFormAssumed|0		TEMPBONUS:PC|VAR|HDElfFormAssumed|1	VISIBLE:YES	
+Half Doppelganger Elf Alternate Form Assumed			CATEGORY:Special Ability			TYPE:Hidden	TEMPLATE:HDElfAlternateForm	
+
+
+
+CATEGORY=Special Ability|Half-Doppelganger ~ Human Alternate Form.COPY=Half-Elf Alternate Form
+CATEGORY=Special Ability|Half-Elf Alternate Form.MOD		ABILITY:Special Ability|AUTOMATIC|Half Doppelganger Half-Elf Alternate Form Assumed|PREVARGTEQ:HDHalf-ElfFormAssumed,1	DEFINE:HDHalf-ElfFormAssumed|0		TEMPBONUS:PC|VAR|HDHalf-ElfFormAssumed|1	VISIBLE:YES	
+Half Doppelganger Half-Elf Alternate Form Assumed			CATEGORY:Special Ability			TYPE:Hidden	TEMPLATE:HDHalf-ElfAlternateForm	
+
+
+
+
+CATEGORY=Special Ability|Half-Doppelganger ~ Human Alternate Form.COPY=Half-Orc Alternate Form
+CATEGORY=Special Ability|Half-Orc Alternate Form.MOD		ABILITY:Special Ability|AUTOMATIC|Half Doppelganger Half-Orc Alternate Form Assumed|PREVARGTEQ:HDHalf-OrcFormAssumed,1	DEFINE:HDHalf-OrcFormAssumed|0		TEMPBONUS:PC|VAR|HDHalf-OrcFormAssumed|1	VISIBLE:YES	
+Half Doppelganger Half-Orc Alternate Form Assumed			CATEGORY:Special Ability			TYPE:Hidden	TEMPLATE:HDHalf-OrcAlternateForm	
+
+
+CATEGORY=Special Ability|Half-Doppelganger ~ Human Alternate Form.COPY=Bugbear Alternate Form
+CATEGORY=Special Ability|Bugbear Alternate Form.MOD		ABILITY:Special Ability|AUTOMATIC|Half Doppelganger Bugbear Alternate Form Assumed|PREVARGTEQ:HDBugbearFormAssumed,1	DEFINE:HDBugbearFormAssumed|0		TEMPBONUS:PC|VAR|HDBugbearFormAssumed|1	VISIBLE:YES	
+Half Doppelganger Bugbear Alternate Form Assumed			CATEGORY:Special Ability			TYPE:Hidden	TEMPLATE:HDBugbearAlternateForm	
+
+
+CATEGORY=Special Ability|Half-Doppelganger ~ Human Alternate Form.COPY=Halfling Alternate Form
+CATEGORY=Special Ability|Halfling Alternate Form.MOD		ABILITY:Special Ability|AUTOMATIC|Half Doppelganger Halfling Alternate Form Assumed|PREVARGTEQ:HDHalflingFormAssumed,1	DEFINE:HDHalflingFormAssumed|0		TEMPBONUS:PC|VAR|HDHalflingFormAssumed|1	VISIBLE:YES	
+Half Doppelganger Halfling Alternate Form Assumed			CATEGORY:Special Ability			TYPE:Hidden	TEMPLATE:HDHalflingAlternateForm	
+
+
+CATEGORY=Special Ability|Half-Doppelganger ~ Human Alternate Form.COPY=Gnoll Alternate Form
+CATEGORY=Special Ability|Gnoll Alternate Form.MOD		ABILITY:Special Ability|AUTOMATIC|Half Doppelganger Gnoll Alternate Form Assumed|PREVARGTEQ:HDGnollFormAssumed,1	DEFINE:HDGnollFormAssumed|0		TEMPBONUS:PC|VAR|HDGnollFormAssumed|1	VISIBLE:YES	
+Half Doppelganger Gnoll Alternate Form Assumed			CATEGORY:Special Ability			TYPE:Hidden	TEMPLATE:HDGnollAlternateForm	
+
+
+
+CATEGORY=Special Ability|Half-Doppelganger ~ Human Alternate Form.COPY=Hobgoblin Alternate Form
+CATEGORY=Special Ability|Hobgoblin Alternate Form.MOD		ABILITY:Special Ability|AUTOMATIC|Half Doppelganger Hobgoblin Alternate Form Assumed|PREVARGTEQ:HDHobgoblinFormAssumed,1	DEFINE:HDHobgoblinFormAssumed|0		TEMPBONUS:PC|VAR|HDHobgoblinFormAssumed|1	VISIBLE:YES	
+Half Doppelganger Hobgoblin Alternate Form Assumed			CATEGORY:Special Ability			TYPE:Hidden	TEMPLATE:HDHobgoblinAlternateForm	
+
+
+
+CATEGORY=Special Ability|Half-Doppelganger ~ Human Alternate Form.COPY=Lizardfolk Alternate Form
+CATEGORY=Special Ability|Lizardfolk Alternate Form.MOD			ABILITY:Special Ability|AUTOMATIC|Half Doppelganger Lizardfolk Alternate Form Assumed|PREVARGTEQ:HDLizardfolkFormAssumed,1	DEFINE:HDLizardfolkFormAssumed|0		TEMPBONUS:PC|VAR|HDLizardfolkFormAssumed|1	VISIBLE:YES	
+Half Doppelganger Lizardfolk Alternate Form Assumed			CATEGORY:Special Ability			TYPE:Hidden	TEMPLATE:HDLizardfolkAlternateForm	
+
+CATEGORY=Special Ability|Half-Doppelganger ~ Human Alternate Form.COPY=Locathah Alternate Form
+CATEGORY=Special Ability|Locathah Alternate Form.MOD			ABILITY:Special Ability|AUTOMATIC|Half Doppelganger Locathah Alternate Form Assumed|PREVARGTEQ:HDLocathahFormAssumed,1	DEFINE:HDLocathahFormAssumed|0		TEMPBONUS:PC|VAR|HDLocathahFormAssumed|1	VISIBLE:YES	
+Half Doppelganger Locathah Alternate Form Assumed			CATEGORY:Special Ability			TYPE:Hidden	TEMPLATE:HDLocathahAlternateForm	
+
+
+CATEGORY=Special Ability|Half-Doppelganger ~ Human Alternate Form.COPY=Raptoran Alternate Form
+CATEGORY=Special Ability|Raptoran Alternate Form.MOD			ABILITY:Special Ability|AUTOMATIC|Half Doppelganger Raptoran Alternate Form Assumed|PREVARGTEQ:HDRaptoranFormAssumed,1	DEFINE:HDRaptoranFormAssumed|0		TEMPBONUS:PC|VAR|HDRaptoranFormAssumed|1	VISIBLE:YES	
+Half Doppelganger Raptoran Alternate Form Assumed			CATEGORY:Special Ability			TYPE:Hidden	TEMPLATE:HDRaptoranAlternateForm	
+
+
+Githyanki Plane Shift			CATEGORY:Special ability		SPELLS:Githyanki Psionics|TIMES=1|Plane Shift

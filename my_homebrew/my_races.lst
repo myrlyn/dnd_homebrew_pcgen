@@ -119,3 +119,6 @@ Hengeyokai		KEY:Hengeyokai ~ Custom		BONUS:STAT|WIS|-2|TYPE=Racial.STACK		RACETY
 
 
 Petal		SIZE:T		RACETYPE:Fey	MOVE:Walk,15,Fly,60		ABILITY:Special Ability|AUTOMATIC|Aerial Maneuverability		BONUS:VAR|Maneuverability|4		FACE:0	REACH:0		BONUS:STAT|STR|-8|TYPE=Racia.STACK	BONUS:STAT|DEX|10|TYPE=Racial.STACK		BONUS:STAT|CON|4|TYPE=Racial.STACK		BONUS:STAT|INT|4|TYPE=Racial.STACK		BONUS:STAT|CHA|8|TYPE=Racial.STACK		MONCSKILL:Craft (Flower Arranging)|Escape Artist|Hide|Knowledge (Nature)|Move Silently|Spot|Tumble		ABILITY:FEAT|VIRTUAL|Weapon Finesse		CR:1		LEVELADJUSTMENT:2		HITDICEADVANCEMENT:3		SOURCEPAGE: MMIII,120		AUTO:LANG|Sylvan|Common			STARTFEATS:1
+
+
+Githzerai.MOD				TEMPLATE:Psionic			SPELLS:Githyanki Psionics|TIMES=3|TIMEUNIT=Day|CASTERLEVEL=16|Daze,11+CHA|Feather Fall|Shatter,12+CHA		SR:TL+5			ABILITY:Special Ability|AUTOMATIC|Githyanki Plane Shift|PRELEVEL:MIN=11

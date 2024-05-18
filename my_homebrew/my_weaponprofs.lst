@@ -35,5 +35,5 @@ Pistol (Revolver)			TYPE:Exotic.Ranged.Firearms
 
 Greatpick				TYPE:Exotic.Melee.Piercing.Kobold
 
-
+Rope Dart				TYPE:Finessseable.TwoHanded.Reach.Monk.Exotic		HANDS:2
 Spells (Ray).COPY=Eldritch Blast
