@@ -64,6 +64,14 @@ Heart Aspect Breath Weapon		CATEGORY:Special Ability		ASPECT:NAME|Breath Weapon 
 
 Breath Weapon						KEY:Tongue Studs of Hell Breath ~ Breath Weapon		CATEGORY:Special Ability		TYPE:Supernatural.SpecialAttack.BreathWeapon	ASPECT:NAME|Breath Weapon %1d%2, %3 ft line|3+GlobalBonusBreathDice|6|50			DESC:This hellfire deals unholy (not fire) damage. There is no saving throw.  Usable %1/Day|HellBreathTimes			DEFINE:HellBreathTimes|0		BONUS:VAR|HellBreathTimes|3		BONUS:VAR|HellBreathTimes|ExtraBreathWeaponTimes
 
+#core/monster_manual/mm_abilities.lst:Hydra ~ Breath Fire                                                                                                                                OUTPUTNAME:Breath Fire  CATEGORY:Special Ability        TYPE:SpecialQuality           VISIBLE:YES                                                      DESC:%1 heads every 1d4 rounds/3d6 Fire Damage/DC %2 for half|HydraHeadCount|DC_Breath_Weapon   DEFINE:DC_Breath_Weapon|0       BONUS:VAR|DC_Breath_Weapon|10+floor(HydraHeadCount/2)+CON       BONUS:VAR|DC_Breath_Weapon|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Breath Weapon)  ABILITY:Ability Focus|AUTOMATIC|Breath Weapon
+
+
+CATEGORY=Special Ability|Hydra ~ Breath Fire.MOD		TYPE:BreathWeapon.Breath Weapon	DESC:.CLEAR			DESC:%1 heads every 1d4 rounds/%3d6 Fire Damage/DC %2 for half.  10' high, 10' wide, 20' long, from each head simultaneously.|HydraHeadCount|DC_Breath_Weapon+GlobalBonusBonusBreathDC|PyrohydraBreathDamage+GlobalBonusBreathDice			DEFINE:PyrohydraBreathDamage|0		BONUS:VAR|PyrohydraBreathDamage|3*HydraHeadCount					TYPE:.CLEAR.SpecialQuality			TYPE:SpecialAttack			ASPECT:NAME|Breat Weapon (%1d6/%2)|PyrohydraBreathDamage+GlobalBonusBreathDice|DC_Breath_Weapon+GlobalBonusBonusBreathDC
+
+CATEGORY=Special Ability|Hydra ~ Fast Healing.MOD		DESC: (%1 total)|FastHealingRate		DEFINE:FastHealingRate|0		BONUS:VAR|FastHealingRate|10+HydraHeadCount		SERVESAS:ABILITY=Special Ability|Fast Healing
+
+
 Breath Weapon						KEY:Tongue Studs of Cleansing Fire ~ Breath Weapon		CATEGORY:Special Ability		TYPE:Supernatural.SpecialAttack.BreathWeapon	ASPECT:NAME|Breath Weapon %1d%2, %3 ft line|3+GlobalBonusBreathDice|6|50			DESC:This Cleansing Fire deals holy (not fire) damage. There is no saving throw.  Usable %1/Day|CleansingBreathTimes			DEFINE:CleansingBreathTimes|0		BONUS:VAR|CleansingBreathTimes|3		BONUS:VAR|CleansingBreathTimes|ExtraBreathWeaponTimes
 
 Breath Weapon						KEY:Mask Of Dragon Breath Fire Line ~ Breath Weapon		CATEGORY:Special Ability		TYPE:Supernatural.SpecialAttack.BreathWeapon	ASPECT:NAME|Breath Weapon %1d%2, %3 ft line|4+GlobalBonusBreathDice|6|60			DESC:Breath weapon from Mask of Dragon Breath.  Fire Damage.  Reflex save for half Damage.  Usable %1/Day|MaskBreathTimes			DEFINE:MaskBreathTimes|0		BONUS:VAR|MaskBreathTimes|3		BONUS:VAR|MaskBreathTimes|ExtraBreathWeaponTimes
@@ -287,6 +295,7 @@ Unholy Blight		KEY:Evolved Undead ~ Unholy Blight		CATEGORY:Special Ability	DESC
 
 Holy Smite		KEY:Evolved Deathless ~ Holy Smite		CATEGORY:Special Ability	DESC:You have a spell-like ability, usable 1/day.		TYPE:Evolved Deathless Spell-like Ability	SPELLS:Innate|TIMES=1|TIMEUNIT=Day|CASTERLEVEL=TL|Holy Smite,16+CHA
 
+Scorpion's Grasp		CATEGORY:FEAT		TYPE:General		PREABILITY:2,CATEGORY=FEAT,Improved Unarmed Strike,Improved Grapple	PRESTAT:1,STR=13		DESC:Like the scorpion, you can grab and hold your prey.	SOURCEPAGE:Sandstorm 52		BENEFIT:If your attack with an unarmed strike or a light or one-handed melee weapon hits, the strike deals normal damage and you can attempt to start a grapple as a free action; no initial touch attack is required. If you succeed in starting the grapple, you must drop your onehanded weapon, but if you started the grapple with a light weapon, you can use it in each round to make an attack against the creature you are grappling without taking the normal -4 penalty on the attack roll. If you initiated the grapple while armed, however, you cannot make additional grapple checks to deal damage during the round in which you use this feat. You have the option to conduct the grapple normally, or you may hold a creature one or more sizes smaller than you with your off hand. If you choose to do the latter, you take a -20 penalty on grapple checks against that creature and you cannot deal damage with your grapple checks, but you are not considered grappled yourself. You don't lose your Dexterity bonus to AC, you still threaten an area, and you can use remaining attacks against other opponents. While maintaining this latter type of hold, you can move normally (possibly carrying your opponent away), provided you can drag the opponent's weight.			SERVESAS:ABILITY=Special Ability|Improved Grab
 
 Unnatural Resilience	KEY:Deathless ~ Unnatural Resilience		CATEGORY:Special ability	TYPE:SpecialQuality.Extraordinary		DESC:You automatically heal hit point damage and ability damage at the same rate as a living creature. The Heal skill has no effect on you.
 Resist Control	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	DESC:+2 profane bonus on Will saves against Control Undead spell.	SOURCEPAGE:LM
@@ -298,7 +307,22 @@ Superior Unarmed Strike		KEY:Battle Dancer ~ Superior Unarmed Strike		SERVESAS:A
 
 
 CATEGORY=Special Ability|Bardic Music ~ Inspire Courage.MOD		BONUS:VAR|BardicInspireCourageLVL|BardLVL
+CATEGORY=FEAT|Open Lesser Chakra.MOD				BONUS:ABILITYPOOL|Opened Lesser Chakras|1
+Arms		KEY:Open Lesser Chakra ~ Arms		CATEGORY:Special Ability			TYPE:SpecialQuality.OpenedLesserChakra		DESC:You have opened your arms chakra.  +2 insight bonus on grapple checks.		BONUS:COMBAT|TOHIT.GRAPPLE|2|TYPE=Insight
 
+Brow		KEY:Open Lesser Chakra ~ Brow		CATEGORY:Special Ability			TYPE:SpecialQuality.OpenedLesserChakra		DESC:You have opened your brow chakra.  +1 insight bonus on search and spot.		BONUS:SKILL|Search,Spot|1|TYPE=Insight
+
+Shoulders		KEY:Open Lesser Chakra ~ Shoulders		CATEGORY:Special Ability			TYPE:SpecialQuality.OpenedLesserChakra		DESC:You have opened your shoulders chakra.  +1 insight bonus on reflex savs.			BONUS:SAVE|BASE.Reflex|1|TYPE=Insight
+
+Girallon Arms (Unbound)			KEY:Shape Soulmeld ~ Girallon Arms Unbound			DESC:Your girallon arms grant you a +2 competence bonus on Climb checks and grapple checks.		ABILITY:Special Ability|AUTOMATIC|Totemist Soulmeld ~ Girallon Arms (Unbound)				CATEGORY:Special Ability	TYPE:ShapeSoulMeldApplied
+
+Girallon Arms (Unbound)			KEY:Shape Soulmeld ~ Girallon Arms Unbound			DESC:Your girallon arms grant you a +2 competence bonus on Climb checks and grapple checks.		ABILITY:Special Ability|AUTOMATIC|Totemist Soulmeld ~ Girallon Arms (Unbound)				CATEGORY:Special Ability	TYPE:ShapeSoulMeldApplied
+
+
+Hydra Combat Reflxes			CATEGORY:Special Ability	TYPE:SpecialAttack			DESC:A hydra’s Combat Reflexes feat allows it to use all its heads for attacks of opportunity (allowing it up to %1 Opportunity Attacks per turn assuming no heads have been removed or regrown)|HydraHeadCount
+
+
+CATEGORY=FEAT|Shape Soulmeld.MOD		BONUS:ABILITYPOOL|Shape Soulmeld|1
 
 
 Knock-Down	CATEGORY:FEAT	TYPE:General		SOURCEPAGE:SRD,Divine Abilities		DESC: Whenever you deal 10 or more points of damage to your opponent in melee, you make a trip attack as a free action against the same target. 	BENEFIT: Whenever you deal 10 or more points of damage to your opponent in melee, you make a trip attack as a free action against the same target. 		PREATT:2	PRESTAT:1,STR=15		PREABILITY:1,CATEGORY=FEAT,Improved Trip
@@ -307,6 +331,10 @@ Knock-Down	CATEGORY:FEAT	TYPE:General		SOURCEPAGE:SRD,Divine Abilities		DESC: Wh
 +1 Size	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:SIZEMOD|NUMBER|1|TYPE=Racial.STACK		COST:0
 
 -1 Size	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Size by 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:SIZEMOD|NUMBER|-1|TYPE=Racial.STACK		COST:0
+
++5 Reach	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase Reach by 5		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:COMBAT|REACH|5|TYPE=Racial.STACK		COST:0
+
+-5 Reach	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Decrease Reach by 5		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:COMBAT|REACH|-5|TYPE=Racial.STACK		COST:0
 
 
 

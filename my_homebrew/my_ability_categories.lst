@@ -191,3 +191,14 @@ ABILITYCATEGORY:Half-Doppelganger Alternate Forms		VISIBLE:QUALIFY	EDITABLE:YES	
 
 
 ABILITYCATEGORY:Aeshkrau Classes		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability	TYPE:AeshkrauClasses		PLURAL:Aeshkrau Classes		DISPLAYLOCATION:Race Traits
+
+
+
+ABILITYCATEGORY:Shape Soulmeld				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:ShapeSoulMeldApplied			DISPLAYLOCATION:Feats
+#IncarnateSoulmeldApplied.TotemistSoulmeldApplied.SoulbornSoulmeldApplied
+
+
+
+ABILITYCATEGORY:Opened Lesser Chakras				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:OpenedLesserChakra			DISPLAYLOCATION:Feats
+
+
