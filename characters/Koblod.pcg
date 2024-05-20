@@ -1,0 +1,266 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Koblod
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:18
+STAT:DEX|SCORE:16
+STAT:CON|SCORE:18
+STAT:INT|SCORE:16
+STAT:WIS|SCORE:16
+STAT:CHA|SCORE:21
+ALIGN:NONE
+RACE:Kobold
+
+# Character Class(es)
+CLASS:Ranger|LEVEL:1|SKILLPOOL:0|SPELLBASE:WIS|CANCASTPERDAY:
+CLASS:Wilder|LEVEL:4|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:
+CLASS:Illithid Slayer|LEVEL:7|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Ranger=1|HITPOINTS:8|SKILLSGAINED:44|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wilder=1|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wilder=2|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wilder=3|HITPOINTS:6|PRESTAT:CHA=1|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wilder=4|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Illithid Slayer=1|HITPOINTS:8|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Illithid Slayer=2|HITPOINTS:8|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;WILDER&pipe;1]|ADD:[SPELLCASTER:Psionic|CHOICE:Wilder]|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Illithid Slayer=3|HITPOINTS:8|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;WILDER&pipe;1]|ADD:[SPELLCASTER:Psionic|CHOICE:Wilder]|PRESTAT:CHA=1|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Illithid Slayer=4|HITPOINTS:8|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;WILDER&pipe;1]|ADD:[SPELLCASTER:Psionic|CHOICE:Wilder]|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Illithid Slayer=5|HITPOINTS:8|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;WILDER&pipe;1]|ADD:[SPELLCASTER:Psionic|CHOICE:Wilder]|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Illithid Slayer=6|HITPOINTS:8|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;WILDER&pipe;1]|ADD:[SPELLCASTER:Psionic|CHOICE:Wilder]|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Illithid Slayer=7|HITPOINTS:8|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;WILDER&pipe;1]|ADD:[SPELLCASTER:Psionic|CHOICE:Wilder]|PRESTAT:CHA=1|SKILLSGAINED:9|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:66000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Humanoid]]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Ranger]
+TEMPLATESAPPLIED:[NAME:Psionic]
+TEMPLATESAPPLIED:[NAME:First Level ~ Ranger|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
+TEMPLATESAPPLIED:[NAME:Kobold Bonus Languages]
+TEMPLATESAPPLIED:[NAME:Language ~ Bonus (Kobold)]
+TEMPLATESAPPLIED:[NAME:Magic Blooded (Spark)]
+TEMPLATESAPPLIED:[NAME:Primordial giant]
+TEMPLATESAPPLIED:[NAME:Half-Ogre(Medium Or Smaller)]
+TEMPLATESAPPLIED:[NAME:Half-Minotaur]
+TEMPLATESAPPLIED:[NAME:Face 10]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+TEMPLATESAPPLIED:[NAME:Unseelie Fey]
+TEMPLATESAPPLIED:[NAME:RaceSubtype ~ Augmented Humanoid]
+TEMPLATESAPPLIED:[NAME:Dragonwrought]
+TEMPLATESAPPLIED:[NAME:Reach 10]
+TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Wilder|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Illithid Slayer|RANKS:7.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Ranger|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Wilder|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Illithid Slayer|RANKS:7.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Ranger|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Alchemy)|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Ranger|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Armorsmithing)|OUTPUTORDER:8|CLASSBOUGHT:[CLASS:Ranger|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:9|
+SKILL:Diplomacy|OUTPUTORDER:10|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:11|
+SKILL:Disguise|OUTPUTORDER:12|
+SKILL:Escape Artist|OUTPUTORDER:13|
+SKILL:Forgery|OUTPUTORDER:14|
+SKILL:Gather Information|OUTPUTORDER:15|
+SKILL:Heal|OUTPUTORDER:16|
+SKILL:Hide|OUTPUTORDER:17|
+SKILL:Hide (Forested Areas)|OUTPUTORDER:18|
+SKILL:Intimidate|OUTPUTORDER:19|
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:20|
+SKILL:Jump|OUTPUTORDER:21|
+SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Wilder|RANKS:4.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Illithid Slayer|RANKS:7.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Ranger|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:23|
+SKILL:Listen|OUTPUTORDER:24|
+SKILL:Literacy|OUTPUTORDER:25|
+SKILL:Move Silently|OUTPUTORDER:26|
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:27|
+SKILL:Psicraft|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Wilder|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Illithid Slayer|RANKS:7.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Ranger|RANKS:2.0|COST:2|CLASSSKILL:N]
+SKILL:Ride|OUTPUTORDER:29|
+SKILL:Search|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Wilder|RANKS:2.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Ranger|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive|OUTPUTORDER:31|
+SKILL:Skill Trick|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Wilder|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Ranger|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Wilder|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Illithid Slayer|RANKS:7.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Ranger|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Illithid Slayer|RANKS:7.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Ranger|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Swim|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Wilder|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Illithid Slayer|RANKS:7.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Ranger|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Rope|OUTPUTORDER:36|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Undercommon|LANGUAGE:Yip-yak
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Undercommon,Common|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Undercommon,Common|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Draconic Selection|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Draconic Selection ~ Howling|TYPE:DraconicSelection
+USERPOOL:Draconic Selection|POOLPOINTS:0.0
+ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
+USERPOOL:ECL Buy Down|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Bonus Essentia|TYPE:General|DESC:You are better able to harness your personal store of incarnum.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dragonwrought|TYPE:General.FirstLevel|DESC:You were born a dragonwrought kobold, proof of your race's innate connection to dragons.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Large and in Charge|TYPE:General|DESC:Push back foe attempting to close
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Monkey Grip ~ Fixed|TYPE:General|DESC:You may wield weapons as if you were one size larger, but at a -2 penalty.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Psionic Meditation|TYPE:Psionic|DESC:You can focus your mind faster than normal, even under duress.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Quicken Power|TYPE:Metapsionic|DESC:You can manifest a power with a moment's thought.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Shape Soulmeld|TYPE:General|DESC:You gain the ability to shape a single soulmeld.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Enemy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Enemy ~ Aberration|TYPE:Class Feature.Ranger Class Feature.FavoredEnemy.Extraordinary.SpecialAttack|DESC:Gain a +%1 bonus on Bluff, Listen, Sense Motive, Spot, and Survival checks when using these skills against creatures of this type. Likewise, he gets a +%1 bonus on weapon damage rolls against such creatures.&pipe;FavoredEnemyBonusAberration
+USERPOOL:Favored Enemy|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Meager Fortitude|TYPE:Flaws.SpecialQuality|DESC:You are sickly and weak of stomach.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Shaky|TYPE:Flaws.SpecialQuality|DESC:You are relatively poor at ranged combat.
+USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:Kobold Draconic Rite of Passage|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Kobold ~ Draconic Rite of Passage|TYPE:KoboldDraconicRiteOfPassage.SpecialQuality|DESC:The Draconic Rite of Passage awakens the sorcerous power within the blood of kobolds.
+USERPOOL:Kobold Draconic Rite of Passage|POOLPOINTS:0.0
+ABILITY:Kobold SLA|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Kobold SLA ~ Disguise Self|TYPE:ClassAbility.SpellLike.SpecialQuality.FirstLevelSorcererSLA
+USERPOOL:Kobold SLA|POOLPOINTS:0.0
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Rule - Use ECL Level Buy Down|TYPE:MiscOptions
+USERPOOL:Misc Options|POOLPOINTS:0.0
+ABILITY:Race Base|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Kobold|TYPE:KoboldSubrace.KoboldBase.Race Base
+USERPOOL:Race Base|POOLPOINTS:0.0
+ABILITY:Ranger Class|TYPE:NORMAL|CATEGORY:Internal|KEY:Standard Ranger|TYPE:RangerClass
+USERPOOL:Ranger Class|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Region ~ None|TYPE:Region
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Collector of Stories|TYPE:ST.SpecialQuality.SkillTrick.Mental|DESC:When you attempt a trained Knowledge check to identify a creature to learn its special powers or vulnerabilities, you gain a +5 competence bonus on the check.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Spot the Weak Point|TYPE:ST.SpecialQuality.SkillTrick.Mental|DESC:Once per encounter, as a Standard Action, you can attempt a spot check DC &lbracket;opponent's AC&rbracket; and your next attack &lbracket;range 30 ft&rbracket; is considered a touch attack.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Swift Concentration|TYPE:ST.SpecialQuality.SkillTrick.Mental|DESC:You can maintain concentration on a spell or similar effect as a swift action.
+USERPOOL:Skill Tricks|POOLPOINTS:0.0
+ABILITY:Unseelie Fey Seasonal Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Autumn Harvest|TYPE:Supernatural.Unseelie Fey Seasonal Power.SpecialQuality|DESC: A number of times a day equal to your Charisma bonus (minimum 1) you can touch a creature with a special dispelling touch, which functions as a targeted Dispel Magic with caster level equal to your total HD.
+USERPOOL:Unseelie Fey Seasonal Power|POOLPOINTS:0.0
+ABILITY:Unseelie Fey Vision|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Standard Vision|TYPE:Unseelie Fey Vision|DESC:Your vision is unchanged
+USERPOOL:Unseelie Fey Vision|POOLPOINTS:0.0
+ABILITY:Unseelie Fey Wings|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Dragonlike|TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality|DESC:Your wings resemble dragon wings
+USERPOOL:Unseelie Fey Wings|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Axe (Throwing)|WEAPON:Bash|WEAPON:Battle Gauntlet|WEAPON:Battleaxe|WEAPON:Bite|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Claw|WEAPON:Club]
+WEAPONPROF:[WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dart Thruster|WEAPON:Darts (Barbed)|WEAPON:Eldritch Blast|WEAPON:Falchion]
+WEAPONPROF:[WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Goblin Stick|WEAPON:Gore|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub]
+WEAPONPROF:[WEAPON:Greatpick|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Halfspear|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Ice Axe|WEAPON:Javelin|WEAPON:Katana]
+WEAPONPROF:[WEAPON:Kukri|WEAPON:Lance|WEAPON:Lance (Flight)|WEAPON:Lance (Heavy)|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)]
+WEAPONPROF:[WEAPON:Maul|WEAPON:Morningstar|WEAPON:Pick (Dire)|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Saber]
+WEAPONPROF:[WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)]
+WEAPONPROF:[WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Strike (Unarmed)|WEAPON:Sword (Bastard)|WEAPON:Sword (Cutlass)|WEAPON:Sword (Saber)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Truncheon|WEAPON:Unarmed Strike]
+WEAPONPROF:[WEAPON:Wakizashi|WEAPON:Warhammer|WEAPON:Warmace]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Bite (Natural/Secondary)|OUTPUTORDER:5|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bite|DATA:KEY=Bite]
+EQUIPNAME:Boots of Speed|OUTPUTORDER:9|COST:12000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Claw (Natural/Primary)|OUTPUTORDER:4|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Claw|DATA:KEY=Claw]
+EQUIPNAME:Coin (Gold)|OUTPUTORDER:10|COST:1|WT:0.02|QUANTITY:1450.0|NOTE:
+EQUIPNAME:Full Plate +5 (Large)|OUTPUTORDER:8|COST:28150.0|WT:100.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Full Plate|DATA:NAME=Full Plate +5 (Large)$SIZE=L$EQMOD=STEEL.PLUS5A]
+EQUIPNAME:Gore (Natural/Primary)|OUTPUTORDER:6|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gore|DATA:KEY=Gore]
+EQUIPNAME:Greatsword (Gargantuan/Psychic)|OUTPUTORDER:2|COST:35400.0|WT:64.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Greatsword|DATA:NAME=Greatsword (Gargantuan/Psychic)$SIZE=G$EQMOD=Psychic.STEEL]
+EQUIPNAME:Strongarm Bracers|OUTPUTORDER:1|COST:6000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Traveler's Outfit (Large)|OUTPUTORDER:7|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Traveler's Outfit|DATA:NAME=Traveler's Outfit (Large)$KEY=Traveler_s Outfit (Large)$SIZE=L$COSTMOD=-1]
+EQUIPNAME:Truedeath Crystal (Lesser)|OUTPUTORDER:3|COST:5000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Clothing|ID:0.1.04|VALUE:Traveler's Outfit (Large)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Arms|ID:0.1.06|VALUE:Strongarm Bracers|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Body|ID:0.1.07|VALUE:Full Plate +5 (Large)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.08|VALUE:Greatsword (Gargantuan/Psychic)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Greatsword (Gargantuan/Psychic)|ID:0.1.08.01|VALUE:Truedeath Crystal (Lesser)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Foot|ID:0.1.09|VALUE:Boots of Speed|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.1|VALUE:Claw (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.10|VALUE:Coin (Gold)|QUANTITY:1450.0|USETEMPMODS:Y
+EQUIPSET:Natural-Secondary|ID:0.1.2|VALUE:Bite (Natural/Secondary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.3|VALUE:Gore (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+SPELLNAME:Body Purification|TIMES:1|CLASS:Wilder|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wilder]
+SPELLNAME:Energy Push|TIMES:1|CLASS:Wilder|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wilder]
+SPELLNAME:Force Screen|TIMES:1|CLASS:Wilder|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wilder]
+SPELLNAME:Mind Thrust|TIMES:1|CLASS:Wilder|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wilder]
+SPELLNAME:Mindwipe|TIMES:1|CLASS:Wilder|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wilder]
+SPELLNAME:Psychic Crush|TIMES:1|CLASS:Wilder|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Wilder]
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

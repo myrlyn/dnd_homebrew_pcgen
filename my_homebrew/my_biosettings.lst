@@ -29,7 +29,7 @@
 #
 #AGESET:3|Venerable	BONUS:STAT|STR,CON,DEX|-6	BONUS:STAT|INT,WIS,CHA|3
 #RACENAME:Half-Giant%	BASEAGE:120		MAXAGE:520	AGEDIEROLL:6d4+1
-
+#RACENAME:Kobold			BASEAGE:30		MAXAGE:120	
 #####
 #Bio Settings set the parameters for height, weight, eye color and other traits which can be randomly choosen in the description
 #tab.

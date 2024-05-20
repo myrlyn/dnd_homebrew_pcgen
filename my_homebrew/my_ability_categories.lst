@@ -188,3 +188,6 @@ ABILITYCATEGORY:Half-Doppelganger Race Traits		VISIBLE:QUALIFY	EDITABLE:NO	EDITP
 
 ABILITYCATEGORY:Half-Doppelganger Alternate Forms		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability	TYPE:HalfDoppelGangerRaceAlternateForm		PLURAL:Half-Doppelganger Alternate Forms		DISPLAYLOCATION:Race Traits
 
+
+
+ABILITYCATEGORY:Aeshkrau Classes		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability	TYPE:AeshkrauClasses		PLURAL:Aeshkrau Classes		DISPLAYLOCATION:Race Traits
