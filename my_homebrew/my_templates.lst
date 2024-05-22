@@ -166,7 +166,7 @@ Wielding With 3 Extra Hands					BONUS:WEAPONPROF=TYPE.TwoHanded|REACH|5				BONUS
 Wielding With 2 Extra Hands					BONUS:WEAPONPROF=TYPE.TwoHanded|REACH|5				BONUS:WIELDCATEGORY|TwoHanded|1			BONUS:WEAPONPROF=TYPE.TwoHanded|STATDAMAGE|(STR*2)/2		
 Wielding With 1 Extra Hands					BONUS:WEAPONPROF=TYPE.TwoHanded|STATDAMAGE|(STR*1)/2		
 
-
+Aberrate Spell		RACETYPE:Abberation			BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	VISIBLE:NO
 
 
 Half-Minotaur	PRESIZELT:L		PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Giant	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK			ABILITY:Special Ability|AUTOMATIC|Minotaur Cunning	ABILITY:Special Ability|AUTOMATIC|Scent		BONUS:STAT|STR|4|TYPE=Racial.STACK	BONUS:STAT|CON|2|TYPE=Racial.STACK	BONUS:STAT|INT|-2|TYPE=Racial.STACK		SAB:Minotaurs get a +2 Racial Bonus to Search, Spot, and Listen		BONUS:SKILL|Search,Spot,Listen|2|TYPE=Racial.STACK		ABILITY:FEAT|VIRTUAL|Track		CR:1		LEVELADJUSTMENT:1	VISION:Darkvision (60')			ABILITY:Internal|AUTOMATIC|Half-Minotaur (Medium or Smaller)	PRESIZELT:L	ABILITY:Internal|AUTOMATIC|HMGore (S)|PRESIZEEQ:S	ABILITY:Internal|AUTOMATIC|HMGore (M)|PRESIZEEQ:M	ABILITY:Internal|AUTOMATIC|HMGore (L)|PRESIZEEQ:L	ABILITY:Internal|AUTOMATIC|HMGore (H)|PRESIZEEQ:H		BONUS:SIZEMOD|NUMBER|1
@@ -509,5 +509,5 @@ HDRaptoranAlternateForm		VISIBLE:NO				SIZE:M		MOVE:Walk,30,Fly,40		BONUS:SKILL|
 
 
 
-
+Half-Nymph			VISION:Low-Light		BONUS:STAT|Int,Wis,Dex|2|TYPE=racial.STACK		BONUS:STAT|CHA|4|TYPE=Racial.STACK	LEVELADJUSTMENT:2	CR:2	SOURCEPAGE:Dragon 313		ABILITY:Special Ability|AUTOMATIC|Half-Nymph ~ Awesome Beauty|Half-Nymph ~ Fey Bloodline|!PRETEMPLATE:1,Dragonborn
 

@@ -72,7 +72,7 @@ CATEGORY=Special Ability|Hydra ~ Breath Fire.MOD		TYPE:BreathWeapon.Breath Weapo
 CATEGORY=Special Ability|Hydra ~ Fast Healing.MOD		DESC: (%1 total)|FastHealingRate		DEFINE:FastHealingRate|0		BONUS:VAR|FastHealingRate|10+HydraHeadCount		SERVESAS:ABILITY=Special Ability|Fast Healing
 
 
-Breath Weapon						KEY:Tongue Studs of Cleansing Fire ~ Breath Weapon		CATEGORY:Special Ability		TYPE:Supernatural.SpecialAttack.BreathWeapon	ASPECT:NAME|Breath Weapon %1d%2, %3 ft line|3+GlobalBonusBreathDice|6|50			DESC:This Cleansing Fire deals holy (not fire) damage. There is no saving throw.  Usable %1/Day|CleansingBreathTimes			DEFINE:CleansingBreathTimes|0		BONUS:VAR|CleansingBreathTimes|3		BONUS:VAR|CleansingBreathTimes|ExtraBreathWeaponTimes
+Breath Weapon						KEY:Tongue Studs of Cleansing Fire ~ Breath Weapon		CATEGORY:Special Ability		TYPE:Supernatural.SpecialAttack.BreathWeapon.Breath Weapon	ASPECT:NAME|Breath Weapon %1d%2, %3 ft line|3+GlobalBonusBreathDice|6|50			DESC:This Cleansing Fire deals holy (not fire) damage. There is no saving throw.  Usable %1/Day|CleansingBreathTimes			DEFINE:CleansingBreathTimes|0		BONUS:VAR|CleansingBreathTimes|3		BONUS:VAR|CleansingBreathTimes|ExtraBreathWeaponTimes
 
 Breath Weapon						KEY:Mask Of Dragon Breath Fire Line ~ Breath Weapon		CATEGORY:Special Ability		TYPE:Supernatural.SpecialAttack.BreathWeapon	ASPECT:NAME|Breath Weapon %1d%2, %3 ft line|4+GlobalBonusBreathDice|6|60			DESC:Breath weapon from Mask of Dragon Breath.  Fire Damage.  Reflex save for half Damage.  Usable %1/Day|MaskBreathTimes			DEFINE:MaskBreathTimes|0		BONUS:VAR|MaskBreathTimes|3		BONUS:VAR|MaskBreathTimes|ExtraBreathWeaponTimes
 
@@ -315,6 +315,18 @@ Brow		KEY:Open Lesser Chakra ~ Brow		CATEGORY:Special Ability			TYPE:SpecialQual
 Shoulders		KEY:Open Lesser Chakra ~ Shoulders		CATEGORY:Special Ability			TYPE:SpecialQuality.OpenedLesserChakra		DESC:You have opened your shoulders chakra.  +1 insight bonus on reflex savs.			BONUS:SAVE|BASE.Reflex|1|TYPE=Insight
 
 Girallon Arms (Unbound)			KEY:Shape Soulmeld ~ Girallon Arms Unbound			DESC:Your girallon arms grant you a +2 competence bonus on Climb checks and grapple checks.		ABILITY:Special Ability|AUTOMATIC|Totemist Soulmeld ~ Girallon Arms (Unbound)				CATEGORY:Special Ability	TYPE:ShapeSoulMeldApplied
+
+Improved Natural Attack		KEY:Improved Natural Attack ~ Grafted	PRESPELL:1,Graft Weapon		DESC:Improve A Natural Attack by 1 Category (Use this for grafted weapons)				CATEGORY:FEAT	TYPE:General.Monstrous.Monster		CHOOSE:WEAPONPROFICIENCY|PC			DEFINE:INAIsGrafted|0		ABILITY:Special Ability|AUTOMATIC|Weapon improvement(%LIST)|PREVARGTEQ:INAIsGrafted,1					MULT:YES		STACK:NO		TEMPBONUS:PC|VAR|INAIsGrafted|1
+
+Weapon improvement		CATEGORY:Special Ability		TYPE:Hidden		CHOOSE:WEAPONPROFICIENCY|PC,TYPE=Natural		BONUS:WEAPONPROF=%LIST|DAMAGESIZE|1			SOURCEPAGE:p.304			PRETOTALAB:4		BONUS:WEAPONPROF=CHOICE|TOHIT|1|TYPE=Insight	MULT:YES		STACK:NO	
+
+
+Astral Vambraces (Unbound)			KEY:Shape Soulmeld ~ Astral Vambraces Unbound			DESC:Your Astral Vambraces grant DR 2/magic			DEFINE:AstralVambraceDR|0				CATEGORY:Special Ability	TYPE:ShapeSoulMeldApplied.SpecialQuality		BONUS:VAR|AstralVambraceDR|2+2*EssentiaInvestedInAstralVambraces		DEFINE:EssentiaInvestedInAstralVambraces|0			
+
+Astral Vambraces (Arms)			KEY:Shape Soulmeld ~ Astral Vambraces Arms			DESC:Your Astral Vambraces grant DR 2/magic, you gain your choice of abilities from Astral Construct menu A.  This can be changed each time you Bind this soulmeld.		DEFINE:AstralVambraceDR|0				CATEGORY:Special Ability	TYPE:ShapeSoulMeldApplied.SpecialQuality		BONUS:VAR|AstralVambraceDR|2+2*EssentiaInvestedInAstralVambraces		DEFINE:EssentiaInvestedInAstralVambraces|0			
+
+Astral Vambraces (Hands)			KEY:Shape Soulmeld ~ Astral Vambraces Hands			DESC:Your Astral Vambraces grant DR 2/magic, gain a slam attack (not implemented).		DEFINE:AstralVambraceDR|0				CATEGORY:Special Ability	TYPE:ShapeSoulMeldApplied.SpecialQuality		BONUS:VAR|AstralVambraceDR|2+2*EssentiaInvestedInAstralVambraces		DEFINE:EssentiaInvestedInAstralVambraces|0			
+
 
 Girallon Arms (Unbound)			KEY:Shape Soulmeld ~ Girallon Arms Unbound			DESC:Your girallon arms grant you a +2 competence bonus on Climb checks and grapple checks.		ABILITY:Special Ability|AUTOMATIC|Totemist Soulmeld ~ Girallon Arms (Unbound)				CATEGORY:Special Ability	TYPE:ShapeSoulMeldApplied
 
@@ -3712,3 +3724,62 @@ Half Doppelganger Raptoran Alternate Form Assumed			CATEGORY:Special Ability			T
 
 
 Githyanki Plane Shift			CATEGORY:Special ability		SPELLS:Githyanki Psionics|TIMES=1|Plane Shift
+
+
+
+
+CATEGORY=Special Ability|Totemist ~ Meldshaping.MOD		DESC:  Totemist Soulmelds = %1, Meldshaper Level = %1, Totemist Level = %3, Totemist Progression = %4, Max Allowed = %5|TotemistSoulmeldsCount|TotemistMeldshaperLvl|TotemistLVL|TotemistSoulmeldProgression|TotemistSoulmeldMaxAllowed		
+
+CATEGORY=Special Ability|Totemist ~ Chakra Binds.MOD
+
+
+#BONUS:ABILITYPOOL|Totemist Soulmeld|TotemistSoulmeldsCount		
+#SOURCEPAGE:p.29	
+#DEFINE:TotemistSoulmeldsCount|0	
+#BONUS:VAR|TotemistSoulmeldsCount|min(TotemistSoulmeldProgression,TotemistSoulmeldMaxAllowed)	
+#DEFINE:TotemistSoulmeldProgression|0	
+#DEFINE:TotemistSoulmeldMaxAllowed|0	
+#BONUS:VAR|TotemistSoulmeldMaxAllowed|CONSCORE-10	
+#BONUS:VAR|TotemistSoulmeldProgression|2+(TotemistLVL>=2,1,0)+(TotemistLVL>=4,1,0)+(TotemistLVL>=7,1,0)+(TotemistLVL>=10,1,0)+(TotemistLVL>=13,1,0)+(TotemistLVL>=16,1,0)+(TotemistLVL>=19,1,0)
+
+
+Awesome Beauty			KEY:Half-Nymph ~ Awesome Beauty		CATEGORY:Special Ability		TYPE:Supernatural.SpecialAttack		DEFINE:AwesomeBeautyDC|0				BONUS:VAR|AwesomeBeautyDC|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus(Awesome Beauty)		BONUS:VAR|AwesomeBeautyDC|10+(HD/2)+CHA			DESC:This ability affects all humanoids within 30 feet of a half-nymph. Those who look directly at the nymph must succeed at a Will saving throw (DC 10 + half the half-nymph's racial HD + Charisma modifier) or be shaken for 1 minute. A creature that remains in range and continues to look at the half-nymph must continue to make saving throws against this ability. A successful saving throw while already shaken does not free the creature from the affect of the initial failed save. A failed saving throw while shaken resets the duration of the shaken condition to start from that round. A half-nymph can suppress or resume this ability as a free action. This is a mind-affecting, fear effect.				ASPECT:NAME|Awesome Beauty (DC %1)|AwesomeBeautyDC
+Awesome Beauty		CATEGORY:Special Ability		TYPE:AbilityFocus
+Fey Bloodline		KEY:Half-Nymph ~ Fey Bloodline		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary				DESC:Half-nymphs are considered creatures of the fey type when enchantment magic is directed against them. For example, the charm person spell does not affect a half-nymph creature, but charm monster affects them normally. Half-nymphs can also activate magical items restricted to fey creatures.		
+#SERVESAS:RACE|RACETYPE=Fey	
+
+
+Basic Meldshaping	CATEGORY:Special Ability	TYPE:Hidden	DEFINE:ChakraBinds|0	DEFINE:MaxSoulMelds|0	BONUS:VAR|MaxSoulMelds|CONSCORE-10	ABILITY:Special Ability|AUTOMATIC|Essentia Pool	DEFINE:MeldShaperLevel|0
+
+
+Meldshaping		KEY:CTotemist ~ Meldshaping		CATEGORY:Special Ability		TYPE:SpecialQuality.Supernatural.CtotemistClassFeature	DESC:A totemist’s primary ability is shaping incarnum soulmelds, which are drawn from the totemist soulmeld list (page 58). You know and can shape any soulmeld from this list. Unlike the aligned forces of an incarnate’s melds, your soulmelds channel the bestial spirits of nature.  The Difficulty Class for a saving throw against a totemist soulmeld is 10 + number of points of essentia invested in the soulmeld + your Constitution modifier. Your meldshaper level is equal to your totemist level.   The maximum number of soulmelds that you can have shaped simultaneously is equal to your Constitution score minus 10 or the number of soulmelds on the table, whichever is lower. At 1st level, you can shape two soulmelds at a time (assuming you have a Constitution score of at least12). As you advance in level, you can shape an increasing number of soulmelds.  At 1st level, you also gain access to your personal pool of essentia, which can be invested into your soulmelds to increase their power. &nl; Essentia Capacity, determines the maximum quantity of essentia that you can invest in any single soulmeld. As a swift action, you can reallocate your essentia investments in your soulmelds every round (see Essentia, page 50).  A totemist does not study or prepare soulmelds in advance, but must have a good night’s rest and must meditate for 1 hour to shape his soulmelds for the day (see Shaping Soulmelds, page 49)		ABILITY:Special Ability|AUTOMATIC|Basic Meldshaping
+
+Essentia Pool		CATEGORY:Special Ability		TYPE:SpecialQuality.Supernatural.CtotemistClassFeature		ASPECT:NAME|Essentia Pool  %1|EssentiaPool	
+
+###################BLOCK CHAKRA BINDS
+
+Chakra Binds		CATEGORY:Special Ability		TYPE:SpecialQuality.Supernatural.CtotemistClassFeature		KEY:CTotemist ~ Chakra Binds			DESC:Totem|PREVARGTEQ:TotemChakra,1					DESC:,Crown|PREVARGTEQ:CrownChakra,1					DESC:,Feet|PREVARGTEQ:FeetChakra,1					DESC:,Hands|PREVARGTEQ:HandsChakra,1				DESC:,Arms|PREVARGTEQ:ArmsChakra,1					DESC:,Brow|PREVARGTEQ:BrowChakra,1					DESC:,Shoulders|PREVARGTEQ:ShouldersChakra,1					DESC:,Throat|PREVARGTEQ:ThroatChakra,1					DESC:,Waist|PREVARGTEQ:WaistChakra,1		
+
+
+
+CATEGORY=Special Ability|CTotemist ~ Chakra Binds.MOD	DESC: &nl; Beginning at 2nd level, you can bind your soulmelds to your chakras, granting you new powers based on the soulmeld and the chakra chosen. Binding a soulmeld to a chakra closes the body slot associated with that chakra (see Chakras, page 50), so that you cannot also benefit from a magic item worn on the body slot associated with that chakra.  The number of chakra binds that you can have active at any one time depends on your level (see the Chakra Binds column on Table 2–4: The Totemist). At 2nd level, you can bind a soulmeld to your totem chakra (see below). Beginning at 5th level, you can bind soulmelds to your crown, feet, or hands chakras. At 9th level, you can bind soulmelds to your arms, brow, or shoulders chakras. At 14th level, you can bind soulmelds to your throat or waist chakras. At 17th level, you can bind a soulmeld to your heart chakra. You never gain the ability to bind a soulmeld to your soul chakra. For more information on chakra binds, see page 51			ABILITY:Special Ability|AUTOMATIC|Chakra Defines			ASPECT:NAME|Chakra Binds %1/day|TotalChakraBinds
+
+Chakra Defines			CATEGORY:Special Ability		TYPE:Hidden		
+#DEFINE:TotalChakraBinds|0				DEFINE:SoulChakra|0		DEFINE:TotemChakra|0	DEFINE:TotemChakraCapacity|0	DEFINE:CrownChakra|0	DEFINE:FeetChakra|0	DEFINE:HandsChakra|0	DEFINE:ArmsChakra|0	DEFINE:BrowChakra|0	DEFINE:ShouldersChakra|0	DEFINE:ThroatChakra|0	DEFINE:WaistChakra|0	DEFINE:HeartChakra|0	
+Wild Empathy		KEY:CTotemist ~ Wild Empathy		CATEGORY:Special Ability		TYPE:SpecialQuality.Extraordinary.CtotemistClassFeature		DESC:As the druid class ability see page 35 of the Player’s Handbook. You gain a +4 bonus on wild empathy checks made to influence the reactions of magical beasts of the same kind as the beast associated with the soulmeld bound to your totem chakra. Thus, if you have a basilisk mask bound to your totem chakra, you gain the bonus on checks made to influence basilisks.
+Totem's Protection			KEY:CTotemist ~ Totem Protection		CATEGORY:Special Ability		TYPE:SpecialQuality.Supernatural.CtotemistClassFeature		DESC:At 3rd level, you gain a +4 bonus on saving throws against the supernatural abilities of magical beasts.				
+
+
+Rebind Soulmeld				KEY:CTotemist ~ Rebind Soulmeld		CATEGORY:Special Ability		TYPE:SpecialQuality.Supernatural.CtotemistClassFeature		DEFINE:RebindTotemTimes|0		ASPECT:NAME|Rebind Soulmeld (%1/Day)|RebindTotemTimes		DESC: As your link to your totem chakra strengthens, you learn to shift the ties that bind your soulmelds. Starting at 8th level, once per day you can unbind a soulmeld from your totem chakra and bind a different meld to that chakra, as long as the new meld is one you already have shaped. This requires a full-round action and provokes attacks of opportunity.		BONUS:VAR|RebindTotemTimes|TotemistLVL/4
+
+Totem Embodiment	CATEGORY:Special Ability		KEY:CTotemist ~ Totem Embodiment	TYPE:SpecialQuality.Supernatural.CtotemistClassFeature	DESC:At 20th level, you gain the ability to temporarily link your body and soul to your totem chakra. This greatly enhances the power of essentia invested in soulmelds bound to that chakra. For the duration of this ability, your normal essentia capacity of any soulmeld bound to your totem chakra is doubled. Every point of essentia invested in a soulmeld bound to your totem chakra counts as 2 points of essentia. &nl; Activating this ability is a free action that does not provoke attacks of opportunity. It can be used once per day and lasts for a number of minutes equal to your Constitution bonus (minimum 1).
+
+Totem Chakra Bind			KEY:CTotemist ~ Totem Chakra Bind		CATERGORY:Special Ability			TYPE:Supernatural.SpecialQuality.CtotemistClassFeature		DESC:At 2nd level, you gain access to a unique chakra: the totem chakra. This chakra is not associated with any location on the body, but rather represents your connection to the wild soul energy of nature, embodied in the magical beasts of the world. When you bind a soulmeld to your totem chakra, you take on characteristics of the creature represented by the meld—usually involving a limited physical transformation. Since the totem chakra doesn’t match a body location, binding a soulmeld to this chakra doesn’t restrict your use of magic items that take up a body location. &nl; Any soulmeld bound to your totem chakra has an essentia capacity 1 higher than the normal capacity for your soulmelds. For example, a 2nd-level totemist can invest up to 2 points of essentia in any soulmeld bound to his totem chakra bind (rather than the normal limit of 1 points of essentia). At 15th level, the capacity of any soulmeld bound to your totem chakra increases by an additional point (meaning that a 15th-level totemist could invest up to 5 points of essentia in that soulmeld). At 6th level, the effective meldshaper level of a soulmeld you have bound to your totem chakra is equal to your actual meldshaper level +1. The primary effect of this benefit is to make that soulmeld harder to unshape &nl; At 11th level, you gain the ability to bind a single soulmeld to your totem chakra and to another chakra at the same time. You gain the special benefits of both chakra binds.
+
+
+
+
+
+
+
+

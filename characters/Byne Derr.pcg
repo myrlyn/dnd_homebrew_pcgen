@@ -1,0 +1,235 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Byne Derr
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:16
+STAT:DEX|SCORE:16
+STAT:CON|SCORE:18
+STAT:INT|SCORE:16
+STAT:WIS|SCORE:18
+STAT:CHA|SCORE:21
+ALIGN:CG
+RACE:Planetouched (Aasimar)
+
+# Character Class(es)
+CLASS:Binder|LEVEL:12|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Binder=1|HITPOINTS:8|SKILLSGAINED:24|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Binder=2|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Binder=3|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Binder=4|HITPOINTS:8|PRESTAT:CHA=1|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Binder=5|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Binder=6|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Binder=7|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Binder=8|HITPOINTS:8|PRESTAT:CHA=1|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Binder=9|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Binder=10|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Binder=11|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Binder=12|HITPOINTS:8|PRESTAT:CHA=1|PRESTAT:DEX=-2|PRESTAT:CON=2|SKILLSGAINED:6|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:91000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Not Listed]
+TEMPLATESAPPLIED:[NAME:First Level ~ Not Listed|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Language ~ Bonus (Aasimar)]
+TEMPLATESAPPLIED:[NAME:Favored Class ~ Paladin]
+TEMPLATESAPPLIED:[NAME:Aasimar ~ LevelAdjustment]
+TEMPLATESAPPLIED:[NAME:Planetouched Region ~ Calimshan Region]
+TEMPLATESAPPLIED:[NAME:Half-Nymph]
+TEMPLATESAPPLIED:[NAME:Lesser Planetouched]
+TEMPLATESAPPLIED:[NAME:Assign Race Type ~ Humanoid]
+TEMPLATESAPPLIED:[NAME:Magic Blooded (Spark)]
+TEMPLATESAPPLIED:[NAME:Dragonborn|CHOSENTEMPLATE:[NAME:Dragonblood]]
+TEMPLATESAPPLIED:[NAME:Dragonblood]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+
+# Character Region
+REGION:Calimshan
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Binder|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|CLASSBOUGHT:[CLASS:Binder|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:9|
+SKILL:Disguise|OUTPUTORDER:10|
+SKILL:Escape Artist|OUTPUTORDER:11|
+SKILL:Forgery|OUTPUTORDER:12|
+SKILL:Gather Information|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Binder|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Heal|OUTPUTORDER:14|
+SKILL:Hide|OUTPUTORDER:15|
+SKILL:Hide (Forested Areas)|OUTPUTORDER:16|
+SKILL:Intimidate|OUTPUTORDER:17|CLASSBOUGHT:[CLASS:Binder|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:18|
+SKILL:Jump|OUTPUTORDER:19|
+SKILL:Knowledge (Religion)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Binder|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (The Planes)|CLASSBOUGHT:[CLASS:Binder|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:21|
+SKILL:Listen|OUTPUTORDER:22|
+SKILL:Literacy|OUTPUTORDER:23|
+SKILL:Move Silently|OUTPUTORDER:24|
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:25|
+SKILL:Ride|OUTPUTORDER:26|
+SKILL:Search|OUTPUTORDER:27|
+SKILL:Sense Motive|OUTPUTORDER:28|
+SKILL:Spot|OUTPUTORDER:29|
+SKILL:Survival|OUTPUTORDER:30|
+SKILL:Swim|OUTPUTORDER:31|
+SKILL:Use Rope|OUTPUTORDER:32|
+
+# Character Languages
+LANGUAGE:Alzhedo|LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Elven|LANGUAGE:Ignan|LANGUAGE:Sylvan
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan,Elven,Ignan,Draconic|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan,Elven,Ignan,Draconic|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan,Elven,Ignan,Draconic|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan,Elven,Ignan,Draconic|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Binder Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Empower Supernatural Ability|TYPE:General|DESC:Empower supernatural ability 1/day
+ABILITY:Binder Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Sudden Ability Focus|TYPE:General|DESC:+2 DC on any supernatural attack, 1/day
+USERPOOL:Binder Feat|POOLPOINTS:0.0
+ABILITY:Dragonborn Draconic Aspect|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Dragonborn ~ Heart|TYPE:Supernatural.Race Trait.Dragonborn Race Trait.Dragonborn Draconic Aspect.SpecialQuality|DESC:A dragonborn who chooses heart as her draconic aspect gains a breath weapon. The breath weapon is a bright, shining line that coruscates with every metallic color. The line's length is 5 feet per Hit Die the dragonborn has, up to a maximum of 100 feet at 20 HD. The breath weapon deals 1d8 points of damage, plus an extra 1d8 points for each 3 HD the dragonborn possesses (2d8 at 3 HD, 3d8 at 6 HD, and so on). The damage can be acid, cold, electricity, or fire, changing on each use as the dragonborn chooses. A successful Reflex save (DC 10 + 1/2 the dragonborn's HD + her Con modifier) halves the damage. A dragonborn can use her breath weapon once every 1d4 rounds.
+USERPOOL:Dragonborn Draconic Aspect|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Clinging Breath|TYPE:Metabreath|DESC:Breath deals extra damage 1 round later
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dragon Wings|TYPE:General.FirstLevel|DESC:Your draconic ancestry manifests as a pair of wings that aid your jumps and allow you to glide.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Entangling Exhalation|TYPE:Breath|DESC:You can use your breath weapon to create an entangling mesh of energy.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Dragon Wings|TYPE:General|DESC:Your draconic wings now grant you flight.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Lingering Breath|TYPE:Metabreath|DESC:Breath remains as cloud for 1 round
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Rapid Breath|TYPE:Monstrous|DESC:You do not have to wait as long to reuse your breath weapon as you normally would.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Recover Breath|TYPE:Metabreath|DESC:Use breath weapon more often
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Shaky|TYPE:Flaws.SpecialQuality|DESC:You are relatively poor at ranged combat.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Weak Will|TYPE:Flaws.SpecialQuality|DESC:You are highly suggestible and easily duped.
+USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Remove All Race Traits|TYPE:MiscOptions
+USERPOOL:Misc Options|POOLPOINTS:0.0
+ABILITY:Pact Augmentation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Pact Augmentation ~ +1 AC Insight Bonus|APPLIEDTO:,,|TYPE:SpecialQuality.PactAugmentation.Pact Augmentation
+USERPOOL:Pact Augmentation|POOLPOINTS:0.0
+ABILITY:Race Base|TYPE:NORMAL|CATEGORY:Internal|KEY:Aasimar Subrace ~ Standard|TYPE:AasimarSubrace.Default.Race Base|DESC:Standard Monster Manual Version
+USERPOOL:Race Base|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Planetouched Region ~ Calimshan Region|TYPE:Region.FaerunRegion|DESC:The bloodlines of the djinn and efreet run strong in the deserts of Calimshan.  &amp;nl; Favored Deities&colon; Ilmater, Shar, Sharess, Talos, Tyr
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Vestige|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Vestige ~ Amon|TYPE:Vestige.SpecialQuality|DESC:You can bind Amon; The Void before the Altar
+ABILITY:Vestige|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Vestige ~ Andromalius|TYPE:Vestige.SpecialQuality|DESC:You can bind Andromalius
+ABILITY:Vestige|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Vestige ~ Balam|TYPE:Vestige.SpecialQuality|DESC:You can bind Balam
+ABILITY:Vestige|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Vestige ~ Buer|TYPE:Vestige.SpecialQuality|DESC:You can bind Buer
+ABILITY:Vestige|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Vestige ~ Dahlver-Nar|TYPE:Vestige.SpecialQuality|DESC:You can bind Dahlver-Nar; The Tortured one
+ABILITY:Vestige|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Vestige ~ Eurynome|TYPE:Vestige.SpecialQuality|DESC:You can bind Eurynome
+ABILITY:Vestige|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Vestige ~ Haures|TYPE:Vestige.SpecialQuality|DESC:You can bind Haures
+USERPOOL:Vestige|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Battle Gauntlet|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart]
+WEAPONPROF:[WEAPON:Darts (Barbed)|WEAPON:Eldritch Blast|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Halfspear|WEAPON:Javelin|WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)]
+WEAPONPROF:[WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Strike (Unarmed)]
+WEAPONPROF:[WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Battle Dancer's Anklet|OUTPUTORDER:6|COST:13000|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Anklet of the Battle Dancer|DATA:KEY=Anklet of the Battle Dancer]
+EQUIPNAME:Battlecloak of Vycaena|OUTPUTORDER:2|COST:38000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Dragon Spirit Cincture|OUTPUTORDER:3|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Fist Of The Forest Gloves(No Unarmed Bonus Stackiong)|OUTPUTORDER:5|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gorget of Tempest Breath|OUTPUTORDER:1|COST:10000|WT:10.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Pectoral of Maneuverability|OUTPUTORDER:4|COST:12000|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Waist|ID:0.1.02|VALUE:Dragon Spirit Cincture|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.03|VALUE:Fist Of The Forest Gloves(No Unarmed Bonus Stackiong)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.05|VALUE:Gorget of Tempest Breath|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Body|ID:0.1.06|VALUE:Pectoral of Maneuverability|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.07|VALUE:Battlecloak of Vycaena|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.08|VALUE:Battle Dancer's Anklet|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+SPELLBOOK:Bind Vestiges|TYPE:4
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:Typically binds Amon and Balam.&nl;Breath Weapon on round 1 (Amon)&nl;Breath Weaoon on Round 2 (Dragonborn)&nl;Focused Gaze Attack on Round 3 (Balam)&nl;&nl;&nl;Monlk's Unarmed Strike for a Melee option.  
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+KIT:Extra gold
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

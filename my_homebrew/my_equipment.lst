@@ -241,6 +241,7 @@ Fist Of The Forest Belt		DESC:Grants the AC bonus of a Fist of the Forest and an
 
 Fist Of The Forest Belt(No Unarmed Bonus Stackiong)		DESC:Grants the AC bonus of a Fist of the Forest and an Unarmed Damage improvement.		BONUS:COMBAT|AC|CON		BONUS:VAR|MonkUnarmedDamageLVL|5|TYPE=Item		WT:1		COST:13000		TYPE:Magic.Wondrous.Belt
 
+Fist Of The Forest Gloves(No Unarmed Bonus Stackiong)		DESC:Grants the AC bonus of a Fist of the Forest and an Unarmed Damage improvement.		BONUS:COMBAT|AC|CON		BONUS:VAR|MonkUnarmedDamageLVL|5|TYPE=Item		WT:1		COST:13000		TYPE:Magic.Wondrous.Gloves
 
 Monk's Belt, Battle Dancer (No Unarmed Damage Stacking)		KEY:Belt (Monk's ~ Battle Dancer Nostack)			DESC:Monks belt implemented to work with Battle dancer.  Monk AC and unarmed damage level +5		BONUS:COMBAT|AC|WIS|TYPE=Deflection.STACK		BONUS:VAR|MonkACLVL|5|TYPE=Item		BONUS:VAR|MonkUnarmedDamageLVL|5|TYPE=Item		WT:1		COST:13000		TYPE:Magic.Wondrous.Belt
 
@@ -256,7 +257,7 @@ Shellcraft Manakin			KEY:Shellcraft Manakin		SOURCEPAGE:Ghostwalk		TYPE:Shellcra
 
 #Breastplate								PROFICIENCY:ARMOR|Breastplate								TYPE:ArmorProfMedium.ArmorType_Medium.Container.Armor.Medium.ArmorProfMedium.ArmorType_Medium.Suit.Standard									CONTAINS:UNLIM|Armor Crystal=1	COST:200	WT:30				ACCHECK:-4								EQMOD:STEEL					MAXDEX:3				SOURCEPAGE:p.124	SPELLFAILURE:25		BONUS:COMBAT|AC|5|TYPE=Armor																													BONUS:VAR|ArmorCheckPenalty|4		SPROP:A breastplate covers your front and your back. It comes with a helmet and greaves (plates to cover your lower legs). A light suit or skirt of studded leather beneath the breastplate protects your limbs without restricting movement much.
 
-
+Helm of Aberration				COST:3000		TYPE:Hat.Helm.Headgear.Circlet			TEMPLATE:Aberrate Spell
 
 Bracelet of Mighty Wallop																															TYPE:Magic.Wondrous.Bracer																									COST:4000	WT:1		SLOTS:1															SOURCEPAGE:p.250																																																																																																																																																																																																																																																												SPROP:These bracers cast Mighty Wallop on a single bludgeoning weapon you wield.  		BONUS:ABILITYPOOL|Mighty Wallop Effect|1																																																																																																																																																																																																																																																																																																																									
 
