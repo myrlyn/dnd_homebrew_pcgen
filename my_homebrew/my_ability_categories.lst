@@ -201,12 +201,3 @@ ABILITYCATEGORY:Shape Soulmeld				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATE
 
 ABILITYCATEGORY:Opened Lesser Chakras				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:OpenedLesserChakra			DISPLAYLOCATION:Feats
 
-
-ABILITYCATEGORY:Corrected Totemist Class Features				VISIBLE:QUALIFY			EDITABLE:NO	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:CtotemistCLassFeature			DISPLAYLOCATION:Class Features				PLURAL:Totemist Class Features
-
-
-ABILITYCATEGORY:Corrected Totemist Soulmelds				VISIBLE:QUALIFY			EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:CTotemistSoulMeld			DISPLAYLOCATION:Class Features				PLURAL:Totemist Soulmelds
-
-ABILITYCATEGORY:Corrected Totemist Chakra Binds				VISIBLE:QUALIFY			EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:CTotemistChakraBind			DISPLAYLOCATION:Class Features				PLURAL:Totemist Chakra Binds
-
-
