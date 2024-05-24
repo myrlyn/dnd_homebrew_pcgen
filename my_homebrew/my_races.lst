@@ -122,3 +122,7 @@ Petal		SIZE:T		RACETYPE:Fey	MOVE:Walk,15,Fly,60		ABILITY:Special Ability|AUTOMAT
 
 
 Githzerai.MOD				TEMPLATE:Psionic			SPELLS:Githyanki Psionics|TIMES=3|TIMEUNIT=Day|CASTERLEVEL=16|Daze,11+CHA|Feather Fall|Shatter,12+CHA		SR:TL+5			ABILITY:Special Ability|AUTOMATIC|Githyanki Plane Shift|PRELEVEL:MIN=11
+
+
+#Dolgrim			RACETYPE:Aberration			SIZE:S
+#STR+2, Int/CHA-2			
