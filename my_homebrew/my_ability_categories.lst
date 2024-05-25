@@ -201,3 +201,15 @@ ABILITYCATEGORY:Shape Soulmeld				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATE
 
 ABILITYCATEGORY:Opened Lesser Chakras				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:OpenedLesserChakra			DISPLAYLOCATION:Feats
 
+
+
+
+ABILITYCATEGORY:Two Armed Obah-Blessed Attacks		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability	TYPE:TwoArmedObahBlessedAttacks			PLURAL:Two Armed Obah-BLessed Attacks		DISPLAYLOCATION:Race Traits
+
+
+ABILITYCATEGORY:Four Armed Obah-Blessed Attacks		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability	TYPE:FourArmedObahBlessedAttacks		PLURAL:Four Armed Obah-BLessed Attacks		DISPLAYLOCATION:Race Traits
+
+ABILITYCATEGORY:Granted Natural Attacks		VISIBLE:YES		EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability	TYPE:GrantedNaturalAttacks		PLURAL:Granted Natural Attacks		DISPLAYLOCATION:Misc
+
+
+ABILITYCATEGORY:Mighty Arms Slam Attack		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability	TYPE:MightyArmsSlamAttack			PLURAL:Mighty Arms Slam Attack		DISPLAYLOCATION:Race Traits

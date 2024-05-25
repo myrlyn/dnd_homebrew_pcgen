@@ -321,11 +321,44 @@ Improved Natural Attack		KEY:Improved Natural Attack ~ Grafted	PRESPELL:1,Graft 
 Weapon improvement		CATEGORY:Special Ability		TYPE:Hidden		CHOOSE:WEAPONPROFICIENCY|PC,TYPE=Natural		BONUS:WEAPONPROF=%LIST|DAMAGESIZE|1			SOURCEPAGE:p.304			PRETOTALAB:4		BONUS:WEAPONPROF=CHOICE|TOHIT|1|TYPE=Insight	MULT:YES		STACK:NO	
 
 
+
+Strongheart Vest (Unbound)			KEY:Shape Soulmeld ~ Strongheart Vest Unbound			DESC:Your Strongheart Vest reduces all ability damage to you by 1.			DEFINE:StrongheartVestDR|0				CATEGORY:Special Ability	TYPE:ShapeSoulMeldApplied.SpecialQuality		BONUS:VAR|StrongheartVestDR|1+1*EssentiaInvestedInStrongheartVest		DEFINE:EssentiaInvestedInStrongheartVest|0			
+
+
+
 Astral Vambraces (Unbound)			KEY:Shape Soulmeld ~ Astral Vambraces Unbound			DESC:Your Astral Vambraces grant DR 2/magic			DEFINE:AstralVambraceDR|0				CATEGORY:Special Ability	TYPE:ShapeSoulMeldApplied.SpecialQuality		BONUS:VAR|AstralVambraceDR|2+2*EssentiaInvestedInAstralVambraces		DEFINE:EssentiaInvestedInAstralVambraces|0			
 
 Astral Vambraces (Arms)			KEY:Shape Soulmeld ~ Astral Vambraces Arms			DESC:Your Astral Vambraces grant DR 2/magic, you gain your choice of abilities from Astral Construct menu A.  This can be changed each time you Bind this soulmeld.		DEFINE:AstralVambraceDR|0				CATEGORY:Special Ability	TYPE:ShapeSoulMeldApplied.SpecialQuality		BONUS:VAR|AstralVambraceDR|2+2*EssentiaInvestedInAstralVambraces		DEFINE:EssentiaInvestedInAstralVambraces|0			
 
 Astral Vambraces (Hands)			KEY:Shape Soulmeld ~ Astral Vambraces Hands			DESC:Your Astral Vambraces grant DR 2/magic, gain a slam attack (not implemented).		DEFINE:AstralVambraceDR|0				CATEGORY:Special Ability	TYPE:ShapeSoulMeldApplied.SpecialQuality		BONUS:VAR|AstralVambraceDR|2+2*EssentiaInvestedInAstralVambraces		DEFINE:EssentiaInvestedInAstralVambraces|0			
+
+Claws of The Wyrm (Unbound)		CATEGORY:Special Ability	KEY:Shape Soulmeld ~ Claws of the Wyrm Unbound			DESC:You gain a claw attack			TYPE:ShapeSoulMeldApplied.SpecialQuality		
+
+#CATEGORY=Special Ability|Shape Soulmeld ~ Claws of the Wyrm Unbound.MOD		ABILITY:Special Ability|AUTOMATIC|Fine Claws of The Wyrm|PRESIZEEQ:F
+#CATEGORY=Special Ability|Shape Soulmeld ~ Claws of the Wyrm Unbound.MOD		ABILITY:Special Ability|AUTOMATIC|Diminutive Claws of The Wyrm|PRESIZEEQ:D
+#CATEGORY=Special Ability|Shape Soulmeld ~ Claws of the Wyrm Unbound.MOD		ABILITY:Special Ability|AUTOMATIC|Tiny Claws of The Wyrm|PRESIZEEQ:T
+#CATEGORY=Special Ability|Shape Soulmeld ~ Claws of the Wyrm Unbound.MOD		ABILITY:Special Ability|AUTOMATIC|Small Claws of The Wyrm|PRESIZEEQ:S
+#CATEGORY=Special Ability|Shape Soulmeld ~ Claws of the Wyrm Unbound.MOD		ABILITY:Special Ability|AUTOMATIC|Medium Claws of The Wyrm|PRESIZEEQ:M
+#CATEGORY=Special Ability|Shape Soulmeld ~ Claws of the Wyrm Unbound.MOD		ABILITY:Special Ability|AUTOMATIC|Large Claws of The Wyrm|PRESIZEEQ:L
+#CATEGORY=Special Ability|Shape Soulmeld ~ Claws of the Wyrm Unbound.MOD		ABILITY:Special Ability|AUTOMATIC|Huge Claws of The Wyrm|PRESIZEEQ:H
+#CATEGORY=Special Ability|Shape Soulmeld ~ Claws of the Wyrm Unbound.MOD		ABILITY:Special Ability|AUTOMATIC|Gargantuan Claws of The Wyrm|PRESIZEEQ:G
+#CATEGORY=Special Ability|Shape Soulmeld ~ Claws of the Wyrm Unbound.MOD		ABILITY:Special Ability|AUTOMATIC|Colossal Claws of The Wyrm|PRESIZEEQ:C
+#CATEGORY=Special Ability|Shape Soulmeld ~ Claws of the Wyrm Unbound.MOD		ABILITY:Special Ability|AUTOMATIC|Colossal+ Claws of The Wyrm|PRESIZEGT:C
+
+
+
+Fine Claws of The Wyrm			NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*1,1					CATEGORY:Special Ability	TYPE:Hidden	
+Diminutive Claws of The Wyrm			NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*1,1d2					CATEGORY:Special Ability	TYPE:Hidden	
+Tiny Claws of The Wyrm			NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*1,1d3					CATEGORY:Special Ability	TYPE:Hidden	
+Small Claws of The Wyrm			NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*1,1d4					CATEGORY:Special Ability	TYPE:Hidden	
+Medium Claws of The Wyrm			NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*1,1d6					CATEGORY:Special Ability	TYPE:Hidden	
+Large Claws of The Wyrm			NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*1,1d8					CATEGORY:Special Ability	TYPE:Hidden	
+Huge Claws of The Wyrm			NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*1,1d10					CATEGORY:Special Ability	TYPE:Hidden	
+Gargantuan Claws of The Wyrm			NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*1,2d6		CATEGORY:Special Ability	TYPE:Hidden	
+Colossal Claws of The Wyrm			NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*1,2d8					CATEGORY:Special Ability	TYPE:Hidden	
+Colossal+ Claws of The Wyrm			NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*1,3d6					CATEGORY:Special Ability	TYPE:Hidden	
+
+
 
 
 Girallon Arms (Unbound)			KEY:Shape Soulmeld ~ Girallon Arms Unbound			DESC:Your girallon arms grant you a +2 competence bonus on Climb checks and grapple checks.		ABILITY:Special Ability|AUTOMATIC|Totemist Soulmeld ~ Girallon Arms (Unbound)				CATEGORY:Special Ability	TYPE:ShapeSoulMeldApplied
@@ -343,6 +376,252 @@ Knock-Down	CATEGORY:FEAT	TYPE:General		SOURCEPAGE:SRD,Divine Abilities		DESC: Wh
 -1 ChakraBindTotem	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Decrease occupied totem chakra binds 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:VAR|ChakraBindTotem|-1		COST:0
 
 +1 Totemist Soulmeld	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Decrease occupied totem chakra binds 1		STACK:YES		MULT:YES			CHOOSE:NOCHOICE			BONUS:ABILITYPOOL|Totemist Soulmeld|1		COST:0
+#BONUS:WEAPONPROF=Claw|ATTACKS|2
+
+#+1 Natural Attack	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GM_Award.SpecialQuality		DESC:Increase the number of natural attacks you get for the chosen natural attack		STACK:YES		MULT:YES			CHOOSE:WEAPONPROFICIENCY|PC,TYPE=Natural			BONUS:WEAPONPROF=%LIST|ATTACKS|1		COST:0
+
+
+#CHOOSE:WEAPONPROFICIENCY|PC,TYPE=Natural		BONUS:WEAPONPROF=%LIST|DAMAGESIZE|1
+Bigger Natural Weapon		VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack		STACK:YES		MULT:YES					COST:0	CHOOSE:WEAPONPROFICIENCY|PC,TYPE=Natural		BONUS:WEAPONPROF=%LIST|DAMAGESIZE|1
+Smaller Natural Weapon		VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack		STACK:YES		MULT:YES					COST:0	CHOOSE:WEAPONPROFICIENCY|PC,TYPE=Natural		BONUS:WEAPONPROF=%LIST|DAMAGESIZE|-1
+
+
+####CLAWS
+####D4 Claws
+1d4 Claw Attack x1	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*1,1d4		
+
+1d4 Claw Attack x2	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,1d4		
+
+1d4 Claw Attack x3	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*3,1d4		
+
+1d4 Claw Attack x4	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*4,1d4		
+
+1d4 Claw Attack x5	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*5,1d4		
+
+1d4 Claw Attack x6	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,1d6		
+
+
+####d3 Claws
+1d3 Claw Attack x1	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*1,1d3		
+
+1d3 Claw Attack x2	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,1d3		
+
+1d3 Claw Attack x3	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*3,1d3		
+
+1d3 Claw Attack x4	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*4,1d3		
+
+
+1d3 Claw Attack x5	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*5,1d3		
+
+1d3 Claw Attack x6	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,1d6		
+
+
+
+
+####d2 Claws
+1d2 Claw Attack x1	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*1,1d2		
+
+1d2 Claw Attack x2	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,1d2		
+
+1d2 Claw Attack x3	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*3,1d2		
+
+1d2 Claw Attack x4	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*4,1d2		
+
+1d2 Claw Attack x5	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*5,1d2		
+
+1d2 Claw Attack x6	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,1d6		
+
+
+
+####d6 Claws
+1d6 Claw Attack x1	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*1,1d6		
+
+1d6 Claw Attack x2	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,1d6		
+
+1d6 Claw Attack x3	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*3,1d6		
+
+1d6 Claw Attack x4	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*4,1d6		
+
+1d6 Claw Attack x5	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*5,1d6		
+
+1d6 Claw Attack x6	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,1d6		
+
+
+####d8 Claws
+1d8 Claw Attack x1	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*1,1d8		
+
+1d8 Claw Attack x2	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,1d8		
+
+1d8 Claw Attack x3	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*3,1d8		
+
+1d8 Claw Attack x4	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*4,1d8		
+
+1d8 Claw Attack x5	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*5,1d8		
+
+1d8 Claw Attack x6	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing,*2,1d8		
+
+
+
+
+
+
+
+
+####SlamS
+####D4 Slams
+1d4 Slam Attack x1	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*1,1d4		
+
+1d4 Slam Attack x2	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*2,1d4		
+
+1d4 Slam Attack x3	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*4,1d4		
+
+1d4 Slam Attack x5	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*5,1d4		
+
+1d4 Slam Attack x6	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*2,1d6		
+
+
+####d3 Slams
+1d3 Slam Attack x1	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*1,1d3		
+
+1d3 Slam Attack x2	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*2,1d3		
+
+1d3 Slam Attack x3	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*4,1d3		
+
+1d3 Slam Attack x5	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*5,1d3		
+
+1d3 Slam Attack x6	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*2,1d6		
+
+
+
+
+####d2 Slams
+1d2 Slam Attack x1	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*1,1d2		
+
+1d2 Slam Attack x2	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*2,1d2		
+
+1d2 Slam Attack x3	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*4,1d2		
+
+1d2 Slam Attack x5	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*5,1d2		
+
+1d2 Slam Attack x6	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*2,1d6		
+
+
+
+####d6 Slams
+1d6 Slam Attack x1	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*1,1d6		
+
+1d6 Slam Attack x2	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*2,1d6		
+
+1d6 Slam Attack x3	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*4,1d6		
+
+1d6 Slam Attack x5	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*5,1d6		
+
+1d6 Slam Attack x6	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*2,1d6		
+
+
+####d8 Slams
+1d8 Slam Attack x1	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*1,1d8		
+
+1d8 Slam Attack x2	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*2,1d8		
+
+1d8 Slam Attack x3	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*3,1d8		
+
+1d8 Slam Attack x4	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*4,1d8		
+
+1d8 Slam Attack x5	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*5,1d8		
+
+1d8 Slam Attack x6	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Slam,Weapon.Natural.Melee.Piercing.Bludgeoning,*2,1d8		
+
+
+
+
+
+
+
+####TentacleS
+####D4 Tentacles
+1d4 Tentacle Attack x1	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*1,1d4		
+
+1d4 Tentacle Attack x2	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*2,1d4		
+
+1d4 Tentacle Attack x3	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*3,1d4		
+
+1d4 Tentacle Attack x4	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*4,1d4		
+
+1d4 Tentacle Attack x5	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*5,1d4		
+
+1d4 Tentacle Attack x6	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*6,1d6		
+
+
+####d3 Tentacles
+1d3 Tentacle Attack x1	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*1,1d3		
+
+1d3 Tentacle Attack x2	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*2,1d3		
+
+1d3 Tentacle Attack x3	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*3,1d3		
+
+1d3 Tentacle Attack x4	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*4,1d3		
+
+1d3 Tentacle Attack x5	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*5,1d3		
+
+1d3 Tentacle Attack x6	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*2,1d6		
+
+
+
+
+####d2 Tentacles
+1d2 Tentacle Attack x1	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*1,1d2		
+
+1d2 Tentacle Attack x2	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*2,1d2		
+
+1d2 Tentacle Attack x3	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*3,1d2		
+
+1d2 Tentacle Attack x4	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*4,1d2		
+
+1d2 Tentacle Attack x5	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*5,1d2		
+
+1d2 Tentacle Attack x6	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*2,1d6		
+
+
+
+####d6 Tentacles
+1d6 Tentacle Attack x1	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*1,1d6		
+
+1d6 Tentacle Attack x2	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*2,1d6		
+
+1d6 Tentacle Attack x3	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*3,1d6		
+
+1d6 Tentacle Attack x4	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*4,1d6		
+
+1d6 Tentacle Attack x5	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*5,1d6		
+
+1d6 Tentacle Attack x6	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*2,1d6		
+
+
+####d8 Tentacles
+1d8 Tentacle Attack x1	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*1,1d8		
+
+1d8 Tentacle Attack x2	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*2,1d8		
+
+1d8 Tentacle Attack x3	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*3,1d8		
+
+1d8 Tentacle Attack x4	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*4,1d8		
+
+1d8 Tentacle Attack x5	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*5,1d8		
+
+1d8 Tentacle Attack x6	VISIBLE:DISPLAY		SORTKEY:Z_Award		CATEGORY:Special Ability		TYPE:GrantedNaturalAttacks.SpecialQuality.NaturalAttack		DESC:Increase the number of natural attacks you get for the chosen natural attack									COST:0						NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Piercing.Bludgeoning,*2,1d8		
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -734,7 +1013,7 @@ Spells(19+ HD)			KEY:HalfFey19Spell				CATEGORY:Special Ability		TYPE:SpecialAtt
 
 
 
-Mighty Arms Slam Attack			CATEGORY:Special Ability	TYPE:Hidden		ABILITY:Special Ability|AUTOMATIC|Mighty Arms Powerful Build|PREABILITY:1,CATEGORY=Special Ability,Powerful Build ~ Half-Giant,Feral Gargun ~ Powerful Build,Goliath ~ Powerful Build
+Mighty Arms Slam Attack			CATEGORY:Special Ability	TYPE:Hidden.MightyArmsSlamAttack		ABILITY:Special Ability|AUTOMATIC|Mighty Arms Powerful Build|PREABILITY:1,CATEGORY=Special Ability,Powerful Build ~ Half-Giant,Feral Gargun ~ Powerful Build,Goliath ~ Powerful Build
 CATEGORY=Special Ability|Mighty Arms Slam Attack.MOD			ABILITY:Special Ability|AUTOMATIC|Mighty Arms Slam Attack (Diminutive)|PRESIZEEQ:D
 CATEGORY=Special Ability|Mighty Arms Slam Attack.MOD			ABILITY:Special Ability|AUTOMATIC|Mighty Arms Slam Attack (Tiny)|PRESIZEEQ:T
 CATEGORY=Special Ability|Mighty Arms Slam Attack.MOD			ABILITY:Special Ability|AUTOMATIC|Mighty Arms Slam Attack (Small)|PRESIZEEQ:S
@@ -756,9 +1035,11 @@ Mighty Arms Slam Attack (Colossal)		CATEGORY:Special Ability			TYPE:SpecialAttac
 Mighty Arms Slam Attack (Colossal+)		CATEGORY:Special Ability			TYPE:SpecialAttack			NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,6d6
 
 Mighty Arms Powerful Build		CATEGORY:Special Ability					TYPE:SpecialAttack		BONUS:WEAPONPROF=Slam|DAMAGESIZE|1		
-Battlefist						CATEGORY:Special Ability					TYPE:SpecialAttack		BONUS:WEAPONPROF=Slam|DAMAGESIZE|2		ABILITY:Special Ability|AUTOMATIC|Battlefist Monk|PREABILITY:1,CATEGORY=Internal,Monk ~ Unarmed Damage		ABILITY:Special Ability|AUTOMATIC|Battlefist Powerful Build|PREABILITY:1,CATEGORY=Special Ability,Powerful Build ~ Half-Giant,Feral Gargun ~ Powerful Build,Goliath ~ Powerful Build
+Battlefist						CATEGORY:Special Ability					TYPE:SpecialAttack		BONUS:WEAPONPROF=Slam|DAMAGESIZE|2		ABILITY:Special Ability|AUTOMATIC|Battlefist Monk|PREABILITY:1,CATEGORY=Internal,Monk ~ Unarmed Damage,Battle Dancer ~ Unarmed Damage		ABILITY:Special Ability|AUTOMATIC|Battlefist Powerful Build|PREABILITY:1,CATEGORY=Special Ability,Powerful Build ~ Half-Giant,Feral Gargun ~ Powerful Build,Goliath ~ Powerful Build
 Battlefist Monk					CATEGORY:Special Ability					TYPE:SpecialAttack		BONUS:WEAPONPROF=Unarmed Strike|DAMAGESIZE|1	
 Battlefist Powerful Build		CATEGORY:Special Ability					TYPE:SpecialAttack		BONUS:WEAPONPROF=Unarmed Strike|DAMAGESIZE|1
+
+
 
 
 Worghest Traits			KEY:Worghest Traits			CATEGORY:Special Ability				TYPE:Hidden				
@@ -3335,12 +3616,49 @@ Weredog Attacks				CATEGORY:Special Ability		TYPE:Hidden		NATURALATTACKS:Bite,We
 
 
 
+###Small Wereviper
+Natural Small Wereviper (Small)			TEMPLATE:Small Wereviper			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Small Wereviper Attacks|PREVARGTEQ:AnimalFormActive,1	PRESIZEEQ:S			DEFINE:HybridSizeMod|0		
+
+Natural Small Wereviper (Medium)			TEMPLATE:Small Wereviper			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Small Wereviper Attacks|PREVARGTEQ:AnimalFormActive,1			PRESIZEEQ:M			DEFINE:HybridSizeMod|0		
+
+Natural Small Wereviper (Tiny)			TEMPLATE:Small Wereviper			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Small Wereviper Attacks|PREVARGTEQ:AnimalFormActive,1			PRESIZEEQ:T			DEFINE:HybridSizeMod|0		BONUS:VAR|HybridSizeMod|1		
+Afflicted Small Wereviper (Small)			TEMPLATE:Small Wereviper			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Afflicted Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Small Wereviper Attacks|PREVARGTEQ:AnimalFormActive,1	PRESIZEEQ:S			DEFINE:HybridSizeMod|0		
+
+Afflicted Small Wereviper (Medium)			TEMPLATE:Small Wereviper			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Afflicted Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Small Wereviper Attacks|PREVARGTEQ:AnimalFormActive,1			PRESIZEEQ:M			DEFINE:HybridSizeMod|0		
+
+Afflicted Small Wereviper (Tiny)			TEMPLATE:Small Wereviper			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Afflicted Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Small Wereviper Attacks|PREVARGTEQ:AnimalFormActive,1			PRESIZEEQ:T			DEFINE:HybridSizeMod|0		BONUS:VAR|HybridSizeMod|1
+
+
+Small Wereviper Attacks				CATEGORY:Special Ability		TYPE:Hidden				NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d2,SPROP=Poison. Initial/Secondary damage 1d6 Constitution damage.  DC 10+HD/2+CON		
+
+
+Alternate Form	KEY:Small Wereviper ~ Alternate Form	CATEGORY:Special Ability	TYPE:Supernatural.RaceAbility.SpecialQuality	DESC:A Small Wereviper can assume a bipedal hybrid form or the form of an small viper.		
+
+
+Curse of Lycanthropy		KEY:Small Wereviper ~ Curse of Lycanthropy		CATEGORY:Special Ability		TYPE:Supernatural.RaceAbility.SpecialAttack		DESC:Any humanoid or giant hit by a Small Wereviper's bite attack in animal or hybrid form must succeed on a DC %1 Fortitude save or contract lycanthropy.|DC_Curse_of_Lycanthropy	DEFINE:DC_Curse_of_Lycanthropy|0	BONUS:VAR|DC_Curse_of_Lycanthropy|15	BONUS:VAR|DC_Curse_of_Lycanthropy|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Curse of Lycanthropy)		ABILITY:Ability Focus|AUTOMATIC|Curse of Lycanthropy 
+
+Snake Empathy		KEY:Small Wereviper ~ Snake Empathy		CATEGORY:Special Ability		TYPE:Extraordinary.RaceAbility.SpecialQuality			DESC:Communicate with eagles, and +4 racial bonus on Charisma-based checks against snakes.			SOURCEPAGE:p.172
+
+
+
+
+
+
+
+
+
+
 ###Eagle
 Natural WereEagle (Small)			TEMPLATE:WereEagle			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|WereEagle Attacks|PREVARGTEQ:AnimalFormActive,1	PRESIZEEQ:S			DEFINE:HybridSizeMod|0		
 
 Natural WereEagle (Medium)			TEMPLATE:WereEagle			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|WereEagle Attacks|PREVARGTEQ:AnimalFormActive,1			PRESIZEEQ:M			DEFINE:HybridSizeMod|0		
 
 Natural WereEagle (Tiny)			TEMPLATE:WereEagle			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|WereEagle Attacks|PREVARGTEQ:AnimalFormActive,1			PRESIZEEQ:T			DEFINE:HybridSizeMod|0		BONUS:VAR|HybridSizeMod|1		
+Afflicted WereEagle (Small)			TEMPLATE:WereEagle			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Afflicted Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|WereEagle Attacks|PREVARGTEQ:AnimalFormActive,1	PRESIZEEQ:S			DEFINE:HybridSizeMod|0		
+
+Afflicted WereEagle (Medium)			TEMPLATE:WereEagle			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Afflicted Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|WereEagle Attacks|PREVARGTEQ:AnimalFormActive,1			PRESIZEEQ:M			DEFINE:HybridSizeMod|0		
+
+Afflicted WereEagle (Tiny)			TEMPLATE:WereEagle			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope			TEMPLATE:Afflicted Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|WereEagle Attacks|PREVARGTEQ:AnimalFormActive,1			PRESIZEEQ:T			DEFINE:HybridSizeMod|0		BONUS:VAR|HybridSizeMod|1
 
 
 WereEagle Attacks				CATEGORY:Special Ability		TYPE:Hidden		NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Primary,*2,1d2		NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d4|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d4		
@@ -3765,3 +4083,61 @@ Dragon Tail								KEY:Dragon Tail Soulmeld					CATEGORY:Special Ability					TYP
 
 
 Dragon Tail (Unbound)				KEY:Totemist Soulmeld ~ Dragon Tail (Unbound)				CATEGORY:Special Ability	TYPE:SpecialQuality.TotemistSoulmeldApplied																																																							DESC:Incarnum forms a large, deep blue collar around your neck, like part of a suit of plate armor. The color is darker on the back and fades to pale blue in the front, and bands of gray-brown line the top and bottom. The gorget tapers to a sharp point above your breastbone. Powerful beasts that resemble dragons, behirs are revered for their dangerous electrical breath weapon. Their dozen legs grant them stability, a quality totemists seek to appropriate through this soulmeld. Their hatred of dragons makes this a popular soulmeld for totemists planning to slay a dragon-particularly a blue or bronze dragon. Your behir gorget gives you a +4 bonus to resist being bull rushed or tripped. Essentia: If you invest essentia in your behir gorget, it protects you from electricity damage. You gain resistance to electricity equal to 5 times the number of points of essentia you invest in this soulmeld.																																																																																										ABILITY:Special Ability|AUTOMATIC|Dragon Tail Soulmeld
+
+
+
+
+
+
+
+
+##WEREBABOON
+Alternate Form	KEY:Werebaboon ~ Alternate Form	CATEGORY:Special Ability	TYPE:Supernatural.RaceAbility.SpecialQuality	DESC:A werebaboon can assume a bipedal hybrid form or the form of a baboon.				ABILITY:Special Ability|AUTOMATIC|Werebaboon Climb|PREVARGTEQ:HYbridFormActive,1
+
+Werebaboon Climb			CATEGORY:Special Ability	TYPE:Hidden		MOVE:Climb,30		BONUS:SKILL|Climb|8|TYPE=Racial.STACK
+
+Curse of Lycanthropy		KEY:Werebaboon ~ Curse of Lycanthropy		CATEGORY:Special Ability		TYPE:Supernatural.RaceAbility.SpecialAttack		DESC:Any humanoid or giant hit by a werebaboon's bite attack in animal or hybrid form must succeed on a DC %1 Fortitude save or contract lycanthropy.|DC_Curse_of_Lycanthropy	DEFINE:DC_Curse_of_Lycanthropy|0	BONUS:VAR|DC_Curse_of_Lycanthropy|15	BONUS:VAR|DC_Curse_of_Lycanthropy|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Curse of Lycanthropy)		ABILITY:Ability Focus|AUTOMATIC|Curse of Lycanthropy 
+
+Baboon Empathy		KEY:Werebaboon ~ Baboon Empathy		CATEGORY:Special Ability		TYPE:Extraordinary.RaceAbility.SpecialQuality			DESC:Communicate with baboons, and +4 racial bonus on Charisma-based checks against baboons.			SOURCEPAGE:p.172
+
+Skills			KEY:Werebaboon ~ Skills			CATEGORY:Special Ability		TYPE:SpecialQuality			DESC:A werebaboon in a hybrid or animal form gets +8 on climb checks.
+
+#Feats			KEY:Werebaboon ~ Feats				CATEGORY:Special Ability		TYPE:SpecialQuality			DESC:A werecat gets Weapon Finesse as a bonus feat.
+
+
+Natural Werebaboon (Small)		TEMPLATE:Werebaboon		CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope		TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Werebaboon Attacks|PREVARGTEQ:AnimalFormActive,1			PRESIZEEQ:S			DEFINE:HybridSizeMod|0		
+
+Natural Werebaboon (Tiny)		TEMPLATE:Werebaboon		CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope		TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Werebaboon Attacks|PREVARGTEQ:AnimalFormActive,1			PRESIZEEQ:D			DEFINE:HybridSizeMod|0		
+
+Natural Werebaboon (Diminutive)		TEMPLATE:Werebaboon		CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope		TEMPLATE:Natural Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Werebaboon Attacks|PREVARGTEQ:AnimalFormActive,1			PRESIZEEQ:T			DEFINE:HybridSizeMod|0		BONUS:VAR|HybridSizeMod|1			
+
+
+Afflicted Werebaboon (Small)		TEMPLATE:Werebaboon			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope		TEMPLATE:Afflicted Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Werebaboon Attacks|PREVARGTEQ:AnimalFormActive,1		PRESIZEEQ:S			DEFINE:HybridSizeMod|0		BONUS:VAR|HybridSizeMod|1		
+
+Afflicted Werebaboon (Medium)		TEMPLATE:Werebaboon			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope		TEMPLATE:Afflicted Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Werebaboon Attacks|PREVARGTEQ:AnimalFormActive,1		PRESIZEEQ:T			DEFINE:HybridSizeMod|0		
+
+Afflicted Werebaboon (Large)		TEMPLATE:Werebaboon			CATEGORY:Special Ability		TYPE:SpecialQuality.CustomLycanthrope		TEMPLATE:Afflicted Lycanthrope (Custom)		ABILITY:Special Ability|AUTOMATIC|Werecat Attacks|PREVARGTEQ:AnimalFormActive,1		PRESIZEEQ:D			DEFINE:HybridSizeMod|0		BONUS:VAR|HybridSizeMod|0			
+Werebaboon Attacks				CATEGORY:Special Ability		TYPE:Hidden		NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Primary,*1,1d6		MOVE:Climb,30
+
+
+Claw			CATEGORY:Special Ability			TYPE:SpecialAttack.TwoArmedObahBlessedAttacks		KEY:TwoArmedObahBlessedAttacks ~ Claw			DESC:You gain two additional claw attacks		BONUS:WEAPONPROF=Claw|ATTACKS|2		
+
+Claws			CATEGORY:Special Ability			TYPE:SpecialAttack.TwoArmedObahBlessedAttacks		KEY:TwoArmedObahBlessedAttacks ~ Claws			DESC:You gain two additional claw attacks		BONUS:WEAPONPROF=Claws|ATTACKS|2		
+
+Slam			CATEGORY:Special Ability			TYPE:SpecialAttack.TwoArmedObahBlessedAttacks		KEY:TwoArmedObahBlessedAttacks ~ Slam			DESC:You gain two additional slam attacks		BONUS:WEAPONPROF=Slam|ATTACKS|2		
+
+Tentacle			CATEGORY:Special Ability			TYPE:SpecialAttack.TwoArmedObahBlessedAttacks		KEY:TwoArmedObahBlessedAttacks ~ Tentacle			DESC:You gain two additional tentacle attacks		BONUS:WEAPONPROF=Tentacle|ATTACKS|2		
+
+
+
+
+Claw			CATEGORY:Special Ability			TYPE:SpecialAttack.FourArmedObahBlessedAttacks		KEY:FourArmedObahBlessedAttacks ~ Claw			DESC:You gain four additional claw attacks		BONUS:WEAPONPROF=Claw|ATTACKS|4		
+
+Claws			CATEGORY:Special Ability			TYPE:SpecialAttack.FourArmedObahBlessedAttacks		KEY:FourArmedObahBlessedAttacks ~ Claws			DESC:You gain four additional claw attacks		BONUS:WEAPONPROF=Claws|ATTACKS|4		
+
+Slam			CATEGORY:Special Ability			TYPE:SpecialAttack.FourArmedObahBlessedAttacks		KEY:FourArmedObahBlessedAttacks ~ Slam			DESC:You gain four additional slam attacks		BONUS:WEAPONPROF=Slam|ATTACKS|4		
+
+Tentacle			CATEGORY:Special Ability			TYPE:SpecialAttack.FourArmedObahBlessedAttacks		KEY:FourArmedObahBlessedAttacks ~ Tentacle			DESC:You gain four additional tentacle attacks		BONUS:WEAPONPROF=Tentacle|ATTACKS|4		
+
+
+
