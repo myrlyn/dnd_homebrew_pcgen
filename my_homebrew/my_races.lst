@@ -126,3 +126,5 @@ Githzerai.MOD				TEMPLATE:Psionic			SPELLS:Githyanki Psionics|TIMES=3|TIMEUNIT=D
 
 #Dolgrim			RACETYPE:Aberration			SIZE:S
 #STR+2, Int/CHA-2			
+
+Azurin.MOD		ABILITY:Special Ability|AUTOMATIC|Human ~ Bonus Feat|!PREABILITY:1,CATEGORY=Special Ability,TYPE.HumanBonusFeat		SERVESAS:RACE|Human

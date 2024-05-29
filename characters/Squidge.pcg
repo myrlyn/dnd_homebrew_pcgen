@@ -1,0 +1,202 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Dragon Magazine 311|CAMPAIGN:Dragon Magazine 358|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Dragon Magazine 336|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Dragon Magazine 313|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Squidge
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:21
+STAT:DEX|SCORE:18
+STAT:CON|SCORE:16
+STAT:INT|SCORE:16
+STAT:WIS|SCORE:18
+STAT:CHA|SCORE:16
+ALIGN:NONE
+RACE:Human
+
+# Character Class(es)
+CLASS:Fighter|LEVEL:12|SKILLPOOL:90|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:10|SKILLSGAINED:24|SKILLSREMAINING:24
+CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:10|SKILLSGAINED:6|SKILLSREMAINING:6
+CLASSABILITIESLEVEL:Fighter=3|HITPOINTS:10|SKILLSGAINED:6|SKILLSREMAINING:6
+CLASSABILITIESLEVEL:Fighter=4|HITPOINTS:10|PRESTAT:STR=1|SKILLSGAINED:6|SKILLSREMAINING:6
+CLASSABILITIESLEVEL:Fighter=5|HITPOINTS:10|SKILLSGAINED:6|SKILLSREMAINING:6
+CLASSABILITIESLEVEL:Fighter=6|HITPOINTS:10|SKILLSGAINED:6|SKILLSREMAINING:6
+CLASSABILITIESLEVEL:Fighter=7|HITPOINTS:10|SKILLSGAINED:6|SKILLSREMAINING:6
+CLASSABILITIESLEVEL:Fighter=8|HITPOINTS:10|PRESTAT:STR=1|SKILLSGAINED:6|SKILLSREMAINING:6
+CLASSABILITIESLEVEL:Fighter=9|HITPOINTS:10|SKILLSGAINED:6|SKILLSREMAINING:6
+CLASSABILITIESLEVEL:Fighter=10|HITPOINTS:10|SKILLSGAINED:6|SKILLSREMAINING:6
+CLASSABILITIESLEVEL:Fighter=11|HITPOINTS:10|SKILLSGAINED:6|SKILLSREMAINING:6
+CLASSABILITIESLEVEL:Fighter=12|HITPOINTS:10|PRESTAT:STR=1|PRESTAT:CON=-2|PRESTAT:WIS=2|SKILLSGAINED:6|SKILLSREMAINING:6
+
+# Character Experience
+EXPERIENCE:91000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Humanoid]]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
+TEMPLATESAPPLIED:[NAME:Insectile]
+TEMPLATESAPPLIED:[NAME:RaceSubtype ~ Augmented Humanoid]
+TEMPLATESAPPLIED:[NAME:Human Base]
+TEMPLATESAPPLIED:[NAME:Favored Class ~ HIGHESTLEVELCLASS]
+TEMPLATESAPPLIED:[NAME:Human Region ~ Custom Campaign]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Fighter]
+TEMPLATESAPPLIED:[NAME:First Level ~ Fighter|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+TEMPLATESAPPLIED:[NAME:Claw (Medium)]
+TEMPLATESAPPLIED:[NAME:Combat Expertise trade off]
+
+# Character Region
+REGION:Custom Campaign
+
+# Character Skills
+
+# Character Languages
+LANGUAGE:Common
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Aberration Blood|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flexible Limbs|TYPE:SpecialQuality.Aberration Blood|DESC:+2 Grapple
+USERPOOL:Aberration Blood|POOLPOINTS:0.0
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Fighter ACF ~ Dungeon Crasher|TYPE:ACF|DESC:You have given up 2 of your bonus feats (2nd &amp;amp; 6th level) for a bonus to saves and AC against traps and bonuses to break down obstacles.
+USERPOOL:Alternate Class Feature|POOLPOINTS:0.0
+ABILITY:Extended Reach|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Extended Overall Reach|APPLIEDTO:|TYPE:SpecialQuality.ExtendedReach.Extraordinary|DESC:add 5' to the reach of a natural weapon
+USERPOOL:Extended Reach|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Aberration Blood|TYPE:Aberrant|DESC:You gain a physical feature that grants you a racial bonus on one type of check; once you select the check to which this bonus applies (as well as the corresponding feature) you cannot change it later.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deepspawn (Grafted)|TYPE:Aberrant|DESC:you have replaced the two tentacles granted by your ancestry with one or more grafts.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Exotic Weapon Proficiency|APPLIEDTO:Rope Dart|TYPE:General.Fighter.DivineChampion.ShadowThief.ViolentKnowledge.JusticiarOfTaiiaBonusFeat|DESC:You understand how to use the specified type of exotic weapon in combat.&pipe;PREVAREQ&colon;DisplayFullFeat,1|DESC:Choose a type of exotic weapon, such as dire flail or shuriken (see Table 7-5&colon; Weapons, page 116, for a list of exotic weapons). You understand how to use that type of exotic weapon in combat.&pipe;PREVAREQ&colon;DisplayFullFeat,1
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extended Reach|TYPE:Monstrous|DESC:Your flexible body allows you to reach farther than normal.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Trip|TYPE:General.Fighter.AttackOption.IajutsuMasterBonusFeat.ChampionOfTheWild.ViolentKnowledge|DESC:You are trained not only in tripping opponents safely but also in following through with an attack.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Inhuman Reach|TYPE:Aberrant|DESC:Increased reach, penalty to melee
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Knock-Down|TYPE:General|DESC: Whenever you deal 10 or more points of damage to your opponent in melee, you make a trip attack as a free action against the same target.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Shock Trooper|TYPE:Tactical.Fighter
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Expertise|TYPE:General.Fighter.AttackOption.ModifyAC.IajutsuMasterBonusFeat.ChampionOfTheWild.DivineChampion.ShadowThief|DESC:You are trained at using your combat skill for defense as well asoffense.|DESC:You cannot use this feat while raging&pipe;PREVARGT&colon;0,RageTimes
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Reflexes|TYPE:General.Fighter.AttackOption.DivineChampion|DESC:You can respond quickly and repeatedly to opponents who let their defenses down.
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Bull Rush|TYPE:General.Fighter.AttackOption.ViolentKnowledge|DESC:You know how to push opponents back.
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:General.Fighter.AttackOption.ViolentKnowledge|DESC:You can make exceptionally powerful melee attacks.
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Robilar's Gambit|TYPE:General.Fighter|DESC:By offering Robilar's Gambit, you absorb damage to be in an advantageous position. THis dangerous sacrifice is not for the unfit or unwise, for one failed retaliatory strike can undo the advantage gained.
+USERPOOL:Fighter Feat|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:,|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Poor Reflexes|TYPE:Flaws.SpecialQuality|DESC:You often zig when you should have zagged.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Shaky|TYPE:Flaws.SpecialQuality|DESC:You are relatively poor at ranged combat.
+USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Internal|KEY:Human Ethnicity ~ None|TYPE:Human Ethnicity.Faerun Ethnicity|DESC:You have no Ethnicity.
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Race Base|TYPE:NORMAL|CATEGORY:Internal|KEY:Human / PH|TYPE:Race Base|DESC:Default Player's Handbook version of the race
+USERPOOL:Race Base|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Human Region ~ Custom Campaign|TYPE:Region.FaerunRegion|DESC:Use for default racial features when loading sources that use Regions
+USERPOOL:Region|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Axe (Throwing)|WEAPON:Bash|WEAPON:Battle Gauntlet|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Claw|WEAPON:Club|WEAPON:Crossbow (Heavy)]
+WEAPONPROF:[WEAPON:Crossbow (Light)|WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dart Thruster|WEAPON:Darts (Barbed)|WEAPON:Eldritch Blast|WEAPON:Falchion|WEAPON:Flail]
+WEAPONPROF:[WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Goblin Stick|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme]
+WEAPONPROF:[WEAPON:Halberd|WEAPON:Halfspear|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Ice Axe|WEAPON:Javelin|WEAPON:Katana|WEAPON:Kukri|WEAPON:Lance|WEAPON:Lance (Flight)]
+WEAPONPROF:[WEAPON:Lance (Heavy)|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Morningstar|WEAPON:Pick (Dire)]
+WEAPONPROF:[WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rope Dart|WEAPON:Saber|WEAPON:Sap|WEAPON:Scimitar]
+WEAPONPROF:[WEAPON:Scythe|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor]
+WEAPONPROF:[WEAPON:Strike (Unarmed)|WEAPON:Sword (Bastard)|WEAPON:Sword (Cutlass)|WEAPON:Sword (Saber)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Truncheon|WEAPON:Unarmed Strike|WEAPON:Wakizashi|WEAPON:Warhammer]
+WEAPONPROF:[WEAPON:Warmace]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Belt, Monk's|OUTPUTORDER:6|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt (Monk's)|DATA:KEY=Belt (Monk's)]
+EQUIPNAME:Bracers of Armor +5|OUTPUTORDER:3|COST:25000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Claw (Natural/Primary)|OUTPUTORDER:5|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Claw|DATA:KEY=Claw]
+EQUIPNAME:Coin (Gold)|OUTPUTORDER:9|COST:1|WT:0.02|QUANTITY:994.0|NOTE:
+EQUIPNAME:Meteor Hammer +3 (Large/Eight Handed Modification/Wield One Step Greater No Penalty/Riverine)|OUTPUTORDER:2|COST:34006.0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Meteor Hammer|DATA:NAME=Meteor Hammer +3 (Large/Eight Handed Modification/Wield One Step Greater No Penalty/Riverine)$SIZE=L$EQMOD=PLUS1STEP_NO_PENALTY.HAND8MOD.PLUS3W.Riverine (Weapon)]
+EQUIPNAME:Ring of Protection +1|OUTPUTORDER:4|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Skeletal Hand (Deep Spawn)|OUTPUTORDER:8|COST:3000|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Skeletal Hand|DATA:NAME=Skeletal Hand (Deep Spawn)$SPROP=The grafted creature can use this bony hand to make claw attacks. The damage dealt is the same as that dealt by a skeleton of the creature's size., (Skeletal Hand)$COSTMOD=3000]
+EQUIPNAME:Strongarm Bracers|OUTPUTORDER:1|COST:6000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Vest of Resistance +1|OUTPUTORDER:7|COST:1000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.01|VALUE:Skeletal Hand (Deep Spawn)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Arms|ID:0.1.03|VALUE:Strongarm Bracers|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.04|VALUE:Meteor Hammer +3 (Large/Eight Handed Modification/Wield One Step Greater No Penalty/Riverine)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Waist|ID:0.1.05|VALUE:Belt, Monk's|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Arms|ID:0.1.06|VALUE:Bracers of Armor +5|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Fingers|ID:0.1.07|VALUE:Ring of Protection +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.08|VALUE:Vest of Resistance +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.09|VALUE:Coin (Gold)|QUANTITY:994.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.2|VALUE:Claw (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

@@ -320,11 +320,13 @@ Improved Natural Attack		KEY:Improved Natural Attack ~ Grafted	PRESPELL:1,Graft 
 
 Weapon improvement		CATEGORY:Special Ability		TYPE:Hidden		CHOOSE:WEAPONPROFICIENCY|PC,TYPE=Natural		BONUS:WEAPONPROF=%LIST|DAMAGESIZE|1			SOURCEPAGE:p.304			PRETOTALAB:4		BONUS:WEAPONPROF=CHOICE|TOHIT|1|TYPE=Insight	MULT:YES		STACK:NO	
 
+Ghostwalk Campaign ~ Ghost.MOD			TYPE:LA0Playable			
 
+Strongheart Vest (Unbound)			KEY:Shape Soulmeld ~ Strongheart Vest Unbound			DESC:Your Strongheart Vest reduces all ability damage to you by 1, +1 for every point of Essentia invested in this Soulmeld(%1).|StrongHeartVestDR					DEFINE:StrongheartVestDR|0				CATEGORY:Special Ability	TYPE:ShapeSoulMeldApplied.SpecialQuality		BONUS:VAR|StrongheartVestDR|1+1*EssentiaInvestedInStrongheartVest		DEFINE:EssentiaInvestedInStrongheartVest|0			ABILITY:Special Ability|AUTOMATIC|Strongheart Vest ~1 Essentia Invested
 
-Strongheart Vest (Unbound)			KEY:Shape Soulmeld ~ Strongheart Vest Unbound			DESC:Your Strongheart Vest reduces all ability damage to you by 1.			DEFINE:StrongheartVestDR|0				CATEGORY:Special Ability	TYPE:ShapeSoulMeldApplied.SpecialQuality		BONUS:VAR|StrongheartVestDR|1+1*EssentiaInvestedInStrongheartVest		DEFINE:EssentiaInvestedInStrongheartVest|0			
+Strongheart Vest (1 Essentia Invested)		KEY:Strongheart Vest ~1 Essentia Invested			CATEGORY:Special Ability			TYPE:Hidden			TEMPBONUS:PC|VAR|EssentiaInvestedInStrongheartVest|1	TEMPBONUS:PC|VAR|EssentiaAvailable|-1
 
-
+CATEGORY=Special Ability|Essentia Pool.MOD		DEFINE:EssentiaAvailable|0		BONUS:VAR|EssentiaAvailable|EssentiaPool			DESC:(%1 Available)|EssentiaAvailable
 
 Astral Vambraces (Unbound)			KEY:Shape Soulmeld ~ Astral Vambraces Unbound			DESC:Your Astral Vambraces grant DR 2/magic			DEFINE:AstralVambraceDR|0				CATEGORY:Special Ability	TYPE:ShapeSoulMeldApplied.SpecialQuality		BONUS:VAR|AstralVambraceDR|2+2*EssentiaInvestedInAstralVambraces		DEFINE:EssentiaInvestedInAstralVambraces|0			
 
@@ -4141,3 +4143,15 @@ Tentacle			CATEGORY:Special Ability			TYPE:SpecialAttack.FourArmedObahBlessedAtt
 
 
 
+Malevolence		CATEGORY:Special Ability			KEY:GhostAbility ~ Malevolence		TYPE:GhostAbility			ABILITY:Special Ability|AUTOMATIC|Malevolence|Ghost Template ~ Malevolence		DESC:You can possess living beings.		BONUS:VAR|DC_Malevolence|5
+Corrupting Gaze			CATEGORY:Special Ability		KEY:GhostAbility ~ Corrupting Gaze		TYPE:GhostAbility			ABILITY:Special Ability|AUTOMATIC|Corrupting Gaze|Ghost Template ~ Corrupting Gaze		DESC:Your gaze does damage and charisma damage.		BONUS:VAR|DC_Corrupting_Gaze|TL/2
+Corrupting Touch		CATEGORY:Special Ability			KEY:GhostAbility ~ Corrupting Touch		TYPE:GhostAbility			ABILITY:Special Ability|AUTOMATIC|Corrupting Touch|Ghost Template ~ Corrupting Touch		DESC:Incorporeal touch attack
+Draining Touch			CATEGORY:Special Ability		KEY:GhostAbility ~ Draining Touch		TYPE:GhostAbility			ABILITY:Special Ability|AUTOMATIC|Ghost Template ~ Draining Touch	DESC:Touch drains ability scores.	SERVESAS:ABILITY=Special Ability|Draining Touch
+Frightful Moan			CATEGORY:Special Ability		KEY:GhostAbility ~ Frightful Moan		TYPE:GhostAbility			ABILITY:Special Ability|AUTOMATIC|Frightful Moan|Ghost Template ~ Frightful Moan	DESC:Fear effect	BONUS:VAR|DC_Frightful_Moan|TL/2
+Horrific Appearance			CATEGORY:Special Ability		KEY:GhostAbility ~ Horrific Appearance		TYPE:GhostAbility			ABILITY:Special Ability|AUTOMATIC|Horrific Appearance|Ghost Template ~ Horrific Appearance		DESC:Viewing you causes physical ability damage		BONUS:VAR|DC_Horrific_Appearance|TL/2
+Telekinesis			CATEGORY:Special Ability		KEY:GhostAbility ~ Telekinesis		TYPE:GhostAbility			ABILITY:Special Ability|AUTOMATIC|Ghost Template ~ Telekinesis		DESC:Telekinesis
+CATEGORY=Special Ability|Ghost Template ~ Telekinesis.MOD				SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=max(TL,12)|Telekinesis,DC_Telekinesis		BONUS:VAR|DC_Telekinesis|(TL/2)+10+CHA			DEFINE:DC_Telekinesis|0
+
+CATEGORY=FEAT|Ghost Hand.MOD		SPELLS:Innate|TIMES=ATWILL|Mage Hand,10+(TL/2)+CHA
+CATEGORY=FEAT|Improved Poltergesit Hand.MOD		SPELLS:Innate|TIMES=ATWILL|Telekinesis,10+(TL/2)+CHA
+CATEGORY=FEAT|Poltergeist Rage.MOD		SPELLS:Innate|TIMES=ATWILL|Telekinesis,10+(TL/2)+CHA

@@ -138,6 +138,8 @@ ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Aberration Blood|TYPE:Aberrant|DESC:Y
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deepspawn (Grafted)|TYPE:Aberrant|DESC:you have replaced the two tentacles granted by your ancestry with one or more grafts.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Natural Attack|APPLIEDTO:Slam|TYPE:General.Natural Fighting|DESC:Choose one of the creature's natural attack forms. The damage for this natural weapon increases by one step, as if the creature's size had increased by one category&colon; 1d2, 1d3, 1d4, 1d6, 1d8, 2d6, 3d6, 4d6, 6d6, 8d6, 12d6. A weapon or attack that deals 1d10 points of damage increases as follows&colon; 1d10, 2d8, 3d8, 4d8, 6d8, 8d8, 12d8.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Inhuman Reach|TYPE:Aberrant|DESC:Increased reach, penalty to melee
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Multiattack|TYPE:General.Natural Fighting|DESC:The creature's secondary attacks with natural weapons take only a -2 penalty. Normal&colon; Without this feat, the creature's secondary attacks with natural weapons take a -5 penalty.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Snap Kick|TYPE:General|DESC:You have continued to hone your unarmed combat skills, and you deal more damage with your unarmed strikes.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
 USERPOOL:First Level Feat|POOLPOINTS:0.0
@@ -201,6 +203,13 @@ EQUIPSET:Natural-Primary|ID:0.1.6|VALUE:Slam (Natural/Primary)|QUANTITY:1.0|USET
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
+TEMPBONUS:FEAT=Morphic ~ Add Bite|TBTARGET:PC|TBBONUS:VAR&pipe;MORPHICBITE&pipe;1
+TEMPBONUS:FEAT=Morphic ~ Add Light Ray|TBTARGET:PC|TBBONUS:VAR&pipe;MORPHICLIGHT RAY&pipe;1
+TEMPBONUS:FEAT=Morphic ~ Add Shock|TBTARGET:PC|TBBONUS:VAR&pipe;MORPHICSHOCK&pipe;1
+TEMPBONUS:FEAT=Morphic ~ Add Skin Slap|TBTARGET:PC|TBBONUS:VAR&pipe;MORPHICSKIN SLAP&pipe;1
+TEMPBONUS:FEAT=Morphic ~ Add Slap|TBTARGET:PC|TBBONUS:VAR&pipe;MORPHICSLAP&pipe;1
+TEMPBONUS:FEAT=Morphic ~ Add Tongue|TBTARGET:PC|TBBONUS:VAR&pipe;MORPHICTONGUE&pipe;1
+TEMPBONUS:FEAT=Morphic ~ Add Wind Scythe|TBTARGET:PC|TBBONUS:VAR&pipe;MORPHICWIND SCYTHE&pipe;1
 
 # EquipSet Temp Bonuses
 

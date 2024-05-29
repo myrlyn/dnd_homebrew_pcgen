@@ -524,3 +524,6 @@ HDRaptoranAlternateForm		VISIBLE:NO				SIZE:M		MOVE:Walk,30,Fly,40		BONUS:SKILL|
 Half-Nymph			VISION:Low-Light		BONUS:STAT|Int,Wis,Dex|2|TYPE=racial.STACK		BONUS:STAT|CHA|4|TYPE=Racial.STACK	LEVELADJUSTMENT:2	CR:2	SOURCEPAGE:Dragon 313		ABILITY:Special Ability|AUTOMATIC|Half-Nymph ~ Awesome Beauty|Half-Nymph ~ Fey Bloodline|!PRETEMPLATE:1,Dragonborn
 
 Feral Creature.MOD				ABILITY:Special Ability|AUTOMATIC|.CLEAR.Feral Creature ~ Pounce			ABILITY:Special Ability|AUTOMATIC|Pounce
+
+
+Assign Subtype ~ Incorporeal.MOD			TEMPLATE:Incorporeal

@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Dragon Magazine 311|CAMPAIGN:Dragon Magazine 358|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Dragon Magazine 336|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Dragon Magazine 313|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
 VERSION:6.08.00 RC10
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
@@ -79,6 +79,7 @@ EXPERIENCETABLE:Default
 
 # Character Templates
 TEMPLATESAPPLIED:[NAME:Base Race Type]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Paladin]
 TEMPLATESAPPLIED:[NAME:Lesser Planetouched]
 TEMPLATESAPPLIED:[NAME:Assign Race Type ~ Humanoid]
 TEMPLATESAPPLIED:[NAME:Language ~ Bonus (Aasimar)]
@@ -87,7 +88,6 @@ TEMPLATESAPPLIED:[NAME:Aasimar ~ LevelAdjustment]
 TEMPLATESAPPLIED:[NAME:Planetouched Region ~ Chessenta Region]
 TEMPLATESAPPLIED:[NAME:Phrenic|CHOSENTEMPLATE:[NAME:Psionic]]
 TEMPLATESAPPLIED:[NAME:Psionic]
-TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Paladin]
 TEMPLATESAPPLIED:[NAME:First Level ~ Paladin|CHOSENTEMPLATE:[NAME:Funds - None]]
 TEMPLATESAPPLIED:[NAME:Funds - None]
 
@@ -114,20 +114,21 @@ SKILL:Hide (Forested Areas)|OUTPUTORDER:16|
 SKILL:Intimidate|OUTPUTORDER:17|
 SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:18|
 SKILL:Jump|OUTPUTORDER:19|
-SKILL:Knowledge (Arcana)|CLASSBOUGHT:[CLASS:Paladin of Freedom|RANKS:1.0|COST:2|CLASSSKILL:N]
-SKILL:Knowledge (The Planes)|CLASSBOUGHT:[CLASS:Paladin of Freedom|RANKS:13.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Untrained)|OUTPUTORDER:20|
-SKILL:Listen|OUTPUTORDER:21|
-SKILL:Literacy|OUTPUTORDER:22|
-SKILL:Move Silently|OUTPUTORDER:23|
-SKILL:Move Silently (Forested Areas)|OUTPUTORDER:24|
-SKILL:Ride|OUTPUTORDER:25|
-SKILL:Search|OUTPUTORDER:26|
-SKILL:Sense Motive|OUTPUTORDER:27|
-SKILL:Spot|OUTPUTORDER:28|
-SKILL:Survival|OUTPUTORDER:29|
-SKILL:Swim|OUTPUTORDER:30|
-SKILL:Use Rope|OUTPUTORDER:31|
+SKILL:Knowledge (Arcana)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Paladin of Freedom|RANKS:1.0|COST:2|CLASSSKILL:N]
+SKILL:Knowledge (The Planes)|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Paladin of Freedom|RANKS:13.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:22|
+SKILL:Listen|OUTPUTORDER:23|
+SKILL:Literacy|OUTPUTORDER:24|
+SKILL:Move Silently|OUTPUTORDER:25|
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:26|
+SKILL:Ride|OUTPUTORDER:27|
+SKILL:Search|OUTPUTORDER:28|
+SKILL:Sense Motive|OUTPUTORDER:29|
+SKILL:Spot|OUTPUTORDER:30|
+SKILL:Survival|OUTPUTORDER:31|
+SKILL:Swim|OUTPUTORDER:32|
+SKILL:Use Magic Device|OUTPUTORDER:33|
+SKILL:Use Rope|OUTPUTORDER:34|
 
 # Character Languages
 LANGUAGE:Celestial|LANGUAGE:Chessentan|LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Dwarven|LANGUAGE:Elven|LANGUAGE:Sylvan
@@ -136,6 +137,11 @@ LANGUAGE:Celestial|LANGUAGE:Chessentan|LANGUAGE:Common|LANGUAGE:Draconic|LANGUAG
 FEATPOOL:0.0
 
 # Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan,Elven,Draconic,Dwarven|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan,Elven,Draconic,Dwarven|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan,Elven,Draconic,Dwarven|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan,Elven,Draconic,Dwarven|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Paladin ACF ~ Charging Smite|TYPE:ACF.PaladinSpecialMount|DESC:Beginning at 5th level, if you smite evil on a charge attack, you deal an extra 2 points of damage per paladin level to any evil creature you hit (in addition to the normal bonus damage dealt by a smite). If the charge attack misses, the smite ability is not considered used. This is a supernatural ability. Replaces&colon; If you select this class feature, you do not gain a special mount.
 ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Paladin ACF ~ Curse Breaker|TYPE:ACF.PaladinACF.PaladinRemoveDisease|DESC:Most paladins use their divinely granted powers to combat diseases that plague their allies. Paladins with an interest in the arcane particularly those who battle necromancers sometimes prefer to learn to counteract the effects of magical curses.|DESC: Special Requirement&colon; Knowledge (arcana) 1 rank.|DESC: Replaces&colon; You do not gain the remove disease spell-like ability or any later improvement of that ability.|DESC: Benefit&colon; At 6th level, you can produce a remove curse effect, as the spell, once per week. You can use this ability one additional time per week for every three levels beyond 6th (twice per week at 9th, three times at 12th, and so forth). Beginning at 12th level, you can spend two of your weekly uses to produce a break enchantment effect, as the spell. These are spell-like abilities.
 ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Paladin ACF ~ Holy Warrior|TYPE:ACF.PaladinSpellcasting|DESC:Replaces&colon; To select this class feature, you must sacrifice your spellcasting ability. Benefit&colon; You no longer gain spells as a paladin, but you can now select a bonus feat at 4th, 8th, 11th, and 14th levels. You can select any feat from the following list for which you meet the prerequisites&colon; any divine feat (see page 53), Cleave, Extra SmitingCW, Extra Turning, Great Cleave, Improved SmitingCD, Mounted Combat, Mounted Archery, Power Attack, Ride-By Attack, Skill Focus (Ride), Spirited Charge, and Trample. This is an extraordinary ability. Special&colon; A paladin who selects this path can no longer use scrolls, wands, or other magic items that require access to a spell list, unless she has another spellcasting class that grants access to the appropriate spells.
@@ -163,13 +169,13 @@ USERPOOL:Region|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
 WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Axe (Throwing)|WEAPON:Bash|WEAPON:Battle Gauntlet|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)]
-WEAPONPROF:[WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dart Thruster|WEAPON:Darts (Barbed)|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet]
-WEAPONPROF:[WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Goblin Stick|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Halfspear]
-WEAPONPROF:[WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Ice Axe|WEAPON:Javelin|WEAPON:Katana|WEAPON:Kukri|WEAPON:Lance|WEAPON:Lance (Flight)|WEAPON:Lance (Heavy)|WEAPON:Longbow]
-WEAPONPROF:[WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Morningstar|WEAPON:Pick (Dire)|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)]
-WEAPONPROF:[WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Saber|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash|WEAPON:Shortbow]
-WEAPONPROF:[WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Strike (Unarmed)|WEAPON:Sword (Bastard)|WEAPON:Sword (Cutlass)]
-WEAPONPROF:[WEAPON:Sword (Saber)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Truncheon|WEAPON:Unarmed Strike|WEAPON:Wakizashi|WEAPON:Warhammer|WEAPON:Warmace]
+WEAPONPROF:[WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dart Thruster|WEAPON:Darts (Barbed)|WEAPON:Eldritch Blast|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)]
+WEAPONPROF:[WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Goblin Stick|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd]
+WEAPONPROF:[WEAPON:Halfspear|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Ice Axe|WEAPON:Javelin|WEAPON:Katana|WEAPON:Kukri|WEAPON:Lance|WEAPON:Lance (Flight)|WEAPON:Lance (Heavy)]
+WEAPONPROF:[WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Morningstar|WEAPON:Pick (Dire)|WEAPON:Pick (Heavy)]
+WEAPONPROF:[WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Saber|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash]
+WEAPONPROF:[WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Strike (Unarmed)|WEAPON:Sword (Bastard)]
+WEAPONPROF:[WEAPON:Sword (Cutlass)|WEAPON:Sword (Saber)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Truncheon|WEAPON:Unarmed Strike|WEAPON:Wakizashi|WEAPON:Warhammer|WEAPON:Warmace]
 
 # Character Equipment
 MONEY:150.00
@@ -185,7 +191,6 @@ DEITY:None|DEITYDOMAINS:[DOMAIN:Abyss|DOMAIN:Abyss (1 of 2)|DOMAIN:Air|DOMAIN:Al
 
 # Character Spells Information
 SPELLNAME:Angelskin|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
-SPELLNAME:Angelskin|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Aura of Glory|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Awaken Sin|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Axiomatic Storm|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
@@ -199,7 +204,6 @@ SPELLNAME:Bless Water|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLE
 SPELLNAME:Bless Weapon|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Bless Weapon (Swift)|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Blessed Aim|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
-SPELLNAME:Blessed Aim|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Blessed Sight|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Blessing of Bahamut|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Brilliant Emanation|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
@@ -243,7 +247,6 @@ SPELLNAME:Energized Shield (Lesser)|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known 
 SPELLNAME:Estanna's Stew|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Faith Healing|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Fell the Greatest Foe|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
-SPELLNAME:Fell the Greatest Foe|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Find Temple|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Find the Gap|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Flame of Faith|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
@@ -259,7 +262,6 @@ SPELLNAME:Heal Mount|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEV
 SPELLNAME:Healing Spirit|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Holy Mount|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Holy Spurs|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
-SPELLNAME:Holy Spurs|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Holy Storm|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Hydrate|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Insignia of Alarm|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
@@ -271,7 +273,6 @@ SPELLNAME:Know Greatest Enemy|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells
 SPELLNAME:Lantern Light|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Lionheart|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Loyal Vassal|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
-SPELLNAME:Loyal Vassal|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Luminous Armor|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Magic Circle against Evil|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Magic Circle against Law|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
@@ -284,7 +285,6 @@ SPELLNAME:Mark of Doom|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLL
 SPELLNAME:Master Cavalier|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Mind Bond|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Moment of Clarity|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
-SPELLNAME:Moment of Clarity|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:One Mind|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:One Mind (Greater)|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:One Mind (Lesser)|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
@@ -347,7 +347,7 @@ SPELLNAME:Weapon of the Deity|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells
 SPELLNAME:Word of Binding|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Zeal|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
 SPELLNAME:Zone of Truth|TIMES:1|CLASS:Paladin of Freedom|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin of Freedom]
-SPELLLIST:Paladin of Freedom|CLASS.Paladin of Freedom|CLASS.Paladin
+SPELLLIST:Paladin of Freedom|CLASS.Paladin|CLASS.Paladin of Freedom
 
 # Character Description/Bio/History
 CHARACTERBIO:

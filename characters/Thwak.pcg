@@ -1,0 +1,244 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Dragon Magazine 311|CAMPAIGN:Dragon Magazine 358|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Dragon Magazine 336|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Dragon Magazine 313|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:N
+
+# Character Bio
+CHARACTERNAME:Thwak
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:20
+STAT:DEX|SCORE:19
+STAT:CON|SCORE:18
+STAT:INT|SCORE:16
+STAT:WIS|SCORE:16
+STAT:CHA|SCORE:16
+ALIGN:NONE
+RACE:Kobold
+
+# Character Class(es)
+CLASS:Fighter|LEVEL:12|SKILLPOOL:60|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:10|SKILLSGAINED:16|SKILLSREMAINING:16
+CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Fighter=3|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Fighter=4|HITPOINTS:10|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Fighter=5|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Fighter=6|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Fighter=7|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Fighter=8|HITPOINTS:10|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Fighter=9|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Fighter=10|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Fighter=11|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Fighter=12|HITPOINTS:10|PRESTAT:STR=1|PRESTAT:STR=-1|PRESTAT:DEX=1|SKILLSGAINED:4|SKILLSREMAINING:4
+
+# Character Experience
+EXPERIENCE:91000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Humanoid]]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Fighter]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
+TEMPLATESAPPLIED:[NAME:Kobold Bonus Languages]
+TEMPLATESAPPLIED:[NAME:Language ~ Bonus (Kobold)]
+TEMPLATESAPPLIED:[NAME:Desert Kobold]
+TEMPLATESAPPLIED:[NAME:Half-Ogre(Medium Or Smaller)]
+TEMPLATESAPPLIED:[NAME:Half-Minotaur]
+TEMPLATESAPPLIED:[NAME:Face 10]
+TEMPLATESAPPLIED:[NAME:Reach 10]
+TEMPLATESAPPLIED:[NAME:Wild (Wilderness Dweller)]
+TEMPLATESAPPLIED:[NAME:First Level ~ Fighter|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+TEMPLATESAPPLIED:[NAME:Claw (Large)]
+TEMPLATESAPPLIED:[NAME:5 Hand]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:9|
+SKILL:Disguise|OUTPUTORDER:10|
+SKILL:Escape Artist|OUTPUTORDER:11|
+SKILL:Forgery|OUTPUTORDER:12|
+SKILL:Gather Information|OUTPUTORDER:13|
+SKILL:Heal|OUTPUTORDER:14|
+SKILL:Hide|OUTPUTORDER:15|
+SKILL:Hide (Forested Areas)|OUTPUTORDER:16|
+SKILL:Intimidate|OUTPUTORDER:17|
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:18|
+SKILL:Jump|OUTPUTORDER:19|
+SKILL:Knowledge (Untrained)|OUTPUTORDER:20|
+SKILL:Listen|OUTPUTORDER:21|
+SKILL:Literacy|OUTPUTORDER:22|
+SKILL:Move Silently|OUTPUTORDER:23|
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:24|
+SKILL:Ride|OUTPUTORDER:25|
+SKILL:Search|OUTPUTORDER:26|
+SKILL:Sense Motive|OUTPUTORDER:27|
+SKILL:Spot|OUTPUTORDER:28|
+SKILL:Survival|OUTPUTORDER:29|
+SKILL:Swim|OUTPUTORDER:30|
+SKILL:Use Rope|OUTPUTORDER:31|
+
+# Character Languages
+LANGUAGE:Draconic|LANGUAGE:Yip-yak
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Aberration Blood|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flexible Limbs|TYPE:SpecialQuality.Aberration Blood|DESC:+2 Grapple
+USERPOOL:Aberration Blood|POOLPOINTS:0.0
+ABILITY:Alternate Class Feature|TYPE:NORMAL|CATEGORY:ACF|KEY:Fighter ACF ~ Dungeon Crasher|TYPE:ACF|DESC:You have given up 2 of your bonus feats (2nd &amp;amp; 6th level) for a bonus to saves and AC against traps and bonuses to break down obstacles.
+USERPOOL:Alternate Class Feature|POOLPOINTS:0.0
+ABILITY:Extended Reach|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Extended Overall Reach|APPLIEDTO:|TYPE:SpecialQuality.ExtendedReach.Extraordinary|DESC:add 5' to the reach of a natural weapon
+USERPOOL:Extended Reach|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Aberration Blood|TYPE:Aberrant|DESC:You gain a physical feature that grants you a racial bonus on one type of check; once you select the check to which this bonus applies (as well as the corresponding feature) you cannot change it later.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deepspawn|TYPE:Aberrant|DESC:Two short but powerful tentacles sprout from your waist. You gain two tentacle natural attacks.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dragon Tail|TYPE:General.FirstLevel|DESC:Your draconic ancestry manifests as a muscular tail you can use in combat.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extended Reach|TYPE:Monstrous|DESC:Your flexible body allows you to reach farther than normal.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Inhuman Reach|TYPE:Aberrant|DESC:Increased reach, penalty to melee
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Knockback|TYPE:General.Fighter|DESC:By putting your bulk behind a blow, you can push your enemy backward.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Prehensile Tail|TYPE:Monstrous|DESC:You can use your tail to manipulate objects.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Exotic Weapon Proficiency|APPLIEDTO:Rope Dart|TYPE:General.Fighter.DivineChampion.ShadowThief.ViolentKnowledge.JusticiarOfTaiiaBonusFeat|DESC:You understand how to use the specified type of exotic weapon in combat.&pipe;PREVAREQ&colon;DisplayFullFeat,1|DESC:Choose a type of exotic weapon, such as dire flail or shuriken (see Table 7-5&colon; Weapons, page 116, for a list of exotic weapons). You understand how to use that type of exotic weapon in combat.&pipe;PREVAREQ&colon;DisplayFullFeat,1
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Bull Rush|TYPE:General.Fighter.AttackOption.ViolentKnowledge|DESC:You know how to push opponents back.
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Oversized Two-Weapon Fighting|TYPE:General.Fighter|DESC:You are adept at wielding larger than normal weapons in your off hand.
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:General.Fighter.AttackOption.ViolentKnowledge|DESC:You can make exceptionally powerful melee attacks.
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Two-Weapon Fighting|TYPE:General.Fighter.ViolentKnowledge|DESC:You can fight with a weapon in each hand. You can make one extra attack each round with the second weapon. -2 to all attacks (offhand weapon must be light)
+USERPOOL:Fighter Feat|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Meager Fortitude|TYPE:Flaws.SpecialQuality|DESC:You are sickly and weak of stomach.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Shaky|TYPE:Flaws.SpecialQuality|DESC:You are relatively poor at ranged combat.
+USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Specify Number Of hands|APPLIEDTO:|TYPE:GM_Award.SpecialQuality|DESC:Your number of hands as changed (e.g., via graft)
+USERPOOL:GM Awards|POOLPOINTS:0.0
+ABILITY:Kobold Draconic Rite of Passage|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Kobold ~ Draconic Rite of Passage|TYPE:KoboldDraconicRiteOfPassage.SpecialQuality|DESC:The Draconic Rite of Passage awakens the sorcerous power within the blood of kobolds.
+USERPOOL:Kobold Draconic Rite of Passage|POOLPOINTS:0.0
+ABILITY:Kobold SLA|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Kobold SLA ~ Enlarge Person|TYPE:ClassAbility.SpellLike.SpecialQuality.FirstLevelSorcererSLA
+USERPOOL:Kobold SLA|POOLPOINTS:0.0
+ABILITY:Race Base|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Kobold|TYPE:KoboldSubrace.KoboldBase.Race Base
+USERPOOL:Race Base|POOLPOINTS:0.0
+ABILITY:Racial Variants|TYPE:NORMAL|CATEGORY:Internal|KEY:Kobold ~ Desert|TYPE:Racial Variants.AltSubraceChoice|DESC:&amp;nl;-4 Strength, +2 Dexterity, -2 Wisdom&colon; Desert kobolds are hardier than other kobolds, but are weak-willed.|DESC:&amp;nl;No light sensitivity.|DESC:&amp;nl;+2 racial bonus on Survival checks.|DESC:&amp;nl;No racial bonus on Profession (mining) checks&colon; Desert kobolds don't mine.|DESC:&amp;nl;Favored Class&colon; Rogue. A multiclass desert kobold's rogue class does not count when determining whether he takes an experience point penalty for multiclassing (see XP for Multiclass Characters, page 60 of the Player's Handbook). This trait replaces the normal kobold's favored class.
+USERPOOL:Racial Variants|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Region ~ None|TYPE:Region
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Total Number Of Hands|TYPE:NORMAL|CATEGORY:Special Ability|KEY:5 Hands|TYPE:Total Number Of Hands
+USERPOOL:Total Number Of Hands|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Axe (Throwing)|WEAPON:Bash|WEAPON:Battle Gauntlet|WEAPON:Battleaxe|WEAPON:Bite|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Claw|WEAPON:Club]
+WEAPONPROF:[WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dart Thruster|WEAPON:Darts (Barbed)|WEAPON:Deepspawn Tentacles|WEAPON:Eldritch Blast]
+WEAPONPROF:[WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Goblin Stick|WEAPON:Gore|WEAPON:Grapple|WEAPON:Greataxe]
+WEAPONPROF:[WEAPON:Greatclub|WEAPON:Greatpick|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Halfspear|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Ice Axe|WEAPON:Javelin]
+WEAPONPROF:[WEAPON:Katana|WEAPON:Kukri|WEAPON:Lance|WEAPON:Lance (Flight)|WEAPON:Lance (Heavy)|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Mace (Heavy)]
+WEAPONPROF:[WEAPON:Mace (Light)|WEAPON:Maul|WEAPON:Morningstar|WEAPON:Pick (Dire)|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Ranseur|WEAPON:Rapier]
+WEAPONPROF:[WEAPON:Rope Dart|WEAPON:Saber|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling]
+WEAPONPROF:[WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Strike (Unarmed)|WEAPON:Sword (Bastard)|WEAPON:Sword (Cutlass)|WEAPON:Sword (Saber)|WEAPON:Sword (Short)|WEAPON:Trident]
+WEAPONPROF:[WEAPON:Truncheon|WEAPON:Unarmed Strike|WEAPON:Wakizashi|WEAPON:Warhammer|WEAPON:Warmace]
+
+# Character Equipment
+MONEY:64485.00
+EQUIPNAME:Bite (Natural/Secondary)|OUTPUTORDER:4|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bite|DATA:KEY=Bite]
+EQUIPNAME:Claw (Natural/Primary)|OUTPUTORDER:2|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Claw|DATA:KEY=Claw]
+EQUIPNAME:Claw (Natural/Primary)|OUTPUTORDER:3|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Claw|DATA:KEY=Claw]
+EQUIPNAME:Deepspawn Tentacles (Natural/Primary)|OUTPUTORDER:6|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Deepspawn Tentacles|DATA:KEY=Deepspawn Tentacles]
+EQUIPNAME:Gore (Natural/Primary)|OUTPUTORDER:5|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gore|DATA:KEY=Gore]
+EQUIPNAME:Meteor Hammer +1 (Wield One Step Greater No Penalty)|OUTPUTORDER:2|COST:2303.0|WT:4.0|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Meteor Hammer|DATA:NAME=Meteor Hammer +1 (Wield One Step Greater No Penalty)$EQMOD=STEEL.PLUS1W.PLUS1STEP_NO_PENALTY]
+EQUIPNAME:Skeletal Hand(Tentacle)|OUTPUTORDER:7|COST:3000|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Skeletal Hand|DATA:NAME=Skeletal Hand(Tentacle)$SPROP=The grafted creature can use this bony hand to make claw attacks. The damage dealt is the same as that dealt by a skeleton of the creature's size., (Skeletal Hand)$COSTMOD=3000]
+EQUIPNAME:Strongarm Bracers|OUTPUTORDER:1|COST:6000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Arms|ID:0.1.03|VALUE:Strongarm Bracers|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.06|VALUE:Skeletal Hand(Tentacle)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.07|VALUE:Meteor Hammer +1 (Wield One Step Greater No Penalty)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Secondary Hand|ID:0.1.08|VALUE:Meteor Hammer +1 (Wield One Step Greater No Penalty)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Secondary Hand 2|ID:0.1.09|VALUE:Meteor Hammer +1 (Wield One Step Greater No Penalty)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.1|VALUE:Claw (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Secondary Hand 3|ID:0.1.10|VALUE:Meteor Hammer +1 (Wield One Step Greater No Penalty)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Secondary Hand 4|ID:0.1.11|VALUE:Meteor Hammer +1 (Wield One Step Greater No Penalty)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Secondary|ID:0.1.2|VALUE:Bite (Natural/Secondary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.4|VALUE:Gore (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.5|VALUE:Deepspawn Tentacles (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+
