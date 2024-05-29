@@ -3825,10 +3825,10 @@ Sorcerer Without Levels		CATEGORY:Special Ability		TYPE:SpecialQuality.MagicalTr
 #ADD:SPELLCASTER|Sorcerer		BONUS:CASTERLEVEL|Sorcerer|-1|!PRECLASS:1,Sorcerer=1	BONUS:SPELLCAST|CLASS=Sorcerer;LEVEL=1|-4|!PRECLASS:1,Sorcerer=1		BONUS:SPELLCAST|CLASS=Sorcerer;LEVEL=0|-3|!PRECLASS:1,Sorcerer=1			BONUS:SPELLKNOWN|CLASS=Sorcerer;LEVEL=1|-2|!PRECLASS:1,Sorcerer=1			BONUS:SPELLKNOWN|CLASS=Sorcerer;LEVEL=0|-2|!PRECLASS:1,Sorcerer=1					BONUS:SPELLKNOWN|CLASS=Sorcerer;Level=0|2|PRECLASS:1,Sorcerer=1													
 
 
-CATEGORY=Internal|Kobold ~ Base.MOD		TYPE:Race Base
+CATEGORY=Internal|Kobold ~ Base.MOD		TYPE:Race Base			PRERACE:1,Kobold
 
 CATEGORY=Internal|Kobold ~ Base.COPY=Variant Kobold
-CATEGORY=Internal|Variant Kobold.MOD		NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Primary,*2,1d3|Bite,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Primary,*1,1d3	ABILITY:Special Ability|AUTOMATIC|Slight Build	AUTO:WEAPONPROF|Pick (Light)|Pick (Heavy)		CHANGEPROF:Greatpick=Martial			TYPE:Race Base		AUTO:LANG|Yip-yak	TEMPLATE:Kobold Bonus Languages
+CATEGORY=Internal|Variant Kobold.MOD		NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Primary,*2,1d3|Bite,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Primary,*1,1d3	ABILITY:Special Ability|AUTOMATIC|Slight Build	AUTO:WEAPONPROF|Pick (Light)|Pick (Heavy)		CHANGEPROF:Greatpick=Martial			TYPE:Race Base		AUTO:LANG|Yip-yak	TEMPLATE:Kobold Bonus Languages				PRERACE:1,Kobold
 
 
 
