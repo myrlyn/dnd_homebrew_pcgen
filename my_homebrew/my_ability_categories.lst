@@ -213,3 +213,23 @@ ABILITYCATEGORY:Granted Natural Attacks		VISIBLE:YES		EDITABLE:YES	EDITPOOL:YES	
 
 
 ABILITYCATEGORY:Mighty Arms Slam Attack		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES		CATEGORY:Special Ability	TYPE:MightyArmsSlamAttack			PLURAL:Mighty Arms Slam Attack		DISPLAYLOCATION:Race Traits
+
+
+
+
+ABILITYCATEGORY:Siren Class Features		VISIBLE:QUALIFY	EDITABLE:NO	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:SirenClassFeature		PLURAL:Siren Class Ceatures		DISPLAYLOCATION:Class Features		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

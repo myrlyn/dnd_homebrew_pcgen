@@ -1,0 +1,588 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Pact
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:16
+STAT:DEX|SCORE:18
+STAT:CON|SCORE:16
+STAT:INT|SCORE:16
+STAT:WIS|SCORE:18
+STAT:CHA|SCORE:21
+ALIGN:CG
+RACE:Planetouched (Aasimar)
+
+# Character Class(es)
+CLASS:Cleric (Cloistered Cleric)|LEVEL:1|SKILLPOOL:0
+CLASS:Warlock|LEVEL:4|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:0,0,0,0,0,0,0,0,0,0
+CLASS:Eldritch Disciple|LEVEL:4|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Hellfire Warlock|LEVEL:3|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Cleric (Cloistered Cleric)=1|HITPOINTS:6|SKILLSGAINED:40|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warlock=1|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warlock=2|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warlock=3|HITPOINTS:6|PRESTAT:CHA=1|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warlock=4|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Eldritch Disciple=1|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Eldritch Disciple=2|HITPOINTS:8|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC (CLOISTERED CLERIC)&pipe;1]|ADD:[SPELLCASTER:Divine|CHOICE:Cleric (Cloistered Cleric)]|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Eldritch Disciple=3|HITPOINTS:8|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC (CLOISTERED CLERIC)&pipe;1]|ADD:[SPELLCASTER:Divine|CHOICE:Cleric (Cloistered Cleric)]|PRESTAT:CHA=1|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Eldritch Disciple=4|HITPOINTS:8|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC (CLOISTERED CLERIC)&pipe;1]|ADD:[SPELLCASTER:Divine|CHOICE:Cleric (Cloistered Cleric)]|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Hellfire Warlock=1|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Hellfire Warlock=2|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Hellfire Warlock=3|HITPOINTS:6|PRESTAT:CHA=1|SKILLSGAINED:6|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:55000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Phrenic|CHOSENTEMPLATE:[NAME:Psionic]]
+TEMPLATESAPPLIED:[NAME:Psionic]
+TEMPLATESAPPLIED:[NAME:Magic Blooded (Spark)]
+TEMPLATESAPPLIED:[NAME:Unseelie Fey]
+TEMPLATESAPPLIED:[NAME:Base Race Type]
+TEMPLATESAPPLIED:[NAME:Lesser Planetouched]
+TEMPLATESAPPLIED:[NAME:RighteousMightDR]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Cleric]
+TEMPLATESAPPLIED:[NAME:First Level ~ Cleric|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+TEMPLATESAPPLIED:[NAME:Use Fractional BAB]
+TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
+TEMPLATESAPPLIED:[NAME:Language ~ Bonus (Aasimar)]
+TEMPLATESAPPLIED:[NAME:Favored Class ~ Paladin]
+TEMPLATESAPPLIED:[NAME:Aasimar ~ LevelAdjustment]
+TEMPLATESAPPLIED:[NAME:Planetouched Region ~ Western Heartlands Region]
+TEMPLATESAPPLIED:[NAME:Amphibious]
+
+# Character Region
+REGION:Western Heartlands
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Hellfire Warlock|RANKS:3.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warlock|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Eldritch Disciple|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Alchemy)|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:8|
+SKILL:Decipher Script|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy|OUTPUTORDER:10|CLASSBOUGHT:[CLASS:Hellfire Warlock|RANKS:3.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Warlock|RANKS:4.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:11|
+SKILL:Disguise|OUTPUTORDER:12|
+SKILL:Escape Artist|OUTPUTORDER:13|
+SKILL:Forgery|OUTPUTORDER:14|
+SKILL:Gather Information|OUTPUTORDER:15|
+SKILL:Heal|OUTPUTORDER:16|CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Hide|OUTPUTORDER:17|
+SKILL:Hide (Forested Areas)|OUTPUTORDER:18|
+SKILL:Intimidate|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Hellfire Warlock|RANKS:3.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Eldritch Disciple|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:20|
+SKILL:Jump|OUTPUTORDER:21|
+SKILL:Knowledge (Religion)|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Warlock|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (The Planes)|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Hellfire Warlock|RANKS:3.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warlock|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Eldritch Disciple|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:24|
+SKILL:Listen|OUTPUTORDER:25|
+SKILL:Literacy|OUTPUTORDER:26|
+SKILL:Move Silently|OUTPUTORDER:27|
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:28|
+SKILL:Profession (Apothecary)|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Ride|OUTPUTORDER:30|
+SKILL:Search|OUTPUTORDER:31|
+SKILL:Sense Motive|OUTPUTORDER:32|
+SKILL:Speak Language|CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:4.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Draconic|ASSOCIATEDDATA:Abyssal|ASSOCIATEDDATA:Infernal|ASSOCIATEDDATA:Yip-yak
+SKILL:Spellcraft|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Hellfire Warlock|RANKS:3.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warlock|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Eldritch Disciple|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric (Cloistered Cleric)|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:34|
+SKILL:Survival|OUTPUTORDER:35|
+SKILL:Swim|OUTPUTORDER:36|
+SKILL:Use Rope|OUTPUTORDER:37|
+
+# Character Languages
+LANGUAGE:Abyssal|LANGUAGE:Celestial|LANGUAGE:Chondathan|LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Elven|LANGUAGE:Giant|LANGUAGE:Goblin|LANGUAGE:Infernal|LANGUAGE:Sylvan|LANGUAGE:Yip-yak
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
+USERPOOL:ECL Buy Down|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Practiced Spellcaster|APPLIEDTO:Warlock|TYPE:General|DESC:Choose a spellcasting class that you possess. Your spells cast from that class are more powerful.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Shape Soulmeld|TYPE:General|DESC:You gain the ability to shape a single soulmeld.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Supernatural Transformation|TYPE:General|DESC:You convert a spell-like ability to a supernatural ability.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Noncombatant|TYPE:Flaws.SpecialQuality|DESC:You are relatively inept at melee combat.
+USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:Gift of the Divine Patron|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Gift of the Divine Patron ~ Healing Blast|TYPE:GiftOfTheDivinePatron.SpecialQuality|DESC:In place of applying an eldritch essence invocation to your eldritch blast, you can change it into a healing blast. The blast heals living creatures instead of dealing damage to them (the damage healed is equal to the damage normally dealt). Against undead, the healing blast deals damage as normal; against constructs or objects, the healing blast has no effect. Your deity must be non-evil for you to select this gift.
+ABILITY:Gift of the Divine Patron|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Gift of the Divine Patron ~ Protective Aura|TYPE:GiftOfTheDivinePatron.SpecialQuality|DESC:You surround yourself with a magic circle against evil centered on you. This effect lasts for a number of rounds equal to 3 + your Cha modifier (minimum 1 round). Your deity must be good for you to select this gift.
+USERPOOL:Gift of the Divine Patron|POOLPOINTS:0.0
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Use Fractional BAB|TYPE:MiscOptions.AlternateBAB
+ABILITY:Misc Options|TYPE:NORMAL|CATEGORY:Internal|KEY:Variant Rule - Use ECL Level Buy Down|TYPE:MiscOptions
+USERPOOL:Misc Options|POOLPOINTS:0.0
+ABILITY:Race Base|TYPE:NORMAL|CATEGORY:Internal|KEY:Aasimar Subrace ~ Standard|TYPE:AasimarSubrace.Default.Race Base|DESC:Standard Monster Manual Version
+USERPOOL:Race Base|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Planetouched Region ~ Western Heartlands Region|TYPE:Region.FaerunRegion|DESC:Since the opening of a portal to the Nine Hells in the Year of the Worm, increasing numbers of devil-spawned tieflings have been encountered in the vicinity of Dragonspear Castle. &amp;nl; Favored Deities&colon; Bane, Cyric, Lathander, Mask, Oghma, Tempus
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Shape Soulmeld|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Shape Soulmeld ~ Strongheart Vest Unbound|TYPE:ShapeSoulMeldApplied.SpecialQuality|DESC:Your Strongheart Vest reduces all ability damage to you by 1.
+USERPOOL:Shape Soulmeld|POOLPOINTS:0.0
+ABILITY:Turn Undead|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Turn Undead|TYPE:Class Feature.Cleric Class Feature.Paladin Class Feature.SpecialAttack.Turning.TurnUndead.Turn Undead|DESC:%1/day (turn level %2) (turn damage %3d%4+%5)&pipe;TurnTimesUndead&pipe;TurnLevelUndead&pipe;TurnDiceUndead&pipe;TurnDieSizeUndead&pipe;TurnDamagePlusUndead
+USERPOOL:Turn Undead|POOLPOINTS:0.0
+ABILITY:Unseelie Fey Seasonal Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Autumn Harvest|TYPE:Supernatural.Unseelie Fey Seasonal Power.SpecialQuality|DESC: A number of times a day equal to your Charisma bonus (minimum 1) you can touch a creature with a special dispelling touch, which functions as a targeted Dispel Magic with caster level equal to your total HD.
+USERPOOL:Unseelie Fey Seasonal Power|POOLPOINTS:0.0
+ABILITY:Unseelie Fey Vision|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Darkvision Vision|TYPE:Extraordinary.Unseelie Fey Vision.SpecialQuality|DESC:You gain Darkvision 60'.
+USERPOOL:Unseelie Fey Vision|POOLPOINTS:0.0
+ABILITY:Unseelie Fey Wings|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Birdlike|TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality|DESC:Your wings resemble a bird's
+USERPOOL:Unseelie Fey Wings|POOLPOINTS:0.0
+ABILITY:Warlock Greater Invocation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Invocation ~ Eldritch Cone|TYPE:Class Feature.Invocation.Blast Shape.Greater Invocation.SpecialQuality|DESC:Blast takes the shape of a cone.
+USERPOOL:Warlock Greater Invocation|POOLPOINTS:0.0
+ABILITY:Warlock Least Invocation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Invocation ~ Call of the Beast|TYPE:Class Feature.Invocation.Eldritch Essence.Least Invocation.SpecialQuality|DESC:Speak with animals and influence their behaviour as a Druid of your level.
+ABILITY:Warlock Least Invocation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Invocation ~ Eldritch Spear|TYPE:Class Feature.Invocation.Blast Shape.Least Invocation.SpecialQuality|DESC:Blast range increases to 250 feet.
+ABILITY:Warlock Least Invocation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Invocation ~ See the Unseen|TYPE:Class Feature.Invocation.Least Invocation.SpecialQuality|DESC:Gain see invisibility as the spell and darkvision.
+USERPOOL:Warlock Least Invocation|POOLPOINTS:0.0
+ABILITY:Warlock Lesser Invocation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Invocation ~ Curse of Despair|TYPE:Class Feature.Invocation.Lesser Invocation.SpecialQuality|DESC:Curse one creature as the bestow curse spell, or hinder their attacks.
+ABILITY:Warlock Lesser Invocation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Invocation ~ Flee the Scene|TYPE:Class Feature.Invocation.Lesser Invocation.SpecialQuality|DESC:Use short-range dimension door as the spell, and leave behind a major image.
+ABILITY:Warlock Lesser Invocation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Invocation ~ Hellrime Blast|TYPE:Class Feature.Invocation.Eldritch Essence.Lesser Invocation.SpecialQuality|DESC:Blast deals cold damage and target must make Fortitude save or take -2 penalty to Dexterity.
+USERPOOL:Warlock Lesser Invocation|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Battle Gauntlet|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart]
+WEAPONPROF:[WEAPON:Darts (Barbed)|WEAPON:Eldritch Blast|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Halfspear|WEAPON:Javelin|WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)]
+WEAPONPROF:[WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Strike (Unarmed)]
+WEAPONPROF:[WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:88000
+EQUIPNAME:Potion (Lesser Restoration)|OUTPUTORDER:0|COST:300|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion (Lesser Restoration)|DATA:NAME=Potion (Lesser Restoration)]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.1|VALUE:Potion (Lesser Restoration)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:None|DEITYDOMAINS:[DOMAIN:Abyss|DOMAIN:Abyss (1 of 2)|DOMAIN:Air|DOMAIN:Alteration|DOMAIN:Animal|DOMAIN:Arborea|DOMAIN:Arborea (1 of 2)|DOMAIN:Artifice|DOMAIN:Baator|DOMAIN:Baator (1 of 2)|DOMAIN:Balance|DOMAIN:Bestial|DOMAIN:Blightbringer|DOMAIN:Cavern|DOMAIN:Celerity|DOMAIN:Celestia|DOMAIN:Celestia (1 of 2)|DOMAIN:Celestial|DOMAIN:Chaos|DOMAIN:Charm|DOMAIN:City|DOMAIN:Cold|DOMAIN:Commerce|DOMAIN:Community|DOMAIN:Community (Dragonlance)|DOMAIN:Competition|DOMAIN:Corruption|DOMAIN:Courage|DOMAIN:Craft|DOMAIN:Creation|DOMAIN:Darkness|DOMAIN:Death|DOMAIN:Deathbound|DOMAIN:Deathless|DOMAIN:Decay|DOMAIN:Demonic|DOMAIN:Destiny|DOMAIN:Destruction|DOMAIN:Diabolic|DOMAIN:Domination|DOMAIN:Dragon|DOMAIN:Dragon Below|DOMAIN:Dream|DOMAIN:Drow|DOMAIN:Dwarf|DOMAIN:Earth|DOMAIN:Elf|DOMAIN:Elysium|DOMAIN:Elysium (1 of 2)|DOMAIN:Endurance|DOMAIN:Envy|DOMAIN:Evil|DOMAIN:Exorcism|DOMAIN:Family|DOMAIN:Fate|DOMAIN:Feast|DOMAIN:Fey|DOMAIN:Fire|DOMAIN:Force|DOMAIN:Forge|DOMAIN:Ghost|DOMAIN:Glory|DOMAIN:Gluttony|DOMAIN:Gnome|DOMAIN:Good|DOMAIN:Greed|DOMAIN:Hades|DOMAIN:Hades (1 of 2)|DOMAIN:Halfling|DOMAIN:Hatred|DOMAIN:Healing|DOMAIN:Herald|DOMAIN:Hunger|DOMAIN:Illusion|DOMAIN:Incarnum|DOMAIN:Inquisition|DOMAIN:Insight|DOMAIN:Joy|DOMAIN:Knowledge|DOMAIN:Law|DOMAIN:Liberation|DOMAIN:Liberation (Dragonlance)|DOMAIN:Life|DOMAIN:Limbo|DOMAIN:Limbo (1 of 2)|DOMAIN:Luck|DOMAIN:Lust|DOMAIN:Madness|DOMAIN:Magic|DOMAIN:Mechanus|DOMAIN:Mechanus (1 of 2)|DOMAIN:Meditation|DOMAIN:Mentalism|DOMAIN:Mentalism (Dragonlance)|DOMAIN:Metal|DOMAIN:Mind|DOMAIN:Moon|DOMAIN:Mysticism|DOMAIN:Necromancer|DOMAIN:Necromancy|DOMAIN:Nobility|DOMAIN:Ocean|DOMAIN:Oracle|DOMAIN:Orc|DOMAIN:Order of the All-Seeing Eye|DOMAIN:Order of the Consuming Flame|DOMAIN:Order of the Forbidding Wasteland|DOMAIN:Order of the Gentle Rain|DOMAIN:Order of the Impenetrable Crucible|DOMAIN:Order of the Ineffable Mystery|DOMAIN:Order of the Perfect Sculpture|DOMAIN:Order of the Spring Zephyr|DOMAIN:Pact|DOMAIN:Pain|DOMAIN:Passion|DOMAIN:Passion (Dragonlance)|DOMAIN:Pestilence|DOMAIN:Pestilence (Dragonlance)|DOMAIN:Planning|DOMAIN:Plant|DOMAIN:Pleasure|DOMAIN:Portal|DOMAIN:Pride|DOMAIN:Protection|DOMAIN:Purification|DOMAIN:Renewal|DOMAIN:Repose|DOMAIN:Restoration|DOMAIN:Retribution|DOMAIN:Rune|DOMAIN:Sand|DOMAIN:Scalykind|DOMAIN:Shadow|DOMAIN:Slime|DOMAIN:Sloth|DOMAIN:Spell|DOMAIN:Spider|DOMAIN:Spite|DOMAIN:Storm|DOMAIN:Storm (Dragonlance)|DOMAIN:Strength|DOMAIN:Suffering|DOMAIN:Summer|DOMAIN:Summoner|DOMAIN:Sun|DOMAIN:Thirst|DOMAIN:Time|DOMAIN:Trade|DOMAIN:Travel|DOMAIN:Treachery|DOMAIN:Trickery|DOMAIN:Truth|DOMAIN:Tyranny|DOMAIN:Undeath|DOMAIN:Vile Darkness|DOMAIN:War|DOMAIN:Water|DOMAIN:Watery Death|DOMAIN:Wealth|DOMAIN:Weather|DOMAIN:Windstorm|DOMAIN:Winter|DOMAIN:Wrath]|ALIGNALLOW:|DESC:For No Deity Choices|DEITYFAVWEAP:[WEAPON:ALL]|DEITYALIGN:
+DOMAIN:Cold|DOMAINGRANTS:Turn or destroy fire creatures as a good cleric turns undead. Rebuke, command, or bolster cold creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.|SOURCE:[TYPE:PCClass|NAME:Cleric (Cloistered Cleric)|LEVEL:1]
+DOMAIN:Air|DOMAINGRANTS:Turn or destroy earth creatures as a good cleric turns undead. Rebuke, command, or bolster air creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability|SOURCE:[TYPE:PCClass|NAME:Cleric (Cloistered Cleric)|LEVEL:1]
+DOMAIN:Knowledge|DOMAINGRANTS:All knowledge skills are class skills.  You cast divinations at +1 caster level.|SOURCE:[TYPE:PCClass|NAME:Cleric (Cloistered Cleric)|LEVEL:1]
+
+# Character Spells Information
+SPELLBOOK:Warlock Invocation|TYPE:4
+SPELLBOOK:Prepared Spells|TYPE:2
+SPELLNAME:Adoration of the Frightful|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Aerial Summoning Dance|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Affliction|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Aid (Legion's)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Aid (Mass)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Air Breathing|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Air Walk|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:DOMAIN|NAME:Air]
+SPELLNAME:Air Walk|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Align Weapon (Legion's)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Align Weapon (Mass)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Aligned Aura|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Alter Fortune|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Anarchic Storm|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Animate with the Spirit|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Antidragon Aura|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Antidragon Aura|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Armored Vermin|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Assay Resistance|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Assay Spell Resistance|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Astral Hospice|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Attune Form|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Aura of Cold (Lesser)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Aura of the Sun|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Awaken Sin|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Axiomatic Water|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Beast Claws|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Bestow Curse|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Binding Snow|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Bladebane|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Blessed Sight|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Blessing of the Righteous|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Blindness/Deafness|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Blindsight|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Blindsight|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Blindsight (Greater)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Blood of the Martyr|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Bolster Aura|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Briar Web|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Briartangle|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Bridge Of Sound|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Brilliant Emanation|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Burrow|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Castigate|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Celestial Aspect|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Celestial Brilliance|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Celestial Fortress|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Chain of Eyes|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Channeled Divine Health|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Channeled Divine Shield|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Circle Dance|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Clairaudience/Clairvoyance|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:DOMAIN|NAME:Knowledge]
+SPELLNAME:Cloak of Bravery|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Cloak Pool|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Confound|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Conjure Ice Beast III|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Conjure Ice Beast IV|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Contingent Energy Resistance|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Continual Flame|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Control Sand|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Control Snow and Ice|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Control Water|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Conviction (Legion's)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Conviction (Mass)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Corona of Cold|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Create Food and Water|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Create Lantern Archon|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Crown of Grave|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Crown of Might|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Crown of Protection|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Crown of Smiting|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Cure Critical Wounds|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Cure Serious Wounds|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Curse of Arrow Attraction|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Curse of Petty Failing|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Curse Water|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Dampen Magic|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Darkfire|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Daylight|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Death Lock|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Death Ward|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Deathwatch|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Deeper Darkness|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Deific Bastion|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Delay Death|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Delay Death|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Demon Dirge|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Despoil|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Detect Magic|TIMES:5|CLASS:Cleric (Cloistered Cleric)|BOOK:Prepared Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Detect Metal and Minerals|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Detect Scrying|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Detect Secret Doors|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:DOMAIN|NAME:Knowledge]
+SPELLNAME:Devil Blight|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Devil's Eye|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Diamond Spray|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Dimensional Anchor|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Discern Lies|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Dismissal|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Dispel Magic|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Divination|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:DOMAIN|NAME:Knowledge]
+SPELLNAME:Divination|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Divine Power|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Divine Retaliation|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Dominate Vermin|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Doomtide|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Downdraft|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Dweomer of Transference|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Earth Reaver|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Earthen Shield|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Energize Potion|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Energized Shield|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Energy Aegis|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Energy Vortex|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Energy Vortex|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Energy Vulnerability|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Essentia Lock|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Faith Healing Wand|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Fell the Greatest Foe|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Fell the Greatest Foe|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Find the Gap|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Flame of Faith|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Footsteps of the Divine|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Forced Incorporeality|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Forced Manifestation|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Freedom of Movement|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Freeze Armor|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Frostburn|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Gaseous Form|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:DOMAIN|NAME:Air]
+SPELLNAME:Ghost Bane Weapon|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Ghost Touch Weapon|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Ghost Touch Weapon|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Giant Vermin|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Girallon's Blessing|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Glacial Globe of Invulnerability|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Glowing Orb|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Glyph of Turning|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Glyph of Warding|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Grace|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Greater Status|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Guardian Spirit|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Haboob|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Hamatula Barbs|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Hammer of Righteousness|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Hand of the Faithful|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Healing Spirit|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Heart's Ease|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Heartache|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Helping Hand|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Hesitate|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Hold Person or Ghost|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Holy Fire Shield|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Holy Storm|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Holy Transformation|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Holy Transformation (Lesser)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Hypothermia|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Ice Axe|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Ice Shape|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Ice Storm|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:DOMAIN|NAME:Cold]
+SPELLNAME:Identify|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Illusory Script|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Imbue with Spell Ability|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Inflict Critical Wounds|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Inflict Serious Wounds|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Insignia of Blessing|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Insignia of Healing|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Insignia of Warding|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Inspired Aim|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Interplanar Message|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Invest Moderate Protection|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Invisibility Purge|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Invoke the Cerulean Sign|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Iron Bones|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Knight's Move|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Know Bloodline|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Know Opponent|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Know Vulnerabilities|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Know Vulnerabilities|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Laogzed's Breath|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Life Bolt|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Light of Purity|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Light of Venya|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Light of Wisdom|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Locate Node|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Locate Object|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Lower Spell Resistance|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Luminous Armor (Greater)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Magic Circle against Evil|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Magic Circle against Law|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Magic Vestment|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Magic Weapon (Greater)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Make Manifest|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Mantle of Chaos|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Mantle of Law|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Mark of Doom|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Mark of the Enlightened Soul|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Meld into Ice|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Meld into Stone|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Moon Bolt|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Moral Facade|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Mystic Aegis|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Nature's Rampart|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Nauseating Breath|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Nchaser's Glowing Orb|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Negative Energy Aura|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Neutralize Poison|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Obscure Object|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Open Least Chakra|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Panacea|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Path of the Exalted|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Phieran's Resolve|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Planar Ally (Lesser)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Planar Exchange (Lesser)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Planar Familiar|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Planar Tolerance|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Poison|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Positive Energy Aura|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Prayer|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Profane Item|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Pronouncement of Fate|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Proper State|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Protection from Chaos|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Protection from Dessication|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Protection from Energy|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Protection from Good|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Raise Ghost|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Reaving Aura|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Recitation|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Recitation (CD)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Recitation (SC)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Recitation (UE)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Refreshment|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Remedy Moderate Wounds|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Remove Blindness/Deafness|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Remove Curse|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Remove Disease|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Remove Fatigue|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Remove Nausea|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Rend Shadow Weave|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Renewed Vigor|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Repel Vermin|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Resist Energy (Mass)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Resist Taint|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Resistance (Greater)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Restoration|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Restoration (Lesser)|TIMES:3|CLASS:Cleric (Cloistered Cleric)|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Resurgence (Mass)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Resurgence (Mass)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Revenance|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Revitalize Legacy (Least)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Ring of Blades|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Ruinic Marker|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Sacred Item|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Sacrificial Skill|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Safety|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Searing Light|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Secret Page|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Seed of Life|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Seed of Undeath|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Sending|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Shadowblast|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Shape Metal|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Share Animal's Mind|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Sheltered Vitality|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Shield of Faith (Legion's)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Shield of Faith (Mass)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Shield of Warding|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Shivering Touch|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Sink|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Skull Watch|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Slash Tongue|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Slashing Darkness|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Sleet Storm|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:DOMAIN|NAME:Cold]
+SPELLNAME:Slow Consumption|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Snowshoes (Mass)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Sonorous Hum|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Sorrow|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Soul Boon|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Soul of Light|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Soul of the Waste|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Sound Lance|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Sound Lance|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Spark of Life|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Spark Shield|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Speak with Dead|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Spell Immunity|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Spell Vulnerability|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Spiderbind|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Spikes|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Spiritual Advisor|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Stars of Arvandor|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Stars of Mystra|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Stars of Selune|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Stifle Spell|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Stone Metamorphosis|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Stone Shape|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Storm Shield|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Subdue Aura|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Summon Monster III|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Summon Monster IV|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Summon Pest Swarm|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Summon Undead I|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Sunmantle|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Suppress Glyph|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Suspend Disease|TIMES:3|CLASS:Cleric (Cloistered Cleric)|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Sustain|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Sword of Conscience|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Telepathic Bond (Lesser)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Telepathy Tap|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Tongue of Baalzebul|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Tongues|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Tongues|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Tremor|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Undead Bane Weapon|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Unseen Servant|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Unshape Soulmeld|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Valiant Spirit|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Vigor|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Vigor (Mass Lesser)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Visage of the Deity (Lesser)|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Vision of the Omniscient Eye|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Wall of Chaos|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Wall of Good|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Wall of Law|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Wall of Light|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Wall of Salt|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Wall of Sand|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Wall of Water|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Water Breathing|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Water Walk|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Weapon of Energy|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Weapon of Energy|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Weapon of Impact|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Weapon of the Deity|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Weapon of the Deity|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Weather Eye|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Wind Wall|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:DOMAIN|NAME:Air]
+SPELLNAME:Wind Wall|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Winter's Embrace|TIMES:1|CLASS:Cleric (Cloistered Cleric)|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric (Cloistered Cleric)]
+SPELLNAME:Call of the Beast|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLNAME:Curse of Despair|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLNAME:Eldritch Blast|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLNAME:Eldritch Cone|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLNAME:Eldritch Spear|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLNAME:Flee the Scene|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLNAME:Hellrime Blast|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLNAME:See the Unseen|TIMES:1|CLASS:Warlock|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Warlock]
+SPELLLIST:Cleric (Cloistered Cleric)|CLASS.Cleric (Cloistered Cleric)|CLASS.Cleric
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+KIT:Potion of lesser restoration
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

@@ -479,3 +479,21 @@ CLASS:Binder.MOD
 12	BONUS:VAR|BinderMaxVestigeLVL|1
 
 
+CLASS:Wilder.MOD		BONUS:VAR|Caster_Level_Highest__Psionic|CL+BL="Wilder"|TYPE=Base
+
+
+CLASS:Siren		PRESKILL:2,Bluff=6,Intimidate=6		
+CLASS:Siren		PRESKILL:1,TYPE.Perform=5
+#CLASS:Siren		PRESKILL:1,Perform (Buffoonery)=5,Perform (Ballad)=5,Perform (Chant)=5,Perform (Epic)=5,Perform (Limeric)=5,Perform (Melody)=5,Perform (Ode)=5,Perform (Buffoonery)=5,Perform (Storytelling)=5		PRETEXT:Must possess an innate sonic, mind-affecting ability.
+CLASS:Siren			HD:4		TYPE:PC.Prestige		STARTSKILLPTS:4			BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0					BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3		ROLE:Combat				CSKILL:Bluff|TYPE.Craft|Diplomacy|Gather Information|Intimidate|Listen|TYPE.Perform|TYPE.Profession|Search|Sense Motive		DEFINE:SirenLVL|0		BONUS:VAR|SirenLVL|CL
+1			ABILITY:Siren Class Features|AUTOMATIC|Siren ~ Reverberation
+2			ABILITY:Siren Class Features|AUTOMATIC|Siren ~ Song of Despair
+3			ABILITY:Siren Class Features|AUTOMATIC|Siren ~ Charisma Bonus
+4			ABILITY:Siren Class Features|AUTOMATIC|Siren ~ Song of Nightmare
+5			ABILITY:Siren Class Features|AUTOMATIC|Siren ~ Song of Idiocy
+7			ABILITY:Siren Class Features|AUTOMATIC|Siren ~ Song of Weakness
+9			ABILITY:Siren Class Features|AUTOMATIC|Siren ~ Song of Stone
+10			ABILITY:Siren Class Features|AUTOMATIC|Siren ~ Song of Death
+
+
+

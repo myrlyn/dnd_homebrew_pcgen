@@ -320,7 +320,7 @@ Improved Natural Attack		KEY:Improved Natural Attack ~ Grafted	PRESPELL:1,Graft 
 
 Weapon improvement		CATEGORY:Special Ability		TYPE:Hidden		CHOOSE:WEAPONPROFICIENCY|PC,TYPE=Natural		BONUS:WEAPONPROF=%LIST|DAMAGESIZE|1			SOURCEPAGE:p.304			PRETOTALAB:4		BONUS:WEAPONPROF=CHOICE|TOHIT|1|TYPE=Insight	MULT:YES		STACK:NO	
 
-Ghostwalk Campaign ~ Ghost.MOD			TYPE:LA0Playable			
+
 
 Strongheart Vest (Unbound)			KEY:Shape Soulmeld ~ Strongheart Vest Unbound			DESC:Your Strongheart Vest reduces all ability damage to you by 1, +1 for every point of Essentia invested in this Soulmeld(%1).|StrongHeartVestDR					DEFINE:StrongheartVestDR|0				CATEGORY:Special Ability	TYPE:ShapeSoulMeldApplied.SpecialQuality		BONUS:VAR|StrongheartVestDR|1+1*EssentiaInvestedInStrongheartVest		DEFINE:EssentiaInvestedInStrongheartVest|0			ABILITY:Special Ability|AUTOMATIC|Strongheart Vest ~1 Essentia Invested
 
@@ -4155,3 +4155,40 @@ CATEGORY=Special Ability|Ghost Template ~ Telekinesis.MOD				SPELLS:Innate|TIMES
 CATEGORY=FEAT|Ghost Hand.MOD		SPELLS:Innate|TIMES=ATWILL|Mage Hand,10+(TL/2)+CHA
 CATEGORY=FEAT|Improved Poltergesit Hand.MOD		SPELLS:Innate|TIMES=ATWILL|Telekinesis,10+(TL/2)+CHA
 CATEGORY=FEAT|Poltergeist Rage.MOD		SPELLS:Innate|TIMES=ATWILL|Telekinesis,10+(TL/2)+CHA
+
+
+Reverberation		KEY:Siren ~ Reverberation	CATEGORY:Special Ability			TYPE:SirenClassFeature.SpecialQuality			ABILITY:FEAT|VIRTUAL|Reverberation		DESC:Gain Reverbration as a bonus feat.
+
+Song of Despair			KEY:Siren ~ Song of Despair				CATEGORY:Special Ability			TYPE:SirenClassFeature.SpecialAttack.Supernatural		DESC:At 2nd level, a siren begins to enhance her already formidable sonic abilities with additional effects. Once per day, she can overlay a despair effect on her sonic attack identical to that of an emotion spell. Those affected by the sonic attack make their saving throws for that attack before resolving the despair effect. The Will save DC to resist this effect is 12 + the siren's level + the siren's Cha modifier(%1). The despair effect lasts 1 round per siren class level(%2 rounds).|12+CHA|SirenLVL				SPELLS:Siren Supernatural Abilities|TIMES=1|Emotion,12+CHA
+
+Charisma Bonus	KEY:Siren ~ Charisma Bonus		CATEGORY:Special Ability			TYPE:SirenClassFeature.SpecialQuality			DESC:At 3rd level, a siren gains a +2 inherent bonus to her Charisma score. This bonus rises to +4 at 6th level and to +5 at 8th level.			DEFINE:SirenCharismaBonus|0		BONUS:VAR|SirenCharismaBonus|2		BONUS:VAR|SirenCharismaBonus|2|PREVARGTEQ:SirenLVL,6	BONUS:VAR|SirenCharismaBonus|1|PREVARGTEQ:SirenLVL,8	ASPECT:NAME|Charisma Bonus +%1|SirenCharismaBonus		BONUS:STAT|CHA|SirenCharismaBonus|TYPE=Inherent
+
+Song of Nightmare		KEY:Siren ~ Song of Nightmare					CATEGORY:Special Ability			TYPE:SirenClassFeature.SpecialAttack.Supernatural		DESC:At 4th level, a siren gains a new sonic ability. Once per day per level in this prestige class(%1), she can overlay a terrifying effect on her sonic attack. This is identical to the effect of a phantasmal killer spell, affects all creatures within range of the siren's sonic attack, and has instantaneous duration. The Will and Fortitude saves to resist this effect have a DC of 12 + the siren's level + the siren's Cha modifier.|SirenLVL|12+SirenLVL+CHA		SPELLS:Siren Supernatural Abilities|TIMES=SirenLVL|Phantasmal Killer,12+SirenLVL+CHA
+
+Song of Idiocy			KEY:Siren ~ Song of Idiocy				CATEGORY:Special Ability			TYPE:SirenClassFeature.SpecialAttack.Supernatural		DESC:At 5th level, a siren gains a new sonic ability. Once per day per level in this prestige class(%1), she can overlay an Intelligence-damaging effect on her sonic attack. This is identical to the effect of a feeblemind spell, affects all creatures within range of the siren's sonic attack, and has instantaneous duration. The Will save to resist this effect has a DC of 12 + the siren's level + the siren's Cha modifier(%2), and arcane spellcasters and creatures that use arcane spell-like abilities take a -4 penalty on their saves.|SirenLVL|12+SirenLVL+CHA		SPELLS:Siren Supernatural Abilities|TIMES=SirenLVL|Feeblemind,12+SirenLVL+CHA
+
+Song of Weakness			KEY:Siren ~ Song of Weakness				CATEGORY:Special Ability			TYPE:SirenClassFeature.SpecialAttack.Supernatural		DESC: At 7th level, a siren gains a new sonic ability. Once per day per level in this prestige class(%1), she can overlay a level-draining effect on her sonic attack. This is identical to the effect of an enervation spell, except that all creatures within range of the siren's sonic attack are entitled to a Fortitude save to resist the effect, and it has instantaneous duration. The Fortitude save to resist this effect, and to remove the negative levels, has a DC of 12 + the siren's level + the siren's Cha modifier(%2).|SirenLVL|12+SirenLVL+CHA		SPELLS:Siren Supernatural Abilities}TIMES=SirenLVL|Enervation,12+SirenLVL+CHA
+
+Song of Stone			KEY:Siren ~ Song of Stone				CATEGORY:Special Ability			TYPE:SirenClassFeature.SpecialAttack.Supernatural		DESC:At 9th level, a siren gains a new sonic ability. Once per day per level in this prestige class(%1), she can overlay a flesh to stone effect on her sonic attack. This is identical to the spell, affects all creatures within range of the siren's sonic attack, and has instantaneous duration. The Fortitude save to resist this effect has a DC of 12 + the siren's level + the siren's Cha modifier.(%2)|SirenLVL|12+SirenLVL+CHA		SPELLS:Siren Supernatural Abilities|TIMES=SirenLVL|Flesh to Stone,12+SirenLVL+CHA	
+
+
+
+Song of Death			KEY:Siren ~ Song of Death				CATEGORY:Special Ability			TYPE:SirenClassFeature.SpecialAttack.Supernatural		DESC: At 10th level, a siren's sonic attack reaches its zenith. Once per day, she can overlay a power word, kill effect on her sonic attack. This is identical to the spell cast as an area spell and has instantaneous duration.			SPELLS:Siren Supernatural Abilities|TIMES=1|Power Word Kill,19+CHA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
