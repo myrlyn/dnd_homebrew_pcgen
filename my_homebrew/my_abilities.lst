@@ -4192,3 +4192,25 @@ Song of Death			KEY:Siren ~ Song of Death				CATEGORY:Special Ability			TYPE:Sir
 
 
 
+CATEGORY=FEAT|Expanded Possession.MOD		MULT:YES		STACK:NO			CHOOSE:STRING|Humanoid|Monstrous Humanoid|Animal|Giant|Fey|Magical Beast|Dragon|Aberration|Plant|Construct|Undead|Deathless|Outside|Elemental|Ooze|Vermin			
+
+
+CATEGORY=Special Ability|Master of the Unseen Hand ~ Fling Skyward.MOD			TYPE:.CLEAR		TYPE:Class Feature.Master of the Unseen Hand Class Feature.SpecialAttack.Extraordinary			TYPE:SpecialAttack
+CATEGORY=Special Ability|Master of the Unseen Hand ~ Full Attack Telekinesis.MOD		TYPE:.CLEAR		TYPE:Class Feature.Master of the Unseen Hand Class Feature.SpecialAttack.Extraordinary		TYPE:SpecialAttack
+CATEGORY=Special Ability|Master of the Unseen Hand ~ Improved Violent Thrust.MOD		TYPE:.CLEAR		TYPE:Class Feature.Master of the Unseen Hand Class Feature.SpecialAttack.Extraordinary			TYPE:SpecialAttack
+
+CATEGORY=Special Ability|Master of the Unseen Hand ~ Telekinetic Wielder.MOD		TYPE:.CLEAR		TYPE:Class Feature.Master of the Unseen Hand Class Feature.SpecialAttack.Extraordinary			TYPE:SpecialAttack
+CATEGORY=Special Ability|Master of the Unseen Hand ~ Versatile Telekinesis.MOD		TYPE:.CLEAR		TYPE:Class Feature.Master of the Unseen Hand Class Feature.SpecialAttack.Extraordinary			TYPE:SpecialAttack
+
+CATEGORY=Special Ability|Bardic Music ~ Fascinate.MOD			TYPE:.CLEAR		TYPE:SpellLike.Bard Class Feature.Class Feature.SpecialAttack					TYPE:SpecialAttack
+CATEGORY=Special Ability|Bardic Music ~ Suggestion.MOD			TYPE:.CLEAR		TYPE:SpellLike.Bard Class Feature.Class Feature.SpecialAttack					TYPE:SpecialAttack
+CATEGORY=Special Ability|Bardic Music ~ Mass Suggestion.MOD			TYPE:.CLEAR		TYPE:SpellLike.Bard Class Feature.Class Feature.SpecialAttack					TYPE:SpecialAttack
+
+
+
+Ghost Feats Pool				CATEGORY:Special Ability			TYPE:Hidden			DEFINE:POOL_Ghost_Feat|0		
+
+
+CATEGORY=Special Ability|Eidolon ~ Ghost Feats.MOD			ABILITY:Special Ability|AUTOMATIC|Ghost Feats Pool
+CATEGORY=Special Ability|Eidolancer ~ Ghost Feats.MOD			ABILITY:Special Ability|AUTOMATIC|Ghost Feats Pool
+CATEGORY=FEAT|Touch Attach Specialization.MOD			MULT:YES		STACK:NO		CHOOSE:USERINPUT		OUTPUTNAME:Touch Attack Specialization

@@ -68,11 +68,11 @@ CLASSABILITIESLEVEL:Bard=4|HITPOINTS:6|PRESTAT:CHA=1|SKILLSGAINED:10|SKILLSREMAI
 CLASSABILITIESLEVEL:Bard=5|HITPOINTS:6|SKILLSGAINED:10|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Bard=6|HITPOINTS:6|SKILLSGAINED:10|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Bard=7|HITPOINTS:6|SKILLSGAINED:10|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Master of the Unseen Hand=1|HITPOINTS:4|PRESTAT:CHA=1|SKILLSGAINED:6|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Master of the Unseen Hand=2|HITPOINTS:4|SKILLSGAINED:6|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Master of the Unseen Hand=3|HITPOINTS:4|SKILLSGAINED:6|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Master of the Unseen Hand=4|HITPOINTS:4|SKILLSGAINED:6|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Master of the Unseen Hand=5|HITPOINTS:4|PRESTAT:CHA=1|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Master of the Unseen Hand=1|HITPOINTS:6|PRESTAT:CHA=1|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Master of the Unseen Hand=2|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Master of the Unseen Hand=3|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Master of the Unseen Hand=4|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Master of the Unseen Hand=5|HITPOINTS:6|PRESTAT:CHA=1|SKILLSGAINED:6|SKILLSREMAINING:0
 
 # Character Experience
 EXPERIENCE:66000
@@ -84,15 +84,13 @@ TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Bard]
 TEMPLATESAPPLIED:[NAME:First Level ~ Bard|CHOSENTEMPLATE:[NAME:Funds - None]]
 TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
 TEMPLATESAPPLIED:[NAME:Use Fractional BAB]
-TEMPLATESAPPLIED:[NAME:Half-Nymph]
 TEMPLATESAPPLIED:[NAME:Magic Blooded (Spark)]
 TEMPLATESAPPLIED:[NAME:Ghostwalk Campaign ~ Ghost]
 TEMPLATESAPPLIED:[NAME:Level Adjustment Buy down 2]
 TEMPLATESAPPLIED:[NAME:Human Region ~ Custom Campaign]
 TEMPLATESAPPLIED:[NAME:Funds - None]
 TEMPLATESAPPLIED:[NAME:Bardic Inspire Courage ~ Is the Bard]
-TEMPLATESAPPLIED:[NAME:Assign Subtype ~ Incorporeal]
-TEMPLATESAPPLIED:[NAME:Incorporeal]
+TEMPLATESAPPLIED:[NAME:Half-Fey]
 
 # Character Region
 REGION:Custom Campaign
@@ -156,6 +154,7 @@ ABILITY:Bard Variant|TYPE:NORMAL|CATEGORY:ACF|KEY:Bard Variant ~ Regular Bard|TY
 USERPOOL:Bard Variant|POOLPOINTS:0.0
 ABILITY:ECL Buy Down|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Level Adjustment Buy down 2|TYPE:ECL Buy Down
 USERPOOL:ECL Buy Down|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Expanded Possession|APPLIEDTO:Giant|TYPE:Ghost.Dominator|DESC:You can ride or possess an additional type of creature
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Ghost Hand|TYPE:Ghost.Poltergeist|DESC:You can move small objects in a limited manner when you are a ghost
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Ghost Ride|TYPE:Ghost.Dominator|DESC:You can ride within the physical body of a living creature, perceiving the world through its senses, but without the ability to control the host
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Poltergesit Hand|TYPE:Ghost.Poltergeist|DESC:You can move large objects at a distance when youare a ghost
@@ -167,6 +166,7 @@ ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Shape Soulmeld|TYPE:General|DESC:You 
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:,|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
 USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Inattentive|TYPE:Flaws.SpecialQuality|DESC:You are particularly unaware of your surroundings.
 ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Meager Fortitude|TYPE:Flaws.SpecialQuality|DESC:You are sickly and weak of stomach.
 ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Poor Reflexes|TYPE:Flaws.SpecialQuality|DESC:You often zig when you should have zagged.
 USERPOOL:Flaws|POOLPOINTS:0.0
@@ -208,6 +208,7 @@ EQUIPSET:Not Carried|ID:0.1.07|VALUE:Shellcraft Manakin|QUANTITY:1.0|USETEMPMODS
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
+TEMPBONUS:FEAT=Strongheart Vest ~1 Essentia Invested|TBTARGET:PC|TBBONUS:VAR&pipe;ESSENTIAAVAILABLE&pipe;-1|TBBONUS:VAR&pipe;ESSENTIAINVESTEDINSTRONGHEARTVEST&pipe;1
 
 # EquipSet Temp Bonuses
 

@@ -79,6 +79,7 @@ EXPERIENCETABLE:Default
 
 # Character Templates
 TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Humanoid]]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Bard]
 TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
 TEMPLATESAPPLIED:[NAME:Human Region ~ Custom Campaign]
 TEMPLATESAPPLIED:[NAME:Magic Blooded (Spark)]
@@ -86,11 +87,10 @@ TEMPLATESAPPLIED:[NAME:Ghostwalk Campaign ~ Ghost]
 TEMPLATESAPPLIED:[NAME:Assign Race Type ~ Outsider]
 TEMPLATESAPPLIED:[NAME:Assign Subtype ~ Extraplanar]
 TEMPLATESAPPLIED:[NAME:Assign Race Subtype ~ Extraplanar]
-TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Bard]
 TEMPLATESAPPLIED:[NAME:First Level ~ Bard|CHOSENTEMPLATE:[NAME:Funds - None]]
 TEMPLATESAPPLIED:[NAME:Funds - None]
 TEMPLATESAPPLIED:[NAME:Bardic Inspire Courage ~ Is the Bard]
-TEMPLATESAPPLIED:[NAME:Half-Nymph]
+TEMPLATESAPPLIED:[NAME:Half-Fey]
 
 # Character Region
 REGION:Custom Campaign
@@ -115,24 +115,24 @@ SKILL:Hide (Forested Areas)|OUTPUTORDER:16|
 SKILL:Intimidate|OUTPUTORDER:17|
 SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:18|
 SKILL:Jump|OUTPUTORDER:19|
-SKILL:Knowledge (Arcana)|CLASSBOUGHT:[CLASS:Bard|RANKS:9.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Untrained)|OUTPUTORDER:20|
-SKILL:Listen|OUTPUTORDER:21|
-SKILL:Literacy|OUTPUTORDER:22|
-SKILL:Move Silently|OUTPUTORDER:23|
-SKILL:Move Silently (Forested Areas)|OUTPUTORDER:24|
-SKILL:Perform (Sing)|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Bard|RANKS:15.0|COST:1|CLASSSKILL:Y]
-SKILL:Ride|OUTPUTORDER:26|
-SKILL:Search|OUTPUTORDER:27|
-SKILL:Sense Motive|OUTPUTORDER:28|
-SKILL:Skill Trick|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]
-SKILL:Sleight of Hand|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Bard|RANKS:15.0|COST:1|CLASSSKILL:Y]
-SKILL:Spellcraft|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Bard|RANKS:15.0|COST:1|CLASSSKILL:Y]
-SKILL:Spot|OUTPUTORDER:32|
-SKILL:Survival|OUTPUTORDER:33|
-SKILL:Swim|OUTPUTORDER:34|
-SKILL:Use Magic Device|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Bard|RANKS:15.0|COST:1|CLASSSKILL:Y]
-SKILL:Use Rope|OUTPUTORDER:36|
+SKILL:Knowledge (Arcana)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Bard|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:21|
+SKILL:Listen|OUTPUTORDER:22|
+SKILL:Literacy|OUTPUTORDER:23|
+SKILL:Move Silently|OUTPUTORDER:24|
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:25|
+SKILL:Perform (Sing)|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Bard|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Ride|OUTPUTORDER:27|
+SKILL:Search|OUTPUTORDER:28|
+SKILL:Sense Motive|OUTPUTORDER:29|
+SKILL:Skill Trick|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Sleight of Hand|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Bard|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Bard|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:33|
+SKILL:Survival|OUTPUTORDER:34|
+SKILL:Swim|OUTPUTORDER:35|
+SKILL:Use Magic Device|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Bard|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Rope|OUTPUTORDER:37|
 
 # Character Languages
 LANGUAGE:Common
@@ -150,6 +150,7 @@ ABILITY:Bard Variant|TYPE:NORMAL|CATEGORY:ACF|KEY:Bard Variant ~ Regular Bard|TY
 USERPOOL:Bard Variant|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Agony Touch|APPLIEDTO:CON|TYPE:Ghost.Corrupter|DESC:Choose one physical ability score (Strength, Dexterity, or Constitution). When you touch a creature, you can deal damage to this ability score.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Corrupting Touch|TYPE:Ghost.Corrupter|DESC:Your touch can damage creatures.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Expanded Possession|APPLIEDTO:Humanoid|TYPE:Ghost.Dominator|DESC:You can ride or possess an additional type of creature
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Ghost Ride|TYPE:Ghost.Dominator|DESC:You can ride within the physical body of a living creature, perceiving the world through its senses, but without the ability to control the host
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Iron Will|TYPE:General|DESC:You have a stronger will than normal.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Malevolence|TYPE:Ghost.Dominator|DESC:You can possess a creature and control its actions
@@ -161,6 +162,7 @@ ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|
 USERPOOL:First Level Feat|POOLPOINTS:0.0
 ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Meager Fortitude|TYPE:Flaws.SpecialQuality|DESC:You are sickly and weak of stomach.
 ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Poor Reflexes|TYPE:Flaws.SpecialQuality|DESC:You often zig when you should have zagged.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Shaky|TYPE:Flaws.SpecialQuality|DESC:You are relatively poor at ranged combat.
 USERPOOL:Flaws|POOLPOINTS:0.0
 ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Internal|KEY:Human Ethnicity ~ None|TYPE:Human Ethnicity.Faerun Ethnicity|DESC:You have no Ethnicity.
 USERPOOL:Human Ethnicity|POOLPOINTS:0.0
@@ -184,11 +186,24 @@ WEAPONPROF:[WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:
 WEAPONPROF:[WEAPON:Sword (Cutlass)|WEAPON:Sword (Saber)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Truncheon|WEAPON:Unarmed Strike|WEAPON:Wakizashi|WEAPON:Warhammer|WEAPON:Warmace|WEAPON:Whip]
 
 # Character Equipment
-MONEY:0
+MONEY:0.00
+EQUIPNAME:Battle Dancer's Anklet|OUTPUTORDER:4|COST:13000|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Anklet of the Battle Dancer|DATA:KEY=Anklet of the Battle Dancer]
+EQUIPNAME:Cloak of Charisma +6|OUTPUTORDER:3|COST:36000|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Coin (Platinum)|OUTPUTORDER:5|COST:10|WT:0.02|QUANTITY:15.0|NOTE:
+EQUIPNAME:Gloves of Dexterity +6|OUTPUTORDER:2|COST:36000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Shellcraft Manakin|OUTPUTORDER:6|COST:250.0|WT:80.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shellcraft Manakin|DATA:EQMOD=WOOD]
+EQUIPNAME:Third Eye Freedon|OUTPUTORDER:1|COST:2600|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.01|VALUE:Cloak of Charisma +6|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.02|VALUE:Battle Dancer's Anklet|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Not Carried|ID:0.1.03|VALUE:Shellcraft Manakin|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Hands|ID:0.1.04|VALUE:Gloves of Dexterity +6|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Eyes|ID:0.1.05|VALUE:Third Eye Freedon|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.06|VALUE:Coin (Platinum)|QUANTITY:15.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
+TEMPBONUS:FEAT=Strongheart Vest ~1 Essentia Invested|TBTARGET:PC|TBBONUS:VAR&pipe;ESSENTIAAVAILABLE&pipe;-1|TBBONUS:VAR&pipe;ESSENTIAINVESTEDINSTRONGHEARTVEST&pipe;1
 
 # EquipSet Temp Bonuses
 
