@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Dragon Magazine 311|CAMPAIGN:Dragon Magazine 358|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Dragon Magazine 336|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Dragon Magazine 313|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
 VERSION:6.08.00 RC10
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
@@ -81,6 +81,7 @@ EXPERIENCETABLE:Default
 # Character Templates
 TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Humanoid]]
 TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Bard]
+TEMPLATESAPPLIED:[NAME:First Level ~ Bard|CHOSENTEMPLATE:[NAME:Funds - None]]
 TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
 TEMPLATESAPPLIED:[NAME:Language ~ Bonus (Kobold)]
 TEMPLATESAPPLIED:[NAME:Primordial giant]
@@ -88,13 +89,13 @@ TEMPLATESAPPLIED:[NAME:Magic Blooded (Spark)]
 TEMPLATESAPPLIED:[NAME:Unseelie Fey]
 TEMPLATESAPPLIED:[NAME:Dragonwrought]
 TEMPLATESAPPLIED:[NAME:Draconic Creature]
-TEMPLATESAPPLIED:[NAME:First Level ~ Bard|CHOSENTEMPLATE:[NAME:Funds - None]]
 TEMPLATESAPPLIED:[NAME:Funds - None]
 TEMPLATESAPPLIED:[NAME:Bardic Inspire Courage ~ Is the Bard]
 TEMPLATESAPPLIED:[NAME:Very Old]
 TEMPLATESAPPLIED:[NAME:Half-Ogre(Medium Or Smaller)]
 TEMPLATESAPPLIED:[NAME:RaceSubtype ~ Augmented Humanoid]
 TEMPLATESAPPLIED:[NAME:Assign Race Type ~ Dragon]
+TEMPLATESAPPLIED:[NAME:Kobold Bonus Languages]
 
 # Character Region
 REGION:None
@@ -104,7 +105,7 @@ SKILL:Appraise|OUTPUTORDER:1|
 SKILL:Balance|OUTPUTORDER:2|
 SKILL:Bluff|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]
 SKILL:Climb|OUTPUTORDER:4|
-SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Sublime Chord|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Sublime Chord|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]
 SKILL:Control Shape|OUTPUTORDER:6|
 SKILL:Craft (Untrained)|OUTPUTORDER:7|
 SKILL:Diplomacy|OUTPUTORDER:8|
@@ -119,31 +120,31 @@ SKILL:Hide (Forested Areas)|OUTPUTORDER:16|
 SKILL:Intimidate|OUTPUTORDER:17|
 SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:18|
 SKILL:Jump|OUTPUTORDER:19|
-SKILL:Knowledge (Arcana)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Sublime Chord|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Arcana)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Sublime Chord|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:21|
-SKILL:Listen|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Sublime Chord|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Listen|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Sublime Chord|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]
 SKILL:Literacy|OUTPUTORDER:23|
 SKILL:Move Silently|OUTPUTORDER:24|
 SKILL:Move Silently (Forested Areas)|OUTPUTORDER:25|
-SKILL:Perform (Dance)|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Sublime Chord|RANKS:5.0|COST:1|CLASSSKILL:Y]
-SKILL:Perform (Sing)|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Sublime Chord|RANKS:5.0|COST:1|CLASSSKILL:Y]
-SKILL:Perform (String Instruments)|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Sublime Chord|RANKS:5.0|COST:1|CLASSSKILL:Y]
-SKILL:Profession (Astrologer)|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Sublime Chord|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Dance)|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Sublime Chord|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Sing)|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Sublime Chord|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (String Instruments)|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Sublime Chord|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Astrologer)|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Sublime Chord|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]
 SKILL:Ride|OUTPUTORDER:30|
 SKILL:Search|OUTPUTORDER:31|
 SKILL:Sense Motive|OUTPUTORDER:32|
-SKILL:Skill Trick|CLASSBOUGHT:[CLASS:Sublime Chord|RANKS:6.0|COST:1|CLASSSKILL:Y]
-SKILL:Sleight of Hand|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]
-SKILL:Spellcraft|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Sublime Chord|RANKS:5.0|COST:1|CLASSSKILL:Y]
-SKILL:Spot|OUTPUTORDER:35|
-SKILL:Survival|OUTPUTORDER:36|
-SKILL:Swim|OUTPUTORDER:37|
-SKILL:Tumble|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Sublime Chord|RANKS:5.0|COST:2|CLASSSKILL:N]
-SKILL:Use Magic Device|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Sublime Chord|RANKS:2.0|COST:2|CLASSSKILL:N]
-SKILL:Use Rope|OUTPUTORDER:40|
+SKILL:Skill Trick|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Sublime Chord|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Sleight of Hand|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Sublime Chord|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:36|
+SKILL:Survival|OUTPUTORDER:37|
+SKILL:Swim|OUTPUTORDER:38|
+SKILL:Tumble|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Sublime Chord|RANKS:5.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Magic Device|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Sublime Chord|RANKS:2.0|COST:2|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Bard|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Rope|OUTPUTORDER:41|
 
 # Character Languages
-LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Undercommon
+LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Undercommon|LANGUAGE:Yip-yak
 
 # Character Feats
 FEATPOOL:0.0
@@ -197,9 +198,10 @@ USERPOOL:Unseelie Fey Wings|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
 WEAPONPROF:[WEAPON:Aspergillum (Heavy)|WEAPON:Battle Gauntlet|WEAPON:Bite|WEAPON:Blowgun|WEAPON:Boulder|WEAPON:Claw|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger]
-WEAPONPROF:[WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Darts (Barbed)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Halfspear|WEAPON:Javelin|WEAPON:Longspear|WEAPON:Longsword]
-WEAPONPROF:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Rapier|WEAPON:Sap|WEAPON:Shortbow]
-WEAPONPROF:[WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Strike (Unarmed)|WEAPON:Sword (Short)|WEAPON:Unarmed Strike|WEAPON:Whip]
+WEAPONPROF:[WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Darts (Barbed)|WEAPON:Eldritch Blast|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Halfspear|WEAPON:Javelin|WEAPON:Longspear]
+WEAPONPROF:[WEAPON:Longsword|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranged Spell|WEAPON:Rapier|WEAPON:Sap]
+WEAPONPROF:[WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Strike (Unarmed)|WEAPON:Sword (Short)|WEAPON:Unarmed Strike]
+WEAPONPROF:[WEAPON:Whip]
 
 # Character Equipment
 MONEY:39000.00
@@ -248,7 +250,7 @@ SPELLNAME:Teleport (Greater)|TIMES:1|CLASS:Sublime Chord|BOOK:Known Spells|SPELL
 SPELLNAME:True Seeing|TIMES:1|CLASS:Sublime Chord|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Sublime Chord]
 SPELLNAME:Wall of Force|TIMES:1|CLASS:Sublime Chord|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Sublime Chord]
 SPELLLIST:Bard|CLASS.Bard
-SPELLLIST:Sublime Chord|CLASS.Sorcerer|CLASS.Bard|CLASS.Wizard|CLASS.Sublime Chord
+SPELLLIST:Sublime Chord|CLASS.Wizard|CLASS.Sorcerer|CLASS.Bard|CLASS.Sublime Chord
 
 # Character Description/Bio/History
 CHARACTERBIO:

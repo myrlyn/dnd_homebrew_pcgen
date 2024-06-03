@@ -4167,7 +4167,7 @@ Song of Nightmare		KEY:Siren ~ Song of Nightmare					CATEGORY:Special Ability			
 
 Song of Idiocy			KEY:Siren ~ Song of Idiocy				CATEGORY:Special Ability			TYPE:SirenClassFeature.SpecialAttack.Supernatural		DESC:At 5th level, a siren gains a new sonic ability. Once per day per level in this prestige class(%1), she can overlay an Intelligence-damaging effect on her sonic attack. This is identical to the effect of a feeblemind spell, affects all creatures within range of the siren's sonic attack, and has instantaneous duration. The Will save to resist this effect has a DC of 12 + the siren's level + the siren's Cha modifier(%2), and arcane spellcasters and creatures that use arcane spell-like abilities take a -4 penalty on their saves.|SirenLVL|12+SirenLVL+CHA		SPELLS:Siren Supernatural Abilities|TIMES=SirenLVL|Feeblemind,12+SirenLVL+CHA
 
-Song of Weakness			KEY:Siren ~ Song of Weakness				CATEGORY:Special Ability			TYPE:SirenClassFeature.SpecialAttack.Supernatural		DESC: At 7th level, a siren gains a new sonic ability. Once per day per level in this prestige class(%1), she can overlay a level-draining effect on her sonic attack. This is identical to the effect of an enervation spell, except that all creatures within range of the siren's sonic attack are entitled to a Fortitude save to resist the effect, and it has instantaneous duration. The Fortitude save to resist this effect, and to remove the negative levels, has a DC of 12 + the siren's level + the siren's Cha modifier(%2).|SirenLVL|12+SirenLVL+CHA		SPELLS:Siren Supernatural Abilities}TIMES=SirenLVL|Enervation,12+SirenLVL+CHA
+Song of Weakness			KEY:Siren ~ Song of Weakness				CATEGORY:Special Ability			TYPE:SirenClassFeature.SpecialAttack.Supernatural		DESC: At 7th level, a siren gains a new sonic ability. Once per day per level in this prestige class(%1), she can overlay a level-draining effect on her sonic attack. This is identical to the effect of an enervation spell, except that all creatures within range of the siren's sonic attack are entitled to a Fortitude save to resist the effect, and it has instantaneous duration. The Fortitude save to resist this effect, and to remove the negative levels, has a DC of 12 + the siren's level + the siren's Cha modifier(%2).|SirenLVL|12+SirenLVL+CHA		SPELLS:Siren Supernatural Abilities|TIMES=SirenLVL|Enervation,12+SirenLVL+CHA
 
 Song of Stone			KEY:Siren ~ Song of Stone				CATEGORY:Special Ability			TYPE:SirenClassFeature.SpecialAttack.Supernatural		DESC:At 9th level, a siren gains a new sonic ability. Once per day per level in this prestige class(%1), she can overlay a flesh to stone effect on her sonic attack. This is identical to the spell, affects all creatures within range of the siren's sonic attack, and has instantaneous duration. The Fortitude save to resist this effect has a DC of 12 + the siren's level + the siren's Cha modifier.(%2)|SirenLVL|12+SirenLVL+CHA		SPELLS:Siren Supernatural Abilities|TIMES=SirenLVL|Flesh to Stone,12+SirenLVL+CHA	
 
@@ -4214,3 +4214,34 @@ Ghost Feats Pool				CATEGORY:Special Ability			TYPE:Hidden			DEFINE:POOL_Ghost_F
 CATEGORY=Special Ability|Eidolon ~ Ghost Feats.MOD			ABILITY:Special Ability|AUTOMATIC|Ghost Feats Pool
 CATEGORY=Special Ability|Eidolancer ~ Ghost Feats.MOD			ABILITY:Special Ability|AUTOMATIC|Ghost Feats Pool
 CATEGORY=FEAT|Touch Attach Specialization.MOD			MULT:YES		STACK:NO		CHOOSE:USERINPUT		OUTPUTNAME:Touch Attack Specialization
+
+
+CATEGORY=FEAT|Extra Music.MOD			MULT:YES	STACK:YES			CHOOSE:NOCHOICE
+
+
+
+
+
+
+#supplement/races_of_the_dragon/rdr_abilities.lst:Hypnotism                                      KEY:Kobold SLA ~ Hypnotism                              SORTKEY:Kobold_SLA_2    CATEGORY:Special Ability        TYPE:ClassAbility.SpellLike.SpecialQuality.FirstLevelSorcererSLA  VISIBLE:YES                                                                                                                                      ABILITY:Spell-Like Ability|AUTOMATIC|Hypnotism                                                                                                                                           BONUS:VAR|HypnotismTimes|KoboldDraconicRiteTimes  BONUS:VAR|HypnotismLVL|TL
+
+
+
+Power Word Pain			KEY:Kobold SLA ~ Hypnotism				SORTKEY:Kobold_SLA_PWP				CATEGORY:Special Ability				TYPE:ClassAbility.SpellLike.SpecialQuality.FirstLevelSorcererSLA			VISIBLE:YES					ABILITY:Spell-Like Ability|AUTOMATIC|Power Word Pain				BONUS:VAR|PowerWordPainTimes|KoboldDraconicRiteTimes			BONUS:VAR|PowerWordPainLVL|TL
+
+Power Word Pain			CATEGORY:Spell-Like Ability			TYPE:ClassAbility.SpellLike.SpecialQuality.FirstLevelSLA			VISIBLE:YES				DEFINE:PowerWordPainTimes|0			DEFINE:PowerWordPainLVL|0				SPELLS:Innate|TIMES=PowerWordPainTimes|TIMEUNIT=Day|CASTERLEVEL=PowerWordPainLVL|Hypnotism|PREVAREQ:DisableSpellPowerWordPain,0|PREVARGTEQ:PowerWordPainTimes,1				SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=PowerWordPainLVL|Power Word Pain|PREVAREQ:DisableSpellPowerrWordPain,0|PREVARLTEQ:powerWordPainTimes,0                               DESC:Fascinates 2d4 HD of creatures.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
