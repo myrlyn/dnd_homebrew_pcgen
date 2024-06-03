@@ -529,4 +529,4 @@ Feral Creature.MOD				ABILITY:Special Ability|AUTOMATIC|.CLEAR.Feral Creature ~ 
 Assign Subtype ~ Incorporeal.MOD			TEMPLATE:Incorporeal
 
 
-Ghostwalk Campaign ~ Ghost.MOD			TYPE:LA0Playable			
+Ghostwalk Campaign ~ Ghost.MOD			TYPE:LA0Playable			OUTPUTNAME:Ghost*		PRERACE:1,Human,RACETYPE=Humanoid		!PRERACE:1,Elf

@@ -1,0 +1,220 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Faiths and Pantheons|CAMPAIGN:MyCampaign|CAMPAIGN:Dragon Magazine 311|CAMPAIGN:Dragon Magazine 358|CAMPAIGN:Drow of the Underdark|CAMPAIGN:Magic Item Compendium|CAMPAIGN:Secrets of Sarlona|CAMPAIGN:Complete Scoundrel|CAMPAIGN:Fiendish Codex II|CAMPAIGN:Cityscape (WotC)|CAMPAIGN:Complete Champion|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Psionic|CAMPAIGN:Stormwrack|CAMPAIGN:Dragon Magic|CAMPAIGN:Tome of Battle: The Book of Nine Swords|CAMPAIGN:Player's Handbook II|CAMPAIGN:Tome of Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Spell Compendium|CAMPAIGN:Champions of Valor|CAMPAIGN:Dragon Compendium|CAMPAIGN:Dragon Magazine 336|CAMPAIGN:Lords of Madness|CAMPAIGN:Magic of Eberron|CAMPAIGN:Magic of Incarnum|CAMPAIGN:Weapons of Legacy|CAMPAIGN:City of Splendors: Waterdeep|CAMPAIGN:Champions of Ruin|CAMPAIGN:3.5e ~ Heroes of Battle|CAMPAIGN:Races of Eberron|CAMPAIGN:Sandstorm|CAMPAIGN:Lost Empires of Faerun|CAMPAIGN:Complete Adventurer|CAMPAIGN:Races of Destiny|CAMPAIGN:Complete Arcane|CAMPAIGN:Draconomicon|CAMPAIGN:Libris Mortis|CAMPAIGN:Shining South|CAMPAIGN:Frostburn|CAMPAIGN:Races of Stone|CAMPAIGN:Races of the Wild|CAMPAIGN:Eberron Campaign Setting|CAMPAIGN:Complete Divine|CAMPAIGN:Expanded Psionics Handbook|CAMPAIGN:Into the Dragon's Lair (35e)|CAMPAIGN:Player's Guide to Faerun|CAMPAIGN:Pool of Radiance - Attack on Myth Drannor (35e)|CAMPAIGN:Races of Faerun (35e)|CAMPAIGN:Unearthed Arcana (Complete)|CAMPAIGN:Complete Warrior|CAMPAIGN:Dungeon Master's Guide II|CAMPAIGN:Fiend Folio|CAMPAIGN:3.5e ~ Heroes of Horror|CAMPAIGN:Dragon Magazine 313|CAMPAIGN:Book of Exalted Deeds|CAMPAIGN:Miniatures Handbook|CAMPAIGN:Underdark|CAMPAIGN:Dragonlance Campaign Setting|CAMPAIGN:Unapproachable East|CAMPAIGN:Arms and Equipment Guide|CAMPAIGN:Savage Species|CAMPAIGN:3.5e ~ Book of Vile Darkness|CAMPAIGN:Monster Manual II|CAMPAIGN:Epic Level Handbook|CAMPAIGN:Deities and Demigods (35e)|CAMPAIGN:Magic of Faerun|CAMPAIGN:Monster Compendium - Monsters of Faerun|CAMPAIGN:Fey Feature|CAMPAIGN:Spellbook Archive|CAMPAIGN:The Mind's Eye|CAMPAIGN:Dragons of Faerun - Web Enhancement - City of Wyrmshadows|CAMPAIGN:Dungeonscape|CAMPAIGN:35e ~ Ghostwalk|CAMPAIGN:Swiftblade|CAMPAIGN:Dungeons & Dragons - Core Books
+VERSION:6.08.00 RC10
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Bahamut35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Betelgeuse
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:16
+STAT:DEX|SCORE:18
+STAT:CON|SCORE:18
+STAT:INT|SCORE:16
+STAT:WIS|SCORE:16
+STAT:CHA|SCORE:21
+ALIGN:NONE
+RACE:Azurin
+
+# Character Class(es)
+CLASS:Eidolon|LEVEL:7|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Master of the Unseen Hand|LEVEL:5|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Eidolon=1|HITPOINTS:6|SKILLSGAINED:20|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Eidolon=2|HITPOINTS:6|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Eidolon=3|HITPOINTS:6|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Eidolon=4|HITPOINTS:6|PRESTAT:CHA=1|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Eidolon=5|HITPOINTS:6|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Eidolon=6|HITPOINTS:6|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Eidolon=7|HITPOINTS:6|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Master of the Unseen Hand=1|HITPOINTS:6|PRESTAT:CHA=1|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Master of the Unseen Hand=2|HITPOINTS:6|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Master of the Unseen Hand=3|HITPOINTS:6|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Master of the Unseen Hand=4|HITPOINTS:6|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Master of the Unseen Hand=5|HITPOINTS:6|PRESTAT:CHA=1|SKILLSGAINED:5|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:91000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Humanoid]]
+TEMPLATESAPPLIED:[NAME:First Level|APPLIEDTO:First Level ~ Not Listed]
+TEMPLATESAPPLIED:[NAME:First Level ~ Not Listed|CHOSENTEMPLATE:[NAME:Funds - None]]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Humanoid]
+TEMPLATESAPPLIED:[NAME:Human Region ~ Custom Campaign]
+TEMPLATESAPPLIED:[NAME:Ghostwalk Campaign ~ Ghost]
+TEMPLATESAPPLIED:[NAME:Magic Blooded (Spark)]
+TEMPLATESAPPLIED:[NAME:Unseelie Fey]
+TEMPLATESAPPLIED:[NAME:Half-Fey]
+TEMPLATESAPPLIED:[NAME:Funds - None]
+
+# Character Region
+REGION:Custom Campaign
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Eidolon|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Eidolon|RANKS:10.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Master of the Unseen Hand|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Control Shape|OUTPUTORDER:6|
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|
+SKILL:Diplomacy (Red Dragons)|OUTPUTORDER:9|
+SKILL:Disguise|OUTPUTORDER:10|
+SKILL:Escape Artist|OUTPUTORDER:11|
+SKILL:Forgery|OUTPUTORDER:12|
+SKILL:Gather Information|OUTPUTORDER:13|
+SKILL:Heal|OUTPUTORDER:14|
+SKILL:Hide|OUTPUTORDER:15|
+SKILL:Hide (Forested Areas)|OUTPUTORDER:16|
+SKILL:Intimidate|OUTPUTORDER:17|CLASSBOUGHT:[CLASS:Eidolon|RANKS:10.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Master of the Unseen Hand|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate (Demoralize opponent)|OUTPUTORDER:18|
+SKILL:Jump|OUTPUTORDER:19|
+SKILL:Knowledge (Arcana)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Master of the Unseen Hand|RANKS:13.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:21|
+SKILL:Listen|OUTPUTORDER:22|
+SKILL:Literacy|OUTPUTORDER:23|
+SKILL:Move Silently|OUTPUTORDER:24|
+SKILL:Move Silently (Forested Areas)|OUTPUTORDER:25|
+SKILL:Ride|OUTPUTORDER:26|
+SKILL:Search|OUTPUTORDER:27|
+SKILL:Sense Motive|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Eidolon|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Skill Trick|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Eidolon|RANKS:8.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Master of the Unseen Hand|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Spot|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Eidolon|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:31|
+SKILL:Swim|OUTPUTORDER:32|
+SKILL:Use Rope|OUTPUTORDER:33|
+
+# Character Languages
+LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Undercommon|LANGUAGE:Yip-yak
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Undercommon,Celestial,Yip-yak|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Undercommon,Celestial,Yip-yak|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Undercommon,Celestial,Yip-yak|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Agony Touch|APPLIEDTO:CON|TYPE:Ghost.Corrupter|DESC:Choose one physical ability score (Strength, Dexterity, or Constitution). When you touch a creature, you can deal damage to this ability score.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Enervating Touch|TYPE:Ghost.Corrupter|DESC:Your touch can bestow negative levels upon creatures
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Ghost Ride|TYPE:Ghost.Dominator|DESC:You can ride within the physical body of a living creature, perceiving the world through its senses, but without the ability to control the host
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Ghostly Grasp|TYPE:Monstrous|DESC:You can handle corporeal objects even while incorporeal.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Iron Will|TYPE:General|DESC:You have a stronger will than normal.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Minor Malevolence|TYPE:Ghost.Dominator|DESC:You can possess a creature for a short while and control its actions
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Shape Soulmeld|TYPE:General|DESC:You gain the ability to shape a single soulmeld.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Shriveling Touch|APPLIEDTO:CATEGORY=FEAT&pipe;Agony Touch&pipe;CON|TYPE:Ghost.Corrupter|DESC:Choose one physical ability score (Strength, Dexterity or Constitution). When you touh a living creature or a ghost, you can cause permanent drain to that score
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:First Level Feat|TYPE:NORMAL|CATEGORY:Internal|KEY:+1 Feat to feat pool|APPLIEDTO:,|TYPE:FirstLevelFeatOnly|DESC:Use this to bypass a First Level Only Feat, and pick any non-First Level only feats from the regular pool instead.
+USERPOOL:First Level Feat|POOLPOINTS:0.0
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Inattentive|TYPE:Flaws.SpecialQuality|DESC:You are particularly unaware of your surroundings.
+ABILITY:Flaws|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Flaw ~ Unreactive|TYPE:Flaws.SpecialQuality|DESC:You are slow to react to danger.
+USERPOOL:Flaws|POOLPOINTS:0.0
+ABILITY:Ghost Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Corrupting Touch|TYPE:Ghost.Corrupter|DESC:Your touch can damage creatures.
+ABILITY:Ghost Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Ghost Hand|TYPE:Ghost.Poltergeist|DESC:You can move small objects in a limited manner when you are a ghost
+ABILITY:Ghost Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Poltergesit Hand|TYPE:Ghost.Poltergeist|DESC:You can move large objects at a distance when youare a ghost
+ABILITY:Ghost Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Poltergeist Hand|TYPE:Ghost.Poltergeist|DESC:You can move small objects in a limited manner at a distance when you are a ghost
+USERPOOL:Ghost Feat|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Internal|KEY:Human Ethnicity ~ None|TYPE:Human Ethnicity.Faerun Ethnicity|DESC:You have no Ethnicity.
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Human Region ~ Custom Campaign|TYPE:Region.FaerunRegion|DESC:Use for default racial features when loading sources that use Regions
+USERPOOL:Region|POOLPOINTS:0.0
+ABILITY:Shape Soulmeld|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Shape Soulmeld ~ Strongheart Vest Unbound|TYPE:ShapeSoulMeldApplied.SpecialQuality|DESC:Your Strongheart Vest reduces all ability damage to you by 1, +1 for every point of Essentia invested in this Soulmeld(%1).&pipe;StrongHeartVestDR
+USERPOOL:Shape Soulmeld|POOLPOINTS:0.0
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Collector of Stories|TYPE:ST.SpecialQuality.SkillTrick.Mental|DESC:When you attempt a trained Knowledge check to identify a creature to learn its special powers or vulnerabilities, you gain a +5 competence bonus on the check.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Group Fake Out|TYPE:ST.SpecialQuality.SkillTrick.Interaction|DESC:You can use Bluff to feint in combat (PH 68) against more than one opponent. Make on Bluff check opposed by separate Sense Motive checks for each opponent. For each opponent after the first that you wish to affect, you take a cumulative -2 penalty on your Bluff check.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Never Outnumbered|TYPE:ST.SpecialQuality.SkillTrick.Interaction|DESC:When you use Intimidate to demoralize an opponent (PH 76), you can affect all enemies within 10 feet that can see you, rather than only a single enemy you threaten. Each enemy rolls a separate modified level check to oppose your Intimidate check, but the skill checkotherwise works as normal.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Swift Concentration|TYPE:ST.SpecialQuality.SkillTrick.Mental|DESC:You can maintain concentration on a spell or similar effect as a swift action.
+ABILITY:Skill Tricks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill Trick ~ Timely Misdirection|TYPE:ST.SpecialQuality.SkillTrick.Interaction|DESC:If you succeed on a Bluff check to feint in combat (PH 68), your opponent can't make any attacks of opportunity against you until the start of its next turn. This effect is in addition to the normal benefits of a successful feint.
+USERPOOL:Skill Tricks|POOLPOINTS:0.0
+ABILITY:Unseelie Fey Seasonal Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Autumn Harvest|TYPE:Supernatural.Unseelie Fey Seasonal Power.SpecialQuality|DESC: A number of times a day equal to your Charisma bonus (minimum 1) you can touch a creature with a special dispelling touch, which functions as a targeted Dispel Magic with caster level equal to your total HD.
+USERPOOL:Unseelie Fey Seasonal Power|POOLPOINTS:0.0
+ABILITY:Unseelie Fey Vision|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Standard Vision|TYPE:Unseelie Fey Vision|DESC:Your vision is unchanged
+USERPOOL:Unseelie Fey Vision|POOLPOINTS:0.0
+ABILITY:Unseelie Fey Wings|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unseelie Fae ~ Dragonlike|TYPE:Unseelie Fey Wings.Extraordinary.SpecialQuality|DESC:Your wings resemble dragon wings
+USERPOOL:Unseelie Fey Wings|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+
+# Character Equipment
+MONEY:39000.00
+EQUIPNAME:Battle Dancer's Anklet|OUTPUTORDER:2|COST:13000|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Anklet of the Battle Dancer|DATA:KEY=Anklet of the Battle Dancer]
+EQUIPNAME:Cloak of Charisma +6|OUTPUTORDER:1|COST:36000|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.01|VALUE:Cloak of Charisma +6|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.02|VALUE:Battle Dancer's Anklet|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+
